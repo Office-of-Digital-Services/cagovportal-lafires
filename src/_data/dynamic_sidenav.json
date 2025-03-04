@@ -1,0 +1,79 @@
+{
+  "service": [
+    {
+      "href": "/services/",
+      "text": "Services <span class=\"sr-only\">landing page</span>"
+    },
+    {
+      "href": "/services/all/",
+      "text": "All services"
+    },
+    { "href": "/services/list/", "text": "Services list" },
+    { "href": "/topics/", "text": "Topics" }
+  ],
+  "department": [
+    {
+      "href": "/departments/",
+      "text": "Departments <span class=\"sr-only\">landing page</span>"
+    },
+    {
+      "href": "/departments/all/",
+      "text": "All departments"
+    },
+    { "href": "/departments/list/", "text": "Departments list" }
+  ],
+  "lafires": [
+    {
+      "href": "/",
+      "text": "2025 Los Angeles fires"
+    },
+    {
+      "href": "/get-help-online/",
+      "text": "Get help online"
+    },
+    {
+      "href": "/recovery-services-finder/",
+      "text": "Recovery services finder",
+      "indent": true
+    },
+    {
+      "href": "/get-help-in-person/",
+      "text": "Get help in person"
+    },
+    {
+      "href": "/plan-your-in-person-visit/",
+      "text": "Plan your in-person visit",
+      "indent": true
+    },
+    {
+      "href": "/see-real-time-info/",
+      "text": "See real-time info"
+    },
+    {
+      "href": "/start-your-recovery/",
+      "text": "Start your recovery"
+    },
+    {
+      "href": "/return-to-your-home-safely/",
+      "text": "Return to your home safely",
+      "indent": true
+    },
+    {
+      "href": "/cleanup-and-debris-removal/",
+      "text": "Cleanup and debris removal",
+      "indent": true
+    },
+    {
+      "href": "/help-your-business/",
+      "text": "Help your business"
+    },
+    {
+      "href": "/volunteer/",
+      "text": "Volunteer"
+    },
+    {
+      "href": "/track-progress/",
+      "text": "Track LA's progress"
+    }
+  ]
+}

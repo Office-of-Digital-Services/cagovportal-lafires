@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "arrowParens": "avoid",
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "bracketSameLine": true,
+  "singleAttributePerLine": false,
+  "embeddedLanguageFormatting": "off",
+  "overrides": [
+    {
+      "files": "web.config",
+      "options": {
+        "parser": "html",
+        "printWidth": 120
+      }
+    },
+    {
+      "files": ["*.svg", "*.xml"],
+      "options": {
+        "parser": "html",
+        "printWidth": 9999
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<!-- Global Footer structural component -->
+<footer id="footer" class="global-footer">
+  <div class="container">
+    <div class="d-flex">
+      <a href="https://www.ca.gov" class="cagov-logo d-print-none">
+        <img
+          src="/images/cagov-logo-flag-gradient.svg?v7F3A"
+          alt="CA.gov icon"
+          style="aspect-ratio: 43/27"
+          loading="lazy"
+        />
+      </a>
+      <ul class="footer-links d-print-none">
+        <li>
+          <a href="https://www.ca.gov/legal/conditions-of-use/"
+            >Conditions of use</a
+          >
+        </li>
+        <li>
+          <a href="https://www.ca.gov/legal/privacy-policy/">Privacy policy</a>
+        </li>
+        <li>
+          <a href="https://www.ca.gov/legal/accessibility/"> Accessibility</a>
+        </li>
+        <li>
+          <a href="https://www.ca.gov/about/sitemap/">Sitemap</a>
+        </li>
+      </ul>
+
+      <p class="text-right copyright">
+        &copy;
+        <span id="thisyear">
+          <script>
+            document
+              .getElementById("thisyear")
+              .appendChild(document.createTextNode(new Date().getFullYear()));
+          </script>
+        </span>
+        State of California
+      </p>
+    </div>
+  </div>
+  <button class="return-top">
+    <span class="sr-only">Back to top</span>
+  </button>
+</footer>
