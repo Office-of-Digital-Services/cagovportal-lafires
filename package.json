@@ -1,14 +1,14 @@
 {
-  "name": "www.ca.gov",
+  "name": "www.lafires.ca.gov",
   "version": "6.4.2",
-  "description": "www.ca.gov",
+  "description": "www.ca.gov/lafires",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Office-of-Digital-Services/cagovportal.git"
+    "url": "https://github.com/Office-of-Digital-Services/cagovportal-lafires.git"
   },
   "keywords": [],
   "author": "",
