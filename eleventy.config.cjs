@@ -20,9 +20,9 @@ module.exports = function (
   // Copy all static files that should appear in the website root
   // Copy state tempate code files from NPM
   eleventyConfig.addPassthroughCopy({
-    "src/images": "images",
-    "src/docs": "docs",
-    "src/root": "/",
+    "src/images/lafires": "lafires/images",
+    "src/docs": "lafires/docs",
+    "src/root": "/"
   });
 
   eleventyConfig.addWatchTarget("./src/js/");
@@ -58,7 +58,7 @@ module.exports = function (
      * {% set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
      */
     (arr, attr, value, operator) =>
-      arr.filter((item) => {
+      arr.filter(item => {
         /** @type {string} */
         let itemval = item[attr];
 
@@ -72,7 +72,7 @@ module.exports = function (
             // Expects value to be an array
             // set topicsToDisplay = topics | pluck("name",item.AgencyTags.split("|"),"match")
             return /** @type {string[]} */ (value)
-              .map((x) => x.toLowerCase())
+              .map(x => x.toLowerCase())
               .includes(itemval.toLowerCase());
           case "not":
             return itemval !== value;
@@ -112,7 +112,7 @@ module.exports = function (
   /**
    * @param {string} content
    */
-  const minifyCSS = (content) =>
+  const minifyCSS = content =>
     content
       .replace(/\/\*(?:(?!\*\/)[\s\S])*\*\/|[\r\n\t]+/g, "")
       .replace(/ {2,}/g, " ")
@@ -135,15 +135,15 @@ module.exports = function (
   );
 
   // For making a non-nested fallback
-  eleventyConfig.addFilter("flattenCSS", async (code) => {
+  eleventyConfig.addFilter("flattenCSS", async code => {
     const result = await postcss([postcssNested]).process(code, {
-      from: undefined,
+      from: undefined
     });
     return result.css;
   });
 
   // Custom filter to format date as MM/DD/YYYY
-  eleventyConfig.addFilter("formatDate", (dateString) => {
+  eleventyConfig.addFilter("formatDate", dateString => {
     return DateTime.fromISO(dateString).toFormat("MM/dd/yyyy");
   });
 
@@ -153,7 +153,7 @@ module.exports = function (
       html: false,
       linkify: true,
       typographer: true,
-      breaks: true,
+      breaks: true
     });
 
     return md.render(contents);
@@ -165,11 +165,11 @@ module.exports = function (
     /**
      * @param {string | number | Date} dateString
      */
-    (dateString) =>
+    dateString =>
       new Date(dateString).toLocaleDateString(undefined, {
         year: "numeric",
         month: "long",
-        day: "numeric",
+        day: "numeric"
       })
   );
 
@@ -204,19 +204,19 @@ module.exports = function (
   eleventyConfig.on("afterBuild", () => {
     const pdfDirs = [
       path.join(__dirname, "_site", "images"),
-      path.join(__dirname, "_site", "docs"),
+      path.join(__dirname, "_site", "docs")
     ];
     const outputFilePath = path.join(__dirname, "_site", "sitemaps/pdf.xml");
 
     let sitemapContent = '<?xml version="1.0" encoding="UTF-8"?>\n';
     sitemapContent +=
       '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
-    pdfDirs.forEach((dir) => {
+    pdfDirs.forEach(dir => {
       fs.readdir(dir, (err, files) => {
         if (err) throw err;
 
-        const pdfFiles = files.filter((file) => path.extname(file) === ".pdf");
-        pdfFiles.forEach((file) => {
+        const pdfFiles = files.filter(file => path.extname(file) === ".pdf");
+        pdfFiles.forEach(file => {
           const urlPath = path.join(
             dir.replace(path.join(__dirname, "_site"), ""),
             file
@@ -232,10 +232,10 @@ module.exports = function (
 
   eleventyConfig.addDataExtension("csv", (/** @type {string} */ contents) =>
     parse(contents, {
-      columns: (header) => header.map((col) => col.replace(/\W+/g, "_")),
+      columns: header => header.map(col => col.replace(/\W+/g, "_")),
       skip_empty_lines: true,
-      cast: (value) =>
-        ["true", "false"].includes(value) ? value === "true" : value, //Boolean value parsing
+      cast: value =>
+        ["true", "false"].includes(value) ? value === "true" : value //Boolean value parsing
     })
   );
 
@@ -255,7 +255,7 @@ module.exports = function (
     includes: "../src/_includes",
     layouts: "../src/_includes/layouts",
     // site final outpuut directory
-    output: "_site",
+    output: "_site"
   };
 
   return config;
