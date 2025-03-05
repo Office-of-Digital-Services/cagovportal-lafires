@@ -4,7 +4,7 @@
 const data = [
   {
     key: "Home",
-    href: "https://www.ca.gov",
+    href: "https://www.ca.gov/",
     children: [
       {
         key: "Services",
@@ -12,26 +12,26 @@ const data = [
         children: [
           {
             key: "Topics",
-            href: "https://www.ca.gov/topics/",
-          },
-        ],
+            href: "https://www.ca.gov/topics/"
+          }
+        ]
       },
       {
         key: "Departments",
-        href: "https://www.ca.gov/departments/",
+        href: "https://www.ca.gov/departments/"
       },
       {
         key: "2025 Los Angeles Fires",
-        href: "/",
+        href: "/lafires/",
         children: [
           {
             key: "Get help in person",
-            href: "/get-help-in-person/",
-          },
-        ],
-      },
-    ],
-  },
+            href: "/lafires/get-help-in-person/"
+          }
+        ]
+      }
+    ]
+  }
 ];
 
 /**
@@ -65,17 +65,17 @@ function flattenData() {
     /** @type {flatbreadcrumb} */
     const flatbreadcrumb = {
       key: node.key,
-      links: [...links, { title: node.key, href: node.href }],
+      links: [...links, { title: node.key, href: node.href }]
     };
 
     result.push(flatbreadcrumb);
 
-    node.children?.forEach((child) =>
+    node.children?.forEach(child =>
       flattenRecursive(child, flatbreadcrumb.links)
     );
   }
 
-  data.forEach((x) => flattenRecursive(x));
+  data.forEach(x => flattenRecursive(x));
 
   return result;
 }
