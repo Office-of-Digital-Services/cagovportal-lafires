@@ -1,10 +1,10 @@
 ---
 layout: null
-permalink: "lafires/css/custom.css"
+permalink: "lafires/css/lafires.min.css"
 eleventyExcludeFromCollections: true
 ---
 
 {%- set css -%}
 {%- include "../../src/css/custom.css" -%}
 {%- endset -%}
-{{- css | safe -}}
+{{- css | cssmin | safe -}}
