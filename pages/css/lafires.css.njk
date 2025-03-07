@@ -5,6 +5,8 @@ eleventyExcludeFromCollections: true
 ---
 
 {%- set css -%}
+{%- include "../../src/css/ca.gov.fonts.css" -%}
+{%- include "../../src/css/ca.gov.css" -%}
 {%- include "../../src/css/custom.css" -%}
 {%- endset -%}
 {{- css | safe -}}
