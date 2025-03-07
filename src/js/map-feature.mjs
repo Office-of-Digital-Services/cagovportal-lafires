@@ -181,7 +181,7 @@ export class CaGovLAFiresMap extends window.HTMLElement {
           <div class="provider-info">
             <div class="provider-address">
               <span class="provider-icon">
-                <img src="https://www.ca.gov/images/location_v2.svg" width="28px" alt="Address">
+                <img src="/lafires/images/location_v2.svg" width="28px" alt="Address">
               </span>
               <span class="provider-address-line"><a target="_blank" href="https://maps.google.com/?q=540 W. Woodbury Rd., Altadena, CA 91001">540 W. Woodbury Rd., Altadena, CA 91001</a></span>
             </div>
@@ -313,7 +313,7 @@ export class CaGovLAFiresMap extends window.HTMLElement {
           <div class="provider-info">
             <div class="provider-address" id="provider-address-div">
               <span class="provider-icon">
-                <img src="https://www.ca.gov/images/location_v2.svg" width="28px" alt="Address">
+                <img src="/lafires/images/location_v2.svg" width="28px" alt="Address">
               </span>
               <span class="provider-address-line"><a target="_blank" href="https://maps.google.com/?q=${item.loc_address}">${item.loc_address}</a></span>
             </div>
