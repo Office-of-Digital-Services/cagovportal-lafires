@@ -1,11 +1,7 @@
 ---
 layout: null
-permalink: "lafires/js/custom.min.js"
+permalink: "lafires/js/lafires.js"
 eleventyExcludeFromCollections: true
 ---
-
-{%- set js -%}
 {%- include "../../src/js/ca.gov.custom.js" -%}
 {%- include "../../src/js/index.mjs" -%}
-{%- endset -%}
-{{- js | jsmin | safe -}}
