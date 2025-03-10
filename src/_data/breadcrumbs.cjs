@@ -4,7 +4,7 @@
 const data = [
   {
     key: "Home",
-    href: "https://www.ca.gov/",
+    href: "/",
     children: [
       {
         key: "2025 Los Angeles Fires",
