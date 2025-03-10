@@ -6,7 +6,7 @@ dynamic_sidenavid: lafires
 hidestatewidealert: true
 permalink: lafires/help-your-business/
 breadcrumbparent: 2025 Los Angeles Fires
-socialimage: https://www.ca.gov/lafires/images/la-fires-help.png
+socialimage: https://www.ca.gov/images/lafires/la-fires-help.png
 socialimagealt: Five hands converging in the center of the image
 description: Find support and assistance for local business recovery.
 keywords: LA, Los Angeles, fires, wildfires
@@ -15,7 +15,7 @@ lafires_header: true
 
 <div
   class="section-understated lineart bg-s1"
-  style="background: url('/images/topic9-lineart.svg?v3vsevh') no-repeat right / auto;">
+  style="background: url('/lafires/images/topic9-lineart.svg?v3vsevh') no-repeat right / auto;">
   <div class="container p-y-md">
     {%- include "breadcrumbs.html" -%}
     <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
@@ -137,7 +137,7 @@ lafires_header: true
             <p class="text-sm font-size-15 text-left gray-600 m-y-md">
               by Small Business Administration (SBA)
             </p>
-            <p class="text-left bold">SBA loan deadline: March 10, 2025</p>
+            <p class="text-left bold">SBA loan deadline: March 31, 2025</p>
             <p class="m-b text-left">
               The SBA has many resources to help small businesses and
               entrepreneurs. This includes financing, training, and advocacy.
@@ -324,25 +324,28 @@ lafires_header: true
   ];
 
   locations.forEach(location => {
-    document.querySelector(`#${location.id}`).addEventListener('click', function(e) {
-      e.preventDefault();
+    const element = document.querySelector(`#${location.id}`);
+    if (element) {
+      element.addEventListener('click', function(e) {
+        e.preventDefault();
 
-      const encodedAddress = encodeURIComponent(location.address);
+        const encodedAddress = encodeURIComponent(location.address);
 
-      // Detect iOS
-      if (navigator.platform.indexOf('iPhone') !== -1 ||
-          navigator.platform.indexOf('iPad') !== -1 ||
-          navigator.platform.indexOf('iPod') !== -1) {
+        // Detect iOS
+        if (navigator.platform.indexOf('iPhone') !== -1 ||
+            navigator.platform.indexOf('iPad') !== -1 ||
+            navigator.platform.indexOf('iPod') !== -1) {
           window.location.href = `maps://maps.apple.com/?q=${encodedAddress}`;
-      }
-      // Detect Android
-      else if (/Android/.test(navigator.userAgent)) {
+        }
+        // Detect Android
+        else if (/Android/.test(navigator.userAgent)) {
           window.location.href = `geo:0,0?q=${encodedAddress}`;
-      }
-      // Default to Google Maps in browser
-      else {
+        }
+        // Default to Google Maps in browser
+        else {
           window.location.href = `https://maps.google.com/?q=${encodedAddress}`;
-      }
-    });
+        }
+      });
+    }
   });
 </script>
