@@ -20,7 +20,7 @@ module.exports = function (
   // Copy all static files that should appear in the website root
   // Copy state tempate code files from NPM
   eleventyConfig.addPassthroughCopy({
-    "src/images/lafires": "lafires/images",
+    "src/images": "lafires/images",
     "src/docs": "lafires/docs",
     "src/root": "/"
   });
