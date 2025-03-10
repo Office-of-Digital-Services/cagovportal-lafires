@@ -67,16 +67,16 @@ export class CaGovLAFiresMap extends window.HTMLElement {
     this.last_pop_open = new Date().getTime();
 
     this.selIcon = new L.Icon({
-      iconUrl: "/images/marker-icon-sel-2x.png",
-      shadowUrl: "/images/marker-shadow.png",
+      iconUrl: "/lafires/images/marker-icon-sel-2x.png",
+      shadowUrl: "/lafires/images/marker-shadow.png",
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
       shadowSize: [41, 41]
     });
     this.regIcon = new L.Icon({
-      iconUrl: "/images/marker-icon-2x.png",
-      shadowUrl: "/images/marker-shadow.png",
+      iconUrl: "/lafires/images/marker-icon-2x.png",
+      shadowUrl: "/lafires/images/marker-shadow.png",
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
