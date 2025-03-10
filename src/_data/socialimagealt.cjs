@@ -2,4 +2,4 @@
 
 // Default social media image ALT
 
-module.exports = "CA.gov logo over a scenic photo of a California beach";
+module.exports = "Five hands converging in the center of the image";
