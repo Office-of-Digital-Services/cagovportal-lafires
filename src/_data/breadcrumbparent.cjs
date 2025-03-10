@@ -2,4 +2,4 @@
 
 // Default parent
 
-module.exports = "Home";
+module.exports = "2025 Los Angeles Fires";
