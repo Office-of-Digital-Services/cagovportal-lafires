@@ -46,9 +46,7 @@ keywords: LA, Los Angeles, fires, wildfires
             </p>
 
             <a
-              class="btn btn-primary rounded-5 m-y"
-              id="map-link-1"
-              class="maps-link"
+              class="btn btn-primary rounded-5 m-y maps-link"
               href="https://maps.google.com/?q=8272+Santa+Monica+Blvd,+West+Hollywood,+CA+90046"
               >Directions<span class="sr-only">
                 West Hollywood Chamber of Commerce</span
@@ -74,9 +72,7 @@ keywords: LA, Los Angeles, fires, wildfires
             <p><strong>Parking:</strong> Back of building on Yolanda Ave.</p>
 
             <a
-              class="btn btn-primary rounded-5 m-y"
-              id="map-link-2"
-              class="maps-link"
+              class="btn btn-primary rounded-5 m-y maps-link"
               href="https://maps.google.com/?q=18700+Sherman+Way,+Reseda,+CA+91335"
               >Directions<span class="sr-only">
                 Women’s Business Center</span
@@ -100,9 +96,7 @@ keywords: LA, Los Angeles, fires, wildfires
             </p>
 
             <a
-              class="btn btn-primary rounded-5 m-y"
-              id="map-link-2"
-              class="maps-link"
+              class="btn btn-primary rounded-5 m-y maps-link"
               href="https://maps.google.com/?q=2525+Main+Street,+Santa+Monica,+CA+90405"
               >Directions<span class="sr-only">
                 Women’s Business Center</span
@@ -306,34 +300,3 @@ keywords: LA, Los Angeles, fires, wildfires
     <!--END MAIN COL CONTENT-->
   </div>
 </div>
-
-<script>
-  const locations = [
-    { id: 'map-link-1', address: '8272 Santa Monica Blvd, West Hollywood, CA 90046' },
-    { id: 'map-link-2', address: '18700 Sherman Way, Reseda, CA 91335' },
-    { id: 'map-link-3', address: '2525 Main Street, Santa Monica, CA 90405' }
-  ];
-
-  locations.forEach(location => {
-    document.querySelector(`#${location.id}`).addEventListener('click', function(e) {
-      e.preventDefault();
-
-      const encodedAddress = encodeURIComponent(location.address);
-
-      // Detect iOS
-      if (navigator.platform.indexOf('iPhone') !== -1 ||
-          navigator.platform.indexOf('iPad') !== -1 ||
-          navigator.platform.indexOf('iPod') !== -1) {
-          window.location.href = `maps://maps.apple.com/?q=${encodedAddress}`;
-      }
-      // Detect Android
-      else if (/Android/.test(navigator.userAgent)) {
-          window.location.href = `geo:0,0?q=${encodedAddress}`;
-      }
-      // Default to Google Maps in browser
-      else {
-          window.location.href = `https://maps.google.com/?q=${encodedAddress}`;
-      }
-    });
-  });
-</script>
