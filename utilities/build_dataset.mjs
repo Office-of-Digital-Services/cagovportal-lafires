@@ -3,24 +3,21 @@ import path from "node:path";
 import fetch from "node-fetch";
 import dotenv from "dotenv";
 
-// ✅ Load environment variables from .env file
 dotenv.config();
 
-// 🔹 SETUP CONFIGURATION - Customize these values as needed
+// Airtable API URL with the dev view
 const API_URL =
   "https://api.airtable.com/v0/app6t1QEuuPs8NUhg/tblMX0nRW5yTbr5Y6?view=viwInn4NqAYYmXTox"; // Airtable API URL with the correct table/view
 const API_KEY = process.env.AIRTABLE_API_KEY; // 🔹 Ensure .env has AIRTABLE_API_KEY=
 const OUTPUT_JSON_PATH = path.resolve(process.cwd(), "src/_data/airTable.json"); // Output JSON file
 
-// ✅ Check if API key exists
 if (!API_KEY) {
   console.error(
-    "❌ ERROR: Missing API Key. Ensure you have an .env file with AIRTABLE_API_KEY=your_key"
+    "❌ ERROR: Missing API Key. Ensure you have .env in root has correct AIRTABLE_API_KEY"
   );
   process.exit(1);
 }
 
-// ✅ Function to fetch data from Airtable
 const fetchAirtableData = async () => {
   try {
     console.log("🔹 Fetching Airtable data...");
