@@ -43,7 +43,7 @@ const fetchAirtableData = async () => {
     /** @typedef {{ id: string, fields: Record<string, any> }} AirtableRecord */
     /** @typedef {{ records: AirtableRecord[] }} AirtableResponse */
 
-    /** @type {AirtableResponse} */
+    /** @type {any} */
     const responseJson = await response.json();
 
     if (!responseJson.records || responseJson.records.length === 0) {
