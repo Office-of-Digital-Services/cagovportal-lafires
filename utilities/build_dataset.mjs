@@ -47,13 +47,40 @@ const fetchAirtableData = async () => {
     const records = responseJson.records.map(record => record.fields);
 
     console.log(`✅ Successfully retrieved ${records.length} records.`);
-
-    return records;
+    const sorted = sortFieldsInObjects(records);
+    return sorted;
   } catch (error) {
     console.error("❌ ERROR Fetching Airtable Data:", error);
     return [];
   }
 };
+
+// Function to sort fields in an object recursively
+/**
+ * @param {{ [x: string]: any; }} obj
+ */
+function sortFieldsRecursively(obj) {
+  const sortedKeys = Object.keys(obj).sort();
+  const sortedObj = {};
+
+  sortedKeys.forEach(
+    key =>
+      (sortedObj[key] =
+        typeof obj[key] === "object" && !Array.isArray(obj[key])
+          ? sortFieldsRecursively(obj[key])
+          : obj[key])
+  );
+
+  return sortedObj;
+}
+
+// Function to sort fields in each object in an array
+/**
+ * @param {any[]} arr
+ */
+function sortFieldsInObjects(arr) {
+  return arr.map((/** @type {any} */ obj) => sortFieldsRecursively(obj));
+}
 
 // ✅ Function to save data to a JSON file
 const saveDataToFile = (data, filePath) => {
