@@ -80,7 +80,7 @@ noindex: true
           <h3>{{service_category.Category}}</h3>
 
           <div class="row">
-            {%- for item in lafires.recovery_services_finder |
+            {%- for item in airTable |
             pluck("Category",service_category.Category) | sortBy("Service_name")
             | sortBy("Entity") -%}
             <div class="col-lg-6 alert">
