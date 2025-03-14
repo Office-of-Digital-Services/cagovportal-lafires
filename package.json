@@ -4,7 +4,8 @@
   "description": "www.ca.gov/lafires",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "build_dataset": "node utilities/build_dataset.mjs"
   },
   "repository": {
     "type": "git",
