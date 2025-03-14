@@ -68,3 +68,5 @@ git push origin master
 
 #add .env which includes Mark O's Airtable API key
 .env
+.autoenv*
+
