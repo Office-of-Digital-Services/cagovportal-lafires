@@ -48,6 +48,19 @@ const fetchAirtableData = async () => {
 
     console.log(`✅ Successfully retrieved ${records.length} records.`);
     const sorted = sortFieldsInObjects(records);
+    // remove empty columns from sorted object
+    sorted.forEach(record => {
+      Object.keys(record).forEach(key => {
+        if (
+          record[key]
+            ?.toString()
+            .replace(/\u00A0/g, " ")
+            .trim().length === 0
+        ) {
+          delete record[key];
+        }
+      });
+    });
     return sorted;
   } catch (error) {
     console.error("❌ ERROR Fetching Airtable Data:", error);
