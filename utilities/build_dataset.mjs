@@ -1,3 +1,4 @@
+//@ts-check
 import fs from "node:fs";
 import path from "node:path";
 import fetch from "node-fetch";
@@ -39,6 +40,10 @@ const fetchAirtableData = async () => {
       );
     }
 
+    /** @typedef {{ id: string, fields: Record<string, any> }} AirtableRecord */
+    /** @typedef {{ records: AirtableRecord[] }} AirtableResponse */
+
+    /** @type {AirtableResponse} */
     const responseJson = await response.json();
 
     if (!responseJson.records || responseJson.records.length === 0) {
@@ -51,7 +56,8 @@ const fetchAirtableData = async () => {
 
     console.log(`✅ Successfully retrieved ${records.length} records.`);
     const sorted = sortFieldsInObjects(records);
-    // remove empty columns from sorted object
+
+    // Remove empty columns from sorted object
     sorted.forEach(record => {
       Object.keys(record).forEach(key => {
         if (
@@ -64,6 +70,7 @@ const fetchAirtableData = async () => {
         }
       });
     });
+
     return sorted;
   } catch (error) {
     console.error("❌ ERROR Fetching Airtable Data:", error);
