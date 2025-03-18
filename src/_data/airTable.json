@@ -126,7 +126,7 @@
   {
     "Audience": "Individual",
     "Category": "Employment",
-    "Description": "If you lost your job, apply for unemployment benefits.",
+    "Description": "Apply by March 31, 2025, for disaster unemployment assistance (DUA). If you lost your job, apply for unemployment benefits.",
     "Entity": "California Employment Development Department",
     "Entity_acronym": "EDD",
     "Entity_type": "State",
@@ -675,7 +675,6 @@
     "Entity_type": "State",
     "ID": 73,
     "Info_link": "https://www.dmv.ca.gov/portal/customer-service/request-vehicle-or-driver-records/",
-    "Service_link": "https://www.dmv.ca.gov/portal/dmv-online/",
     "Service_name": "Vehicle or driver's records",
     "Source": "Survey",
     "Status": "3 Approved",
