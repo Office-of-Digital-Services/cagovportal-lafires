@@ -439,6 +439,10 @@ document.addEventListener("DOMContentLoaded", () => {
         "air_stationary_deployed"
       );
 
+      const air_stationary_deployed_Element2 = document.getElementById(
+        "air_stationary_deployed2"
+      );
+
       if (air_stationary_deployed_Element) {
         const air_stationary_deployed_Value = getMetricValue(
           "air_stationary_deployed"
@@ -446,6 +450,16 @@ document.addEventListener("DOMContentLoaded", () => {
         air_stationary_deployed_Element.textContent =
           air_stationary_deployed_Value !== null
             ? air_stationary_deployed_Value.toLocaleString()
+            : "N/A";
+      }
+
+      if (air_stationary_deployed_Element2) {
+        const air_stationary_deployed_Value2 = getMetricValue(
+          "air_stationary_deployed"
+        );
+        air_stationary_deployed_Element2.textContent =
+          air_stationary_deployed_Value2 !== null
+            ? air_stationary_deployed_Value2.toLocaleString()
             : "N/A";
       }
 
@@ -515,8 +529,22 @@ document.addEventListener("DOMContentLoaded", () => {
       const air_mobile_survey_complete_date_Element = document.getElementById(
         "air_mobile_survey_complete_date"
       );
+      const air_mobile_survey_complete_date_Element2 = document.getElementById(
+        "air_mobile_survey_complete_date2"
+      );
+      const air_mobile_survey_complete_date_Element3 = document.getElementById(
+        "air_mobile_survey_complete_date3"
+      );
+
       if (air_mobile_survey_complete_date_Element) {
         air_mobile_survey_complete_date_Element.textContent = `Data as of ${get_air_mobile_survey_complete_date}`;
+      }
+
+      if (air_mobile_survey_complete_date_Element2) {
+        air_mobile_survey_complete_date_Element2.textContent = `Data as of ${get_air_mobile_survey_complete_date}`;
+      }
+      if (air_mobile_survey_complete_date_Element3) {
+        air_mobile_survey_complete_date_Element3.textContent = `Data as of ${get_air_mobile_survey_complete_date}`;
       }
     })
     .catch(error => console.error("Error fetching the JSON:", error));
