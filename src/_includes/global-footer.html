@@ -12,17 +12,23 @@
       <ul class="footer-links d-print-none">
         <li>
           <a href="https://www.ca.gov/legal/conditions-of-use/"
-            >Conditions of use</a
+            >{{ 'conditions_of_use' | i18n }}</a
           >
         </li>
         <li>
-          <a href="https://www.ca.gov/legal/privacy-policy/">Privacy policy</a>
+          <a href="https://www.ca.gov/legal/privacy-policy/"
+            >{{ 'privacy_policy' | i18n }}</a
+          >
         </li>
         <li>
-          <a href="https://www.ca.gov/legal/accessibility/"> Accessibility</a>
+          <a href="https://www.ca.gov/legal/accessibility/"
+            >{{ 'accessibility' | i18n }}</a
+          >
         </li>
         <li>
-          <a href="https://www.ca.gov/about/sitemap/">Sitemap</a>
+          <a href="https://www.ca.gov/about/sitemap/"
+            >{{ 'sitemap' | i18n }}</a
+          >
         </li>
       </ul>
 
@@ -35,11 +41,11 @@
               .appendChild(document.createTextNode(new Date().getFullYear()));
           </script>
         </span>
-        State of California
+        {{ 'state_of_california' | i18n }}
       </p>
     </div>
   </div>
   <button class="return-top">
-    <span class="sr-only">Back to top</span>
+    <span class="sr-only">{{ 'back_to_top' | i18n }}</span>
   </button>
 </footer>

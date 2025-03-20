@@ -15,6 +15,17 @@ const data = [
             href: "/lafires/get-help-in-person/"
           }
         ]
+      },
+      // Once translations are completed, we will need to duplicate this for each language
+      {
+        key: "Incendies de Los Angeles 2025",
+        href: "/lafires/fr/",
+        children: [
+          {
+            key: "Obtenir de l'aide en personne",
+            href: "/lafires/fr/get-help-in-person/"
+          }
+        ]
       }
     ]
   }

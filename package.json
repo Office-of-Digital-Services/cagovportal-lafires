@@ -3,7 +3,7 @@
   "version": "6.4.2",
   "description": "www.ca.gov/lafires",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
+    "start": "cross-env MY_ENVIRONMENT=local npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
     "build_dataset": "node utilities/build_dataset.mjs"
   },
@@ -22,7 +22,9 @@
     "prettier": "^3.3.2",
     "stylelint": "^16.2.1",
     "stylelint-config-standard": "^35.0.0",
-    "stylelint-use-nesting": "^5.1.1"
+    "stylelint-use-nesting": "^5.1.1",
+    "chalk": "^4.1.2",
+    "cross-env": "^7.0.3"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
