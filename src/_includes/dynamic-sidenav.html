@@ -17,14 +17,14 @@ dynamic_sidenavid: service
     href === page.url -%} {% if not link.indent %}
     <li>
       <a
-        href="{{-href-}}"
+        href="{{-href | localizedPath(locale) -}}"
         {%-if
         active%}
         class="active landing"
         aria-current="page"
         tabindex="-1"
         {%-endif-%}>
-        {{-link.text | safe-}}
+        {{- link.key | i18n | safe -}}
       </a>
     </li>
     {% else %}
@@ -32,14 +32,14 @@ dynamic_sidenavid: service
       <ul>
         <li>
           <a
-            href="{{-href-}}"
+            href="{{-href | localizedPath(locale) -}}"
             {%-if
             active%}
             class="active landing"
             aria-current="page"
             tabindex="-1"
             {%-endif-%}>
-            {{-link.text | safe-}}
+            {{- link.key | i18n | safe -}}
           </a>
         </li>
       </ul>

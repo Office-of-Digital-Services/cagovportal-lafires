@@ -1,0 +1,183 @@
+---
+title: "Trouver des services de rétablissement : Votre plan de services personnalisé"
+description: Voici un plan de services personnalisé pour vous. Nous fournissons des liens directs ou des informations sur la façon d'obtenir ces services.
+keywords: LA, Los Angeles, incendies, feux de forêt
+noindex: true
+---
+
+<style>
+  .list-unstyled li:last-child {
+    border-bottom: none !important;
+  }
+</style>
+<div
+  class="section-primary lineart bg-p2"
+  style="background: url('/lafires/images/recovery-finder-lineart.svg?v3fejhb') no-repeat right / auto;">
+  <div class="container p-y-md">
+     {%- include "breadcrumbs.html" -%}
+    <h1 class="m-t-0 m-b-md color-white">
+      Trouver des services de rétablissement<br />
+      <span class="font-size-30 color-white font-weight-400 m-b-md"
+        >Votre plan de services personnalisé</span
+      >
+    </h1>
+
+    <a href="/lafires/fr/get-help-online/" class="color-white d-print-none"
+      ><span
+        class="ca-gov-icon-caret-left d-inline-block no-underline font-size-20"
+        aria-hidden="true"></span
+      >Retour à Obtenez de l'aide en ligne</a
+    >
+  </div>
+</div>
+
+<!-- Main Content -->
+<div class="container p-y-lg">
+  <div class="row">
+    <!-- Sidebar Navigation -->
+
+    <!-- Main Content Area -->
+    <div class="col-lg-10 pt-lg-3">
+      <p class="lead">
+        Voici les services qui répondent à vos besoins. Nous fournissons des liens directs ou des informations sur la façon d'obtenir ces services.
+      </p>
+
+      <p class="mb-5 d-flex gap-4 align-items-center">
+        <a
+          class="d-print-none btn btn-outline-primary rounded-4 brd-solid-2 p-x-md m-r"
+          onclick="window.print(); return false;"
+          >Imprimer votre plan</a
+        >
+
+        <a href="/lafires/fr/recovery-services-finder/" class="clearVars"
+          >Créer un nouveau plan</a
+        >
+      </p>
+      {%- for service_type in lafires.fr.recovery_services_types -%}
+      <!---->
+      {%- set categories = lafires.fr.recovery_services_categories |
+      pluck("Type_of_Service",service_type.Type_of_Service) -%}
+      <!---->
+      {%- set classlist = "" -%}
+      <!---->
+      {%- for service_category in categories -%}
+      <!---->
+      {%-set classlist = classlist + " category_" + service_type.Section + "_" +
+      service_category.ID -%}
+      <!---->
+      {%- endfor -%}
+
+      <div class="d-none{{classlist}}" aria-hidden="true" hidden>
+        <h2 class="color-p2-darker">{{service_type.Title}}</h2>
+
+        {%- for service_category in categories -%}
+
+        <div
+          class="d-none category_{{service_type.Section}}_{{service_category.ID}}"
+          aria-hidden="true"
+          hidden>
+          <h3>{{service_category.Category}}</h3>
+
+          <div class="row">
+            {%- for item in airTable |
+            pluck("Category",service_category.Category) | sortBy("Service_name")
+            | sortBy("Entity") -%}
+            <div class="col-lg-6 alert">
+              <div
+                class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+                <div class="d-flex">
+                  <h4 class="m-b-sm">{{item.Service_name}}</h4>
+                  <button
+                    type="button"
+                    class="btn-close ms-auto m-t-md bg-gray-100 rounded-circle p-a-sm pos-rel top-minus-5 right-minus-sm"
+                    data-bs-dismiss="alert"
+                    aria-label="Fermer"></button>
+                </div>
+
+                <p class="department font-size-14 color-p2 font-weight-600">
+                  {{item.Entity}}
+                </p>
+                <p class="small">{{item.Description}}</p>
+
+                <h5 class="m-t-0">Comment obtenir ce service</h5>
+
+                <ul class="list-unstyled m-b-0">
+                  {%- if item.Service_link -%}
+                  <li class="h6 font-weight-400 m-a-0">
+                    <a
+                      href="{{item.Service_link}}"
+                      class="p-a-sm d-flex bg-gray-75 bg-gray-100-hover w-100"
+                      >En ligne<img
+                        src="/lafires/images/laptop-icon.svg"
+                        alt=""
+                        class="img-fluid ms-auto width-30"
+                        aria-hidden="true"
+                    /></a>
+                  </li>
+                  {%- endif -%} {%- if item.Info_link -%}
+                  <li
+                    class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                    <a href="{{item.Info_link}}" class="p-a-sm d-inline-block"
+                      >En savoir plus</a
+                    >
+                  </li>
+                  {%- endif -%} {%- if item.In_person_kiosk_ -%}
+                  <li
+                    class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                    <a
+                      href="{{item.In_person_kiosk_}}"
+                      class="p-a-sm d-inline-block"
+                      >En personne (kiosque)</a
+                    >
+                  </li>
+                  {%- endif -%}{%- if item.Phone -%}
+                  <li
+                    class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                    <a href="tel:{{item.Phone}}" class="p-a-sm d-inline-block"
+                      >{{item.Phone}}</a
+                    >
+                  </li>
+                  {%- endif -%}{%- if item.Email -%}
+                  <li
+                    class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                    <a
+                      href="mailto:{{item.Email}}"
+                      class="p-a-sm d-inline-block"
+                      >Email</a
+                    >
+                  </li>
+                  {%- endif -%}{%- if item.Mail -%}
+                  <li class="m-a-0">
+                    <pre
+                      class="bg-white heading border-0 p-a-sm h6 font-weight-400 m-a-0">
+{{item.Mail}}</pre
+                    >
+                  </li>
+                  {%- endif -%}
+                </ul>
+              </div>
+            </div>
+            {%- endfor -%}
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+      {%- endfor -%}
+
+      <div class="bg-gray-100 mt-5 px-4 p-b brd-solid-1 brd-gray-200 p-t-md">
+        <p class="color-primary">
+          Pour trouver des services locaux, consultez le
+          <a href="https://wildfires.betterangels.la/"
+            >Navigateur de secours en cas de catastrophe de LA</a
+          >, une ressource communautaire conviviale.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- set js -%}{%- include "../recovery-services-shared.mjs" -%}{%- include
+"../recovery-services-all.html.js" -%}{%- endset -%}
+<script>
+  {{- js | jsmin | safe }}
+</script>

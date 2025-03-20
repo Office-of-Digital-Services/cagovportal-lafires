@@ -263,6 +263,9 @@ module.exports = function (
   );
 
   eleventyConfig.addFilter('localizedPath', (pathString, locale) => {
+    // set locale to en if not provided
+    locale = locale || 'en';
+
     // not /lafires in path, just return pathString
     if (!pathString.includes('/lafires')) {
       return pathString;

@@ -1,0 +1,693 @@
+---
+title: Obtenir de l'aide en ligne
+description: Vous pouvez obtenir de l'aide en ligne avec des aliments, des dépenses, des refuges et plus encore.
+keywords: LA, Los Angeles, incendies, feux de forêt
+---
+
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/topic1-lineart.svg?v2') no-repeat right / auto;">
+  <div class="container p-y-md">
+    {%- include "breadcrumbs.html" -%}
+    <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+      {{title}}<br />
+      <span class="subtitle color-p2-darker bold m-b-md"
+        >Incendies de Los Angeles 2025</span
+      >
+    </h1>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--CONTENU PRINCIPAL-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">{{description}}</p>
+
+      <nav class="page-navigation"></nav>
+      <style>
+        div#on-this-page-navigation-label { visibility: hidden;  }
+        div#on-this-page-navigation-label:before { 
+          visibility: visible;
+          content: "{{ 'on_this_page' | i18n }}";
+        }
+      </style>
+
+      <div
+        class="section-primary p-a-md m-t-sm d-flex align-items-top pos-rel transition-0_3 transform-scale-1_05--hover">
+        <img
+          src="/lafires/images/recovery-finder-icon.svg"
+          alt="Icône de recherche de services de rétablissement"
+          class="height-30 m-r-sm" />
+        <p class="m-b-0">
+          <a
+            href="/lafires/fr/recovery-services-finder/"
+            class="m-t-lg bold link-before"
+            >Recherche de services de rétablissement</a
+          ><br />
+          Vous ne savez pas par où commencer ? Répondez à quelques questions. Vous obtiendrez une liste de services adaptés à votre situation.
+        </p>
+      </div>
+
+      <div class="bg-gray-100 p-a-md m-t-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="color-p2-darker m-b-0">
+          Pour connaître toute l'aide disponible dans votre situation,
+          visitez le
+          <a href="https://wildfires.betterangels.la/"
+            >Navigateur d'aide aux sinistrés de LA</a
+          >.
+        </p>
+      </div>
+
+      <h2 class="m-b-0">Hébergement</h2>
+
+      <div class="row">
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://news.caloes.ca.gov/shelters-available-for-communities-impacted-by-wildfires-in-southern-california-5/"
+                class="color-p2 text-left d-block"
+                >Liste en temps réel des refuges ouverts
+              </a>
+            </h3>
+            <p class="m-b text-left">
+              Refuges locaux gérés par l'État et les partenaires locaux.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://www.fema.gov/assistance/individual/program"
+                class="color-p2 text-left d-block"
+                >Logement temporaire
+              </a>
+            </h3>
+            <p class="m-b text-left">
+              Programme d'aide aux particuliers et aux ménages de la FEMA. Il offre 14 jours de logement temporaire aux personnes éligibles. Vous pourriez également être éligible à plusieurs mois d'aide au loyer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0">Alimentation</h2>
+
+      <div class="row">
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://myfamily.wic.ca.gov/Home/HowCanIGetWIC#HowCanIGetWIC"
+                class="color-p2 text-left d-block"
+                >WIC
+              </a>
+            </h3>
+            <p class="m-b text-left">
+              WIC offre des prestations alimentaires aux mères à faible revenu.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://benefitscal.com/"
+                class="color-p2 text-left d-block"
+                >CalFresh
+              </a>
+            </h3>
+            <p class="m-b text-left">
+              Inscrivez-vous aux prestations alimentaires CalFresh ou faites
+              <a
+                href="https://www.getcalfresh.org/faq#info-benefits-replacement-end"
+                >remplacer les aliments perdus dans les incendies</a
+              >.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://cdss.ca.gov/food-banks"
+                class="color-p2 text-left d-block"
+                >Banques alimentaires
+              </a>
+            </h3>
+            <p class="m-b text-left">Trouvez les banques alimentaires près de chez vous.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0">Aide pour vos animaux de compagnie</h2>
+      <div class="row">
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">Nous pouvons vous aider si vous :</h3>
+            <ul>
+              <li class="m-t">avez perdu un animal de compagnie</li>
+              <li class="m-t">avez dû laisser un animal de compagnie derrière vous</li>
+              <li class="m-t">avez besoin d'un refuge pour votre animal</li>
+            </ul>
+            <p>
+              Visitez le
+              <a
+                href="https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html"
+                >Soutien d'urgence pour les animaux de Californie</a
+              >.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0">Santé mentale</h2>
+      <div class="row">
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://www.cdss.ca.gov/Portals/13/Press%20Releases/2025/CDSS_News_Release-Crisis_Counseling.pdf"
+                class="color-p2 text-left d-block"
+                >Conseil de crise gratuit
+              </a>
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              Disponible en ligne ou en personne
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://www.chhs.ca.gov/youthresources/"
+                class="color-p2 text-left d-block"
+                >Ressources en santé mentale pour les jeunes
+              </a>
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              par l'Agence de la santé et des services sociaux de Californie (CalHHS)
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://crisiscare.org/wildfire-relief/"
+                class="color-p2 text-left d-block"
+                >Aide aux sinistrés des feux de forêt
+              </a>
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              du Centre de prévention du suicide Didi Hirsch
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/"
+                class="color-p2 text-left d-block"
+                >Ressources en santé mentale en cas de catastrophe
+              </a>
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              du Département de la santé mentale du comté de Los Angeles
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://www.cdph.ca.gov/Programs/EPO/Pages/Wildfire%20Pages/Wildfires--Mental-Health.aspx#:~:text=Communications%20Toolkit-,Wildfires%20%26%20Mental%20Health,-Emotional%20recovery%20after"
+                class="color-p2 text-left d-block"
+                >Feux de forêt et santé mentale
+              </a>
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              du Département de la santé publique de Californie (CDPH)
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2 id="Replacing-your-personal-documents" class="m-b-0">
+        Remplacer vos documents personnels
+      </h2>
+
+      <div class="row">
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">Pièces d'identité</h3>
+            <ul>
+              <li class="m-t">
+                <a href="https://www.ssa.gov/number-card/replace-card"
+                  >Carte de sécurité sociale</a
+                >
+              </li>
+              <li class="m-t">
+                <a
+                  href="https://travel.state.gov/content/travel/en/passports/have-passport.html"
+                  >Passeport américain</a
+                >
+              </li>
+              <li class="m-t">
+                <a href="https://idco.dmdc.osd.mil/idco/"
+                  >Carte d'identité militaire ou d'ancien combattant</a
+                >
+              </li>
+              <li class="m-t">
+                <a
+                  href="https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/replace-your-driver-license-or-identification-dl-id-card/"
+                  >Permis de conduire ou carte d'identité de Californie</a
+                >
+                <p>
+                  Pas de frais pour remplacer les cartes perdues dans les incendies. Vous pouvez aussi appeler :
+                </p>
+              </li>
+              <ul>
+                <li class="m-t">
+                  <a href="tel:8007770133">1-800-777-0133</a>
+                </li>
+
+                <li class="m-t">
+                  Ou <a href="tel:8007352929">TTY 1-800-735-2929</a> ou
+                  <a href="tel:8003684327">1-800-368-4327</a> pour les personnes malentendantes ou ayant des troubles de la parole.
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">Citoyenneté</h3>
+            <ul>
+              <li class="m-t">
+                <a href="https://www.uscis.gov/n-565"
+                  >Certificat de naturalisation ou de citoyenneté</a
+                >
+              </li>
+              <li class="m-t">
+                <a
+                  href="https://www.uscis.gov/green-card/after-we-grant-your-green-card/replace-your-green-card"
+                  >Carte de résident permanent des États-Unis (carte verte)</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b text-left">Titres</h3>
+            <ul class="text-left">
+              <li>
+                <a
+                  href="https://www.dmv.ca.gov/portal/dmv-virtual-office/replacement-title/"
+                  class="color-p2 text-left"
+                  >Titres de véhicules
+                </a>
+                <p>
+                  Pas de frais pour remplacer les titres perdus dans les incendies. Vous pouvez aussi appeler :
+                </p>
+              </li>
+
+              <ul>
+                <li class="m-t text-left">
+                  <a href="tel:8007770133">1-800-777-0133</a>
+                </li>
+                <li class="m-t text-left">
+                  Ou <a href="tel:8007352929">TTY 1-800-735-2929</a> ou
+                  <a href="tel:8003684327">1-800-368-4327</a> pour les personnes malentendantes ou ayant des troubles de la parole.
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12 m-t-md">
+        <div
+          class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+          <h3 class="h5 m-t-md m-b">Actes de naissance, de mariage et de décès</h3>
+          <p>Découvrez comment commander des copies de remplacement.</p>
+          <a
+            href="/lafires/fr/vital-records"
+            class="btn btn-primary btn-lg m-y-md">
+            Obtenir des copies d'actes d'état civil
+          </a>
+        </div>
+      </div>
+      <div>
+        <h2>Emploi</h2>
+
+        <div class="row">
+          <div class="col-lg-12 m-t-md">
+            <div
+              class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded">
+              <h3 class="h5">
+                Services du Département du développement de l'emploi de Californie (EDD)
+              </h3>
+              <p class="m-t-md">Obtenez de l'aide pour :</p>
+              <ul>
+                <li class="m-t">
+                  Prestations d'
+                  <a
+                    href="https://edd.ca.gov/en/unemployment/disaster_unemployment_assistance"
+                    >assurance-chômage</a
+                  >
+                  de l'État
+                </li>
+                <li class="m-t">
+                  <a
+                    href="https://edd.ca.gov/en/unemployment/Disaster_Unemployment_Assistance/"
+                    >Aide fédérale au chômage en cas de catastrophe</a
+                  >
+                </li>
+                <li class="m-t">
+                  <a
+                    href="https://edd.ca.gov/en/disability/disability_insurance/"
+                    >Assurance invalidité</a
+                  >
+                  de l'État et
+                  <a href="https://edd.ca.gov/en/disability/paid-family-leave/"
+                    >congé familial payé</a
+                  >
+                </li>
+                <li class="m-t">
+                  <a href="https://edd.ca.gov/en/jobs/">Opportunités d'emploi</a>
+                  et
+                  <a
+                    href="https://edd.ca.gov/en/jobs_and_training/Training_Information/"
+                    >formation</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h2>Logement, réparations et aide juridique</h2>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="m-t mb-2">Aide individuelle (FEMA)</h3>
+          <p class="bold">Doit faire la demande avant le 31 mars 2025</p>
+          <p>
+            L'aide individuelle est un ensemble de programmes fédéraux qui aident les survivants de catastrophes. La FEMA peut fournir de l'argent et d'autres services pour vous aider à vous rétablir. Cela comprend :
+          </p>
+          <ul>
+            <li class="m-t">Logement</li>
+            <li class="m-t">Fonds pour les réparations</li>
+            <li class="m-t">Aide aux personnes handicapées</li>
+            <li class="m-t">Services juridiques</li>
+          </ul>
+
+          <a
+            href="https://www.fema.gov/assistance/individual"
+            class="btn btn-primary btn-lg m-y-md">
+            Demander l'aide individuelle
+          </a>
+          <p>
+            En savoir plus sur la
+            <a href="https://www.fema.gov/disaster/4856"
+              >page des incendies de LA de la FEMA</a
+            >
+            ou consulter les
+            <a href="https://www.fema.gov/disaster/4856/news-media"
+              >mises à jour d'actualités de la FEMA</a
+            >.
+          </p>
+
+          <div class="bg-gray-100 p-a-md m-t-md">
+            <p class="color-p2-darker">
+              Si vous avez une assurance,
+              <strong>déposez une réclamation dès que possible</strong>. La FEMA vous demandera vos informations de couverture lors de votre demande.
+            </p>
+          </div>
+
+          <h3 class="h5">Trois façons de faire une demande</h3>
+
+          <ol>
+            <li class="m-t">
+              En ligne sur
+              <a href="https://www.disasterassistance.gov/"
+                >DisasterAssistance.gov</a
+              >. C'est la façon la plus rapide et la plus simple de faire une demande.
+            </li>
+            <li class="m-t">
+              Via l'
+              <a
+                href="https://www.fema.gov/about/news-multimedia/mobile-products#download"
+                >application FEMA</a
+              >
+              pour appareils mobiles.
+            </li>
+            <li class="m-t">
+              En appelant la ligne d'assistance FEMA au
+              <a href="tel:8006213362">1-800-621-3362</a>, de 4h à 22h (PST).
+              L'aide est disponible dans de nombreuses langues.
+            </li>
+          </ol>
+
+          <h3 class="h5">Aide pour faire une demande</h3>
+
+          <ul>
+            <li class="m-t">
+              Obtenez de l'aide en personne dans un
+              <a
+                href="https://news.caloes.ca.gov/los-angeles-county-disaster-recovery-centers-open-tuesday-for-hurricane-force-firestorm-survivors/"
+                >Centre de rétablissement après sinistre</a
+              >
+            </li>
+            <li class="m-t">
+              Regardez une vidéo sur la façon de faire une demande :
+              <a href="https://www.youtube.com/watch?v=HhtlyTX49RE"
+                >FEMA Accessible : S'inscrire à l'aide individuelle</a
+              >
+            </li>
+            <li class="m-t">
+              Lisez les
+              <a
+                href="https://www.fema.gov/assistance/individual/program/citizenship-immigration-status"
+                >exigences en matière de citoyenneté et de statut d'immigration</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="m-t mb-2">Allègement hypothécaire</h3>
+          <p>
+            Obtenez un allègement hypothécaire pour les structures endommagées ou détruites par les incendies de LA. L'État a travaillé avec les principaux prêteurs pour offrir cet allègement. Plus de 400 prêteurs se sont engagés à :
+          </p>
+          <ul>
+            <li class="m-t">Réduire ou suspendre les paiements hypothécaires pendant 90 jours</li>
+            <li class="m-t">Renoncer aux frais de retard pendant 90 jours</li>
+            <li class="m-t">
+              Protéger les propriétaires contre les nouvelles saisies ou expulsions pendant 60 jours
+            </li>
+            <li class="m-t">Ne pas signaler les retards de paiement aux agences de crédit</li>
+          </ul>
+
+          <div class="bg-gray-100 p-a-md m-t-md m-b-md">
+            <p class="color-p2-darker m-b-0">
+              Vous devez contacter votre prêteur hypothécaire pour obtenir un allègement. Cela ne se fait pas automatiquement.
+            </p>
+          </div>
+
+          <p>
+            Visitez les
+            <a href="https://dfpi.ca.gov/lafires/relief/"
+              >ressources d'allègement hypothécaire</a
+            >
+            pour une liste des prêteurs participants et plus encore.
+          </p>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="m-t mb-2">Protection des locataires</h3>
+          <p><strong>Protection contre l'expulsion</strong></p>
+          <p>
+            Le Conseil des superviseurs du comté de LA a
+            <a
+              href="https://caanet.org/l-a-county-adopts-eviction-moratorium-rental-assistance-funding-remains-uncertain/#:~:text=The%20Los%20Angeles%20County%20Board,funding%20for%20unpaid%20landlords%20continue."
+              >interdit les expulsions pour les locataires éligibles</a
+            >. Cette protection dure jusqu'au 31 juillet 2025. Voir les
+            <a
+              href="https://dcba.lacounty.gov/wp-content/uploads/2025/02/January-2025-Wildfire-and-Critical-Windstorm-Resolution-FAQ-ENG-2.28.25.pdf"
+              >FAQ sur cette résolution (PDF)</a
+            >.
+          </p>
+
+          <p>
+            La ville de Los Angeles
+            <a href="https://housing.lacity.gov/renter-protections-2"
+              >protège les locataires éligibles contre l'expulsion</a
+            >. La protection dure jusqu'au 31 juillet 2025. Vous êtes éligible si vous avez perdu des salaires parce que :
+          </p>
+          <ul>
+            <li class="m-t">
+              Les feux de forêt ont détruit votre lieu de travail ou l'ont rendu inutilisable, ou
+            </li>
+            <li class="m-t">
+              Votre employeur vous a licencié ou a réduit vos heures de travail, ou
+            </li>
+            <li class="m-t">
+              Vous aviez des clients situés dans les zones touchées par les feux de forêt, donc vous avez perdu des revenus.
+            </li>
+          </ul>
+
+          <p>
+            Les locataires sont également protégés contre les expulsions pour rénovations jusqu'à cette date.
+          </p>
+          <p>
+            Si vous avez besoin d'une protection contre l'expulsion dans la ville ou le comté de Los Angeles, vous devez en informer votre propriétaire. Envoyez un
+            <a
+              href="https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf"
+              >Avis au propriétaire d'incapacité de payer le loyer</a
+            >
+            (PDF).
+          </p>
+
+          <p>
+            <strong>Médiation gratuite</strong><br />
+            Le Département des affaires commerciales et de la consommation (DCBA) offre des services de médiation gratuits. Ils aident les locataires et les propriétaires à établir un plan de paiement. Appelez le <a href="tel:8005938222">(800) 593-8222</a> pour en savoir plus.
+          </p>
+        </div>
+
+        <h2 class="m-t-lg">Aide pour les immigrants</h2>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="h5 m-t-md m-b text-left">
+            Guide d'aide en cas de catastrophe pour les immigrants
+          </h3>
+          <p class="text-left">
+            Vous pouvez
+            <a href="https://cdss.ca.gov/disaster-help-center">obtenir le guide</a>
+            en 5 langues :
+          </p>
+          <ul>
+            <li class="m-t">Anglais</li>
+            <li class="m-t">Espagnol</li>
+            <li class="m-t">Chinois simplifié</li>
+            <li class="m-t">Chinois traditionnel</li>
+            <li class="m-t">Arménien</li>
+          </ul>
+        </div>
+
+        <h2 class="m-t-lg">Aide pour les prêts étudiants</h2>
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <p class="text-sm font-size-15 text-left gray-600">
+            du Département de la protection et de l'innovation financières (DFPI)
+          </p>
+          <p class="text-left">
+            Si les incendies vous ont affecté et que vous avez des prêts étudiants, vous pourriez être
+            admissible à une aide.<br />
+
+            Consultez la
+            <a
+              href="/lafires/fr/federal-and-private-student-loan-relief-faq/"
+              >FAQ sur l'aide aux prêts étudiants</a
+            >.
+          </p>
+        </div>
+
+        <h2 class="m-t-lg">Éviter la hausse abusive des prix</h2>
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="h5 m-t-sm m-b">
+            <a href="https://oag.ca.gov/LAFires"
+              >Protections des consommateurs contre la hausse abusive des prix</a
+            >
+          </h3>
+          <p class="text-left">du Bureau du procureur général</p>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="h5 m-t-sm m-b">
+            <a href="https://dcba.lacounty.gov/portfolio/price-gouging/"
+              >À propos de la hausse abusive des prix</a
+            >
+          </h3>
+          <p class="text-left">du Comté de Los Angeles</p>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="h5 m-t-sm m-b">
+            <a
+              href="https://dcba.3diengage.com/FrontPortal/Page/RenderPage?tabId=27&searchParameter=srTypeId%3D17"
+              >Formulaire de plainte pour la protection des consommateurs</a
+            >
+          </h3>
+          <p class="text-left">du Comté de Los Angeles</p>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="h5 m-t-sm m-b">
+            <a href="https://cityoflaprod.service-now.com/pgc"
+              >Formulaire de plainte pour hausse abusive des prix</a
+            >
+          </h3>
+          <p class="text-left">de la Ville de Los Angeles</p>
+        </div>
+
+        <h2 class="m-t-lg">Plus de ressources du comté</h2>
+        <p>
+          <strong
+            ><a href="https://recovery.lacounty.gov/resources/"
+              >LA County Recovers</a
+            ></strong
+          >
+          répertorie l'aide de nombreuses agences du comté. Cela comprend l'aide pour :
+        </p>
+
+        <ul>
+          <li class="m-t">Les personnes âgées</li>
+          <li class="m-t">Les personnes handicapées</li>
+          <li class="m-t">Les animaux</li>
+          <li class="m-t">Les enfants</li>
+          <li class="m-t">La santé mentale</li>
+          <li class="m-t">Et bien plus encore</li>
+        </ul>
+
+        <p>Les informations sont rédigées en anglais et en espagnol.</p>
+        <p>
+          <strong>L'Armée du Salut</strong> fournit des services en cas de catastrophe aux personnes
+          touchées par les incendies. Visitez leur page
+          <a
+            href="https://socal.salvationarmy.org/southern-california/disaster-services/"
+            >Services en cas de catastrophe</a
+          >
+          ou appelez le <a href="tel:8007259005">(800) 725-9005</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

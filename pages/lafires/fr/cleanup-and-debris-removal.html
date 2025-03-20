@@ -1,0 +1,503 @@
+---
+title: Nettoyage et enlèvement des débris
+description: Nous expliquons ici les phases de nettoyage et d'enlèvement des débris après les incendies de LA. Apprenez comment rendre votre propriété propre, sûre et prête pour la reconstruction.
+keywords: Californie, gouvernement, LA, Los Angeles, incendies, feux de forêt, nettoyage, enlèvement des débris, Phase 1, Phase 2
+---
+
+<style>
+  :is(.debris-step, .debris-boxed-content) > :first-child {
+    margin-block-start: 0;
+  }
+  :is(.debris-step, .debris-boxed-content) > :last-child {
+    margin-block-end: 0;
+  }
+  .debris-step {
+    container: debris-step / inline-size;
+    margin-block-end: 3rem;
+  }
+  hr + .debris-step {
+    margin-block-start: 3rem;
+  }
+  .debris-phase-map {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 100%;
+  }
+  .debris-phase-map > img {
+    max-width: 100%;
+    height: auto;
+  }
+  .debris-phase-map-2-horizontal {
+    display: none;
+  }
+  .phase-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-block-end: 1.5rem;
+  }
+  .phase-header > h2 {
+    margin: 0;
+  }
+  ul.debris-list-grid {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-rows: auto;
+  }
+  ul.debris-list-grid > li {
+    padding: 1rem;
+    border-radius: 0.3125rem;
+    background: gray;
+  }
+  ul.debris-list-grid > li:nth-child(odd):last-child {
+    grid-column: 1 / -1;
+  }
+  ul.debris-list-grid.phase-1-debris-list-grid > li {
+    background-color: #FBF0E7;
+  }
+  ul.debris-list-grid.phase-2-debris-list-grid > li {
+    background-color: #EEF8FB;
+  }
+  .debris-boxed-content {
+    padding: 1rem 1.5rem;
+    margin-block: 1.5rem 2.5rem;
+    border-radius: 0.3125rem;
+    border: 3px solid;
+  }
+  .phase-1-border-color {
+    border-color: #FDB81E;
+  }
+  .phase-2-border-color {
+    border-color: #7BB0DA;
+  }
+  .neutral-border-color {
+    border-color: #D4D4D7;
+  }
+  .debris-removal-viz {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 6rem auto;
+    margin-block: 1.5rem;
+  }
+  .debris-removal-viz > span:nth-child(2) {
+    transform: translateY(-.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 7rem;
+    height: 7rem;
+    font-size: 2.60838rem;
+    font-weight: 900;
+    border-radius: 50%;
+    overflow: visible;
+    z-index: 5;
+  }
+  .debris-removal-viz > :is(span:first-child, span:last-child) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    padding: 1rem;
+    font-size: 1.4375rem;
+    font-weight: 700;
+    line-height: 2.4375rem;
+    text-align: center;
+    border-radius: 0.3125rem;
+    border: 3px solid;
+  }
+  .debris-removal-viz > :is(div:first-child, div:last-child) {
+    padding: 1rem 1.5rem;
+    border-radius: 0.3125rem;
+    border: 3px solid;
+  }
+  .debris-removal-viz.phase-1-debris-removal-viz > span:nth-child(2) {
+    background-color: #FDB81E;
+  }
+  .debris-removal-viz.phase-1-debris-removal-viz > :is(:first-child, :last-child) {
+    border-color: #FDB81E;
+  }
+  .debris-removal-viz.phase-2-debris-removal-viz > span:nth-child(2) {
+    background-color: #7BB0DA;
+  }
+  .debris-removal-viz.phase-2-debris-removal-viz > :is(:first-child, :last-child) {
+    border-color: #7BB0DA;
+  }
+  @container debris-step (width > 800px) {
+    .debris-phase-map {
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+    }
+    .debris-phase-map-2-horizontal {
+      display: unset;
+    }
+    .debris-phase-map-2-vertical {
+      display: none;
+    }
+    .debris-phase-map > img {
+      max-width: 50%;
+    }
+    .phase-header {
+      align-items: center;
+      flex-direction: row;
+    }
+    .debris-removal-viz {
+      grid-template-columns: calc(50% - 3rem) 6rem calc(50% - 3rem);
+      grid-template-rows: auto;
+    }
+    .debris-removal-viz > span:nth-child(2) {
+      transform: unset;
+      align-self: center;
+    }
+  }
+</style>
+<script></script>
+
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/tractor-lineart.svg?v3efhbe') no-repeat right / auto;">
+  <div class="container p-y-md">
+    {%- include "breadcrumbs.html" -%}
+    <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+      {{title}}<br />
+      <span class="subtitle color-p2-darker bold m-b-md">Incendies de Los Angeles 2025</span>
+    </h1>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">
+        Le nettoyage et l'enlèvement des débris après les feux de forêt est un processus en 2 phases. Vous pouvez en bénéficier sans frais.
+      </p>
+
+      <nav class="page-navigation"></nav>
+      <style>
+        div#on-this-page-navigation-label { visibility: hidden;  }
+        div#on-this-page-navigation-label:before { 
+          visibility: visible;
+          content: "{{ 'on_this_page' | i18n }}";
+        }
+       </style>
+
+      <div class="debris-step m-t-lg">
+        <div class="debris-phase-map">
+          <img
+            src="/lafires/images/cleanup-phase-1-map.svg"
+            width="445"
+            height="90"
+            alt="Phase 1: Nettoyage des déchets dangereux" />
+          <img
+            src="/lafires/images/cleanup-phase-2-map-vertical.svg"
+            width="445"
+            height="90"
+            class="debris-phase-map-2-vertical"
+            alt="Phase 2: Enlèvement des débris" />
+          <img
+            src="/lafires/images/cleanup-phase-2-map-horizontal.svg"
+            width="433"
+            height="90"
+            class="debris-phase-map-2-horizontal"
+            alt="Phase 2: Enlèvement des débris" />
+        </div>
+        <p class="m-t-md">
+          Nous allons expliquer ces phases. Une fois terminées, votre propriété sera prête pour la reconstruction.
+        </p>
+      </div>
+
+      <hr />
+
+      <!-- Step 2 -->
+      <div class="debris-step">
+        <div class="phase-header">
+          <img
+            src="/lafires/images/cleanup-phase-1-header.svg"
+            width="173"
+            height="72"
+            alt="Phase 1" />
+          <h2>Nettoyage des déchets dangereux</h2>
+        </div>
+        <p class="m-b-md">
+          Dans la Phase 1, l'EPA des États-Unis nettoie les produits du quotidien qui étaient dans votre maison et qui peuvent être dangereux.
+        </p>
+        <p>Cela comprend :</p>
+        <ul class="debris-list-grid phase-1-debris-list-grid">
+          <li>Piles et batteries</li>
+          <li>Produits de nettoyage et solvants</li>
+          <li>Engrais et pesticides</li>
+          <li>Peintures et huiles</li>
+          <li>Bouteilles de propane et autres produits sous pression</li>
+        </ul>
+      </div>
+
+      <div class="debris-step">
+        <h2>Comment obtenir le nettoyage</h2>
+        <p>La Phase 1 est automatique pour toutes les propriétés résidentielles.</p>
+        <p>Il n'y a aucun frais pour ce nettoyage.</p>
+        <p>Vous n'avez rien à faire pour que le nettoyage de la Phase 1 commence.</p>
+      </div>
+
+      <div class="debris-step">
+        <h2>Explication des statuts de nettoyage</h2>
+        <p>Les propriétés sont actuellement évaluées et nettoyées par l'EPA.</p>
+        <p>Une fois que l'EPA évalue votre propriété, elle aura un statut.</p>
+        <p>Ils afficheront ce statut sur un panneau sur votre propriété.</p>
+        <p>
+          Vous pouvez également consulter cette
+          <a
+            href="https://storymaps.arcgis.com/collections/13a8b227ac104bb1b1fa9592c92debe3?item=2"
+            >carte de l'EPA</a
+          >
+          pour connaître le statut du nettoyage de votre propriété.
+        </p>
+
+        <div class="debris-removal-viz phase-1-debris-removal-viz">
+          <div>
+            <h3 class="m-t-0 font-size-20">Phase 1 terminée</h3>
+            <p>Ce statut signifie que l'EPA a terminé leurs travaux de nettoyage.</p>
+            <p>
+              Votre propriété <strong>peut ne pas être</strong> encore sûre. Il peut encore y avoir :
+            </p>
+            <ul>
+              <li>Des déchets dangereux enterrés</li>
+              <li>Des risques pour la santé comme les cendres et l'amiante</li>
+            </ul>
+          </div>
+          <span>OU</span>
+          <div>
+            <h3 class="m-t-0 font-size-20">Reporté à la Phase 2</h3>
+            <p>
+              Ce statut signifie que l'EPA ne peut pas nettoyer votre propriété en toute sécurité tant que les débris n'ont pas été enlevés.
+            </p>
+            <p>Elle sera nettoyée lors de la Phase 2.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="m-b-lg">
+        Voir la
+        <a href="/lafires/track-progress/#phases">progression de la Phase 1</a>.
+      </p>
+
+      <hr />
+
+      <!-- Step 3 -->
+      <div class="debris-step">
+        <div class="phase-header">
+          <img
+            src="/lafires/images/cleanup-phase-2-header.svg"
+            width="183"
+            height="73"
+            alt="Phase 2" />
+          <h2>Enlèvement des débris</h2>
+        </div>
+
+        <p class="m-b-md">
+          Dans la Phase 2, le Corps des ingénieurs de l'armée américaine (USACE) enlève les débris structurels.
+        </p>
+        <p>Cela comprend :</p>
+        <ul class="debris-list-grid phase-2-debris-list-grid">
+          <li>Les fondations endommagées</li>
+          <li>Les véhicules détruits</li>
+          <li>Les arbres qui présentent un danger</li>
+          <li>Les sols contaminés</li>
+          <li>L'amiante</li>
+          <li>Les cendres</li>
+        </ul>
+
+        <p>
+          Consultez la progression de ces travaux sur la
+          <a
+            href="https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806"
+            >carte d'enlèvement des débris de l'USACE</a
+          >.
+        </p>
+      </div>
+
+      <!-- Step 6 -->
+      <div class="debris-step">
+        <h2>Comment faire enlever les débris</h2>
+        <p>Pour faire enlever les débris, vous devez choisir de :</p>
+
+        <div class="debris-removal-viz phase-2-debris-removal-viz">
+          <span>Participer pour un enlèvement gratuit</span>
+          <span>OU</span>
+          <span>Vous retirer pour organiser et payer l'enlèvement vous-même</span>
+        </div>
+
+        <p>
+          Il n'y a aucun frais à débourser pour ce service. Si vous avez une assurance, votre assureur sera facturé.
+        </p>
+        <p>
+          L'enlèvement des débris ne peut pas commencer tant que le nettoyage de la Phase 1 n'est pas terminé ou reporté par l'EPA.
+        </p>
+      </div>
+
+      <!-- Step 7 -->
+      <div class="debris-step">
+        <h2>Inscrivez-vous avant la date limite</h2>
+        <p>
+          Pour bénéficier de l'enlèvement gratuit des débris, vous devez
+          <strong>vous inscrire avant le 31 mars 2025</strong>.
+        </p>
+        <a
+          class="btn btn-primary m-y-sm"
+          href="https://recovery.lacounty.gov/debris-removal/roe/"
+          >Participer pour un enlèvement gratuit</a
+        >
+
+        <div class="debris-boxed-content phase-2-border-color">
+          <p>Pour remplir le formulaire d'inscription, vous aurez besoin :</p>
+
+          <ul>
+            <li>Des coordonnées et signatures de tous les propriétaires</li>
+            <li>
+              Du numéro d'information de l'évaluateur (AIN)
+              <ul>
+                <li>
+                  <a
+                    href="https://assessor.lacounty.gov/homeowners/property-search"
+                    >Trouvez votre AIN</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>Des informations sur l'assurance habitation (si vous êtes assuré)</li>
+            <li>
+              Des informations sur les véhicules détruits sur la propriété
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Step 8 -->
+      <div class="debris-step">
+        <h2>Se retirer à vos propres frais</h2>
+        <p>
+          Si vous renoncez à l'enlèvement gratuit des débris, vous devrez organiser et payer ce service vous-même.
+        </p>
+
+        <div class="debris-boxed-content phase-2-border-color">
+          <p>Ce processus est compliqué et coûteux. Vous devez :</p>
+          <ul>
+            <li>Engager un entrepreneur spécialisé et agréé</li>
+            <li>Obtenir l'approbation et un permis du comté de LA</li>
+            <li>
+              Engager un consultant certifié pour vérifier la présence d'amiante
+            </li>
+            <li>
+              Vous assurer que votre entrepreneur respecte toutes les règles gouvernementales pour l'enlèvement sécuritaire des débris
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Step 9 -->
+      <div class="debris-step">
+        <h2>Comment se retirer</h2>
+        <p>
+          Si vous choisissez de vous retirer, soumettez un
+          <a
+            href="https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8"
+            >formulaire de retrait</a
+          >
+          au comté de LA immédiatement.
+        </p>
+        <p>
+          Il est important de soumettre ce formulaire pour que le comté puisse commencer l'enlèvement gratuit des débris pour vos voisins.
+        </p>
+
+        <div class="debris-boxed-content phase-2-border-color">
+          <p>Vous aurez besoin :</p>
+          <ul>
+            <li>Du nom et du numéro de licence de votre entrepreneur</li>
+            <li>D'une description des débris à enlever</li>
+            <li>
+              Du numéro d'information de l'évaluateur (AIN)
+              <ul>
+                <li>
+                  <a
+                    href="https://assessor.lacounty.gov/homeowners/property-search"
+                    >Trouvez votre AIN</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Step 10 -->
+      <div id="debris-step-10" class="debris-step">
+        <h2 class="m-b-lg">Si vous avez besoin d'aide</h2>
+        <div class="debris-boxed-content phase-1-border-color">
+          <h3 class="font-size-20">Questions sur le nettoyage de la Phase 1</h3>
+          <p>
+            Appelez l'EPA au <a href="tel:833-798-7372">833-798-7372</a> (ATS :
+            711)
+          </p>
+        </div>
+        <div class="debris-boxed-content phase-2-border-color">
+          <h3 class="font-size-20">Aide pour remplir le formulaire d'inscription</h3>
+          <ul>
+            <li>
+              Appelez la ligne d'assistance pour l'enlèvement des débris des travaux publics du comté de LA au
+              <a href="tel:844-347-3332">844-347-3332</a> (ATS : 711)
+            </li>
+            <li>
+              Envoyez un courriel à
+              <a href="mailto:PalisadesFire@dpw.lacounty.gov"
+                >PalisadesFire@dpw.lacounty.gov</a
+              >
+              ou
+              <a href="mailto:EatonFire@dpw.lacounty.gov"
+                >EatonFire@dpw.lacounty.gov</a
+              >
+            </li>
+            <li>
+              Obtenez de l'aide en personne dans un
+              <a href="/lafires/get-help-in-person/"
+                >centre de rétablissement après sinistre</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="debris-boxed-content neutral-border-color">
+          <h3 class="font-size-20">
+            Plus d'informations sur le nettoyage et l'enlèvement des débris
+          </h3>
+          <p>
+            <a href="https://recovery.lacounty.gov/debris-removal/"
+              >Le comté de LA se rétablit</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <h2 class="m-b-lg">Où vont les débris</h2>
+      <p>
+        Les travailleurs élimineront les débris d'une manière qui protège la santé publique et l'environnement.
+      </p>
+      <p>
+        En savoir plus sur les débris d'incendie dans les décharges sur
+        <a
+          href="https://calepa.ca.gov/disaster/debris/wildfire-debris-in-landfills-frequently-asked-questions/"
+          >CalEPA</a
+        >.
+      </p>
+
+      <!--END MAIN COL CONTENT-->
+    </div>
+  </div>
+</div> 
