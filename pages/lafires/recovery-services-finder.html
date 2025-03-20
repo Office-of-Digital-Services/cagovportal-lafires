@@ -8,15 +8,17 @@ keywords: LA, Los Angeles, fires, wildfires
   class="section-primary lineart bg-p2"
   style="background: url('/lafires/images/recovery-finder-lineart.svg?v3fejhb') no-repeat right / auto;">
   <div class="container p-y-md">
-    {%- include "breadcrumbs.html" -%}
-    <h1 class="m-t-0 m-b-md color-white line-height-1em">{{title}}<br /></h1>
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-md color-white line-height-1em">{{title}}<br /></h1>
 
-    <a href="/lafires/get-help-online/" class="color-white"
-      ><span
-        class="ca-gov-icon-caret-left d-inline-block no-underline font-size-20"
-        aria-hidden="true"></span
-      >Back to Get help online</a
-    >
+      <a href="/lafires/get-help-online/" class="color-white"
+        ><span
+          class="ca-gov-icon-caret-left d-inline-block no-underline font-size-20"
+          aria-hidden="true"></span
+        >Back to Get help online</a
+      >
+    </div>
   </div>
 </div>
 
@@ -76,7 +78,7 @@ keywords: LA, Los Angeles, fires, wildfires
             </div>
             {%-endfor-%}
 
-            <h2 class="h3 color-p2-darker">Business</h3>
+            <h2 class="h3 color-p2-darker">Business</h2>
             {%- for category in lafires.recovery_services_categories |
             pluck("Type_of_Service","Business help") -%}
             <!---->
