@@ -18,19 +18,8 @@ keywords: California, government, LA, Los Angeles, fires, wildfires, cleanup, de
   hr + .debris-step {
     margin-block-start: 3rem;
   }
-  .debris-phase-map {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    max-width: 100%;
-  }
-  .debris-phase-map > img {
-    max-width: 100%;
-    height: auto;
-  }
-  .debris-phase-map-2-horizontal {
-    display: none;
-  }
+
+
   .phase-header {
     display: flex;
     flex-direction: column;
@@ -40,6 +29,32 @@ keywords: California, government, LA, Los Angeles, fires, wildfires, cleanup, de
   .phase-header > h2 {
     margin: 0;
   }
+  .phase-header-label {
+    display: flex;
+    flex-direction: row;
+    filter: url(#round);
+  }
+  .phase-header-label > span {
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    padding: .5rem .5rem .5rem .75rem;
+  }
+  .phase-header-label::after {
+    content: "";
+    display: block;
+    width: 1.5rem;
+    height: auto;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  }
+  .phase-header-label-1 > span, .phase-header-label-1::after {
+    background: #FDB81E;
+  }
+  .phase-header-label-2 > span, .phase-header-label-2::after {
+    background: #7BB0DA;
+  }
+
+
   ul.debris-list-grid {
     list-style-type: none;
     padding: 0;
@@ -127,21 +142,70 @@ keywords: California, government, LA, Los Angeles, fires, wildfires, cleanup, de
   .debris-removal-viz.phase-2-debris-removal-viz > :is(:first-child, :last-child) {
     border-color: #7BB0DA;
   }
+
+
+  .debris-map-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+  .debris-map-phase {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    filter: url(#round);
+  }
+  .debris-map-phase::after {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 100%;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  }
+  .debris-map-phase-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: .25rem;
+    padding: 1rem 1.5rem .75rem 1.5rem;
+  }
+  .debris-map-phase-1::after, .debris-map-phase-content-1 {
+    background: #FDB81E;
+  }
+  .debris-map-phase-2::after, .debris-map-phase-content-2 {
+    background: #7BB0DA;
+  }
+  .debris-map-phase-content > span {
+    line-height: normal;
+    font-weight: 700;
+  }
+  .debris-map-phase-content > span:first-child {
+    font-size: 18px;
+  }
+  .debris-map-phase-content > span:last-child {
+    font-size: 28px;
+  }
+
   @container debris-step (width > 800px) {
-    .debris-phase-map {
-      display: flex;
-      flex-direction: row;
+    .debris-map-grid {
+      grid-template-columns: 1fr 1fr;
       gap: 0;
     }
-    .debris-phase-map-2-horizontal {
-      display: unset;
+    .debris-map-phase-2::after {
+      all: unset;
     }
-    .debris-phase-map-2-vertical {
-      display: none;
+    .debris-map-phase-2::before {
+      content: "";
+      display: block;
+      width: 2rem;
+      height: 100%;
+      background: #7BB0DA;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 50%);
     }
-    .debris-phase-map > img {
-      max-width: 50%;
-    }
+
     .phase-header {
       align-items: center;
       flex-direction: row;
@@ -156,7 +220,21 @@ keywords: California, government, LA, Los Angeles, fires, wildfires, cleanup, de
     }
   }
 </style>
-<script></script>
+
+
+<!-- SVG filter for rounding complex shapes. -->
+<svg class="visually-hidden" width="0" height="0">
+  <defs>
+    <filter id="round">
+      <!-- stdDeviation of the blur defines the border-radius, in px. -->
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" /> 
+      <!-- Red, blue, and green unmodified. Then maximize contrast of the alpha channel. -->
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="max-alpha" />
+      <!-- Combine. -->
+      <feComposite in="SourceGraphic" in2="max-alpha" operator="atop"/>
+    </filter>
+  </defs>
+</svg>
 
 <div
   class="section-understated lineart bg-s1"
@@ -186,26 +264,20 @@ keywords: California, government, LA, Los Angeles, fires, wildfires, cleanup, de
       </p>
 
       <nav class="page-navigation"></nav>
-
       <div class="debris-step m-t-lg">
-        <div class="debris-phase-map">
-          <img
-            src="/lafires/images/cleanup-phase-1-map.svg"
-            width="445"
-            height="90"
-            alt="Phase 1: Hazardous waste cleanup" />
-          <img
-            src="/lafires/images/cleanup-phase-2-map-vertical.svg"
-            width="445"
-            height="90"
-            class="debris-phase-map-2-vertical"
-            alt="Phase 2: Debris removal" />
-          <img
-            src="/lafires/images/cleanup-phase-2-map-horizontal.svg"
-            width="433"
-            height="90"
-            class="debris-phase-map-2-horizontal"
-            alt="Phase 2: Debris removal" />
+        <div class="debris-map-grid">
+          <div class="debris-map-phase debris-map-phase-1">
+            <div class="debris-map-phase-content debris-map-phase-content-1">
+              <span>Phase 1</span>
+              <span>Hazardous waste cleanup</span>
+            </div>
+          </div>
+          <div class="debris-map-phase debris-map-phase-2">
+            <div class="debris-map-phase-content debris-map-phase-content-2">
+              <span>Phase 2</span>
+              <span>Debris removal</span>
+            </div>
+          </div>
         </div>
         <p class="m-t-md">
           We will explain these phases. When they are complete, your property is
@@ -218,11 +290,9 @@ keywords: California, government, LA, Los Angeles, fires, wildfires, cleanup, de
       <!-- Step 2 -->
       <div class="debris-step">
         <div class="phase-header">
-          <img
-            src="/lafires/images/cleanup-phase-1-header.svg"
-            width="173"
-            height="72"
-            alt="Phase 1" />
+          <div class="phase-header-label phase-header-label-1">
+            <span>Phase 1</span>
+          </div>
           <h2>Hazardous waste cleanup</h2>
         </div>
         <p class="m-b-md">
@@ -293,11 +363,9 @@ keywords: California, government, LA, Los Angeles, fires, wildfires, cleanup, de
       <!-- Step 3 -->
       <div class="debris-step">
         <div class="phase-header">
-          <img
-            src="/lafires/images/cleanup-phase-2-header.svg"
-            width="183"
-            height="73"
-            alt="Phase 2" />
+          <div class="phase-header-label phase-header-label-2">
+            <span>Phase 2</span>
+          </div>
           <h2>Debris removal</h2>
         </div>
 
