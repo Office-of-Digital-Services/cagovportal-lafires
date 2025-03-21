@@ -9,6 +9,10 @@ const { DateTime } = require("luxon");
 const fs = require("node:fs");
 const path = require("node:path");
 let translationsModule = { translations: require("./src/_data/i18n.cjs") }; // Change to an object that holds the translations
+let translationsModule_sidenav = { translations: require("./src/_data/i18n-sidenav.cjs") }; // Change to an object that holds the translations
+let translationsModule_service_finder = { translations: require("./src/_data/i18n-service-finder.cjs") }; // Change to an object that holds the translations
+let translationsModule_feedback = { translations: require("./src/_data/i18n-feedback.cjs") }; // Change to an object that holds the translations
+
 const chalk = require("chalk");
 
 // canonical domain
@@ -18,6 +22,11 @@ const metatitlepostfix = " | CA.gov";
 // use console.log to report complete list of process.env variables
 const is_development = process.env.MY_ENVIRONMENT ? process.env.MY_ENVIRONMENT === "local" : false;
 
+// append special translations to the translationsModule
+translationsModule.translations = { ...translationsModule.translations, 
+                                    ...translationsModule_sidenav.translations, 
+                                    ...translationsModule_service_finder.translations, 
+                                    ...translationsModule_feedback.translations };
 
 module.exports = function (
   /** @type {import("@11ty/eleventy").UserConfig} **/ eleventyConfig

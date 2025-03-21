@@ -49,8 +49,8 @@ keywords: LA, Los Angeles, fires, wildfires
                 class="form-check-label cursor-pointer m-l m-a-0"
                 for="{{id}}"
                 ><span class="d-block font-weight-400"
-                  ><span class="bold">{{category.Category}}:</span>
-                  {{category.Category_Description}}</span
+                  ><span class="bold">{{('sf_cat_label_' + category.Key) | i18n}}:</span>
+                  {{('sf_cat_description_' + category.Key) | i18n}}</span
                 >
               </label>
             </div>
@@ -71,8 +71,8 @@ keywords: LA, Los Angeles, fires, wildfires
                 class="form-check-label cursor-pointer m-l m-a-0"
                 for="{{id}}"
                 ><span class="d-block font-weight-400"
-                  ><span class="bold">{{category.Category}}:</span>
-                  {{category.Category_Description}}</span
+                  ><span class="bold">{{('sf_cat_label_' + category.Key) | i18n}}:</span>
+                  {{('sf_cat_description_' + category.Key) | i18n}}</span
                 >
               </label>
             </div>
@@ -92,10 +92,9 @@ keywords: LA, Los Angeles, fires, wildfires
               <label
                 class="form-check-label cursor-pointer m-l m-a-0"
                 for="{{id}}"
-                ><span class="d-block font-weight-400"
-                  ><span class="bold">{{category.Category}}:</span>
-                  {{category.Category_Description}}</span
-                >
+                ><span class="bold">{{('sf_cat_label_' + category.Key) | i18n}}:</span>
+                {{('sf_cat_description_' + category.Key) | i18n}}</span
+              >
               </label>
             </div>
 

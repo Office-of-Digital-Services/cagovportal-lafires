@@ -53,9 +53,9 @@ noindex: true
           >Créer un nouveau plan</a
         >
       </p>
-      {%- for service_type in lafires.fr.recovery_services_types -%}
+      {%- for service_type in lafires.recovery_services_types -%}
       <!---->
-      {%- set categories = lafires.fr.recovery_services_categories |
+      {%- set categories = lafires.recovery_services_categories |
       pluck("Type_of_Service",service_type.Type_of_Service) -%}
       <!---->
       {%- set classlist = "" -%}
@@ -68,7 +68,7 @@ noindex: true
       {%- endfor -%}
 
       <div class="d-none{{classlist}}" aria-hidden="true" hidden>
-        <h2 class="color-p2-darker">{{service_type.Title}}</h2>
+        <h2 class="color-p2-darker">{{('sf_service_title_' + service_type.Key) | i18n}}</h2>
 
         {%- for service_category in categories -%}
 
@@ -76,7 +76,7 @@ noindex: true
           class="d-none category_{{service_type.Section}}_{{service_category.ID}}"
           aria-hidden="true"
           hidden>
-          <h3>{{service_category.Category}}</h3>
+          <h3>{{('sf_cat_label_' + service_category.Key) | i18n}}</h3>
 
           <div class="row">
             {%- for item in airTable |
@@ -86,7 +86,7 @@ noindex: true
               <div
                 class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
                 <div class="d-flex">
-                  <h4 class="m-b-sm">{{item.Service_name}}</h4>
+                  <h4 class="m-b-sm">{{ ('sf_' + item.ID + '_service_name') | i18n }}</h4>
                   <button
                     type="button"
                     class="btn-close ms-auto m-t-md bg-gray-100 rounded-circle p-a-sm pos-rel top-minus-5 right-minus-sm"
@@ -95,9 +95,9 @@ noindex: true
                 </div>
 
                 <p class="department font-size-14 color-p2 font-weight-600">
-                  {{item.Entity}}
+                  {{ ('sf_' + item.ID + '_entity') | i18n }}
                 </p>
-                <p class="small">{{item.Description}}</p>
+                <p class="small">{{ ('sf_' + item.ID + '_description') | i18n }}</p>
 
                 <h5 class="m-t-0">Comment obtenir ce service</h5>
 
