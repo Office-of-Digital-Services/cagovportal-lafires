@@ -1,7 +1,7 @@
 ---
-title: Nettoyage et enlèvement des débris
-description: Nous expliquons ici les phases de nettoyage et d'enlèvement des débris après les incendies de LA. Apprenez comment rendre votre propriété propre, sûre et prête pour la reconstruction.
-keywords: Californie, gouvernement, LA, Los Angeles, incendies, feux de forêt, nettoyage, enlèvement des débris, Phase 1, Phase 2
+title: Cleanup and debris removal
+description: Here we explain cleanup and debris removal phases after the LA fires. Learn how to get your property clean, safe, and cleared for rebuilding.
+keywords: California, government, LA, Los Angeles, fires, wildfires, cleanup, debris removal, Phase 1, Phase 2
 breadcrumbparent: Incendies de Los Angeles 2025
 ---
 
@@ -19,19 +19,8 @@ breadcrumbparent: Incendies de Los Angeles 2025
   hr + .debris-step {
     margin-block-start: 3rem;
   }
-  .debris-phase-map {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    max-width: 100%;
-  }
-  .debris-phase-map > img {
-    max-width: 100%;
-    height: auto;
-  }
-  .debris-phase-map-2-horizontal {
-    display: none;
-  }
+
+
   .phase-header {
     display: flex;
     flex-direction: column;
@@ -41,6 +30,32 @@ breadcrumbparent: Incendies de Los Angeles 2025
   .phase-header > h2 {
     margin: 0;
   }
+  .phase-header-label {
+    display: flex;
+    flex-direction: row;
+    filter: url(#round);
+  }
+  .phase-header-label > span {
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    padding: .5rem .5rem .5rem .75rem;
+  }
+  .phase-header-label::after {
+    content: "";
+    display: block;
+    width: 1.5rem;
+    height: auto;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  }
+  .phase-header-label-1 > span, .phase-header-label-1::after {
+    background: #FDB81E;
+  }
+  .phase-header-label-2 > span, .phase-header-label-2::after {
+    background: #7BB0DA;
+  }
+
+
   ul.debris-list-grid {
     list-style-type: none;
     padding: 0;
@@ -128,21 +143,70 @@ breadcrumbparent: Incendies de Los Angeles 2025
   .debris-removal-viz.phase-2-debris-removal-viz > :is(:first-child, :last-child) {
     border-color: #7BB0DA;
   }
+
+
+  .debris-map-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+  .debris-map-phase {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    filter: url(#round);
+  }
+  .debris-map-phase::after {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 100%;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  }
+  .debris-map-phase-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: .25rem;
+    padding: 1rem 1.5rem .75rem 1.5rem;
+  }
+  .debris-map-phase-1::after, .debris-map-phase-content-1 {
+    background: #FDB81E;
+  }
+  .debris-map-phase-2::after, .debris-map-phase-content-2 {
+    background: #7BB0DA;
+  }
+  .debris-map-phase-content > span {
+    line-height: normal;
+    font-weight: 700;
+  }
+  .debris-map-phase-content > span:first-child {
+    font-size: 18px;
+  }
+  .debris-map-phase-content > span:last-child {
+    font-size: 28px;
+  }
+
   @container debris-step (width > 800px) {
-    .debris-phase-map {
-      display: flex;
-      flex-direction: row;
+    .debris-map-grid {
+      grid-template-columns: 1fr 1fr;
       gap: 0;
     }
-    .debris-phase-map-2-horizontal {
-      display: unset;
+    .debris-map-phase-2::after {
+      all: unset;
     }
-    .debris-phase-map-2-vertical {
-      display: none;
+    .debris-map-phase-2::before {
+      content: "";
+      display: block;
+      width: 2rem;
+      height: 100%;
+      background: #7BB0DA;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 50%);
     }
-    .debris-phase-map > img {
-      max-width: 50%;
-    }
+
     .phase-header {
       align-items: center;
       flex-direction: row;
@@ -157,17 +221,35 @@ breadcrumbparent: Incendies de Los Angeles 2025
     }
   }
 </style>
-<script></script>
+
+
+<!-- SVG filter for rounding complex shapes. -->
+<svg class="visually-hidden" width="0" height="0">
+  <defs>
+    <filter id="round">
+      <!-- stdDeviation of the blur defines the border-radius, in px. -->
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" /> 
+      <!-- Red, blue, and green unmodified. Then maximize contrast of the alpha channel. -->
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="max-alpha" />
+      <!-- Combine. -->
+      <feComposite in="SourceGraphic" in2="max-alpha" operator="atop"/>
+    </filter>
+  </defs>
+</svg>
 
 <div
   class="section-understated lineart bg-s1"
   style="background: url('/lafires/images/tractor-lineart.svg?v3efhbe') no-repeat right / auto;">
   <div class="container p-y-md">
-    {%- include "breadcrumbs.html" -%}
-    <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
-      {{title}}<br />
-      <span class="subtitle color-p2-darker bold m-b-md">Incendies de Los Angeles 2025</span>
-    </h1>
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >Incendies de Los Angeles 2025</span
+        >
+      </h1>
+    </div>
   </div>
 </div>
 
@@ -178,40 +260,29 @@ breadcrumbparent: Incendies de Los Angeles 2025
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
       <p class="m-b-md lead">
-        Le nettoyage et l'enlèvement des débris après les feux de forêt est un processus en 2 phases. Vous pouvez en bénéficier sans frais.
+        Le nettoyage et l'enlèvement des débris après les incendies de forêt est un processus en 2 phases. Vous pouvez
+        le faire réaliser gratuitement.
       </p>
 
       <nav class="page-navigation"></nav>
-      <style>
-        div#on-this-page-navigation-label { visibility: hidden;  }
-        div#on-this-page-navigation-label:before { 
-          visibility: visible;
-          content: "{{ 'on_this_page' | i18n }}";
-        }
-       </style>
-
       <div class="debris-step m-t-lg">
-        <div class="debris-phase-map">
-          <img
-            src="/lafires/images/cleanup-phase-1-map.svg"
-            width="445"
-            height="90"
-            alt="Phase 1: Nettoyage des déchets dangereux" />
-          <img
-            src="/lafires/images/cleanup-phase-2-map-vertical.svg"
-            width="445"
-            height="90"
-            class="debris-phase-map-2-vertical"
-            alt="Phase 2: Enlèvement des débris" />
-          <img
-            src="/lafires/images/cleanup-phase-2-map-horizontal.svg"
-            width="433"
-            height="90"
-            class="debris-phase-map-2-horizontal"
-            alt="Phase 2: Enlèvement des débris" />
+        <div class="debris-map-grid">
+          <div class="debris-map-phase debris-map-phase-1">
+            <div class="debris-map-phase-content debris-map-phase-content-1">
+              <span>Phase 1</span>
+              <span>Nettoyage des déchets dangereux</span>
+            </div>
+          </div>
+          <div class="debris-map-phase debris-map-phase-2">
+            <div class="debris-map-phase-content debris-map-phase-content-2">
+              <span>Phase 2</span>
+              <span>Enlèvement des débris</span>
+            </div>
+          </div>
         </div>
         <p class="m-t-md">
-          Nous allons expliquer ces phases. Une fois terminées, votre propriété sera prête pour la reconstruction.
+          Nous allons expliquer ces phases. Une fois qu'elles seront terminées, votre propriété sera
+          prête pour la reconstruction.
         </p>
       </div>
 
@@ -220,64 +291,62 @@ breadcrumbparent: Incendies de Los Angeles 2025
       <!-- Step 2 -->
       <div class="debris-step">
         <div class="phase-header">
-          <img
-            src="/lafires/images/cleanup-phase-1-header.svg"
-            width="173"
-            height="72"
-            alt="Phase 1" />
+          <div class="phase-header-label phase-header-label-1">
+            <span>Phase 1</span>
+          </div>
           <h2>Nettoyage des déchets dangereux</h2>
         </div>
         <p class="m-b-md">
-          Dans la Phase 1, l'EPA des États-Unis nettoie les produits du quotidien qui étaient dans votre maison et qui peuvent être dangereux.
+          Dans la Phase 1, l'EPA des États-Unis a nettoyé les produits du quotidien qui étaient dans
+          votre maison et qui pourraient être dangereux.
         </p>
         <p>Cela comprend :</p>
         <ul class="debris-list-grid phase-1-debris-list-grid">
-          <li>Piles et batteries</li>
+          <li>Batteries</li>
           <li>Produits de nettoyage et solvants</li>
           <li>Engrais et pesticides</li>
           <li>Peintures et huiles</li>
-          <li>Bouteilles de propane et autres produits sous pression</li>
+          <li>Réservoirs de propane et autres produits sous pression</li>
         </ul>
-      </div>
 
-      <div class="debris-step">
-        <h2>Comment obtenir le nettoyage</h2>
-        <p>La Phase 1 est automatique pour toutes les propriétés résidentielles.</p>
-        <p>Il n'y a aucun frais pour ce nettoyage.</p>
-        <p>Vous n'avez rien à faire pour que le nettoyage de la Phase 1 commence.</p>
+        <p>
+          Le nettoyage de la Phase 1 est maintenant terminé. Il était automatique pour toutes les propriétés résidentielles.
+        </p>
+        <p>Ce nettoyage ne vous a rien coûté.</p>
       </div>
 
       <div class="debris-step">
         <h2>Explication des statuts de nettoyage</h2>
-        <p>Les propriétés sont actuellement évaluées et nettoyées par l'EPA.</p>
-        <p>Une fois que l'EPA évalue votre propriété, elle aura un statut.</p>
-        <p>Ils afficheront ce statut sur un panneau sur votre propriété.</p>
+        <p>Après que l'EPA a évalué votre propriété, ils lui ont attribué un statut.</p>
+        <p>Ils ont affiché ce statut sur un panneau sur votre propriété.</p>
         <p>
           Vous pouvez également consulter cette
           <a
             href="https://storymaps.arcgis.com/collections/13a8b227ac104bb1b1fa9592c92debe3?item=2"
             >carte de l'EPA</a
           >
-          pour connaître le statut du nettoyage de votre propriété.
+          pour connaître le statut de nettoyage de votre propriété.
         </p>
 
         <div class="debris-removal-viz phase-1-debris-removal-viz">
           <div>
-            <h3 class="m-t-0 font-size-20">Phase 1 terminée</h3>
-            <p>Ce statut signifie que l'EPA a terminé leurs travaux de nettoyage.</p>
+            <h3 class="m-t-0 font-size-20">Phase 1 Terminée</h3>
+            <p>Ce statut signifie que l'EPA a terminé leur travail de nettoyage.</p>
             <p>
-              Votre propriété <strong>peut ne pas être</strong> encore sûre. Il peut encore y avoir :
+              Mais votre propriété <strong>peut ne pas être</strong> sûre encore. Il peut
+              toujours y avoir :
             </p>
             <ul>
               <li>Des déchets dangereux enterrés</li>
-              <li>Des risques pour la santé comme les cendres et l'amiante</li>
+              <li>Des risques pour la santé comme des cendres et de l'amiante</li>
             </ul>
           </div>
           <span>OU</span>
           <div>
             <h3 class="m-t-0 font-size-20">Reporté à la Phase 2</h3>
             <p>
-              Ce statut signifie que l'EPA ne peut pas nettoyer votre propriété en toute sécurité tant que les débris n'ont pas été enlevés.
+              Ce statut signifie que l'EPA ne peut pas nettoyer votre propriété en toute sécurité tant que
+              les débris n'ont pas été enlevés.
             </p>
             <p>Elle sera nettoyée lors de la Phase 2.</p>
           </div>
@@ -285,8 +354,8 @@ breadcrumbparent: Incendies de Los Angeles 2025
       </div>
 
       <p class="m-b-lg">
-        Voir la
-        <a href="/lafires/track-progress/#phases">progression de la Phase 1</a>.
+        Voir
+        <a href="/lafires/fr/track-progress/#phases">la progression de la Phase 1.</a>
       </p>
 
       <hr />
@@ -294,34 +363,71 @@ breadcrumbparent: Incendies de Los Angeles 2025
       <!-- Step 3 -->
       <div class="debris-step">
         <div class="phase-header">
-          <img
-            src="/lafires/images/cleanup-phase-2-header.svg"
-            width="183"
-            height="73"
-            alt="Phase 2" />
+          <div class="phase-header-label phase-header-label-2">
+            <span>Phase 2</span>
+          </div>
           <h2>Enlèvement des débris</h2>
         </div>
 
         <p class="m-b-md">
-          Dans la Phase 2, le Corps des ingénieurs de l'armée américaine (USACE) enlève les débris structurels.
+          Dans la Phase 2, le Corps des ingénieurs de l'armée américaine (USACE) enlève
+          les débris structurels.
         </p>
         <p>Cela comprend :</p>
         <ul class="debris-list-grid phase-2-debris-list-grid">
-          <li>Les fondations endommagées</li>
-          <li>Les véhicules détruits</li>
-          <li>Les arbres qui présentent un danger</li>
-          <li>Les sols contaminés</li>
-          <li>L'amiante</li>
-          <li>Les cendres</li>
+          <li>Fondations endommagées</li>
+          <li>Véhicules détruits</li>
+          <li>Arbres qui présentent un danger</li>
+          <li>Sol contaminé</li>
+          <li>Amiante</li>
+          <li>Cendres</li>
         </ul>
 
         <p>
-          Consultez la progression de ces travaux sur la
-          <a
-            href="https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806"
-            >carte d'enlèvement des débris de l'USACE</a
+          Lisez
+          <a href="https://recovery.lacounty.gov/debris-removal/what-to-expect/"
+            >à quoi s'attendre dans la Phase 2</a
           >.
         </p>
+        <p>
+          Consultez la progression de ce travail sur
+          <a
+            href="https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806"
+            >la carte d'enlèvement des débris de l'USACE</a
+          >.
+        </p>
+      </div>
+
+      <div class="debris-step">
+        <h2>À propos de l'enlèvement des arbres</h2>
+        <p>
+          Pendant l'enlèvement des débris, l'USACE enlèvera les arbres qui sont dangereux.
+          Mais vous pouvez demander qu'un arbre ne soit pas enlevé.
+        </p>
+
+        <div class="debris-boxed-content phase-2-border-color">
+          <ul>
+            <li>
+              <a
+                href="https://recovery.lacounty.gov/2025/03/06/u-s-army-corps-of-engineers-expands-hazardous-tree-marking-system-clarifies-waiver-process/"
+                >À propos du processus de dérogation</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://recovery.lacounty.gov/wp-content/uploads/2025/03/hazardous-tree-markings-v2_original.png"
+                >Explication des marquages d'arbres</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://file.lacounty.gov/SDSInter/lac/1178475_WaiverofHazardousTreeRemoval.pdf"
+                >Formulaire de dérogation</a
+              >
+              (PDF)
+            </li>
+          </ul>
+        </div>
       </div>
 
       <!-- Step 6 -->
@@ -330,39 +436,41 @@ breadcrumbparent: Incendies de Los Angeles 2025
         <p>Pour faire enlever les débris, vous devez choisir de :</p>
 
         <div class="debris-removal-viz phase-2-debris-removal-viz">
-          <span>Participer pour un enlèvement gratuit</span>
+          <span>Opter pour l'enlèvement gratuit</span>
           <span>OU</span>
-          <span>Vous retirer pour organiser et payer l'enlèvement vous-même</span>
+          <span>Refuser pour organiser et payer l'enlèvement vous-même</span>
         </div>
 
         <p>
-          Il n'y a aucun frais à débourser pour ce service. Si vous avez une assurance, votre assureur sera facturé.
+          Il n'y a pas de frais à débourser pour ce service. Si vous avez
+          une assurance, votre assureur sera facturé.
         </p>
         <p>
-          L'enlèvement des débris ne peut pas commencer tant que le nettoyage de la Phase 1 n'est pas terminé ou reporté par l'EPA.
+          L'enlèvement des débris ne peut pas commencer sur votre propriété tant que la Phase 1 n'est pas terminée
+          ou reportée.
         </p>
       </div>
 
       <!-- Step 7 -->
       <div class="debris-step">
-        <h2>Inscrivez-vous avant la date limite</h2>
+        <h2>Optez avant la date limite</h2>
         <p>
           Pour bénéficier de l'enlèvement gratuit des débris, vous devez
-          <strong>vous inscrire avant le 31 mars 2025</strong>.
+          <strong>opter avant le 31 mars 2025</strong>.
         </p>
         <a
           class="btn btn-primary m-y-sm"
           href="https://recovery.lacounty.gov/debris-removal/roe/"
-          >Participer pour un enlèvement gratuit</a
+          >Opter pour l'enlèvement gratuit</a
         >
 
         <div class="debris-boxed-content phase-2-border-color">
-          <p>Pour remplir le formulaire d'inscription, vous aurez besoin :</p>
+          <p>Pour remplir le formulaire d'adhésion, vous aurez besoin :</p>
 
           <ul>
-            <li>Des coordonnées et signatures de tous les propriétaires</li>
+            <li>Coordonnées et signatures de tous les propriétaires du bien</li>
             <li>
-              Du numéro d'information de l'évaluateur (AIN)
+              Numéro d'information de l'évaluateur, ou AIN
               <ul>
                 <li>
                   <a
@@ -372,9 +480,9 @@ breadcrumbparent: Incendies de Los Angeles 2025
                 </li>
               </ul>
             </li>
-            <li>Des informations sur l'assurance habitation (si vous êtes assuré)</li>
+            <li>Informations sur l'assurance habitation (si vous êtes assuré)</li>
             <li>
-              Des informations sur les véhicules détruits sur la propriété
+              Informations sur les véhicules détruits sur la propriété
             </li>
           </ul>
         </div>
@@ -382,21 +490,23 @@ breadcrumbparent: Incendies de Los Angeles 2025
 
       <!-- Step 8 -->
       <div class="debris-step">
-        <h2>Se retirer à vos propres frais</h2>
+        <h2>Refuser à vos propres frais</h2>
         <p>
-          Si vous renoncez à l'enlèvement gratuit des débris, vous devrez organiser et payer ce service vous-même.
+          Si vous refusez l'enlèvement gratuit des débris, vous devrez organiser et payer
+          ce service vous-même.
         </p>
 
         <div class="debris-boxed-content phase-2-border-color">
           <p>Ce processus est compliqué et coûteux. Vous devez :</p>
           <ul>
-            <li>Engager un entrepreneur spécialisé et agréé</li>
+            <li>Engager un entrepreneur spécialisé agréé</li>
             <li>Obtenir l'approbation et un permis du comté de LA</li>
             <li>
-              Engager un consultant certifié pour vérifier la présence d'amiante
+              Engager un consultant certifié pour vérifier la présence d'amiante sur votre propriété
             </li>
             <li>
-              Vous assurer que votre entrepreneur respecte toutes les règles gouvernementales pour l'enlèvement sécuritaire des débris
+              Vous assurer que votre entrepreneur suit toutes les règles gouvernementales pour
+              l'enlèvement sécuritaire des débris
             </li>
           </ul>
         </div>
@@ -404,26 +514,27 @@ breadcrumbparent: Incendies de Los Angeles 2025
 
       <!-- Step 9 -->
       <div class="debris-step">
-        <h2>Comment se retirer</h2>
+        <h2>Comment refuser</h2>
         <p>
-          Si vous choisissez de vous retirer, soumettez un
+          Si vous choisissez de refuser, soumettez un
           <a
             href="https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8"
-            >formulaire de retrait</a
+            >formulaire de refus</a
           >
           au comté de LA immédiatement.
         </p>
         <p>
-          Il est important de soumettre ce formulaire pour que le comté puisse commencer l'enlèvement gratuit des débris pour vos voisins.
+          Il est important de soumettre ce formulaire pour que le comté puisse commencer l'enlèvement gratuit
+          des débris pour vos voisins.
         </p>
 
         <div class="debris-boxed-content phase-2-border-color">
           <p>Vous aurez besoin :</p>
           <ul>
-            <li>Du nom et du numéro de licence de votre entrepreneur</li>
-            <li>D'une description des débris à enlever</li>
+            <li>Nom et numéro de licence de votre entrepreneur</li>
+            <li>Description des débris que vous devez enlever</li>
             <li>
-              Du numéro d'information de l'évaluateur (AIN)
+              Numéro d'information de l'évaluateur, ou AIN
               <ul>
                 <li>
                   <a
@@ -450,7 +561,7 @@ breadcrumbparent: Incendies de Los Angeles 2025
           </p>
         </div>
         <div class="debris-boxed-content phase-2-border-color">
-          <h3 class="font-size-20">Aide pour remplir le formulaire d'inscription</h3>
+          <h3 class="font-size-20">Aide pour remplir le formulaire d'adhésion</h3>
           <ul>
             <li>
               Appelez la ligne d'assistance pour l'enlèvement des débris des travaux publics du comté de LA au
@@ -468,8 +579,8 @@ breadcrumbparent: Incendies de Los Angeles 2025
             </li>
             <li>
               Obtenez de l'aide en personne dans un
-              <a href="/lafires/get-help-in-person/"
-                >centre de rétablissement après sinistre</a
+              <a href="/lafires/fr/get-help-in-person/"
+                >Centre de rétablissement après sinistre</a
               >
             </li>
           </ul>
@@ -480,7 +591,7 @@ breadcrumbparent: Incendies de Los Angeles 2025
           </h3>
           <p>
             <a href="https://recovery.lacounty.gov/debris-removal/"
-              >Le comté de LA se rétablit</a
+              >LA County Recovers</a
             >
           </p>
         </div>
@@ -488,17 +599,18 @@ breadcrumbparent: Incendies de Los Angeles 2025
 
       <h2 class="m-b-lg">Où vont les débris</h2>
       <p>
-        Les travailleurs élimineront les débris d'une manière qui protège la santé publique et l'environnement.
+        Les travailleurs élimineront les débris d'une manière qui protège la santé publique et
+        l'environnement.
       </p>
       <p>
-        En savoir plus sur les débris d'incendie dans les décharges sur
+        En savoir plus sur
         <a
           href="https://calepa.ca.gov/disaster/debris/wildfire-debris-in-landfills-frequently-asked-questions/"
-          >CalEPA</a
-        >.
+          >les débris d'incendies de forêt dans les décharges</a
+        > de CalEPA.
       </p>
 
       <!--END MAIN COL CONTENT-->
     </div>
   </div>
-</div> 
+</div>
