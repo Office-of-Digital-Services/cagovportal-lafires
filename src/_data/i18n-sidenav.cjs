@@ -1,0 +1,186 @@
+module.exports = {
+ 
+  // sidenav translations
+  sidenav_2025_los_angeles_fires: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "2025 Los Angeles fires",
+    es: "Incendios de Los Angeles 2025",
+    fr: "Incendies de Los Angeles 2025",
+    tl: "Incendios de Los Angeles 2025",
+    ko: "2025년 로스앤젤레스 화재",
+    vi: "Đám cháy Los Angeles 2025",
+    "zh-hans": "2025年洛杉矶火灾",
+    "zh-hant": "2025年洛杉磯火災",
+    hy: "2025թ. Լոս Անջելես ամպուտներ"
+  },
+  sidenav_get_help_online: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Get help online",
+    es: "Obtener ayuda en línea",
+    fr: "Obtenir de l'aide en ligne",
+    tl: "Magtulong sa online",
+    ko: "온라인 도움 받기",
+    vi: "Nhận sự giúp đỡ trực tuyến",
+    "zh-hans": "在线获取帮助",
+    "zh-hant": "線上獲取幫助",
+    hy: "Առցանց օգնություն ստանալ"
+  },
+  sidenav_recovery_services_finder: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Recovery services finder",
+    es: "Búsqueda de servicios de recuperación",
+    fr: "Recherche de services de récupération",
+    tl: "Maghanap ng mga serbisyo ng pagkabuhay",
+    ko: "구조 서비스 검색",
+    vi: "Tìm kiếm dịch vụ phục hồi",
+    "zh-hans": "恢复服务查找器",
+    "zh-hant": "恢復服務查找器",
+    hy: "Գնահատական ծառայությունների որոնող"
+  },
+  sidenav_vital_records: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Vital records",
+    es: "Registros vitales",
+    fr: "Enregistrements vitaux",
+    tl: "Mga Vital na Record",
+    ko: "중요한 기록",
+    vi: "Bản ghi sống",
+    "zh-hans": "重要记录",
+    "zh-hant": "重要記錄",
+    hy: "Գործող գրառումներ"
+  },
+  sidenav_get_help_in_person: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Get help in person",
+    es: "Obtener ayuda en persona",
+    fr: "Obtenir de l'aide en personne",
+    tl: "Magtulong sa personal",
+    ko: "직접 도움 받기",
+    vi: "Nhận sự giúp đỡ trực tiếp",
+    "zh-hans": "亲自获取帮助",
+    "zh-hant": "親自獲取幫助",
+    hy: "Անձամբ օգնություն ստանալ"
+  },
+  sidenav_plan_your_in_person_visit: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Plan your in-person visit",
+    es: "Planifique su visita en persona",
+    fr: "Planifiez votre visite en personne",
+    tl: "Planuhin ang iyong pagbisita sa personal",
+    ko: "직접 방문 계획하기",
+    vi: "Lên kế hoạch cho chuyến thăm trực tiếp của bạn",
+    "zh-hans": "计划您的亲自访问",
+    "zh-hant": "計劃您的親自訪問",
+    hy: "Պլանավորել ձեր անձնական այցը"
+  },
+  sidenav_see_real_time_info: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "See real-time info",
+    es: "Ver información en tiempo real",
+    fr: "Voir les informations en temps réel",
+    tl: "Tingnan ang impormasyon sa real-time",
+    ko: "실시간 정보 보기",
+    vi: "Xem thông tin thời gian thực",
+    "zh-hans": "查看实时信息",
+    "zh-hant": "查看實時信息",
+    hy: "Տեսնել իրական ժամանակի տեղեկատվություն"
+  },
+  sidenav_start_your_recovery: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Start your recovery",
+    es: "Comience su recuperación",
+    fr: "Commencez votre récupération",
+    tl: "Simulan ang iyong pagbawi",
+    ko: "회복 시작하기",
+    vi: "Bắt đầu phục hồi của bạn",
+    "zh-hans": "开始您的恢复",
+    "zh-hant": "開始您的恢復",
+    hy: "Սկսել ձեր վերականգնումը"
+  },
+  sidenav_return_to_your_home_safely: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Return to your home safely",
+    es: "Regrese a su hogar de manera segura",
+    fr: "Retournez chez vous en toute sécurité",
+    tl: "Bumalik sa iyong tahanan nang ligtas",
+    ko: "안전하게 집으로 돌아가기",
+    vi: "Trở về nhà an toàn",
+    "zh-hans": "安全返回家中",
+    "zh-hant": "安全返回家中",
+    hy: "Անվտանգ վերադառնալ տուն"
+  },
+  sidenav_cleanup_and_debris_removal: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Cleanup and debris removal",
+    es: "Limpieza y remoción de escombros",
+    fr: "Nettoyage et enlèvement des débris",
+    tl: "Paglilinis at pag-alis ng mga labi",
+    ko: "청소 및 잔해 제거",
+    vi: "Dọn dẹp và loại bỏ mảnh vỡ",
+    "zh-hans": "清理和清除碎片",
+    "zh-hant": "清理和清除碎片",
+    hy: "Մաքրման և աղբահանության աշխատանքներ"
+  },
+  sidenav_steps_to_rebuilding: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Steps to rebuilding",
+    es: "Pasos para reconstruir",
+    fr: "Étapes pour reconstruire",
+    tl: "Mga hakbang sa muling pagtatayo",
+    ko: "재건 단계",
+    vi: "Các bước để xây dựng lại",
+    "zh-hans": "重建步骤",
+    "zh-hant": "重建步驟",
+    hy: "Վերակառուցման քայլեր"
+  },
+  sidenav_help_your_business: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Help your business",
+    es: "Ayude a su negocio",
+    fr: "Aidez votre entreprise",
+    tl: "Tulungan ang iyong negosyo",
+    ko: "귀하의 비즈니스를 돕다",
+    vi: "Giúp doanh nghiệp của bạn",
+    "zh-hans": "帮助您的业务",
+    "zh-hant": "幫助您的業務",
+    hy: "Օգնել ձեր բիզնեսին"
+  },
+  sidenav_volunteer: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Volunteer",
+    es: "Voluntario",
+    fr: "Bénévole",
+    tl: "Boluntaryo",
+    ko: "자원 봉사자",
+    vi: "Tình nguyện viên",
+    "zh-hans": "志愿者",
+    "zh-hant": "志願者",
+    hy: "Կամավոր"
+  },
+  sidenav_stay_healthy: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Stay healthy",
+    es: "Mantente saludable",
+    fr: "Reste en bonne santé",
+    tl: "Manatiling malusog",
+    ko: "건강 유지",
+    vi: "Giữ sức khỏe",
+    "zh-hans": "保持健康",
+    "zh-hant": "保持健康",
+    hy: "Առողջ մնալ"
+  },
+  sidenav_track_las_progress: {
+    src_file: "src/_includes/dynamic-sidenav.html",
+    en: "Track LA's progress",
+    es: "Siga el progreso de LA",
+    fr: "Suivre les progrès de LA",
+    tl: "Subaybayan ang pag-unlad ng LA",
+    ko: "LA의 진행 상황 추적",
+    vi: "Theo dõi tiến trình của LA",
+    "zh-hans": "跟踪洛杉矶的进展",
+    "zh-hant": "跟踪洛杉矶的進展",
+    hy: "Հետևել Լոս Անջելեսի առաջընթացին"
+  },
+ 
+
+};
