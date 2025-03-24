@@ -1,5 +1,6 @@
 module.exports = {
   on_this_page: {
+    status: 'machine translated',
     src_file: "src/_includes/on-this-page.html",
     en: "On this page",
     es: "En esta página",
@@ -11,7 +12,21 @@ module.exports = {
     "zh-hant": "在此頁面",
     hy: "Այս էջում"
   },
+  title_2025_los_angeles_fires: {
+    status: 'machine translated',
+    src_file: "several",
+    en: "2025 Los Angeles fires",
+    es: "Incendios de Los Angeles 2025",
+    fr: "Incendies de Los Angeles 2025",
+    tl: "Incendios de Los Angeles 2025",
+    ko: "2025년 로스앤젤레스 화재",
+    vi: "Đám cháy Los Angeles 2025",
+    "zh-hans": "2025年洛杉矶火灾",
+    "zh-hant": "2025年洛杉磯火災",
+    hy: "2025թ. Լոս Անջելես ամպուտներ"
+  },
   official_california_website: {
+    status: 'machine translated',
     src_file: "src/_includes/utility-header.html",
     en: "Official California website",
     es: "Sitio web oficial de California",
@@ -24,6 +39,7 @@ module.exports = {
     hy: "Կալիֆորնիայի պաշտոնական կայք"
   },
   i18y_test_phrase: {
+    status: 'machine translated',
     src_file: "src/_includes/utility-header.html",
     en: "Hello, World",
     es: "¡Hola, Mundo!",
@@ -36,6 +52,7 @@ module.exports = {
     hy: "Բարև, Աշխարհ"
   },
   cagov_promo_1: {
+    status: 'machine translated',
     src_file: "src/_includes/utility-header.html",
     en: "California government websites use .ca.gov",
     es: "Los sitios web del gobierno de California usan .ca.gov",
@@ -48,6 +65,7 @@ module.exports = {
     hy: "Կալիֆորնիայի կառավարության կայքերն օգտագործում են .ca.gov"
   },
   cagov_promo_2: {
+    status: 'machine translated',
     src_file: "src/_includes/utility-header.html",
     en: "A .ca.gov website is part of California's government.",
     es: "Un sitio web .ca.gov es parte del gobierno de California.",
@@ -60,6 +78,7 @@ module.exports = {
     hy: ".ca.gov կայքը Կալիֆորնիայի կառավարության մաս է կազմում։"
   },
   search_placeholder: {
+    status: 'machine translated',
     src_file: "src/_includes/search.html",
     en: "Search",
     es: "Buscar",
@@ -72,6 +91,7 @@ module.exports = {
     hy: "Որոնել"
   },
   translate: {
+    status: 'machine translated',
     src_file: "src/_includes/utility-header-lafires.html",
     en: "Translate",
     es: "Traducir",
@@ -84,6 +104,7 @@ module.exports = {
     hy: "Թարգմանել"
   },
   services: {
+    status: 'machine translated',
     src_file: "src/_includes/navigation.html",
     en: "Services",
     es: "Servicios",
@@ -96,6 +117,7 @@ module.exports = {
     hy: "Ծառայություններ"
   },
   departments: {
+    status: 'machine translated',
     src_file: "src/_includes/navigation.html",
     en: "Departments",
     es: "Departamentos",
@@ -108,6 +130,7 @@ module.exports = {
     hy: "Բաժիններ"
   },
   about_california: {
+    status: 'machine translated',
     src_file: "src/_includes/navigation.html",
     en: "About California",
     es: "Acerca de California",
@@ -120,6 +143,7 @@ module.exports = {
     hy: "Կալիֆորնիայի մասին"
   },
   get_help: {
+    status: 'machine translated',
     src_file: "src/_includes/navigation.html",
     en: "Get help",
     es: "Obtener ayuda",
@@ -132,6 +156,7 @@ module.exports = {
     hy: "Օգնություն ստանալ"
   },
   about: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "About",
     es: "Acerca de",
@@ -144,6 +169,7 @@ module.exports = {
     hy: "Մասին"
   },
   about_this_website: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "About this website",
     es: "Acerca de este sitio web",
@@ -156,6 +182,7 @@ module.exports = {
     hy: "Այս կայքի մասին"
   },
   state_careers: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "State careers",
     es: "Carreras estatales",
@@ -168,6 +195,7 @@ module.exports = {
     hy: "Պետական կարիերա"
   },
   california_data: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "California data",
     es: "Datos de California",
@@ -180,6 +208,7 @@ module.exports = {
     hy: "Կալիֆորնիայի տվյալներ"
   },
   support: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Support",
     es: "Apoyo",
@@ -192,6 +221,7 @@ module.exports = {
     hy: "Աջակցություն"
   },
   state_directory: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "State directory",
     es: "Directorio estatal",
@@ -204,6 +234,7 @@ module.exports = {
     hy: "Պետական տեղեկատու"
   },
   technical_help: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Technical help",
     es: "Ayuda técnica",
@@ -216,6 +247,7 @@ module.exports = {
     hy: "Տեխնիկական օգնություն"
   },
   contact: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Contact",
     es: "Contacto",
@@ -228,6 +260,7 @@ module.exports = {
     hy: "Կապ"
   },
   campaigns: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Campaigns",
     es: "Campañas",
@@ -240,6 +273,7 @@ module.exports = {
     hy: "Արշավներ"
   },
   register_to_vote: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Register to vote",
     es: "Registrarse para votar",
@@ -252,6 +286,7 @@ module.exports = {
     hy: "Գրանցվել քվեարկելու համար"
   },
   save_our_water: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Save our water",
     es: "Ahorremos agua",
@@ -264,6 +299,7 @@ module.exports = {
     hy: "Խնայենք մեր ջուրը"
   },
   flex_alert: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Flex alert",
     es: "Alerta Flex",
@@ -276,6 +312,7 @@ module.exports = {
     hy: "Ֆլեքս զգուշացում"
   },
   alerts: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Alerts",
     es: "Alertas",
@@ -288,6 +325,7 @@ module.exports = {
     hy: "Զգուշացումներ"
   },
   amber_alert: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Amber alert",
     es: "Alerta Amber",
@@ -300,6 +338,7 @@ module.exports = {
     hy: "Էմբեր զգուշացում"
   },
   cal_alerts: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Cal alerts",
     es: "Alertas Cal",
@@ -312,6 +351,7 @@ module.exports = {
     hy: "Կալ զգուշացումներ"
   },
   my_hazards: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "My hazards",
     es: "Mis peligros",
@@ -324,6 +364,7 @@ module.exports = {
     hy: "Իմ վտանգները"
   },
   website_accessibility_certification: {
+    status: 'machine translated',
     src_file: "src/_includes/site-footer.html",
     en: "Website Accessibility Certification",
     es: "Certificación de accesibilidad del sitio web",
@@ -336,6 +377,7 @@ module.exports = {
     hy: "Կայքի մատչելիության հավաստագրում"
   },
   conditions_of_use: {
+    status: 'machine translated',
     src_file: "src/_includes/global-footer.html",
     en: "Conditions of use",
     es: "Condiciones de uso",
@@ -348,6 +390,7 @@ module.exports = {
     hy: "Օգտագործման պայմաններ"
   },
   privacy_policy: {
+    status: 'machine translated',
     src_file: "src/_includes/global-footer.html",
     en: "Privacy policy",
     es: "Política de privacidad",
@@ -360,6 +403,7 @@ module.exports = {
     hy: "Գաղտնիության քաղաքականություն"
   },
   accessibility: {
+    status: 'machine translated',
     src_file: "src/_includes/global-footer.html",
     en: "Accessibility",
     es: "Accesibilidad",
@@ -372,6 +416,7 @@ module.exports = {
     hy: "Մատչելիություն"
   },
   sitemap: {
+    status: 'machine translated',
     src_file: "src/_includes/global-footer.html",
     en: "Sitemap",
     es: "Mapa del sitio",
@@ -384,6 +429,7 @@ module.exports = {
     hy: "Կայքի քարտեզ"
   },
   state_of_california: {
+    status: 'machine translated',
     src_file: "src/_includes/global-footer.html",
     en: "State of California",
     es: "Estado de California",
@@ -396,6 +442,7 @@ module.exports = {
     hy: "Կալիֆորնիա նահանգ"
   },
   back_to_top: {
+    status: 'machine translated',
     src_file: "src/_includes/global-footer.html",
     en: "Back to top",
     es: "Volver arriba",
@@ -408,6 +455,7 @@ module.exports = {
     hy: "Վերադառնալ վերև"
   },
   homepage_name: {
+    status: 'machine translated',
     src_file: "src/_includes/global-footer.html",
     comment: "Home as in home page, used for web navigation",
     en: "Home",
@@ -421,6 +469,7 @@ module.exports = {
     hy: "Գլխավոր էջ"
   },
   skip_to_main_content: {
+    status: 'machine translated',
     src_file: "src/_includes/layouts/base.html",
     en: "Skip to Main Content",
     es: "Omitir el contenido principal",

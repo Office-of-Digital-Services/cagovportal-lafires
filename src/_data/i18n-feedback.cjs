@@ -1,7 +1,6 @@
 module.exports = {
-
-
   feedback_question: {
+    status: 'machine translated',
     src_file: "src/_includes/feedback.html",
     en: "Did you find what you were looking for?",
     es: "¿Encontraste lo que buscabas?",
@@ -14,6 +13,7 @@ module.exports = {
     hy: "Գտա՞ք այն, ինչ փնտրում էիք:"
   },
   feedback_yes: {
+    status: 'machine translated',
     src_file: "src/_includes/feedback.html",
     en: "Yes",
     es: "Sí",
@@ -26,6 +26,7 @@ module.exports = {
     hy: "Այո"
   },
   feedback_no: {
+    status: 'machine translated',
     src_file: "src/_includes/feedback.html",
     en: "No",
     es: "No",
@@ -38,6 +39,7 @@ module.exports = {
     hy: "Ոչ"
   },
   feedback_comment_prompt: {
+    status: 'machine translated',
     src_file: "src/_includes/feedback.html",
     en: "What was the problem?",
     es: "¿Cuál fue el problema?",
@@ -50,6 +52,7 @@ module.exports = {
     hy: "Ինչ է եղել խնդրումը:"
   },
   feedback_positive_comment_prompt: {
+    status: 'machine translated',
     src_file: "src/_includes/feedback.html",
     en: "Great! What were you looking for today?",
     es: "¡Genial! ¿Qué estás buscando hoy?",
@@ -62,6 +65,7 @@ module.exports = {
     hy: "Լավ է! Ինչ եք այսօր որոնում:"
   },
   feedback_thanks_feedback: {
+    status: 'machine translated',
     src_file: "src/_includes/feedback.html",
     en: "Thank you for your feedback!",
     es: "¡Gracias por tu feedback!",
@@ -74,6 +78,7 @@ module.exports = {
     hy: "Շնորհակալություն ձեր վերաբերմունքի համար:"
   },
   feedback_thanks_comments: {
+    status: 'machine translated',
     src_file: "src/_includes/feedback.html",
     en: "Thank you for your comments!",
     es: "¡Gracias por tus comentarios!",
@@ -86,6 +91,7 @@ module.exports = {
     hy: "Շնորհակալություն ձեր մեկնաբանությունների համար:"
   },
   feedback_submit: {
+    status: 'machine translated',
     src_file: "src/_includes/feedback.html",
     en: "Submit",
     es: "Enviar",
@@ -98,6 +104,7 @@ module.exports = {
     hy: "Ուղարկել"
   },
   feedback_anything_to_add: {
+    status: 'machine translated',
     src_file: "src/_includes/feedback.html",
     en: "If you have anything to add,",
     es: "Si tienes algo que agregar,",
@@ -110,6 +117,7 @@ module.exports = {
     hy: "Եթե ունեք որևէ ավելացնելու բան,",
   },
   feedback_any_other_feedback: {
+    status: 'machine translated',
     src_file: "src/_includes/feedback.html",
     en: "If you have any other feedback about this website,",
     es: "Si tienes algún otro comentario sobre este sitio web,",

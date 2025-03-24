@@ -1,7 +1,7 @@
 module.exports = {
- 
   // sidenav translations
   sidenav_2025_los_angeles_fires: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "2025 Los Angeles fires",
     es: "Incendios de Los Angeles 2025",
@@ -14,6 +14,7 @@ module.exports = {
     hy: "2025թ. Լոս Անջելես ամպուտներ"
   },
   sidenav_get_help_online: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Get help online",
     es: "Obtener ayuda en línea",
@@ -26,6 +27,7 @@ module.exports = {
     hy: "Առցանց օգնություն ստանալ"
   },
   sidenav_recovery_services_finder: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Recovery services finder",
     es: "Búsqueda de servicios de recuperación",
@@ -38,6 +40,7 @@ module.exports = {
     hy: "Գնահատական ծառայությունների որոնող"
   },
   sidenav_vital_records: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Vital records",
     es: "Registros vitales",
@@ -50,6 +53,7 @@ module.exports = {
     hy: "Գործող գրառումներ"
   },
   sidenav_get_help_in_person: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Get help in person",
     es: "Obtener ayuda en persona",
@@ -62,6 +66,7 @@ module.exports = {
     hy: "Անձամբ օգնություն ստանալ"
   },
   sidenav_plan_your_in_person_visit: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Plan your in-person visit",
     es: "Planifique su visita en persona",
@@ -74,6 +79,7 @@ module.exports = {
     hy: "Պլանավորել ձեր անձնական այցը"
   },
   sidenav_see_real_time_info: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "See real-time info",
     es: "Ver información en tiempo real",
@@ -86,6 +92,7 @@ module.exports = {
     hy: "Տեսնել իրական ժամանակի տեղեկատվություն"
   },
   sidenav_start_your_recovery: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Start your recovery",
     es: "Comience su recuperación",
@@ -98,6 +105,7 @@ module.exports = {
     hy: "Սկսել ձեր վերականգնումը"
   },
   sidenav_return_to_your_home_safely: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Return to your home safely",
     es: "Regrese a su hogar de manera segura",
@@ -110,6 +118,7 @@ module.exports = {
     hy: "Անվտանգ վերադառնալ տուն"
   },
   sidenav_cleanup_and_debris_removal: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Cleanup and debris removal",
     es: "Limpieza y remoción de escombros",
@@ -122,6 +131,7 @@ module.exports = {
     hy: "Մաքրման և աղբահանության աշխատանքներ"
   },
   sidenav_steps_to_rebuilding: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Steps to rebuilding",
     es: "Pasos para reconstruir",
@@ -134,6 +144,7 @@ module.exports = {
     hy: "Վերակառուցման քայլեր"
   },
   sidenav_help_your_business: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Help your business",
     es: "Ayude a su negocio",
@@ -146,6 +157,7 @@ module.exports = {
     hy: "Օգնել ձեր բիզնեսին"
   },
   sidenav_volunteer: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Volunteer",
     es: "Voluntario",
@@ -158,6 +170,7 @@ module.exports = {
     hy: "Կամավոր"
   },
   sidenav_stay_healthy: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Stay healthy",
     es: "Mantente saludable",
@@ -170,6 +183,7 @@ module.exports = {
     hy: "Առողջ մնալ"
   },
   sidenav_track_las_progress: {
+    status: 'machine translated',
     src_file: "src/_includes/dynamic-sidenav.html",
     en: "Track LA's progress",
     es: "Siga el progreso de LA",

@@ -12,7 +12,7 @@ let translationsModule = { translations: require("./src/_data/i18n.cjs") }; // C
 let translationsModule_sidenav = { translations: require("./src/_data/i18n-sidenav.cjs") }; // Change to an object that holds the translations
 let translationsModule_service_finder = { translations: require("./src/_data/i18n-service-finder.cjs") }; // Change to an object that holds the translations
 let translationsModule_feedback = { translations: require("./src/_data/i18n-feedback.cjs") }; // Change to an object that holds the translations
-
+let translationsModule_volunteer = { translations: require("./src/_data/i18n-volunteer.cjs") }; // Change to an object that holds the translations
 const chalk = require("chalk");
 
 // canonical domain
@@ -26,7 +26,8 @@ const is_development = process.env.MY_ENVIRONMENT ? process.env.MY_ENVIRONMENT =
 translationsModule.translations = { ...translationsModule.translations, 
                                     ...translationsModule_sidenav.translations, 
                                     ...translationsModule_service_finder.translations, 
-                                    ...translationsModule_feedback.translations };
+                                    ...translationsModule_feedback.translations,
+                                    ...translationsModule_volunteer.translations };
 
 module.exports = function (
   /** @type {import("@11ty/eleventy").UserConfig} **/ eleventyConfig

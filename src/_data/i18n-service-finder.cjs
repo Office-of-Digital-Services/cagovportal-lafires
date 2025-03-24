@@ -1,6 +1,7 @@
 module.exports = {
   // Service-Finder translations
   sf_21_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Prescription medicine help",
     es: "Ayuda con medicamentos recetados",
@@ -13,6 +14,7 @@ module.exports = {
     hy: "Դեղատոմսով դեղորայքի օգնություն"
   },
   sf_21_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "U.S. Department of Health and Human Services",
     es: "Departamento de Salud y Servicios Humanos de EE. UU.",
@@ -25,6 +27,7 @@ module.exports = {
     hy: "ԱՄՆ առողջապահության և սոցիալական ծառայությունների դեպարտամենտ"
   },
   sf_21_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json", 
     en: "Get the prescriptions you need through the Emergency Prescription Assistance Program.",
     es: "Obtenga los medicamentos recetados que necesita a través del Programa de Asistencia para Medicamentos Recetados de Emergencia.",
@@ -39,6 +42,7 @@ module.exports = {
 
   // Service translations for ID 22
   sf_22_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Temporary housing",
     es: "Vivienda temporal",
@@ -51,6 +55,7 @@ module.exports = {
     hy: "Ժամանակավոր բնակարան"
   },
   sf_22_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Federal Emergency Management Agency",
     es: "Agencia Federal para el Manejo de Emergencias",
@@ -63,6 +68,7 @@ module.exports = {
     hy: "Դաշնային արտակարգ իրավիճակների կառավարման գործակալություն"
   },
   sf_22_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Apply by March 31, 2025, for FEMA disaster assistance to get 14 days to several months of temporary housing support. This can include rental assistance and hotel or other short-term lodging reimbursement.",
     es: "Solicite antes del 31 de marzo de 2025 la asistencia por desastre de FEMA para obtener de 14 días a varios meses de apoyo para vivienda temporal. Esto puede incluir asistencia para el alquiler y reembolso de hotel u otro alojamiento a corto plazo.",
@@ -76,6 +82,7 @@ module.exports = {
   },
   // Service translations for ID 23
   sf_23_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "FEMA disaster assistance",
     es: "Asistencia por desastre de FEMA",
@@ -88,6 +95,7 @@ module.exports = {
     hy: "FEMA-ի աղետների օգնություն"
   },
   sf_23_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Federal Emergency Management Agency",
     es: "Agencia Federal para el Manejo de Emergencias",
@@ -100,6 +108,7 @@ module.exports = {
     hy: "Դաշնային արտակարգ իրավիճակների կառավարման գործակալություն"
   },
   sf_23_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Apply by March 31, 2025 for FEMA disaster assistance. Get help with losses not covered by insurance — including temporary housing, repairs, and rebuilding.",
     es: "Solicite antes del 31 de marzo de 2025 la asistencia por desastre de FEMA. Obtenga ayuda con pérdidas no cubiertas por el seguro, incluyendo vivienda temporal, reparaciones y reconstrucción.",
@@ -114,6 +123,7 @@ module.exports = {
 
   // Service translations for ID 25
   sf_25_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Disaster loans for businesses",
     es: "Préstamos por desastre para negocios",
@@ -126,6 +136,7 @@ module.exports = {
     hy: "Աղետների վարկեր բիզնեսների համար"
   },
   sf_25_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "U.S. Small Business Administration",
     es: "Administración de Pequeños Negocios de EE. UU.",
@@ -138,6 +149,7 @@ module.exports = {
     hy: "ԱՄՆ փոքր բիզնեսի վարչություն"
   },
   sf_25_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Apply by March 31, 2025, for a loan to repair physical damage to your business. Businesses of any size can apply. Apply by October 25, 2025, for a loan to cover economic losses to your small business.",
     es: "Solicite antes del 31 de marzo de 2025 un préstamo para reparar daños físicos a su negocio. Negocios de cualquier tamaño pueden aplicar. Solicite antes del 25 de octubre de 2025 un préstamo para cubrir pérdidas económicas de su pequeño negocio.",
@@ -152,6 +164,7 @@ module.exports = {
 
   // Service translations for ID 26
   sf_26_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Business use tax or fee extension and relief",
     es: "Extensión y alivio del impuesto de uso o tarifa comercial",
@@ -164,6 +177,7 @@ module.exports = {
     hy: "Բիզնեսի օգտագործման հարկի կամ վճարի երկարաձգում և թեթևացում"
   },
   sf_26_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Tax and Fee Administration",
     es: "Departamento de Administración de Impuestos y Tarifas de California",
@@ -176,6 +190,7 @@ module.exports = {
     hy: "Կալիֆորնիայի հարկային և վճարների կառավարման վարչություն"
   },
   sf_26_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Get relief from penalties, collection costs, and interest. You can also get up to a 3-month filing extension on your tax returns.",
     es: "Obtenga alivio de multas, costos de cobro e intereses. También puede obtener una extensión de hasta 3 meses para presentar sus declaraciones de impuestos.",
@@ -188,6 +203,7 @@ module.exports = {
     hy: "Ստացեք թեթևացում տուգանքներից, հավաքագրման ծախսերից և տոկոսներից: Դուք կարող եք նաև ստանալ մինչև 3 ամիս հարկային հայտարարագրերի ներկայացման երկարաձգում:"
   },
   sf_27_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Business income tax extension",
     es: "Extensión del impuesto sobre la renta comercial",
@@ -200,6 +216,7 @@ module.exports = {
     hy: "Բիզնեսի եկամտահարկի երկարաձգում"
   },
   sf_27_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Franchise Tax Board",
     es: "Junta de Impuestos sobre Franquicias de California",
@@ -212,6 +229,7 @@ module.exports = {
     hy: "Կալիֆորնիայի ֆրանչայզի հարկային խորհուրդ"
   },
   sf_27_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Learn about the extended deadline to file and pay business income tax in Los Angeles County. The new deadline is October 15, 2025.",
     es: "Conozca sobre la fecha límite extendida para presentar y pagar el impuesto sobre la renta comercial en el Condado de Los Ángeles. La nueva fecha límite es el 15 de octubre de 2025.",
@@ -224,6 +242,7 @@ module.exports = {
     hy: "Իմացեք Լոս Անջելես շրջանում բիզնեսի եկամտահարկի հայտարարագրման և վճարման երկարաձգված վերջնաժամկետի մասին: Նոր վերջնաժամկետը 2025թ. հոկտեմբերի 15-ն է:"
   },
   sf_28_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Employer payroll tax and reporting extension",
     es: "Extensión de impuestos sobre la nómina y reportes del empleador",
@@ -236,6 +255,7 @@ module.exports = {
     hy: "Գործատուի աշխատավարձի հարկի և հաշվետվության երկարաձգում"
   },
   sf_28_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Employment Development Department",
     es: "Departamento del Desarrollo del Empleo de California",
@@ -248,6 +268,7 @@ module.exports = {
     hy: "Կալիֆորնիայի զբաղվածության զարգացման վարչություն"
   },
   sf_28_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Get an extension of up to two months to file state payroll reports and deposit state payroll taxes, without penalty or interest.",
     es: "Obtenga una extensión de hasta dos meses para presentar informes de nómina estatal y depositar impuestos de nómina estatal, sin multas ni intereses.",
@@ -260,6 +281,7 @@ module.exports = {
     hy: "Ստացեք մինչև երկու ամիս երկարաձգում՝ նահանգային աշխատավարձի հաշվետվությունները ներկայացնելու և նահանգային աշխատավարձի հարկերը վճարելու համար, առանց տուգանքի կամ տոկոսի:"
   },
   sf_30_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Business recovery resources",
     es: "Recursos de recuperación empresarial",
@@ -272,6 +294,7 @@ module.exports = {
     hy: "Բիզնեսի վերականգնման ռեսուրսներ"
   },
   sf_30_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Office of the Small Business Advocate",
     es: "Oficina del Defensor de Pequeños Negocios de California",
@@ -284,6 +307,7 @@ module.exports = {
     hy: "Կալիֆորնիայի փոքր բիզնեսի պաշտպանի գրասենյակ"
   },
   sf_30_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Find resources and support for businesses and workers impacted by the wildfires. This includes financial help, recovery programs, and workforce support.",
     es: "Encuentre recursos y apoyo para negocios y trabajadores afectados por los incendios forestales. Esto incluye ayuda financiera, programas de recuperación y apoyo laboral.",
@@ -296,6 +320,7 @@ module.exports = {
     hy: "Գտեք ռեսուրսներ և աջակցություն անտառային հրդեհներից տուժած բիզնեսների և աշխատողների համար: Սա ներառում է ֆինանսական օգնություն, վերականգնման ծրագրեր և աշխատուժի աջակցություն:"
   },
   sf_31_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Unemployment benefits",
     es: "Beneficios de desempleo",
@@ -308,6 +333,7 @@ module.exports = {
     hy: "Գործազրկության նպաստներ"
   },
   sf_31_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Employment Development Department",
     es: "Departamento del Desarrollo del Empleo de California",
@@ -320,6 +346,7 @@ module.exports = {
     hy: "Կալիֆորնիայի զբաղվածության զարգացման վարչություն"
   },
   sf_31_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Apply by March 31, 2025, for disaster unemployment assistance (DUA). If you lost your job, apply for unemployment benefits.",
     es: "Solicite antes del 31 de marzo de 2025 la asistencia por desempleo por desastre (DUA). Si perdió su trabajo, solicite beneficios de desempleo.",
@@ -332,6 +359,7 @@ module.exports = {
     hy: "Դիմեք մինչև 2025թ. մարտի 31-ը աղետի գործազրկության օգնության (DUA) համար: Եթե կորցրել եք աշխատանքը, դիմեք գործազրկության նպաստների համար:"
   },
   sf_32_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Disability benefits",
     es: "Beneficios por discapacidad",
@@ -344,6 +372,7 @@ module.exports = {
     hy: "Հաշմանդամության նպաստներ"
   },
   sf_32_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Employment Development Department",
     es: "Departamento del Desarrollo del Empleo de California",
@@ -356,6 +385,7 @@ module.exports = {
     hy: "Կալիֆորնիայի զբաղվածության զարգացման վարչություն"
   },
   sf_32_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "If you are sick or injured from the fires, apply for disability benefits.",
     es: "Si está enfermo o lesionado por los incendios, solicite beneficios por discapacidad.",
@@ -368,6 +398,7 @@ module.exports = {
     hy: "Եթե հիվանդ եք կամ վնասվածք եք ստացել հրդեհներից, դիմեք հաշմանդամության նպաստների համար:"
   },
   sf_33_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Paid Family Leave",
     es: "Permiso Familiar Pagado",
@@ -380,6 +411,7 @@ module.exports = {
     hy: "Վճարովի ընտանեկան արձակուրդ"
   },
   sf_33_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Employment Development Department",
     es: "Departamento del Desarrollo del Empleo de California",
@@ -392,6 +424,7 @@ module.exports = {
     hy: "Կալիֆորնիայի զբաղվածության զարգացման վարչություն"
   },
   sf_33_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "If you need time off work to care for your family, apply for Paid Family Leave.",
     es: "Si necesita tiempo libre del trabajo para cuidar a su familia, solicite el Permiso Familiar Pagado.",
@@ -404,6 +437,7 @@ module.exports = {
     hy: "Եթե ձեզ անհրաժեշտ է ազատ ժամանակ աշխատանքից՝ ձեր ընտանիքին խնամելու համար, դիմեք Վճարովի ընտանեկան արձակուրդի համար:"
   },
   sf_34_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Job search resources",
     es: "Recursos de búsqueda de empleo",
@@ -416,6 +450,7 @@ module.exports = {
     hy: "Աշխատանքի որոնման ռեսուրսներ"
   },
   sf_34_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Employment Development Department",
     es: "Departamento del Desarrollo del Empleo de California",
@@ -428,6 +463,7 @@ module.exports = {
     hy: "Կալիֆորնիայի զբաղվածության զարգացման վարչություն"
   },
   sf_34_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Find job search tools like CalJOBS and other resources to help you find employment.",
     es: "Encuentre herramientas de búsqueda de empleo como CalJOBS y otros recursos para ayudarlo a encontrar empleo.",
@@ -440,6 +476,7 @@ module.exports = {
     hy: "Գտեք աշխատանքի որոնման գործիքներ, ինչպիսիք են CalJOBS-ը և այլ ռեսուրսներ, որոնք կօգնեն ձեզ գտնել աշխատանք:"
   },
   sf_35_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Job training",
     es: "Capacitación laboral",
@@ -452,6 +489,7 @@ module.exports = {
     hy: "Աշխատանքային վերապատրաստում"
   },
   sf_35_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Employment Development Department",
     es: "Departamento del Desarrollo del Empleo de California",
@@ -464,6 +502,7 @@ module.exports = {
     hy: "Կալիֆորնիայի զբաղվածության զարգացման վարչություն"
   },
   sf_35_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "General support, referrals, and training to find a new job in California.",
     es: "Apoyo general, referencias y capacitación para encontrar un nuevo trabajo en California.",
@@ -476,6 +515,7 @@ module.exports = {
     hy: "Ընդհանուր աջակցություն, ուղղորդումներ և վերապատրաստում՝ Կալիֆորնիայում նոր աշխատանք գտնելու համար:"
   },
   sf_36_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "CalJOBS job search system",
     es: "Sistema de búsqueda de empleo CalJOBS",
@@ -488,6 +528,7 @@ module.exports = {
     hy: "CalJOBS աշխատանքի որոնման համակարգ"
   },
   sf_36_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Employment Development Department",
     es: "Departamento del Desarrollo del Empleo de California",
@@ -500,6 +541,7 @@ module.exports = {
     hy: "Կալիֆորնիայի զբաղվածության զարգացման վարչություն"
   },
   sf_36_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Apply for a new job on CalJOBS, California's online job exchange system.",
     es: "Solicite un nuevo trabajo en CalJOBS, el sistema de intercambio de empleos en línea de California.",
@@ -512,6 +554,7 @@ module.exports = {
     hy: "Դիմեք նոր աշխատանքի համար CalJOBS-ում՝ Կալիֆորնիայի առցանց աշխատանքի փոխանակման համակարգում:"
   },
   sf_37_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "WIC food benefits for women and children",
     es: "Beneficios de alimentos WIC para mujeres y niños",
@@ -524,6 +567,7 @@ module.exports = {
     hy: "WIC սննդի նպաստներ կանանց և երեխաների համար"
   },
   sf_37_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Public Health",
     es: "Departamento de Salud Pública de California",
@@ -536,6 +580,7 @@ module.exports = {
     hy: "Կալիֆորնիայի հանրային առողջության վարչություն"
   },
   sf_37_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Get monthly benefits from the California Women, Infants and Children (WIC) program. Use these benefits to buy food for yourself and your children. You can also get nutrition and breastfeeding support.",
     es: "Obtenga beneficios mensuales del programa de Mujeres, Bebés y Niños (WIC) de California. Use estos beneficios para comprar alimentos para usted y sus hijos. También puede obtener apoyo nutricional y para la lactancia.",
@@ -548,6 +593,7 @@ module.exports = {
     hy: "Ստացեք ամսական նպաստներ Կալիֆորնիայի Կանայք, մանկիկներ և երեխաներ (WIC) ծրագրից: Օգտագործեք այս նպաստները ձեզ և ձեր երեխաների համար սնունդ գնելու համար: Դուք կարող եք նաև ստանալ սննդի և կրծքով կերակրման աջակցություն:"
   },
   sf_38_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "CalFresh food benefits",
     es: "Beneficios de alimentos de CalFresh",
@@ -560,6 +606,7 @@ module.exports = {
     hy: "CalFresh սննդի նպաստներ"
   },
   sf_38_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Social Services",
     es: "Departamento de Servicios Sociales de California",
@@ -572,6 +619,7 @@ module.exports = {
     hy: "Կալիֆորնիայի սոցիալական ծառայությունների վարչություն"
   },
   sf_38_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "CalFresh can help your family get access to healthy food. You can use monthly CalFresh benefits at most grocery stores and even farmers markets.",
     es: "CalFresh puede ayudar a su familia a tener acceso a alimentos saludables. Puede usar los beneficios mensuales de CalFresh en la mayoría de las tiendas de comestibles e incluso en los mercados de agricultores.",
@@ -584,6 +632,7 @@ module.exports = {
     hy: "CalFresh-ը կարող է օգնել ձեր ընտանիքին հասանելիություն ստանալ առողջ սննդին: Դուք կարող եք օգտագործել ամսական CalFresh նպաստները սննդի խանութների մեծ մասում և նույնիսկ ֆերմերների շուկաներում:"
   },
   sf_39_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Find food banks and food pantries",
     es: "Encuentre bancos de alimentos y despensas de alimentos",
@@ -596,6 +645,7 @@ module.exports = {
     hy: "Գտեք սննդի բանկեր և սննդի պահեստներ"
   },
   sf_39_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Social Services",
     es: "Departamento de Servicios Sociales de California",
@@ -608,6 +658,7 @@ module.exports = {
     hy: "Կալիֆորնիայի սոցիալական ծառայությունների վարչություն"
   },
   sf_39_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Find locations near you where you can get free food and groceries.",
     es: "Encuentre ubicaciones cerca de usted donde pueda obtener alimentos y comestibles gratis.",
@@ -621,6 +672,7 @@ module.exports = {
   },
 
   sf_41_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Mental health resources",
     es: "Recursos de salud mental",
@@ -633,6 +685,7 @@ module.exports = {
     hy: "Հոգեկան առողջության ռեսուրսներ"
   },
   sf_41_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Public Health",
     es: "Departamento de Salud Pública de California",
@@ -645,6 +698,7 @@ module.exports = {
     hy: "Կալիֆորնիայի հանրային առողջության վարչություն"
   },
   sf_41_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Find resources and tips to take care of your mental health after a wildfire.",
     es: "Encuentre recursos y consejos para cuidar su salud mental después de un incendio forestal.",
@@ -658,6 +712,7 @@ module.exports = {
   },
 
   sf_43_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Mortgage relief",
     es: "Alivio hipotecario",
@@ -670,6 +725,7 @@ module.exports = {
     hy: "Հիփոթեքային օգնություն"
   },
   sf_43_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Financial Protection & Innovation",
     es: "Departamento de Protección Financiera e Innovación de California",
@@ -682,6 +738,7 @@ module.exports = {
     hy: "Կալիֆորնիայի ֆինանսական պաշտպանության և նորարարության վարչություն"
   },
   sf_43_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Get mortgage relief for structures damaged or destroyed by the LA fires. Temporarily reduce or pause mortgage payments, waive late fees, and more.",
     es: "Obtenga alivio hipotecario para estructuras dañadas o destruidas por los incendios de Los Ángeles. Reduzca o pause temporalmente los pagos de la hipoteca, renuncie a los cargos por pagos atrasados y más.",
@@ -695,6 +752,7 @@ module.exports = {
   },
 
   sf_44_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "State disaster grants",
     es: "Subvenciones estatales por desastres",
@@ -707,6 +765,7 @@ module.exports = {
     hy: "Պետական աղետների դրամաշնորհներ"
   },
   sf_44_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Social Services",
     es: "Departamento de Servicios Sociales de California",
@@ -719,6 +778,7 @@ module.exports = {
     hy: "Կալիֆորնիայի սոցիալական ծառայությունների վարչություն"
   },
   sf_44_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "If you've already received the maximum amount of FEMA disaster assistance, you may be eligible for a grant from California's State Supplemental Grant Program (SSGP). FEMA will automatically apply on your behalf. You don't need to apply directly for these state disaster grants.",
     es: "Si ya ha recibido la cantidad máxima de asistencia por desastre de FEMA, puede ser elegible para una subvención del Programa de Subvenciones Suplementarias del Estado de California (SSGP). FEMA aplicará automáticamente en su nombre. No necesita solicitar directamente estas subvenciones estatales por desastres.",
@@ -732,6 +792,7 @@ module.exports = {
   },
 
   sf_45_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Pet assistance",
     es: "Asistencia para mascotas",
@@ -744,6 +805,7 @@ module.exports = {
     hy: "Կենդանիների օգնություն"
   },
   sf_45_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Food and Agriculture",
     es: "Departamento de Alimentos y Agricultura de California",
@@ -756,6 +818,7 @@ module.exports = {
     hy: "Կալիֆորնիայի սննդի և գյուղատնտեսության վարչություն"
   },
   sf_45_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Get help if you lost a pet, had to leave a pet behind, or need shelter for your pet.",
     es: "Obtenga ayuda si perdió una mascota, tuvo que dejar una mascota atrás o necesita refugio para su mascota.",
@@ -769,6 +832,7 @@ module.exports = {
   },
 
   sf_46_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Help for immigrants",
     es: "Ayuda para inmigrantes",
@@ -781,6 +845,7 @@ module.exports = {
     hy: "Օգնություն ներգաղթյալներին"
   },
   sf_46_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Social Services",
     es: "Departamento de Servicios Sociales de California",
@@ -793,6 +858,7 @@ module.exports = {
     hy: "Կալիֆորնիայի սոցիալական ծառայությունների վարչություն"
   },
   sf_46_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Find information and guides to disaster assistance for immigrant Californians. Available in Spanish, simplified Chinese, traditional Chinese, and Armenian.",
     es: "Encuentre información y guías sobre asistencia por desastre para inmigrantes californianos. Disponible en español, chino simplificado, chino tradicional y armenio.",
@@ -806,6 +872,7 @@ module.exports = {
   },
 
   sf_48_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Insurance tips and resources",
     es: "Consejos y recursos de seguros",
@@ -818,6 +885,7 @@ module.exports = {
     hy: "Ապահովագրության խորհուրդներ և ռեսուրսներ"
   },
   sf_48_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Insurance",
     es: "Departamento de Seguros de California",
@@ -830,6 +898,7 @@ module.exports = {
     hy: "Կալիֆորնիայի ապահովագրության վարչություն"
   },
   sf_48_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Find tips and resources to help you with insurance claims and issues.",
     es: "Encuentre consejos y recursos para ayudarlo con reclamos y problemas de seguros.",
@@ -843,6 +912,7 @@ module.exports = {
   },
 
   sf_49_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Insurance protections",
     es: "Protecciones de seguros",
@@ -855,6 +925,7 @@ module.exports = {
     hy: "Ապահովագրության պաշտպանություն"
   },
   sf_49_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Insurance",
     es: "Departamento de Seguros de California",
@@ -867,6 +938,7 @@ module.exports = {
     hy: "Կալիֆորնիայի ապահովագրության վարչություն"
   },
   sf_49_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Learn about the state law that prevents insurance companies from canceling or not renewing home insurance policies for one year after a wildfire. And find out if your zip code is protected.",
     es: "Conozca la ley estatal que impide que las compañías de seguros cancelen o no renueven las pólizas de seguro de hogar durante un año después de un incendio forestal. Y averigüe si su código postal está protegido.",
@@ -880,6 +952,7 @@ module.exports = {
   },
 
   sf_50_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Help with insurance claims",
     es: "Ayuda con reclamos de seguros",
@@ -892,6 +965,7 @@ module.exports = {
     hy: "Օգնություն ապահովագրական պահանջների հետ կապված"
   },
   sf_50_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Insurance",
     es: "Departamento de Seguros de California",
@@ -904,6 +978,7 @@ module.exports = {
     hy: "Կալիֆորնիայի ապահովագրության վարչություն"
   },
   sf_50_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Get help filing an insurance claim or resolving an issue with a claim you already filed.",
     es: "Obtenga ayuda para presentar un reclamo de seguro o resolver un problema con un reclamo que ya presentó.",
@@ -916,6 +991,7 @@ module.exports = {
     hy: "Ստացեք օգնություն ապահովագրական պահանջ ներկայացնելու կամ արդեն ներկայացված պահանջի հետ կապված խնդիրը լուծելու համար:"
   },
   sf_52_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Driver's license or ID cards",
     es: "Licencia de conducir o tarjetas de identificación",
@@ -928,6 +1004,7 @@ module.exports = {
     hy: "Վարորդական իրավունք կամ նույնականացման քարտեր"
   },
   sf_52_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Motor Vehicles",
     es: "Departamento de Vehículos Motorizados de California",
@@ -940,6 +1017,7 @@ module.exports = {
     hy: "Կալիֆորնիայի տրանսպորտային միջոցների վարչություն"
   },
   sf_52_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace California driver's licenses or IDs. Fees are waived for licenses or IDs lost in the fires.",
     es: "Reemplace las licencias de conducir o identificaciones de California. Las tarifas se eximen para las licencias o identificaciones perdidas en los incendios.",
@@ -953,6 +1031,7 @@ module.exports = {
   },
 
   sf_53_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Vehicle titles",
     es: "Títulos de vehículos",
@@ -965,6 +1044,7 @@ module.exports = {
     hy: "Տրանսպորտային միջոցների տիտղոսներ"
   },
   sf_53_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Motor Vehicles",
     es: "Departamento de Vehículos Motorizados de California",
@@ -977,6 +1057,7 @@ module.exports = {
     hy: "Կալիֆորնիայի տրանսպորտային միջոցների վարչություն"
   },
   sf_53_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace titles for vehicles registered in California. Fees are waived for titles lost in the fires.",
     es: "Reemplace los títulos de los vehículos registrados en California. Las tarifas se eximen para los títulos perdidos en los incendios.",
@@ -990,6 +1071,7 @@ module.exports = {
   },
 
   sf_54_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Manufactured and mobile home documents",
     es: "Documentos de casas prefabricadas y móviles",
@@ -1002,6 +1084,7 @@ module.exports = {
     hy: "Արտադրված և շարժական տների փաստաթղթեր"
   },
   sf_54_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Housing and Community Development",
     es: "Departamento de Vivienda y Desarrollo Comunitario de California",
@@ -1014,6 +1097,7 @@ module.exports = {
     hy: "Կալիֆորնիայի բնակարանային և համայնքային զարգացման վարչություն"
   },
   sf_54_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace manufactured and mobile home registration and titling documents. Fees may be waived for documents lost in the fires.",
     es: "Reemplace los documentos de registro y titulación de casas prefabricadas y móviles. Las tarifas pueden ser eximidas para los documentos perdidos en los incendios.",
@@ -1027,6 +1111,7 @@ module.exports = {
   },
 
   sf_55_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Personal income tax documents and info",
     es: "Documentos e información de impuestos sobre la renta personal",
@@ -1039,6 +1124,7 @@ module.exports = {
     hy: "Անձնական եկամտահարկի փաստաթղթեր և տեղեկություններ"
   },
   sf_55_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Franchise Tax Board",
     es: "Junta de Impuestos de Franquicia de California",
@@ -1051,6 +1137,7 @@ module.exports = {
     hy: "Կալիֆորնիայի ֆրանչայզային հարկային խորհուրդ"
   },
   sf_55_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace personal tax documents. File critical changes of information such as change of address and power of attorney.",
     es: "Reemplace los documentos fiscales personales. Presente cambios críticos de información, como cambio de dirección y poder notarial.",
@@ -1064,6 +1151,7 @@ module.exports = {
   },
 
   sf_56_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Military service records",
     es: "Registros de servicio militar",
@@ -1076,6 +1164,7 @@ module.exports = {
     hy: "Ռազմական ծառայության գրառումներ"
   },
   sf_56_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Veterans Affairs",
     es: "Departamento de Asuntos de Veteranos de California",
@@ -1088,6 +1177,7 @@ module.exports = {
     hy: "Կալիֆորնիայի վետերանների հարցերով վարչություն"
   },
   sf_56_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Learn how to replace service records (DD 214), awards, and medals.",
     es: "Aprenda cómo reemplazar los registros de servicio (DD 214), premios y medallas.",
@@ -1101,6 +1191,7 @@ module.exports = {
   },
 
   sf_58_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Licensed contractor search",
     es: "Búsqueda de contratistas con licencia",
@@ -1113,6 +1204,7 @@ module.exports = {
     hy: "Լիցենզավորված կապալառուների որոնում"
   },
   sf_58_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Contractors State Licensing Board",
     es: "Junta Estatal de Licencias de Contratistas de California",
@@ -1125,6 +1217,7 @@ module.exports = {
     hy: "Կալիֆորնիայի կապալառուների պետական լիցենզավորման խորհուրդ"
   },
   sf_58_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Unlicensed contractors often prey on survivors of disasters. To protect yourself, find a licensed contractor near you.",
     es: "Los contratistas sin licencia a menudo se aprovechan de los sobrevivientes de desastres. Para protegerse, busque un contratista con licencia cerca de usted.",
@@ -1138,6 +1231,7 @@ module.exports = {
   },
 
   sf_59_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Professional licenses check tool",
     es: "Herramienta de verificación de licencias profesionales",
@@ -1150,6 +1244,7 @@ module.exports = {
     hy: "Մասնագիտական լիցենզիաների ստուգման գործիք"
   },
   sf_59_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Consumer Affairs",
     es: "Departamento de Asuntos del Consumidor de California",
@@ -1162,6 +1257,7 @@ module.exports = {
     hy: "Կալիֆորնիայի սպառողների հարցերով վարչություն"
   },
   sf_59_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Verify a professional contractor's license. Each record lists a license status as expired, suspended, or revoked.",
     es: "Verifique la licencia de un contratista profesional. Cada registro enumera el estado de la licencia como vencida, suspendida o revocada.",
@@ -1174,6 +1270,7 @@ module.exports = {
     hy: "Ստուգեք մասնագիտական կապալառուի լիցենզիան: Յուրաքանչյուր գրառում նշում է լիցենզիայի կարգավիճակը՝ ժամկետանց, կասեցված կամ չեղարկված:"
   },
   sf_60_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Disaster case management",
     es: "Gestión de casos de desastres",
@@ -1186,6 +1283,7 @@ module.exports = {
     hy: "Աղետների դեպքերի կառավարում"
   },
   sf_60_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Social Services",
     es: "Departamento de Servicios Sociales de California",
@@ -1198,6 +1296,7 @@ module.exports = {
     hy: "Կալիֆորնիայի սոցիալական ծառայությունների վարչություն"
   },
   sf_60_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Work with a case manager from Catholic Charities of California who can guide you through the recovery process.",
     es: "Trabaje con un administrador de casos de Caridades Católicas de California que puede guiarlo a través del proceso de recuperación.",
@@ -1211,6 +1310,7 @@ module.exports = {
   },
 
   sf_61_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "CalVet home insurance claims",
     es: "Reclamos de seguro de hogar de CalVet",
@@ -1223,6 +1323,7 @@ module.exports = {
     hy: "CalVet տան ապահովագրության հայցեր"
   },
   sf_61_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Veterans Affairs",
     es: "Departamento de Asuntos de Veteranos de California",
@@ -1235,6 +1336,7 @@ module.exports = {
     hy: "Կալիֆորնիայի վետերանների հարցերով վարչություն"
   },
   sf_61_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "If you have CalVet home insurance, learn how to file a claim.",
     es: "Si tiene seguro de hogar de CalVet, aprenda cómo presentar un reclamo.",
@@ -1248,6 +1350,7 @@ module.exports = {
   },
 
   sf_63_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Help for veterans",
     es: "Ayuda para veteranos",
@@ -1260,6 +1363,7 @@ module.exports = {
     hy: "Օգնություն վետերաններին"
   },
   sf_63_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Veterans Affairs",
     es: "Departamento de Asuntos de Veteranos de California",
@@ -1272,6 +1376,7 @@ module.exports = {
     hy: "Կալիֆորնիայի վետերանների հարցերով վարչություն"
   },
   sf_63_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Find CalVet information and resources for veterans and their families affected by the Los Angeles wildfires.",
     es: "Encuentre información y recursos de CalVet para veteranos y sus familias afectados por los incendios forestales de Los Ángeles.",
@@ -1285,6 +1390,7 @@ module.exports = {
   },
 
   sf_65_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Income tax extension",
     es: "Extensión del impuesto sobre la renta",
@@ -1297,6 +1403,7 @@ module.exports = {
     hy: "Եկամտահարկի երկարաձգում"
   },
   sf_65_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Franchise Tax Board",
     es: "Junta de Impuestos sobre Franquicias de California",
@@ -1309,6 +1416,7 @@ module.exports = {
     hy: "Կալիֆորնիայի ֆրանչայզի հարկային խորհուրդ"
   },
   sf_65_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Learn about the extended deadline to file and pay income tax in Los Angeles County. The new deadline is October 15, 2025.",
     es: "Conozca sobre la fecha límite extendida para presentar y pagar impuestos sobre la renta en el Condado de Los Ángeles. La nueva fecha límite es el 15 de octubre de 2025.",
@@ -1322,6 +1430,7 @@ module.exports = {
   },
 
   sf_66_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Property tax extension",
     es: "Extensión del impuesto a la propiedad",
@@ -1334,6 +1443,7 @@ module.exports = {
     hy: "Գույքահարկի երկարաձգում"
   },
   sf_66_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Governor's Office",
     es: "Oficina del Gobernador de California",
@@ -1346,6 +1456,7 @@ module.exports = {
     hy: "Կալիֆորնիայի նահանգապետի գրասենյակ"
   },
   sf_66_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Learn about the extended deadline to file and pay property taxes. The state property tax deadline is also extended. The new deadline is April 10, 2026. For those impacted by the LA fires, Governor Newsom has suspended penalties and interest on late property tax payments. ",
     es: "Conozca sobre la fecha límite extendida para presentar y pagar impuestos a la propiedad. La fecha límite del impuesto estatal a la propiedad también se ha extendido. La nueva fecha límite es el 10 de abril de 2026. Para los afectados por los incendios de LA, el Gobernador Newsom ha suspendido las multas e intereses por pagos atrasados de impuestos a la propiedad.",
@@ -1359,6 +1470,7 @@ module.exports = {
   },
 
   sf_67_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Property tax relief",
     es: "Alivio del impuesto a la propiedad",
@@ -1371,6 +1483,7 @@ module.exports = {
     hy: "Գույքահարկի թեթևացում"
   },
   sf_67_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California State Board of Equalization",
     es: "Junta de Igualación del Estado de California",
@@ -1383,6 +1496,7 @@ module.exports = {
     hy: "Կալիֆորնիայի նահանգային հավասարեցման խորհուրդ"
   },
   sf_67_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Get property tax relief if your home was damaged or destroyed.",
     es: "Obtenga alivio del impuesto a la propiedad si su casa fue dañada o destruida.",
@@ -1396,6 +1510,7 @@ module.exports = {
   },
 
   sf_68_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Return to your home safely",
     es: "Regrese a su casa de manera segura",
@@ -1408,6 +1523,7 @@ module.exports = {
     hy: "Անվտանգ վերադարձ տուն"
   },
   sf_68_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "State of California",
     es: "Estado de California",
@@ -1420,6 +1536,7 @@ module.exports = {
     hy: "Կալիֆորնիա նահանգ"
   },
   sf_68_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Here\u2019s what you need to know before you return to your home.",
     es: "Esto es lo que necesita saber antes de regresar a su casa.",
@@ -1433,6 +1550,7 @@ module.exports = {
   },
 
   sf_69_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Air quality monitoring",
     es: "Monitoreo de la calidad del aire",
@@ -1445,6 +1563,7 @@ module.exports = {
     hy: "Օդի որակի մոնիթորինգ"
   },
   sf_69_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "South Coast Air Quality Monitoring District",
     es: "Distrito de Monitoreo de la Calidad del Aire de la Costa Sur",
@@ -1457,6 +1576,7 @@ module.exports = {
     hy: "Հարավային ափի օդի որակի մոնիթորինգի շրջան"
   },
   sf_69_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Check your air quality through the South Coast Air Quality Monitoring District.",
     es: "Verifique la calidad del aire a través del Distrito de Monitoreo de la Calidad del Aire de la Costa Sur.",
@@ -1470,6 +1590,7 @@ module.exports = {
   },
 
   sf_70_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Disabled parking placards",
     es: "Placas de estacionamiento para discapacitados",
@@ -1482,6 +1603,7 @@ module.exports = {
     hy: "Հաշմանդամների ավտոկայանատեղիի պլակատներ"
   },
   sf_70_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Motor Vehicles",
     es: "Departamento de Vehículos Motorizados de California",
@@ -1494,6 +1616,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Մոտորային տրանսպորտային միջոցների վարչություն"
   },
   sf_70_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace Disabled Person Parking Placard.",
     es: "Reemplace la placa de estacionamiento para personas discapacitadas.",
@@ -1507,6 +1630,7 @@ module.exports = {
   },
 
   sf_71_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "License plates and registration stickers",
     es: "Placas de matrícula y calcomanías de registro",
@@ -1519,6 +1643,7 @@ module.exports = {
     hy: "Համարանիշեր և գրանցման կպչուններ"
   },
   sf_71_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Motor Vehicles",
     es: "Departamento de Vehículos Motorizados de California",
@@ -1531,6 +1656,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Մոտորային տրանսպորտային միջոցների վարչություն"
   },
   sf_71_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace license plates and registration stickers.",
     es: "Reemplace las placas de matrícula y las calcomanías de registro.",
@@ -1544,6 +1670,7 @@ module.exports = {
   },
 
   sf_72_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Address changes",
     es: "Cambios de dirección",
@@ -1556,6 +1683,7 @@ module.exports = {
     hy: "Հասցեի փոփոխություններ"
   },
   sf_72_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Motor Vehicles",
     es: "Departamento de Vehículos Motorizados de California",
@@ -1568,6 +1696,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Մոտորային տրանսպորտային միջոցների վարչություն"
   },
   sf_72_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "File a change of address.",
     es: "Presente un cambio de dirección.",
@@ -1581,6 +1710,7 @@ module.exports = {
   },
 
   sf_73_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Vehicle or driver's records",
     es: "Registros de vehículos o conductores",
@@ -1593,6 +1723,7 @@ module.exports = {
     hy: "Տրանսպորտային միջոցի կամ վարորդի գրանցումներ"
   },
   sf_73_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Motor Vehicles",
     es: "Departamento de Vehículos Motorizados de California",
@@ -1605,6 +1736,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Մոտորային տրանսպորտային միջոցների վարչություն"
   },
   sf_73_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace vehicle or driver's records.",
     es: "Reemplace los registros del vehículo o del conductor.",
@@ -1618,6 +1750,7 @@ module.exports = {
   },
 
   sf_75_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Consumer protections",
     es: "Protecciones al consumidor",
@@ -1630,6 +1763,7 @@ module.exports = {
     hy: "Սպառողների պաշտպանություն"
   },
   sf_75_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Public Utilities Commission",
     es: "Comisión de Servicios Públicos de California",
@@ -1642,6 +1776,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Հանրային կոմունալ ծառայությունների հանձնաժողով"
   },
   sf_75_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Learn about disaster relief protections to help with your energy, natural gas, water, landline, and mobile phone bills. ",
     es: "Conozca las protecciones de ayuda por desastre para ayudar con sus facturas de energía, gas natural, agua, teléfono fijo y móvil.",
@@ -1655,6 +1790,7 @@ module.exports = {
   },
 
   sf_76_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Crisis counseling",
     es: "Consejería de crisis",
@@ -1667,6 +1803,7 @@ module.exports = {
     hy: "Ճգնաժամային խորհրդատվություն"
   },
   sf_76_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Social Services",
     es: "Departamento de Servicios Sociales de California",
@@ -1679,6 +1816,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Սոցիալական ծառայությունների վարչություն"
   },
   sf_76_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Contact crisis hotlines to get immediate mental health support. ",
     es: "Comuníquese con las líneas directas de crisis para obtener apoyo inmediato de salud mental.",
@@ -1692,6 +1830,7 @@ module.exports = {
   },
 
   sf_77_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace a birth record",
     es: "Reemplazo de acta de nacimiento",
@@ -1704,6 +1843,7 @@ module.exports = {
     hy: "Փոխարինել ծննդյան վկայականը"
   },
   sf_77_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Public Health",
     es: "Departamento de Salud Pública de California",
@@ -1716,6 +1856,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Հանրային առողջության վարչություն"
   },
   sf_77_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "New online service to get a certified copy of a birth record. This process is free for people affected by the LA fires. Must use a notary.",
     es: "Nuevo servicio en línea para obtener una copia certificada de un acta de nacimiento. Este proceso es gratuito para las personas afectadas por los incendios de Los Ángeles. Debe usar un notario.",
@@ -1729,6 +1870,7 @@ module.exports = {
   },
 
   sf_78_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace a death record",
     es: "Reemplazo de acta de defunción",
@@ -1741,6 +1883,7 @@ module.exports = {
     hy: "Փոխարինել մահվան վկայականը"
   },
   sf_78_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Public Health",
     es: "Departamento de Salud Pública de California",
@@ -1753,6 +1896,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Հանրային առողջության վարչություն"
   },
   sf_78_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "New online service to get a certified copy of a death record. This process is free for people affected by the LA fires. Must use a notary.",
     es: "Nuevo servicio en línea para obtener una copia certificada de un acta de defunción. Este proceso es gratuito para las personas afectadas por los incendios de Los Ángeles. Debe usar un notario.",
@@ -1766,6 +1910,7 @@ module.exports = {
   },
 
   sf_79_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace a marriage record",
     es: "Reemplazo de acta de matrimonio",
@@ -1778,6 +1923,7 @@ module.exports = {
     hy: "Փոխարինել ամուսնության վկայականը"
   },
   sf_79_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Public Health",
     es: "Departamento de Salud Pública de California",
@@ -1790,6 +1936,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Հանրային առողջության վարչություն"
   },
   sf_79_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "New online service to get a certified copy of a marriage record. This process is free for people affected by the LA fires. Must use a notary.",
     es: "Nuevo servicio en línea para obtener una copia certificada de un acta de matrimonio. Este proceso es gratuito para las personas afectadas por los incendios de Los Ángeles. Debe usar un notario.",
@@ -1803,6 +1950,7 @@ module.exports = {
   },
 
   sf_80_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replace birth, death, and marriage records",
     es: "Reemplazo de actas de nacimiento, defunción y matrimonio",
@@ -1815,6 +1963,7 @@ module.exports = {
     hy: "Փոխարինել ծննդյան, մահվան և ամուսնության վկայականները"
   },
   sf_80_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Department of Public Health",
     es: "Departamento de Salud Pública de California",
@@ -1827,6 +1976,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Հանրային առողջության վարչություն"
   },
   sf_80_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Replacements are free if you lost these vital records in the fires. Must visit a notary. Includes English and Spanish forms.",
     es: "Los reemplazos son gratuitos si perdió estos registros vitales en los incendios. Debe visitar un notario. Incluye formularios en inglés y español.",
@@ -1840,6 +1990,7 @@ module.exports = {
   },
 
   sf_81_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Mental health resources for youth",
     es: "Recursos de salud mental para jóvenes",
@@ -1852,6 +2003,7 @@ module.exports = {
     hy: "Երիտասարդների հոգեկան առողջության ռեսուրսներ"
   },
   sf_81_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Health and Human Services Agency",
     es: "Agencia de Salud y Servicios Humanos de California",
@@ -1864,6 +2016,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Առողջապահության և մարդկային ծառայությունների գործակալություն"
   },
   sf_81_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Find digital mental health programs and support for youth, young adults, and families.",
     es: "Encuentre programas digitales de salud mental y apoyo para jóvenes, adultos jóvenes y familias.",
@@ -1877,6 +2030,7 @@ module.exports = {
   },
 
   sf_84_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Safety information for fire cleanup workers ",
     es: "Información de seguridad para trabajadores de limpieza después de incendios",
@@ -1889,6 +2043,7 @@ module.exports = {
     hy: "Անվտանգության տեղեկատվություն հրդեհի մաքրման աշխատողների համար"
   },
   sf_84_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "California Labor & Workforce Development Agency",
     es: "Agencia de Desarrollo Laboral y de la Fuerza Laboral de California",
@@ -1901,6 +2056,7 @@ module.exports = {
     hy: "Կալիֆորնիայի Աշխատանքի և աշխատուժի զարգացման գործակալություն"
   },
   sf_84_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "If you work in fire cleanup or debris removal, learn about safety gear and employee protections.",
     es: "Si trabaja en la limpieza de incendios o remoción de escombros, infórmese sobre el equipo de seguridad y las protecciones para empleados.",
@@ -1914,6 +2070,7 @@ module.exports = {
   },
 
   sf_85_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Steps to rebuilding",
     es: "Pasos para la reconstrucción",
@@ -1926,6 +2083,7 @@ module.exports = {
     hy: "Վերակառուցման քայլերը"
   },
   sf_85_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "State of California",
     es: "Estado de California",
@@ -1938,6 +2096,7 @@ module.exports = {
     hy: "Կալիֆորնիա նահանգ"
   },
   sf_85_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "See the major steps to take when rebuilding your home. This includes insurance claims, permits, and more.",
     es: "Vea los pasos principales para reconstruir su casa. Esto incluye reclamos de seguro, permisos y más.",
@@ -1951,6 +2110,7 @@ module.exports = {
   },
 
   sf_86_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Free debris removal",
     es: "Remoción gratuita de escombros",
@@ -1963,6 +2123,7 @@ module.exports = {
     hy: "Անվճար բեկորների հեռացում"
   },
   sf_86_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Los Angeles County",
     es: "Condado de Los Ángeles",
@@ -1975,6 +2136,7 @@ module.exports = {
     hy: "Լոս Անջելես շրջան"
   },
   sf_86_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Opt in by March 31, 2025, to get free government debris removal. If you don't opt in, you'll need to pay for a private debris removal contractor instead.",
     es: "Inscríbase antes del 31 de marzo de 2025 para obtener la remoción gratuita de escombros por parte del gobierno. Si no se inscribe, deberá pagar a un contratista privado para la remoción de escombros.",
@@ -1988,6 +2150,7 @@ module.exports = {
   },
 
   sf_88_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Disaster loans for homeowners and renters",
     es: "Préstamos por desastre para propietarios e inquilinos",
@@ -2000,6 +2163,7 @@ module.exports = {
     hy: "Աղետի վարկեր տանտերերի և վարձակալների համար"
   },
   sf_88_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "U.S. Small Business Administration",
     es: "Administración de Pequeños Negocios de EE. UU.",
@@ -2012,6 +2176,7 @@ module.exports = {
     hy: "ԱՄՆ Փոքր բիզնեսի վարչություն"
   },
   sf_88_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Apply by March 31, 2025, for a loan to repair your home or replace personal property damaged in the fires.",
     es: "Solicite antes del 31 de marzo de 2025 un préstamo para reparar su casa o reemplazar bienes personales dañados en los incendios.",
@@ -2025,6 +2190,7 @@ module.exports = {
   },
 
   sf_89_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Worker Safety Wildfire Cleanup and Rebuilding",
     es: "Seguridad de los trabajadores en la limpieza y reconstrucción después de incendios forestales",
@@ -2037,6 +2203,7 @@ module.exports = {
     hy: "Աշխատողների անվտանգությունը անտառային հրդեհների մաքրման և վերակառուցման ժամանակ"
   },
   sf_89_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Department of Industrial Relations",
     es: "Departamento de Relaciones Industriales",
@@ -2049,6 +2216,7 @@ module.exports = {
     hy: "Արդյունաբերական հարաբերությունների վարչություն"
   },
   sf_89_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "The work to cleanup and rebuild after wildfires must comply with California's labor laws and workplace safety and health regulations. Learn about these requirements.",
     es: "El trabajo de limpieza y reconstrucción después de incendios forestales debe cumplir con las leyes laborales de California y las regulaciones de seguridad y salud en el lugar de trabajo. Conozca estos requisitos.",
@@ -2062,6 +2230,7 @@ module.exports = {
   },
   // this is the record that was originally duplicate ID 84, I've temporarily changed it to ID 94 -- will need a corrected airtable.json
   sf_94_service_name: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Tree removal",
     es: "Remoción de árboles",
@@ -2074,6 +2243,7 @@ module.exports = {
     hy: "Ծառերի հեռացում"
   },
   sf_94_entity: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "U.S. Army Corps of Engineers",
     es: "Cuerpo de Ingenieros del Ejército de los EE. UU.",
@@ -2086,6 +2256,7 @@ module.exports = {
     hy: "ԱՄՆ բանակի ճարտարագիտական կորպուս"
   },
   sf_94_description: {
+    status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "During debris removal, the USACE will remove trees that are hazardous. But you can request that a tree not be removed.",
     es: "Durante la remoción de escombros, el USACE removerá los árboles que sean peligrosos. Pero puede solicitar que no se remueva un árbol.",
@@ -2099,6 +2270,7 @@ module.exports = {
   },
 
   sf_service_title_essential_help: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_types.csv",
     en: "Essential help for individuals",
     es: "Ayuda esencial para individuos",
@@ -2111,6 +2283,7 @@ module.exports = {
     hy: "Էական օգնություն անհատներին"
   },
   sf_service_title_start_recovering: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_types.csv",
     en: "Start recovering for individuals",
     es: "Comenzar la recuperación para individuos",
@@ -2123,6 +2296,7 @@ module.exports = {
     hy: "Սկսել վերականգնումը անհատների համար"
   },
   sf_service_title_business_help: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_types.csv",
     en: "Business help",
     es: "Ayuda para negocios",
@@ -2136,6 +2310,7 @@ module.exports = {
   },
 
   sf_cat_label_essential_help_housing: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Housing",
     fr: "Logement",
@@ -2149,6 +2324,7 @@ module.exports = {
   },
 
   sf_cat_description_essential_help_housing: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Shelters, temporary housing, mortgage relief",
     fr: "Refuges, logements temporaires, allègement hypothécaire",
@@ -2162,6 +2338,7 @@ module.exports = {
   },
 
   sf_cat_description_essential_help_food: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Food or food benefits",
     fr: "Nourriture ou avantages alimentaires",
@@ -2175,6 +2352,7 @@ module.exports = {
   },
 
   sf_cat_label_essential_help_food: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Food",
     fr: "Nourriture",
@@ -2188,6 +2366,7 @@ module.exports = {
   },
 
   sf_cat_label_essential_help_pets: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Pets",
     fr: "Animaux",
@@ -2201,6 +2380,7 @@ module.exports = {
   },
 
   sf_cat_description_essential_help_pets: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Lost or found a pet, and more",
     fr: "Animal de compagnie perdu ou trouvé, et plus",
@@ -2214,6 +2394,7 @@ module.exports = {
   },
 
   sf_cat_label_essential_help_health: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Health",
     fr: "Santé",
@@ -2227,6 +2408,7 @@ module.exports = {
   },
 
   sf_cat_description_essential_help_health: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Staying healthy, mental health",
     fr: "Rester en bonne santé, santé mentale",
@@ -2240,6 +2422,7 @@ module.exports = {
   },
 
   sf_cat_label_essential_help_individual_help: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Individual help",
     fr: "Aide individuelle",
@@ -2253,6 +2436,7 @@ module.exports = {
   },
 
   sf_cat_description_essential_help_individual_help: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "State and federal (FEMA) programs that help disaster survivors",
     fr: "Programmes d'aide étatiques et fédéraux (FEMA) pour les survivants de catastrophes",
@@ -2266,6 +2450,7 @@ module.exports = {
   },
 
   sf_cat_label_essential_help_personal_documents: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Personal documents",
     fr: "Documents personnels",
@@ -2279,6 +2464,7 @@ module.exports = {
   },
 
   sf_cat_description_essential_help_personal_documents: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Driver's license, birth, death, and marriage records",
     fr: "Permis de conduire, actes de naissance, de décès et de mariage",
@@ -2292,6 +2478,7 @@ module.exports = {
   },
 
   sf_cat_label_start_recovering_returning_home: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Returning home",
     fr: "Retour à la maison",
@@ -2305,6 +2492,7 @@ module.exports = {
   },
 
   sf_cat_description_start_recovering_returning_home: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Assessments, cleanup, debris removal",
     fr: "Évaluations, nettoyage, enlèvement des débris",
@@ -2318,6 +2506,7 @@ module.exports = {
   },
 
   sf_cat_label_start_recovering_insurance: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Insurance",
     fr: "Assurance",
@@ -2331,6 +2520,7 @@ module.exports = {
   },
 
   sf_cat_description_start_recovering_insurance: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Home insurance and insurance claims",
     fr: "Assurance habitation et réclamations d'assurance",
@@ -2344,6 +2534,7 @@ module.exports = {
   },
 
   sf_cat_label_start_recovering_rebuilding: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Rebuilding",
     fr: "Reconstruction",
@@ -2357,6 +2548,7 @@ module.exports = {
   },
 
   sf_cat_description_start_recovering_rebuilding: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Find a contractor, verify a professional license",
     fr: "Trouver un entrepreneur, vérifier une licence professionnelle",
@@ -2370,6 +2562,7 @@ module.exports = {
   },
 
   sf_cat_label_start_recovering_employment: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Employment",
     fr: "Emploi",
@@ -2383,6 +2576,7 @@ module.exports = {
   },
 
   sf_cat_description_start_recovering_employment: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Unemployment, disability, find a job",
     fr: "Chômage, invalidité, trouver un emploi",
@@ -2396,6 +2590,7 @@ module.exports = {
   },
 
   sf_cat_label_start_recovering_taxes: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Taxes",
     fr: "Impôts",
@@ -2409,6 +2604,7 @@ module.exports = {
   },
 
   sf_cat_description_start_recovering_taxes: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Relief for income and property taxes",
     fr: "Allègement pour les impôts sur le revenu et les taxes foncières",
@@ -2422,6 +2618,7 @@ module.exports = {
   },
 
   sf_cat_label_business_help_support: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Support",
     fr: "Aide financière",
@@ -2435,6 +2632,7 @@ module.exports = {
   },
 
   sf_cat_description_business_help_support: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Financial help, recovery, disaster relief payments, small businesses",
     fr: "Aide financière, reprise, paiements de secours en cas de catastrophe, petites entreprises",
@@ -2448,6 +2646,7 @@ module.exports = {
   },
 
   sf_cat_label_business_help_tax_help_and_relief: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Tax help and relief",
     fr: "Impôts et aide",
@@ -2461,6 +2660,7 @@ module.exports = {
   },
 
   sf_cat_description_business_help_tax_help_and_relief: {
+    status: 'machine translated',
     src_file: "src/_data/lafires/recovery_services_categories.csv",
     en: "Income taxes, sales tax, payroll taxes",
     fr: "Impôts sur le revenu, taxe de vente, taxes sur la paie",
