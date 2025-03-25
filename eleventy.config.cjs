@@ -13,6 +13,7 @@ let translationsModule_sidenav = { translations: require("./src/_data/i18n-siden
 let translationsModule_service_finder = { translations: require("./src/_data/i18n-service-finder.cjs") }; // Change to an object that holds the translations
 let translationsModule_feedback = { translations: require("./src/_data/i18n-feedback.cjs") }; // Change to an object that holds the translations
 let translationsModule_volunteer = { translations: require("./src/_data/i18n-volunteer.cjs") }; // Change to an object that holds the translations
+let translationsModule_vital_records = { translations: require("./src/_data/i18n-vital-records.cjs") }; // Change to an object that holds the translations
 const chalk = require("chalk");
 
 // canonical domain
@@ -27,7 +28,8 @@ translationsModule.translations = { ...translationsModule.translations,
                                     ...translationsModule_sidenav.translations, 
                                     ...translationsModule_service_finder.translations, 
                                     ...translationsModule_feedback.translations,
-                                    ...translationsModule_volunteer.translations };
+                                    ...translationsModule_volunteer.translations,
+                                    ...translationsModule_vital_records.translations };
 
 module.exports = function (
   /** @type {import("@11ty/eleventy").UserConfig} **/ eleventyConfig
@@ -51,11 +53,28 @@ module.exports = function (
   eleventyConfig.addWatchTarget("./pages/");
 
   // Add watch target specifically for i18n file and clear require cache when it changes
-  eleventyConfig.addWatchTarget("./src/_data/i18n.cjs");
+  eleventyConfig.addWatchTarget("./src/_data/i18n*.cjs");
   eleventyConfig.on("beforeWatch", changedFiles => { // support changing i18n.cjs during development without quitting the server
-    if (changedFiles.some(file => file.endsWith("i18n.cjs"))) {
+    if (changedFiles.some(file => file.includes("i18n"))) {
       delete require.cache[require.resolve("./src/_data/i18n.cjs")];
+      delete require.cache[require.resolve("./src/_data/i18n-sidenav.cjs")];
+      delete require.cache[require.resolve("./src/_data/i18n-service-finder.cjs")];
+      delete require.cache[require.resolve("./src/_data/i18n-feedback.cjs")];
+      delete require.cache[require.resolve("./src/_data/i18n-volunteer.cjs")];
+      delete require.cache[require.resolve("./src/_data/i18n-vital-records.cjs")];
       translationsModule.translations = require("./src/_data/i18n.cjs");
+      translationsModule_sidenav.translations = require("./src/_data/i18n-sidenav.cjs");
+      translationsModule_service_finder.translations = require("./src/_data/i18n-service-finder.cjs");
+      translationsModule_feedback.translations = require("./src/_data/i18n-feedback.cjs");
+      translationsModule_volunteer.translations = require("./src/_data/i18n-volunteer.cjs");
+      translationsModule_vital_records.translations = require("./src/_data/i18n-vital-records.cjs");
+      translationsModule.translations = { ...translationsModule.translations, 
+        ...translationsModule_sidenav.translations, 
+        ...translationsModule_service_finder.translations, 
+        ...translationsModule_feedback.translations,
+        ...translationsModule_volunteer.translations,
+        ...translationsModule_vital_records.translations };
+
     }
   });
 

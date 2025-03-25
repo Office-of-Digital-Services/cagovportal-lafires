@@ -15,7 +15,7 @@ module.exports = {
   title_2025_los_angeles_fires: {
     status: 'machine translated',
     src_file: "several",
-    en: "2025 Los Angeles fires",
+    en: "2025 Los Angeles Fires",
     es: "Incendios de Los Angeles 2025",
     fr: "Incendies de Los Angeles 2025",
     tl: "Incendios de Los Angeles 2025",
@@ -54,7 +54,7 @@ module.exports = {
   cagov_promo_1: {
     status: 'machine translated',
     src_file: "src/_includes/utility-header.html",
-    en: "California government websites use .ca.gov",
+    en: "California government websites use .ca.gov ",
     es: "Los sitios web del gobierno de California usan .ca.gov",
     fr: "Les sites web du gouvernement de Californie utilisent .ca.gov",
     tl: "Ang mga website ng gobyerno ng California ay gumagamit ng .ca.gov",
@@ -67,7 +67,7 @@ module.exports = {
   cagov_promo_2: {
     status: 'machine translated',
     src_file: "src/_includes/utility-header.html",
-    en: "A .ca.gov website is part of California's government.",
+    en: "A .ca.gov website is part of California’s government.",
     es: "Un sitio web .ca.gov es parte del gobierno de California.",
     fr: "Un site web .ca.gov fait partie du gouvernement de Californie.",
     tl: "Ang .ca.gov na website ay bahagi ng gobyerno ng California.",

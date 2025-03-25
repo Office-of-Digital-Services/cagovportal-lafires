@@ -1,0 +1,610 @@
+<style>
+  :is(.debris-step, .debris-boxed-content) > :first-child {
+    margin-block-start: 0;
+  }
+  :is(.debris-step, .debris-boxed-content) > :last-child {
+    margin-block-end: 0;
+  }
+  .debris-step {
+    container: debris-step / inline-size;
+    margin-block-end: 3rem;
+  }
+  hr + .debris-step {
+    margin-block-start: 3rem;
+  }
+
+
+  .phase-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-block-end: 1.5rem;
+  }
+  .phase-header > h2 {
+    margin: 0;
+  }
+  .phase-header-label {
+    display: flex;
+    flex-direction: row;
+    filter: url(#round);
+  }
+  .phase-header-label > span {
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    padding: .5rem .5rem .5rem .75rem;
+  }
+  .phase-header-label::after {
+    content: "";
+    display: block;
+    width: 1.5rem;
+    height: auto;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  }
+  .phase-header-label-1 > span, .phase-header-label-1::after {
+    background: #FDB81E;
+  }
+  .phase-header-label-2 > span, .phase-header-label-2::after {
+    background: #7BB0DA;
+  }
+
+
+  ul.debris-list-grid {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-rows: auto;
+  }
+  ul.debris-list-grid > li {
+    padding: 1rem;
+    border-radius: 0.3125rem;
+    background: gray;
+  }
+  ul.debris-list-grid > li:nth-child(odd):last-child {
+    grid-column: 1 / -1;
+  }
+  ul.debris-list-grid.phase-1-debris-list-grid > li {
+    background-color: #FBF0E7;
+  }
+  ul.debris-list-grid.phase-2-debris-list-grid > li {
+    background-color: #EEF8FB;
+  }
+  .debris-boxed-content {
+    padding: 1rem 1.5rem;
+    margin-block: 1.5rem 2.5rem;
+    border-radius: 0.3125rem;
+    border: 3px solid;
+  }
+  .phase-1-border-color {
+    border-color: #FDB81E;
+  }
+  .phase-2-border-color {
+    border-color: #7BB0DA;
+  }
+  .neutral-border-color {
+    border-color: #D4D4D7;
+  }
+  .debris-removal-viz {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 6rem auto;
+    margin-block: 1.5rem;
+  }
+  .debris-removal-viz > span:nth-child(2) {
+    transform: translateY(-.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 7rem;
+    height: 7rem;
+    font-size: 2.60838rem;
+    font-weight: 900;
+    border-radius: 50%;
+    overflow: visible;
+    z-index: 5;
+  }
+  .debris-removal-viz > :is(span:first-child, span:last-child) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    padding: 1rem;
+    font-size: 1.4375rem;
+    font-weight: 700;
+    line-height: 2.4375rem;
+    text-align: center;
+    border-radius: 0.3125rem;
+    border: 3px solid;
+  }
+  .debris-removal-viz > :is(div:first-child, div:last-child) {
+    padding: 1rem 1.5rem;
+    border-radius: 0.3125rem;
+    border: 3px solid;
+  }
+  .debris-removal-viz.phase-1-debris-removal-viz > span:nth-child(2) {
+    background-color: #FDB81E;
+  }
+  .debris-removal-viz.phase-1-debris-removal-viz > :is(:first-child, :last-child) {
+    border-color: #FDB81E;
+  }
+  .debris-removal-viz.phase-2-debris-removal-viz > span:nth-child(2) {
+    background-color: #7BB0DA;
+  }
+  .debris-removal-viz.phase-2-debris-removal-viz > :is(:first-child, :last-child) {
+    border-color: #7BB0DA;
+  }
+
+
+  .debris-map-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+  .debris-map-phase {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    filter: url(#round);
+  }
+  .debris-map-phase::after {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 100%;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  }
+  .debris-map-phase-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: .25rem;
+    padding: 1rem 1.5rem .75rem 1.5rem;
+  }
+  .debris-map-phase-1::after, .debris-map-phase-content-1 {
+    background: #FDB81E;
+  }
+  .debris-map-phase-2::after, .debris-map-phase-content-2 {
+    background: #7BB0DA;
+  }
+  .debris-map-phase-content > span {
+    line-height: normal;
+    font-weight: 700;
+  }
+  .debris-map-phase-content > span:first-child {
+    font-size: 18px;
+  }
+  .debris-map-phase-content > span:last-child {
+    font-size: 28px;
+  }
+
+  @container debris-step (width > 800px) {
+    .debris-map-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+    .debris-map-phase-2::after {
+      all: unset;
+    }
+    .debris-map-phase-2::before {
+      content: "";
+      display: block;
+      width: 2rem;
+      height: 100%;
+      background: #7BB0DA;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 50%);
+    }
+
+    .phase-header {
+      align-items: center;
+      flex-direction: row;
+    }
+    .debris-removal-viz {
+      grid-template-columns: calc(50% - 3rem) 6rem calc(50% - 3rem);
+      grid-template-rows: auto;
+    }
+    .debris-removal-viz > span:nth-child(2) {
+      transform: unset;
+      align-self: center;
+    }
+  }
+</style>
+
+
+<!-- SVG filter for rounding complex shapes. -->
+<svg class="visually-hidden" width="0" height="0">
+  <defs>
+    <filter id="round">
+      <!-- stdDeviation of the blur defines the border-radius, in px. -->
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" /> 
+      <!-- Red, blue, and green unmodified. Then maximize contrast of the alpha channel. -->
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="max-alpha" />
+      <!-- Combine. -->
+      <feComposite in="SourceGraphic" in2="max-alpha" operator="atop"/>
+    </filter>
+  </defs>
+</svg>
+
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/tractor-lineart.svg?v3efhbe') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >2025 Los Angeles Fires</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">
+        Cleanup and debris removal after wildfires is a 2-phase process. You can
+        have it done at no cost to you.
+      </p>
+
+      <nav class="page-navigation"></nav>
+      <div class="debris-step m-t-lg">
+        <div class="debris-map-grid">
+          <div class="debris-map-phase debris-map-phase-1">
+            <div class="debris-map-phase-content debris-map-phase-content-1">
+              <span>Phase 1</span>
+              <span>Hazardous waste cleanup</span>
+            </div>
+          </div>
+          <div class="debris-map-phase debris-map-phase-2">
+            <div class="debris-map-phase-content debris-map-phase-content-2">
+              <span>Phase 2</span>
+              <span>Debris removal</span>
+            </div>
+          </div>
+        </div>
+        <p class="m-t-md">
+          We will explain these phases. When they are complete, your property is
+          ready for rebuilding.
+        </p>
+      </div>
+
+      <hr />
+
+      <!-- Step 2 -->
+      <div class="debris-step">
+        <div class="phase-header">
+          <div class="phase-header-label phase-header-label-1">
+            <span>Phase 1</span>
+          </div>
+          <h2>Hazardous waste cleanup</h2>
+        </div>
+        <p class="m-b-md">
+          In Phase 1, the U.S. EPA cleaned up everyday products that were in
+          your home and could be dangerous.
+        </p>
+        <p>These include:</p>
+        <ul class="debris-list-grid phase-1-debris-list-grid">
+          <li>Batteries</li>
+          <li>Cleaners and solvents</li>
+          <li>Fertilizers and pesticides</li>
+          <li>Paints and oils</li>
+          <li>Propane tanks and other pressurized products</li>
+        </ul>
+
+        <p>
+          Phase 1 cleanup is now complete. It was automatic for all residential
+          properties.
+        </p>
+        <p>There was no cost to you for this cleanup.</p>
+      </div>
+
+      <div class="debris-step">
+        <h2>Cleanup statuses explained</h2>
+        <p>After the EPA assessed your property, they gave it a status.</p>
+        <p>They posted that status in a sign on your property.</p>
+        <p>
+          You can also check this
+          <a
+            href="https://storymaps.arcgis.com/collections/13a8b227ac104bb1b1fa9592c92debe3?item=2"
+            >EPA map</a
+          >
+          for the cleanup status of your property.
+        </p>
+
+        <div class="debris-removal-viz phase-1-debris-removal-viz">
+          <div>
+            <h3 class="m-t-0 font-size-20">Phase 1 Complete</h3>
+            <p>This status means the EPA has finished their cleanup work.</p>
+            <p>
+              But your property <strong>may not be</strong> safe yet. There can
+              still be:
+            </p>
+            <ul>
+              <li>Hazardous waste that's buried</li>
+              <li>Health hazards like ash and asbestos</li>
+            </ul>
+          </div>
+          <span>OR</span>
+          <div>
+            <h3 class="m-t-0 font-size-20">Deferred to Phase 2</h3>
+            <p>
+              This status means the EPA can't safely clean your property until
+              debris has been removed.
+            </p>
+            <p>It will be cleaned in Phase 2.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="m-b-lg">
+        See
+        <a href="/lafires/track-progress/#phases">Phase 1 progress.</a>
+      </p>
+
+      <hr />
+
+      <!-- Step 3 -->
+      <div class="debris-step">
+        <div class="phase-header">
+          <div class="phase-header-label phase-header-label-2">
+            <span>Phase 2</span>
+          </div>
+          <h2>Debris removal</h2>
+        </div>
+
+        <p class="m-b-md">
+          In Phase 2, the U.S. Army Corps of Engineers (USACE) removes
+          structural debris.
+        </p>
+        <p>This includes:</p>
+        <ul class="debris-list-grid phase-2-debris-list-grid">
+          <li>Damaged foundations</li>
+          <li>Destroyed vehicles</li>
+          <li>Trees that are a hazard</li>
+          <li>Contaminated soil</li>
+          <li>Asbestos</li>
+          <li>Ash</li>
+        </ul>
+
+        <p>
+          Read
+          <a href="https://recovery.lacounty.gov/debris-removal/what-to-expect/"
+            >what to expect in Phase 2</a
+          >.
+        </p>
+        <p>
+          See the progress of this work in
+          <a
+            href="https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806"
+            >USACE’s debris removal map</a
+          >.
+        </p>
+      </div>
+
+      <div class="debris-step">
+        <h2>About removing trees</h2>
+        <p>
+          During debris removal, the USACE will remove trees that are hazardous.
+          But you can request that a tree not be removed.
+        </p>
+
+        <div class="debris-boxed-content phase-2-border-color">
+          <ul>
+            <li>
+              <a
+                href="https://recovery.lacounty.gov/2025/03/06/u-s-army-corps-of-engineers-expands-hazardous-tree-marking-system-clarifies-waiver-process/"
+                >About the waiver process</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://recovery.lacounty.gov/wp-content/uploads/2025/03/hazardous-tree-markings-v2_original.png"
+                >Tree markings explained</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://file.lacounty.gov/SDSInter/lac/1178475_WaiverofHazardousTreeRemoval.pdf"
+                >Waiver form</a
+              >
+              (PDF)
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Step 6 -->
+      <div class="debris-step">
+        <h2>How to get debris removed</h2>
+        <p>To get debris removed, you must choose to:</p>
+
+        <div class="debris-removal-viz phase-2-debris-removal-viz">
+          <span>Opt in for free removal</span>
+          <span>OR</span>
+          <span>Opt out to arrange and pay for removal yourself</span>
+        </div>
+
+        <p>
+          There are no out-of-pocket costs for this service. If you have
+          insurance, your insurer will be billed.
+        </p>
+        <p>
+          Debris removal can't start on your property until Phase 1 is completed
+          or deferred.
+        </p>
+      </div>
+
+      <!-- Step 7 -->
+      <div class="debris-step">
+        <h2>Opt in by the deadline</h2>
+        <p>
+          To get free debris removal, you must
+          <strong>opt in by March 31, 2025</strong>.
+        </p>
+        <a
+          class="btn btn-primary m-y-sm"
+          href="https://recovery.lacounty.gov/debris-removal/roe/"
+          >Opt in for free removal</a
+        >
+
+        <div class="debris-boxed-content phase-2-border-color">
+          <p>To complete the opt-in form, you'll need:</p>
+
+          <ul>
+            <li>Contact info and signatures of all owners of the property</li>
+            <li>
+              Assessor's information number, or AIN
+              <ul>
+                <li>
+                  <a
+                    href="https://assessor.lacounty.gov/homeowners/property-search"
+                    >Find your AIN</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>Homeowners insurance information (if you're insured)</li>
+            <li>
+              Vehicle information for any destroyed vehicles on the property
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Step 8 -->
+      <div class="debris-step">
+        <h2>Opt out at your own expense</h2>
+        <p>
+          If you opt out of free debris removal, you'll arrange for and pay for
+          this service yourself.
+        </p>
+
+        <div class="debris-boxed-content phase-2-border-color">
+          <p>This process is complicated and expensive. You must:</p>
+          <ul>
+            <li>Hire a licensed, specialized contractor</li>
+            <li>Get approval and a permit from LA County</li>
+            <li>
+              Hire a certified consultant to check your property for asbestos
+            </li>
+            <li>
+              Make sure your contractor follows all government rules for safe
+              debris removal
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Step 9 -->
+      <div class="debris-step">
+        <h2>How to opt out</h2>
+        <p>
+          If you choose to opt out, submit an
+          <a
+            href="https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8"
+            >opt-out form</a
+          >
+          to LA County right away.
+        </p>
+        <p>
+          It's important to submit this form so that the county can start free
+          debris removal for your neighbors.
+        </p>
+
+        <div class="debris-boxed-content phase-2-border-color">
+          <p>You will need:</p>
+          <ul>
+            <li>Name and license number of your contractor</li>
+            <li>Description of the debris you need to remove</li>
+            <li>
+              Assessor's information number, or AIN
+              <ul>
+                <li>
+                  <a
+                    href="https://assessor.lacounty.gov/homeowners/property-search"
+                    >Find your AIN</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Step 10 -->
+      <div id="debris-step-10" class="debris-step">
+        <h2 class="m-b-lg">If you need help</h2>
+        <div class="debris-boxed-content phase-1-border-color">
+          <h3 class="font-size-20">Questions about Phase 1 cleanup</h3>
+          <p>
+            Call the EPA at <a href="tel:833-798-7372">833-798-7372</a> (TTY:
+            711)
+          </p>
+        </div>
+        <div class="debris-boxed-content phase-2-border-color">
+          <h3 class="font-size-20">Help filling out the opt-in form</h3>
+          <ul>
+            <li>
+              Call the LA County Public Works Debris Removal Hotline at
+              <a href="tel:844-347-3332">844-347-3332</a> (TTY: 711)
+            </li>
+            <li>
+              Email
+              <a href="mailto:PalisadesFire@dpw.lacounty.gov"
+                >PalisadesFire@dpw.lacounty.gov</a
+              >
+              or
+              <a href="mailto:EatonFire@dpw.lacounty.gov"
+                >EatonFire@dpw.lacounty.gov</a
+              >
+            </li>
+            <li>
+              Get help in person at a
+              <a href="/lafires/get-help-in-person/"
+                >Disaster Recovery Center</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="debris-boxed-content neutral-border-color">
+          <h3 class="font-size-20">
+            More info about cleanup and debris removal
+          </h3>
+          <p>
+            <a href="https://recovery.lacounty.gov/debris-removal/"
+              >LA County Recovers</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <h2 class="m-b-lg">Where debris goes</h2>
+      <p>
+        Workers will dispose of debris in a way that protects public health and
+        the environment.
+      </p>
+      <p>
+        Find out more at CalEPA’s
+        <a
+          href="https://calepa.ca.gov/disaster/debris/wildfire-debris-in-landfills-frequently-asked-questions/"
+          >Wildfire Debris in Landfills</a
+        >.
+      </p>
+
+      <!--END MAIN COL CONTENT-->
+    </div>
+  </div>
+</div>
