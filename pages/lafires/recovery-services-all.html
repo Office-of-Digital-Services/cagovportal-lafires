@@ -37,10 +37,11 @@ noindex: true
     body .lineart h1.color-white {
       color: #000 !important;
       font-size: 37px;
-      border-bottom: 1px solid #000;
+      border-bottom: 1px solid var(--gray-300) !important;
       padding-bottom: 16px !important;
       line-height: 30px !important;
       margin-top: 20px !important;
+      font-weight: 600 !important;
     }
 
     body .lineart h1.color-white span.color-white {
@@ -108,7 +109,7 @@ noindex: true
       margin-top: 0 !important;
       margin-bottom: 0 !important;
       text-decoration: none !important;
-      color: #000 !important;
+      color: var(--gray-900) !important;
     }
 
     ul.list-unstyled li a span.external-link-icon{
@@ -119,7 +120,7 @@ noindex: true
       content: " (" attr(href) ")";
       font-size: 12px;
       font-weight: 400 !important;
-      color: #000;
+      color: var(--gray-900);
       margin-left: 5px;
     }
 
@@ -150,6 +151,16 @@ noindex: true
 
     li.border-bottom {
       border-bottom: none !important;
+    }
+
+    .cagov-logo.d-print-none {
+      display: block !important;
+      margin-bottom: 16px !important;
+
+    }
+    .copyright.text-right {
+      border-top: 1px solid var(--gray-300) !important;
+      text-align: left !important;
     }
 
 
