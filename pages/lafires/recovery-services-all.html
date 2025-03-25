@@ -9,6 +9,151 @@ noindex: true
   .list-unstyled li:last-child {
     border-bottom: none !important;
   }
+  @media print {
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    body .lineart {
+      color: #000 !important;
+      background-color: #fff !important;
+    }
+
+    body div.container {
+      width: 100% !important;
+      max-width: 100% !important;
+      padding: 0 !important;
+    }
+    .col-lg-9, .col-lg-10 {
+      float: none;
+      width: 100%;
+    }
+
+    /* dislay none */
+     .branding, .breadcrumbs {display: none !important;}
+
+    /* Print typography */
+
+    body .lineart h1.color-white {
+      color: #000 !important;
+      font-size: 37px;
+      border-bottom: 1px solid #000;
+      padding-bottom: 16px !important;
+      line-height: 30px !important;
+      margin-top: 20px !important;
+    }
+
+    body .lineart h1.color-white span.color-white {
+      color: #000 !important;
+      font-size: 16px !important;
+      font-weight: 400;
+      color: var(--color-p2-darker) !important;
+
+    }
+
+    h2, .h2 {
+      font-size: 29px !important;
+      margin-bottom: 0 !important;
+      margin-top: 24px !important;
+    }
+
+    h3, .h3 {
+      font-size: 23px !important;
+      margin-bottom: 0 !important;
+      margin-top: 24px !important;
+    }
+
+    h4, .h4 {
+      font-size: 16px !important;
+      margin-bottom: 0 !important;
+      margin-top: 23px !important;
+    }
+
+    p.small, h5, .h5 {
+      font-size: 14px !important;
+      font-weight: 400 !important;
+      margin-bottom: 4px !important;
+    }
+
+    .h6 a.bg-gray-100-hover {
+      font-weight: 700 !important;
+    }
+
+    .department {
+      font-size: 14px !important;
+      font-weight: 400 !important;
+    }
+
+    ul.list-unstyled {
+      list-style: disc !important;
+      padding-left: 20px !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+
+    ul.list-unstyled li {
+      list-style: disc !important;
+      margin-bottom: 0 !important;
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      line-height: 20px !important;
+      font-size: 14px !important;
+    }
+
+    ul.list-unstyled li a {
+      font-size: 14px !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      text-decoration: none !important;
+      color: #000 !important;
+    }
+
+    ul.list-unstyled li a span.external-link-icon{
+      display: none !important;
+    }
+
+    ul.list-unstyled li a::after {
+      content: " (" attr(href) ")";
+      font-size: 12px;
+      font-weight: 400 !important;
+      color: #000;
+      margin-left: 5px;
+    }
+
+    /* layout */
+    div.bg-white {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+
+    div.alert {
+      padding-top: 0 !important;
+      padding-bottom: 20px !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      border-bottom: 1px solid #b7b7b7 !important;
+    }
+
+    .bg-gray-100 {
+      background: #fff !important;
+    }
+    .brd-solid-1 {
+      border: none !important;
+    }
+
+    li.border-bottom {
+      border-bottom: none !important;
+    }
+
+
+  }
 </style>
 <div
   class="section-primary lineart bg-p2"
@@ -40,19 +185,21 @@ noindex: true
 
     <!-- Main Content Area -->
     <div class="col-lg-10 pt-lg-3">
-      <p class="lead">
+      <p class="lead d-print-none">
         Here are the services that meet your needs. We provide direct links or
         information on how to get these services.
       </p>
 
-      <p class="mb-5 d-flex gap-4 align-items-center">
+      <p class="mb-5 d-flex gap-4 align-items-center d-print-none">
         <a
           class="d-print-none btn btn-outline-primary rounded-4 brd-solid-2 p-x-md m-r"
           onclick="window.print(); return false;"
           >Print your plan</a
         >
 
-        <a href="/lafires/recovery-services-finder/" class="clearVars"
+        <a
+          href="/lafires/recovery-services-finder/"
+          class="clearVars d-print-none"
           >Create new plan</a
         >
       </p>
@@ -110,12 +257,13 @@ noindex: true
                     <a
                       href="{{item.Service_link}}"
                       class="p-a-sm d-flex bg-gray-75 bg-gray-100-hover w-100"
-                      >Online<img
+                      >Online
+                      <img
                         src="/lafires/images/laptop-icon.svg"
                         alt=""
-                        class="img-fluid ms-auto width-30"
-                        aria-hidden="true"
-                    /></a>
+                        class="img-fluid ms-auto width-30 d-print-none"
+                        aria-hidden="true" />
+                    </a>
                   </li>
                   {%- endif -%} {%- if item.Info_link -%}
                   <li
@@ -168,7 +316,7 @@ noindex: true
       {%- endfor -%}
 
       <div class="bg-gray-100 mt-5 px-4 p-b brd-solid-1 brd-gray-200 p-t-md">
-        <p class="color-primary">
+        <p class="color-primary d-print-none">
           To find local services, check out the
           <a href="https://wildfires.betterangels.la/"
             >LA Disaster Relief Navigator</a
