@@ -90,6 +90,59 @@ module.exports = {
     "zh-hant": "列印您的計劃",
     "hy": "Տպել Ձեր պլանը"
   },
+  "sf_online": {
+    "status": "ap_review",
+    "comment": "machine_translated",
+    "en": "Online",
+    "es": "En línea",
+    "fr": "En ligne", 
+    "tl": "Online",
+    "ko": "온라인",
+    "vi": "Trực tuyến",
+    "zh-hans": "在线",
+    "zh-hant": "線上",
+    "hy": "Առցանց"
+  },
+  "sf_learn_more": {
+    "status": "ap_review", 
+    "comment": "machine_translated",
+    "en": "Learn more",
+    "es": "Más información",
+    "fr": "En savoir plus",
+    "tl": "Matuto pa",
+    "ko": "자세히 알아보기",
+    "vi": "Tìm hiểu thêm",
+    "zh-hans": "了解更多",
+    "zh-hant": "了解更多",
+    "hy": "Իմանալ ավելին"
+  },
+  "sf_in_person": {
+    "status": "ap_review",
+    "comment": "machine_translated", 
+    "en": "In person (kiosk)",
+    "es": "En persona (quiosco)",
+    "fr": "En personne (kiosque)",
+    "tl": "Personal (kiosk)",
+    "ko": "직접 방문(키오스크)",
+    "vi": "Trực tiếp (quầy)",
+    "zh-hans": "亲自（服务亭）",
+    "zh-hant": "親自（服務亭）",
+    "hy": "Անձամբ (տաղավար)"
+  },
+  "sf_email": {
+    "status": "ap_review",
+    "comment": "machine_translated",
+    "en": "Email",
+    "es": "Correo electrónico",
+    "fr": "Courriel",
+    "tl": "Email",
+    "ko": "이메일",
+    "vi": "Email",
+    "zh-hans": "电子邮件",
+    "zh-hant": "電子郵件",
+    "hy": "Էլ. փոստ"
+  },
+
   "sf_create_link_text": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/recovery-services-all-shared.html",
