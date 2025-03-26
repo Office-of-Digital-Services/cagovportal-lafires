@@ -54,19 +54,6 @@
           class="underline cursor-pointer"
           >한국어</a>
 
-        {% if is_development %}
-        <a
-          href="{{ page | pagePath('/lafires/fr/') }}"
-          lang="fr"
-          hreflang="fr"
-          translate="no"
-          rel="alternate"
-          class="underline cursor-pointer"
-          data-active="{{ page | langPathActive('fr', locale) }}"
-          class="underline cursor-pointer"
-          >Français</a><!-- french for development builds -->
-        {% endif %}
-
         <a
           href="{{ page | pagePath('/lafires/tl/') }}"
           lang="tl"
