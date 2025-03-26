@@ -7,7 +7,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-          >2025 Los Angeles Fires</span
+        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -20,7 +20,7 @@
 
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
-      <p class="m-b-md lead">{{description}}</p>
+      <p class="m-b-md lead">{{'help_online_lead_text' | i18n}}</p>
 
       <nav class="page-navigation"></nav>
 
@@ -28,16 +28,15 @@
         class="section-primary p-a-md m-t-sm d-flex align-items-top pos-rel transition-0_3 transform-scale-1_05--hover">
         <img
           src="/lafires/images/recovery-finder-icon.svg"
-          alt="Recovery finder icon"
+          alt="{{ 'help_online_recovery_services_finder_icon_alt' | i18n }}"
           class="height-30 m-r-sm" />
         <p class="m-b-0">
           <a
             href="/lafires/recovery-services-finder/"
             class="m-t-lg bold link-before"
-            >Recovery services finder</a
+            >{{ 'help_online_recovery_services_finder_title' | i18n }}</a
           ><br />
-          Not sure where to start? Answer a few questions. You’ll get a list of
-          services just for you.
+          {{ 'help_online_recovery_services_finder_description' | i18n }}
         </p>
       </div>
 
@@ -46,15 +45,11 @@
           <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
         </div>
         <p class="color-p2-darker m-b-0">
-          If you want to know all help that’s available for your situation,
-          visit
-          <a href="https://wildfires.betterangels.la/"
-            >LA Disaster Relief Navigator</a
-          >.
+          {{ 'help_online_disaster_relief_navigator' | i18n | safe }}
         </p>
       </div>
 
-      <h2 class="m-b-0">Shelter</h2>
+      <h2 class="m-b-0">{{ 'help_online_shelter_heading' | i18n }}</h2>
 
       <div class="row">
         <div class="col-lg-6 m-t-md">
@@ -64,11 +59,11 @@
               <a
                 href="https://news.caloes.ca.gov/shelters-available-for-communities-impacted-by-wildfires-in-southern-california-5/"
                 class="color-p2 text-left d-block"
-                >Real-time list of open shelters
-              </a>
+                >{{ 'help_online_shelter_list_title' | i18n }}</a
+              >
             </h3>
             <p class="m-b text-left">
-              Local shelters run by the state and local partners.
+              {{ 'help_online_shelter_list_description' | i18n }}
             </p>
           </div>
         </div>
@@ -80,19 +75,17 @@
               <a
                 href="https://www.fema.gov/assistance/individual/program"
                 class="color-p2 text-left d-block"
-                >Temporary housing
-              </a>
+                >{{ 'help_online_temporary_housing_title' | i18n }}</a
+              >
             </h3>
             <p class="m-b text-left">
-              FEMA’s Individuals and Households Program. It gives 14 days of
-              temporary housing for people who qualify. You could also qualify
-              for several months of rental assistance.
+              {{ 'help_online_temporary_housing_description' | i18n }}
             </p>
           </div>
         </div>
       </div>
 
-      <h2 class="m-b-0">Food</h2>
+      <h2 class="m-b-0">{{ 'help_online_food_heading' | i18n }}</h2>
 
       <div class="row">
         <div class="col-lg-6 m-t-md">
@@ -102,11 +95,11 @@
               <a
                 href="https://myfamily.wic.ca.gov/Home/HowCanIGetWIC#HowCanIGetWIC"
                 class="color-p2 text-left d-block"
-                >WIC
-              </a>
+                >{{ 'help_online_wic_title' | i18n }}</a
+              >
             </h3>
             <p class="m-b text-left">
-              WIC offers food benefits for mothers with low incomes.
+              {{ 'help_online_wic_description' | i18n }}
             </p>
           </div>
         </div>
@@ -118,14 +111,11 @@
               <a
                 href="https://benefitscal.com/"
                 class="color-p2 text-left d-block"
-                >CalFresh
-              </a>
+                >{{ 'help_online_calfresh_title' | i18n }}</a
+              >
             </h3>
             <p class="m-b text-left">
-              Sign up for CalFresh food benefits or have them
-              <a
-                href="https://www.getcalfresh.org/faq#info-benefits-replacement-end"
-                >replace food lost in the fires</a
+              {{ 'help_online_calfresh_description' | i18n | safe }}
               >.
             </p>
           </div>
@@ -138,37 +128,37 @@
               <a
                 href="https://cdss.ca.gov/food-banks"
                 class="color-p2 text-left d-block"
-                >Food banks
-              </a>
+                >{{ 'help_online_food_banks_title' | i18n }}</a
+              >
             </h3>
-            <p class="m-b text-left">Find food banks near you.</p>
-          </div>
-        </div>
-      </div>
-
-      <h2 class="m-b-0">Help for your pets</h2>
-      <div class="row">
-        <div class="col-lg-12 m-t-md">
-          <div
-            class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">We have help if you:</h3>
-            <ul>
-              <li class="m-t">lost a pet</li>
-              <li class="m-t">had to leave a pet behind</li>
-              <li class="m-t">need shelter for your pet</li>
-            </ul>
-            <p>
-              Visit
-              <a
-                href="https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html"
-                >California Animal Response Emergency Support</a
-              >.
+            <p class="m-b text-left">
+              {{ 'help_online_food_banks_description' | i18n }}
             </p>
           </div>
         </div>
       </div>
 
-      <h2 class="m-b-0">Mental health</h2>
+      <h2 class="m-b-0">{{ 'help_online_pet_help_title' | i18n }}</h2>
+      <div class="row">
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              {{ 'help_online_pet_help_description' | i18n }}
+            </h3>
+            <ul>
+              <li class="m-t">{{ 'help_online_lost_a_pet' | i18n }}</li>
+              <li class="m-t">{{ 'help_online_had_to_leave_a_pet' | i18n }}</li>
+              <li class="m-t">{{ 'help_online_need_shelter_for_your_pet' | i18n }}</li>
+            </ul>
+            <p>
+              {{ 'help_online_visit_california_animal_response_emergency_support' | i18n | safe }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0">{{ 'help_online_mental_health_heading' | i18n }}</h2>
       <div class="row">
         <div class="col-lg-6 m-t-md">
           <div
@@ -177,11 +167,11 @@
               <a
                 href="https://www.cdss.ca.gov/Portals/13/Press%20Releases/2025/CDSS_News_Release-Crisis_Counseling.pdf"
                 class="color-p2 text-left d-block"
-                >Free crisis counseling</a
+                >{{ 'help_online_free_crisis_counseling' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              Available online or in person
+              {{ 'help_online_available_online_or_in_person' | i18n }}
             </p>
           </div>
         </div>
@@ -193,11 +183,11 @@
               <a
                 href="https://www.chhs.ca.gov/youthresources/"
                 class="color-p2 text-left d-block"
-                >Mental health resources for youth</a
+                >{{ 'help_online_mental_health_resources_for_youth' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              by California Health and Human Services Agency (CalHHS)
+              {{ 'help_online_by_california_health_and_human_services_agency' | i18n }}
             </p>
           </div>
         </div>
@@ -208,11 +198,11 @@
               <a
                 href="https://crisiscare.org/wildfire-relief/"
                 class="color-p2 text-left d-block"
-                >Wildfire relief</a
+                >{{ 'help_online_wildfire_relief' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from Didi Hirsch Suicide Prevention Center
+              {{ 'help_online_from_didi_hirsch_suicide_prevention_center' | i18n }}
             </p>
           </div>
         </div>
@@ -223,11 +213,11 @@
               <a
                 href="https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/"
                 class="color-p2 text-left d-block"
-                >Disaster mental health resources</a
+                >{{ 'help_online_disaster_mental_health_resources' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from Los Angeles County Department of Mental Health
+              {{ 'help_online_from_los_angeles_county_department_of_mental_health' | i18n }}
             </p>
           </div>
         </div>
@@ -238,59 +228,57 @@
               <a
                 href="https://www.cdph.ca.gov/Programs/EPO/Pages/Wildfire%20Pages/Wildfires--Mental-Health.aspx#:~:text=Communications%20Toolkit-,Wildfires%20%26%20Mental%20Health,-Emotional%20recovery%20after"
                 class="color-p2 text-left d-block"
-                >Wildfires and mental health</a
+                >{{ 'help_online_wildfires_and_mental_health' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from California Department of Public Health (CDPH)
+              {{ 'help_online_from_california_department_of_public_health' | i18n }}
             </p>
           </div>
         </div>
       </div>
       <h2 id="Replacing-your-personal-documents" class="m-b-0">
-        Replacing your personal documents
+        {{ 'help_online_replacing_personal_documents_heading' | i18n }}
       </h2>
 
       <div class="row">
         <div class="col-lg-12 m-t-md">
           <div
             class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">IDs</h3>
+            <h3 class="h5 m-t-md m-b">{{ 'help_online_ids_title' | i18n }}</h3>
             <ul>
               <li class="m-t">
                 <a href="https://www.ssa.gov/number-card/replace-card"
-                  >Social Security card</a
+                  >{{ 'help_online_social_security_card' | i18n }}</a
                 >
               </li>
               <li class="m-t">
                 <a
                   href="https://travel.state.gov/content/travel/en/passports/have-passport.html"
-                  >U.S. passport</a
+                  >{{ 'help_online_us_passport' | i18n }}</a
                 >
               </li>
               <li class="m-t">
                 <a href="https://idco.dmdc.osd.mil/idco/"
-                  >Military or veteran ID</a
+                  >{{ 'help_online_military_veteran_id' | i18n }}</a
                 >
               </li>
               <li class="m-t">
                 <a
                   href="https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/replace-your-driver-license-or-identification-dl-id-card/"
-                  >Driver’s license or California ID card</a
+                  >{{ 'help_online_drivers_license' | i18n }}</a
                 >
                 <p>
-                  No fees to replace cards lost in the fires. You can also call:
+                  {{ 'help_online_no_fees_to_replace_cards' | i18n }}
                 </p>
               </li>
               <ul>
                 <li class="m-t">
-                  <a href="tel:8007770133">1-800-777-0133</a>
+                  {{ 'help_online_dmv_phone' | i18n | safe}}
                 </li>
 
                 <li class="m-t">
-                  Or <a href="tel:8007352929">TTY 1-800-735-2929</a> or
-                  <a href="tel:8003684327">1-800-368-4327</a> for hearing or
-                  speech-impaired.
+                  {{ 'help_online_dmv_tty_phone' | i18n | safe}}
                 </li>
               </ul>
             </ul>
@@ -300,17 +288,17 @@
         <div class="col-lg-12 m-t-md">
           <div
             class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">Citizenship</h3>
+            <h3 class="h5 m-t-md m-b">{{ 'help_online_citizenship_heading' | i18n }}</h3>
             <ul>
               <li class="m-t">
                 <a href="https://www.uscis.gov/n-565"
-                  >Certificate of naturalization or citizenship</a
+                  >{{ 'help_online_naturalization_certificate' | i18n }}</a
                 >
               </li>
               <li class="m-t">
                 <a
                   href="https://www.uscis.gov/green-card/after-we-grant-your-green-card/replace-your-green-card"
-                  >U.S. Permanent Resident Card (green card)</a
+                  >{{ 'help_online_green_card' | i18n }}</a
                 >
               </li>
             </ul>
@@ -320,28 +308,25 @@
         <div class="col-lg-12 m-t-md">
           <div
             class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b text-left">Titles</h3>
+            <h3 class="h5 m-t-md m-b text-left">{{ 'help_online_titles_heading' | i18n }}</h3>
             <ul class="text-left">
               <li>
                 <a
                   href="https://www.dmv.ca.gov/portal/dmv-virtual-office/replacement-title/"
                   class="color-p2 text-left"
-                  >Vehicle titles
-                </a>
+                  >{{ 'help_online_vehicle_titles' | i18n }}</a
+                >
                 <p>
-                  No fees to replace titles lost in the fires. You can also
-                  call:
+                  {{ 'help_online_no_fees_to_replace_titles' | i18n }}
                 </p>
               </li>
 
               <ul>
                 <li class="m-t text-left">
-                  <a href="tel:8007770133">1-800-777-0133</a>
+                  {{ 'help_online_dmv_phone' | i18n | safe}}
                 </li>
                 <li class="m-t text-left">
-                  Or <a href="tel:8007352929">TTY 1-800-735-2929</a> or
-                  <a href="tel:8003684327">1-800-368-4327</a> for hearing or
-                  speech-impaired.
+                  {{ 'help_online_dmv_tty_phone' | i18n | safe}}
                 </li>
               </ul>
             </ul>
@@ -352,187 +337,128 @@
       <div class="col-lg-12 m-t-md">
         <div
           class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-          <h3 class="h5 m-t-md m-b">Birth, marriage, and death certificates</h3>
-          <p>See how to order replacements.</p>
+          <h3 class="h5 m-t-md m-b">{{ 'help_online_birth_marriage_death_heading' | i18n }}</h3>
+          <p>{{ 'help_online_see_how_to_order' | i18n }}</p>
           <a
             href="/lafires/vital-records/"
             class="btn btn-primary btn-lg m-y-md">
-            Get copies of vital records
+            {{ 'help_online_get_copies_button' | i18n }}
           </a>
         </div>
       </div>
       <div>
-        <h2>Employment</h2>
+        <h2>{{ 'help_online_employment_heading' | i18n }}</h2>
 
         <div class="row">
           <div class="col-lg-12 m-t-md">
             <div
               class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded">
               <h3 class="h5">
-                Services from the California Employment Development Department
-                (EDD)
+                {{ 'help_online_edd_services_title' | i18n }}
               </h3>
-              <p class="m-t-md">Get help with:</p>
+              <p class="m-t-md">{{ 'help_online_get_help_with' | i18n }}</p>
               <ul>
                 <li class="m-t">
-                  State
-                  <a
-                    href="https://edd.ca.gov/en/unemployment/disaster_unemployment_assistance"
-                    >unemployment</a
-                  >
-                  insurance benefits
+                  {{ 'help_online_state_unemployment' | i18n | safe }}
                 </li>
                 <li class="m-t">
-                  Federal
-                  <a
-                    href="https://edd.ca.gov/en/unemployment/Disaster_Unemployment_Assistance/"
-                    >disaster unemployment assistance</a
-                  >
+                  {{ 'help_online_federal_disaster_unemployment' | i18n | safe }}
                 </li>
                 <li class="m-t">
-                  State
-                  <a
-                    href="https://edd.ca.gov/en/disability/disability_insurance/"
-                    >disability</a
-                  >
-                  insurance and
-                  <a href="https://edd.ca.gov/en/disability/paid-family-leave/"
-                    >paid family leave</a
-                  >
+                  {{ 'help_online_state_disability' | i18n | safe }}
                 </li>
                 <li class="m-t">
-                  <a href="https://edd.ca.gov/en/jobs/">Job opportunities</a>
-                  and
-                  <a
-                    href="https://edd.ca.gov/en/jobs_and_training/Training_Information/"
-                    >training</a
-                  >
+                  {{ 'help_online_job_opportunities' | i18n | safe }}
                 </li>
               </ul>
             </div>
           </div>
         </div>
 
-        <h2>Housing, repairs, and legal help</h2>
+        <h2>{{ 'help_online_housing_repairs_legal_heading' | i18n }}</h2>
 
         <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
-          <h3 class="m-t mb-2">Individual Assistance (FEMA)</h3>
-          <p class="bold">Must apply by March 31, 2025</p>
+          <h3 class="m-t mb-2">{{ 'help_online_fema_assistance_title' | i18n }}</h3>
+          <p class="bold">{{ 'help_online_fema_deadline' | i18n }}</p>
           <p>
-            Individual Assistance is a group of federal programs that help
-            disaster survivors. FEMA may provide money and other services to
-            help you recover. This includes:
+            {{ 'help_online_fema_description' | i18n }}
           </p>
           <ul>
-            <li class="m-t">Housing</li>
-            <li class="m-t">Funds for repairs</li>
-            <li class="m-t">Help for people with disabilities</li>
-            <li class="m-t">Legal services</li>
+            <li class="m-t">{{ 'help_online_fema_assistance_list_housing' | i18n }}</li>
+            <li class="m-t">{{ 'help_online_fema_assistance_list_repairs' | i18n }}</li>
+            <li class="m-t">{{ 'help_online_fema_assistance_list_disabilities' | i18n }}</li>
+            <li class="m-t">{{ 'help_online_fema_assistance_list_legal' | i18n }}</li>
           </ul>
 
           <a
             href="https://www.fema.gov/assistance/individual"
             class="btn btn-primary btn-lg m-y-md">
-            Apply for Individual Assistance
+            {{ 'help_online_fema_assistance_list_apply_button' | i18n }}
           </a>
           <p>
-            Learn more on
-            <a href="https://www.fema.gov/disaster/4856"
-              >FEMA’s LA Fires page</a
-            >
-            or view
-            <a href="https://www.fema.gov/disaster/4856/news-media"
-              >FEMA’s news updates</a
-            >.
+            {{ 'help_online_fema_news_updates' | i18n | safe }}
           </p>
 
           <div class="bg-gray-100 p-a-md m-t-md">
             <p class="color-p2-darker">
-              If you have insurance,
-              <strong>file a claim as soon as possible</strong>. FEMA will ask
-              for your coverage information when you apply.
+              {{ 'help_online_fema_insurance_note' | i18n | safe }}
             </p>
           </div>
 
-          <h3 class="h5">Three ways to apply</h3>
+          <h3 class="h5">{{ 'help_online_fema_apply_ways_title' | i18n }}</h3>
 
           <ol>
             <li class="m-t">
-              Online at
-              <a href="https://www.disasterassistance.gov/"
-                >DisasterAssistance.gov</a
-              >. This is the fastest and easiest way to apply.
+              {{ 'help_online_fema_apply_ways_online' | i18n | safe }}
             </li>
             <li class="m-t">
-              Through the
-              <a
-                href="https://www.fema.gov/about/news-multimedia/mobile-products#download"
-                >FEMA App</a
-              >
-              for mobile devices.
+              {{ 'help_online_fema_apply_ways_app' | i18n | safe }}
             </li>
             <li class="m-t">
-              By calling the FEMA helpline at
-              <a href="tel:8006213362">1-800-621-3362</a>, 4 AM to 10 PM (PST).
-              Help is available in many languages.
+              {{ 'help_online_fema_apply_ways_phone' | i18n | safe }}
             </li>
           </ol>
 
-          <h3 class="h5">Help with applying</h3>
+          <h3 class="h5">{{ 'help_online_fema_help_applying_title' | i18n }}</h3>
 
           <ul>
             <li class="m-t">
-              Get in-person help at a
-              <a
-                href="https://news.caloes.ca.gov/los-angeles-county-disaster-recovery-centers-open-tuesday-for-hurricane-force-firestorm-survivors/"
-                >Disaster Recovery Center</a
+              {{ 'help_online_fema_help_applying_disaster_recovery_center' | i18n | safe }}
               >
             </li>
             <li class="m-t">
-              Watch a video on how to apply:
+              {{ 'help_online_fema_help_applying_video' | i18n }}
               <a href="https://www.youtube.com/watch?v=HhtlyTX49RE"
-                >FEMA Accessible: Registering for Individual Assistance</a
+                >{{ 'help_online_fema_help_applying_video_title' | i18n }}</a
               >
             </li>
             <li class="m-t">
-              Read the
-              <a
-                href="https://www.fema.gov/assistance/individual/program/citizenship-immigration-status"
-                >citizenship and immigration status requirements</a
+              {{ 'help_online_fema_help_applying_citizenship' | i18n | safe }}
               >
             </li>
           </ul>
         </div>
 
         <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
-          <h3 class="m-t mb-2">Mortgage relief</h3>
+          <h3 class="m-t mb-2">{{ 'help_online_mortgage_relief_heading' | i18n }}</h3>
           <p>
-            Get mortgage relief for structures damaged or destroyed by the LA
-            fires. The state worked with major lenders to offer this relief.
-            Over 400 lenders committed to:
+            {{ 'help_online_mortgage_relief_description' | i18n }}
           </p>
           <ul>
-            <li class="m-t">Reduce or pause mortgage payments for 90 days</li>
-            <li class="m-t">Waive late fees for 90 days</li>
-            <li class="m-t">
-              Protect owners from new foreclosures or evictions for 60 days
-            </li>
-            <li class="m-t">Not report late payments to credit agencies</li>
+            <li class="m-t">{{ 'help_online_mortgage_relief_list_1' | i18n }}</li>
+            <li class="m-t">{{ 'help_online_mortgage_relief_list_2' | i18n }}</li>
+            <li class="m-t">{{ 'help_online_mortgage_relief_list_3' | i18n }}</li>
+            <li class="m-t">{{ 'help_online_mortgage_relief_list_4' | i18n }}</li>
           </ul>
 
           <div class="bg-gray-100 p-a-md m-t-md m-b-md">
             <p class="color-p2-darker m-b-0">
-              You must contact your mortgage lender to get relief. It does not
-              happen automatically.
+              {{ 'help_online_mortgage_relief_note' | i18n }}
             </p>
           </div>
 
           <p>
-            Visit
-            <a href="https://dfpi.ca.gov/lafires/relief/"
-              >Mortgage relief resources</a
-            >
-            for a list of participating lenders and more.
+            {{ 'help_online_mortgage_relief_resources' | i18n | safe }}
           </p>
         </div>
 
@@ -540,162 +466,132 @@
           <h3 class="m-t mb-2">Renter protection</h3>
           <p><strong>Protection from eviction</strong></p>
           <p>
-            The LA County Board of Supervisors has
-            <a
-              href="https://caanet.org/l-a-county-adopts-eviction-moratorium-rental-assistance-funding-remains-uncertain/#:~:text=The%20Los%20Angeles%20County%20Board,funding%20for%20unpaid%20landlords%20continue."
-              >prohibited evictions for tenants who qualify</a
-            >. This protection lasts through July 31, 2025. See
-            <a
-              href="https://dcba.lacounty.gov/wp-content/uploads/2025/02/January-2025-Wildfire-and-Critical-Windstorm-Resolution-FAQ-ENG-2.28.25.pdf"
-              >FAQs about this resolution (PDF)</a
-            >.
+            {{ 'help_online_renter_protection_description' | i18n | safe }}
           </p>
 
           <p>
-            The City of Los Angeles
-            <a href="https://housing.lacity.gov/renter-protections-2"
-              >protects eligible tenants from eviction</a
-            >. The protection lasts through July 31, 2025. You are eligible if
-            you lost wages because:
+            {{ 'help_online_renter_protection_city_description' | i18n | safe }}
           </p>
           <ul>
             <li class="m-t">
-              The wildfires destroyed your workplace or rendered it unusable, or
+              {{ 'help_online_renter_protection_eligibility_1' | i18n }}
             </li>
             <li class="m-t">
-              Your employer laid you off or reduced your working hours, or
+              {{ 'help_online_renter_protection_eligibility_2' | i18n }}
             </li>
             <li class="m-t">
-              You had clients located in the wildfires, so you lost income.
+              {{ 'help_online_renter_protection_eligibility_3' | i18n }}
             </li>
           </ul>
 
           <p>
-            Tenants are also protected from evictions for renovations through
-            this date.
+            {{ 'help_online_renter_protection_note_1' | i18n }}
           </p>
           <p>
-            If you need eviction protection in the City or County of Los
-            Angeles, you must notify your landlord. Send a
-            <a
-              href="https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf"
-              >Notice to Landlord of Inability to Pay Rent</a
-            >
-            (PDF).
+            {{ 'help_online_renter_protection_note_2' | i18n | safe }}
           </p>
 
           <p>
-            <strong>Free mediation</strong><br />
-            The Department of Consumer and Business Affairs (DCBA) offers free
-            mediation services. They help tenants and landlords work out a
-            payment plan. Call <a href="tel:8005938222">(800) 593-8222</a> to
-            learn more.
+            <strong>{{ 'help_online_renter_protection_mediation_title' | i18n }}</strong><br />
+
+            {{ 'help_online_renter_protection_mediation' | i18n | safe }}
+            
           </p>
         </div>
 
-        <h2 class="m-t-lg">Help for immigrants</h2>
+        <h2>{{ 'help_online_help_for_immigrants_heading' | i18n }}</h2>
 
         <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
           <h3 class="h5 m-t-md m-b text-left">
-            Disaster Assistance Guide for Immigrants
+            {{ 'help_online_immigrants_guide_title' | i18n }}
           </h3>
           <p class="text-left">
-            You can
-            <a href="https://cdss.ca.gov/disaster-help-center">get the guide</a>
-            in 5 languages:
+            {{ 'help_online_immigrants_guide_description' | i18n | safe }}
           </p>
           <ul>
-            <li class="m-t">English</li>
-            <li class="m-t">Spanish</li>
-            <li class="m-t">Simplified Chinese</li>
-            <li class="m-t">Traditional Chinese</li>
-            <li class="m-t">Armenian</li>
+            <li class="m-t">{{ 'help_online_immigrants_guide_languages_1' | i18n }}</li>
+            <li class="m-t">{{ 'help_online_immigrants_guide_languages_2' | i18n }}</li>
+            <li class="m-t">{{ 'help_online_immigrants_guide_languages_3' | i18n }}</li>
+            <li class="m-t">{{ 'help_online_immigrants_guide_languages_4' | i18n }}</li>
+            <li class="m-t">{{ 'help_online_immigrants_guide_languages_5' | i18n }}</li>
           </ul>
         </div>
 
-        <h2 class="m-t-lg">Help with student loans</h2>
+        <h2>{{ 'help_online_student_loans_heading' | i18n }}</h2>
         <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
           <p class="text-sm font-size-15 text-left gray-600">
-            from the Department of Financial Protection and Innovation (DFPI)
+            {{ 'help_online_student_loans_source' | i18n | safe }}
           </p>
           <p class="text-left">
-            If the fires affected you and you have student loans, you may be
-            eligible for relief.<br />
+            {{ 'help_online_student_loans_description' | i18n | safe }}<br />
 
-            See
-            <a
-              href="https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/"
-              >Student Loan Relief FAQ</a
-            >.
+            {{ 'help_online_student_loans_faq' | i18n | safe }}
           </p>
         </div>
 
-        <h2 class="m-t-lg">Avoiding price gouging</h2>
+        <h2>{{ 'help_online_avoiding_price_gouging_heading' | i18n }}</h2>
         <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
           <h3 class="h5 m-t-sm m-b">
             <a href="https://oag.ca.gov/LAFires"
-              >Consumer protections against price gouging</a
+              >{{ 'help_online_price_gouging_protection_title' | i18n }}</a
             >
           </h3>
-          <p class="text-left">from the Office of the Attorney General</p>
+          <p class="text-left">
+            {{ 'help_online_price_gouging_protection_source' | i18n | safe }}
+          </p>
         </div>
 
         <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
           <h3 class="h5 m-t-sm m-b">
             <a href="https://dcba.lacounty.gov/portfolio/price-gouging/"
-              >About price gouging</a
+              >{{ 'help_online_price_gouging_info_title' | i18n }}</a
             >
           </h3>
-          <p class="text-left">from Los Angeles County</p>
+          <p class="text-left">
+            {{ 'help_online_price_gouging_info_source' | i18n | safe }}
+          </p>
         </div>
 
         <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
           <h3 class="h5 m-t-sm m-b">
             <a
               href="https://dcba.3diengage.com/FrontPortal/Page/RenderPage?tabId=27&searchParameter=srTypeId%3D17"
-              >Consumer protection complaint form</a
+              >{{ 'help_online_price_gouging_complaint_title' | i18n }}</a
             >
           </h3>
-          <p class="text-left">from Los Angeles County</p>
+          <p class="text-left">
+            {{ 'help_online_price_gouging_complaint_source' | i18n | safe }}
+          </p>
         </div>
 
         <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
           <h3 class="h5 m-t-sm m-b">
             <a href="https://cityoflaprod.service-now.com/pgc"
-              >Price gouging complaint form</a
+              >{{ 'help_online_price_gouging_la_complaint_title' | i18n }}</a
             >
           </h3>
-          <p class="text-left">from the City of Los Angeles</p>
+          <p class="text-left">
+            {{ 'help_online_price_gouging_la_complaint_source' | i18n | safe }}
+          </p>
         </div>
 
-        <h2 class="m-t-lg">More county resources</h2>
+        <h2>{{ 'help_online_more_county_resources_heading' | i18n }}</h2>
         <p>
-          <strong
-            ><a href="https://recovery.lacounty.gov/resources/"
-              >LA County Recovers</a
-            ></strong
-          >
-          lists help from many county agencies. This includes help for:
+          {{ 'help_online_more_county_resources_description' | i18n | safe }}
         </p>
 
         <ul>
-          <li class="m-t">Seniors</li>
-          <li class="m-t">Disabled people</li>
-          <li class="m-t">Animals</li>
-          <li class="m-t">Children</li>
-          <li class="m-t">Mental health</li>
-          <li class="m-t">And much more</li>
+          <li class="m-t">{{ 'help_online_seniors' | i18n }}</li>
+          <li class="m-t">{{ 'help_online_disabled_people' | i18n }}</li>
+          <li class="m-t">{{ 'help_online_animals' | i18n }}</li>
+          <li class="m-t">{{ 'help_online_children' | i18n }}</li>
+          <li class="m-t">{{ 'help_online_mental_health' | i18n }}</li>
+          <li class="m-t">{{ 'help_online_much_more' | i18n }}</li>
         </ul>
 
-        <p>Information is written in English and Spanish.</p>
+        <p>{{ 'help_online_language_note' | i18n }}</p>
         <p>
-          <strong>The Salvation Army</strong> gives disaster services to those
-          affected by the fires. Visit their
-          <a
-            href="https://socal.salvationarmy.org/southern-california/disaster-services/"
-            >Disaster Services</a
-          >
-          page or call <a href="tel:8007259005">(800) 725-9005</a>.
+          {{ 'help_online_salvation_army_description' | i18n | safe}}
         </p>
       </div>
     </div>

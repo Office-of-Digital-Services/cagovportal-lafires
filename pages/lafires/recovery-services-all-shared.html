@@ -10,9 +10,9 @@
     <div class="col-lg-9">
       {%- include "breadcrumbs.html" -%}
       <h1 class="m-t-0 m-b-md color-white">
-        Recovery services finder<br />
+        {{ 'sf_h1_title' | i18n }}<br />
         <span class="font-size-30 color-white font-weight-400 m-b-md"
-          >Your customized services plans</span
+          >{{ 'sf_h1_subtitle' | i18n }}</span
         >
       </h1>
 
@@ -20,7 +20,7 @@
         ><span
           class="ca-gov-icon-caret-left d-inline-block no-underline font-size-20"
           aria-hidden="true"></span
-        >Back to Get help online</a
+        >{{ 'sf_back_link' | i18n }}</a
       >
     </div>
   </div>
@@ -34,19 +34,18 @@
     <!-- Main Content Area -->
     <div class="col-lg-10 pt-lg-3">
       <p class="lead">
-        Here are the services that meet your needs. We provide direct links or
-        information on how to get these services.
+        {{ 'sf_lead_text' | i18n }}
       </p>
 
       <p class="mb-5 d-flex gap-4 align-items-center">
         <a
           class="d-print-none btn btn-outline-primary rounded-4 brd-solid-2 p-x-md m-r"
           onclick="window.print(); return false;"
-          >Print your plan</a
+          >{{ 'sf_print_button' | i18n }}</a
         >
 
         <a href="/lafires/recovery-services-finder/" class="clearVars"
-          >Create new plan</a
+          >{{ 'sf_create_link_text' | i18n }}</a
         >
       </p>
       {%- for service_type in lafires.recovery_services_types -%}
@@ -162,10 +161,7 @@
 
       <div class="bg-gray-100 mt-5 px-4 p-b brd-solid-1 brd-gray-200 p-t-md">
         <p class="color-primary">
-          To find local services, check out the
-          <a href="https://wildfires.betterangels.la/"
-            >LA Disaster Relief Navigator</a
-          >, a user-friendly community resource hub.
+          {{ 'sf_navigator_text' | i18n | safe }}
         </p>
       </div>
     </div>

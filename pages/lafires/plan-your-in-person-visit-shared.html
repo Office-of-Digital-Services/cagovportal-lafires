@@ -7,7 +7,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-          >2025 Los Angeles Fires</span
+        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -25,13 +25,13 @@
       <div class="btn-row d-flex gap-2 m-t-lg">
         <button
           class="btn btn-primary btn-lg rounded-5"
-          aria-label="Share checklist"
+          aria-label="{{ 'plan_visit_share_aria_label' | i18n }}"
           id="share-this-page">
           <img
             src="/lafires/images/icon-share.svg"
             alt="Share icon"
             class="height-20" />
-          Share
+          {{ 'plan_visit_share_button' | i18n }}
         </button>
         <a
           hreflang="en-US"
@@ -41,21 +41,19 @@
             src="/lafires/images/icon-download.svg"
             alt="Download icon"
             class="height-20" />
-          <span class="sr-only">Download </span>English PDF<span
-            class="sr-only">
-            checklist</span
+            {{ 'plan_visit_english_pdf' | i18n }}
           >
         </a>
       </div>
 
-      <p class="m-t-md">More languages</p>
+      <p class="m-t-md">{{ 'plan_visit_more_languages' | i18n }}</p>
       <div class="row">
         <div class="col-lg-5 p-b-sm">
           <a
             hreflang="es-US"
             href="/lafires/docs/disaster-recovery-center-checklist-spanish.pdf"
             class="btn btn-outline-primary btn-sm w-100">
-            Español (Spanish) PDF<span class="sr-only"> checklist</span>
+            {{ 'plan_visit_spanish_pdf' | i18n }}
           </a>
         </div>
 
@@ -64,8 +62,7 @@
             hreflang="zh-Hans-US"
             href="/lafires/docs/disaster-recovery-center-checklist-chinese-simplified.pdf"
             class="btn btn-outline-primary btn-sm w-100">
-            简体中文 (Simplified Chinese) PDF<span class="sr-only">
-              checklist</span
+            {{ 'plan_visit_chinese_simplified_pdf' | i18n }}
             >
           </a>
         </div>
@@ -75,9 +72,7 @@
             hreflang="zh-Hant-US"
             href="/lafires/docs/disaster-recovery-center-checklist-chinese-traditional.pdf"
             class="btn btn-outline-primary btn-sm w-100">
-            繁體中文 (Traditional Chinese) PDF<span class="sr-only">
-              checklist</span
-            >
+            {{ 'plan_visit_chinese_traditional_pdf' | i18n }}
           </a>
         </div>
 
@@ -86,7 +81,7 @@
             hreflang="tl-US"
             href="/lafires/docs/disaster-recovery-center-checklist-tagalog.pdf"
             class="btn btn-outline-primary btn-sm w-100">
-            Tagalog (Filipino) PDF<span class="sr-only"> checklist</span>
+            {{ 'plan_visit_tagalog_pdf' | i18n }}
           </a>
         </div>
 
@@ -95,7 +90,7 @@
             hreflang="vi-US"
             href="/lafires/docs/disaster-recovery-center-checklist-vietnamese.pdf"
             class="btn btn-outline-primary btn-sm w-100">
-            Việt (Vietnamese) PDF<span class="sr-only"> checklist</span>
+            {{ 'plan_visit_vietnamese_pdf' | i18n }}
           </a>
         </div>
 
@@ -104,13 +99,13 @@
             hreflang="ko-US"
             href="/lafires/docs/disaster-recovery-center-checklist-korean.pdf"
             class="btn btn-outline-primary btn-sm w-100">
-            한국인 (Korean) PDF<span class="sr-only"> checklist</span>
+            {{ 'plan_visit_korean_pdf' | i18n }}
           </a>
         </div>
       </div>
 
       <!-- Health Section -->
-      <h2>Health</h2>
+      <h2>{{ 'plan_visit_health_section' | i18n }}</h2>
 
       <div class="form-check m-b">
         <input
@@ -121,11 +116,11 @@
           id="check1" />
         <label class="form-check-label cursor-pointer" for="check1"
           ><span class="bold d-block"
-            >Find out how to stay healthy during a wildfire</span
+            >{{ 'plan_visit_health_wildfire' | i18n }}</span
           >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Department of Public Health (CDPH)
+            {{ 'plan_visit_health_wildfire_agency' | i18n }}
           </div></label
         >
       </div>
@@ -139,12 +134,11 @@
           id="check2" />
         <label class="form-check-label cursor-pointer" for="check2"
           ><span class="bold d-block"
-            >Get N95s and public health information</span
+            >{{ 'plan_visit_health_n95' | i18n }}</span
           >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Department of Public Health, Environmental Health Division
-            (DPH)
+            {{ 'plan_visit_health_n95_agency' | i18n }}
           </div></label
         >
       </div>
@@ -157,14 +151,16 @@
           name="check3"
           id="check3" />
         <label class="form-check-label cursor-pointer" for="check3"
-          ><span class="bold d-block">Get help accessing medical services</span>
+          ><span class="bold d-block"
+            >{{ 'plan_visit_health_medical' | i18n }}</span
+          >
           <ul class="m-b-0">
-            <li class="m-t">Prescription medication refills</li>
-            <li class="m-t">Service referrals</li>
+            <li class="m-t">{{ 'plan_visit_health_medical_prescription' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_health_medical_referrals' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Department of Public Health, Medication Assistance (DPH)
+            {{ 'plan_visit_health_medical_agency' | i18n }}
           </div></label
         >
       </div>
@@ -177,10 +173,12 @@
           name="check4"
           id="check4" />
         <label class="form-check-label cursor-pointer" for="check4"
-          ><span class="bold d-block">Get Medi-Cal</span>
+          ><span class="bold d-block"
+            >{{ 'plan_visit_health_medical_cal' | i18n }}</span
+          >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Department of Public Social Services (DPSS)
+            {{ 'plan_visit_health_medical_cal_agency' | i18n }}
           </div></label
         >
       </div>
@@ -194,11 +192,11 @@
           id="check5" />
         <label class="form-check-label cursor-pointer" for="check5"
           ><span class="bold d-block"
-            >Get help with mental health resources</span
+            >{{ 'plan_visit_health_mental' | i18n }}</span
           >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Department of Mental Health (DMH)
+            {{ 'plan_visit_health_mental_agency' | i18n }}
           </div></label
         >
       </div>
@@ -212,15 +210,15 @@
           id="check6" />
         <label class="form-check-label cursor-pointer" for="check6"
           ><span class="bold d-block"
-            >Get help for people who are older or have disabilities</span
+            >{{ 'plan_visit_health_disabilities' | i18n }}</span
           >
           <ul class="m-b-0">
-            <li class="m-t">Service referrals</li>
-            <li class="m-t">Caregiver support</li>
+            <li class="m-t">{{ 'plan_visit_health_disabilities_referrals' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_health_disabilities_caregiver' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Aging & Disabilities Department (AD)
+            {{ 'plan_visit_health_disabilities_agency' | i18n }}
           </div></label
         >
       </div>
@@ -234,11 +232,11 @@
           id="check7" />
         <label class="form-check-label cursor-pointer" for="check7"
           ><span class="bold d-block"
-            >Get long-term care for veterans and spouses</span
+            >{{ 'plan_visit_health_veterans' | i18n }}</span
           >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Veterans Affairs (CalVet)
+            {{ 'plan_visit_health_veterans_agency' | i18n }}
           </div></label
         >
       </div>
@@ -246,7 +244,7 @@
       <!-- Food Section -->
       <hr class="m-y-md" />
 
-      <h2>Food</h2>
+      <h2>{{ 'plan_visit_food_section' | i18n }}</h2>
 
       <div class="form-check m-b">
         <input
@@ -256,10 +254,12 @@
           name="check8"
           id="check8" />
         <label class="form-check-label cursor-pointer" for="check8"
-          ><span class="bold d-block">Get food benefits</span>
+          ><span class="bold d-block"
+            >{{ 'plan_visit_food_benefits' | i18n }}</span
+          >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Department of Public Social Services (DPSS)
+            {{ 'plan_visit_food_benefits_agency' | i18n }}
           </div></label
         >
       </div>
@@ -273,16 +273,16 @@
           id="check9" />
         <label class="form-check-label cursor-pointer" for="check9"
           ><span class="bold d-block"
-            >Get food benefits for women and children (WIC)</span
+            >{{ 'plan_visit_food_wic' | i18n }}</span
           >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Department of Public Health (CDPH)
+            {{ 'plan_visit_food_wic_agency' | i18n }}
           </div></label
         >
       </div>
       <hr class="m-y-md" />
-      <h2>Housing</h2>
+      <h2>{{ 'plan_visit_housing_section' | i18n }}</h2>
 
       <div class="form-check m-b">
         <input
@@ -292,10 +292,12 @@
           name="check10"
           id="check10" />
         <label class="form-check-label cursor-pointer" for="check10"
-          ><span class="bold d-block">Get help with housing</span>
+          ><span class="bold d-block"
+            >{{ 'plan_visit_housing_help' | i18n }}</span
+          >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County 211
+            {{ 'plan_visit_housing_help_agency' | i18n }}
           </div></label
         >
       </div>
@@ -308,10 +310,12 @@
           name="check11"
           id="check11" />
         <label class="form-check-label cursor-pointer" for="check11"
-          ><span class="bold d-block">Find temporary housing</span>
+          ><span class="bold d-block"
+            >{{ 'plan_visit_housing_temporary' | i18n }}</span
+          >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Department of Public Social Services (DPSS)
+            {{ 'plan_visit_housing_temporary_agency' | i18n }}
           </div></label
         >
       </div>
@@ -324,21 +328,23 @@
           name="check12"
           id="check12" />
         <label class="form-check-label cursor-pointer" for="check12"
-          ><span class="bold d-block">Get help with housing protections</span>
+          ><span class="bold d-block"
+            >{{ 'plan_visit_housing_protections' | i18n }}</span
+          >
           <ul class="m-b-0">
-            <li class="m-t">Price gouging</li>
-            <li class="m-t">Housing and tenant protections</li>
-            <li class="m-t">Foreclosure prevention</li>
+            <li class="m-t">{{ 'plan_visit_housing_protections_gouging' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_housing_protections_tenant' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_housing_protections_foreclosure' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Department of Consumer & Business Affairs (DCBA)
+            {{ 'plan_visit_housing_protections_agency' | i18n }}
           </div></label
         >
       </div>
 
       <hr class="m-y-md" />
-      <h2>Social services</h2>
+      <h2>{{ 'plan_visit_social_services_section' | i18n }}</h2>
       <div class="form-check m-b">
         <input
           class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
@@ -348,11 +354,11 @@
           id="check13" />
         <label class="form-check-label cursor-pointer" for="check13"
           ><span class="bold d-block"
-            >Get help with child support questions</span
+            >{{ 'plan_visit_social_services_child_support' | i18n }}</span
           >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Child Support Services Department (CSSD)
+            {{ 'plan_visit_social_services_child_support_agency' | i18n }}
           </div></label
         >
       </div>
@@ -365,16 +371,18 @@
           name="check14"
           id="check14" />
         <label class="form-check-label cursor-pointer" for="check14"
-          ><span class="bold d-block">Get VA benefits</span>
+          ><span class="bold d-block"
+            >{{ 'plan_visit_social_services_va' | i18n }}</span
+          >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Veterans Affairs (CalVet)
+            {{ 'plan_visit_social_services_va_agency' | i18n }}
           </div></label
         >
       </div>
 
       <hr class="m-y-md" />
-      <h2>Individual Assistance (FEMA)</h2>
+      <h2>{{ 'plan_visit_fema_section' | i18n }}</h2>
 
       <div class="form-check m-b">
         <input
@@ -384,15 +392,17 @@
           name="check15"
           id="check15" />
         <label class="form-check-label cursor-pointer" for="check15"
-          ><span class="bold">Apply for money and other services</span>
+          ><span class="bold"
+            >{{ 'plan_visit_fema_assistance' | i18n }}</span
+          >
           <ul class="m-b-0 font-weight-400">
-            <li>Housing</li>
-            <li>Funds for repairs</li>
-            <li>Legal services</li>
+            <li>{{ 'plan_visit_fema_assistance_housing' | i18n }}</li>
+            <li>{{ 'plan_visit_fema_assistance_repairs' | i18n }}</li>
+            <li>{{ 'plan_visit_fema_assistance_legal' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            Federal Emergency Management Agency (FEMA)
+            {{ 'plan_visit_fema_assistance_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -406,17 +416,18 @@
           id="check16" />
         <label class="form-check-label cursor-pointer" for="check16"
           ><span class="bold"
-            >Get Individual and Household Program grant extensions (State
-            Supplemental Grant Program)</span
+            >{{ 'plan_visit_fema_grants' | i18n }}</span
           ><br />
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Department of Social Services (CDSS)
+            {{ 'plan_visit_fema_grants_agency' | i18n }}
           </div>
         </label>
       </div>
+
+
       <hr class="m-y-md" />
-      <h2>Replace your personal documents</h2>
+      <h2>{{ 'plan_visit_documents_section' | i18n }}</h2>
 
       <div class="form-check m-b">
         <input
@@ -427,16 +438,18 @@
           id="check17" />
         <label class="form-check-label cursor-pointer" for="check17"
           ><span class="bold"
-            >Replace your birth, death, and marriage certificates</span
+            >{{ 'plan_visit_documents_vital' | i18n }}</span
           ><br />
-          <span class="font-weight-400 italic d-block">(Fees are waived)</span>
+          <span class="font-weight-400 italic d-block"
+            >{{ 'plan_visit_documents_vital_fees' | i18n }}</span
+          >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Department of Public Health (CDPH)
+            {{ 'plan_visit_documents_vital_agency_1' | i18n }}
           </div>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Registrar Recorder/County Clerk (RR/CC)
+            {{ 'plan_visit_documents_vital_agency_2' | i18n }}
           </div>
         </label>
       </div>
@@ -449,14 +462,16 @@
           name="check18"
           id="check18" />
         <label class="form-check-label cursor-pointer" for="check18"
-          ><span class="bold">Replace your identity and car documents </span>
+          ><span class="bold"
+            >{{ 'plan_visit_documents_id' | i18n }}</span
+          >
           <ul class="m-b-0 font-weight-400">
-            <li class="m-t">Car registration and titles</li>
-            <li class="m-t">Driver’s licenses and ID cards</li>
+            <li class="m-t">{{ 'plan_visit_documents_id_car' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_documents_id_license' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            Department of Motor Vehicles (DMV)
+            {{ 'plan_visit_documents_id_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -470,18 +485,15 @@
           id="check19" />
         <label class="form-check-label cursor-pointer" for="check19"
           ><span class="bold"
-            >Get or replace manufactured and mobile home (MH-unit)
-            documents</span
+            >{{ 'plan_visit_documents_mobile_home' | i18n }}</span
           >
           <ul class="m-b-0 font-weight-400">
-            <li class="m-t">Ownership documents</li>
-            <li class="m-t">
-              Salvage certificates and removal from HCD registration
-            </li>
+            <li class="m-t">{{ 'plan_visit_documents_mobile_home_ownership' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_documents_mobile_home_salvage' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            Department of Housing and Community Development (HCD)
+            {{ 'plan_visit_documents_mobile_home_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -494,10 +506,12 @@
           name="check20"
           id="check20" />
         <label class="form-check-label cursor-pointer" for="check20"
-          ><span class="bold d-block">Replace your property records</span>
+          ><span class="bold d-block"
+            >{{ 'plan_visit_documents_property' | i18n }}</span
+          >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Registrar Recorder/County Clerk (RR/CC)
+            {{ 'plan_visit_documents_property_agency' | i18n }}
           </div></label
         >
       </div>
@@ -510,11 +524,15 @@
           name="check21"
           id="check21" />
         <label class="form-check-label cursor-pointer" for="check21"
-          ><span class="bold">Replace income tax documents</span><br />
-          <span class="font-weight-400 italic d-block">(Fees are waived)</span>
+          ><span class="bold"
+            >{{ 'plan_visit_documents_tax' | i18n }}</span
+          ><br />
+          <span class="font-weight-400 italic d-block"
+            >{{ 'plan_visit_documents_tax_fees' | i18n }}</span
+          >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            Franchise Tax Board (FTB)
+            {{ 'plan_visit_documents_tax_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -527,15 +545,17 @@
           name="check22"
           id="check22" />
         <label class="form-check-label cursor-pointer" for="check22"
-          ><span class="bold d-block">Replace military service records</span>
+          ><span class="bold d-block"
+            >{{ 'plan_visit_documents_military' | i18n }}</span
+          >
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Veterans Affairs (CalVet)
+            {{ 'plan_visit_documents_military_agency' | i18n }}
           </div></label
         >
       </div>
       <hr class="m-y-md" />
-      <h2>Insurance claims</h2>
+      <h2>{{ 'plan_visit_insurance_section' | i18n }}</h2>
 
       <div class="form-check m-b">
         <input
@@ -545,21 +565,23 @@
           name="check23"
           id="check23" />
         <label class="form-check-label cursor-pointer" for="check23"
-          ><span class="bold">Get help with insurance claims</span>
+          ><span class="bold"
+            >{{ 'plan_visit_insurance_claims' | i18n }}</span
+          >
           <ul class="m-b-0 font-weight-400">
-            <li>Handling delays</li>
-            <li>Living expenses</li>
-            <li>Underinsurance disputes</li>
+            <li>{{ 'plan_visit_insurance_claims_delays' | i18n }}</li>
+            <li>{{ 'plan_visit_insurance_claims_expenses' | i18n }}</li>
+            <li>{{ 'plan_visit_insurance_claims_disputes' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            Department of Insurance (CDI)
+            {{ 'plan_visit_insurance_claims_agency' | i18n }}
           </div>
         </label>
       </div>
 
       <hr class="m-y-md" />
-      <h2>Employment</h2>
+      <h2>{{ 'plan_visit_employment_section' | i18n }}</h2>
 
       <div class="form-check m-b">
         <input
@@ -570,22 +592,22 @@
           id="check24" />
         <label class="form-check-label cursor-pointer" for="check24"
           ><span class="bold"
-            >If you can’t work due to the fires, apply for benefits</span
+            >{{ 'plan_visit_employment_benefits' | i18n }}</span
           >
           <ul class="m-b-0 font-weight-400">
-            <li class="m-t">State and federal unemployment benefits</li>
-            <li class="m-t">Disability insurance benefits</li>
-            <li class="m-t">Job opportunities and training</li>
+            <li class="m-t">{{ 'plan_visit_employment_benefits_unemployment' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_employment_benefits_disability' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_employment_benefits_jobs' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            Employment Development Department (EDD)
+            {{ 'plan_visit_employment_benefits_agency' | i18n }}
           </div>
         </label>
       </div>
 
       <hr class="m-y-md" />
-      <h2>Taxes</h2>
+      <h2>{{ 'plan_visit_taxes_section' | i18n }}</h2>
       <div class="form-check m-b">
         <input
           class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
@@ -594,14 +616,16 @@
           name="check25"
           id="check25" />
         <label class="form-check-label cursor-pointer" for="check25"
-          ><span class="bold">Get help with taxes</span>
+          ><span class="bold"
+            >{{ 'plan_visit_taxes_help' | i18n }}</span
+          >
           <ul class="m-b-0">
-            <li class="m-t">Income tax relief and filing assistance</li>
-            <li class="m-t">Address updates</li>
+            <li class="m-t">{{ 'plan_visit_taxes_help_relief' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_taxes_help_address' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            Franchise Tax Board (FTB)
+            {{ 'plan_visit_taxes_help_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -614,16 +638,18 @@
           name="check26"
           id="check26" />
         <label class="form-check-label cursor-pointer" for="check26"
-          ><span class="bold">Get help with tax relief</span><br />
+          ><span class="bold"
+            >{{ 'plan_visit_taxes_relief' | i18n }}</span
+          ><br />
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Treasurer and Tax Collector (TTC)
+            {{ 'plan_visit_taxes_relief_agency' | i18n }}
           </div>
         </label>
       </div>
 
       <hr class="m-y-md" />
-      <h2>Rebuilding help</h2>
+      <h2>{{ 'plan_visit_rebuilding_section' | i18n }}</h2>
 
       <div class="form-check m-b">
         <input
@@ -633,14 +659,16 @@
           name="check27"
           id="check27" />
         <label class="form-check-label cursor-pointer" for="check27"
-          ><span class="bold">Get help clearing your property</span>
+          ><span class="bold"
+            >{{ 'plan_visit_rebuilding_clearing' | i18n }}</span
+          >
           <ul class="m-b-0">
-            <li class="m-t">Debris removal</li>
-            <li class="m-t">Mud and debris flow</li>
+            <li class="m-t">{{ 'plan_visit_rebuilding_clearing_debris' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_rebuilding_clearing_mud' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Public Works (DPW)
+            {{ 'plan_visit_rebuilding_clearing_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -653,14 +681,16 @@
           name="check28"
           id="check28" />
         <label class="form-check-label cursor-pointer" for="check28"
-          ><span class="bold">Get help starting the rebuilding process</span>
+          ><span class="bold"
+            >{{ 'plan_visit_rebuilding_process' | i18n }}</span
+          >
           <ul class="m-b-0">
-            <li class="m-t">Project and case intake</li>
-            <li class="m-t">Zoning</li>
+            <li class="m-t">{{ 'plan_visit_rebuilding_process_intake' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_rebuilding_process_zoning' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Department of Regional Planning
+            {{ 'plan_visit_rebuilding_process_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -673,16 +703,18 @@
           name="check29"
           id="check29" />
         <label class="form-check-label cursor-pointer" for="check29"
-          ><span class="bold">Get help with rebuilding permits</span>
+          ><span class="bold"
+            >{{ 'plan_visit_rebuilding_permits' | i18n }}</span
+          >
           <br />
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Public Works (DPW)
+            {{ 'plan_visit_rebuilding_permits_agency_1' | i18n }}
           </div>
 
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Department of Regional Planning
+            {{ 'plan_visit_rebuilding_permits_agency_2' | i18n }}
           </div>
         </label>
       </div>
@@ -695,15 +727,17 @@
           name="check30"
           id="check30" />
         <label class="form-check-label  cursor-pointer" for="check30"
-          ><span class="bold">Get help with contractors </span>
+          ><span class="bold"
+            >{{ 'plan_visit_rebuilding_contractors' | i18n }}</span
+          >
           <ul class="m-b-0">
-            <li class="m-t">Making sure your contractor is licensed</li>
-            <li class="m-t">Finding and hiring a licensed contractor</li>
-            <li class="m-t">Filing a complaint</li>
+            <li class="m-t">{{ 'plan_visit_rebuilding_contractors_license' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_rebuilding_contractors_hiring' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_rebuilding_contractors_complaint' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            Contractors State Licensing Board (CSLB)
+            {{ 'plan_visit_rebuilding_contractors_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -716,11 +750,13 @@
           name="check31"
           id="check31" />
         <label class="form-check-label cursor-pointer" for="check31"
-          ><span class="bold">Get case management and referrals</span>
+          ><span class="bold"
+            >{{ 'plan_visit_rebuilding_case' | i18n }}</span
+          >
           <br />
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County 211
+            {{ 'plan_visit_rebuilding_case_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -734,13 +770,12 @@
           id="check32" />
         <label class="form-check-label cursor-pointer" for="check32"
           ><span class="bold"
-            >Get long-term recovery planning through the Disaster Case
-            Management Program (DCMP)</span
+            >{{ 'plan_visit_rebuilding_dcmp' | i18n }}</span
           >
           <br />
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Department of Social Services (CDSS)
+            {{ 'plan_visit_rebuilding_dcmp_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -753,14 +788,16 @@
           name="check33"
           id="check33" />
         <label class="form-check-label cursor-pointer" for="check33"
-          ><span class="bold">Get help with property reassessment</span>
+          ><span class="bold"
+            >{{ 'plan_visit_rebuilding_property' | i18n }}</span
+          >
           <ul class="m-b-0">
-            <li class="m-t">Applications</li>
-            <li class="m-t">Property value information</li>
+            <li class="m-t">{{ 'plan_visit_rebuilding_property_items_applications' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_rebuilding_property_items_property_value' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Assessor's Office
+            {{ 'plan_visit_rebuilding_property_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -773,10 +810,12 @@
           name="check34"
           id="check34" />
         <label class="form-check-label cursor-pointer" for="check34"
-          ><span class="bold">Get CalVet home loans</span><br />
+          ><span class="bold"
+            >{{ 'plan_visit_rebuilding_calvet' | i18n }}</span
+          ><br />
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Veterans Affairs (CalVet)
+            {{ 'plan_visit_rebuilding_calvet_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -790,24 +829,22 @@
           id="check35" />
         <label class="form-check-label cursor-pointer" for="check35"
           ><span class="bold"
-            >Get help with mobile home and manufactured home (MH-unit)
-            rebuilding</span
+            >{{ 'plan_visit_rebuilding_mobile' | i18n }}</span
           ><br />
           <ul class="m-b-0">
             <li class="m-t">
-              Application for mobile home park construction, mobile home park
-              MH-unit installation permits
+              {{ 'plan_visit_rebuilding_mobile_items' | i18n }}
             </li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Department of Housing and Community Development (HCD)
+            {{ 'plan_visit_rebuilding_mobile_agency' | i18n }}
           </div>
         </label>
       </div>
 
       <hr class="m-y-md" />
-      <h2>Business help</h2>
+      <h2>{{ 'plan_visit_business_section' | i18n }}</h2>
       <div class="form-check m-b">
         <input
           class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
@@ -816,15 +853,17 @@
           name="check36"
           id="check36" />
         <label class="form-check-label  cursor-pointer" for="check36"
-          ><span class="bold">Get help with business taxes</span>
+          ><span class="bold"
+            >{{ 'plan_visit_business_taxes' | i18n }}</span
+          >
           <ul class="m-b-0 font-weight-400">
-            <li>Sales and use tax</li>
-            <li>Extensions to file returns</li>
-            <li>Relief from interest and penalties</li>
+            <li>{{ 'plan_visit_business_taxes_items_1' | i18n }}</li>
+            <li>{{ 'plan_visit_business_taxes_items_2' | i18n }}</li>
+            <li>{{ 'plan_visit_business_taxes_items_3' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            California Department of Tax and Fee Administration (CDTFA)
+            {{ 'plan_visit_business_taxes_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -838,11 +877,11 @@
           id="check37" />
         <label class="form-check-label cursor-pointer" for="check37"
           ><span class="bold"
-            >Get business income tax relief and filing extensions</span
+            >{{ 'plan_visit_business_income' | i18n }}</span
           ><br />
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            Franchise Tax Board (FTB)
+            {{ 'plan_visit_business_income_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -855,10 +894,12 @@
           name="check38"
           id="check38" />
         <label class="form-check-label cursor-pointer" for="check38"
-          ><span class="bold">Get employer payroll tax extensions</span><br />
+          ><span class="bold"
+            >{{ 'plan_visit_business_payroll' | i18n }}</span
+          ><br />
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            Employment Development Department (EDD)
+            {{ 'plan_visit_business_payroll_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -871,10 +912,12 @@
           name="check39"
           id="check39" />
         <label class="form-check-label cursor-pointer" for="check39"
-          ><span class="bold">Replace your business records</span><br />
+          ><span class="bold"
+            >{{ 'plan_visit_business_records' | i18n }}</span
+          ><br />
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Registrar Recorder/County Clerk (RR/CC)
+            {{ 'plan_visit_business_records_agency' | i18n }}
           </div>
         </label>
       </div>
@@ -887,15 +930,17 @@
           name="check40"
           id="check40" />
         <label class="form-check-label cursor-pointer" for="check40"
-          ><span class="bold">Get help for businesses</span><br />
+          ><span class="bold"
+            >{{ 'plan_visit_business_help' | i18n }}</span
+          ><br />
           <ul class="m-b-0">
-            <li class="m-t">Small business assistance</li>
-            <li class="m-t">Grants</li>
-            <li class="m-t">Worker development programs</li>
+            <li class="m-t">{{ 'plan_visit_business_help_items_1' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_business_help_items_2' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_business_help_items_3' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            LA County Department of Economic Opportunity (DEO)
+            {{ 'plan_visit_business_help_agency' | i18n }}
           </div>
         </label>
       </div>

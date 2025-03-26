@@ -2229,7 +2229,7 @@ module.exports = {
     hy: "Անտառային հրդեհներից հետո մաքրման և վերակառուցման աշխատանքները պետք է համապատասխանեն Կալիֆորնիայի աշխատանքային օրենքներին և աշխատավայրի անվտանգության ու առողջության կանոնակարգերին։ Իմացեք այս պահանջների մասին։"
   },
   // this is the record that was originally duplicate ID 84, I've temporarily changed it to ID 94 -- will need a corrected airtable.json
-  sf_94_service_name: {
+  sf_90_service_name: {
     status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "Tree removal",
@@ -2242,7 +2242,7 @@ module.exports = {
     "zh-hant": "樹木移除",
     hy: "Ծառերի հեռացում"
   },
-  sf_94_entity: {
+  sf_90_entity: {
     status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "U.S. Army Corps of Engineers",
@@ -2255,7 +2255,7 @@ module.exports = {
     "zh-hant": "美國陸軍工程兵團",
     hy: "ԱՄՆ բանակի ճարտարագիտական կորպուս"
   },
-  sf_94_description: {
+  sf_90_description: {
     status: 'machine translated',
     src_file: "src/_data/airTable.json",
     en: "During debris removal, the USACE will remove trees that are hazardous. But you can request that a tree not be removed.",

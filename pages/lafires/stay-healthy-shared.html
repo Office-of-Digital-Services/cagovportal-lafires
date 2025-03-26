@@ -7,7 +7,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-          >2025 Los Angeles Fires</span
+        >{{ 'title_2025_los_angeles_fires' | i18n  }}</span
         >
       </h1>
     </div>
@@ -21,233 +21,199 @@
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
       <p class="m-b-md lead">
-        Learn how to stay safe and healthy during recovery.
+        {{ 'stay_healthy_lead_text' | i18n | safe }}
       </p>
 
       <nav class="page-navigation"></nav>
 
-      <h2 class="m-b-0">Air safety</h2>
-      <p>Understand air quality and how to protect yourself from toxins.</p>
+      <h2 class="m-b-0">
+        {{ 'stay_healthy_air_safety_heading' | i18n  }}
+      </h2>
+      <p>
+        {{ 'stay_healthy_understand_air_quality' | i18n | safe }}
+      </p>
 
-      <h3>Outdoor air quality</h3>
+      <h3>
+        {{ 'stay_healthy_outdoor_air_quality_heading' | i18n  }}
+      </h3>
 
       <p>
-        Now that the fires are out, air quality has improved. But you can check
-        the
-        <a href="https://www.aqmd.gov/">air quality index (AQI)</a> from South
-        Coast Air Quality Monitoring District.
+        {{ 'stay_healthy_outdoor_air_quality' | i18n | safe }}
       </p>
 
       <p>
-        See
-        <a href="https://www.ca.gov/lafires/track-progress/#Air-quality"
-          >how air quality is monitored in your area</a
-        >.
+        {{ 'stay_healthy_air_quality_monitoring' | i18n | safe }}
       </p>
 
-      <h3>Indoor air quality</h3>
+      <h3>
+        {{ 'stay_healthy_indoor_air_quality_heading' | i18n  }}
+      </h3>
 
       <p>
-        There may be toxins still in your home from smoke and ash. Wear a
-        respirator and other protection when you return home.
-      </p>
-      <h2>Water safety</h2>
-      <p>
-        The fires contaminated some water systems. Find the
-        <a
-          href="https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/"
-          >latest information on water safety</a
-        >
-        from your water provider. Check your water bill to find your provider.
-        If you&rsquo;re a renter, ask your landlord.&nbsp;
+        {{ 'stay_healthy_indoor_air_quality' | i18n | safe }}
       </p>
 
+      <h2>
+        {{ 'stay_healthy_water_safety_heading' | i18n }}
+      </h2>
       <p>
-        If your water provider sent a notice, your water may not be safe to use,
-        drink, or boil. If you got a notice like that, use bottled water for:
+        {{ 'stay_healthy_water_safety' | i18n | safe }}&nbsp;
+      </p>
+      <p>
+        {{ 'stay_healthy_water_safety_notice' | i18n | safe }}
       </p>
       <ul>
-        <li class="m-t">Drinking</li>
-        <li class="m-t">Baby formula</li>
-        <li class="m-t">Brushing teeth</li>
-        <li class="m-t">Washing dishes</li>
-        <li class="m-t">Making ice</li>
-        <li class="m-t">Preparing food</li>
-        <li class="m-t">Feeding pets</li>
+        <li class="m-t">
+          {{ 'stay_healthy_drinking' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'stay_healthy_baby_formula' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'stay_healthy_brushing_teeth' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'stay_healthy_washing_dishes' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'stay_healthy_making_ice' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'stay_healthy_preparing_food' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'stay_healthy_feeding_pets' | i18n | safe }}
+        </li>
       </ul>
 
       <p>
-        If your water provider lifted the water notice in your area, you can use
-        tap water again.
-        <a
-          href="https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes"
-          >Flush your water pipes</a
-        >
-        to clear the contaminated water from your home. Keep in mind that home
-        water testing kits aren&rsquo;t reliable.
+        {{ 'stay_healthy_water_notice_lifted' | i18n | safe }}
       </p>
 
       <p>
-        Also, check for
-        <a
-          href="http://publichealth.lacounty.gov/phcommon/public/eh/water_quality/beach_grades.cfm/"
-          >beach water quality advisories</a
-        >. Rain can wash toxins from the fires into the ocean.
+        {{ 'stay_healthy_beach_water_quality' | i18n | safe }}
       </p>
-      <h2>Staying safe at home</h2>
+
+      <h2>
+        {{ 'stay_healthy_staying_safe_at_home_heading' | i18n }}
+      </h2>
       <p>
-        Once you get a pass to return home, be aware of toxic materials and ash.
+        {{ 'stay_healthy_staying_safe_at_home_description' | i18n | safe }}
       </p>
-      <h3>Clearing hazardous waste</h3>
+      <h3>
+        {{ 'stay_healthy_clearing_hazardous_waste_heading' | i18n }}
+      </h3>
       <p>
-        The EPA has removed household hazardous waste from burned properties.
-      </p>
-      <p>
-        They removed toxic and explosive materials they can see. This includes
-        things like paints, batteries, and propane tanks. This service was
-        automatic and there&rsquo;s no cost to you.&nbsp;&nbsp;
+        {{ 'stay_healthy_clearing_hazardous_waste_description' | i18n | safe }}
       </p>
       <p>
-        If you still see hazardous waste after the EPA cleared your home, leave
-        it alone. It is toxic and could spark more fires. If you hear a popping
-        or hissing noise or see smoke, leave the area immediately and call 911.
+        {{ 'stay_healthy_hazardous_waste_removal_description' | i18n | safe }}&nbsp;&nbsp;
+      </p>
+      <p>
+        {{ 'stay_healthy_hazardous_waste_removal_notice_description' | i18n | safe }}
       </p>
 
       <p>
-        If you are a worker at a fire cleanup site, find out how to
-        <a href="https://www.dir.ca.gov/wildfire-faq.html"
-          >stay safe while you work</a
-        >.
+        {{ 'stay_healthy_worker_safety_description' | i18n | safe }}
       </p>
 
       <p>
-        Learn more about the
-        <a
-          href="https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf"
-          >EPA cleanup</a
-        >
-        and the
-        <a href="https://www.ca.gov/lafires/return-to-your-home-safely/"
-          >next cleanup phase</a
-        >.
+        {{ 'stay_healthy_learn_more_description' | i18n | safe }}
       </p>
-      <h3>Ash, dust, and debris</h3>
+
+      <h3>
+        {{ 'stay_healthy_ash_dust_and_debris_heading' | i18n }}
+      </h3>
       <p>
-        Protect yourself from ash, dust, and debris. They may contain toxic and
-        cancer-causing chemicals like asbestos, arsenic, and lead. Limit contact
-        with these materials.
+        {{ 'stay_healthy_ash_dust_and_debris_description' | i18n | safe }}
       </p>
 
       <p>
-        Some groups are more sensitive to these materials. They should stay away
-        from debris and the cleanup. They include:
+        {{ 'stay_healthy_sensitive_groups_description' | i18n | safe }}
       </p>
       <ul>
-        <li class="m-t">People with heart or lung disease (like asthma)</li>
-        <li class="m-t">Older adults</li>
-        <li class="m-t">Pregnant women</li>
-        <li class="m-t">Children</li>
-        <li class="m-t">Pets</li>
+        <li class="m-t">
+          {{ 'stay_healthy_people_with_heart_or_lung_disease' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'stay_healthy_older_adults' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'stay_healthy_pregnant_women' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'stay_healthy_children' | i18n | safe }}
+        </li>
+        <li class="m-t">{{ 'stay_healthy_pets' | i18n | safe }}</li>
       </ul>
       <p>
-        If you can see ash and smell smoke, you need to clean your home. No
-        laboratory test can determine if your property is safe.&nbsp;
+        {{ 'stay_healthy_ash_dust_and_debris_clean_home' | i18n | safe }}&nbsp;
       </p>
 
       <p>
-        Keep ash from spreading by wet mopping. Put debris and ash in a plastic
-        trash bag and throw them away with your regular trash. If ash gets on
-        your skin, wash with warm water and soap as soon as possible. Stay safe
-        by wearing:
+        {{ 'stay_healthy_ash_dust_and_debris_keep_ash_from_spreading' | i18n | safe }}
       </p>
       <ul>
-        <li class="m-t">N-100 or P-100 respirator</li>
-        <li class="m-t">Rubber gloves</li>
-        <li class="m-t">Booties</li>
-        <li class="m-t">Long-sleeved shirts</li>
-        <li class="m-t">Long pants</li>
-        <li class="m-t">Socks and shoes</li>
-        <li class="m-t">Safety goggles (not glasses)</li>
+        <li class="m-t">{{ 'stay_healthy_n_100_or_p_100_respirator' | i18n | safe }}</li>
+        <li class="m-t">{{ 'stay_healthy_rubber_gloves' | i18n | safe }}</li>
+        <li class="m-t">{{ 'stay_healthy_booties' | i18n | safe }}</li>
+        <li class="m-t">{{ 'stay_healthy_long_sleeved_shirts' | i18n | safe }}</li>
+        <li class="m-t">{{ 'stay_healthy_long_pants' | i18n | safe }}</li>
+        <li class="m-t">{{ 'stay_healthy_socks_and_shoes' | i18n | safe }}</li>
+        <li class="m-t">{{ 'stay_healthy_safety_goggles' | i18n | safe }}</li>
       </ul>
       <p>
-        N95 masks cannot protect you from asbestos. Learn more about the
-        <a href="https://www.dir.ca.gov/dosh/fire_resp_protection.html"
-          >respirators that can protect you</a
-        >. You can get personal protective equipment at a
-        <a href="https://www.ca.gov/lafires/get-help-in-person/"
-          >Disaster Recovery Center</a
-        >.
+        {{ 'stay_healthy_n95_masks_cannot_protect_from_asbestos' | i18n | safe }}
       </p>
 
       <p>
-        Learn more about
-        <a
-          href="https://recovery.lacounty.gov/returning-after-a-fire-public-health"
-          >dealing with dust and debris</a
-        >
-        when returning home.
+        {{ 'stay_healthy_dealing_with_dust_and_debris_when_returning_home' | i18n | safe }}
       </p>
-      <h2>Health and wellness</h2>
-      <h3>Medical help</h3>
+      <h2>
+        {{ 'stay_healthy_health_and_wellness_heading' | i18n }}
+      </h2>
+      <h3>
+        {{ 'stay_healthy_medical_help_heading' | i18n }}
+      </h3>
       <p>
-        <a href="https://aspr.hhs.gov/EPAP/Pages/epap-for-patients.aspx"
-          >Get the medicine you need</a
-        >
-        through the federal Emergency Prescription Assistance Program. This
-        program helps people without insurance replace prescriptions or medical
-        equipment.
+        {{ 'stay_healthy_medical_help_description' | i18n | safe}}
       </p>
 
       <p>
-        Get help in person at a
-        <a href="https://www.ca.gov/lafires/get-help-in-person/"
-          >Disaster Recovery Center</a
-        >. Nurses can connect you with referrals and access to medications.
+        {{ 'stay_healthy_get_help_in_person_description' | i18n | safe }}
       </p>
 
       <p>
-        If you need health insurance, you may be able to
-        <a href="https://dpss.lacounty.gov/en/health.html">get Medi-Cal</a>.
+        {{ 'stay_healthy_health_insurance_description' | i18n | safe }}
       </p>
-      <h3>Mental health</h3>
+      <h3>
+        {{ 'stay_healthy_mental_health_heading' | i18n }}
+      </h3>
       <p>
-        Navigating disaster recovery is stressful and overwhelming. Get mental
-        and emotional support for yourself and your loved ones.
+        {{ 'stay_healthy_mental_health_description' | i18n | safe }}
       </p>
 
       <p>
-        Call the <a href="https://www.calhope.org/">CalHOPE Warm Line</a>, a
-        24/7 peer-run hotline. It gives free and confidential emotional support.
-        Find more
-        <a
-          href="https://www.cdph.ca.gov/Programs/EPO/Pages/Wildfire%20Pages/Wildfires--Mental-Health.aspx"
-          >free and confidential support</a
-        >
-        for youth and adults.
+        {{ 'stay_healthy_calhope_warm_line_description' | i18n | safe }}
       </p>
 
       <p>
-        Check if your workplace has an Employee Assistance Program. They may
-        offer confidential counseling and support.
+        {{ 'stay_healthy_employee_assistance_program_description' | i18n | safe }}
       </p>
-      <h2>Benefits for disaster injuries</h2>
+      <h2>
+        {{ 'stay_healthy_benefits_for_disaster_injuries_heading' | i18n }}
+      </h2>
       <p>
-        If you or your loved ones have injuries from the wildfires, you may be
-        eligible for benefits.
+        {{ 'stay_healthy_benefits_for_disaster_injuries_description' | i18n | safe }}
       </p>
 
       <p>
-        <a href="https://edd.ca.gov/en/disability/disability_insurance/"
-          >Disability Insurance</a
-        >
-        provides short-term wages if an injury prevents you from working.
+        {{ 'stay_healthy_disability_insurance_description' | i18n | safe }}
       </p>
 
-      <a href="https://edd.ca.gov/en/disability/paid-family-leave/"
-        >Paid Family Leave</a
-      >
-      provides benefits if you need to take time off work to care for a
-      seriously ill family member.
+      <p>
+        {{ 'stay_healthy_paid_family_leave_description' | i18n | safe }}
+      </p>
     </div>
   </div>
 </div>

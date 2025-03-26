@@ -8,12 +8,29 @@ const postcssNested = require("postcss-nested");
 const { DateTime } = require("luxon");
 const fs = require("node:fs");
 const path = require("node:path");
-let translationsModule = { translations: require("./src/_data/i18n.cjs") }; // Change to an object that holds the translations
-let translationsModule_sidenav = { translations: require("./src/_data/i18n-sidenav.cjs") }; // Change to an object that holds the translations
-let translationsModule_service_finder = { translations: require("./src/_data/i18n-service-finder.cjs") }; // Change to an object that holds the translations
-let translationsModule_feedback = { translations: require("./src/_data/i18n-feedback.cjs") }; // Change to an object that holds the translations
-let translationsModule_volunteer = { translations: require("./src/_data/i18n-volunteer.cjs") }; // Change to an object that holds the translations
-let translationsModule_vital_records = { translations: require("./src/_data/i18n-vital-records.cjs") }; // Change to an object that holds the translations
+
+// Utility function to load all translation files and combine them
+function loadAllTranslations() {
+  const translationsDir = path.join(__dirname, "./src/_data");
+  
+  // Find all files matching i18n*.cjs pattern
+  const translationFiles = fs.readdirSync(translationsDir)
+    .filter(file => file.match(/^i18n.*\.cjs$/));
+  
+  // Load and merge all translation files into a single object
+
+  let allTranslations = {};
+  translationFiles.forEach(file => {
+    const filePath = path.join(translationsDir, file);
+    const translations = require(filePath);
+    allTranslations = { ...allTranslations, ...translations };
+  });
+  
+  return { translations: allTranslations };
+}
+
+let translationsModule = loadAllTranslations();
+
 const chalk = require("chalk");
 
 // canonical domain
@@ -23,13 +40,6 @@ const metatitlepostfix = " | CA.gov";
 // use console.log to report complete list of process.env variables
 const is_development = process.env.MY_ENVIRONMENT ? process.env.MY_ENVIRONMENT === "local" : false;
 
-// append special translations to the translationsModule
-translationsModule.translations = { ...translationsModule.translations, 
-                                    ...translationsModule_sidenav.translations, 
-                                    ...translationsModule_service_finder.translations, 
-                                    ...translationsModule_feedback.translations,
-                                    ...translationsModule_volunteer.translations,
-                                    ...translationsModule_vital_records.translations };
 
 module.exports = function (
   /** @type {import("@11ty/eleventy").UserConfig} **/ eleventyConfig
@@ -56,25 +66,14 @@ module.exports = function (
   eleventyConfig.addWatchTarget("./src/_data/i18n*.cjs");
   eleventyConfig.on("beforeWatch", changedFiles => { // support changing i18n.cjs during development without quitting the server
     if (changedFiles.some(file => file.includes("i18n"))) {
-      delete require.cache[require.resolve("./src/_data/i18n.cjs")];
-      delete require.cache[require.resolve("./src/_data/i18n-sidenav.cjs")];
-      delete require.cache[require.resolve("./src/_data/i18n-service-finder.cjs")];
-      delete require.cache[require.resolve("./src/_data/i18n-feedback.cjs")];
-      delete require.cache[require.resolve("./src/_data/i18n-volunteer.cjs")];
-      delete require.cache[require.resolve("./src/_data/i18n-vital-records.cjs")];
-      translationsModule.translations = require("./src/_data/i18n.cjs");
-      translationsModule_sidenav.translations = require("./src/_data/i18n-sidenav.cjs");
-      translationsModule_service_finder.translations = require("./src/_data/i18n-service-finder.cjs");
-      translationsModule_feedback.translations = require("./src/_data/i18n-feedback.cjs");
-      translationsModule_volunteer.translations = require("./src/_data/i18n-volunteer.cjs");
-      translationsModule_vital_records.translations = require("./src/_data/i18n-vital-records.cjs");
-      translationsModule.translations = { ...translationsModule.translations, 
-        ...translationsModule_sidenav.translations, 
-        ...translationsModule_service_finder.translations, 
-        ...translationsModule_feedback.translations,
-        ...translationsModule_volunteer.translations,
-        ...translationsModule_vital_records.translations };
-
+      // Clear require cache for all i18n files
+      Object.keys(require.cache).forEach(key => {
+        if (key.includes("i18n") && key.endsWith(".cjs")) {
+          delete require.cache[key];
+        }
+      });
+      // Reload all translations
+      translationsModule = loadAllTranslations();
     }
   });
 

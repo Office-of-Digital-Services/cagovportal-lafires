@@ -7,7 +7,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-          >2025 Los Angeles Fires</span
+        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -24,7 +24,7 @@
 
       <nav class="page-navigation"></nav>
 
-      <h2 class="m-b-0">Real-time updates</h2>
+      <h2 class="m-b-0">{{ 'realtime_real_time_updates_heading' | i18n }}</h2>
 
       <div class="row">
         <div class="col-lg-6 m-t">
@@ -34,10 +34,12 @@
               <a
                 href="https://www.fire.ca.gov/"
                 class="color-p2 text-left d-block"
-                >Ongoing fires</a
+                >{{ 'realtime_ongoing_fires_heading' | i18n }}</a
               >
             </h3>
-            <p class="text-sm font-size-15 text-left gray-600">from CAL FIRE</p>
+            <p class="text-sm font-size-15 text-left gray-600">
+              {{ 'realtime_ongoing_fires_description' | i18n }}
+            </p>
           </div>
         </div>
 
@@ -48,11 +50,11 @@
               <a
                 href="https://www.listoscalifornia.org/alerts/"
                 class="color-p2 text-left d-block"
-                >Get emergency alerts</a
+                >{{ 'realtime_emergency_alerts_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from Listos California
+              {{ 'realtime_listos_california_description' | i18n }}
             </p>
           </div>
         </div>
@@ -64,11 +66,11 @@
               <a
                 href="https://www.sce.com/outage-center/outage-information/psps"
                 class="color-p2 text-left d-block"
-                >Power shutoffs</a
+                >{{ 'realtime_power_shutoffs_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from Southern California Edison
+              {{ 'realtime_power_shutoffs_description' | i18n }}
             </p>
           </div>
         </div>
@@ -80,11 +82,11 @@
               <a
                 href="https://211la.org/LA-Wildfires"
                 class="color-p2 text-left d-block"
-                >School and government closures</a
+                >{{ 'realtime_school_closures_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from LA County 211
+              {{ 'realtime_school_closures_description' | i18n }}
             </p>
           </div>
         </div>
@@ -96,11 +98,11 @@
               <a
                 href="https://news.caloes.ca.gov/"
                 class="color-p2 text-left d-block"
-                >Latest news</a
+                >{{ 'realtime_latest_news_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from California Governor’s Office of Emergency Services (Cal OES)
+              {{ 'realtime_latest_news_description' | i18n }}
             </p>
           </div>
         </div>
@@ -112,24 +114,26 @@
               <a
                 href="https://quickmap.dot.ca.gov/"
                 class="color-p2 text-left d-block"
-                >Traffic maps and road conditions
-              </a>
+                >{{ 'realtime_traffic_heading' | i18n }}</a
+              >
             </h3>
-            <p class="text-sm font-size-15 text-left gray-600">from CalTrans</p>
+            <p class="text-sm font-size-15 text-left gray-600">
+              {{ 'realtime_traffic_description' | i18n }}
+            </p>
             <ul class="text-left">
               <li class="m-t">
                 <a href="https://roads.dot.ca.gov/?roadnumber=SR1"
-                  >Pacfic Coast Highway closures (SR1)</a
+                  >{{ 'realtime_pch_closures' | i18n }}</a
                 >
               </li>
               <li class="m-t">
                 <a href="https://roads.dot.ca.gov/?roadnumber=27"
-                  >Topanga Canyon Road closures (SR27)</a
+                  >{{ 'realtime_topanga_closures' | i18n }}</a
                 >
               </li>
               <li class="m-t">
                 <a href="https://dpw.lacounty.gov/roadclosures/"
-                  >Other road closures</a
+                  >{{ 'realtime_other_closures' | i18n }}</a
                 >
               </li>
             </ul>
@@ -141,11 +145,11 @@
             class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
             <h3 class="h5 m-t-md m-b">
               <a href="https://www.aqmd.gov/" class="color-p2 text-left d-block"
-                >Air quality</a
+                >{{ 'realtime_air_quality_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from South Coast Air Quality Monitoring District
+              {{ 'realtime_air_quality_description' | i18n }}
             </p>
           </div>
         </div>
@@ -157,17 +161,17 @@
               <a
                 href="https://waterforla.lacounty.gov/water-alerts/"
                 class="color-p2 text-left d-block"
-                >Water quality</a
+                >{{ 'realtime_water_quality_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from State Water Resources Control Board
+              {{ 'realtime_water_quality_description' | i18n }}
             </p>
           </div>
         </div>
       </div>
 
-      <h2>Evacuations</h2>
+      <h2>{{ 'realtime_evacuations_heading' | i18n }}</h2>
 
       <div class="row">
         <div class="col-lg-6 m-t">
@@ -177,11 +181,11 @@
               <a
                 href="https://ready.lacounty.gov/emergency-notifications/"
                 class="color-p2 text-left d-block"
-                >Evacuation notices and critical updates</a
+                >{{ 'realtime_evacuation_notices_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from Ready LA County
+              {{ 'realtime_evacuation_notices_description' | i18n }}
             </p>
           </div>
         </div>
@@ -193,15 +197,17 @@
               <a
                 href="https://readyforwildfire.org/prepare-for-wildfire/go-evacuation-guide/"
                 class="color-p2 text-left d-block"
-                >Tips for evacuating safely</a
+                >{{ 'realtime_evacuation_tips_heading' | i18n }}</a
               >
             </h3>
-            <p class="text-sm font-size-15 text-left gray-600">from CAL FIRE</p>
+            <p class="text-sm font-size-15 text-left gray-600">
+              {{ 'realtime_evacuation_tips_description' | i18n }}
+            </p>
           </div>
         </div>
       </div>
 
-      <h2>Getting prepared</h2>
+      <h2>{{ 'realtime_getting_prepared_heading' | i18n }}</h2>
 
       <div class="row">
         <div class="col-lg-6 m-t">
@@ -211,11 +217,11 @@
               <a
                 href="https://www.listoscalifornia.org/disaster-readiness/"
                 class="color-p2 text-left d-block"
-                >Prepare for emergencies</a
+                >{{ 'realtime_prepare_for_emergencies_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from Listos California
+              {{ 'realtime_prepare_for_emergencies_description' | i18n }}
             </p>
           </div>
         </div>
@@ -227,11 +233,11 @@
               <a
                 href="http://www.bepreparedcalifornia.ca.gov/"
                 class="color-p2 text-left d-block"
-                >Be Prepared California</a
+                >{{ 'realtime_be_prepared_california_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from California Department of Public Health (CDPH)
+              {{ 'realtime_be_prepared_california_description' | i18n }}
             </p>
           </div>
         </div>

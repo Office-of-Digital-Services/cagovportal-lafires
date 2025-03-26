@@ -144,7 +144,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-          >2025 Los Angeles Fires</span
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -158,21 +158,15 @@
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
       <p class="m-b-md lead">
-        LA's recovery is Governor Newsom's top priority. See all state actions
-        to support recovery and rebuilding on
-        <a
-          href="https://www.gov.ca.gov/2025/01/24/heres-all-the-actions-governor-newsom-has-taken-in-response-to-the-los-angeles-fires/"
-          >the Governor's website</a
-        >.
+        {{ 'track_progress_governor_website' | i18n | safe }}
       </p>
       <nav class="page-navigation"></nav>
 
       <!--People helped-->
       <div class="row m-b-lg">
-        <h2 class="m-b-md">People helped</h2>
+        <h2 class="m-b-md">{{ 'track_progress_people_helped' | i18n }}</h2>
         <p>
-          Local, state, and federal governments offer in-person help at disaster
-          recovery centers.
+          {{ 'track_progress_local_state_federal_help_at_centers' | i18n }}
         </p>
 
         <div class="col-lg-6 m-t-md">
@@ -181,7 +175,7 @@
             class="dashboard-card rounded h-100 d-flex flex-column">
             <h3
               class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary">
-              At disaster recovery centers
+              {{ 'track_progress_at_disaster_recovery_centers' | i18n }}
             </h3>
 
             <div
@@ -193,13 +187,13 @@
                 aria-hidden="true" />
               <div class="dashboard-row font-size-12 d-flex">
                 <span class="dashboard-stat" id="people_helped_drc"></span>
-                <span>visits</span>
+                <span>{{ 'track_progress_visits' | i18n }}</span>
               </div>
             </div>
 
             <p class="font-size-12 bg-s1 p-a">
               <em
-                >Reported by Federal Emergency Management Agency<br /><span
+                >{{ 'track_progress_reported_by_fema' | i18n }}<br /><span
                   id="people_helped_drc_date"></span
               ></em>
             </p>
@@ -212,7 +206,7 @@
             class="dashboard-card rounded h-100 d-flex flex-column">
             <h3
               class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary">
-              By FEMA assistance
+              {{ 'track_progress_by_fema_assistance' | i18n }}
             </h3>
 
             <div
@@ -226,7 +220,7 @@
                 <span
                   class="dashboard-stat"
                   id="people_helped_fema_individuals"></span>
-                <span>people helped</span>
+                <span>{{ 'track_progress_people_helped_lowercase' | i18n }}</span>
               </div>
 
               <img
@@ -238,13 +232,13 @@
                 <span class="dashboard-stat"
                   >$<span id="people_helped_fema_funds"></span>M</span
                 >
-                <span>distributed to individuals</span>
+                <span>{{ 'track_progress_distributed_to_individuals' | i18n }}</span>
               </div>
             </div>
 
             <p class="font-size-12 bg-s1 p-a">
               <em
-                >Reported by Federal Emergency Management Agency<br />
+                >{{ 'track_progress_reported_by_fema' | i18n }}<br />
                 <span id="people_helped_fema_individuals_date"></span
               ></em>
             </p>
@@ -254,11 +248,9 @@
 
       <!--Schools reopened-->
       <div class="row m-b-lg">
-        <h2 class="m-b-md">Schools reopened</h2>
+        <h2 class="m-b-md">{{ 'track_progress_schools_reopened' | i18n }}</h2>
         <p>
-          Many public schools operating in fire affected areas were damaged or
-          destroyed. Federal, state, and local government is coordinating to
-          help schools resume instruction for students.
+          {{ 'track_progress_many_schools_in_fire_areas_damaged' | i18n }}
         </p>
         <div class="col-lg-6 m-t-md">
           <div
@@ -266,7 +258,7 @@
             class="dashboard-card rounded h-100 d-flex flex-column">
             <h3
               class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary">
-              Damaged or destroyed public schools
+              {{ 'track_progress_damaged_or_destroyed_public_schools' | i18n }}
             </h3>
 
             <div class="h-100 bg-primary">
@@ -282,10 +274,10 @@
                     <span class="dashboard-stat"
                       ><span id="schools_resumed_inperson"></span
                     ></span>
-                    <span>of</span>
+                    <span>{{ 'track_progress_of' | i18n }}</span>
                     <span class="dashboard-stat">8</span>
                   </div>
-                  <span>have resumed instruction</span>
+                  <span>{{ 'track_progress_have_resumed_instruction' | i18n }}</span>
                 </div>
                 <div class="d-flex align-items-center gap-3">
                   <img
@@ -294,7 +286,7 @@
                     height="20"
                     aria-hidden="true" />
                   <p class="m-0 font-size-12">
-                    Teaching in-person:
+                    {{ 'track_progress_teaching_in_person' | i18n }}
                     <span id="schools_resumed"></span>
                   </p>
                 </div>
@@ -305,7 +297,7 @@
                     height="18"
                     aria-hidden="true" />
                   <p class="m-0 font-size-12">
-                    Teaching online: <span id="schools_resumed_virtual"></span>
+                    {{ 'track_progress_teaching_online' | i18n }} <span id="schools_resumed_virtual"></span>
                   </p>
                 </div>
               </div>
@@ -313,7 +305,7 @@
 
             <p class="font-size-12 bg-s1 p-a">
               <em
-                >Reported to Schools Task Force<br /><span
+                >{{ 'track_progress_reported_to_schools_task_force' | i18n }}<br /><span
                   id="schools_resumed_date"></span
               ></em>
             </p>
@@ -323,31 +315,25 @@
 
       <!--Properties cleaned up-->
       <div class="m-b-lg scroll-section" id="phases">
-        <h2 class="m-b-md">Properties cleaned up</h2>
-        <p>There are 2 phases of cleanup:</p>
+        <h2 class="m-b-md">{{ 'track_progress_properties_cleaned_up' | i18n }}</h2>
+        <p>
+          {{ 'track_progress_there_are_2_phases_of_cleanup' | i18n }}
+        </p>
         <ul>
           <li class="m-t">
-            <strong>Phase 1</strong>: U.S. Environmental Protection Agency
-            clears household hazardous waste
+            <strong>{{ 'track_progress_phase_1' | i18n }}</strong>: {{ 'track_progress_epa_clears_household_hazardous_waste' | i18n }}
           </li>
           <li class="m-t">
-            <strong>Phase 2</strong>: U.S. Army Corps of Engineers clears
-            structural debris
+            <strong>{{ 'track_progress_phase_2' | i18n }}</strong>: {{ 'track_progress_army_corps_clears_structural_debris' | i18n }}
           </li>
         </ul>
         <p>
-          Currently, LA County is
-          <a
-            href="https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63"
-            >accepting Right of Entry forms</a
-          >
-          for Phase 2. Once validated by the county, the U.S. Army Corps of
-          Engineers assesses properties and begins debris removal.
+          {{ 'track_progress_accepting_phase_2_entry_forms' | i18n | safe}}
         </p>
 
         <h3 class="m-t-md m-b d-flex flex-column">
-          <span class="font-size-20">Phase 1</span>
-          <span class="font-size-25">Hazardous household waste cleanup</span>
+          <span class="font-size-20">{{ 'track_progress_phase_1' | i18n }}</span>
+          <span class="font-size-25">{{ 'track_progress_hazardous_household_waste_cleanup' | i18n }}</span>
         </h3>
 
         <div
@@ -360,7 +346,7 @@
               width="49"
               height="48"
               aria-hidden="true" />
-            <span>Hazardous household waste cleanup progress</span>
+            <span>{{ 'track_progress_hazardous_household_waste_cleanup_progress' | i18n }}</span>
           </h4>
 
           <div class="bg-primary h-100 p-x-md p-b-md p-t-sm">
@@ -372,7 +358,7 @@
                   width="23"
                   height="23"
                   aria-hidden="true" />
-                <span>Phase 1 complete</span>
+                <span>{{ 'track_progress_phase_1_complete' | i18n }}</span>
               </div>
               <span>100%</span>
             </div>
@@ -386,31 +372,23 @@
               <span class="dashboard-stat"
                 ><span id="cleanup_phase1_parcels"></span
               ></span>
-              <span>parcels completed</span>
+              <span>{{ 'track_progress_parcels_completed_lowercase' | i18n }}</span>
             </div>
             <details class="font-size-12 m-t">
               <summary class="d-flex gap-2 align-items-center">
                 <span class="ca-gov-icon-arrow-next" aria-hidden="true"></span>
-                <span>Data notes</span>
+                <span>{{ 'track_progress_data_notes' | i18n }}</span>
               </summary>
               <div class="p-l-sm">
                 <ul>
                   <li>
-                    For a detailed breakdown of Phase 1 progress, see the
-                    <a
-                      href="https://storymaps.arcgis.com/stories/12e839aa88764185ab7ef3f84cace1ea"
-                      >U.S. Environmental Protection Agency's progress
-                      dashboard</a
-                    >.
+                    {{ 'track_progress_epa_progress_dashboard' | i18n | safe}}
                   </li>
                   <li>
-                    Complete means staff finished removing hazardous waste,
-                    found unsafe structural debris that requires Phase 2
-                    cleanup, or could not gain access to the property.
+                    {{ 'track_progress_complete_means_staff_finished_removing_hazardous_waste' | i18n }}
                   </li>
                   <li>
-                    The U.S. Army Corps of Engineers will clear any unsafe
-                    properties in phase 2.
+                    {{ 'track_progress_us_army_corps_of_engineers_will_clear_any_unsafe_properties_in_phase_2' | i18n }}
                   </li>
                 </ul>
               </div>
@@ -418,15 +396,15 @@
           </div>
           <p class="font-size-12 bg-s1 p-a">
             <em
-              >Reported by U.S. Environmental Protection Agency<br /><span
+              >{{ 'track_progress_reported_by_epa' | i18n }}<br /><span
                 id="cleanup_phase1_parcels_date"></span
             ></em>
           </p>
         </div>
 
         <h3 class="m-t-md m-b d-flex flex-column">
-          <span class="font-size-20">Phase 2</span>
-          <span class="font-size-25">Structural debris removal</span>
+          <span class="font-size-20">{{ 'track_progress_phase_2' | i18n }}</span>
+          <span class="font-size-25">{{ 'track_progress_structural_debris_removal' | i18n }}</span>
         </h3>
 
         <div
@@ -440,7 +418,7 @@
               height="49"
               aria-hidden="true" />
 
-            <span>Right of Entry forms</span>
+            <span>{{ 'track_progress_right_of_entry_forms' | i18n }}</span>
           </h4>
 
           <div class="bg-primary h-100 p-x-md p-b-md p-t-sm">
@@ -448,7 +426,7 @@
               <span class="dashboard-stat" id="cleanup_phase2_roe_submitted"
                 >9,417</span
               >
-              <span>Right of Entry forms submitted to LA County</span>
+              <span>{{ 'track_progress_right_of_entry_forms_submitted_to_la_county' | i18n }}</span>
             </div>
 
             <div
@@ -461,7 +439,7 @@
                   height="23"
                   aria-hidden="true" />
                 <span class="font-size-12"
-                  >Opt-in: <span id="cleanup_phase2_optin"></span
+                  >{{ 'track_progress_opt_in' | i18n }} <span id="cleanup_phase2_optin"></span
                 ></span>
               </div>
               <div class="d-flex align-items-center gap-2">
@@ -471,14 +449,14 @@
                   height="23"
                   aria-hidden="true" />
                 <span class="font-size-12"
-                  >Opt-out: <span id="cleanup_phase2_optout"></span
+                  >{{ 'track_progress_opt_out' | i18n }} <span id="cleanup_phase2_optout"></span
                 ></span>
               </div>
             </div>
           </div>
           <p class="font-size-12 bg-s1 p-a">
             <em
-              >Reported by LA County<br /><span
+              >{{ 'track_progress_reported_by_la_county' | i18n }}<br /><span
                 id="cleanup_phase2_roe_submitted_date"></span
             ></em>
           </p>
@@ -495,7 +473,7 @@
               height="46"
               aria-hidden="true" />
 
-            <span>Structural debris removal progress</span>
+            <span>{{ 'track_progress_structural_debris_removal_progress' | i18n }}</span>
           </h4>
 
           <div class="bg-primary h-100 p-x-md p-b-md p-t-sm">
@@ -503,7 +481,7 @@
               <span class="dashboard-stat"
                 ><span id="phase2_roes_accepted"></span
               ></span>
-              <span>parcels have been accepted for Phase 2 debris removal</span>
+              <span>{{ 'track_progress_parcels_have_been_accepted_for_phase_2_debris_removal' | i18n }}</span>
             </div>
 
             <div
@@ -525,38 +503,26 @@
               <span class="dashboard-stat"
                 ><span id="phase2_parcels_completed"></span
               ></span>
-              <span>parcels completed</span>
+              <span>{{ 'track_progress_parcels_completed_lowercase' | i18n }}</span>
             </div>
             <details class="font-size-12 m-t">
               <summary class="d-flex gap-2 align-items-center">
                 <span class="ca-gov-icon-arrow-next" aria-hidden="true"></span>
-                <span>Data notes</span>
+                <span>{{ 'track_progress_data_notes' | i18n }}</span>
               </summary>
               <div class="p-l-sm">
                 <ul>
                   <li>
-                    For a detailed breakdown of the Phase 2 process and current
-                    status, see the
-                    <a
-                      href="https://www.spl.usace.army.mil/Missions/Emergency-Management/Los-Angeles-County-Wildfire-Debris-Removal-Mission/"
-                      >U.S. Army Corps of Engineers' progress dashboard</a
-                    >.
+                    {{ 'track_progress_detailed_breakdown_of_phase_2_process_and_current_status' | i18n | safe}}
                   </li>
                   <li>
-                    Property owners must submit opt-in Right of Entry forms for
-                    the U.S. Army Corps of Engineers to complete Phase 2.
-                    Property owners that opt out of this process must cover
-                    debris removal expenses and work.
+                    {{ 'track_progress_property_owners_must_submit_opt_in_right_of_entry_forms' | i18n | safe}}
                   </li>
                   <li>
-                    The progress bar measures the number of parcels that have
-                    completed Phase 2 against the estimated total number of
-                    eligible parcels.
+                    {{ 'track_progress_progress_bar_measures_the_number_of_parcels_that_have_completed_phase_2' | i18n | safe}}
                   </li>
                   <li>
-                    Complete means that structural debris has been removed from
-                    the property and the parcel has been returned back to the
-                    owner.
+                    {{ 'track_progress_complete_means_structural_debris_has_been_removed_from_the_property' | i18n | safe}}
                   </li>
                 </ul>
               </div>
@@ -564,7 +530,7 @@
           </div>
           <p class="font-size-12 bg-s1 p-a">
             <em
-              >Reported by U.S. Army Corps of Engineers<br /><span
+              >{{ 'track_progress_reported_by_us_army_corps_of_engineers' | i18n }}<br /><span
                 id="phase2_parcels_completed_date"></span
             ></em>
           </p>
@@ -573,11 +539,9 @@
 
       <!--Water restored-->
       <div class="row m-b-lg">
-        <h2 class="m-b-md">Water restored</h2>
+        <h2 class="m-b-md">{{ 'track_progress_water_restored' | i18n }}</h2>
         <p>
-          The California State Water Resources Control Board is working with
-          local water systems impacted by the fires to restore safe drinking
-          water for residents.
+          {{ 'track_progress_california_state_water_resources_control_board' | i18n }}
         </p>
         <div class="col-lg-12 m-t-md">
           <div
@@ -590,7 +554,7 @@
                 width="48"
                 height="48"
                 aria-hidden="true" />
-              <span class="m-l-sm">Water systems status</span>
+              <span class="m-l-sm">{{ 'track_progress_water_systems_status' | i18n }}</span>
             </h3>
 
             <div
@@ -606,7 +570,7 @@
                   <span class="dashboard-stat"
                     ><span id="water_safe_to_drink"></span
                   ></span>
-                  <span>systems safe to drink</span>
+                  <span>{{ 'track_progress_systems_safe_to_drink' | i18n }}</span>
                 </div>
                 <div
                   class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2"
@@ -614,14 +578,14 @@
                   <span class="dashboard-stat"
                     ><span id="water_restoration"></span
                   ></span>
-                  <span>systems in progress</span>
+                  <span>{{ 'track_progress_systems_in_progress' | i18n }}</span>
                 </div>
               </div>
             </div>
 
             <p class="font-size-12 bg-s1 p-a">
               <em
-                >Reported by State Water Resources Control Board<br /><span
+                >{{ 'track_progress_reported_by_state_water_resources_control_board' | i18n }}<br /><span
                   id="water_safe_to_drink_date"></span
               ></em>
             </p>
@@ -631,29 +595,22 @@
 
       <!--Air monitoring-->
       <div class="m-b-md">
-        <h2 class="m-b-md">Air quality</h2>
+        <h2 class="m-b-md">{{ 'track_progress_air_quality' | i18n }}</h2>
         <p>
-          South Coast Air Quality Management District and the California Air
-          Resources Board are working together to measure air quality in your
-          area.
+          {{ 'track_progress_south_coast_air_quality_management_district' | i18n }}
         </p>
         <p>
-          Monitoring occurs in two stages: mobile monitoring surveys and
-          stationary monitoring.
+          {{ 'track_progress_monitoring_occurs_in_two_stages' | i18n }}
         </p>
         <ul>
           <li class="m-b">
-            <strong>Stage 1 - Mobile monitoring surveys:</strong> Four mobile
-            surveys were completed, two for the Eaton fire area and two for the
-            Palisades fire area. Mobile surveys capture a snapshot in time of
-            air toxic metals and volatile organic compounds (VOCs). The data was
-            used to help guide locations for stationary air monitors.
-            <strong>They are not used to establish health risks.</strong>
+            <strong>{{ 'track_progress_stage_1_mobile_monitoring_surveys' | i18n }}</strong> 
+            {{ 'track_progress_four_mobile_surveys_were_completed' | i18n }}
+            <strong>{{ 'track_progress_they_are_not_used_to_establish_health_risks' | i18n  }}</strong>
           </li>
           <li class="m-b">
-            <strong>Stage 2 - Stationary air quality monitors:</strong> They
-            measure pollutants in the air. This includes particulates (PM2.5 and
-            PM10), lead, arsenic, other toxic metals, and asbestos.
+            <strong>{{ 'track_progress_stage_2_stationary_air_quality_monitors' | i18n }}</strong> 
+            {{ 'track_progress_they_measure_pollutants_in_the_air' | i18n  }}
           </li>
         </ul>
       </div>
@@ -670,7 +627,7 @@
                 width="48"
                 height="49"
                 aria-hidden="true" />
-              <span class="m-l-sm">How we are monitoring</span>
+              <span class="m-l-sm">{{ 'track_progress_how_we_are_monitoring' | i18n }}</span>
             </h3>
 
             <div class="bg-primary h-100 p-x-md p-b-md p-t-sm">
@@ -697,8 +654,7 @@
                     ><span id="air_mobile_survey_complete"></span
                   ></span>
                   <span
-                    >mobile monitoring surveys completed in Eaton and Palisades
-                    areas</span
+                    >{{ 'track_progress_mobile_monitoring_surveys_completed_in_eaton_and_palisades_areas' | i18n }}</span
                   >
                 </div>
                 <div
@@ -708,8 +664,7 @@
                     ><span id="air_stationary_deployed"></span
                   ></span>
                   <span
-                    >stationary air quality monitoring sites deployed for Eaton
-                    and Palisades areas</span
+                    >{{ 'track_progress_stationary_air_quality_monitoring_sites_deployed' | i18n }}</span
                   >
                 </div>
               </div>
@@ -717,7 +672,7 @@
 
             <p class="font-size-12 bg-s1 p-a">
               <em
-                >Reported by South Coast Air Quality Management District<br /><span
+                >{{ 'track_progress_reported_by_south_coast_air_quality_management_district' | i18n }}<br /><span
                   id="air_mobile_survey_complete_date"></span
               ></em>
             </p>
@@ -737,24 +692,22 @@
                 width="48"
                 height="48"
                 aria-hidden="true" />
-              <span class="m-l-sm">Mobile air monitoring</span>
+              <span class="m-l-sm">{{ 'track_progress_mobile_air_monitoring' | i18n }}</span>
             </h3>
 
             <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
-              <p>Mobile air monitoring is now complete.</p>
-              <p>Four mobile surveys, two in each burn area, were conducted.</p>
+              <p>{{ 'track_progress_mobile_air_monitoring_is_now_complete' | i18n }}</p>
+              <p>{{ 'track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted' | i18n }}</p>
 
               <h4 class="h6">Results</h4>
               <p>
-                Overall, survey results from Eaton and Palisades areas were
-                within background levels, with some elevated levels of lead,
-                arsenic, chromium and nickel.
+                {{ 'track_progress_overall_survey_results_from_eaton_and_palisades_areas_were_within_background_levels' | i18n }}
               </p>
             </div>
 
             <p class="font-size-12 bg-s1 p-a">
               <em
-                >Reported by South Coast Air Quality Management District<br />
+                >{{ 'track_progress_reported_by_south_coast_air_quality_management_district' | i18n }}<br />
                 <span id="air_mobile_survey_complete_date2"></span
               ></em>
             </p>
@@ -772,7 +725,7 @@
                 width="48"
                 height="48"
                 aria-hidden="true" />
-              <span class="m-l-sm">Stationary air monitoring</span>
+              <span class="m-l-sm">{{ 'track_progress_stationary_air_monitoring' | i18n }}</span>
             </h3>
 
             <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
@@ -782,49 +735,42 @@
                   ><span id="air_stationary_deployed2"></span
                 ></span>
                 <span
-                  >stationary air quality monitoring sites deployed for Eaton
-                  and Palisades areas</span
+                  >{{ 'track_progress_stationary_air_quality_monitoring_sites_deployed' | i18n }}</span
                 >
               </div>
 
               <hr />
 
-              <h4 class="h6">Eaton data results</h4>
+              <h4 class="h6">{{ 'track_progress_eaton_data_results' | i18n }}</h4>
               <p>
-                2/27/2025 samples from Altadena Golf Course and Christ the
-                Shepherd Lutheran Church:
+                {{ 'track_progress_samples_from_altadena_golf_course_and_christ_the_shepherd_lutheran_church' | i18n }}
               </p>
 
               <ul>
                 <li class="m-b-sm">
-                  All air toxic metals are within background levels. Asbestos
-                  was not detected.
+                  {{ 'track_progress_altadena_golf_course_results_1' | i18n }}
                 </li>
                 <li class="m-b-sm">
-                  To date, continuous PM10 and PM2.5 hourly data were below
-                  federal standards.
+                  {{ 'track_progress_altadena_golf_course_results_2' | i18n }}
                 </li>
               </ul>
 
-              <h4 class="h6">Palisades data results</h4>
+              <h4 class="h6">{{ 'track_progress_palisades_data_results' | i18n }}</h4>
               <p>
-                2/27/2025 samples from the site near Will Rogers State Beach:
+                {{ 'track_progress_samples_from_the_site_near_will_rogers_state_beach' | i18n }}
               </p>
               <ul>
                 <li class="m-b-sm">
-                  Some air toxic metals such as arsenic and nickel were above
-                  background levels, but do not pose an immediate health risk.
-                  Asbestos was not detected.
+                  {{ 'track_progress_will_rogers_results_1' | i18n }}
                 </li>
                 <li class="m-b-sm">
-                  To date, continuous PM10 and PM2.5 hourly data were below
-                  federal standards.
+                  {{ 'track_progress_will_rogers_results_2' | i18n }}
                 </li>
               </ul>
             </div>
 
             <p class="font-size-12 bg-s1 p-a">
-              <em>Reported by South Coast Air Quality Management District</em
+              <em>{{ 'track_progress_reported_by_south_coast_air_quality_management_district' | i18n }}</em
               ><br /><span id="air_mobile_survey_complete_date3"></span>
             </p>
           </div>
@@ -833,11 +779,7 @@
 
       <div class="row">
         <p>
-          All results from the stationary sites are available at South Coast Air
-          Quality Management District’s
-          <a href="https://www.aqmd.gov/2025-wildfire-response"
-            >2025 Wildfire Response page</a
-          >.
+          {{ 'track_progress_all_results_from_the_stationary_sites_are_available' | i18n | safe }}
         </p>
       </div>
     </div>

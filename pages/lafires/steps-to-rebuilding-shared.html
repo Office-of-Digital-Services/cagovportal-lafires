@@ -7,7 +7,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-          >2025 Los Angeles Fires</span
+        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -24,7 +24,7 @@
 
       <nav class="page-navigation"></nav>
 
-      <h2 class="m-b-0">File insurance claims</h2>
+      <h2 class="m-b-0">{{ 'steps_file_insurance_claims_heading' | i18n }}</h2>
 
       <div class="bg-gray-100 p-a-md m-t-md d-flex align-items-top">
         <div>
@@ -33,143 +33,110 @@
             aria-hidden="true"></span>
         </div>
         <p class="color-p2-darker m-b-0">
-          If you have insurance, <strong>file a claim now</strong>.
+          {{ 'steps_file_insurance_claims_description' | i18n | safe }}
         </p>
       </div>
 
       <ul>
         <li class="m-t">
-          Make sure you document and track all recovery expenses.
+          {{ 'steps_document_and_track_recovery_expenses' | i18n }}
         </li>
         <li class="m-t">
-          Your insurance may also cover at least 4 months of rent for temporary
-          housing.
+          {{ 'steps_temporary_housing_coverage' | i18n }}
         </li>
         <li class="m-t">
-          If you need help with insurance claims,
+          {{ 'steps_insurance_claims_help' | i18n }}
           <ul>
             <li class="m-t">
-              See
-              <a href="https://www.insurance.ca.gov/01-consumers/101-help/"
-                >help from the Department of Insurance</a
-              >, or
+              {{ 'steps_insurance_claims_help_department_of_insurance' | i18n | safe }}
             </li>
             <li class="m-t">
-              Call <a href="tel:1-800-927-4357">1-800-927-4357</a> or TTY: 711.
+              {{ 'steps_insurance_claims_help_call_number' | i18n | safe }}
             </li>
           </ul>
         </li>
       </ul>
 
       <hr class="m-t-lg" />
-      <h2>Get money to rebuild</h2>
-      <p>You may be eligible for financial support to help you rebuild.</p>
+      <h2>{{ 'steps_get_money_to_rebuild' | i18n }}</h2>
+      <p>{{ 'steps_financial_support_to_rebuild' | i18n }}</p>
 
       <ul>
         <li class="m-t">
-          Apply for
-          <a href="https://disasterassistance.gov">FEMA disaster assistance</a>
-          by <strong>March 31, 2025</strong>. Use this money to pay for living
-          or rebuilding costs. If you have insurance, file a claim first.
+          {{ 'steps_apply_for_fema_disaster_assistance' | i18n | safe }}
         </li>
         <li class="m-t">
-          Apply for a
-          <a href="https://lending.sba.gov/search-disaster">disaster loan</a>
-          from the Small Business Administration (SBA) by
-          <strong>March 31, 2025</strong>. You don’t need to own a business to
-          get this loan. You can use it to rebuild your home.
+          {{ 'steps_apply_for_disaster_loan' | i18n | safe }}
         </li>
         <li class="m-t">
-          Contact your mortgage lender for mortgage relief. See this
-          <a href="https://dfpi.ca.gov/lafires/relief/"
-            >list of participating lenders</a
-          >.
+          {{ 'steps_contact_mortgage_lender' | i18n | safe }}
         </li>
       </ul>
 
       <hr class="m-t-lg" />
-      <h2>Decide how to remove debris</h2>
+      <h2>{{ 'steps_decide_how_to_remove_debris' | i18n }}</h2>
       <ul>
         <li class="m-t">
-          Opt in to
-          <a href="https://recovery.lacounty.gov/debris-removal/roe"
-            >free debris removal</a
-          >
-          from the government by <strong>March 31, 2025</strong>.
+          {{ 'steps_opt_in_for_free_debris_removal' | i18n | safe }}
         </li>
         <li class="m-t">
-          If you don’t opt in, you’ll need to pay for private debris removal
-          from a contractor.
+          {{ 'steps_pay_for_private_debris_removal' | i18n | safe }}
         </li>
         <li class="m-t">
-          Learn
-          <a href="https://www.ca.gov/lafires/cleanup-and-debris-removal/"
-            >more about debris removal</a
-          >.
+          {{ 'steps_learn_more_about_debris_removal' | i18n | safe }}
         </li>
       </ul>
 
       <hr class="m-t-lg" />
-      <h2>Hire a contractor</h2>
+      <h2>{{ 'steps_hire_a_contractor' | i18n }}</h2>
       <ul>
         <li class="m-t">
-          Make sure you
-          <a
-            href="https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/ZipCodeSearch.aspx"
-            >use a state-licensed contractor</a
-          >.
+          {{ 'steps_use_state_licensed_contractor' | i18n | safe }}
         </li>
-        <li class="m-t">Get a written contract.</li>
+        <li class="m-t">
+          {{ 'steps_get_written_contract' | i18n | safe }}
+        </li>
       </ul>
 
       <hr class="m-t-lg" />
-      <h2>Apply for permits</h2>
+      <h2>{{ 'steps_apply_for_permits' | i18n }}</h2>
       <ul>
         <li class="m-t">
-          You can submit your plans and
-          <a href="https://epicla.lacounty.gov/energov_prod/SelfService/#/home"
-            >apply for building permits</a
-          >
-          now. You don’t need to wait until debris removal is complete.
+          {{ 'steps_submit_plans_and_apply_for_building_permits' | i18n | safe }}
         </li>
         <li class="m-t">
-          You can also apply for permits in person at One-Stop Permit Centers.
-          <a
-            href="https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/"
-            >Make an appointment</a
-          >.
+          {{ 'steps_apply_for_permits_in_person' | i18n | safe }}
         </li>
         <li class="m-t">
-          You can
-          <a href="https://recovery.lacounty.gov/rebuilding/temporary-housing/"
-            >apply to put temporary housing</a
-          >
-          on your property.
-
+          {{ 'steps_apply_for_temporary_housing_permit' | i18n | safe }}
           <ul>
             <li class="m-t">
-              A permit will only be issued after Phase 2 debris clearing of your
-              property.
+              {{ 'steps_temporary_housing_permit_description' | i18n | safe }}
             </li>
           </ul>
         </li>
         <li class="m-t">
-          Learn
-          <a href="https://recovery.lacounty.gov/rebuilding/"
-            >more about permits</a
-          >, including about:
+          {{ 'steps_learn_more_about_permits' | i18n | safe }}
           <ul>
-            <li class="m-t">Like-for-like rebuilds</li>
-            <li class="m-t">Temporary housing</li>
-            <li class="m-t">Zoning maps</li>
-            <li class="m-t">Fees</li>
+            <li class="m-t">
+              {{ 'steps_like_for_like_rebuilds' | i18n | safe }}
+            </li>
+            <li class="m-t">
+              {{ 'steps_temporary_housing' | i18n | safe }}
+            </li>
+            <li class="m-t">
+              {{ 'steps_zoning_maps' | i18n | safe }}
+            </li>
+            <li class="m-t">
+              {{ 'steps_fees' | i18n | safe }}
+            </li>
           </ul>
         </li>
       </ul>
 
       <hr class="m-t-lg" />
-      <h2>Start construction</h2>
-      <p>Your contractor can guide you through the construction process.</p>
+      <h2>{{ 'steps_start_construction' | i18n }}</h2>
+      <p>{{ 'steps_contractor_guidance' | i18n }}</p>
     </div>
     <!--END MAIN COL CONTENT-->
   </div>

@@ -153,7 +153,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-          >2025 Los Angeles Fires</span
+        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -172,17 +172,17 @@
       <a
         href="/lafires/plan-your-in-person-visit/"
         class="btn btn-lg btn-primary rounded-5"
-        >Plan your in-person visit</a
+        >{{ 'help_person_plan_visit_button_text' | i18n }}</a
       >
 
       <nav class="page-navigation m-t-lg"></nav>
 
-      <h2 class="mt-4">Find a Disaster Recovery Center</h2>
-      <p>Look for the one nearest you on this map.</p>
+      <h2 class="mt-4">{{ 'help_person_find_a_drc' | i18n }}</h2>
+      <p>{{ 'help_person_look_for_drc' | i18n }}</p>
       <a
         class="skip-map btn btn-primary rounded-5"
         href="#recovery-center-cards"
-        >Skip map</a
+        >{{ 'help_person_skip_map' | i18n }}</a
       >
 
       <div class="cagov-map-and-tiles">
@@ -195,17 +195,16 @@
         <div class="col-md-6 m-t-md">
           <div
             class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md">UCLA Disaster Recovery Center</h3>
+            <h3 class="h5 m-t-md">{{ 'help_person_ucla_drc_title' | i18n }}</h3>
             <p>
-              UCLA Research Park West<br />10850 West Pico Blvd.<br />Los
-              Angeles, CA 90064
+              {{ 'help_person_ucla_drc_address' | i18n | safe}}
             </p>
 
             <a
               class="btn btn-primary rounded-5 m-y maps-link"
               href="https://maps.google.com/?q=123+UCLA+Drive,+Los+Angeles,+CA+90095"
-              ><span class="non-english-only">Driving </span>Directions<span
-                class="sr-only">
+              >
+              {{ 'help_person_directions_button_text' | i18n }}<span class="sr-only">
                 to UCLA Disaster Recovery Center</span
               ></a
             >
@@ -215,16 +214,15 @@
         <div class="col-md-6 m-t-md">
           <div
             class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md">Altadena Disaster Recovery Center</h3>
+            <h3 class="h5 m-t-md">{{ 'help_person_altadena_title' | i18n }}</h3>
             <p>
-              540 W. Woodbury Rd.<br />
-              Altadena, CA 91001
+              {{ 'help_person_altadena_address' | i18n | safe }}
             </p>
 
             <a
               class="btn btn-primary rounded-5 m-y maps-link"
               href="https://maps.google.com/?q=540+W.+Woodbury+Road,+Altadena,+CA+91001"
-              >Directions<span class="sr-only">
+              >{{ 'help_person_directions_button_text' | i18n }}<span class="sr-only">
                 to Altadena Disaster Recovery Center</span
               ></a
             >
@@ -237,103 +235,91 @@
           <div
             class="col-lg-12 d-flex align-items-center justify-content-flex-start">
             <p class="fs-5">
-              <strong>Hours open</strong>: Monday - Saturday, 9 am to 7 pm.
-              Closed Sundays.
+              {{ 'help_person_hours_open' | i18n | safe }}
             </p>
           </div>
           <div class="col-lg-8 mt-4">
             <img
               src="/lafires/images/LA-fires-get-help-in-person-wait-times-placeholder.svg?v3efkheb"
               style="aspect-ratio:79/50"
-              alt="Bar chart showing the wait times for Los Angeles Disaster Recovery Centers. 12 pm to 3 pm are the busiest time with up to a 1 hour wait. 9 am, 5pm, and 6 pm are less busy. 7 pm to 8 pm tends not to have any wait."
+              alt="{{ 'help_person_wait_times_alt' | i18n }}"
               class="img-fluid w-100" />
           </div>
         </div>
       </div>
 
-      <p>Wait times are approximate and can change quickly.</p>
+      <p>{{ 'help_person_wait_times_description' | i18n }}</p>
       <p>
-        The centers are busiest in the middle of the day. Come earlier or later
-        to avoid waiting.
+        {{ 'help_person_wait_times_description_2' | i18n }}
       </p>
       <p class="mb-0">
-        More about these centers:
+        {{ 'help_person_more_about_drcs' | i18n }}
         <a href="https://recovery.lacounty.gov/recovery-centers/"
-          >Los Angeles County Disaster Recovery Centers</a
+          >{{ 'help_person_drcs_link_text' | i18n }}</a
         >
       </p>
 
       <hr class="mt-5" />
 
       <!-- Services on Site Section -->
-      <h2>Services on site</h2>
+      <h2>{{ 'help_person_services_on_site' | i18n }}</h2>
       <p>
-        Here are the services you can expect at the centers. See a full list at
-        <a href="/lafires/plan-your-in-person-visit/"
-          >Plan your in-person visit</a
-        >.
+        {{ 'help_person_services_description' | i18n | safe }}
       </p>
 
-      <h3>State and local services</h3>
-      <p>Sign in at the door. Services include:</p>
+      <h3>{{ 'help_person_state_local_services' | i18n }}</h3>
+      <p>{{ 'help_person_sign_in_services' | i18n }}</p>
       <ul class="fw-bold fs-5">
-        <li class="m-t">Food benefits</li>
-        <li class="m-t">Health services and advice</li>
-        <li class="m-t">Mental health services</li>
-        <li class="m-t">Unemployment</li>
-        <li class="m-t">Disability benefits</li>
-        <li class="m-t">Replacing personal documents</li>
-        <li class="m-t">Tips for hiring contractors</li>
-        <li class="m-t">Help with insurance claims</li>
-        <li class="m-t">Tax help and relief</li>
+        <li class="m-t">{{ 'help_person_food' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_health_services' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_mental_health_services' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_unemployment' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_disability_benefits' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_replacing_personal_documents' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_tips_for_hiring_contractors' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_help_with_insurance_claims' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_tax_help_and_relief' | i18n }}</li>
       </ul>
 
       <!-- Federal services section -->
-      <h3>Federal services</h3>
-      <p>Sign in at the FEMA tents. Services include:</p>
+      <h3>{{ 'help_person_federal_services' | i18n }}</h3>
+      <p>{{ 'help_person_federal_services_description' | i18n }}</p>
       <ul class="fw-bold fs-5">
-        <li class="m-t">Housing</li>
-        <li class="m-t">Home repairs</li>
-        <li class="m-t">Legal services</li>
+        <li class="m-t">{{ 'help_person_housing' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_home_repairs' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_legal_services' | i18n }}</li>
       </ul>
 
       <hr class="mt-5" />
 
       <!-- Before you arrive section -->
-      <h2>Before you arrive</h2>
+      <h2>{{ 'help_person_before_you_arrive' | i18n }}</h2>
       <p>
-        Use our checklist to
-        <a href="/lafires/plan-your-in-person-visit/"
-          >plan your in-person visit</a
-        >.
+        {{ 'help_person_before_you_arrive_description' | i18n | safe }}
       </p>
 
-      <p>If you can, bring these items with you:</p>
+      <p>{{ 'help_person_bring_items' | i18n }}</p>
       <ul>
-        <li class="m-t">Address of the damaged primary home</li>
-        <li class="m-t">Insurance coverage information</li>
-        <li class="m-t">Current phone number and mailing address</li>
-        <li class="m-t">Bank account information</li>
+        <li class="m-t">{{ 'help_person_items_address_damaged_home' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_insurance_coverage_information' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_current_phone_number_and_mailing_address' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_bank_account_information' | i18n }}</li>
       </ul>
       <hr class="mt-5" />
       <!-- When you get here section -->
-      <h2>When you get here</h2>
+      <h2>{{ 'help_person_when_you_get_here' | i18n }}</h2>
       <ul>
         <li class="m-t">
-          <strong>Parking: </strong>Free parking available. People may be there
-          to direct you.
+          {{ 'help_person_arrival_info_parking' | i18n | safe }}
         </li>
         <li class="m-t">
-          <strong>Sign in: </strong>Sign in at FEMA tents for federal benefits,
-          or go into the building for state and local services.
+          {{ 'help_person_sign_in_info' | i18n | safe }}
         </li>
-        <li class="m-t">Restrooms and beverages available.</li>
         <li class="m-t">
-          Use
-          <a href="/lafires/plan-your-in-person-visit/"
-            >Plan your in-person visit</a
-          >
-          to help you find the services you need.
+          {{ 'help_person_restrooms_and_beverages' | i18n }}
+        </li>
+        <li class="m-t">
+          {{ 'help_person_use_plan_your_visit' | i18n | safe }}
         </li>
       </ul>
     </div>

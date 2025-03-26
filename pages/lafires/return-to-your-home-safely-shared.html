@@ -7,7 +7,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-          >2025 Los Angeles Fires</span
+        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -23,10 +23,9 @@
 
       <nav class="page-navigation"></nav>
 
-      <h2>Fire damage maps</h2>
+      <h2>{{ 'return_damage_maps_heading' | i18n }}</h2>
       <p>
-        Use damage maps from the Palisades and Eaton fires to check the status
-        of your property.
+        {{ 'return_damage_maps_description' | i18n }}
       </p>
 
       <div class="row">
@@ -37,16 +36,16 @@
               class="img-fluid rounded-4 w-100"
               src="/lafires/images/fire-palisades.jpg.webp?v2wweub"
               style="aspect-ratio:558/316"
-              alt="Palisades fire map" />
+              alt="{{ 'return_palisades_fire_map_alt' | i18n }}" />
             <div class="p-a-md">
               <h3 class="h4 m-t-0 m-b-0 color-gray-dark text-left font-size-20">
-                Palisades Fire
+                {{ 'return_palisades_fire_heading' | i18n }}
               </h3>
 
               <a
                 href="https://arcg.is/1vnjra1"
                 class="btn btn-primary btn-sm m-t-md m-r">
-                View <span class="sr-only">the Palisades Fire</span> damage map
+                {{ 'return_view_palisades_fire_damage_map' | i18n | safe }}
               </a>
             </div>
           </article>
@@ -59,15 +58,15 @@
               class="img-fluid rounded-4 w-100"
               src="/lafires/images/fire-eaton.jpg.webp?v2wweub"
               style="aspect-ratio:558/316"
-              alt="Eaton fire map" />
+              alt="{{ 'return_eaton_fire_map_alt' | i18n }}" />
             <div class="p-a-md">
               <h3 class="h4 m-t-0 m-b-0 color-gray-dark text-left font-size-20">
-                Eaton Fire
+                {{ 'return_eaton_fire_heading' | i18n }}
               </h3>
               <a
                 href="https://arcg.is/nqWXD0"
                 class="btn btn-primary btn-sm m-t-md m-r">
-                View <span class="sr-only">the Eaton Fire</span> damage map
+                {{ 'return_view_eaton_fire_damage_map' | i18n | safe }}
               </a>
             </div>
           </article>
@@ -75,67 +74,51 @@
       </div>
 
       <p class="m-t-md">
-        Government inspectors are assessing all homes in the fire areas. On each
-        home, you'll see a photo and an icon with one of these statuses:
+        {{ 'return_inspection_status_intro' | i18n }}
       </p>
       <ul>
-        <li>No damage</li>
-        <li>Affected</li>
-        <li>Minor damage</li>
-        <li>Major damage</li>
-        <li>Destroyed</li>
-        <li>
-          Inaccessible (inspectors couldn't access the property to check for
-          damage)
-        </li>
+        <li>{{ 'return_status_no_damage' | i18n }}</li>
+        <li>{{ 'return_status_affected' | i18n }}</li>
+        <li>{{ 'return_status_minor' | i18n }}</li>
+        <li>{{ 'return_status_major' | i18n }}</li>
+        <li>{{ 'return_status_destroyed' | i18n }}</li>
+        <li>{{ 'return_status_inaccessible' | i18n }}</li>
       </ul>
       <p>
-        If there's no icon on your home, inspectors haven't assessed it yet.
+        {{ 'return_status_not_assessed' | i18n }}
       </p>
       <p>
-        If your home was damaged, save a copy of the photo from the damage map.
-        You may be able to use it when you
-        <a
-          href="https://www.ca.gov/lafires/start-your-recovery/#Filing-insurance-claims"
-          >file an insurance claim</a
-        >.
+        {{ 'return_damage_photo_note' | i18n | safe }}
       </p>
 
-      <h2>Returning to your neighborhood</h2>
+      <h2>{{ 'return_neighborhood_return_heading' | i18n }}</h2>
       <p>
-        All areas are cleared for residents-only access. You may need an access
-        pass to enter your neighborhood. You can get one in person at a
-        <a href="https://www.ca.gov/lafires/get-help-in-person/"
-          >Disaster Recovery Center</a
-        >.
+        {{ 'return_access_info' | i18n | safe }}
       </p>
 
-      <h2>Getting cleanup and debris removal</h2>
-
-      <p>Cleanup and debris removal after wildfires is a 2-phase process.</p>
+      <h2>{{ 'return_cleanup_heading' | i18n }}</h2>
 
       <p>
-        Cleanup of hazardous waste is Phase 1. It's free, automatic, and
-        happening now. The EPA is assessing and cleaning each property.
+        {{ 'return_cleanup_description' | i18n }}
       </p>
 
       <p>
-        Debris removal is Phase 2. It's free if property owners
-        <strong>opt in by March 31, 2025</strong>.
+        {{ 'return_phase1_description' | i18n | safe }}
+      </p>
+
+      <p>
+        {{ 'return_phase2_description' | i18n | safe }}
       </p>
 
       <a
         class="btn btn-primary m-t-md"
         href="/lafires/cleanup-and-debris-removal/"
-        >Learn about cleanup and debris removal</a
+        >{{ 'return_learn_about_cleanup_and_debris_removal' | i18n }}</a
       >
 
-      <h2>More information</h2>
+      <h2>{{ 'return_more_info_heading' | i18n }}</h2>
       <p>
-        Los Angeles County has more information on
-        <a href="https://recovery.lacounty.gov/returning-after-fire-faq/"
-          >preparing to return home after the fires</a
-        >.
+        {{ 'return_los_angeles_has_more_info' | i18n | safe }}
       </p>
     </div>
   </div>

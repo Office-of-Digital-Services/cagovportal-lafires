@@ -239,7 +239,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-          >2025 Los Angeles Fires</span
+        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -253,8 +253,7 @@
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
       <p class="m-b-md lead">
-        Cleanup and debris removal after wildfires is a 2-phase process. You can
-        have it done at no cost to you.
+        {{ 'cleanup_cleanup_and_debris_removal_after_wildfires' | i18n}}
       </p>
 
       <nav class="page-navigation"></nav>
@@ -262,20 +261,19 @@
         <div class="debris-map-grid">
           <div class="debris-map-phase debris-map-phase-1">
             <div class="debris-map-phase-content debris-map-phase-content-1">
-              <span>Phase 1</span>
-              <span>Hazardous waste cleanup</span>
+              <span>{{ 'cleanup_phase_1' | i18n}}</span>
+              <span>{{ 'cleanup_hazardous_waste_cleanup' | i18n}}</span>
             </div>
           </div>
           <div class="debris-map-phase debris-map-phase-2">
             <div class="debris-map-phase-content debris-map-phase-content-2">
-              <span>Phase 2</span>
-              <span>Debris removal</span>
+              <span>{{ 'cleanup_phase_2' | i18n}}</span>
+              <span>{{ 'cleanup_debris_removal' | i18n}}</span>
             </div>
           </div>
         </div>
         <p class="m-t-md">
-          We will explain these phases. When they are complete, your property is
-          ready for rebuilding.
+          {{ 'cleanup_debris_introduction' | i18n}}
         </p>
       </div>
 
@@ -285,71 +283,63 @@
       <div class="debris-step">
         <div class="phase-header">
           <div class="phase-header-label phase-header-label-1">
-            <span>Phase 1</span>
+            <span>{{ 'cleanup_phase_1' | i18n}}</span>
           </div>
-          <h2>Hazardous waste cleanup</h2>
+          <h2>{{ 'cleanup_hazardous_waste_cleanup' | i18n}}</h2>
         </div>
         <p class="m-b-md">
-          In Phase 1, the U.S. EPA cleaned up everyday products that were in
-          your home and could be dangerous.
+          {{ 'cleanup_phase_1_description' | i18n}}
         </p>
-        <p>These include:</p>
+        <p>{{ 'cleanup_these_include' | i18n}}</p>
         <ul class="debris-list-grid phase-1-debris-list-grid">
-          <li>Batteries</li>
-          <li>Cleaners and solvents</li>
-          <li>Fertilizers and pesticides</li>
-          <li>Paints and oils</li>
-          <li>Propane tanks and other pressurized products</li>
+          <li>{{ 'cleanup_batteries' | i18n}}</li>
+          <li>{{ 'cleanup_cleaners_and_solvents' | i18n}}</li>
+          <li>{{ 'cleanup_fertilizers_and_pesticides' | i18n}}</li>
+          <li>{{ 'cleanup_paints_and_oils' | i18n}}</li>
+          <li>{{ 'cleanup_propane_tanks_and_other_pressurized_products' | i18n}}</li>
         </ul>
 
         <p>
-          Phase 1 cleanup is now complete. It was automatic for all residential
-          properties.
+          {{ 'cleanup_phase_1_now_complete' | i18n}}
         </p>
-        <p>There was no cost to you for this cleanup.</p>
+        <p>{{ 'cleanup_no_cost_for_phase_1' | i18n}}</p>
       </div>
 
       <div class="debris-step">
-        <h2>Cleanup statuses explained</h2>
-        <p>After the EPA assessed your property, they gave it a status.</p>
-        <p>They posted that status in a sign on your property.</p>
+        <h2>{{ 'cleanup_cleanup_statuses_explained' | i18n}}</h2>
+        <p>{{ 'cleanup_after_the_epa_assessed_your_property' | i18n}}</p>
+        <p>{{ 'cleanup_they_posted_that_status_in_a_sign_on_your_property' | i18n}}</p>
         <p>
-          You can also check this
-          <a
-            href="https://storymaps.arcgis.com/collections/13a8b227ac104bb1b1fa9592c92debe3?item=2"
-            >EPA map</a
-          >
-          for the cleanup status of your property.
+          {{ 'cleanup_epa_map' | i18n | safe}}
         </p>
 
         <div class="debris-removal-viz phase-1-debris-removal-viz">
           <div>
-            <h3 class="m-t-0 font-size-20">Phase 1 Complete</h3>
-            <p>This status means the EPA has finished their cleanup work.</p>
+            <h3 class="m-t-0 font-size-20">{{ 'cleanup_phase_1_complete' | i18n}}</h3>
+            <p>{{ 'cleanup_phase_1_complete_status' | i18n}}</p>
             <p>
-              But your property <strong>may not be</strong> safe yet. There can
-              still be:
+              {{ 'cleanup_phase_1_complete_status_2' | i18n | safe}}
             </p>
             <ul>
-              <li>Hazardous waste that's buried</li>
-              <li>Health hazards like ash and asbestos</li>
+              <li>{{ 'cleanup_hazardous_waste_buried' | i18n}}</li>
+              <li>{{ 'cleanup_health_hazards_like_ash_and_asbestos' | i18n}}</li>
             </ul>
           </div>
-          <span>OR</span>
+          <span>{{ 'cleanup_or_uppercase' | i18n}}</span>
           <div>
-            <h3 class="m-t-0 font-size-20">Deferred to Phase 2</h3>
+            <h3 class="m-t-0 font-size-20">{{ 'cleanup_deferred_to_phase_2' | i18n}}</h3>
             <p>
-              This status means the EPA can't safely clean your property until
-              debris has been removed.
+              {{ 'cleanup_deferred_to_phase_2_status' | i18n | safe}}
             </p>
-            <p>It will be cleaned in Phase 2.</p>
+            <p>
+              {{ 'cleanup_it_will_be_cleaned_in_phase_2' | i18n | safe}}
+            </p>
           </div>
         </div>
       </div>
 
       <p class="m-b-lg">
-        See
-        <a href="/lafires/track-progress/#phases">Phase 1 progress.</a>
+        {{ 'cleanup_see_phase_1_progress' | i18n | safe}}
       </p>
 
       <hr />
@@ -358,45 +348,36 @@
       <div class="debris-step">
         <div class="phase-header">
           <div class="phase-header-label phase-header-label-2">
-            <span>Phase 2</span>
+            <span>{{ 'cleanup_phase_2' | i18n}}</span>
           </div>
-          <h2>Debris removal</h2>
+          <h2>{{ 'cleanup_debris_removal' | i18n}}</h2>
         </div>
 
         <p class="m-b-md">
-          In Phase 2, the U.S. Army Corps of Engineers (USACE) removes
-          structural debris.
+          {{ 'cleanup_us_army_corps_of_engineers_debris_removal' | i18n}}
         </p>
-        <p>This includes:</p>
+        <p>{{ 'cleanup_debris_removal_includes' | i18n}}</p>
         <ul class="debris-list-grid phase-2-debris-list-grid">
-          <li>Damaged foundations</li>
-          <li>Destroyed vehicles</li>
-          <li>Trees that are a hazard</li>
-          <li>Contaminated soil</li>
-          <li>Asbestos</li>
-          <li>Ash</li>
+          <li>{{ 'cleanup_damaged_foundations' | i18n}}</li>
+          <li>{{ 'cleanup_destroyed_vehicles' | i18n}}</li>
+          <li>{{ 'cleanup_trees_that_are_a_hazard' | i18n}}</li>
+          <li>{{ 'cleanup_contaminated_soil' | i18n}}</li>
+          <li>{{ 'cleanup_asbestos' | i18n}}</li>
+          <li>{{ 'cleanup_ash' | i18n}}</li>
         </ul>
 
         <p>
-          Read
-          <a href="https://recovery.lacounty.gov/debris-removal/what-to-expect/"
-            >what to expect in Phase 2</a
-          >.
+          {{ 'cleanup_what_to_expect_in_phase_2' | i18n | safe}}
         </p>
         <p>
-          See the progress of this work in
-          <a
-            href="https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806"
-            >USACE’s debris removal map</a
-          >.
+          {{ 'cleanup_see_the_progress_of_this_work_in_usace_s_debris_removal_map' | i18n | safe}}
         </p>
       </div>
 
       <div class="debris-step">
-        <h2>About removing trees</h2>
+        <h2>{{ 'cleanup_about_removing_trees' | i18n}}</h2>
         <p>
-          During debris removal, the USACE will remove trees that are hazardous.
-          But you can request that a tree not be removed.
+          {{ 'cleanup_during_debris_removal_the_usace_will_remove_trees_that_are_hazardous' | i18n}}
         </p>
 
         <div class="debris-boxed-content phase-2-border-color">
@@ -404,21 +385,17 @@
             <li>
               <a
                 href="https://recovery.lacounty.gov/2025/03/06/u-s-army-corps-of-engineers-expands-hazardous-tree-marking-system-clarifies-waiver-process/"
-                >About the waiver process</a
+                >{{ 'cleanup_about_the_waiver_process' | i18n}}</a
               >
             </li>
             <li>
               <a
                 href="https://recovery.lacounty.gov/wp-content/uploads/2025/03/hazardous-tree-markings-v2_original.png"
-                >Tree markings explained</a
+                >{{ 'cleanup_tree_markings_explained' | i18n}}</a
               >
             </li>
             <li>
-              <a
-                href="https://file.lacounty.gov/SDSInter/lac/1178475_WaiverofHazardousTreeRemoval.pdf"
-                >Waiver form</a
-              >
-              (PDF)
+              {{ 'cleanup_waiver_form_pdf' | i18n | safe}}
             </li>
           </ul>
         </div>
@@ -426,57 +403,54 @@
 
       <!-- Step 6 -->
       <div class="debris-step">
-        <h2>How to get debris removed</h2>
-        <p>To get debris removed, you must choose to:</p>
+        <h2>{{ 'cleanup_how_to_get_debris_removed' | i18n}}</h2>
+        <p>{{ 'cleanup_debris_removal_opt_in_or_out' | i18n}}</p>
 
         <div class="debris-removal-viz phase-2-debris-removal-viz">
-          <span>Opt in for free removal</span>
-          <span>OR</span>
-          <span>Opt out to arrange and pay for removal yourself</span>
+          <span>{{ 'cleanup_opt_in_free_removal' | i18n}}</span>
+          <span>{{ 'cleanup_or_uppercase' | i18n}}</span>
+          <span>{{ 'cleanup_opt_out_self_removal' | i18n}}</span>
         </div>
 
         <p>
-          There are no out-of-pocket costs for this service. If you have
-          insurance, your insurer will be billed.
+          {{ 'cleanup_no_out_of_pocket_costs' | i18n}}
         </p>
         <p>
-          Debris removal can't start on your property until Phase 1 is completed
-          or deferred.
+          {{ 'cleanup_phase_1_completion_required' | i18n}}
         </p>
       </div>
 
       <!-- Step 7 -->
       <div class="debris-step">
-        <h2>Opt in by the deadline</h2>
+        <h2>{{ 'cleanup_opt_in_deadline_heading' | i18n}}</h2>
         <p>
-          To get free debris removal, you must
-          <strong>opt in by March 31, 2025</strong>.
+          {{ 'cleanup_opt_in_deadline' | i18n | safe}}
         </p>
         <a
           class="btn btn-primary m-y-sm"
           href="https://recovery.lacounty.gov/debris-removal/roe/"
-          >Opt in for free removal</a
+          >{{ 'cleanup_opt_in_form_button_text' | i18n}}</a
         >
 
         <div class="debris-boxed-content phase-2-border-color">
-          <p>To complete the opt-in form, you'll need:</p>
+          <p>{{ 'cleanup_opt_in_requirements_intro' | i18n}}</p>
 
           <ul>
-            <li>Contact info and signatures of all owners of the property</li>
+            <li>{{ 'cleanup_opt_in_owner_info' | i18n}}</li>
             <li>
-              Assessor's information number, or AIN
+              {{ 'cleanup_opt_in_ain' | i18n}}
               <ul>
                 <li>
                   <a
                     href="https://assessor.lacounty.gov/homeowners/property-search"
-                    >Find your AIN</a
+                    >{{ 'cleanup_opt_in_ain_heading' | i18n}}</a
                   >
                 </li>
               </ul>
             </li>
-            <li>Homeowners insurance information (if you're insured)</li>
+            <li>{{ 'cleanup_opt_in_insurance' | i18n}}</li>
             <li>
-              Vehicle information for any destroyed vehicles on the property
+              {{ 'cleanup_opt_in_vehicle_info' | i18n}}
             </li>
           </ul>
         </div>
@@ -484,23 +458,21 @@
 
       <!-- Step 8 -->
       <div class="debris-step">
-        <h2>Opt out at your own expense</h2>
+        <h2>{{ 'cleanup_opt_out_heading' | i18n}}</h2>
         <p>
-          If you opt out of free debris removal, you'll arrange for and pay for
-          this service yourself.
+          {{ 'cleanup_opt_out_explanation' | i18n}}
         </p>
 
         <div class="debris-boxed-content phase-2-border-color">
-          <p>This process is complicated and expensive. You must:</p>
+          <p>{{ 'cleanup_opt_out_requirements_intro' | i18n}}</p>
           <ul>
-            <li>Hire a licensed, specialized contractor</li>
-            <li>Get approval and a permit from LA County</li>
+            <li>{{ 'cleanup_opt_out_contractor' | i18n}}</li>
+            <li>{{ 'cleanup_opt_out_permit' | i18n}}</li>
             <li>
-              Hire a certified consultant to check your property for asbestos
+              {{ 'cleanup_opt_out_asbestos' | i18n}}
             </li>
             <li>
-              Make sure your contractor follows all government rules for safe
-              debris removal
+              {{ 'cleanup_opt_out_compliance' | i18n}}
             </li>
           </ul>
         </div>
@@ -508,32 +480,26 @@
 
       <!-- Step 9 -->
       <div class="debris-step">
-        <h2>How to opt out</h2>
+        <h2>{{ 'cleanup_how_to_opt_out_heading' | i18n}}</h2>
         <p>
-          If you choose to opt out, submit an
-          <a
-            href="https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8"
-            >opt-out form</a
-          >
-          to LA County right away.
+          {{ 'cleanup_opt_out_submit_form' | i18n | safe}}
         </p>
         <p>
-          It's important to submit this form so that the county can start free
-          debris removal for your neighbors.
+          {{ 'cleanup_opt_out_importance' | i18n}}
         </p>
 
         <div class="debris-boxed-content phase-2-border-color">
-          <p>You will need:</p>
+          <p>{{ 'cleanup_opt_out_requirements_needed' | i18n}}</p>
           <ul>
-            <li>Name and license number of your contractor</li>
-            <li>Description of the debris you need to remove</li>
+            <li>{{ 'cleanup_opt_out_contractor_info' | i18n}}</li>
+            <li>{{ 'cleanup_opt_out_debris_description' | i18n}}</li>
             <li>
-              Assessor's information number, or AIN
+              {{ 'cleanup_opt_out_ain' | i18n}}
               <ul>
                 <li>
                   <a
                     href="https://assessor.lacounty.gov/homeowners/property-search"
-                    >Find your AIN</a
+                    >{{ 'cleanup_opt_out_ain_heading' | i18n}}</a
                   >
                 </li>
               </ul>
@@ -546,62 +512,45 @@
 
       <!-- Step 10 -->
       <div id="debris-step-10" class="debris-step">
-        <h2 class="m-b-lg">If you need help</h2>
+        <h2 class="m-b-lg">{{ 'cleanup_help_heading' | i18n}}</h2>
         <div class="debris-boxed-content phase-1-border-color">
-          <h3 class="font-size-20">Questions about Phase 1 cleanup</h3>
+          <h3 class="font-size-20">{{ 'cleanup_phase_1_questions_heading' | i18n}}</h3>
           <p>
-            Call the EPA at <a href="tel:833-798-7372">833-798-7372</a> (TTY:
-            711)
+            {{ 'cleanup_epa_contact' | i18n | safe}}
           </p>
         </div>
         <div class="debris-boxed-content phase-2-border-color">
-          <h3 class="font-size-20">Help filling out the opt-in form</h3>
+          <h3 class="font-size-20">{{ 'cleanup_opt_in_help_heading' | i18n}}</h3>
           <ul>
             <li>
-              Call the LA County Public Works Debris Removal Hotline at
-              <a href="tel:844-347-3332">844-347-3332</a> (TTY: 711)
+              {{ 'cleanup_county_hotline' | i18n | safe}}
             </li>
             <li>
-              Email
-              <a href="mailto:PalisadesFire@dpw.lacounty.gov"
-                >PalisadesFire@dpw.lacounty.gov</a
-              >
-              or
-              <a href="mailto:EatonFire@dpw.lacounty.gov"
-                >EatonFire@dpw.lacounty.gov</a
-              >
+              {{ 'cleanup_email_contact' | i18n | safe}}
             </li>
             <li>
-              Get help in person at a
-              <a href="/lafires/get-help-in-person/"
-                >Disaster Recovery Center</a
-              >
+              {{ 'cleanup_in_person_help' | i18n | safe}}
             </li>
           </ul>
         </div>
         <div class="debris-boxed-content neutral-border-color">
           <h3 class="font-size-20">
-            More info about cleanup and debris removal
+            {{ 'cleanup_more_info_heading' | i18n}}
           </h3>
           <p>
             <a href="https://recovery.lacounty.gov/debris-removal/"
-              >LA County Recovers</a
+              >{{ 'cleanup_la_county_recovers' | i18n}}</a
             >
           </p>
         </div>
       </div>
 
-      <h2 class="m-b-lg">Where debris goes</h2>
+      <h2 class="m-b-lg">{{ 'cleanup_where_debris_goes' | i18n}}</h2>
       <p>
-        Workers will dispose of debris in a way that protects public health and
-        the environment.
+        {{ 'cleanup_debris_disposal_explanation' | i18n}}
       </p>
       <p>
-        Find out more at CalEPA’s
-        <a
-          href="https://calepa.ca.gov/disaster/debris/wildfire-debris-in-landfills-frequently-asked-questions/"
-          >Wildfire Debris in Landfills</a
-        >.
+        {{ 'cleanup_calepa_info' | i18n | safe}}
       </p>
 
       <!--END MAIN COL CONTENT-->
