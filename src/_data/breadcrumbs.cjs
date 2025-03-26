@@ -26,10 +26,81 @@ const data = [
             href: "/lafires/fr/get-help-in-person/"
           }
         ]
+      },
+      {
+        key: "Incendios de Los Ángeles en 2025",
+        href: "/lafires/es/",
+        children: [
+          {
+            key: "Obtener ayuda en persona",
+            href: "/lafires/es/get-help-in-person/"
+          }
+        ]
+      },
+      {
+        key: "2025년 로스앤젤레스 화재",
+        href: "/lafires/ko/",
+        children: [
+          {
+            key: "로스앤젤레스 화재 도움 받기",
+            href: "/lafires/ko/get-help-in-person/"
+          }
+        ]
+      },
+      {
+        key: "Các Đám Cháy ở Los Angeles năm 2025",
+        href: "/lafires/vi/",
+        children: [
+          {
+            key: "Nhận sự giúp đỡ trực tiếp",
+            href: "/lafires/vi/get-help-in-person/"
+          }
+        ]
+      },
+      {
+        key: "Sunog sa Los Angeles Ngayong 2025",
+        href: "/lafires/tl/",
+        children: [
+          {
+            key: "Nakuha ang tulong sa loob",
+            href: "/lafires/tl/get-help-in-person/"
+          }
+        ]
+      },
+      {
+        key: "2025թ․ Լոս Անջելեսի հրդեհներ",
+        href: "/lafires/hy/",
+        children: [
+          {
+            key: "Նախաճաշի հրդեհներ",
+            href: "/lafires/hy/get-help-in-person/"
+          }
+        ]
+      },
+      {
+        key: "2025年洛杉矶大火",
+        href: "/lafires/zh-hans/",
+        children: [
+          {
+            key: "洛杉矶大火帮助",
+            href: "/lafires/zh-hans/get-help-in-person/"
+          }
+        ]
+      },
+      {
+        key: "2025 年洛杉磯大火",
+        href: "/lafires/zh-hant/",
+        children: [
+          {
+            key: "洛杉磯大火幫助",
+            href: "/lafires/zh-hant/get-help-in-person/"
+          }
+        ]
       }
     ]
   }
 ];
+
 
 /**
  * @typedef {object} breadcrumbnode
