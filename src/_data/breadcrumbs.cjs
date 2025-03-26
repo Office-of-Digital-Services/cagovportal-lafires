@@ -8,7 +8,7 @@ const data = [
     children: [
       {
         key: "2025 Los Angeles Fires",
-        href: "/LAfires/",
+        href: "/lafires/",
         children: [
           {
             key: "Get help in person",
