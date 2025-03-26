@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="{{ locale | default('en-US') }}">
   <head>
     <title>{% metatitle %}</title>
     <meta charset="utf-8" />
@@ -49,7 +49,7 @@
   <body class="primary">
     <header id="header" class="global-header fixed">
       <div id="skip-to-content">
-        <a href="#main-content">Skip to Main Content</a>
+        <a href="#main-content">{{ "skip_to_main_content" | i18n }}</a>
       </div>
       {% if alert -%} {%- include alert -%} {%- endif -%} {%- include
       "../utility-header.html" -%} {%- include "../site-header.html" -%} {%-

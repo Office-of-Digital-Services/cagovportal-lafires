@@ -1,0 +1,143 @@
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/rebuilding-lineart.svg?v3grhb') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">{{description}}</p>
+
+      <nav class="page-navigation"></nav>
+
+      <h2 class="m-b-0">{{ 'steps_file_insurance_claims_heading' | i18n }}</h2>
+
+      <div class="bg-gray-100 p-a-md m-t-md d-flex align-items-top">
+        <div>
+          <span
+            class="ca-gov-icon-info-line m-r color-p2-darker"
+            aria-hidden="true"></span>
+        </div>
+        <p class="color-p2-darker m-b-0">
+          {{ 'steps_file_insurance_claims_description' | i18n | safe }}
+        </p>
+      </div>
+
+      <ul>
+        <li class="m-t">
+          {{ 'steps_document_and_track_recovery_expenses' | i18n }}
+        </li>
+        <li class="m-t">
+          {{ 'steps_temporary_housing_coverage' | i18n }}
+        </li>
+        <li class="m-t">
+          {{ 'steps_insurance_claims_help' | i18n }}
+          <ul>
+            <li class="m-t">
+              {{ 'steps_insurance_claims_help_department_of_insurance' | i18n | safe }}
+            </li>
+            <li class="m-t">
+              {{ 'steps_insurance_claims_help_call_number' | i18n | safe }}
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <hr class="m-t-lg" />
+      <h2>{{ 'steps_get_money_to_rebuild' | i18n }}</h2>
+      <p>{{ 'steps_financial_support_to_rebuild' | i18n }}</p>
+
+      <ul>
+        <li class="m-t">
+          {{ 'steps_apply_for_fema_disaster_assistance' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'steps_apply_for_disaster_loan' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'steps_contact_mortgage_lender' | i18n | safe }}
+        </li>
+      </ul>
+
+      <hr class="m-t-lg" />
+      <h2>{{ 'steps_decide_how_to_remove_debris' | i18n }}</h2>
+      <ul>
+        <li class="m-t">
+          {{ 'steps_opt_in_for_free_debris_removal' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'steps_pay_for_private_debris_removal' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'steps_learn_more_about_debris_removal' | i18n | safe }}
+        </li>
+      </ul>
+
+      <hr class="m-t-lg" />
+      <h2>{{ 'steps_hire_a_contractor' | i18n }}</h2>
+      <ul>
+        <li class="m-t">
+          {{ 'steps_use_state_licensed_contractor' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'steps_get_written_contract' | i18n | safe }}
+        </li>
+      </ul>
+
+      <hr class="m-t-lg" />
+      <h2>{{ 'steps_apply_for_permits' | i18n }}</h2>
+      <ul>
+        <li class="m-t">
+          {{ 'steps_submit_plans_and_apply_for_building_permits' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'steps_apply_for_permits_in_person' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          {{ 'steps_apply_for_temporary_housing_permit' | i18n | safe }}
+          <ul>
+            <li class="m-t">
+              {{ 'steps_temporary_housing_permit_description' | i18n | safe }}
+            </li>
+          </ul>
+        </li>
+        <li class="m-t">
+          {{ 'steps_learn_more_about_permits' | i18n | safe }}
+          <ul>
+            <li class="m-t">
+              {{ 'steps_like_for_like_rebuilds' | i18n | safe }}
+            </li>
+            <li class="m-t">
+              {{ 'steps_temporary_housing' | i18n | safe }}
+            </li>
+            <li class="m-t">
+              {{ 'steps_zoning_maps' | i18n | safe }}
+            </li>
+            <li class="m-t">
+              {{ 'steps_fees' | i18n | safe }}
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <hr class="m-t-lg" />
+      <h2>{{ 'steps_start_construction' | i18n }}</h2>
+      <p>{{ 'steps_contractor_guidance' | i18n }}</p>
+    </div>
+    <!--END MAIN COL CONTENT-->
+  </div>
+</div>

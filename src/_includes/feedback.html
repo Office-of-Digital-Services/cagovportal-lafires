@@ -2,6 +2,16 @@
 <div class="section-understated d-print-none">
   <div class="container py-4 pb-5">
     <cagov-feedback
+      data-question="{{ 'feedback_question' | i18n }}"
+      data-yes="{{ 'feedback_yes' | i18n }}"
+      data-no="{{ 'feedback_no' | i18n }}"
+      data-comment-prompt="{{ 'feedback_comment_prompt' | i18n }}"
+      data-positive-comment-prompt="{{ 'feedback_positive_comment_prompt' | i18n }}"
+      data-thanks-feedback="{{ 'feedback_thanks_feedback' | i18n }}"
+      data-thanks-comments="{{ 'feedback_thanks_comments' | i18n }}"
+      data-submit="{{ 'feedback_submit' | i18n }}"
+      data-anything-to-add="{{ 'feedback_anything_to_add' | i18n }}"
+      data-any-other-feedback="{{ 'feedback_any_other_feedback' | i18n }}"
       data-endpoint-url="https://feedback.innovation.ca.gov/sendfeedback">
     </cagov-feedback>
   </div>
