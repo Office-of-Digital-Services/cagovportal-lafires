@@ -1,4 +1,4 @@
-module.exports = {
+{
   "vol_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/volunteer-shared.html",
@@ -234,4 +234,4 @@ module.exports = {
     "zh-hant": "捐款以支持動物所需的緊急服務。",
     "hy": "Նվիրաբերեք գումար կենդանիներին անհրաժեշտ շտապ օգնության ծառայություններին աջակցելու համար:"
   }
-};
+}

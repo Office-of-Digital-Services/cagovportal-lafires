@@ -1,4 +1,4 @@
-module.exports = {
+{
   "sf_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/recovery-services-all-shared.html",
@@ -170,4 +170,4 @@ module.exports = {
     "hy": "Տեղական ծառայություններին ծանոթանալու համար օգտագործեք <a href=\"https://wildfires.betterangels.la/\">Լոս Անջելեսի Աղետների օգնության տեղորոշիչը</a>, որը համայնքային ռեսուրսների հարմար հանգույց է:",
     "orig_en": "To find local services, check out the LA Disaster Relief Navigator, a user-friendly community resource hub."
   }
-};
+}

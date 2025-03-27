@@ -1,4 +1,4 @@
-module.exports = {
+{
   "cleanup_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
@@ -1165,4 +1165,4 @@ module.exports = {
     "zh-hant": "第一階段完成",
     "hy": "Փուլ 1-ը ավարտված է"
   }
-};
+}

@@ -1,4 +1,4 @@
-module.exports = {
+{
   "track_progress_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/track-progress-shared.html",
@@ -1291,4 +1291,4 @@ module.exports = {
     "zh-hant": "固定站點的所有結果可在南海岸空氣質量管理區的<a href=\"https://www.aqmd.gov/2025-wildfire-response\">2025年野火響應頁面</a>上查看。",
     "hy": "Ստացիոնար կայանների բոլոր արդյունքները հասանելի են Հարավային ափի օդի որակի կառավարման շրջանի <a href=\"https://www.aqmd.gov/2025-wildfire-response\">2025թ. անտառային հրդեհների արձագանքման էջում</a>:"
   }
-};
+}

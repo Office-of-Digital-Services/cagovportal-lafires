@@ -1,4 +1,4 @@
-module.exports = {
+{
   "vital_records_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/vital-records-shared.html",
@@ -505,5 +505,5 @@ module.exports = {
     "zh-hant": "填寫、公證，然後按照說明郵寄。",
     "hy": "Լրացրեք այն, հաստատեք նոտարով և ուղարկեք ըստ հրահանգների:"
   }
-};
+}
 

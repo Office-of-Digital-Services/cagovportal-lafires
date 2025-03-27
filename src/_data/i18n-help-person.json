@@ -1,4 +1,4 @@
-module.exports = {
+{
   "help_person_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/get-help-in-person-shared.html",
@@ -662,4 +662,4 @@ module.exports = {
     "hy": "Օգտագործեք <a href=\"/lafires/hy/plan-your-in-person-visit/\">Պլանավորեք Ձեր այցը</a>՝ Ձեզ անհրաժեշտ ծառայությունները գտնելու համար։",
     "orig_en": "Use <link>Plan your in-person visit</link> to help you find the services you need."
   }
-};
+}

@@ -1,4 +1,4 @@
-module.exports = {
+{
   "help_online_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/get-help-online-shared.html",
@@ -1799,4 +1799,4 @@ module.exports = {
     "zh-hant": "<strong>救世軍 (Salvation Army)</strong> 為受火災影響的人提供救災服務。請造訪他們的 <a href=\"https://socal.salvationarmy.org/southern-california/disaster-services/\">救災服務 (Disaster Services)</a> 頁面或致電 <a href=\"tel:8007259005\">（800）725-9005</a>。",
     "hy": "<strong>The Salvation Army</strong>-ը աղետից տուժածների ծառայություններ է մատուցում հրդեհներից տուժածներին: Այցելեք նրանց <a href=\"https://socal.salvationarmy.org/southern-california/disaster-services/\">Աղետների ծառայություններ</a> կայքը կամ զանգահարեք <a href=\"tel:8007259005\">(800) 725-9005</a> հեռախոսահամարով:"
   }
-};
+}

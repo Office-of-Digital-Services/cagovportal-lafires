@@ -1,4 +1,4 @@
-module.exports = {
+{
   "return_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/return-to-your-home-safely-shared.html",
@@ -396,4 +396,4 @@ module.exports = {
     "hy": "Լոս Անջելես վարչաշրջանն ավելի շատ տեղեկություններ ունի <a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">հրդեհներից հետո տուն վերադառնալու պատրաստության վերաբերյալ</a>:",
     "orig_en": "Los Angeles County has more information on preparing to return home after the fires."
   }
-};
+}

@@ -1,4 +1,4 @@
-module.exports = {
+{
   "steps_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/steps-to-rebuilding-shared.html",
@@ -422,4 +422,4 @@ module.exports = {
     "zh-hant": "您的承包商可以指導您完成施工過程。",
     "hy": "Ձեր կապալառուն կարող է առաջնորդել Ձեզ շինարարության ընթացքում:"
   }
-};
+}

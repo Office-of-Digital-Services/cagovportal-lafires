@@ -1,4 +1,4 @@
-module.exports = {
+{
   "home_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/index-shared.html",
@@ -684,4 +684,4 @@ module.exports = {
     "zh-hant": "小型企業。",
     "hy": "փոքր բիզնեսների համար:"
   }
-};
+}

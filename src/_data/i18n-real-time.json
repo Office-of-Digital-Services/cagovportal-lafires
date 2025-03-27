@@ -1,4 +1,4 @@
-module.exports = {
+{
   "realtime_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/see-real-time-info-shared.html",
@@ -454,4 +454,4 @@ module.exports = {
     "zh-hant": "來自加州公共衛生部 (California Department of Public Health, CDPH)",
     "hy": "Կալիֆորնիայի Հանրային առողջության վարչության (California Department of Public Health, CDPH) կողմից"
   }
-};
+}

@@ -1,4 +1,4 @@
-module.exports = {
+{
   "on_this_page": {
     "status": "ap_review",
     "comment": "Machine translation",
@@ -495,4 +495,4 @@ module.exports = {
     "zh-hant": "2025 年洛杉磯大火",
     "hy": "2025թ․ Լոս Անջելեսի հրդեհներ"
   }
-};
+}

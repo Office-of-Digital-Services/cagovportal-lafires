@@ -1,4 +1,4 @@
-module.exports = {
+{
   "plan_visit_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
@@ -1900,4 +1900,4 @@ module.exports = {
     "zh-hant": "洛杉磯縣經濟機會部 （Department of Economic Opportunity, DEO）",
     "hy": "LA վարչաշրջանի Տնտեսական հնարավորությունների վարչություն (DEO)"
   }
-};
+}

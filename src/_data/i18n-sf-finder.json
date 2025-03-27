@@ -1,4 +1,4 @@
-module.exports = {
+{
   "sf_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/recovery-services-finder-shared.html",
@@ -143,4 +143,4 @@ module.exports = {
     "zh-hant": "提交",
     "hy": "Ուղարկել"
   }
-};
+}

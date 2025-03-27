@@ -1,4 +1,4 @@
-module.exports = {
+{
   "stay_healthy_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/stay-healthy-shared.html",
@@ -848,4 +848,4 @@ module.exports = {
     "zh-hant": "<a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">帶薪家事假</a>在您需要請假照顧重病家庭成員時提供補助。",
     "hy": "<a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">Վճարովի ընտանեկան արձակուրդը</a> տրամադրում է նպաստներ, եթե Դուք պետք է արձակուրդ վերցնեք ծանր հիվանդ ընտանիքի անդամին խնամելու համար:"
   }
-};
+}

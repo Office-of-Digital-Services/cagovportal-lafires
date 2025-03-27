@@ -13,17 +13,21 @@ const path = require("node:path");
 function loadAllTranslations() {
   const translationsDir = path.join(__dirname, "./src/_data");
   
-  // Find all files matching i18n*.cjs pattern
+  // Find all files matching i18n*.json pattern
   const translationFiles = fs.readdirSync(translationsDir)
-    .filter(file => file.match(/^i18n.*\.cjs$/));
+    .filter(file => file.match(/^i18n.*\.json$/));
   
   // Load and merge all translation files into a single object
-
   let allTranslations = {};
   translationFiles.forEach(file => {
     const filePath = path.join(translationsDir, file);
-    const translations = require(filePath);
-    allTranslations = { ...allTranslations, ...translations };
+    try {
+      const fileContent = fs.readFileSync(filePath, 'utf8');
+      const translations = JSON.parse(fileContent);
+      allTranslations = { ...allTranslations, ...translations };
+    } catch (error) {
+      console.error(`Error loading translation file ${file}:`, error);
+    }
   });
   
   return { translations: allTranslations };
@@ -63,16 +67,10 @@ module.exports = function (
   eleventyConfig.addWatchTarget("./pages/");
 
   // Add watch target specifically for i18n file and clear require cache when it changes
-  eleventyConfig.addWatchTarget("./src/_data/i18n*.cjs");
-  eleventyConfig.on("beforeWatch", changedFiles => { // support changing i18n.cjs during development without quitting the server
+  eleventyConfig.addWatchTarget("./src/_data/i18n*.json");
+  eleventyConfig.on("beforeWatch", changedFiles => { // support changing i18n.json during development without quitting the server
     if (changedFiles.some(file => file.includes("i18n"))) {
-      // Clear require cache for all i18n files
-      Object.keys(require.cache).forEach(key => {
-        if (key.includes("i18n") && key.endsWith(".cjs")) {
-          delete require.cache[key];
-        }
-      });
-      // Reload all translations
+      // JSON files don't use require cache, so we just need to reload translations
       translationsModule = loadAllTranslations();
     }
   });

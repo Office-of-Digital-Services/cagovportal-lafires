@@ -1,9 +1,8 @@
-module.exports = {
-  // sidenav translations
-  sidenav_2025_los_angeles_fires: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "2025 Los Angeles fires",
+{
+  "sidenav_2025_los_angeles_fires": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "2025 Los Angeles fires",
     "es": "Incendios de Los Ángeles en 2025",
     "ko": "2025년 로스앤젤레스 화재",
     "vi": "Các Đám Cháy ở Los Angeles năm 2025",
@@ -12,10 +11,10 @@ module.exports = {
     "zh-hant": "2025 年洛杉磯大火",
     "hy": "2025թ․ Լոս Անջելեսի հրդեհներ"
   },
-  sidenav_get_help_online: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Get help online",
+  "sidenav_get_help_online": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Get help online",
     "fr": "Obtenir de l'aide en ligne",
     "es": "Obtenga ayuda en línea",
     "ko": "온라인으로 도움받기",
@@ -25,10 +24,10 @@ module.exports = {
     "zh-hant": "在線獲取幫助",
     "hy": "Ստացեք օգնություն առցանց"
   },
-  sidenav_recovery_services_finder: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Recovery services finder",
+  "sidenav_recovery_services_finder": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Recovery services finder",
     "fr": "Recherche de services de récupération",
     "es": "Buscador de servicios de recuperación",
     "ko": "복구 서비스 검색기",
@@ -38,10 +37,10 @@ module.exports = {
     "zh-hant": "復原服務查找器",
     "hy": "Վերականգնման ծառայությունների որոնիչ"
   },
-  sidenav_vital_records: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Vital records",
+  "sidenav_vital_records": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Vital records",
     "fr": "Certificats de naissance, mariage et décès",
     "es": "Documentos del registro civil",
     "tl": "Mga vital record",
@@ -51,10 +50,10 @@ module.exports = {
     "zh-hant": "重要記錄",
     "hy": "Կարևոր փաստաթղթեր"
   },
-  sidenav_get_help_in_person: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Get help in person",
+  "sidenav_get_help_in_person": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Get help in person",
     "fr": "Obtenir de l'aide en personne",
     "es": "Obtenga ayuda en persona",
     "ko": "직접 도움받기",
@@ -64,10 +63,10 @@ module.exports = {
     "zh-hant": "當面獲取幫助",
     "hy": "Ստացեք օգնություն անձամբ"
   },
-  sidenav_plan_your_in_person_visit: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Plan your in-person visit",
+  "sidenav_plan_your_in_person_visit": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Plan your in-person visit",
     "fr": "Planifier votre visite en personne",
     "es": "Planee su visita en persona",
     "ko": "대면 방문 계획",
@@ -77,11 +76,11 @@ module.exports = {
     "zh-hant": "規劃您的親自到訪",
     "hy": "Պլանավորեք Ձեր այցը"
   },
-  sidenav_see_real_time_info: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "See real-time info",
-    fr: "Voir les informations en temps réel",
+  "sidenav_see_real_time_info": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "See real-time info",
+    "fr": "Voir les informations en temps réel",
     "es": "Vea información en tiempo real",
     "ko": "실시간 정보 보기",
     "vi": "Xem thông tin theo thời gian thực",
@@ -90,10 +89,10 @@ module.exports = {
     "zh-hant": "查看實時資訊",
     "hy": "Ստուգեք տեղեկատվությունը իրական ժամանակում"
   },
-  sidenav_start_your_recovery: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Start your recovery",
+  "sidenav_start_your_recovery": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Start your recovery",
     "fr": "Commencez votre récupération",
     "es": "Comience la recuperación",
     "ko": "복구 시작하기",
@@ -103,10 +102,10 @@ module.exports = {
     "zh-hant": "開始恢復",
     "hy": "Սկսել վերականգնումը"
   },
-  sidenav_return_to_your_home_safely: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Return to your home safely",
+  "sidenav_return_to_your_home_safely": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Return to your home safely",
     "es": "Regrese a su hogar a salvo",
     "ko": "집으로 안전하게 돌아가기",
     "vi": "Trở về nhà an toàn",
@@ -115,10 +114,10 @@ module.exports = {
     "zh-hant": "安全返回家中",
     "hy": "Անվտանգ վերադարձ տուն"
   },
-  sidenav_cleanup_and_debris_removal: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Cleanup and debris removal",
+  "sidenav_cleanup_and_debris_removal": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Cleanup and debris removal",
     "es": "Limpieza y remoción de escombros",
     "ko": "청소 및 잔해 제거",
     "vi": "Dọn dẹp và di dời mảnh vỡ",
@@ -127,10 +126,10 @@ module.exports = {
     "zh-hant": "清理和清除雜物",
     "hy": "Մաքրումներ և աղբի հեռացում"
   },
-  sidenav_steps_to_rebuilding: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Steps to rebuilding",
+  "sidenav_steps_to_rebuilding": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Steps to rebuilding",
     "es": "Pasos para la reconstrucción",
     "ko": "재건 단계",
     "vi": "Các bước để xây dựng lại",
@@ -139,10 +138,10 @@ module.exports = {
     "zh-hant": "重建的步驟",
     "hy": "Վերակառուցման քայլեր"
   },
-  sidenav_help_your_business: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Help your business",
+  "sidenav_help_your_business": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Help your business",
     "es": "Ayuda para su negocio",
     "ko": "비즈니스 지원",
     "vi": "Giúp doanh nghiệp của quý vị",
@@ -151,10 +150,10 @@ module.exports = {
     "zh-hant": "幫助您的業務",
     "hy": "Օգնություն Ձեր բիզնեսի համար"
   },
-  sidenav_volunteer: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Volunteer",
+  "sidenav_volunteer": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Volunteer",
     "es": "Ser voluntario",
     "ko": "자원봉사",
     "vi": "Hoạt động tình nguyện",
@@ -163,10 +162,10 @@ module.exports = {
     "zh-hant": "志願者",
     "hy": "Կամավորություն"
   },
-  sidenav_stay_healthy: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Stay healthy",
+  "sidenav_stay_healthy": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Stay healthy",
     "es": "Mantenerse saludable",
     "ko": "건강 유지",
     "vi": "Giữ gìn sức khỏe",
@@ -175,10 +174,10 @@ module.exports = {
     "zh-hant": "保持健康",
     "hy": "Առողջության պահպանում"
   },
-  sidenav_track_las_progress: {
-    status: 'avantpage_delivery',
-    src_file: "src/_includes/dynamic-sidenav.html",
-    en: "Track LA's progress",
+  "sidenav_track_las_progress": {
+    "status": "avantpage_delivery",
+    "src_file": "src/_includes/dynamic-sidenav.html",
+    "en": "Track LA's progress",
     "es": "Siga el progreso de Los Ángeles",
     "ko": "LA의 진행 상황 추적",
     "vi": "Theo dõi tiến độ của LA",
@@ -186,7 +185,5 @@ module.exports = {
     "zh-hans": "追踪洛杉矶重建进展",
     "zh-hant": "跟蹤 LA 的進度",
     "hy": "Հետևեք LA-ի առաջընթացին"
-  },
- 
-
-};
+  }
+}
