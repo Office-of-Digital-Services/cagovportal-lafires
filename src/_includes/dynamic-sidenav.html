@@ -25,7 +25,7 @@ dynamic_sidenavid: service
       <!-- href: {{-href -}} -->
       <!-- purl: {{-purl -}} -->
       <a
-        href="{{-href | localizedPath(locale) -}}"
+        href="{{-href | localizedPath -}}"
         {%-if
         active%}
         class="active landing"
@@ -42,7 +42,7 @@ dynamic_sidenavid: service
       <ul>
         <li>
           <a
-            href="{{-href | localizedPath(locale) -}}"
+            href="{{-href | localizedPath -}}"
             {%-if
             active%}
             class="active landing"
