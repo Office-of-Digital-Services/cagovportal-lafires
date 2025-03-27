@@ -291,7 +291,7 @@ module.exports = function (
   );
 
   eleventyConfig.addFilter('localizedPath', function(pathString, localeOverride) {
-    const locale = localeOverride || this.ctx.locale || this.ctx.lang;
+    const locale = localeOverride || this.ctx.locale || this.ctx.lang || 'en';
 
     // set locale to en if not provided
     // locale = locale || 'en';
