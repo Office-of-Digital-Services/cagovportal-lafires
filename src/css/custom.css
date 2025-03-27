@@ -1,1 +1,9 @@
 /* empty */
+
+/* if screen-width is > 1201px, then leave room for background pic */
+
+@media (min-width: 1201px) {
+  h1.m-t-0.m-b-md.color-white.line-height-1em {
+    max-width: 64%;
+  }
+}
