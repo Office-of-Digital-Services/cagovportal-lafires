@@ -11,7 +11,7 @@ const path = require("node:path");
 
 // Utility function to load all translation files and combine them
 function loadAllTranslations() {
-  const translationsDir = path.join(__dirname, "./src/_data");
+  const translationsDir = path.join(__dirname, "./src/_data/i18n");
   
   // Find all files matching i18n*.json pattern
   const translationFiles = fs.readdirSync(translationsDir)
@@ -67,7 +67,7 @@ module.exports = function (
   eleventyConfig.addWatchTarget("./pages/");
 
   // Add watch target specifically for i18n file and clear require cache when it changes
-  eleventyConfig.addWatchTarget("./src/_data/i18n*.json");
+  eleventyConfig.addWatchTarget("./src/_data/i18n/i18n*.json");
   eleventyConfig.on("beforeWatch", changedFiles => { // support changing i18n.json during development without quitting the server
     if (changedFiles.some(file => file.includes("i18n"))) {
       // JSON files don't use require cache, so we just need to reload translations
