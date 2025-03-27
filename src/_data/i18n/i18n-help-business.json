@@ -572,15 +572,15 @@
   "help_business_file_payroll_reports_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "File their state payroll reports",
-    "fr": "Déposer leurs rapports de paie d'État",
+    "en": "File their state payroll reports:",
+    "fr": "Déposer leurs rapports de paie d'État :",
     "es": "presentar los informes de la nómina del estado:",
-    "ko": "주 정부 급여 보고서 제출",
-    "vi": "Nộp báo cáo bảng lương cho tiểu bang",
-    "tl": "Maihain ang kanilang mga ulat ng payroll sa estado",
-    "zh-hans": "提交州级工资税报告",
-    "zh-hant": "提交他們的州工資報告",
-    "hy": "Իրենց աշխատավարձի նահանգային հաշվետվությունները ներկայացնելու համար"
+    "ko": "주 정부 급여 보고서 제출:",
+    "vi": "Nộp báo cáo bảng lương cho tiểu bang:",
+    "tl": "Maihain ang kanilang mga ulat ng payroll sa estado:",
+    "zh-hans": "提交州级工资税报告：",
+    "zh-hant": "提交他們的州工資報告：",
+    "hy": "Իրենց աշխատավարձի նահանգային հաշվետվությունները ներկայացնելու համար:"
   },
   "help_business_file_payroll_reports_link_text": {
     "status": "avantpage_delivery",
@@ -598,15 +598,15 @@
   "help_business_deposit_payroll_taxes_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "Deposit payroll taxes without penalty or interest",
-    "fr": "Déposer les impôts sur la paie sans pénalité ou intérêt",
+    "en": "Deposit payroll taxes without penalty or interest:",
+    "fr": "Déposer les impôts sur la paie sans pénalité ou intérêt :",
     "es": "depositar los impuestos de la nómina sin multas ni intereses:",
-    "ko": "벌금이나 이자 없이 급여세 납부",
-    "vi": "Nộp thuế quỹ lương mà không bị phạt hoặc phải trả lãi",
-    "tl": "Magdeposito ng mga buwis sa payroll nang walang multa o interes",
-    "zh-hans": "免罚金或利息的工资税",
-    "zh-hant": "存入工資稅，無罰款或利息",
-    "hy": "Վճարել աշխատավարձի հարկերը առանց տույժերի և տոկոսների"
+    "ko": "벌금이나 이자 없이 급여세 납부:",
+    "vi": "Nộp thuế quỹ lương mà không bị phạt hoặc phải trả lãi:",
+    "tl": "Magdeposito ng mga buwis sa payroll nang walang multa o interes:",
+    "zh-hans": "免罚金或利息的工资税:",
+    "zh-hant": "存入工資稅，無罰款或利息:",
+    "hy": "Վճարել աշխատավարձի հարկերը առանց տույժերի և տոկոսների:"
   },
   "help_business_deposit_payroll_taxes_link_text": {
     "status": "avantpage_delivery",
