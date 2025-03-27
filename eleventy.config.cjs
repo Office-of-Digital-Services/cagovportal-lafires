@@ -212,12 +212,14 @@ module.exports = function (
     /**
      * @param {string | number | Date} dateString
      */
-    dateString =>
-      new Date(dateString).toLocaleDateString(undefined, {
+    function(dateString) {
+      const locale = this.ctx.locale || this.ctx.lang || 'en';
+      return new Date(dateString).toLocaleDateString(locale, {
         year: "numeric",
         month: "long",
         day: "numeric"
       })
+    }
   );
 
   // Get a hex representation of the current date.
@@ -289,6 +291,10 @@ module.exports = function (
         ["true", "false"].includes(value) ? value === "true" : value //Boolean value parsing
     })
   );
+
+  eleventyConfig.addFilter('fetchGuid', function(guidURL) {
+    return String(guidURL).split('=')[1];
+  });
 
   eleventyConfig.addFilter('localizedPath', function(pathString, localeOverride) {
     const locale = localeOverride || this.ctx.locale || this.ctx.lang || 'en';
