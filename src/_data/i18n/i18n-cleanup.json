@@ -695,15 +695,15 @@
   "cleanup_opt_in_deadline": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
-    "en": "To get free debris removal, you must <strong>opt in by March 31, 2025</strong>.",
-    "fr": "Pour obtenir le retrait de débris gratuit, vous devez <strong>opt in avant le 31 mars 2025</strong>.",
-    "es": "Para que se retiren los escombros sin cargo, debe <strong>solicitarla antes del 31 de marzo de 2025</strong>.",
-    "ko": "무료 잔해 제거를 받으려면 <strong>2025년 3월 31일</strong>까지 동의해야 합니다.",
-    "vi": "Để được di dời đống đổ nát miễn phí, quý vị phải <strong>chọn tham gia chậm nhất vào ngày 31 tháng 3 năm 2025</strong>.",
-    "tl": "Para makakuha ng libreng pag-aalis ng kalat, dapat kang <strong>mag-opt in nang hanggang Marso 31, 2025</strong>.",
-    "zh-hans": "如需免费进行残余物清除，您必须在<strong> 2025 年 3 月 31 日之前选择加入</strong>。",
-    "zh-hant": "若要獲得免費的雜物清除，您必須 <strong>在 2025</strong> 年 3 月 31 日之前加入。",
-    "hy": "Աղբի հեռացման անվճար ծառայության համար պետք է <strong>գրանցվել մինչև 2025թ․ մարտի 31-ը</strong>:"
+    "en": "To get free debris removal, you must <strong>opt in by April 15, 2025</strong>.",
+    "fr": "Pour obtenir le retrait de débris gratuit, vous devez <strong>opt in avant le 15 avril 2025</strong>.",
+    "es": "Para que se retiren los escombros sin cargo, debe <strong>solicitarla antes del 15 de abril de 2025</strong>.",
+    "ko": "무료 잔해 제거를 받으려면 <strong>2025년 4월 15일</strong>까지 동의해야 합니다.",
+    "vi": "Để được di dời đống đổ nát miễn phí, quý vị phải <strong>chọn tham gia chậm nhất vào ngày 15 tháng 4 năm 2025</strong>.",
+    "tl": "Para makakuha ng libreng pag-aalis ng kalat, dapat kang <strong>mag-opt in nang hanggang Abril 15, 2025</strong>.",
+    "zh-hans": "如需免费进行残余物清除，您必须在<strong> 2025 年 4 月 15 日之前选择加入</strong>。",
+    "zh-hant": "若要獲得免費的雜物清除，您必須 <strong>在 2025</strong> 年 4 月 15 日之前加入。",
+    "hy": "Աղբի հեռացման անվճար ծառայության համար պետք է <strong>գրանցվել մինչև 2025թ․ ապրիլի 15-ը</strong>:"
   },
   "cleanup_opt_in_form_button_text": {
     "status": "avantpage_delivery",
