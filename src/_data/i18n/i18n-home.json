@@ -250,7 +250,7 @@
   "home_apply_for_fema_individual_assistance": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/index-shared.html",
-    "en": "To apply for <a href=\"http://disasterassistance.gov\">FEMA Individual Assistance</a>",
+    "en": "Apply for <a href=\"http://disasterassistance.gov\">FEMA Individual Assistance</a>",
     "fr": "Appliquer pour <a href=\"http://disasterassistance.gov\">Aide individuelle FEMA</a>",
     "es": "Solicitar <a href=\"http://disasterassistance.gov\">asistencia individual de la Agencia Federal para el Manejo de Emergencias (FEMA)</a>",
     "ko": "<a href=\"http://disasterassistance.gov\">FEMA 개인 지원</a> 신청",
@@ -264,7 +264,7 @@
   "home_apply_for_sba_business_loan": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/index-shared.html",
-    "en": "To apply for an <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA business loan</a>",
+    "en": "Apply for an <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA business loan</a>",
     "fr": "Appliquer pour un <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">prêt d'entreprise SBA</a>",
     "es": "Solicitar un <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">crédito comercial de la Agencia Federal de Pequeños Negocios (SBA)</a>",
     "ko": "<a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA 기업 대출</a> 신청",
@@ -278,7 +278,7 @@
   "home_opt_in_for_free_debris_removal": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/index-shared.html",
-    "en": "To opt in for <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">free debris removal</a>",
+    "en": "Opt in for <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">free debris removal</a>",
     "fr": "Opt in for <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">free debris removal</a>",
     "es": "Elija solicitar la <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">remoción gratuita</a>",
     "ko": "<a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">무료 잔해 제거</a> 동의",
