@@ -234,6 +234,19 @@
     "zh-hant": "2025 年 3 月 31日",
     "hy": "2025թ․ մարտի 31"
   },
+  "home_april_15_2025": {
+    "status": "avantpage_delivery",
+    "src_file": "pages/lafires/index-shared.html",
+    "en": "April 15, 2025",
+    "fr": "15 avril 2025",
+    "es": "15 de abril de 2025",
+    "ko": "2025년 4월 15일",
+    "vi": "Ngày 15 tháng 4 năm 2025",
+    "tl": "Abril 15, 2025",
+    "zh-hans": "2025 年 4 月 15 日",
+    "zh-hant": "2025 年 4 月 15日",
+    "hy": "2025թ․ ապրիլի 15"
+  },
   "home_apply_for_fema_individual_assistance": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/index-shared.html",
