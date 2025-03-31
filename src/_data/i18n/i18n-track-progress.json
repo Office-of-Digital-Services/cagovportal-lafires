@@ -125,10 +125,18 @@
     "hy": "FEMA-ի օժանդակությամբ"
   },
   "track_progress_people_helped_lowercase": {
-    "status": "ap_not_found_in_ap_delivery",
+    "status": "ap_review",
+    "comment": "Extracted from submitted translation, converted to lowercase",
     "src_file": "pages/lafires/track-progress-shared.html",
     "en": "people helped",
-    "fr": "personnes aidées"
+    "fr": "personnes aidées",
+    "es": "personas que recibieron ayuda",
+    "ko": "사람 지원",
+    "vi": "mọi người được giúp đỡ",
+    "tl": "tumulong ang mga tao",
+    "zh-hans": "援助数据统计",
+    "zh-hant": "人們幫助",
+    "hy": "օգնություն ստացած մարդկանց քանակ"
   },
   "track_progress_distributed_to_individuals": {
     "status": "avantpage_delivery",
