@@ -70,3 +70,6 @@ git push origin master
 .env
 .autoenv*
 
+utilities/chromedriver
+utilities/compare_pages.py
+test.txt

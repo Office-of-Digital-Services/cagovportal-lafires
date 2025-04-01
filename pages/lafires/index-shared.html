@@ -1,0 +1,304 @@
+<div class="container p-y m-b-md">
+  {%- include "breadcrumbs.html" -%}
+
+  <div class="row">
+    <div class="col-lg-4 section-primary p-a-md p-b-lg">
+      <h1 class="m-t-0 h2">{{title}}</h1>
+      <p>{{ 'home_main_description' | i18n }}</p>
+      <div class="p-t-md d-flex flex-column align-items-start text-nowrap">
+        <!-- Button Container to Add Vertical Spacing -->
+        <div class="d-block">
+          <!-- Find Help Available Button -->
+          <a
+            href="{{ '/lafires/recovery-services-finder/' | localizedPath }}"
+            class="btn btn-outline-primary d-block align-items-center px-3 py-2 gap-2 rounded-1 wrap text-left">
+            <img
+              src="/lafires/images/recovery-finder-icon-primary.svg"
+              alt="Recovery finder icon"
+              class="height-20 pos-rel top-minus-3" />
+            {{ 'home_find_help_available_title' | i18n }}
+          </a>
+
+          <!-- Track LA's Progress Button -->
+          <a
+            href="{{ '/lafires/track-progress/' | localizedPath }}"
+            class="btn btn-outline-primary d-inline-block align-items-center px-3 py-2 gap-2 rounded-1 m-t-md wrap text-left">
+            <img
+              src="/lafires/images/track-la-progress-primary.svg"
+              alt="Track LA's Progress"
+              class="height-20 pos-rel top-minus-3" />
+            {{ 'home_track_la_progress_title' | i18n }}
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-lg-8 bg-s3"
+      style="background: url('/lafires/images/hands-banner-lineart.svg') no-repeat center / cover;"></div>
+    <span class="sr-only"
+      >{{ 'home_hands_reaching_out_image_alt' | i18n }}</span
+    >
+  </div>
+</div>
+
+<div class="section-understated">
+  <div class="container p-t-lg p-b-lg">
+    <h2 class="m-y-0 font-size-25">{{ 'home_top_needs' | i18n }}</h2>
+    <div class="row">
+      <div class="col-lg-4 m-t-md">
+        <a
+          href="{{ '/lafires/stay-healthy/' | localizedPath }}"
+          class="link-grid bg-white bg-gray-50-hover no-icon"
+          ><h3 class="m-a-0 font-size-20 bold">{{ 'home_stay_healthy' | i18n }}</h3></a
+        >
+      </div>
+      <div class="col-lg-4 m-t-md">
+        <a
+          href="{{ '/lafires/get-help-online/#Replacing-your-personal-documents' | localizedPath }}"
+          class="link-grid bg-white bg-gray-50-hover no-icon"
+          ><h3 class="m-a-0 font-size-20 bold">{{ 'home_replace_documents' | i18n }}</h3></a
+        >
+      </div>
+      <div class="col-lg-4 m-t-md">
+        <a
+          href="{{ '/lafires/cleanup-and-debris-removal/' | localizedPath }}"
+          class="link-grid bg-white bg-gray-50-hover no-icon"
+          ><h3 class="m-a-0 font-size-20 bold">{{ 'home_get_debris_removed' | i18n }}</h3></a
+        >
+      </div>
+    </div>
+
+    <div class="p-a-md m-t-lg brd-solid-1 brd-gray-200 rounded">
+      <div class="d-flex gap-2 align-items-center m-b">
+        <img
+          src="/lafires/images/index-calendar.svg"
+          width="35"
+          height="35"
+          aria-hidden="true" />
+        <h2 class="m-a-0 font-size-25">{{ 'home_upcoming_deadlines' | i18n }}</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <h3 class="font-size-20 m-t m-b-sm">{{ 'home_march_31_2025' | i18n }}</h3>
+          <p class="m-b-0">
+            {{ 'home_apply_for_fema_individual_assistance' | i18n | safe }}
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="font-size-20 m-t m-b-sm">{{ 'home_march_31_2025' | i18n }}</h3>
+          <p class="m-b-0">
+            {{ 'home_apply_for_sba_business_loan' | i18n | safe }}
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="font-size-20 m-t m-b-sm">{{ 'home_april_15_2025' | i18n }}</h3>
+          <p class="m-b-0">
+            {{ 'home_opt_in_for_free_debris_removal' | i18n | safe }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container p-b-lg">
+  <h2 class="m-b-0">{{ 'home_what_you_can_do' | i18n }}</h2>
+
+  <div class="row">
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="{{ '/lafires/get-help-online/' | localizedPath }}"
+            class="color-p2 link-before text-left no-underline d-block"
+            >{{ 'home_help_online_title' | i18n }}</a
+          >
+        </h3>
+        <p class="m-b text-left">
+          {{ 'home_help_online_description' | i18n }}
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="{{ '/lafires/get-help-in-person/' | localizedPath }}"
+            class="color-p2 link-before text-left no-underline d-block"
+            >{{ 'home_help_in_person_title' | i18n }}</a
+          >
+        </h3>
+        <p class="m-b text-left">
+          {{ 'home_help_in_person_description' | i18n }}
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="{{ '/lafires/see-real-time-info/' | localizedPath }}"
+            class="color-p2 link-before text-left no-underline d-block"
+            >{{ 'home_see_real_time_info' | i18n }}</a
+          >
+        </h3>
+        <p class="m-b text-left">
+          {{ 'home_find_fire_maps_air_quality_and_road_closure_maps' | i18n }}
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="{{ '/lafires/start-your-recovery/' | localizedPath }}"
+            class="color-p2 link-before text-left no-underline d-block"
+            >{{ 'home_start_your_recovery' | i18n }}</a
+          >
+        </h3>
+        <p class="m-b text-left">
+          {{ 'home_learn_when_you_can_return_home_and_how_to_start_recovering' | i18n }}
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="{{ '/lafires/help-your-business/' | localizedPath }}"
+            class="color-p2 link-before text-left no-underline d-block"
+            >{{ 'home_help_business_title' | i18n }}</a
+          >
+        </h3>
+        <p class="m-b text-left">
+          {{ 'home_businesses_affected_by_the_fires_can_get_tax_relief_and_extensions' | i18n }}
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="{{ '/lafires/volunteer/' | localizedPath }}"
+            class="color-p2 link-before text-left no-underline d-block"
+            >{{ 'home_volunteer' | i18n }}</a
+          >
+        </h3>
+        <p class="m-b text-left">
+          {{ 'home_give_time_or_money_to_help_people_affected_by_the_fires' | i18n }}
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="{{ '/lafires/recovery-services-finder/' | localizedPath }}"
+            class="color-p2 link-before text-left no-underline d-block"
+            >{{ 'home_services_finder_title' | i18n }}</a
+          >
+        </h3>
+        <p class="m-b text-left">
+          {{ 'home_services_finder_description' | i18n }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-understated">
+  <div class="container p-t-lg p-b-lg">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="h3 m-t-0">{{ 'home_help_us_improve' | i18n }}</h2>
+        <p>
+          {{ 'home_tell_us_what_this_website_could_do_better' | i18n | safe }}
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="h3 m-t-0">{{ 'home_join_the_conversation' | i18n }}</h2>
+        <p>
+          {{ 'home_sign_up_to_tell_us_about_your_recovery_experience_and_hear_from_others' | i18n | safe }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container p-b-lg">
+  <div class="row">
+    <!-- News list -->
+    <div class="col-lg-8 m-x-auto">
+      <div class="brd-solid-1 brd-gray-200 rounded-10 p-a-md m-t-lg bg-white">
+        <h2 class="m-t-0 h3">{{ 'home_state_updates' | i18n }}</h2>
+
+        {%- set counter = 0 -%} {%- for story in
+        laFiresStories.rss.channel[0].item -%} {%- if counter < 4 and (category1
+        in story.category or category2 in story.category or category3 in
+        story.category) -%} {%- set guid_id = (story.guid[0]._ | fetchGuid) -%}
+        <hr class="m-y-md" />
+        <h3 class="lead font-weight-700">
+          <a href="{{ story.link }}">{{ ('story_' + guid_id + '_title') | i18n }}</a>
+        </h3>
+        <p>{{ story.pubDate | customDate }}</p>
+        {%- set counter = counter + 1 -%} {%- endif -%} {%- endfor %}
+
+        <hr class="m-y-md" />
+
+        <p class="m-b-md">
+          <a href="https://www.gov.ca.gov/tag/la-fires/"
+            >{{ 'home_view_all_la_fires_news' | i18n }}</a
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-primary">
+  <div class="container p-y-lg">
+    <div class="row">
+      <div class="col-lg-10">
+        <h2 class="m-t-0 h3">{{ 'home_rebuild_faster_title' | i18n }}</h2>
+        <p>
+          {{ 'home_rebuild_faster_description' | i18n | safe }}
+        </p>
+
+        <p>
+          {{ 'home_governor_signs_legislation' | i18n | safe }}
+        </p>
+
+        <p>
+          {{ 'home_see_all_actions' | i18n | safe }}
+        </p>
+
+        <h2 class="h3">{{ 'home_major_disaster_title' | i18n }}</h2>
+        <p>
+          {{ 'home_major_disaster_description' | i18n | safe }}
+        </p>
+        <p>
+          {{ 'home_declaration_assistance' | i18n }}
+        </p>
+        <ul>
+          <li>{{ 'home_assistance_list_1' | i18n }}</li>
+          <li>{{ 'home_assistance_list_2' | i18n }}</li>
+          <li>{{ 'home_assistance_list_3' | i18n }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- visible modification test 2025-03-13 10:24 -->
