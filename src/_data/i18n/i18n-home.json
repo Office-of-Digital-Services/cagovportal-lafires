@@ -342,17 +342,18 @@
     "hy": "Ստացեք օգնություն անձամբ"
   },
   "home_help_in_person_description": {
-    "status": "avantpage_delivery",
+    "status": "ap_review",
+    "comment": "Edited for title consistency",
     "src_file": "pages/lafires/index-shared.html",
     "en": "Disaster Recovery Centers are open in Altadena and UCLA Research Park West.",
-    "fr": "Les centres de récupération des catastrophes sont ouverts à Altadena et UCLA Research Park West.",
-    "es": "Los centros de recuperación por catástrofes están abiertos en Altadena y UCLA Research Park West.",
-    "ko": "재난 복구 센터는 알타데나와 UCLA Research Park 서편에 마련되어 있습니다.",
-    "vi": "Các Trung Tâm Phục Hồi sau Thảm Họa mở cửa tại Altadena và Phía Tây Viện Nghiên Cứu của Đại Học California tại Los Angeles (UCLA).",
+    "fr": "Les Disaster Recovery Centers sont ouverts à Altadena et UCLA Research Park West.",
+    "es": "Los Disaster Recovery Centers están abiertos en Altadena y UCLA Research Park West.",
+    "ko": "Disaster Recovery Centers는 Altadena와 UCLA Research Park West에 마련되어 있습니다.",
+    "vi": "Các Disaster Recovery Centers mở cửa tại Altadena và UCLA Research Park West.",
     "tl": "Bukas ang mga Disaster Recovery Center sa Altadena at UCLA Research Park West.",
-    "zh-hans": "阿尔塔迪纳与 UCLA 西研究园区的灾害恢复中心已开放。",
-    "zh-hant": "災難復原中心在 Altadena 和 UCLA Research Park West 開放。",
-    "hy": "Աղետների վերականգնման կենտրոնները բաց են Ալթադենայում և UCLA Research Park West-ում:"
+    "zh-hans": "Disaster Recovery Centers 已在 Altadena 与 UCLA Research Park West 开放。",
+    "zh-hant": "Disaster Recovery Centers 在 Altadena 和 UCLA Research Park West 開放。",
+    "hy": "Disaster Recovery Centers բաց են Altadena և UCLA Research Park West-ում:"
   },
   "home_see_real_time_info": {
     "status": "avantpage_delivery",
