@@ -215,20 +215,17 @@
   }
 </style>
 
+
 <!-- SVG filter for rounding complex shapes. -->
 <svg class="visually-hidden" width="0" height="0">
   <defs>
     <filter id="round">
       <!-- stdDeviation of the blur defines the border-radius, in px. -->
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" /> 
       <!-- Red, blue, and green unmodified. Then maximize contrast of the alpha channel. -->
-      <feColorMatrix
-        in="blur"
-        mode="matrix"
-        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-        result="max-alpha" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="max-alpha" />
       <!-- Combine. -->
-      <feComposite in="SourceGraphic" in2="max-alpha" operator="atop" />
+      <feComposite in="SourceGraphic" in2="max-alpha" operator="atop"/>
     </filter>
   </defs>
 </svg>
@@ -427,12 +424,7 @@
       <div class="debris-step">
         <h2>{{ 'cleanup_opt_in_deadline_heading' | i18n}}</h2>
         <p>
-<<<<<<< HEAD:pages/lafires/cleanup-and-debris-removal.html
-          To get free debris removal, you must
-          <strong>opt in by April 15, 2025</strong>.
-=======
           {{ 'cleanup_opt_in_deadline' | i18n | safe}}
->>>>>>> dev:pages/lafires/cleanup-and-debris-removal-shared.html
         </p>
         <a
           class="btn btn-primary m-y-sm"
