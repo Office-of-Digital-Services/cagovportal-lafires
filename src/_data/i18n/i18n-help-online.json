@@ -116,32 +116,6 @@
     "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "FEMA’s Individuals and Households Program. It gives 14 days of temporary housing for people who qualify. You could also qualify for several months of rental assistance."
   },
-  "help_online_temporary_housing_title": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
-    "en": "Temporary housing",
-    "fr": "Logement provisoire",
-    "es": "Vivienda temporal",
-    "ko": "임시 주택",
-    "vi": "Nhà ở tạm thời",
-    "tl": "Pansamantalang pabahay",
-    "zh-hans": "临时住房安置",
-    "zh-hant": "臨時住房",
-    "hy": "Ժամանակավոր կացարան"
-  },
-  "help_online_temporary_housing_description": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
-    "en": "FEMA’s Individuals and Households Program. It gives 14 days of temporary housing for people who qualify. You could also qualify for several months of rental assistance.",
-    "fr": "Programme des personnes et ménages de FEMA. Il donne un logement provisoire de 14 jours aux personnes qui y ont droit. Vous pourriez également avoir droit à plusieurs mois d'aide au loyer.",
-    "es": "Programa de Ayuda Individual y Familiar de la Agencia Federal para el Manejo de Emergencias (Federal Emergency Management Agency, FEMA). Da 14 días de vivienda temporal para las personas que reúnen los requisitos. También puede calificar para recibir asistencia de alquiler para varios meses.",
-    "ko": "FEMA의 개인 및 가구 지원 프로그램(Individuals and Households Program). 유자격자에게 14일간 임시 주택을 제공합니다. 수개월간 임대료를 지원받을 수도 있습니다.",
-    "vi": "Chương Trình Hỗ Trợ Cá Nhân và Hộ Gia Đình của Cơ Quan Quản Lý Tình Trạng Khẩn Cấp Liên Bang (FEMA). Chương trình này cung cấp nhà ở tạm thời trong 14 ngày cho những người đủ tiêu chuẩn. Quý vị cũng có thể đủ tiêu chuẩn được hỗ trợ tiền thuê nhà trong vài tháng.",
-    "tl": "Programang Pang-indibidwal at Pangsambahayan ng FEMA. Nagbibigay ito ng 14 na araw na pansamantalang pabahay para sa mga tao na kwalipikado. Puwede ka ring maging kwalipikado para sa ilang buwang tulong sa upa.",
-    "zh-hans": "联邦应急事务署 (Federal Emergency Management Agency, FEMA) 的个人与家庭计划。该计划为符合条件者提供14天临时住房安置。符合条件者还可获得数月租金补助。",
-    "zh-hant": "FEMA 的個人和住戶計劃。它為符合條件的人提供14天的臨時住房。您也可能有資格獲得幾個月的房房援助。",
-    "hy": "FEMA-ի անհատների և տնային տնտեսությունների ծրագիր: Այն տալիս է 14 օր ժամանակավոր կացարան այն մարդկանց համար, ովքեր համապատասխանում են պահանջներին։ Դուք կարող եք նաև որակավորվել մի քանի ամսվա վարձակալության օգնության համար:"
-  },
   "help_online_food_heading": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/get-help-online-shared.html",
