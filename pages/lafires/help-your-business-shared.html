@@ -7,7 +7,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -24,14 +24,18 @@
 
       <nav class="page-navigation"></nav>
 
-      <h2 class="m-b-0">{{ 'help_business_recovery_centers_heading' | i18n }}</h2>
+      <h2 class="m-b-0">
+        {{ 'help_business_recovery_centers_heading' | i18n }}
+      </h2>
       <p>{{ 'help_business_recovery_centers_description' | i18n }}</p>
 
       <div class="row">
         <div class="col-lg-6 m-t-md">
           <div
             class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">{{ 'help_business_west_hollywood_title' | i18n }}</h3>
+            <h3 class="h5 m-t-md m-b">
+              {{ 'help_business_west_hollywood_title' | i18n }}
+            </h3>
 
             <p class="m-b text-left">
               {{ 'help_business_west_hollywood_address_line_1' | i18n }}<br />
@@ -45,7 +49,8 @@
             <a
               class="btn btn-primary rounded-5 m-y maps-link"
               href="https://maps.google.com/?q=8272+Santa+Monica+Blvd,+West+Hollywood,+CA+90046"
-              >{{ 'help_business_directions_link_text' | i18n }}<span class="sr-only">
+              >{{ 'help_business_directions_link_text' | i18n }}<span
+                class="sr-only">
                 {{ 'help_business_west_hollywood_title' | i18n }}</span
               ></a
             >
@@ -55,7 +60,9 @@
         <div class="col-lg-6 m-t-md">
           <div
             class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">{{ 'help_business_wbc_title' | i18n }}</h3>
+            <h3 class="h5 m-t-md m-b">
+              {{ 'help_business_wbc_title' | i18n }}
+            </h3>
 
             <p class="m-b text-left">
               {{ 'help_business_wbc_address_line_1' | i18n }}<br />
@@ -70,7 +77,8 @@
             <a
               class="btn btn-primary rounded-5 m-y maps-link"
               href="https://maps.google.com/?q=18700+Sherman+Way,+Reseda,+CA+91335"
-              >{{ 'help_business_directions_link_text' | i18n }}<span class="sr-only">
+              >{{ 'help_business_directions_link_text' | i18n }}<span
+                class="sr-only">
                 {{ 'help_business_wbc_title' | i18n }}</span
               ></a
             >
@@ -80,7 +88,9 @@
         <div class="col-lg-6 m-t-md">
           <div
             class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">{{ 'help_business_smcc_title' | i18n }}</h3>
+            <h3 class="h5 m-t-md m-b">
+              {{ 'help_business_smcc_title' | i18n }}
+            </h3>
 
             <p class="m-b text-left">
               {{ 'help_business_smcc_address_line_1' | i18n }}<br />
@@ -94,9 +104,27 @@
             <a
               class="btn btn-primary rounded-5 m-y maps-link"
               href="https://maps.google.com/?q=2525+Main+Street,+Santa+Monica,+CA+90405"
-              >{{ 'help_business_directions_link_text' | i18n }}<span class="sr-only">
+              >{{ 'help_business_directions_link_text' | i18n }}<span
+                class="sr-only">
                 {{ 'help_business_smcc_title' | i18n }}</span
               ></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <h2>{{ 'get_free_debris_removal_title' | i18n }}</h2>
+      <div class="row">
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white p-x-md p-t-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <p>{{ 'get_free_debris_removal_description' | i18n }}</p>
+            <p>{{ 'get_free_debris_removal_description2' | i18n }}</p>
+            <p>{{ 'get_free_debris_removal_description3' | i18n | safe }}</p>
+            <a
+              href="https://recovery.lacounty.gov/debris-removal/roe/"
+              class="btn btn-primary rounded-5 m-y"
+              >{{ 'get_free_debris_removal_button' | i18n }}</a
             >
           </div>
         </div>
@@ -118,11 +146,12 @@
             <p class="text-sm font-size-15 text-left gray-600 m-y-md">
               {{ 'help_business_sba_support_source' | i18n | safe }}
             </p>
-            <p class="text-left bold">
-              {{ 'help_business_sba_deadline' | i18n }}
-            </p>
+
             <p class="m-b text-left">
               {{ 'help_business_sba_description' | i18n | safe }}
+            </p>
+            <p class="m-b text-left">
+              {{ 'help_business_sba_description2' | i18n | safe }}
             </p>
           </div>
         </div>
@@ -161,6 +190,25 @@
             </p>
             <p class="m-b text-left">
               {{ 'help_business_calosba_description' | i18n | safe }}
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://www.sba.gov/funding-programs/disaster-assistance"
+                class="color-p2 text-left d-block"
+                >{{ 'help_business_sba_title' | i18n }}</a
+              >
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600 m-y-md">
+              {{ 'help_business_sba_source' | i18n | safe }}
+            </p>
+            <p class="m-b text-left">
+              {{ 'help_business_sba_description3' | i18n | safe }}
             </p>
           </div>
         </div>
@@ -224,13 +272,15 @@
                 {{ 'help_business_file_payroll_reports_title' | i18n }}
                 <a
                   href="https://edd.ca.gov/en/payroll_taxes/Emergency_and_Disaster_Assistance_for_Employers/"
-                  >{{ 'help_business_file_payroll_reports_link_text' | i18n }}</a
+                  >{{ 'help_business_file_payroll_reports_link_text' | i18n
+                  }}</a
                 >
               </li>
               <li class="m-t">
                 {{ 'help_business_deposit_payroll_taxes_title' | i18n }}
                 <a href="https://taxes.ca.gov/extension-of-time-to-file-bus/"
-                  >{{ 'help_business_deposit_payroll_taxes_link_text' | i18n }}</a
+                  >{{ 'help_business_deposit_payroll_taxes_link_text' | i18n
+                  }}</a
                 >
               </li>
             </ul>
@@ -242,13 +292,14 @@
           <div
             class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
             <h3 class="h5 m-t-md m-b">
-              {{ 'help_business_property_tax_title' | i18n }} 
+              {{ 'help_business_property_tax_title' | i18n }}
             </h3>
             <p class="text-sm font-size-15 text-left gray-600 m-y-md">
               {{ 'help_business_property_tax_source' | i18n }}
             </p>
             <p class="m-b text-left">
-              {{ 'help_business_property_tax_full_description_with_link_markup' | i18n | safe }}
+              {{ 'help_business_property_tax_full_description_with_link_markup'
+              | i18n | safe }}
             </p>
           </div>
         </div>
