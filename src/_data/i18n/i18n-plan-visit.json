@@ -679,10 +679,18 @@
     "hy": "Կալիֆորնիայի վետերանների հարցերով վարչություն (CalVet)"
   },
   "plan_visit_fema_section": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
-    "en": "Individual assistance"
+    "en": "Individual assistance",
+    "fr": "Aide individuelle",
+    "es": "Ayuda individual",
+    "ko": "개인 도움",
+    "vi": "Hỗ trợ cá nhân",
+    "tl": "Pangkat ng Individuwal",
+    "zh-hans": "个人援助",
+    "zh-hant": "個人援助",
+    "hy": "Անձնական օգնություն"
   },
   "plan_visit_fema_grants": {
     "status": "avantpage_delivery",
