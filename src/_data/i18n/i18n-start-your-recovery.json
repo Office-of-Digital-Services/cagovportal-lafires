@@ -13,16 +13,32 @@
     "hy": "Սկսել վերականգնումը"
   },
   "recovery_description": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/start-your-recovery-shared.html",
-    "en": "Learn how to get what you need to start recovering."
+    "en": "Learn how to get what you need to start recovering.",
+    "fr": "Apprenez comment obtenir ce dont vous avez besoin pour commencer à récupérer.",
+    "es": "Aprenda cómo obtener lo que necesita para comenzar a recuperar.",
+    "ko": "복구를 시작하는 데 필요한 것을 배우십시오.",
+    "vi": "Tìm hiểu cách nhận được những gì bạn cần để bắt đầu phục hồi.",
+    "tl": "Matuto kung paano makuha kung ano ang kinakailangan mo para magsimula na muling pagbangon.",
+    "zh-hans": "了解如何获取所需内容以开始恢复。",
+    "zh-hant": "了解如何獲取所需內容以開始恢復。",
+    "hy": "Իմանաք, թե ինչ պետք է ստանալ այն բոլոր բաները, որոնք անհրաժեշտ են վերականգնելու համար:"
   },
   "recovery_lead_text": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/start-your-recovery-shared.html",
-    "en": "Learn how to get what you need to start recovering."
+    "en": "Learn how to get what you need to start recovering.",
+    "fr": "Apprenez comment obtenir ce dont vous avez besoin pour commencer à récupérer.",
+    "es": "Aprenda cómo obtener lo que necesita para comenzar a recuperar.",
+    "ko": "복구를 시작하는 데 필요한 것을 배우십시오.",
+    "vi": "Tìm hiểu cách nhận được những gì bạn cần để bắt đầu phục hồi.",
+    "tl": "Matuto kung paano makuha kung ano ang kinakailangan mo para magsimula na muling pagbangon.",
+    "zh-hans": "了解如何获取所需内容以开始恢复。",
+    "zh-hant": "了解如何獲取所需內容以開始恢復。",
+    "hy": "Իմանաք, թե ինչ պետք է ստանալ այն բոլոր բաները, որոնք անհրաժեշտ են վերականգնելու համար:"
   },
   "recovery_document_note": {
     "status": "avantpage_delivery",
@@ -38,21 +54,45 @@
     "hy": "Եթե Ձեզ անհրաժեշտ է փոխարինել այնպիսի փաստաթղթեր, ինչպիսիք են նույնականացման քարտերը, դա արեք առաջին հերթին: Կարդացեք <a href=\"/lafires/hy/get-help-online/#Replacing-your-personal-documents\">Անձնական փաստաթղթերի փոխարինման մասին</a>"
   },
   "recovery_returning_home_heading": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/start-your-recovery-shared.html",
-    "en": "Accessing your property"
+    "en": "Accessing your property",
+    "fr": "Accéder à votre propriété",
+    "es": "Acceder a su propiedad",
+    "ko": "소유 재산 접근",
+    "vi": "Truy cập vào tài sản của bạn",
+    "tl": "Pumunta sa iyong property",
+    "zh-hans": "访问您的财产",
+    "zh-hant": "訪問您的財產",
+    "hy": "Անձնական գույքի այլասերման միջոցներ"
   },
   "recovery_assessment_info": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
-    "en": "Local, state, and federal teams are now cleaning up fire-damaged neighborhoods."
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "Local, state, and federal teams are now cleaning up fire-damaged neighborhoods.",
+    "fr": "Les équipes locales, étatiques et fédérales nettoient maintenant les quartiers endommagés par les incendies.",
+    "es": "Los equipos locales, estatales y federales están ahora limpiando los barrios dañados por los incendios.",
+    "ko": "지역, 주 및 연방 팀이 이제 산불 손상된 지역을 청소하고 있습니다.",
+    "vi": "Đội của tỉnh, trạm và đội liên bang đang làm sạch các khu vực bị cháy.",
+    "tl": "Ang mga kampanya ng lokal, estado at federal ay nalagay na naglilinis ng mga lugar na nahihirapan sa mga apoy.",
+    "zh-hans": "当地、州和联邦团队现在正在清理受火灾影响的地区。",
+    "zh-hant": "當地、州和聯邦團隊現在正在清理受火災影響的地區。",
+    "hy": "Երկիրը, նահանգային և համայնքային խումբերը հիմա մաքրում են աղմուկավոր տարածքները:"
   },
   "recovery_return_home_button_text": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/start-your-recovery-shared.html",
-    "en": "How to access your property safely"
+    "en": "How to access your property safely",
+    "fr": "Comment accéder à votre propriété en toute sécurité",
+    "es": "Cómo acceder a su propiedad de manera segura",
+    "ko": "안전하게 소유 재산에 접근하는 방법",
+    "vi": "Cách truy cập vào tài sản của bạn an toàn",
+    "tl": "Pumunta sa iyong property nang maunawaan",
+    "zh-hans": "如何安全地访问您的财产",
+    "zh-hant": "如何安全地訪問您的財產",
+    "hy": "Անձնական գույքի այլասերման միջոցներ"
   },
   "recovery_insurance_heading": {
     "status": "avantpage_delivery",
@@ -185,11 +225,18 @@
     "hy": "Օգնություն CalVet-ի հայտերի հետ կապված"
   },
   "recovery_get_help_claim_items_5": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated, original text modified",
     "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "On the phone: Call <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (HELP) or TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> for assistance",
-    "orig_en": "On the phone"
+    "fr": "Par téléphone: Appeler <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (HELP) ou TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> pour obtenir de l'aide",
+    "es": "Por teléfono: Llame al <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (AYUDA) o TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> para obtener ayuda",
+    "ko": "전화로: 도움이 필요하시면 <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (HELP) 또는 TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a>로 전화하세요",
+    "vi": "Bằng điện thoại: Gọi <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (HELP) hoặc TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> để được hỗ trợ",
+    "tl": "Sa telepono: Tumawag sa <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (HELP) o TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> para sa tulong",
+    "zh-hans": "通过电话: 致电 <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (HELP) 或 TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> 获取帮助",
+    "zh-hant": "通過電話: 致電 <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (HELP) 或 TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> 獲取幫助",
+    "hy": "Հեռախոսով: Զանգահարեք <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (HELP) կամ TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> օգնության համար"
   },
   "recovery_get_help_claim_items_6": {
     "status": "avantpage_delivery",
