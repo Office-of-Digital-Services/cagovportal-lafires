@@ -39,10 +39,18 @@
     "hy": "Գտեք տեղական բիզնեսի վերականգնման աջակցություն և օժանդակություն:"
   },
   "help_business_recovery_centers_heading": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "Find a Business Recovery Center"
+    "en": "Find a Business Recovery Center",
+    "fr": "Trouvez un centre de récupération des entreprises",
+    "es": "Encuentre un centro de recuperación de negocios",
+    "ko": "비즈니스 복구 센터 찾기",
+    "vi": "Tìm kiếm Trung Tâm Phục Hồi Doanh Nghiệp",
+    "tl": "Maghanap ng Business Recovery Center",
+    "zh-hans": "查找商业恢复中心",
+    "zh-hant": "查找商業恢復中心",
+    "hy": "Գտեք բիզնեսի վերականգնման կենտրոն"
   },
   "help_business_recovery_centers_description": {
     "status": "avantpage_delivery",
@@ -286,16 +294,32 @@
     "hy": "Փոքր բիզնեսների ադմինիստրացիայի (Small Business Administration, SBA) կողմից"
   },
   "help_business_sba_description": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "The deadline to apply for loans to repair damage to your business was <strong>March 31, 2025</strong>."
+    "en": "The deadline to apply for loans to repair damage to your business was <strong>March 31, 2025</strong>.",
+    "fr": "La date limite pour demander des prêts pour réparer les dommages à votre entreprise était le <strong>31 mars 2025</strong>.",
+    "es": "El plazo para solicitar préstamos para reparar daños a su empresa fue el <strong>31 de marzo de 2025</strong>.",
+    "ko": "사업자 손해를 복구하기 위한 대출을 신청하기 위한 마감일은 <strong>2025년 3월 31일</strong>이었습니다.",
+    "vi": "Ngày hạn để đăng ký vay tiền để sửa chữa thiệt hại đến doanh nghiệp của bạn là <strong>31 tháng 3 năm 2025</strong>.",
+    "tl": "Ang hating-tagal para mag-apply ng pera upang mabigay tulong sa iyong negosyo ay <strong>Marso 31, 2025</strong>.",
+    "zh-hans": "申请贷款以修复业务损失的截止日期为 <strong>2025年3月31日</strong>。",
+    "zh-hant": "申請貸款以修復業務損失的截止日期為 <strong>2025年3月31日</strong>。",
+    "hy": "Առաջարկությունների վերականգնման դրույքաչափը ձեր բիզնեսի վնասվածքները վերականգնելու համար է <strong>Մարտի 31, 2025</strong>։"
   },
   "help_business_sba_description2": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "You can still apply for a loan to cover economic losses. The deadline to apply for that is <strong>October 25, 2025</strong>."
+    "en": "You can still apply for a loan to cover economic losses. The deadline to apply for that is <strong>October 25, 2025</strong>.",
+    "fr": "Vous pouvez toujours demander un prêt pour couvrir les pertes économiques. La date limite pour demander ce prêt est le <strong>25 octobre 2025</strong>.",
+    "es": "Aún puede solicitar un préstamo para cubrir las pérdidas económicas. El plazo para solicitar ese préstamo es el <strong>25 de octubre de 2025</strong>.",
+    "ko": "여전히 경제적 손실을 보정하기 위한 대출을 신청할 수 있습니다. 그 대출을 신청하기 위한 마감일은 <strong>2025년 10월 25일</strong>입니다.",
+    "vi": "Bạn vẫn có thể đăng ký vay tiền để bù đắp tổn thất kinh tế. Ngày hạn để đăng ký vay tiền đó là <strong>25 tháng 10 năm 2025</strong>.",
+    "tl": "Maaari mo pa ring mag-apply ng pera upang kumabot sa ekonomikong mga pagkawala. Ang hating-tagal para mag-apply ng pera ay <strong>Oktobre 25, 2025</strong>.",
+    "zh-hans": "您仍然可以申请贷款以弥补经济损失。申请贷款的截止日期为 <strong>2025年10月25日</strong>。",
+    "zh-hant": "您仍然可以申請貸款以彌補經濟損失。申請貸款的截止日期為 <strong>2025年10月25日</strong>。",
+    "hy": "Դուք դեռ կարող եք ստանալ վարկ ապահովել տնտեսական ցուցակալույսները: Այն վարկի վերականգնման դրույքաչափը է <strong>Մարտի 31, 2025</strong>։"
   },
   "help_business_edd_assistance_title": {
     "status": "avantpage_delivery",
@@ -377,22 +401,46 @@
   },
 
   "help_business_sba_title": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_delivery",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "Small business support"
+    "en": "Small business support",
+    "fr": "Support pour les entreprises",
+    "es": "Apoyo a pequeñas empresas",
+    "ko": "중소 기업 지원",
+    "vi": "Hỗ trợ doanh nghiệp nhỏ",
+    "tl": "Suporta para sa maliit na negosyo",
+    "zh-hans": "小型企业支持",
+    "zh-hant": "小型企業支援",
+    "hy": "Փոքր բիզնեսի աջակցություն"
   },
   "help_business_sba_source": {
-    "status": "english_only",
-    "comment": "by Small Business Administration (SBA)",
+    "status": "ap_delivery",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "Small business support"
+    "en": "Small business support",
+    "fr": "Support pour les entreprises",
+    "es": "Apoyo a pequeñas empresas",
+    "ko": "중소 기업 지원",
+    "vi": "Hỗ trợ doanh nghiệp nhỏ",
+    "tl": "Suporta para sa maliit na negosyo",
+    "zh-hans": "小型企业支持",
+    "zh-hant": "小型企業支援",
+    "hy": "Փոքր բիզնեսի աջակցություն"
   },
   "help_business_sba_description3": {
-    "status": "english_only",
-    "comment": "by Small Business Administration (SBA)",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "The deadline to apply for an SBA loan has passed (March 31, 2025)."
+    "en": "The deadline to apply for an SBA loan has passed (March 31, 2025).",
+    "fr": "La date limite pour demander un prêt SBA est passée (31 mars 2025).",
+    "es": "La fecha límite para solicitar un préstamo de la SBA ha pasado (31 de marzo de 2025).",
+    "ko": "SBA 대출 신청 마감일이 지났습니다(2025년 3월 31일).",
+    "vi": "Thời hạn nộp đơn xin vay SBA đã qua (31 tháng 3, 2025).",
+    "tl": "Ang deadline para mag-apply para sa SBA loan ay lumipas na (Marso 31, 2025).",
+    "zh-hans": "申请SBA贷款的截止日期已过（2025年3月31日）。",
+    "zh-hant": "申請SBA貸款的截止日期已過（2025年3月31日）。",
+    "hy": "SBA վարկի դիմումի վերջնաժամկետն անցել է (2025թ. մարտի 31)։"
   },
   "help_business_relief_fund_title": {
     "status": "avantpage_delivery",
@@ -658,33 +706,73 @@
     "orig_en": "The state <link1>extended the property tax deadline</link1> for businesses affected by the LA fires. You can apply for property tax reassessment with the <link2>Los Angeles County Assessor</link2>. Learn more about <link3>property tax reassessments and base year value transfers</link3>."
   },
   "get_free_debris_removal_title": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "Get free debris removal"
+    "en": "Get free debris removal",
+    "fr": "Obtenir le nettoyage gratuit des débris",
+    "es": "Obtener el limpieza gratuita de escombros",
+    "ko": "무료 파편 제거 받기",
+    "vi": "Nhận dọn dẹp miễn phí",
+    "tl": "Kunin ang libreng pag-aalis ng mga dibdib",
+    "zh-hans": "获取免费废墟清除",
+    "zh-hant": "獲取免費廢墟清除",
+    "hy": "Աղբի հեռացման առանց վճարի"
   },
   "get_free_debris_removal_description": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "Business owners can now get free debris removal for their commercial properties."
+    "en": "Business owners can now get free debris removal for their commercial properties.",
+    "fr": "Les propriétaires d'entreprises peuvent maintenant obtenir un nettoyage gratuit des débris pour leurs propriétés commerciales.",
+    "es": "Los propietarios de negocios ahora pueden obtener un limpieza gratuita de escombros para sus propiedades comerciales.",
+    "ko": "비즈니스 소유자는 이제 자신의 상업 속성에 대해 무료 파편 제거를 받을 수 있습니다.",
+    "vi": "Chủ doanh nghiệp có thể nhận được dọn dẹp miễn phí cho tài sản thương mại của họ.",
+    "tl": "Ang mga may-ari ng negosyo ay maaaring mabigyan ng libreng pag-aalis ng mga dibdib para sa kanilang komersyal na mga property.",
+    "zh-hans": "企业主现在可以免费清除其商业财产的废墟。",
+    "zh-hant": "企業主現在可以免費清除其商業財產的廢墟。",
+    "hy": "Հասանելի է անվճար աղբի հեռացման համար բիզնեսային հատվածների համար:"
   },
   "get_free_debris_removal_description2": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "Some commercial properties will not qualify. But LA County encourages you to opt in just in case."
+    "en": "Some commercial properties will not qualify. But LA County encourages you to opt in just in case.",
+    "fr": "Certaines propriétés commerciales ne seront pas éligibles. Mais le comté de Los Angeles vous incitera à vous inscrire juste au cas où.",
+    "es": "Algunas propiedades comerciales no serán elegibles. Pero el condado de Los Ángeles le animará a inscribirse solo en caso de que.",
+    "ko": "일부 상업 속성은 자격이 없을 수 있습니다. 그러나 로스앤젤레스 카운티는 경우에 따라 등록을 권장합니다.",
+    "vi": "Một số tài sản thương mại có thể không được chấp nhận. Nhưng Quận Los Angeles khuyến khích bạn đăng ký chỉ trong trường hợp cần thiết.",
+    "tl": "Mga komersyal na property ay maaaring hindi magiging kumplikado. Ngunit ang County ng Los Angeles ay nag-encourage na mag-opt in lamang kung kailangan.",
+    "zh-hans": "某些商业财产可能不符合资格。但洛杉矶县鼓励您在必要时进行登记。",
+    "zh-hant": "某些商業財產可能不符合資格。但洛杉磯縣鼓勵您在必要時進行登記。",
+    "hy": "Հասանելի է անվճար աղբի հեռացման համար բիզնեսային հատվածների համար:"
   },
   "get_free_debris_removal_description3": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "You must <strong>opt in by April 15, 2025</strong>."
+    "en": "You must <strong>opt in by April 15, 2025</strong>.",
+    "fr": "Vous devez <strong>vous inscrire avant le 15 avril 2025</strong>.",
+    "es": "Debe <strong>optar por el 15 de abril de 2025</strong>.",
+    "ko": "4월 15일 전에 <strong>등록해야 합니다</strong>.",
+    "vi": "Bạn phải <strong>đăng ký trước ngày 15 tháng 4 năm 2025</strong>.",
+    "tl": "Kailangan mo <strong>mag-opt in hanggang 15 Abril 2025</strong>.",
+    "zh-hans": "您必须<strong>在4月15日之前登记</strong>。",
+    "zh-hant": "您必須<strong>在4月15日之前登記</strong>。",
+    "hy": "Դուք պետք է <strong>մասնակցեք մինչև 15 ապրիլի 2025 թ.</strong>:"
   },
   "get_free_debris_removal_button": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "en": "Opt in for free removal"
+    "en": "Opt in for free removal",
+    "fr": "S'inscrire pour le nettoyage gratuit",
+    "es": "Inscribirse para el limpieza gratuita",
+    "ko": "무료 제거 등록",
+    "vi": "Đăng ký dọn dẹp miễn phí",
+    "tl": "Mag-opt in para sa libreng pag-aalis",
+    "zh-hans": "登记免费清除",
+    "zh-hant": "登記免費清除",
+    "hy": "Աղբի հեռացման առանց վճարի մասնակցություն"
   }
 }

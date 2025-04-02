@@ -264,7 +264,7 @@
     "hy": "Զեկուցվել է Դպրոցների աշխատանքային խմբին"
   },
   "track_progress_data_as_of": {
-    "status": "ap_review", 
+    "status": "ap_review",
     "comment": "Machine translated",
     "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Data as of <date> at <time>",
@@ -279,7 +279,7 @@
   },
   "track_progress_properties_cleaned_up": {
     "status": "ap_review",
-    "comment": "Machine translated", 
+    "comment": "Machine translated",
     "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Properties cleaned up",
     "fr": "Propriétés nettoyées",
@@ -294,7 +294,7 @@
   "track_progress_there_are_2_phases_of_cleanup": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html", 
+    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "There are 2 phases of cleanup:",
     "fr": "Il y a 2 phases de nettoyage:",
     "es": "Hay 2 fases de limpieza:",
@@ -572,7 +572,7 @@
     "hy": "Զեկուցվել է LA վարչաշրջանի կողմից"
   },
   "track_progress_structural_debris_removal_progress": {
-    "status": "ap_review", 
+    "status": "ap_review",
     "comment": "Machine translated",
     "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Structural debris removal progress",
@@ -587,7 +587,7 @@
   },
   "track_progress_parcels_have_been_accepted_for_phase_2_debris_removal": {
     "status": "ap_review",
-    "comment": "Machine translated", 
+    "comment": "Machine translated",
     "src_file": "pages/lafires/track-progress-shared.html",
     "en": "parcels have been accepted for Phase 2 debris removal",
     "fr": "parcelles ont été acceptées pour l'enlèvement des débris de Phase 2",
@@ -602,7 +602,7 @@
   "track_progress_phase_2_progress": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html", 
+    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Phase 2 progress",
     "fr": "Progrès de la Phase 2",
     "es": "Progreso de la Fase 2",
@@ -783,7 +783,7 @@
   },
   "track_progress_air_quality": {
     "status": "ap_review",
-    "comment": "Machine translated", 
+    "comment": "Machine translated",
     "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Air quality",
     "fr": "Qualité de l'air",
@@ -1076,7 +1076,7 @@
     "hy": "Շարժական մոնիթորինգի #1 հետազոտությունն ավարտվել է 2025թ. փետրվարի 10-ին:"
   },
   "track_progress_overall_results_show_no_elevated_levels_of": {
-    "status": "ap_review", 
+    "status": "ap_review",
     "comment": "Machine translated",
     "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Overall, results show <strong>no elevated</strong> levels of",
@@ -1091,7 +1091,7 @@
   },
   "track_progress_air_toxic_metals_including_lead_and_arsenic": {
     "status": "ap_review",
-    "comment": "Machine translated", 
+    "comment": "Machine translated",
     "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Air toxic metals including lead and arsenic",
     "fr": "Métaux toxiques dans l'air, y compris le plomb et l'arsenic",
@@ -1106,7 +1106,7 @@
   "track_progress_volatile_organic_compounds_including_benzene": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html", 
+    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Volatile Organic Compounds including benzene",
     "fr": "Composés organiques volatils, y compris le benzène",
     "es": "Compuestos orgánicos volátiles, incluido el benceno",
@@ -1187,47 +1187,29 @@
     "zh-hant": "Eaton數據結果",
     "hy": "Իթոնի տվյալների արդյունքներ"
   },
-  "track_progress_samples_from_altadena_golf_course_and_christ_the_shepherd_lutheran_church": {
-    "status": "ap_review",
-    "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "2/27/2025 samples from Altadena Golf Course and Christ the Shepherd Lutheran Church:",
-    "fr": "Échantillons du 27/02/2025 du terrain de golf d'Altadena et de l'église luthérienne Christ the Shepherd:",
-    "es": "Muestras del 27/2/2025 del Campo de Golf Altadena y la Iglesia Luterana Cristo el Pastor:",
-    "ko": "2025년 2월 27일 Altadena 골프 코스와 그리스도 목자 루터교회의 샘플:",
-    "vi": "Các mẫu ngày 27/2/2025 từ Sân Golf Altadena và Nhà thờ Lutheran Christ the Shepherd:",
-    "tl": "Mga sample noong 2/27/2025 mula sa Altadena Golf Course at Christ the Shepherd Lutheran Church:",
-    "zh-hans": "2025年2月27日从Altadena高尔夫球场和基督牧者路德教会采集的样本：",
-    "zh-hant": "2025年2月27日從Altadena高爾夫球場和基督牧者路德教會採集的樣本：",
-    "hy": "2025թ. փետրվարի 27-ի նմուշներ Ալտադենա գոլֆի դաշտից և Քրիստոս Հովիվ լյութերական եկեղեցուց:"
-  },
   "track_progress_altadena_golf_course_results_1": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
     "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "All air toxic metals are within background levels. Asbestos was not detected.",
-    "fr": "Tous les métaux toxiques dans l'air sont dans les niveaux de fond. L'amiante n'a pas été détectée.",
-    "es": "Todos los metales tóxicos en el aire están dentro de los niveles de fondo. No se detectó asbesto.",
-    "ko": "모든 대기 유독성 금속은 배경 수준 내에 있습니다. 석면은 검출되지 않았습니다.",
-    "vi": "Tất cả các kim loại độc hại trong không khí đều nằm trong mức nền. Không phát hiện amiăng.",
-    "tl": "Lahat ng nakakalasong metal sa hangin ay nasa loob ng background levels. Hindi nadetect ang asbestos.",
-    "zh-hans": "所有空气有毒金属都在背景水平范围内。未检测到石棉。",
-    "zh-hant": "所有空氣有毒金屬都在背景水平範圍內。未檢測到石棉。",
-    "hy": "Բոլոր օդային թունավոր մետաղները ֆոնային մակարդակների սահմաններում են: Ասբեստ չի հայտնաբերվել:"
+    "en": "While some samples are still being analyzed, analysis continues to show levels do not pose an immediate risk to public health. Residents are encouraged to continue following the safety precautions outlined by the Los Angeles County Department of Public Health."
   },
   "track_progress_altadena_golf_course_results_2": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
     "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "To date, continuous PM10 and PM2.5 hourly data were below federal standards.",
-    "fr": "À ce jour, les données horaires continues de PM10 et PM2.5 étaient inférieures aux normes fédérales.",
-    "es": "Hasta la fecha, los datos horarios continuos de PM10 y PM2.5 estaban por debajo de los estándares federales.",
-    "ko": "현재까지 연속적인 PM10 및 PM2.5 시간별 데이터는 연방 기준치 미만이었습니다.",
-    "vi": "Cho đến nay, dữ liệu hàng giờ liên tục về PM10 và PM2.5 đều dưới tiêu chuẩn liên bang.",
-    "tl": "Sa kasalukuyan, ang tuloy-tuloy na PM10 at PM2.5 hourly data ay nasa ibaba ng federal standards.",
-    "zh-hans": "迄今为止，连续的PM10和PM2.5每小时数据均低于联邦标准。",
-    "zh-hant": "迄今為止，連續的PM10和PM2.5每小時數據均低於聯邦標準。",
-    "hy": "Առ այսօր, PM10-ի և PM2.5-ի անընդհատ ժամային տվյալները եղել են դաշնային ստանդարտներից ցածր:"
+    "en": "Samples from 3/2/25, 3/5/25, and 3/8/25 near Altadena Golf Course and at Christ the Shepherd Lutheran Church and Fire Station 11:"
+  },
+  "track_progress_eaton_data_list_1": {
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
+    "src_file": "pages/lafires/track-progress-shared.html",
+    "en": "All air toxic metals are within background levels. Asbestos was detected near the Altadena Golf Course and Christ the Shepherd Lutheran Church on 3/5/25, but then was not detected on 3/8/25."
+  },
+  "track_progress_eaton_data_list_2": {
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
+    "src_file": "pages/lafires/track-progress-shared.html",
+    "en": "To date, continuous PM10 and PM2.5 hourly data were below federal standards."
   },
   "track_progress_palisades_data_results": {
     "status": "ap_review",
@@ -1243,47 +1225,29 @@
     "zh-hant": "Palisades數據結果",
     "hy": "Փալիսադեսի տվյալների արդյունքներ"
   },
-  "track_progress_samples_from_the_site_near_will_rogers_state_beach": {
-    "status": "ap_review",
-    "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "2/27/2025 samples from the site near Will Rogers State Beach:",
-    "fr": "Échantillons du 27/02/2025 du site près de la plage d'État Will Rogers:",
-    "es": "Muestras del 27/2/2025 del sitio cerca de la Playa Estatal Will Rogers:",
-    "ko": "2025년 2월 27일 Will Rogers 주립 해변 근처 현장의 샘플:",
-    "vi": "Các mẫu ngày 27/2/2025 từ địa điểm gần Bãi biển Tiểu bang Will Rogers:",
-    "tl": "Mga sample noong 2/27/2025 mula sa site malapit sa Will Rogers State Beach:",
-    "zh-hans": "2025年2月27日从威尔·罗杰斯州立海滩附近采集的样本：",
-    "zh-hant": "2025年2月27日從威爾·羅傑斯州立海灘附近採集的樣本：",
-    "hy": "2025թ. փետրվարի 27-ի նմուշներ Վիլ Ռոջերս նահանգային լողափի մոտակայքից:"
-  },
   "track_progress_will_rogers_results_1": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
     "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "Some air toxic metals such as arsenic and nickel were above background levels, but do not pose an immediate health risk. Asbestos was not detected.",
-    "fr": "Certains métaux toxiques dans l'air comme l'arsenic et le nickel étaient au-dessus des niveaux de fond, mais ne posent pas de risque immédiat pour la santé. L'amiante n'a pas été détectée.",
-    "es": "Algunos metales tóxicos en el aire como el arsénico y el níquel estaban por encima de los niveles de fondo, pero no representan un riesgo inmediato para la salud. No se detectó asbesto.",
-    "ko": "비소와 니켈과 같은 일부 대기 유독성 금속은 배경 수준을 초과했지만 즉각적인 건강 위험은 없습니다. 석면은 검출되지 않았습니다.",
-    "vi": "Một số kim loại độc hại trong không khí như asen và niken cao hơn mức nền, nhưng không gây nguy cơ sức khỏe tức thì. Không phát hiện amiăng.",
-    "tl": "Ang ilang nakakalasong metal sa hangin tulad ng arsenic at nickel ay nasa itaas ng background levels, ngunit hindi nagdudulot ng agarang panganib sa kalusugan. Hindi nadetect ang asbestos.",
-    "zh-hans": "砷和镍等一些空气有毒金属高于背景水平，但不会造成即时健康风险。未检测到石棉。",
-    "zh-hant": "砷和鎳等一些空氣有毒金屬高於背景水平，但不會造成即時健康風險。未檢測到石棉。",
-    "hy": "Որոշ օդային թունավոր մետաղներ, ինչպիսիք են արսենը և նիկելը, գերազանցել են ֆոնային մակարդակները, սակայն անմիջական առողջական վտանգ չեն ներկայացնում: Ասբեստ չի հայտնաբերվել:"
+    "en": "While some samples are still being analyzed, analysis continues to show levels do not pose an immediate risk to public health. Residents are encouraged to continue following the safety precautions outlined by the Los Angeles County Department of Public Health. "
   },
   "track_progress_will_rogers_results_2": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
     "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "To date, continuous PM10 and PM2.5 hourly data were below federal standards.",
-    "fr": "À ce jour, les données horaires continues de PM10 et PM2.5 étaient inférieures aux normes fédérales.",
-    "es": "Hasta la fecha, los datos horarios continuos de PM10 y PM2.5 estaban por debajo de los estándares federales.",
-    "ko": "현재까지 연속적인 PM10 및 PM2.5 시간별 데이터는 연방 기준치 미만이었습니다.",
-    "vi": "Cho đến nay, dữ liệu hàng giờ liên tục về PM10 và PM2.5 đều dưới tiêu chuẩn liên bang.",
-    "tl": "Sa kasalukuyan, ang tuloy-tuloy na PM10 at PM2.5 hourly data ay nasa ibaba ng federal standards.",
-    "zh-hans": "迄今为止，连续的PM10和PM2.5每小时数据均低于联邦标准。",
-    "zh-hant": "迄今為止，連續的PM10和PM2.5每小時數據均低於聯邦標準。",
-    "hy": "Առ այսօր, PM10-ի և PM2.5-ի անընդհատ ժամային տվյալները եղել են դաշնային ստանդարտներից ցածր:"
+    "en": "Samples from 3/2/25, 3/5/25, and 3/8/25 near Will Rogers State Beach and at Fire Station 69:"
+  },
+  "track_progress_pasisades_data_list_1": {
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
+    "src_file": "pages/lafires/track-progress-shared.html",
+    "en": "Some air toxic metals were above background levels, but do not pose an immediate health risk. Asbestos was not detected."
+  },
+  "track_progress_pasisades_data_list_2": {
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
+    "src_file": "pages/lafires/track-progress-shared.html",
+    "en": "To date, continuous PM10 and PM2.5 hourly data were below federal standards."
   },
   "track_progress_all_results_from_the_stationary_sites_are_available": {
     "status": "ap_review",
