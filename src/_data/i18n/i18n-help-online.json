@@ -1612,6 +1612,6 @@
     "status": "english_only",
     "comment": "English only translation. Other languages needed",
     "src_file": "pages/lafires/get-help-online-shared.html",
-    "en": "If you are facing foreclosure, contact your mortgage company. You may also call the FHA Resource Center at <a href=\"tel:8002255342\">(800) CALL-FHA</a>"
+    "en": "If you are facing foreclosure, contact your mortgage company. You may also call the FHA Resource Center at <a href=\"tel:8002255342\">(800) CALL-FHA.</a>"
   }
 }
