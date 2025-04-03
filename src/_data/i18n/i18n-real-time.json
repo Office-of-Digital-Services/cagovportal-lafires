@@ -1,7 +1,6 @@
 {
   "realtime_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "See real-time info",
     "fr": "Voir les informations en temps réel",
     "es": "Vea información en tiempo real",
@@ -14,7 +13,6 @@
   },
   "realtime_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Stay safe and informed. These trusted sources of info can help.",
     "fr": "Restez en sécurité et informé. Ces sources de confiance peuvent vous aider.",
     "es": "Manténgase seguro e informado. Estas fuentes de información confiables pueden ayudar.",
@@ -27,7 +25,6 @@
   },
   "realtime_lead_text": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Stay safe and informed. These trusted sources of info can help.",
     "fr": "Restez en sécurité et informé. Ces sources de confiance peuvent vous aider.",
     "es": "Manténgase seguro e informado. Estas fuentes de información confiables pueden ayudar.",
@@ -40,7 +37,6 @@
   },
   "realtime_on_this_page": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "On this page",
     "fr": "Sur cette page",
     "es": "En esta página",
@@ -54,7 +50,6 @@
   "realtime_real_time_updates_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Alerts",
     "fr": "Alertes",
     "es": "Alertas",
@@ -94,7 +89,6 @@
   },
   "realtime_emergency_alerts_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Get emergency alerts",
     "fr": "Recevoir des alertes d'urgence",
     "es": "Obtener alertas de emergencia",
@@ -107,7 +101,6 @@
   },
   "realtime_listos_california_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from Listos California",
     "fr": "de Listos California",
     "es": "de Listos California",
@@ -120,7 +113,6 @@
   },
   "realtime_consumer_protections_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from the Office of the Attorney General",
     "fr": "de l'Office de l'Avocat Général",
     "es": "de la Oficina del Fiscal General",
@@ -133,7 +125,6 @@
   },
   "realtime_power_shutoffs_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Power shutoffs",
     "fr": "Coupure de courant",
     "es": "Cortes de energía",
@@ -146,7 +137,6 @@
   },
   "realtime_power_shutoffs_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from Southern California Edison",
     "fr": "de Southern California Edison",
     "es": "de Southern California Edison",
@@ -159,7 +149,6 @@
   },
   "realtime_school_closures_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "School and government closures",
     "fr": "Fermetures scolaires et gouvernementales",
     "es": "Cierres escolares y gubernamentales",
@@ -172,7 +161,6 @@
   },
   "realtime_school_closures_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from LA County 211",
     "fr": "de LA County 211",
     "es": "de LA County 211",
@@ -185,7 +173,6 @@
   },
   "realtime_latest_news_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Latest news",
     "fr": "Dernières nouvelles",
     "es": "Últimas noticias",
@@ -198,7 +185,6 @@
   },
   "realtime_latest_news_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from California Governor’s Office of Emergency Services (Cal OES)",
     "fr": "de l'Office de l'Assistant Général du Gouverneur de Californie pour les Services d'Urgence (Cal OES)",
     "es": "de la Oficina de Servicios de Emergencia del Gobernador de California (California Governor's Office of Emergency Services, Cal OES)",
@@ -211,7 +197,6 @@
   },
   "realtime_traffic_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Traffic maps and road conditions",
     "fr": "Cartes de circulation et conditions routières",
     "es": "Mapas de tráfico y condiciones viales",
@@ -224,7 +209,6 @@
   },
   "realtime_traffic_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from CalTrans",
     "fr": "de CalTrans",
     "es": "de CalTrans",
@@ -237,7 +221,6 @@
   },
   "realtime_pch_closures": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Pacfic Coast Highway closures (SR1)",
     "fr": "Fermetures de la Pacific Coast Highway (SR1)",
     "es": "cierres de Pacific Coast Highway (SR1)",
@@ -250,7 +233,6 @@
   },
   "realtime_topanga_closures": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Topanga Canyon Road closures (SR27)",
     "fr": "Fermetures de Topanga Canyon Road (SR27)",
     "es": "cierres de Topanga Canyon Road (SR27)",
@@ -263,7 +245,6 @@
   },
   "realtime_other_closures": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Other road closures",
     "fr": "Fermetures de routes autres",
     "es": "otros cierres viales",
@@ -276,7 +257,6 @@
   },
   "realtime_air_quality_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Air quality",
     "fr": "Qualité de l'air",
     "es": "Calidad del aire",
@@ -289,7 +269,6 @@
   },
   "realtime_air_quality_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from South Coast Air Quality Monitoring District",
     "fr": "de South Coast Air Quality Monitoring District",
     "es": "del Distrito de Monitoreo de la Calidad del Aire de la Costa Sur",
@@ -302,7 +281,6 @@
   },
   "realtime_water_quality_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Water quality",
     "fr": "Qualité de l'eau",
     "es": "Calidad del agua",
@@ -315,7 +293,6 @@
   },
   "realtime_water_quality_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from State Water Resources Control Board",
     "fr": "de State Water Resources Control Board",
     "es": "de la Junta Estatal de Control de los Recursos Hídricos",
@@ -328,7 +305,6 @@
   },
   "realtime_evacuations_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Evacuations",
     "fr": "Evacuations",
     "es": "Evacuaciones",
@@ -342,7 +318,6 @@
   "realtime_evacuation_notices_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Get evacuation notices",
     "fr": "Recevoir des avis d'évacuation",
     "es": "Recibir avisos de evacuación",
@@ -355,7 +330,6 @@
   },
   "realtime_evacuation_notices_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from Ready LA County",
     "fr": "de Ready LA County",
     "es": "de Ready LA County",
@@ -368,7 +342,6 @@
   },
   "realtime_evacuation_tips_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Tips for evacuating safely",
     "fr": "Conseils pour évacuer en toute sécurité",
     "es": "Consejos para evacuar de forma segura",
@@ -381,7 +354,6 @@
   },
   "realtime_evacuation_tips_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from CAL FIRE",
     "fr": "de CAL FIRE",
     "es": "de CAL FIRE",
@@ -395,7 +367,6 @@
   "realtime_getting_prepared_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "How to prepare",
     "fr": "Comment se préparer",
     "es": "Cómo prepararse",
@@ -408,7 +379,6 @@
   },
   "realtime_prepare_for_emergencies_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Prepare for emergencies",
     "fr": "Préparer pour les urgences",
     "es": "Preparación ante emergencias",
@@ -421,7 +391,6 @@
   },
   "realtime_prepare_for_emergencies_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from Listos California",
     "fr": "de Listos California",
     "es": "de Listos California",
@@ -434,7 +403,6 @@
   },
   "realtime_be_prepared_california_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Be Prepared California",
     "fr": "Préparation de Californie",
     "es": "Be Prepared California",
@@ -447,7 +415,6 @@
   },
   "realtime_be_prepared_california_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from California Department of Public Health (CDPH)",
     "fr": "de California Department of Public Health (CDPH)",
     "es": "del Departamento de Salud Pública de California (California Department of Public Health, CDPH)",
@@ -461,7 +428,6 @@
   "realtime_roads_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Roads",
     "fr": "Routes",
     "es": "Carreteras",
@@ -475,7 +441,6 @@
   "realtime_roads_card_title": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Road closures and conditions",
     "fr": "Fermetures et conditions des routes",
     "es": "Cierres y condiciones de carreteras",
@@ -489,7 +454,6 @@
   "realtime_roads_card_department": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from CalTrans",
     "fr": "de CalTrans",
     "es": "de CalTrans",
@@ -503,7 +467,6 @@
   "realtime_roads_card_list_1": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Pacific Coast Highway closures (SR1)",
     "fr": "Fermetures de l'autoroute Pacific Coast (SR1)",
     "es": "Cierres de la autopista Pacific Coast (SR1)",
@@ -517,7 +480,6 @@
   "realtime_roads_card_list_2": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Topanga Canyon Road closures (SR27)",
     "fr": "Fermetures de la route Topanga Canyon (SR27)",
     "es": "Cierres de la carretera Topanga Canyon (SR27)",
@@ -531,7 +493,6 @@
   "realtime_roads_card_list_3": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Other road closures",
     "fr": "Autres fermetures de routes",
     "es": "Otros cierres de carreteras",
@@ -545,7 +506,6 @@
   "realtime_power_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Power",
     "fr": "Électricité",
     "es": "Electricidad",
@@ -559,7 +519,6 @@
   "realtime_environment_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Environment",
     "fr": "Environnement",
     "es": "Medio ambiente",
@@ -573,7 +532,6 @@
   "realtime_air_quality_card_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Air quality",
     "fr": "Qualité de l'air",
     "es": "Calidad del aire",
@@ -587,7 +545,6 @@
   "realtime_air_quality_card_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from South Coast Air Quality Monitoring District",
     "fr": "du District de surveillance de la qualité de l'air de la côte sud",
     "es": "del Distrito de Monitoreo de la Calidad del Aire de la Costa Sur",
@@ -601,7 +558,6 @@
   "realtime_water_quality_card_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Water quality",
     "fr": "Qualité de l'eau",
     "es": "Calidad del agua",
@@ -615,7 +571,6 @@
   "realtime_water_quality_card_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "from State Water Resources Control Board",
     "fr": "du Conseil de contrôle des ressources en eau de l'État",
     "es": "de la Junta Estatal de Control de Recursos Hídricos",

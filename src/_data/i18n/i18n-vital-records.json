@@ -1,7 +1,6 @@
 {
   "vital_records_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Vital records",
     "fr": "Certificats de naissance, mariage et décès",
     "es": "Documentos del registro civil",
@@ -14,7 +13,6 @@
   },
   "vital_records_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "How to replace birth, death, and marriage certificates lost in the 2025 LA fires.",
     "fr": "Comment remplacer les certificats de naissance, de décès et de mariage perdus dans les incendies de Los Angeles en 2025.",
     "es": "Cómo reemplazar los certificados de nacimiento, defunción y matrimonio perdidos en los incendios de Los Ángeles de 2025.",
@@ -27,7 +25,6 @@
   },
   "vital_records_description_page": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Here’s how to replace birth, death, or marriage certificates lost in the fires.",
     "fr": "Voici comment remplacer les certificats de naissance, de décès ou de mariage perdus dans les incendies.",
     "es": "Cómo reemplazar los certificados de nacimiento, defunción o matrimonio perdidos en los incendios.",
@@ -40,7 +37,6 @@
   },
   "vital_records_keywords": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "California, government, LA, Los Angeles, fires, wildfires",
     "fr": "Californie, gouvernement, LA, Los Angeles, incendies, feux de forêt",
     "es": "California, gobierno, LA, Los Ángeles, incendios, incendios forestales",
@@ -53,7 +49,6 @@
   },
   "vital_records_records_from_other_states": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Records from other states",
     "fr": "Documents d'autres États",
     "es": "Registros de otros estados",
@@ -66,7 +61,6 @@
   },
   "vital_records_contact_county_recorder": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Contact the county recorder in the county where the birth, marriage, or death happened. See <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">Where to Write for Vital Records</a>.",
     "fr": "Contactez le bureau d'état civil du comté où la naissance, le mariage ou le décès a eu lieu. Voir <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">Où écrire pour les actes d'état civil</a>.",
     "es": "Comuníquese con el registrador del condado donde ocurrió el nacimiento, el matrimonio o la muerte. Vea <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">dónde escribir para obtener documentos del registro civil.</a>",
@@ -80,7 +74,6 @@
   },
   "vital_records_records_from_california": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Records from California",
     "fr": "Documents de Californie",
     "es": "Registros de California",
@@ -93,7 +86,6 @@
   },
   "vital_records_apply_online": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "To apply online",
     "fr": "Pour appliquer en ligne",
     "es": "Enviar la solicitud en línea",
@@ -106,7 +98,6 @@
   },
   "vital_records_replace_certificates": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Use these forms to replace certificates issued in California.",
     "fr": "Utilisez ces formulaires pour remplacer les certificats émis en Californie.",
     "es": "Use estos formularios para reemplazar los certificados emitidos en California.",
@@ -119,7 +110,6 @@
   },
   "vital_records_replacements_free": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Replacements are free for records lost in the fires.",
     "fr": "Les remplacements sont gratuits pour les certificats perdus dans les incendies.",
     "es": "Los reemplazos son gratuitos para los registros perdidos en los incendios.",
@@ -132,7 +122,6 @@
   },
   "vital_records_click_link": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Click the link to the record you need to start an application (birth, marriage, or death).",
     "fr": "Cliquez sur le lien vers le certificat que vous avez besoin pour commencer une demande (naissance, mariage ou décès).",
     "es": "Haga clic en el enlace del registro que necesita para iniciar una solicitud (nacimiento, matrimonio o muerte).",
@@ -145,7 +134,6 @@
   },
   "vital_records_fill_out_online": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "You can fill it out online and save your work.",
     "fr": "Vous pouvez le remplir en ligne et enregistrer votre travail.",
     "es": "Puede completarlo en línea y guardar su progreso.",
@@ -158,7 +146,6 @@
   },
   "vital_records_upload_documentation": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "If applying for someone else, be ready to upload documentation proving your relationship.",
     "fr": "Si vous postulez pour quelqu'un d'autre, préparez-vous à télécharger la documentation prouvant votre relation.",
     "es": "Si solicita los documentos de otra persona, esté listo para cargar la documentación que demuestre su relación.",
@@ -171,7 +158,6 @@
   },
   "vital_records_sworn_statement": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Sign and upload a sworn statement with your application.",
     "fr": "Signez et téléchargez un serment avec votre demande.",
     "es": "Firme y cargue una declaración de privacidad con su solicitud.",
@@ -184,7 +170,6 @@
   },
   "vital_records_print_sign": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Click <span class=\"bold\">Print & Sign</span> to print the application. Take it to a notary public.",
     "fr": "Cliquez sur <span class=\"bold\">Imprimer et signer</span> pour imprimer le formulaire. Prenez-le à un notaire.",
     "es": "Haga clic en <span class=\"bold\">Imprimir y firmar</span> para imprimir la solicitud. Llévela a un notario público.",
@@ -198,7 +183,6 @@
   },
   "vital_records_notary_presence": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "In the notary’s presence, physically sign it. They will then notarize it.",
     "fr": "Dans la présence du notaire, signez-le physiquement. Ils le notarieront alors.",
     "es": "En presencia del notario, escriba su firma. Luego será notarizada.",
@@ -211,7 +195,6 @@
   },
   "vital_records_scan_photo": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Scan or take a photo of the notarized application, then return and click <span class=\"bold\">Print & Sign</span>.",
     "fr": "Scannez ou prenez une photo de l'application notariée, puis retournez et cliquez sur <span class=\"bold\">Imprimer et signer</span>.",
     "es": "Escanee o tome una fotografía de la solicitud notariada, luego regrese y haga clic en <span class=\"bold\">Imprimir y firmar</span>.",
@@ -225,7 +208,6 @@
   },
   "vital_records_more_than_one_record": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "You can use one notarized statement to apply for more than one record at the same time.",
     "fr": "Vous pouvez utiliser un serment notarié pour postuler pour plusieurs certificats en même temps.",
     "es": "Puede usar un estado de cuenta notariado para solicitar más de un registro al mismo tiempo.",
@@ -238,7 +220,6 @@
   },
   "vital_records_upload_submit": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Follow the instructions to upload and submit your application.",
     "fr": "Suivez les instructions pour télécharger et soumettre votre demande.",
     "es": "Siga las instrucciones para cargar y enviar su solicitud.",
@@ -251,7 +232,6 @@
   },
   "vital_records_fax_option": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "You also have the option to submit it by fax.",
     "fr": "Vous avez également la possibilité de le soumettre par fax.",
     "es": "También tiene la opción de enviarla por fax.",
@@ -264,7 +244,6 @@
   },
   "vital_records_online_forms": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Online forms",
     "fr": "Formulaires en ligne",
     "es": "Formularios en línea",
@@ -277,7 +256,6 @@
   },
   "vital_records_birth": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Birth",
     "fr": "Naissance",
     "es": "Nacimiento",
@@ -290,7 +268,6 @@
   },
   "vital_records_birth_record_english": {
     "status": "avantpage_delivery", 
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Birth record</a> (English)",
     "fr": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Certificat de naissance</a> (Anglais)",
     "es": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Birth record</a> (English)",
@@ -304,7 +281,6 @@
   },
   "vital_records_birth_record_spanish": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html", 
     "en": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de nacimiento</a> (Español)",
     "fr": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Certificat de naissance</a> (Espagnol)",
     "es": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de nacimiento</a> (español)",
@@ -318,7 +294,6 @@
   },
   "vital_records_marriage": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Marriage",
     "fr": "Mariage",
     "es": "Matrimonio",
@@ -331,7 +306,6 @@
   },
   "vital_records_marriage_record_english": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Marriage record</a> (English)",
     "fr": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Certificat de mariage</a> (Anglais)",
     "es": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Marriage record</a> (English)",
@@ -345,7 +319,6 @@
   },
   "vital_records_marriage_record_spanish": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de matrimonio</a> (Español)",
     "fr": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Certificat de mariage</a> (Espagnol)",
     "es": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de matrimonio</a> (español)",
@@ -359,7 +332,6 @@
   },
   "vital_records_death": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Death",
     "fr": "Décès",
     "es": "Muerte",
@@ -372,7 +344,6 @@
   },
   "vital_records_death_record_english": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Death record</a> (English)",
     "fr": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Certificat de décès</a> (Anglais)",
     "es": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Death record</a> (English)",
@@ -386,7 +357,6 @@
   },
   "vital_records_death_record_spanish": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de defunción</a> (Español)",
     "fr": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Certificat de décès</a> (Espagnol)",
     "es": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de muerte</a> (español)",
@@ -400,7 +370,6 @@
   },
   "vital_records_apply_in_person": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "To apply in person",
     "fr": "Pour postuler en personne",
     "es": "Hacer la solicitud en persona",
@@ -413,7 +382,6 @@
   },
   "vital_records_visit": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Visit:",
     "fr": "Visiter:",
     "es": "Visite:",
@@ -427,7 +395,6 @@
   },
   "vital_records_disaster_recovery_center": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "A <a href=\"/lafires/get-help-in-person/#Find-the-nearest-Disaster-Recovery-Center\">Disaster Recovery Center</a>, or",
     "fr": "Un <a href=\"/lafires/fr/get-help-in-person/#Find-the-nearest-Disaster-Recovery-Center\">Centre de récupération des dommages</a>, ou",
     "es": "un <a href=\"/lafires/es/get-help-in-person/#Find-the-nearest-Disaster-Recovery-Center\">centro de recuperación por catástrofes</a>, o",
@@ -441,7 +408,6 @@
   },
   "vital_records_county_recorder": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "The county recorder’s office in the county where the birth, marriage, or death occurred.",
     "fr": "Le bureau du recenseur du comté où la naissance, le mariage ou le décès a eu lieu.",
     "es": "comuníquese con el registrador del condado donde ocurrió el nacimiento, el matrimonio o la muerte.",
@@ -454,7 +420,6 @@
   },
   "vital_records_apply_by_mail": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "To apply by mail",
     "fr": "Pour postuler par courrier",
     "es": "Hacer la solicitud por correo postal",
@@ -467,7 +432,6 @@
   },
   "vital_records_print_application": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Print the application for the record you need.",
     "fr": "Imprimez le formulaire pour le certificat que vous avez besoin.",
     "es": "Imprima la solicitud para el registro que necesite.",
@@ -480,7 +444,6 @@
   },
   "vital_records_pdf_versions": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "PDF versions are available from the <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">California Department of Public Health</a>.",
     "fr": "Les versions PDF sont disponibles sur le <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">Département de la santé publique de Californie</a>.",
     "es": "Las versiones en PDF están disponibles en el <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">Departamento de Salud Pública de California</a>.",
@@ -494,7 +457,6 @@
   },
   "vital_records_fill_notarize_mail": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/vital-records-shared.html",
     "en": "Fill it out, notarize it, and mail it according to the instructions.",
     "fr": "Remplissez-le, le notarisez et envoyez-le selon les instructions.",
     "es": "Llénela, llévela a notarizar y envíela por correo según las instrucciones.",
