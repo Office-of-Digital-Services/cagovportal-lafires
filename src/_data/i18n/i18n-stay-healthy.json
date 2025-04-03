@@ -91,7 +91,7 @@
     "hy": "Դրսի օդի որակ"
   },
   "stay_healthy_outdoor_air_quality": {
-    "status": "avantpage_delivery", 
+    "status": "avantpage_delivery",
     "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Now that the fires are out, air quality has improved. But you can check the <a href=\"https://www.aqmd.gov/\">air quality index (AQI)</a> from South Coast Air Quality Monitoring District.",
     "fr": "Maintenant que les incendies sont éteints, la qualité de l'air s'est améliorée. Mais vous pouvez vérifier l'<a href=\"https://www.aqmd.gov/\">indice de qualité de l'air (IQA)</a> du district de surveillance de la qualité de l'air de la côte sud.",
@@ -382,7 +382,7 @@
     "hy": "Եթե EPA-ի կողմից Ձեր տունը մաքրելուց հետո դեռևս վտանգավոր թափոններ եք տեսնում, ձեռք մի տվեք դրանց: Այն թունավոր է և կարող է ավելի շատ հրդեհներ առաջացնել: Եթե լսում եք ճթճթան կամ ֆսսացող ձայն, կամ ծուխ եք տեսնում, անմիջապես լքեք տարածքը և զանգահարեք 911։"
   },
   "stay_healthy_worker_safety_description": {
-    "status": "avantpage_delivery", 
+    "status": "avantpage_delivery",
     "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "If you are a worker at a fire cleanup site, find out how to <a href=\"https://www.dir.ca.gov/wildfire-faq.html\">stay safe while you work</a>.",
     "fr": "Si vous êtes un travailleur sur un site de nettoyage d'incendie, découvrez comment <a href=\"https://www.dir.ca.gov/wildfire-faq.html\">rester en sécurité pendant votre travail</a>.",
@@ -398,15 +398,15 @@
   "stay_healthy_learn_more_description": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/stay-healthy-shared.html",
-    "en": "Learn more about the <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA cleanup</a> and the <a href=\"/lafires/return-to-your-home-safely/\">next cleanup phase</a>.",
-    "fr": "En savoir plus sur le <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">nettoyage de l'EPA</a> et la <a href=\"/lafires/fr/return-to-your-home-safely/\">prochaine phase de nettoyage</a>.",
-    "es": "Obtenga más información sobre la <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">limpieza de la EPA </a> y la <a href=\"/lafires/es/return-to-your-home-safely/\">próxima fase de limpieza</a>.",
-    "ko": "<a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 청소</a> 및 <a href=\"/lafires/ko/return-to-your-home-safely/\">다음 청소 단계</a>에 대해 자세히 알아보십시오.",
-    "vi": "Tìm hiểu thêm về <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">công việc dọn dẹp của EPA</a> và <a href=\"/lafires/vi/return-to-your-home-safely/\">giai đoạn dọn dẹp tiếp theo</a>.",
-    "tl": "Alamin pa ang tungkol sa <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">paglilinis ng EPA</a> at sa <a href=\"/lafires/tl/return-to-your-home-safely/\">susunod na yugto ng paglilinis</a>.",
-    "zh-hans": "详细了解 <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 的清理工作</a>和<a href=\"/lafires/zh-hans/return-to-your-home-safely/\">下一阶段清理工作</a>。",
-    "zh-hant": "了解有關 <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 清理</a> 和 <a href=\"/lafires/zh-hant/return-to-your-home-safely/\">下個清理階段</a> 的更多資訊。",
-    "hy": "Իմացեք ավելին <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA մաքրումների</a> և <a href=\"/lafires/hy/return-to-your-home-safely/\">հաջորդ մաքրման փուլի</a> մասին:",
+    "en": "Learn more about the <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA cleanup</a> and the <a href=\"/lafires/accessing-your-property/\">next cleanup phase</a>.",
+    "fr": "En savoir plus sur le <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">nettoyage de l'EPA</a> et la <a href=\"/lafires/fr/accessing-your-property/\">prochaine phase de nettoyage</a>.",
+    "es": "Obtenga más información sobre la <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">limpieza de la EPA </a> y la <a href=\"/lafires/es/accessing-your-property/\">próxima fase de limpieza</a>.",
+    "ko": "<a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 청소</a> 및 <a href=\"/lafires/ko/accessing-your-property/\">다음 청소 단계</a>에 대해 자세히 알아보십시오.",
+    "vi": "Tìm hiểu thêm về <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">công việc dọn dẹp của EPA</a> và <a href=\"/lafires/vi/accessing-your-property/\">giai đoạn dọn dẹp tiếp theo</a>.",
+    "tl": "Alamin pa ang tungkol sa <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">paglilinis ng EPA</a> at sa <a href=\"/lafires/tl/accessing-your-property/\">susunod na yugto ng paglilinis</a>.",
+    "zh-hans": "详细了解 <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 的清理工作</a>和<a href=\"/lafires/zh-hans/accessing-your-property/\">下一阶段清理工作</a>。",
+    "zh-hant": "了解有關 <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 清理</a> 和 <a href=\"/lafires/zh-hant/accessing-your-property/\">下個清理階段</a> 的更多資訊。",
+    "hy": "Իմացեք ավելին <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA մաքրումների</a> և <a href=\"/lafires/hy/accessing-your-property/\">հաջորդ մաքրման փուլի</a> մասին:",
     "orig_en": "Learn more about the <link1>EPA cleanup</link1> and the <link2>next cleanup phase</link2>."
   },
   "stay_healthy_ash_dust_and_debris_heading": {
@@ -527,7 +527,7 @@
     "hy": "Եթե Դուք կարող եք տեսնել մոխիրը և զգալ ծուխը, ապա պետք է մաքրել Ձեր տունը: Ոչ մի լաբորատոր հետազոտություն չի կարող որոշել, թե արդյոք Ձեր անշարժ գույքն ապահով է:"
   },
   "stay_healthy_ash_dust_and_debris_keep_ash_from_spreading": {
-    "status": "ap_review", 
+    "status": "ap_review",
     "comment": "Machine translated",
     "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Keep ash from spreading by wet mopping. Put debris and ash in a plastic trash bag and throw them away with your regular trash. If ash gets on your skin, wash with warm water and soap as soon as possible. Stay safe by wearing:",
@@ -542,7 +542,7 @@
   },
   "stay_healthy_n_100_or_p_100_respirator": {
     "status": "ap_review",
-    "comment": "Machine translated", 
+    "comment": "Machine translated",
     "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "N-100 or P-100 respirator",
     "fr": "Un respirateur N-100 ou P-100",
@@ -569,7 +569,7 @@
     "hy": "Ռետինե ձեռնոցներ"
   },
   "stay_healthy_booties": {
-    "status": "ap_review", 
+    "status": "ap_review",
     "comment": "Machine translated",
     "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Booties",
@@ -584,7 +584,7 @@
   },
   "stay_healthy_long_sleeved_shirts": {
     "status": "ap_review",
-    "comment": "Machine translated", 
+    "comment": "Machine translated",
     "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Long-sleeved shirts",
     "fr": "Des chemises à manches longues",
@@ -599,7 +599,7 @@
   "stay_healthy_long_pants": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html", 
+    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Long pants",
     "fr": "Des pantalons longs",
     "es": "Pantalones largos",
@@ -640,7 +640,7 @@
   },
   "stay_healthy_n95_masks_cannot_protect_from_asbestos": {
     "status": "ap_review",
-    "comment": "Machine translated", 
+    "comment": "Machine translated",
     "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "N95 masks cannot protect you from asbestos. Learn more about the <a href=\"https://www.dir.ca.gov/dosh/fire_resp_protection.html\">respiratorsthat can protect you</a>. You can get personal protective equipment at a <a href=\"/lafires/get-help-in-person/\">Disaster Recovery Center</a>.",
     "fr": "Les masques N95 ne peuvent pas vous protéger de l'amiante. En savoir plus sur les <a href=\"https://www.dir.ca.gov/dosh/fire_resp_protection.html\">respirateurs qui peuvent vous protéger</a>. Vous pouvez obtenir des équipements de protection individuelle dans un <a href=\"/lafires/fr/get-help-in-person/\">Centre de rétablissement après sinistre</a>.",
@@ -653,7 +653,7 @@
     "hy": "N95 դիմակները չեն կարող պաշտպանել Ձեզ ասբեստից: Իմացեք ավելին <a href=\"https://www.dir.ca.gov/dosh/fire_resp_protection.html\">Ձեզ պաշտպանող ռեսպիրատորների</a> մասին: Դուք կարող եք անհատական պաշտպանիչ սարքավորումներ ստանալ <a href=\"/lafires/hy/get-help-in-person/\">Աղետներից վերականգնման կենտրոնում</a>:"
   },
   "stay_healthy_dealing_with_dust_and_debris_when_returning_home": {
-    "status": "ap_review", 
+    "status": "ap_review",
     "comment": "Machine translated",
     "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Learn more about <a href=\"https://recovery.lacounty.gov/returning-after-a-fire-public-health\">dealing with dust and debris</a> when returning home.",
@@ -668,7 +668,7 @@
   },
   "stay_healthy_health_and_wellness_heading": {
     "status": "ap_review",
-    "comment": "Machine translated", 
+    "comment": "Machine translated",
     "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Health and wellness",
     "fr": "Santé et bien-être",

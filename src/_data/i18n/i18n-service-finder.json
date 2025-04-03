@@ -30,7 +30,7 @@
   "sf_21_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "src/_data/airTable.json", 
+    "src_file": "src/_data/airTable.json",
     "en": "Get the prescriptions you need through the Emergency Prescription Assistance Program.",
     "es": "Obtenga los medicamentos recetados que necesita a través del Programa de Asistencia para Medicamentos Recetados de Emergencia.",
     "fr": "Obtenez les médicaments dont vous avez besoin grâce au Programme d'assistance pour les médicaments sur ordonnance d'urgence.",
@@ -1616,18 +1616,10 @@
   },
 
   "sf_68_service_name": {
-    "status": "ap_review",
+    "status": "english_only",
     "comment": "machine translated",
     "src_file": "src/_data/airTable.json",
-    "en": "Return to your home safely",
-    "es": "Regrese a su casa de manera segura",
-    "fr": "Retournez chez vous en toute sécurité",
-    "tl": "Ligtas na pagbabalik sa iyong tahanan",
-    "ko": "안전하게 집으로 돌아가기",
-    "vi": "Trở về nhà an toàn",
-    "zh-hans": "安全返回家园",
-    "zh-hant": "安全返回家園",
-    "hy": "Անվտանգ վերադարձ տուն"
+    "en": "Accessing your property"
   },
   "sf_68_entity": {
     "status": "ap_review",
@@ -2999,7 +2991,7 @@
     "comment": "machine_translated",
     "en": "Online",
     "es": "En línea",
-    "fr": "En ligne", 
+    "fr": "En ligne",
     "tl": "Online",
     "ko": "온라인",
     "vi": "Trực tuyến",
@@ -3008,7 +3000,7 @@
     "hy": "Առցանց"
   },
   "sf_learn_more": {
-    "status": "ap_review", 
+    "status": "ap_review",
     "comment": "machine_translated",
     "en": "Learn more",
     "es": "Más información",
@@ -3022,7 +3014,7 @@
   },
   "sf_in_person": {
     "status": "ap_review",
-    "comment": "machine_translated", 
+    "comment": "machine_translated",
     "en": "In person (kiosk)",
     "es": "En persona (quiosco)",
     "fr": "En personne (kiosque)",
