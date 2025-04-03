@@ -327,6 +327,14 @@ module.exports = function (
     return currentPath;
   });
 
+  eleventyConfig.addFilter("unlocalizedPath", (cpage) => {
+    if (cpage !== undefined) {
+      const page_str = cpage.replace(/\/lafires\/(en|es|ko|tl|vi|zh-hans|zh-hant|hy)\//, '/lafires/');
+      return page_str;
+    }
+    return "";
+  });
+
   eleventyConfig.addFilter("langPathActive", (page, lang, locale) => {
     if (lang === locale) {
       return false;
