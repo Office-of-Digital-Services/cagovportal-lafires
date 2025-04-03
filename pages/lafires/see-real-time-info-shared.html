@@ -7,7 +7,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -32,22 +32,6 @@
             class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
             <h3 class="h5 m-t-md m-b">
               <a
-                href="https://www.fire.ca.gov/"
-                class="color-p2 text-left d-block"
-                >{{ 'realtime_ongoing_fires_heading' | i18n }}</a
-              >
-            </h3>
-            <p class="text-sm font-size-15 text-left gray-600">
-              {{ 'realtime_ongoing_fires_description' | i18n }}
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-6 m-t">
-          <div
-            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">
-              <a
                 href="https://www.listoscalifornia.org/alerts/"
                 class="color-p2 text-left d-block"
                 >{{ 'realtime_emergency_alerts_heading' | i18n }}</a
@@ -55,38 +39,6 @@
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
               {{ 'realtime_listos_california_description' | i18n }}
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-6 m-t">
-          <div
-            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">
-              <a
-                href="https://www.sce.com/outage-center/outage-information/psps"
-                class="color-p2 text-left d-block"
-                >{{ 'realtime_power_shutoffs_heading' | i18n }}</a
-              >
-            </h3>
-            <p class="text-sm font-size-15 text-left gray-600">
-              {{ 'realtime_power_shutoffs_description' | i18n }}
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-6 m-t">
-          <div
-            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">
-              <a
-                href="https://211la.org/LA-Wildfires"
-                class="color-p2 text-left d-block"
-                >{{ 'realtime_school_closures_heading' | i18n }}</a
-              >
-            </h3>
-            <p class="text-sm font-size-15 text-left gray-600">
-              {{ 'realtime_school_closures_description' | i18n }}
             </p>
           </div>
         </div>
@@ -107,49 +59,62 @@
           </div>
         </div>
 
+        <h2 class="m-b-0 m-t-md">{{ 'realtime_roads_heading' | i18n }}</h2>
         <div class="col-lg-6 m-t">
           <div
-            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
             <h3 class="h5 m-t-md m-b">
               <a
                 href="https://quickmap.dot.ca.gov/"
                 class="color-p2 text-left d-block"
-                >{{ 'realtime_traffic_heading' | i18n }}</a
-              >
+                >{{ 'realtime_roads_card_title' | i18n }}
+              </a>
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              {{ 'realtime_traffic_description' | i18n }}
+              {{ 'realtime_roads_card_department' | i18n }}
             </p>
-            <ul class="text-left">
-              <li class="m-t">
-                <a href="https://roads.dot.ca.gov/?roadnumber=SR1"
-                  >{{ 'realtime_pch_closures' | i18n }}</a
-                >
-              </li>
-              <li class="m-t">
-                <a href="https://roads.dot.ca.gov/?roadnumber=27"
-                  >{{ 'realtime_topanga_closures' | i18n }}</a
-                >
-              </li>
-              <li class="m-t">
-                <a href="https://dpw.lacounty.gov/roadclosures/"
-                  >{{ 'realtime_other_closures' | i18n }}</a
-                >
-              </li>
+            <ul class="m-t">
+              <li>{{ 'realtime_roads_card_list_1' | i18n }}</li>
+              <li>{{ 'realtime_roads_card_list_2' | i18n }}</li>
+              <li>{{ 'realtime_roads_card_list_3' | i18n }}</li>
             </ul>
           </div>
         </div>
+
+        <h2 class="m-b-0 m-t-md">{{ 'realtime_power_heading' | i18n }}</h2>
 
         <div class="col-lg-6 m-t">
           <div
             class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
             <h3 class="h5 m-t-md m-b">
-              <a href="https://www.aqmd.gov/" class="color-p2 text-left d-block"
-                >{{ 'realtime_air_quality_heading' | i18n }}</a
+              <a
+                href="https://www.sce.com/outage-center/outage-information/psps"
+                class="color-p2 text-left d-block"
+                >{{ 'realtime_power_shutoffs_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              {{ 'realtime_air_quality_description' | i18n }}
+              {{ 'realtime_power_shutoffs_description' | i18n }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0 m-t-md">{{ 'realtime_environment_heading' | i18n }}</h2>
+
+      <div class="row">
+        <div class="col-lg-6 m-t">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://www.aqmd.gov/redirect/aqimap?id=3d51b5d2fc8d42d9af8c04f3c00f88d3"
+                class="color-p2 text-left d-block"
+                >{{ 'realtime_air_quality_card_heading' | i18n }}</a
+              >
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              {{ 'realtime_air_quality_card_description' | i18n }}
             </p>
           </div>
         </div>
@@ -161,11 +126,11 @@
               <a
                 href="https://waterforla.lacounty.gov/water-alerts/"
                 class="color-p2 text-left d-block"
-                >{{ 'realtime_water_quality_heading' | i18n }}</a
-              >
+                >{{ 'realtime_water_quality_card_heading' | i18n }}
+              </a>
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              {{ 'realtime_water_quality_description' | i18n }}
+              {{ 'realtime_water_quality_card_description' | i18n }}
             </p>
           </div>
         </div>
@@ -207,7 +172,7 @@
         </div>
       </div>
 
-      <h2>{{ 'realtime_getting_prepared_heading' | i18n }}</h2>
+      <h2 class="m-t-md">{{ 'realtime_getting_prepared_heading' | i18n }}</h2>
 
       <div class="row">
         <div class="col-lg-6 m-t">
@@ -242,7 +207,8 @@
           </div>
         </div>
       </div>
+
+      <!--END MAIN COL CONTENT-->
     </div>
-    <!--END MAIN COL CONTENT-->
   </div>
 </div>
