@@ -327,6 +327,14 @@ module.exports = function (
     return currentPath;
   });
 
+  eleventyConfig.addFilter("unlocalizedPath", (cpage) => {
+    if (cpage !== undefined) {
+      const page_str = cpage.replace(/\/lafires\/(en|es|ko|tl|vi|zh-hans|zh-hant|hy)\//, '/lafires/');
+      return page_str;
+    }
+    return "";
+  });
+
   eleventyConfig.addFilter("langPathActive", (page, lang, locale) => {
     if (lang === locale) {
       return false;
@@ -336,7 +344,7 @@ module.exports = function (
 
   eleventyConfig.addFilter("pagePath", (page, langPath) => {
     // console.log(chalk.green(`[pagePath] Testing *${page.filePathStem}* page: ${page.url} langPath: ${langPath}`));
-    let currentPath = `${page.filePathStem}/index.html`; // Relative to base dir, localized path, with folder + /index.html.
+    let currentPath = `${page.filePathStem}/`; // Relative to base dir, localized path, with folder + /index.html.
 
     // remove /lafires/ from currentPath
     currentPath = currentPath.replace('/lafires/', '/');  
@@ -358,6 +366,8 @@ module.exports = function (
     // currentPath = currentPath.replace('/homepage/', '/');
     currentPath = currentPath.replace('/en/', '/');
     currentPath = currentPath.replace('/index/index', '/index');
+    currentPath = currentPath.replace('/index.html', '/');
+    currentPath = currentPath.replace('/index/', '/');
     // console.log(chalk.green(`  [pagePath]  output *${currentPath}*`));
     return currentPath;
   });
