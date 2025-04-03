@@ -160,7 +160,7 @@
   "stay_healthy_water_safety": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/stay-healthy-shared.html",
-    "en": "The fires contaminated some water systems. Find the <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">latest information on water safety</a> from your water provider. Check your water bill to find your provider. If you're a renter, ask your landlord.",
+    "en": "The fires contaminated some water systems. Find the <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">latest information on water safety</a> from your water provider. Check your water bill to find your provider. If you’re a renter, ask your landlord.",
     "fr": "Les incendies ont contaminé certains systèmes d'eau. Trouvez les <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">dernières informations sur la sécurité de l'eau</a> auprès de votre fournisseur d'eau. Vérifiez votre facture d'eau pour trouver votre fournisseur. Si vous êtes locataire, demandez à votre propriétaire.",
     "es": "Los incendios contaminaron algunos sistemas de agua. Encuentre la <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">información más reciente sobre la seguridad del agua</a> de su proveedor de agua. Revise su factura de agua para encontrar a su proveedor. Si usted alquila su hogar, pregúntele al propietario.",
     "ko": "화재로 인해 일부 상수도 시스템이 오염되었습니다. 물 공급업체로부터 <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">수질 안전에 대한 최신 정보</a>를 받아보십시오. 수도 요금 청구서에서 공급업체를 확인하십시오. 임차인인 경우 임대인에게 문의하십시오.",
@@ -278,7 +278,7 @@
   "stay_healthy_water_notice_lifted": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/stay-healthy-shared.html",
-    "en": "If your water provider lifted the water notice in your area, you can use tap water again. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Flush your water pipes</a> to clear the contaminated water from your home. Keep in mind that home water testing kits aren't reliable.",
+    "en": "If your water provider lifted the water notice in your area, you can use tap water again. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Flush your water pipes</a> to clear the contaminated water from your home. Keep in mind that home water testing kits aren’t reliable.",
     "fr": "Si votre fournisseur d'eau a levé l'avis concernant l'eau dans votre région, vous pouvez à nouveau utiliser l'eau du robinet. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Rincez vos canalisations</a> pour éliminer l'eau contaminée de votre maison. Gardez à l'esprit que les kits de test d'eau domestique ne sont pas fiables.",
     "es": "Si su proveedor de agua dio de baja la notificación de agua en su área, puede volver a usar agua del grifo. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Descargue el agua de las tuberías</a> para eliminar el agua contaminada de su hogar. Tenga en cuenta que los kits de prueba de agua para el hogar no son confiables.",
     "ko": "물 공급업체가 귀하가 거주하는 지역의 수질 관련 공지를 해제한 경우, 수돗물을 다시 사용할 수 있습니다. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">수도관을 세척</a>하여 가정에서 오염된 물을 제거하십시오. 가정용 수질 테스트 키트는 신뢰할 수 없습니다.",

@@ -1616,10 +1616,18 @@
   },
 
   "sf_68_service_name": {
-    "status": "english_only",
+    "status": "ap_review",
     "comment": "machine translated",
     "src_file": "src/_data/airTable.json",
-    "en": "Accessing your property"
+    "en": "Accessing your property",
+    "es": "Acceso a su propiedad",
+    "fr": "Accéder à votre propriété",
+    "tl": "Pag-access sa iyong ari-arian",
+    "ko": "재산 접근하기",
+    "vi": "Tiếp cận tài sản của bạn",
+    "zh-hans": "访问您的房产",
+    "zh-hant": "訪問您的房產",
+    "hy": "Ձեր գույքին մուտք գործելը"
   },
   "sf_68_entity": {
     "status": "ap_review",

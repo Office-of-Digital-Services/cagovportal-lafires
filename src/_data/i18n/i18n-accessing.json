@@ -1,8 +1,17 @@
 {
   "return_title": {
-    "status": "english_only",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/accessing-your-property-shared.html",
-    "en": "Accessing your property"
+    "en": "Accessing your property",
+    "fr": "Accéder à votre propriété",
+    "es": "Acceder a su propiedad",
+    "ko": "소유 재산 접근",
+    "vi": "Truy cập vào tài sản của bạn",
+    "tl": "Pumunta sa iyong property",
+    "zh-hans": "访问您的财产",
+    "zh-hant": "訪問您的財產",
+    "hy": "Անձնական գույքի այլասերման միջոցներ"
   },
   "return_description": {
     "status": "avantpage_delivery",
@@ -152,9 +161,18 @@
     "hy": "Իթոնի հրդեհի վնասների քարտեզ դիտել"
   },
   "return_inspection_status_intro": {
-    "status": "english_only",
+    "status": "ap_review",
+    "comment": "Machine translated",
     "src_file": "pages/lafires/accessing-your-property-shared.html",
-    "en": "Government inspectors have assessed all homes in the fire areas. On each home, you’ll see a photo and an icon with one of these statuses:"
+    "en": "Government inspectors have assessed all homes in the fire areas. On each home, you’ll see a photo and an icon with one of these statuses:",
+    "fr": "Les inspecteurs du gouvernement ont évalué toutes les maisons dans les zones de feu. Sur chaque maison, vous verrez une photo et un icône avec l'un de ces statuts :",
+    "es": "Los inspectores del gobierno han evaluado todas las casas en las zonas de incendio. En cada casa, verá una foto y un icono con uno de estos estados:",
+    "ko": "정부 검사관들은 화재 지역의 모든 집을 평가했습니다. 각 집에서 사진과 이 상태 중 하나의 아이콘을 볼 수 있습니다.",
+    "vi": "Các nhà thẩm định chính phủ đã đánh giá tất cả các ngôi nhà trong khu vực cháy. Trên mỗi ngôi nhà, bạn sẽ thấy một bức ảnh và một biển báo với một trong các trạng thái này:",
+    "tl": "Ang mga tagasiyasat ng gobyerno ay nag-evaluate ng lahat ng mga bahay sa mga lugar ng apoy. Sa bach na bach, makikita mo ang isang larawan at isang icon na may isa sa mga estado na ito:",
+    "zh-hans": "政府检查员已评估了所有受火灾影响的房屋。在每栋房屋上，您将看到一张照片和带有以下状态之一的图标：",
+    "zh-hant": "政府檢查員已評估了所有受火災影響的房屋。在每棟房屋上，您將看到一張照片和帶有以下狀態之一的圖標：",
+    "hy": "Ազգային ստուգողները վերահաշվել են բոլոր տարածքներում աղմուկավոր տարածքներում տեղակայված տուները: Յուրաքանչյուր տունի վրա դուք տեսնեք նկարը և իկոն մեկից հետո այս վիճակներից մեկի հետ:"
   },
   "return_status_no_damage": {
     "status": "avantpage_delivery",
@@ -301,15 +319,32 @@
     "hy": "Անտառային հրդեհներից հետո մաքրումը և աղբի հեռացումը 2 փուլից բաղկացած գործընթաց է:"
   },
   "return_phase1_description": {
-    "status": "english_only",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/accessing-your-property-shared.html",
-    "en": "Cleanup of hazardous waste is called Phase 1. It’s now complete."
+    "en": "Cleanup of hazardous waste is called Phase 1. It’s now complete.",
+    "fr": "Le nettoyage des déchets dangereux est appelé Phase 1. Il est maintenant terminé.",
+    "es": "La limpieza de residuos peligrosos se denomina Fase 1. Ya está completa.",
+    "ko": "유해 폐기물 청소는 1단계라고 합니다. 현재 완료되었습니다.",
+    "vi": "Dọn dẹp chất thải nguy hại được gọi là Giai đoạn 1. Hiện đã hoàn thành.",
+    "tl": "Ang paglilinis ng mapanganib na basura ay tinatawag na Phase 1. Kumpleto na ito ngayon.",
+    "zh-hans": "危险废物清理被称为第1阶段。现已完成。",
+    "zh-hant": "危險廢物清理被稱為第1階段。現已完成。",
+    "hy": "Վտանգավոր թափոնների մաքրումը կոչվում է Փուլ 1: Այն այժմ ավարտված է:"
   },
   "return_phase2_description": {
-    "status": "english_only",
+    "status": "ap_review",
     "comment": "strong tags added via machine translator",
     "src_file": "pages/lafires/accessing-your-property-shared.html",
-    "en": "Debris removal is Phase 2. It's free if you in by <strong>April 15, 2025</strong>."
+    "en": "Debris removal is Phase 2. It’s free if you in by <strong>April 15, 2025</strong>.",
+    "fr": "L'enlèvement des débris est la Phase 2. C'est gratuit si vous vous inscrivez avant le <strong>15 avril 2025</strong>.",
+    "es": "La remoción de escombros es la Fase 2. Es gratuita si se inscribe antes del <strong>15 de abril de 2025</strong>.",
+    "ko": "잔해 제거는 2단계입니다. <strong>2025년 4월 15일</strong>까지 신청하면 무료입니다.",
+    "vi": "Di dời đống đổ nát là Giai đoạn 2. Miễn phí nếu quý vị đăng ký trước <strong>ngày 15 tháng 4 năm 2025</strong>.",
+    "tl": "Ang pag-aalis ng kalat ay Phase 2. Ito ay libre kung ikaw ay mag-sign up bago ang <strong>Abril 15, 2025</strong>.",
+    "zh-hans": "残余物清除是第2阶段。如果您在<strong>2025年4月15日</strong>前申请，则免费提供。",
+    "zh-hant": "雜物清除是第2階段。如果您在<strong>2025年4月15日</strong>前申請，則免費提供。",
+    "hy": "Աղբի հեռացումը Փուլ 2-ն է: Այն անվճար է, եթե դուք գրանցվեք մինչև <strong>2025 թվականի ապրիլի 15-ը</strong>:"
   },
   "return_learn_about_cleanup_and_debris_removal": {
     "status": "avantpage_delivery",
@@ -338,8 +373,17 @@
     "hy": "Լրացուցիչ տեղեկություններ"
   },
   "return_los_angeles_has_more_info": {
-    "status": "english_only",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/accessing-your-property-shared.html",
-    "en": "Los Angeles County has more information on <a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">preparing to return to your property after the fires</a>."
+    "en": "Los Angeles County has more information on <a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">preparing to return to your property after the fires</a>.",
+    "fr": "Le comté de Los Angeles dispose de plus d'informations sur <a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">la préparation au retour à votre propriété après les incendies</a>.",
+    "es": "El condado de Los Ángeles tiene más información sobre <a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">cómo prepararse para regresar a su propiedad después de los incendios</a>.",
+    "ko": "로스앤젤레스 카운티는 <a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">화재 후 소유 재산으로 돌아갈 준비</a>에 관한 더 많은 정보를 제공합니다.",
+    "vi": "Quận Los Angeles có thêm thông tin về <a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">việc chuẩn bị trở lại tài sản của bạn sau các đám cháy</a>.",
+    "tl": "Ang County ng Los Angeles ay may karagdagang impormasyon tungkol sa <a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">paghahanda sa pagbabalik sa iyong property pagkatapos ng mga sunog</a>.",
+    "zh-hans": "洛杉矶县提供了更多关于<a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">火灾后准备返回您的财产</a>的信息。",
+    "zh-hant": "洛杉磯縣提供了更多關於<a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">火災後準備返回您的財產</a>的資訊。",
+    "hy": "Լոս Անջելես շրջանն ունի ավելի շատ տեղեկություններ <a href=\"https://recovery.lacounty.gov/returning-after-fire-faq/\">հրդեհներից հետո Ձեր գույքին վերադառնալու նախապատրաստման</a> մասին։"
   }
 }
