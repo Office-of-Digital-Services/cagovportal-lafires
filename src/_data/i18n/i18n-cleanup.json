@@ -131,17 +131,10 @@
     "hy": "Փուլ 1-ում ԱՄՆ-ի EPA-ն մաքրել է ամենօրյա ապրանքները, որոնք գտնվում էին Ձեր տանը և կարող էին վտանգ ներկայացնել:"
   },
   "cleanup_these_include": {
-    "status": "avantpage_delivery",
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
     "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
-    "en": "These include:",
-    "fr": "Cela inclut:",
-    "es": "Esos productos incluyen:",
-    "ko": "여기에 포함되는 사항:",
-    "vi": "Trong đó bao gồm:",
-    "tl": "Kabilang sa mga ito ang:",
-    "zh-hans": "包括：",
-    "zh-hant": "這些包括：",
-    "hy": "Այդ թվում՝",
+    "en": "These includes:",
     "orig_en": "These include"
   },
   "cleanup_batteries": {
