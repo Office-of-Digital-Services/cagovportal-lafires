@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <h2 class="m-b-0 m-t-md">Roads</h2>
+        <h2 class="m-b-0 m-t-md">{{ 'realtime_roads_heading' | i18n }}</h2>
         <div class="col-lg-6 m-t">
           <div
             class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
@@ -67,19 +67,21 @@
               <a
                 href="https://quickmap.dot.ca.gov/"
                 class="color-p2 text-left d-block"
-                >Road closures and conditions
+                >{{ 'realtime_roads_card_title' | i18n }}
               </a>
             </h3>
-            <p class="text-sm font-size-15 text-left gray-600">from CalTrans</p>
+            <p class="text-sm font-size-15 text-left gray-600">
+              {{ 'realtime_roads_card_department' | i18n }}
+            </p>
             <ul class="m-t">
-              <li>Pacific Coast Highway closures (SR1)</li>
-              <li>Topanga Canyon Road closures (SR27)</li>
-              <li>Other road closures</li>
+              <li>{{ 'realtime_roads_card_list_1' | i18n }}</li>
+              <li>{{ 'realtime_roads_card_list_2' | i18n }}</li>
+              <li>{{ 'realtime_roads_card_list_3' | i18n }}</li>
             </ul>
           </div>
         </div>
 
-        <h2 class="m-b-0 m-t-md">Power</h2>
+        <h2 class="m-b-0 m-t-md">{{ 'realtime_power_heading' | i18n }}</h2>
 
         <div class="col-lg-6 m-t">
           <div
@@ -98,7 +100,7 @@
         </div>
       </div>
 
-      <h2 class="m-b-0 m-t-md">Environment</h2>
+      <h2 class="m-b-0 m-t-md">{{ 'realtime_environment_heading' | i18n }}</h2>
 
       <div class="row">
         <div class="col-lg-6 m-t">
@@ -108,11 +110,11 @@
               <a
                 href="https://www.aqmd.gov/redirect/aqimap?id=3d51b5d2fc8d42d9af8c04f3c00f88d3"
                 class="color-p2 text-left d-block"
-                >Air quality</a
+                >{{ 'realtime_air_quality_card_heading' | i18n }}</a
               >
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from South Coast Air Quality Monitoring District
+              {{ 'realtime_air_quality_card_description' | i18n }}
             </p>
           </div>
         </div>
@@ -124,11 +126,11 @@
               <a
                 href="https://waterforla.lacounty.gov/water-alerts/"
                 class="color-p2 text-left d-block"
-                >Water quality</a
-              >
+                >{{ 'realtime_water_quality_card_heading' | i18n }}
+              </a>
             </h3>
             <p class="text-sm font-size-15 text-left gray-600">
-              from State Water Resources Control Board
+              {{ 'realtime_water_quality_card_description' | i18n }}
             </p>
           </div>
         </div>

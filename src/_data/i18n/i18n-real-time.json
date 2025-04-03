@@ -53,7 +53,6 @@
   },
   "realtime_real_time_updates_heading": {
     "status": "english_only",
-    "comment": "English only translation. Other languages needed",
     "src_file": "pages/lafires/see-real-time-info-shared.html",
     "en": "Alerts"
   },
@@ -417,5 +416,65 @@
     "zh-hans": "信息来自加州公共卫生部 (California Department of Public Health, CDPH)",
     "zh-hant": "來自加州公共衛生部 (California Department of Public Health, CDPH)",
     "hy": "Կալիֆորնիայի Հանրային առողջության վարչության (California Department of Public Health, CDPH) կողմից"
+  },
+  "realtime_roads_heading": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Roads"
+  },
+  "realtime_roads_card_title": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Road closures and conditions"
+  },
+  "realtime_roads_card_department": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "from CalTrans"
+  },
+  "realtime_roads_card_list_1": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Pacific Coast Highway closures (SR1)"
+  },
+  "realtime_roads_card_list_2": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Topanga Canyon Road closures (SR27)"
+  },
+  "realtime_roads_card_list_3": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Other road closures"
+  },
+  "realtime_power_heading": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Power"
+  },
+  "realtime_environment_heading": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Environment"
+  },
+  "realtime_air_quality_card_heading": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Air quality"
+  },
+  "realtime_air_quality_card_description": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "from South Coast Air Quality Monitoring District"
+  },
+  "realtime_water_quality_card_heading": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Water quality"
+  },
+  "realtime_water_quality_card_description": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "from State Water Resources Control Board"
   }
 }
