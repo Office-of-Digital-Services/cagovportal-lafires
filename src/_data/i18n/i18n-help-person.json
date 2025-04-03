@@ -279,10 +279,18 @@
     "hy": "Կենտրոնում առկա ծառայություններ"
   },
   "help_person_services_description": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/get-help-in-person-shared.html",
-    "en": "Here are the services you can expect at the centers."
+    "en": "Here are the services you can expect at the centers.",
+    "fr": "Voici les services auxquels vous pouvez vous attendre dans les centres.",
+    "es": "Estos son los servicios que puede esperar en los centros.",
+    "ko": "센터에서 이용할 수 있는 서비스는 다음과 같습니다.",
+    "vi": "Đây là các dịch vụ mà quý vị có thể mong đợi tại các trung tâm.",
+    "tl": "Narito ang mga serbisyong maaari mong asahan sa mga center.",
+    "zh-hans": "以下是您可以在中心获得的服务。",
+    "zh-hant": "以下是您可以在中心獲得的服務。",
+    "hy": "Ահա այն ծառայությունները, որոնք կարող եք ակնկալել կենտրոններում։"
   },
   "help_person_state_local_services": {
     "status": "avantpage_delivery",
@@ -298,10 +306,18 @@
     "hy": "Նահանգային և տեղական ծառայություններ"
   },
   "help_person_sign_in_services": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/get-help-in-person-shared.html",
-    "en": "See a full list at"
+    "en": "See a full list at",
+    "fr": "Voir une liste complète à",
+    "es": "Ver una lista completa en",
+    "ko": "전체 목록 보기",
+    "vi": "Xem danh sách đầy đủ tại",
+    "tl": "Tingnan ang buong listahan sa",
+    "zh-hans": "查看完整列表，请访问",
+    "zh-hant": "查看完整列表，請訪問",
+    "hy": "Տեսեք ամբողջական ցանկը"
   },
   "help_person_food": {
     "status": "ap_review",

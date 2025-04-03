@@ -215,7 +215,7 @@
   "steps_pay_for_private_debris_removal": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/steps-to-rebuilding-shared.html",
-    "en": "If you don't opt in, you’ll need to pay for debris removal from a private contractor.",
+    "en": "If you don’t opt in, you’ll need to pay for debris removal from a private contractor.",
     "fr": "Si vous ne vous inscrivez pas, vous devrez payer pour l'enlèvement des débris par un entrepreneur privé.",
     "es": "Si no opta por participar, tendrá que pagar por la remoción de escombros de un contratista privado.",
     "ko": "신청하지 않으면 민간 계약업체에 잔해 제거 비용을 지불해야 합니다.",
@@ -291,7 +291,7 @@
   "steps_submit_plans_and_apply_for_building_permits": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/steps-to-rebuilding-shared.html",
-    "en": "You can submit your plans and <a href=\"https://epicla.lacounty.gov/energov_prod/SelfService/#/home\">apply for building permits</a> now. You don't need to wait until debris removal is complete.",
+    "en": "You can submit your plans and <a href=\"https://epicla.lacounty.gov/energov_prod/SelfService/#/home\">apply for building permits</a> now. You don’t need to wait until debris removal is complete.",
     "es": "Puede enviar sus planos y <a href=\"https://epicla.lacounty.gov/energov_prod/SelfService/#/home\">solicitar permisos de construcción</a> ahora. No necesita esperar hasta que se complete la remoción de los escombros.",
     "ko": "지금 계획을 제출하고 <a href=\"https://epicla.lacounty.gov/energov_prod/SelfService/#/home\">복구 허가를</a> 신청할 수 있습니다. 잔해 제거가 완료될 때까지 기다릴 필요가 없습니다.",
     "vi": "Quý vị có thể gửi kế hoạch của mình và <a href=\"https://epicla.lacounty.gov/energov_prod/SelfService/#/home\">nộp đơn xin giấy phép xây dựng</a> ngay bây giờ. Quý vị không cần đợi đến khi hoàn tất việc di dời đống đổ nát.",

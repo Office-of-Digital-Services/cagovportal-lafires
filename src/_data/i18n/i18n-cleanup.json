@@ -131,11 +131,18 @@
     "hy": "Փուլ 1-ում ԱՄՆ-ի EPA-ն մաքրել է ամենօրյա ապրանքները, որոնք գտնվում էին Ձեր տանը և կարող էին վտանգ ներկայացնել:"
   },
   "cleanup_these_include": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
+    "status": "ap_review",
+    "comment": "Machine translated",
     "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "These included:",
-    "orig_en": "These include"
+    "fr": "Cela inclut:",
+    "es": "Incluye:",
+    "ko": "포함되는 것들:",
+    "vi": "Bao gồm:",
+    "tl": "Kabilang sa mga ito ang:",
+    "zh-hans": "包括：",
+    "zh-hant": "包括：",
+    "hy": "Այդ թվում՝"
   },
   "cleanup_batteries": {
     "status": "avantpage_delivery",
@@ -662,7 +669,7 @@
     "status": "ap_review",
     "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "orig_en": "Debris removal can't start until Phase 1 cleanup is completed or deferred.",
-    "en": "Debris removal can't start on your property until Phase 1 is completed or deferred.",
+    "en": "Debris removal can’t start on your property until Phase 1 is completed or deferred.",
     "fr": "Le retrait de débris ne peut pas commencer sur votre propriété avant que la Phase 1 soit terminée ou reportée.",
     "es": "La remoción de escombros no puede comenzar en su propiedad hasta que se complete o se difiera la fase 1.",
     "ko": "귀하의 부동산에서 잔해 제거는 1단계 청소가 완료되거나 연기될 때까지는 시작할 수 없습니다.",

@@ -373,7 +373,7 @@
   "recovery_cant_work_items_3": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/start-your-recovery-shared.html",
-    "en": "If you need time off to care for your family and can't work, apply for <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">Paid Family Leave</a>",
+    "en": "If you need time off to care for your family and can’t work, apply for <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">Paid Family Leave</a>",
     "fr": "Si vous avez besoin de temps libre pour vous occuper de votre famille et ne pouvez pas travailler, faites une demande de <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">congé familial payé</a>",
     "es": "Si necesita una licencia del trabajo para cuidar a su familia y no puede trabajar, solicite un <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">permiso de ausencia remunerada por motivos familiares</a>.",
     "ko": "가족을 돌보기 위해 휴가가 필요한데 일을 할 수 없는 경우, <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">유급 가족 휴가</a>를 신청하십시오",
@@ -413,7 +413,7 @@
   "recovery_looking_for_work_items_1": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/start-your-recovery-shared.html",
-    "en": "Apply for a new job on <a href=\"https://www.caljobs.ca.gov/vosnet/default.aspx\">CalJOBS</a>, California's online job exchange system.",
+    "en": "Apply for a new job on <a href=\"https://www.caljobs.ca.gov/vosnet/default.aspx\">CalJOBS</a>, California’s online job exchange system.",
     "fr": "Postulez pour un nouvel emploi sur <a href=\"https://www.caljobs.ca.gov/vosnet/default.aspx\">CalJOBS</a>, le système d'échange d'emplois en ligne de la Californie.",
     "es": "Busque un nuevo trabajo en <a href=\"https://www.caljobs.ca.gov/vosnet/default.aspx\">CalJOBS</a>, el sistema de intercambio de trabajo en línea de California.",
     "ko": "캘리포니아의 온라인 구직 교환 시스템인 <a href=\"https://www.caljobs.ca.gov/vosnet/default.aspx\">CalJOBS</a>에서 새 일자리를 신청하십시오.",

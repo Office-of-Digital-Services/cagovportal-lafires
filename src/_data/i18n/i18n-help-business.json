@@ -599,18 +599,17 @@
     "hy": "Աշխատողների զարգացման վարչության (Employment Development Department, EDD) կողմից"
   },
   "help_business_payroll_taxes_description": {
-    "status": "ap_english_mismatch",
-    "comment": "original text was truncated, so I added the missing text",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/help-your-business-shared.html",
-    "orig_en": "Employers in Los Angeles and Ventura Counties directly affected by the Palisades Fire may request up to a two-month extension. Businesses may have extensions to",
     "en": "Employers in Los Angeles and Ventura Counties directly affected by the Palisades Fire may request up to a two-month extension. Businesses may have extensions to file their state payroll reports.",
     "fr": "Les employeurs des comtés de Los Angeles et de Ventura directement touchés par le feu de la Palisades peuvent demander une extension de deux mois. Les entreprises peuvent avoir des extensions pour déposer leurs rapports de paie d'État.",
     "es": "Los empleadores de los condados de Los Ángeles y Ventura afectados directamente por el incendio de Palisades pueden solicitar una extensión de hasta dos meses. Es posible que las empresas tengan extensión para presentar sus informes de nómina estatales.",
-    "ko": "팰리세이드 화재로 직접 영향을 받은 로스앤젤레스와 벤투라 카운티의 고용주는 최대 2개월까지 연장을 요청할 수 있습니다. 기업은 주 정부 급여 보고서 제출 기한을 연장할 수 있습니다.",
+    "ko": "팰리세이즈 화재로 직접 영향을 받은 로스앤젤레스와 벤투라 카운티의 고용주는 최대 2개월까지 연장을 요청할 수 있습니다. 기업은 주 정부 급여 보고서 제출 기한을 연장할 수 있습니다.",
     "vi": "Chủ hãng ở các Quận Los Angeles và Ventura bị ảnh hưởng trực tiếp do Đám Cháy Palisades có thể yêu cầu gia hạn tối đa hai tháng. Doanh nghiệp có thể được gia hạn thời gian nộp báo cáo bảng lương cho tiểu bang.",
     "tl": "Ang mga employer sa County ng Los Angeles at County ng Ventura na direktang naapektuhan ng Sunog sa Palisades ay puwedeng humiling ng hanggang dalawang buwang palugit. Ang mga negosyo ay puwedeng magkaroon ng mga palugit para maihain ang kanilang mga ulat ng payroll sa estado.",
-    "zh-hans": "受 Palisades（帕利塞兹）大火火灾影响的洛杉矶县和文图拉县的雇主可申请最长两个月的延期。企业可申请延期提交州级工资税报告。",
-    "zh-hant": "直接受 Palisades 火災影響的洛杉磯縣和Ventura縣的雇主可以要求最多延長兩個月。企業可以申請延期提交他們的州工資報告。",
+    "zh-hans": "受帕利塞兹大火影响的洛杉矶县和文图拉县的雇主可申请最长两个月的延期。企业可申请延期提交州级工资税报告。",
+    "zh-hant": "直接受帕利塞兹火災影響的洛杉磯縣和文圖拉縣的雇主可以要求最多延長兩個月。企業可以申請延期提交他們的州工資報告。",
     "hy": "Լոս Անջելես և Վենտուրա վարչաշրջանների գործատուները, որոնք ուղղակիորեն տուժել են Պալիսեյդսի հրդեհից, կարող են պահանջել երկարաձգում մինչև երկու ամիս ժամկետով: Բիզնեսները կարող են ունենալ երկարաձգումներ՝ իրենց աշխատավարձի նահանգային հաշվետվությունները ներկայացնելու համար:"
   },
   "help_business_file_payroll_reports_title": {
