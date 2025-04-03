@@ -102,17 +102,10 @@
     "zh-hant": "開始恢復",
     "hy": "Սկսել վերականգնումը"
   },
-  "sidenav_return_to_your_home_safely": {
-    "status": "avantpage_delivery",
+  "sidenav_accessing_your_property": {
+    "status": "english_only",
     "src_file": "src/_includes/dynamic-sidenav.html",
-    "en": "Return to your home safely",
-    "es": "Regrese a su hogar a salvo",
-    "ko": "집으로 안전하게 돌아가기",
-    "vi": "Trở về nhà an toàn",
-    "tl": "Ligtas na bumalik sa iyong tahanan",
-    "zh-hans": "安全返家指南",
-    "zh-hant": "安全返回家中",
-    "hy": "Անվտանգ վերադարձ տուն"
+    "en": "Accessing your property"
   },
   "sidenav_cleanup_and_debris_removal": {
     "status": "avantpage_delivery",
