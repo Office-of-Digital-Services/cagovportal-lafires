@@ -134,7 +134,7 @@
     "status": "english_only",
     "comment": "English only translation. Other languages needed",
     "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
-    "en": "These includes:",
+    "en": "These included:",
     "orig_en": "These include"
   },
   "cleanup_batteries": {
