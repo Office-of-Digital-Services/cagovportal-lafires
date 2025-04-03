@@ -148,7 +148,7 @@
     "en": "540 W. Woodbury Rd.<br />Altadena, CA 91001",
     "fr": "540 W. Woodbury Rd.<br />Altadena, CA 91001",
     "es": "540 W. Woodbury Road<br />Altadena, CA 91001",
-    "ko": "540 W. Woodbury Road<br />Altadena, CA 91001", 
+    "ko": "540 W. Woodbury Road<br />Altadena, CA 91001",
     "vi": "540 W. Woodbury Road<br />Altadena, CA 91001",
     "tl": "540 W. Woodbury Road<br />Altadena, CA 91001",
     "zh-hans": "540 W. Woodbury Road<br />Altadena, CA 91001",
@@ -237,6 +237,12 @@
     "zh-hant": "這些中心在中午最繁忙。早點或晚點來，以避免等待。",
     "hy": "Կենտրոններն առավել զբաղված են օրվա կեսին: Եկեք ավելի շուտ կամ ուշ՝ երկար սպասելուց խուսափելու համար։"
   },
+  "help_person_state_local_services": {
+    "status": "avantpage_delivery",
+    "src_file": "pages/lafires/get-help-in-person-shared.html",
+    "en": "See a full list at "
+  },
+
   "help_person_more_about_drcs": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/get-help-in-person-shared.html",
@@ -281,41 +287,13 @@
   "help_person_services_description": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/get-help-in-person-shared.html",
-    "en": "Here are the services you can expect at the centers. See a full list at <a href=\"/lafires/plan-your-in-person-visit/\">Plan your in-person visit</a>.",
-    "fr": "Voici les services que vous pouvez attendre dans les centres. Voir la liste complète sur <a href=\"/lafires/fr/plan-your-in-person-visit/\">Plan your in-person visit</a>.",
-    "es": "Estos son los servicios que puede esperar en los centros. Vea una lista completa en <a href=\"/lafires/es/plan-your-in-person-visit/\">Planee su visita en persona</a>.",
-    "ko": "센터에서 기대할 수 있는 서비스는 다음과 같습니다. 전체 목록은 <a href=\"/lafires/ko/plan-your-in-person-visit/\">대면 방문 계획</a>에서 확인할 수 있습니다.",
-    "vi": "Đây là các dịch vụ quý vị có thể dự kiến nhận được tại các trung tâm. Xem danh sách đầy đủ tại <a href=\"/lafires/vi/plan-your-in-person-visit/\">Lập kế hoạch trực tiếp đến cơ sở</a>.",
-    "tl": "Narito ang mga serbisyong maaasahan mo sa mga center. Tingnan ang isang kumpletong listahan sa <a href=\"/lafires/tl/plan-your-in-person-visit/\">Planuhin ang iyong pagbisita sa personal</a>.",
-    "zh-hans": "中心提供以下核心服务。完整清单请查阅此链接：<a href=\"/lafires/zh-hans/plan-your-in-person-visit/\">规划亲访行程</a>。",
-    "zh-hant": "以下是您預期可以在中心獲得的服務。在<a href=\"/lafires/zh-hant/plan-your-in-person-visit/\">計劃您的親自到訪 (Plan your in-person visit)</a>中查看完整清單。",
-    "hy": "Ահա այն ծառայությունները, որոնք կարող եք ակնկալել կենտրոններում: Ամբողջական ցանկը տեսեք <a href=\"/lafires/hy/plan-your-in-person-visit/\">Պլանավորեք Ձեր այցը</a>:"
+    "en": "Here are the services you can expect at the centers."
   },
-  "help_person_state_local_services": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-in-person-shared.html",
-    "en": "State and local services",
-    "fr": "Services de l'État et locaux",
-    "es": "Servicios estatales y locales",
-    "ko": "주 및 지역 서비스",
-    "vi": "Dịch vụ của tiểu bang và địa phương",
-    "tl": "Mga serbisyo ng estado at lokal na gobyerno",
-    "zh-hans": "州和地方服务",
-    "zh-hant": "州和地方服務",
-    "hy": "Նահանգային և տեղական ծառայություններ"
-  },
+
   "help_person_sign_in_services": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/get-help-in-person-shared.html",
-    "en": "Sign in at the door. Services include",
-    "fr": "Sign in à la porte. Services inclus",
-    "es": "Regístrese en la puerta. Los servicios incluyen:",
-    "ko": "입구에서 등록하십시오. 서비스 목록",
-    "vi": "Ký tên đăng ký ngay tại cửa. Các dịch vụ bao gồm",
-    "tl": "Mag-sign in sa pinto. Kabilang sa mga serbisyo ang",
-    "zh-hans": "在门口登记。服务包括",
-    "zh-hant": "在門口簽到。服務包括",
-    "hy": "Գրանցվեք մուտքի մոտ։ Ծառայությունները ներառում են՝"
+    "en": "See a full list at Plan your in-person visit."
   },
   "help_person_food": {
     "status": "ap_review",
@@ -449,58 +427,7 @@
     "zh-hant": "聯邦服務",
     "hy": "Դաշնային ծառայություններ"
   },
-  "help_person_federal_services_description": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-in-person-shared.html",
-    "en": "Sign in at the FEMA tents. Services include",
-    "fr": "Sign in à la porte. Services inclus",
-    "es": "Anótese en las carpas de la Agencia Federal para el Manejo de Emergencias (Federal Emergency Management Agency FEMA). Los servicios incluyen:",
-    "ko": "FEMA 텐트에서 등록하십시오. 서비스 목록",
-    "vi": "Ký tên đăng ký tại lều của Cơ Quan Quản Lý Tình Trạng Khẩn Cấp Liên Bang (FEMA). Các dịch vụ bao gồm",
-    "tl": "Mag-sign in sa mga tent ng FEMA. Kabilang sa mga serbisyo ang",
-    "zh-hans": "在联邦应急事务署 (Federal Emergency Management Agency, FEMA) 帐篷处登记。服务包括",
-    "zh-hant": "在FEMA帳篷處簽到。服務包括",
-    "hy": "Գրանցվեք FEMA-ի վրաններում: Ծառայությունները ներառում են՝"
-  },
-  "help_person_housing": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-in-person-shared.html",
-    "en": "Housing",
-    "fr": "Logement",
-    "es": "vivienda",
-    "ko": "주거",
-    "vi": "Nhà ở",
-    "tl": "Pabahay",
-    "zh-hans": "住房安置",
-    "zh-hant": "住房",
-    "hy": "Բնակարանային ապահովություն"
-  },
-  "help_person_home_repairs": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-in-person-shared.html",
-    "en": "Home repairs",
-    "fr": "Réparations de la maison",
-    "es": "reparaciones en el hogar",
-    "ko": "주택 수리",
-    "vi": "Sửa chữa nhà",
-    "tl": "Mga pag-aayos ng tahanan",
-    "zh-hans": "房屋修缮援助",
-    "zh-hant": "家庭維修",
-    "hy": "Տան վերակառուցում"
-  },
-  "help_person_legal_services": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-in-person-shared.html",
-    "en": "Legal services",
-    "fr": "Services juridiques",
-    "es": "servicios legales",
-    "ko": "법률 서비스",
-    "vi": "Dịch vụ pháp lý",
-    "tl": "Mga legal na serbisyo",
-    "zh-hans": "法律服务",
-    "zh-hant": "法律服務",
-    "hy": "Իրավաբանական ծառայություններ"
-  },
+
   "help_person_before_you_arrive": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/get-help-in-person-shared.html",
