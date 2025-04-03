@@ -52,43 +52,20 @@
     "hy": "Այս էջում"
   },
   "realtime_real_time_updates_heading": {
-    "status": "avantpage_delivery",
+    "status": "english_only",
     "src_file": "pages/lafires/see-real-time-info-shared.html",
-    "en": "Real-time updates",
-    "fr": "Mises à jour en temps réel",
-    "es": "Actualizaciones en tiempo real",
-    "ko": "실시간 업데이트",
-    "vi": "Cập nhật theo thời gian thực",
-    "tl": "Mga real-time na update",
-    "zh-hans": "实时更新",
-    "zh-hant": "即時更新",
-    "hy": "Իրական ժամանակի թարմացումներ"
+    "en": "Alerts"
   },
+
   "realtime_ongoing_fires_heading": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
-    "en": "Ongoing fires",
-    "fr": "Feux en cours",
-    "es": "Incendios actuales",
-    "ko": "진행 중인 화재",
-    "vi": "Các đám cháy đang diễn ra",
-    "tl": "Mga kasalukuyang sunog",
-    "zh-hans": "火情追踪",
-    "zh-hant": "持續的火災",
-    "hy": "Շարունակվող հրդեհներ"
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
+    "en": ""
   },
   "realtime_ongoing_fires_description": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/see-real-time-info-shared.html",
-    "en": "from CAL FIRE",
-    "fr": "de CAL FIRE",
-    "es": "de CAL FIRE",
-    "ko": "CAL FIRE 정보",
-    "vi": "từ Sở Lâm Nghiệp và Cứu Hỏa California (CAL FIRE)",
-    "tl": "mula sa CAL FIRE",
-    "zh-hans": "信息来自加州森林与防火局 (California Department of Forestry and Fire Protection, CAL FIRE)",
-    "zh-hant": "來自 CAL FIRE",
-    "hy": "CAL FIRE-ի կողմից"
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
+    "en": ""
   },
   "realtime_emergency_alerts_heading": {
     "status": "avantpage_delivery",
@@ -338,17 +315,10 @@
     "hy": "Էվակուացիաներ"
   },
   "realtime_evacuation_notices_heading": {
-    "status": "avantpage_delivery",
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
     "src_file": "pages/lafires/see-real-time-info-shared.html",
-    "en": "Evacuation notices and critical updates",
-    "fr": "Avis d'évacuation et mises à jour critiques",
-    "es": "Avisos de evacuación y actualizaciones críticas",
-    "ko": "대피 공지 및 중요 업데이트",
-    "vi": "Thông báo sơ tán và cập nhật quan trọng",
-    "tl": "Mga abiso tungkol sa paglikas at mga kritikal na update",
-    "zh-hans": "疏散通告与重大更新",
-    "zh-hant": "疏散通知和重要更新",
-    "hy": "Էվակուացիաների մասին ծանուցումներ և կարևոր թարմացումներ"
+    "en": "Get evacuation notices"
   },
   "realtime_evacuation_notices_description": {
     "status": "avantpage_delivery",
@@ -390,17 +360,10 @@
     "hy": "CAL FIRE-ի կողմից"
   },
   "realtime_getting_prepared_heading": {
-    "status": "avantpage_delivery",
+    "status": "english_only",
+    "comment": "English only translation. Other languages needed",
     "src_file": "pages/lafires/see-real-time-info-shared.html",
-    "en": "Getting prepared",
-    "fr": "Préparation",
-    "es": "Prepararse",
-    "ko": "준비하기",
-    "vi": "Chuẩn bị",
-    "tl": "Paghahanda",
-    "zh-hans": "应急准备",
-    "zh-hant": "做好準備",
-    "hy": "Պատրաստվելը"
+    "en": "How to prepare"
   },
   "realtime_prepare_for_emergencies_heading": {
     "status": "avantpage_delivery",
@@ -453,5 +416,65 @@
     "zh-hans": "信息来自加州公共卫生部 (California Department of Public Health, CDPH)",
     "zh-hant": "來自加州公共衛生部 (California Department of Public Health, CDPH)",
     "hy": "Կալիֆորնիայի Հանրային առողջության վարչության (California Department of Public Health, CDPH) կողմից"
+  },
+  "realtime_roads_heading": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Roads"
+  },
+  "realtime_roads_card_title": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Road closures and conditions"
+  },
+  "realtime_roads_card_department": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "from CalTrans"
+  },
+  "realtime_roads_card_list_1": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Pacific Coast Highway closures (SR1)"
+  },
+  "realtime_roads_card_list_2": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Topanga Canyon Road closures (SR27)"
+  },
+  "realtime_roads_card_list_3": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Other road closures"
+  },
+  "realtime_power_heading": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Power"
+  },
+  "realtime_environment_heading": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Environment"
+  },
+  "realtime_air_quality_card_heading": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Air quality"
+  },
+  "realtime_air_quality_card_description": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "from South Coast Air Quality Monitoring District"
+  },
+  "realtime_water_quality_card_heading": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "Water quality"
+  },
+  "realtime_water_quality_card_description": {
+    "status": "english_only",
+    "src_file": "pages/lafires/see-real-time-info-shared.html",
+    "en": "from State Water Resources Control Board"
   }
 }
