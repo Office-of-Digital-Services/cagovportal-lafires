@@ -1,7 +1,6 @@
 {
   "feedback_question": {
     "status": "machine translated",
-    "src_file": "src/_includes/feedback.html",
     "en": "Did you find what you were looking for?",
     "es": "¿Encontraste lo que buscabas?",
     "fr": "Avez-vous trouvé ce que vous cherchiez?",
@@ -14,7 +13,6 @@
   },
   "feedback_yes": {
     "status": "machine translated",
-    "src_file": "src/_includes/feedback.html",
     "en": "Yes",
     "es": "Sí",
     "fr": "Oui",
@@ -27,7 +25,6 @@
   },
   "feedback_no": {
     "status": "machine translated",
-    "src_file": "src/_includes/feedback.html",
     "en": "No",
     "es": "No",
     "fr": "Non",
@@ -40,7 +37,6 @@
   },
   "feedback_comment_prompt": {
     "status": "machine translated",
-    "src_file": "src/_includes/feedback.html",
     "en": "What was the problem?",
     "es": "¿Cuál fue el problema?",
     "fr": "Quel était le problème?",
@@ -53,7 +49,6 @@
   },
   "feedback_positive_comment_prompt": {
     "status": "machine translated",
-    "src_file": "src/_includes/feedback.html",
     "en": "Great! What were you looking for today?",
     "es": "¡Genial! ¿Qué estás buscando hoy?",
     "fr": "Génial ! Qu'est-ce que vous cherchez aujourd'hui ?",
@@ -66,7 +61,6 @@
   },
   "feedback_thanks_feedback": {
     "status": "machine translated",
-    "src_file": "src/_includes/feedback.html",
     "en": "Thank you for your feedback!",
     "es": "¡Gracias por tu feedback!",
     "fr": "Merci pour votre feedback!",
@@ -79,7 +73,6 @@
   },
   "feedback_thanks_comments": {
     "status": "machine translated",
-    "src_file": "src/_includes/feedback.html",
     "en": "Thank you for your comments!",
     "es": "¡Gracias por tus comentarios!",
     "fr": "Merci pour vos commentaires!",
@@ -92,7 +85,6 @@
   },
   "feedback_submit": {
     "status": "machine translated",
-    "src_file": "src/_includes/feedback.html",
     "en": "Submit",
     "es": "Enviar",
     "fr": "Envoyer",
@@ -105,7 +97,6 @@
   },
   "feedback_anything_to_add": {
     "status": "machine translated",
-    "src_file": "src/_includes/feedback.html",
     "en": "If you have anything to add,",
     "es": "Si tienes algo que agregar,",
     "fr": "Si vous avez quelque chose à ajouter,",
@@ -118,7 +109,6 @@
   },
   "feedback_any_other_feedback": {
     "status": "machine translated",
-    "src_file": "src/_includes/feedback.html",
     "en": "If you have any other feedback about this website,",
     "es": "Si tienes algún otro comentario sobre este sitio web,",
     "fr": "Si vous avez un autre commentaire sur ce site web,",
