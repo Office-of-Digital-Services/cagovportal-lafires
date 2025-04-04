@@ -310,15 +310,15 @@
   "return_phase2_description": {
     "status": "ap_review",
     "comment": "strong tags added via machine translator",
-    "en": "Debris removal is Phase 2. It’s free if you in by <strong>April 15, 2025</strong>.",
+    "en": "Debris removal is Phase 2. It’s free if you opt in by <strong>April 15, 2025</strong>.",
     "fr": "L'enlèvement des débris est la Phase 2. C'est gratuit si vous vous inscrivez avant le <strong>15 avril 2025</strong>.",
     "es": "La remoción de escombros es la Fase 2. Es gratuita si se inscribe antes del <strong>15 de abril de 2025</strong>.",
     "ko": "잔해 제거는 2단계입니다. <strong>2025년 4월 15일</strong>까지 신청하면 무료입니다.",
     "vi": "Di dời đống đổ nát là Giai đoạn 2. Miễn phí nếu quý vị đăng ký trước <strong>ngày 15 tháng 4 năm 2025</strong>.",
-    "tl": "Ang pag-aalis ng kalat ay Phase 2. Ito ay libre kung ikaw ay mag-sign up bago ang <strong>Abril 15, 2025</strong>.",
-    "zh-hans": "残余物清除是第2阶段。如果您在<strong>2025年4月15日</strong>前申请，则免费提供。",
-    "zh-hant": "雜物清除是第2階段。如果您在<strong>2025年4月15日</strong>前申請，則免費提供。",
-    "hy": "Աղբի հեռացումը Փուլ 2-ն է: Այն անվճար է, եթե դուք գրանցվեք մինչև <strong>2025 թվականի ապրիլի 15-ը</strong>:"
+    "tl": "Ang pag-aalis ng kalat ay Phase 2. Ito ay libre kung ikaw ay mag-opt in bago ang <strong>Abril 15, 2025</strong>.",
+    "zh-hans": "残余物清除是第2阶段。如果您在<strong>2025年4月15日</strong>前选择参与，则免费提供。",
+    "zh-hant": "雜物清除是第2階段。如果您在<strong>2025年4月15日</strong>前選擇參與，則免費提供。",
+    "hy": "Աղբի հեռացումը Փուլ 2-ն է: Այն անվճար է, եթե դուք ընտրեք մասնակցել մինչև <strong>2025 թվականի ապրիլի 15-ը</strong>:"
   },
   "return_learn_about_cleanup_and_debris_removal": {
     "status": "avantpage_delivery",
