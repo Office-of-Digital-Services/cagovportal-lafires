@@ -858,6 +858,58 @@
     "zh-hant": "這筆補助金幫助因火災而流離失所的人們。符合條件的家庭可以獲得高達18,000美元的補助金。",
     "hy": "Այս դրամաշնորհն օգնում է հրդեհների պատճառով տեղահանված մարդկանց։ Համապատասխան տնային տնտեսությունները կարող են ստանալ մինչև $18,000 դրամաշնորհներ:"
   },
+  "help_online_low-income_housing_title": {
+    "status": "machine_translated",
+    "src_file": "pages/lafires/get-help-online-shared.html",
+    "en": "Low-income housing",
+    "fr": "Logement à faible revenu",
+    "es": "Vivienda de bajos ingresos",
+    "ko": "저소득 주택",
+    "vi": "Nhà ở thu nhập thấp",
+    "tl": "Mababang kita na pabahay",
+    "zh-hans": "低收入住房",
+    "zh-hant": "低收入住房",
+    "hy": "Բնակարանային օգնություն"
+  },
+  "help_online_low-income_housing_description-1": {
+    "status": "machine_translated",
+    "src_file": "pages/lafires/get-help-online-shared.html",
+    "en": "Low-income households affected by the fires may go to the front of the line for Section 8 housing vouchers.",
+    "fr": "Un logement à faible revenu est disponible pour les personnes qui ont perdu leur maison dans les incendies.",
+    "es": "La vivienda de bajos ingresos está disponible para las personas que perdieron sus hogares en los incendios.",
+    "ko": "저소득 주택은 화재로 집을 잃은 사람들을 위해 제공됩니다.",
+    "vi": "Nhà ở thu nhập thấp dành cho những người đã mất nhà vì hỏa hoạn.",
+    "tl": "Ang mababang kita na pabahay ay magagamit para sa mga taong nawalan ng tahanan sa mga sunog.",
+    "zh-hans": "低收入住房适用于在火灾中失去家园的人们。",
+    "zh-hant": "低收入住房適用於在火災中失去家園的人們。",
+    "hy": "Հրդեհների պատճառով իրենց տները կորցրած մարդկանց համար հասանելի է բնակարանային օգնություն:"
+  },
+  "help_online_low-income_housing_description-2": {
+    "status": "machine_translated",
+    "src_file": "pages/lafires/get-help-online-shared.html",
+    "en": "The Los Angeles County Development Authority (LACDA) opened up its <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">waiting list</a> for these vouchers on April 4, 2025. It will grant these vouchers to 50 eligible people or families. They will leave the list open until they reach 300 applicants.",
+    "fr": "L'Autorité de développement du comté de Los Angeles (LACDA) a ouvert sa <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">liste d'attente</a> pour ces bons le 4 avril 2025. Elle accordera ces bons à 50 personnes ou familles éligibles. Ils laisseront la liste ouverte jusqu'à ce qu'ils atteignent 300 candidats.",
+    "es": "La Autoridad de Desarrollo del Condado de Los Ángeles (LACDA) abrió su <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">lista de espera</a> para estos vales el 4 de abril de 2025. Otorgará estos vales a 50 personas o familias elegibles. Mantendrán la lista abierta hasta que lleguen a 300 solicitantes.",
+    "ko": "로스앤젤레스 카운티 개발국(LACDA)은 2025년 4월 4일에 이 바우처의 <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">대기자 명단</a>을 열었습니다. 이들은 50명의 적격 개인 또는 가족에게 바우처를 부여합니다. 그들은 300명의 지원자가 될 때까지 목록을 열어둘 것입니다.",
+    "vi": "Cơ quan Phát triển Hạt Los Angeles (LACDA) đã mở <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">danh sách chờ</a> cho các phiếu này vào ngày 4 tháng 4 năm 2025. Nó sẽ cấp những phiếu này cho 50 người hoặc gia đình đủ điều kiện. Họ sẽ để danh sách mở cho đến khi họ đạt được 300 người nộp đơn.",
+    "tl": "Ang Los Angeles County Development Authority (LACDA) ay nagbukas ng <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">waiting list</a> para sa mga voucher na ito noong Abril 4, 2025. Ibibigay nito ang mga voucher na ito sa 50 kwalipikadong tao o pamilya. Iiwan nila ang listahan na bukas hanggang maabot nila ang 300 aplikante.",
+    "zh-hans": "洛杉矶县发展局 (LACDA) 于 2025 年 4 月 4 日为这些凭证开放了<a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">候补名单</a>。它将向 50 名符合条件的人或家庭授予这些凭证。他们将保持名单开放，直到他们达到 300 名申请人。",
+    "zh-hant": "洛杉磯縣發展局 (LACDA) 於 2025 年 4 月 4 日為這些憑證開放了<a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">候補名單</a>。它將向 50 名符合條件的人或家庭授予這些憑證。他們將保持名單開放，直到他們達到 300 名申請人。",
+    "hy": "Լոս Անջելեսի շրջանի զարգացման իշխանությունը (LACDA) 2025 թվականի ապրիլի 4-ին բացեց այս վաուչերների <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">սպասման ցուցակը</a>։ Այն այս վաուչերները կտա 50 համապատասխան անձանց կամ ընտանիքներին։ Նրանք կթողնեն ցուցակը բաց մինչև 300 դիմորդ ունենան։"
+  },
+  "help_online_low-income_housing_description-3": {
+    "status": "machine_translated",
+    "src_file": "pages/lafires/get-help-online-shared.html",
+    "en": "If you get a voucher, you still need to find a place to rent that accepts them. Learn more at this <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">article from LAist</a>",
+    "fr": "Si vous obtenez un bon, vous devez toujours trouver un endroit à louer qui les accepte. En savoir plus dans cet <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">article de LAist</a>",
+    "es": "Si obtiene un vale, aún necesita encontrar un lugar para alquilar que los acepte. Aprenda más en este <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">artículo de LAist</a>",
+    "ko": "바우처를 받으면 여전히 바우처를 수락하는 임대할 장소를 찾아야 합니다. 자세한 내용은 <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">LAist의 이 기사</a>를 참조하세요.",
+    "vi": "Nếu bạn nhận được phiếu, bạn vẫn cần tìm một nơi để thuê mà chấp nhận chúng. Tìm hiểu thêm trong <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">bài viết này từ LAist</a>",
+    "tl": "Kung makakuha ka ng voucher, kailangan mo pa ring makahanap ng lugar na paupahan na tumatanggap sa mga ito. Alamin ang higit pa sa <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">artikulong ito mula sa LAist</a>",
+    "zh-hans": "如果您获得了凭证，您仍然需要找到一个接受它们的租赁地点。 在<a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">LAist 的这篇文章</a>中了解更多信息",
+    "zh-hant": "如果您獲得了憑證，您仍然需要找到一個接受它們的租賃地點。 在<a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">LAist 的這篇文章</a>中了解更多信息",
+    "hy": "Եթե դուք ստանում եք վաուչեր, ապա դեռ պետք է գտնել վարձակալության այնպիսի վայր, որը դրանք ընդունում է։ Ավելին իմանալու համար այցելեք <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">LAist-ի այս հոդվածը</a>"
+  },
   "help_online_fema_assistance_title": {
     "status": "avantpage_delivery",
     "src_file": "pages/lafires/get-help-online-shared.html",
