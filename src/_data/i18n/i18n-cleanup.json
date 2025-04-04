@@ -1,7 +1,6 @@
 {
   "cleanup_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Cleanup and debris removal",
     "fr": "Nettoyage et retrait de débris",
     "es": "Limpieza y remoción de escombros",
@@ -14,7 +13,6 @@
   },
   "cleanup_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Here we explain cleanup and debris removal phases after the LA fires. Learn how to get your property clean, safe, and cleared for rebuilding.",
     "fr": "Ici, nous expliquons les phases de nettoyage et de retrait de débris après les feux de Los Angeles. Découvrez comment nettoyer, sécuriser et débarrasser votre propriété pour la reconstruction.",
     "es": "Aquí explicamos las fases de limpieza y remoción de escombros después de los incendios de Los Ángeles (LA). Aprenda cómo lograr que su propiedad esté limpia, segura y preparada para la reconstrucción.",
@@ -27,7 +25,6 @@
   },
   "cleanup_keywords": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "California, government, LA, Los Angeles, fires, wildfires, cleanup, debris removal, Phase 1, Phase 2",
     "fr": "Californie, gouvernement, LA, Los Angeles, feux, incendies, nettoyage, retrait de débris, Phase 1, Phase 2",
     "es": "California, gobierno, LA, Los Ángeles, incendios, incendios forestales, limpieza, remoción de escombros, fase 1, fase 2",
@@ -40,7 +37,6 @@
   },
   "cleanup_cleanup_and_debris_removal_after_wildfires": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Cleanup and debris removal after wildfires is a 2-phase process. You can have it done at no cost to you.",
     "fr": "Le nettoyage et le retrait de débris après les feux de forêt sont un processus en 2 phases. Vous pouvez le faire gratuitement.",
     "es": "La limpieza y remoción de escombros después de los incendios es un proceso en dos fases. Puede solicitarlo de forma gratuita.",
@@ -53,7 +49,6 @@
   },
   "cleanup_phase_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Phase 1",
     "fr": "Phase 1",
     "es": "Fase 1",
@@ -66,7 +61,6 @@
   },
   "cleanup_phase_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Phase 2",
     "fr": "Phase 2",
     "es": "Fase 2",
@@ -79,7 +73,6 @@
   },
   "cleanup_hazardous_waste_cleanup": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Hazardous waste cleanup",
     "fr": "Nettoyage des déchets dangereux",
     "es": "Limpieza de residuos peligrosos",
@@ -92,7 +85,6 @@
   },
   "cleanup_debris_removal": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Debris removal",
     "fr": "Retrait de débris",
     "es": "Remoción de escombros",
@@ -106,7 +98,6 @@
   "cleanup_debris_introduction": {
     "status": "avantpage_delivery",
     "old_key": "cleanup_debris_step_p_1",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "We will explain these phases. When they are complete, your property is ready for rebuilding.",
     "fr": "Nous expliquerons ces phases. Lorsqu'elles seront terminées, votre propriété sera prête à être reconstruite.",
     "es": "Le explicaremos estas fases. Una vez que las complete, su propiedad estará lista para ser reconstruida.",
@@ -119,7 +110,6 @@
   },
   "cleanup_phase_1_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "In Phase 1, the U.S. EPA cleaned up everyday products that were in your home and could be dangerous.",
     "fr": "Dans la Phase 1, l'EPA a nettoyé les produits quotidiens qui se trouvaient dans votre maison et pouvaient être dangereux.",
     "es": "En la fase 1, la Agencia de Protección Ambiental (Environmental Protection Agency, EPA) de los Estados Unidos limpió productos de uso diario que estaban en su hogar y que podían ser peligrosos.",
@@ -131,22 +121,20 @@
     "hy": "Փուլ 1-ում ԱՄՆ-ի EPA-ն մաքրել է ամենօրյա ապրանքները, որոնք գտնվում էին Ձեր տանը և կարող էին վտանգ ներկայացնել:"
   },
   "cleanup_these_include": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
-    "en": "These include:",
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "These included:",
     "fr": "Cela inclut:",
-    "es": "Esos productos incluyen:",
-    "ko": "여기에 포함되는 사항:",
-    "vi": "Trong đó bao gồm:",
+    "es": "Incluye:",
+    "ko": "포함되는 것들:",
+    "vi": "Bao gồm:",
     "tl": "Kabilang sa mga ito ang:",
     "zh-hans": "包括：",
-    "zh-hant": "這些包括：",
-    "hy": "Այդ թվում՝",
-    "orig_en": "These include"
+    "zh-hant": "包括：",
+    "hy": "Այդ թվում՝"
   },
   "cleanup_batteries": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Batteries",
     "fr": "Batteries",
     "es": "baterías",
@@ -159,7 +147,6 @@
   },
   "cleanup_cleaners_and_solvents": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Cleaners and solvents",
     "fr": "Produits nettoyants et solvants",
     "es": "limpiadores y solventes",
@@ -172,7 +159,6 @@
   },
   "cleanup_fertilizers_and_pesticides": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Fertilizers and pesticides",
     "fr": "Engrais et pesticides",
     "es": "fertilizantes y pesticidas",
@@ -185,7 +171,6 @@
   },
   "cleanup_paints_and_oils": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Paints and oils",
     "fr": "Peintures et huiles",
     "es": "pinturas y aceites",
@@ -198,7 +183,6 @@
   },
   "cleanup_propane_tanks_and_other_pressurized_products": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Propane tanks and other pressurized products",
     "fr": "Bouteilles de propane et autres produits sous pression",
     "es": "tanques de propano y otros productos presurizados",
@@ -211,7 +195,6 @@
   },
   "cleanup_phase_1_now_complete": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Phase 1 cleanup is now complete. It was automatic for all residential properties.",
     "fr": "Le nettoyage de la Phase 1 est maintenant terminé. Il était automatique pour toutes les propriétés résidentielles.",
     "es": "Se completó la limpieza de la fase 1. Se realizó automáticamente para todas las propiedades residenciales.",
@@ -224,7 +207,6 @@
   },
   "cleanup_no_cost_for_phase_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "There was no cost to you for this cleanup.",
     "fr": "Aucun coût pour vous pour ce nettoyage.",
     "es": "No hubo ningún costo para usted por este servicio de limpieza.",
@@ -237,7 +219,6 @@
   },
   "cleanup_cleanup_statuses_explained": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Cleanup statuses explained",
     "fr": "Explication des statuts de nettoyage",
     "es": "Explicación de los estados de limpieza",
@@ -250,7 +231,6 @@
   },
   "cleanup_after_the_epa_assessed_your_property": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "After the EPA assessed your property, they gave it a status.",
     "fr": "Après que l'EPA ait évalué votre propriété, elle a donné un statut.",
     "es": "Después de que la Agencia de Protección Ambiental evaluó su propiedad, se le dio un estado.",
@@ -263,7 +243,6 @@
   },
   "cleanup_they_posted_that_status_in_a_sign_on_your_property": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "They posted that status in a sign on your property.",
     "fr": "Ils ont posté ce statut sur un panneau à votre propriété.",
     "es": "Se colocó un letrero con ese estado en su propiedad.",
@@ -276,7 +255,6 @@
   },
   "cleanup_epa_map": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "You can also check this <a href=\"https://storymaps.arcgis.com/collections/13a8b227ac104bb1b1fa9592c92debe3?item=2\">EPA map</a> for the cleanup status of your property.",
     "fr": "Vous pouvez également vérifier cette <a href=\"https://storymaps.arcgis.com/collections/13a8b227ac104bb1b1fa9592c92debe3?item=2\">carte de l'EPA</a> pour le statut de nettoyage de votre propriété.",
     "es": "También puede revisar este <a href=\"https://storymaps.arcgis.com/collections/13a8b227ac104bb1b1fa9592c92debe3?item=2\">mapa de la Agencia de Protección Ambiental</a> para ver el estado de limpieza de su propiedad.",
@@ -289,7 +267,6 @@
   },
   "cleanup_phase_1_complete_status": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "This status means the EPA has finished their cleanup work.",
     "fr": "Ce statut signifie que l'EPA a terminé son travail de nettoyage.",
     "es": "Este estado significa que la Agencia de Protección Ambiental terminó su trabajo de limpieza.",
@@ -302,7 +279,6 @@
   },
   "cleanup_phase_1_complete_status_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "But your property <strong>may not be</strong> safe yet. There can still be",
     "fr": "Mais votre propriété <strong>peut ne pas être</strong> sûre encore. Il peut y avoir encore des déchets dangereux.",
     "es": "Pero es posible que su propiedad <strong>todavía no esté segura</strong>. Aún puede haber",
@@ -315,7 +291,6 @@
   },
   "cleanup_hazardous_waste_buried": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Hazardous waste that’s buried",
     "fr": "Déchets dangereux enterrés",
     "es": "desechos peligrosos enterrados",
@@ -328,7 +303,6 @@
   },
   "cleanup_health_hazards_like_ash_and_asbestos": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Health hazards like ash and asbestos",
     "fr": "Dangers pour la santé comme le cendre et l'amiante",
     "es": "peligros para la salud como ceniza y asbesto",
@@ -341,7 +315,6 @@
   },
   "cleanup_or_uppercase": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "OR",
     "fr": "OU",
     "es": "O",
@@ -354,7 +327,6 @@
   },
   "cleanup_deferred_to_phase_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Deferred to Phase 2",
     "fr": "Reporté à la Phase 2",
     "es": "Diferido a la fase 2",
@@ -367,7 +339,6 @@
   },
   "cleanup_deferred_to_phase_2_status": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "This status means the EPA can’t safely clean your property until debris has been removed.",
     "fr": "Ce statut signifie que l'EPA ne peut pas nettoyer votre propriété en toute sécurité avant que les débris ne soient retirés.",
     "es": "Este estado significa que la Agencia de Protección Ambiental no puede limpiar de manera segura su propiedad hasta que se eliminen los escombros.",
@@ -380,7 +351,6 @@
   },
   "cleanup_it_will_be_cleaned_in_phase_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "It will be cleaned in Phase 2.",
     "fr": "Il sera nettoyé dans la Phase 2.",
     "es": "Se limpiará en la fase 2.",
@@ -393,7 +363,6 @@
   },
   "cleanup_see_phase_1_progress": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "See <a href=\"/lafires/track-progress/#phases\">Phase 1 progress</a>.",
     "fr": "Voir <a href=\"/lafires/fr/track-progress/#phases\">le progrès de la Phase 1</a>.",
     "es": "Vea el <a href=\"/lafires/es/track-progress/#phases\">progreso de la fase 1</a>.",
@@ -406,7 +375,6 @@
   },
   "cleanup_us_army_corps_of_engineers_debris_removal": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "In Phase 2, the U.S. Army Corps of Engineers (USACE) removes structural debris.",
     "fr": "Dans la Phase 2, l'ingénieurs du corps des ingénieurs (USACE) retire les débris structuraux.",
     "es": "En la fase 2, el Cuerpo de Ingenieros del Ejército de los Estados Unidos (U.S. Army Corps of Engineers, USACE) elimina los escombros estructurales.",
@@ -419,7 +387,6 @@
   },
   "cleanup_debris_removal_includes": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "This includes:",
     "fr": "Cela inclut:",
     "es": "Esto incluye:",
@@ -432,7 +399,6 @@
   },
   "cleanup_damaged_foundations": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Damaged foundations",
     "fr": "Fondations endommagées",
     "es": "cimientos dañados",
@@ -445,7 +411,6 @@
   },
   "cleanup_destroyed_vehicles": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Destroyed vehicles",
     "fr": "Véhicules détruits",
     "es": "vehículos destruidos",
@@ -458,7 +423,6 @@
   },
   "cleanup_trees_that_are_a_hazard": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Trees that are a hazard",
     "fr": "Arbres qui sont une menace",
     "es": "árboles peligrosos",
@@ -471,7 +435,6 @@
   },
   "cleanup_contaminated_soil": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Contaminated soil",
     "fr": "Sol contaminé",
     "es": "tierra contaminada",
@@ -484,7 +447,6 @@
   },
   "cleanup_asbestos": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Asbestos",
     "fr": "Amiante",
     "es": "asbesto",
@@ -497,7 +459,6 @@
   },
   "cleanup_ash": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Ash",
     "fr": "Cendre",
     "es": "ceniza",
@@ -510,7 +471,6 @@
   },
   "cleanup_what_to_expect_in_phase_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Read <a href=\"https://recovery.lacounty.gov/debris-removal/what-to-expect/\">what to expect in Phase 2</a>.",
     "fr": "Lire <a href=\"https://recovery.lacounty.gov/debris-removal/what-to-expect/\">ce que vous pouvez attendre dans la Phase 2</a>.",
     "es": "Lea <a href=\"https://recovery.lacounty.gov/debris-removal/what-to-expect/\">lo que puede esperar en la fase 2</a>.",
@@ -523,7 +483,6 @@
   },
   "cleanup_see_the_progress_of_this_work_in_usace_s_debris_removal_map": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "See the progress of this work in <a href=\"https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806\">USACE’s debris removal map</a>.",
     "fr": "Voir le progrès de ce travail dans la <a href=\"https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806\">carte de retrait de débris de l'USACE</a>.",
     "es": "Vea el progreso de este trabajo en el <a href=\"https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806\">mapa de remoción de escombros de USACE</a>.",
@@ -536,7 +495,6 @@
   },
   "cleanup_about_removing_trees": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "About removing trees",
     "fr": "À propos de la suppression des arbres",
     "es": "Sobre la remoción de árboles",
@@ -549,7 +507,6 @@
   },
   "cleanup_during_debris_removal_the_usace_will_remove_trees_that_are_hazardous": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "During debris removal, the USACE will remove trees that are hazardous. But you can request that a tree not be removed.",
     "fr": "Lors du retrait de débris, l'USACE retirera les arbres qui sont dangereux. Mais vous pouvez demander que l'arbre ne soit pas retiré.",
     "es": "Durante la remoción de escombros, USACE retirará árboles que son peligrosos. Pero usted puede solicitar que no se retiren.",
@@ -562,7 +519,6 @@
   },
   "cleanup_about_the_waiver_process": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "About the waiver process",
     "fr": "À propos du processus de waiver",
     "es": "Sobre el proceso de exención",
@@ -575,7 +531,6 @@
   },
   "cleanup_tree_markings_explained": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Tree markings explained",
     "fr": "Explication des marques d'arbre",
     "es": "Marcas de los árboles",
@@ -588,7 +543,6 @@
   },
   "cleanup_waiver_form_pdf": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "<a href=\"https://file.lacounty.gov/SDSInter/lac/1178475_WaiverofHazardousTreeRemoval.pdf\">Waiver form</a> (PDF)",
     "fr": "<a href=\"https://file.lacounty.gov/SDSInter/lac/1178475_WaiverofHazardousTreeRemoval.pdf\">Formulaire de waiver</a> (PDF)",
     "es": "<a href=\"https://file.lacounty.gov/SDSInter/lac/1178475_WaiverofHazardousTreeRemoval.pdf\">Formulario de exención</a> (PDF)",
@@ -601,7 +555,6 @@
   },
   "cleanup_how_to_get_debris_removed": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "How to get debris removed",
     "fr": "Comment obtenir le retrait des débris",
     "es": "Cómo pedir que se retiren escombros",
@@ -614,7 +567,6 @@
   },
   "cleanup_debris_removal_opt_in_or_out": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "To get debris removed, you must choose to:",
     "fr": "Pour obtenir le retrait des débris, vous devez choisir de:",
     "es": "Para pedir que se retiren escombros, debe elegir:",
@@ -628,7 +580,6 @@
   },
   "cleanup_opt_in_free_removal": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Opt in for free removal",
     "fr": "Opt in pour le retrait gratuit",
     "es": "Solicitar la remoción gratuita",
@@ -641,7 +592,6 @@
   },
   "cleanup_opt_out_self_removal": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Opt out to arrange and pay for removal yourself",
     "fr": "Opt out pour organiser et payer pour le retrait vous-même",
     "es": "Optar por arreglar y pagar la remoción por su cuenta.",
@@ -654,7 +604,6 @@
   },
   "cleanup_no_out_of_pocket_costs": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "There are no out-of-pocket costs for this service. If you have insurance, your insurer will be billed.",
     "fr": "Il n'y a pas de coûts hors poche pour ce service. Si vous avez une assurance, votre assureur sera facturé.",
     "es": "No hay gastos de bolsillo por este servicio. Si tiene seguro, se le facturará a su aseguradora.",
@@ -667,9 +616,8 @@
   },
   "cleanup_phase_1_completion_required": {
     "status": "ap_review",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "orig_en": "Debris removal can't start until Phase 1 cleanup is completed or deferred.",
-    "en": "Debris removal can't start on your property until Phase 1 is completed or deferred.",
+    "en": "Debris removal can’t start on your property until Phase 1 is completed or deferred.",
     "fr": "Le retrait de débris ne peut pas commencer sur votre propriété avant que la Phase 1 soit terminée ou reportée.",
     "es": "La remoción de escombros no puede comenzar en su propiedad hasta que se complete o se difiera la fase 1.",
     "ko": "귀하의 부동산에서 잔해 제거는 1단계 청소가 완료되거나 연기될 때까지는 시작할 수 없습니다.",
@@ -681,7 +629,6 @@
   },
   "cleanup_opt_in_deadline_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Opt in by the deadline",
     "fr": "Opt in avant la date limite",
     "es": "Solicítela antes de la fecha límite.",
@@ -694,7 +641,6 @@
   },
   "cleanup_opt_in_deadline": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "To get free debris removal, you must <strong>opt in by April 15, 2025</strong>.",
     "fr": "Pour obtenir le retrait de débris gratuit, vous devez <strong>opt in avant le 15 avril 2025</strong>.",
     "es": "Para que se retiren los escombros sin cargo, debe <strong>solicitarla antes del 15 de abril de 2025</strong>.",
@@ -708,7 +654,6 @@
   "cleanup_opt_in_form_button_text": {
     "status": "avantpage_delivery",
     "old_key": "cleanup_opt_in_formm_button_text",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Opt in for free removal",
     "fr": "Opt in pour le retrait gratuit",
     "es": "Solicitar la remoción gratuita",
@@ -721,7 +666,6 @@
   },
   "cleanup_opt_in_requirements_intro": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "To complete the opt-in form, you’ll need",
     "fr": "Pour compléter le formulaire d'opt-in, vous aurez besoin de",
     "es": "Para completar el formulario de solicitud, necesitará:",
@@ -734,7 +678,6 @@
   },
   "cleanup_opt_in_owner_info": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Contact info and signatures of all owners of the property",
     "fr": "Informations de contact et signatures de tous les propriétaires de la propriété",
     "es": "información de contacto y firmas de todos los dueños de la propiedad",
@@ -747,7 +690,6 @@
   },
   "cleanup_opt_in_ain": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Assessor’s information number, or AIN",
     "fr": "Numéro d'information de l'assesseur, ou AIN",
     "es": "número de información del evaluador (Assessor's information number, AIN)",
@@ -760,7 +702,6 @@
   },
   "cleanup_opt_in_ain_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Find your AIN",
     "fr": "Trouvez votre AIN",
     "es": "Encuentre su AIN",
@@ -773,7 +714,6 @@
   },
   "cleanup_opt_in_insurance": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Homeowners insurance information (if you’re insured)",
     "fr": "Informations d'assurance propriétaire (si vous êtes assuré)",
     "es": "información sobre el seguro de vivienda (si tiene seguro)",
@@ -786,7 +726,6 @@
   },
   "cleanup_opt_in_vehicle_info": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Vehicle information for any destroyed vehicles on the property",
     "fr": "Informations sur les véhicules pour tous les véhicules détruits sur la propriété",
     "es": "información del vehículo para cualquier vehículo destruido en la propiedad",
@@ -799,7 +738,6 @@
   },
   "cleanup_opt_out_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Opt out at your own expense",
     "fr": "Opt out à votre propre charge",
     "es": "Decida no solicitar la remoción bajo su propia responsabilidad",
@@ -812,7 +750,6 @@
   },
   "cleanup_opt_out_explanation": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "If you opt out of free debris removal, you’ll arrange for and pay for this service yourself.",
     "fr": "Si vous décidez de ne pas opt in pour le retrait de débris gratuit, vous devrez organiser et payer pour ce service vous-même.",
     "es": "Si opta por que no se retiren los escombros gratis, usted organizará y pagará este servicio por su cuenta.",
@@ -825,7 +762,6 @@
   },
   "cleanup_opt_out_requirements_intro": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "This process is complicated and expensive. You must:",
     "fr": "Ce processus est compliqué et coûteux. Vous devez:",
     "es": "Este proceso es complicado y costoso. Usted debe:",
@@ -839,7 +775,6 @@
   },
   "cleanup_opt_out_contractor": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Hire a licensed, specialized contractor",
     "fr": "Engager un entrepreneur agréé et spécialisé",
     "es": "contratar a un profesional autorizado y especializado",
@@ -852,7 +787,6 @@
   },
   "cleanup_opt_out_permit": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Get approval and a permit from LA County",
     "fr": "Obtenir l'approbation et une autorisation de la part du comté de Los Angeles",
     "es": "obtener aprobación y una autorización por parte del condado de Los Ángeles",
@@ -865,7 +799,6 @@
   },
   "cleanup_opt_out_asbestos": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Hire a certified consultant to check your property for asbestos",
     "fr": "Engager un consultant certifié pour vérifier votre propriété pour l'amiante",
     "es": "contratar a un consultor certificado para que revise su propiedad en busca de asbesto",
@@ -878,7 +811,6 @@
   },
   "cleanup_opt_out_compliance": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Make sure your contractor follows all government rules for safe debris removal",
     "fr": "Assurez-vous que votre entrepreneur respecte toutes les règles gouvernementales pour le retrait de débris sûr",
     "es": "asegurarse de que su contratista siga todas las reglas gubernamentales para retirar los escombros de manera segura",
@@ -891,7 +823,6 @@
   },
   "cleanup_how_to_opt_out_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "How to opt out",
     "fr": "Comment opt out",
     "es": "Cómo rechazar la remoción ",
@@ -904,7 +835,6 @@
   },
   "cleanup_opt_out_submit_form": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "If you choose to opt out, submit an <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">opt-out form</a> to LA County right away.",
     "fr": "Si vous décidez de ne pas opt in, soumettez un <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">formulaire d'opt-out</a> au comté de Los Angeles dès que possible.",
     "es": "Si decide rechazar la remoción, envíe un <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">formulario de exclusión voluntaria</a> al condado de Los Ángeles de inmediato.",
@@ -917,7 +847,6 @@
   },
   "cleanup_opt_out_importance": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "It’s important to submit this form so that the county can start free debris removal for your neighbors.",
     "fr": "Il est important de soumettre ce formulaire afin que le comté puisse commencer le retrait de débris gratuit pour vos voisins.",
     "es": "Es importante presentar este formulario para que el condado pueda iniciar la remoción gratis de escombros para sus vecinos.",
@@ -930,7 +859,6 @@
   },
   "cleanup_opt_out_requirements_needed": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "You will need:",
     "fr": "Vous aurez besoin de:",
     "es": "Usted necesitará:",
@@ -944,7 +872,6 @@
   },
   "cleanup_opt_out_contractor_info": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Name and license number of your contractor",
     "fr": "Nom et numéro de licence de votre entrepreneur",
     "es": "nombre y número de licencia de su contratista",
@@ -957,7 +884,6 @@
   },
   "cleanup_opt_out_debris_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Description of the debris you need to remove",
     "fr": "Description des débris que vous devez retirer",
     "es": "descripción de los escombros que debe retirar",
@@ -970,7 +896,6 @@
   },
   "cleanup_opt_out_ain": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Assessor’s information number, or AIN",
     "fr": "Numéro d'information de l'assesseur, ou AIN",
     "es": "número de información del evaluador o AIN",
@@ -983,7 +908,6 @@
   },
   "cleanup_opt_out_ain_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Find your AIN",
     "fr": "Trouvez votre AIN",
     "es": "Encuentre su AIN",
@@ -996,7 +920,6 @@
   },
   "cleanup_help_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "If you need help",
     "fr": "Si vous avez besoin d'aide",
     "es": "Si necesita ayuda",
@@ -1009,7 +932,6 @@
   },
   "cleanup_phase_1_questions_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Questions about Phase 1 cleanup",
     "fr": "Questions sur le nettoyage de la Phase 1",
     "es": "Preguntas sobre la fase 1",
@@ -1022,7 +944,6 @@
   },
   "cleanup_epa_contact": {
     "status": "ap_review",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Call the EPA at <a href=\"tel:833-798-7372\">833-798-7372</a>  (TTY: 711)",
     "fr": "Appeler l'EPA au <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711)",
     "es": "Llame a la Agencia de Protección Ambiental al <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711)",
@@ -1035,7 +956,6 @@
   },
   "cleanup_opt_in_help_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Help filling out the opt-in form",
     "fr": "Aide pour remplir le formulaire d'opt-in",
     "es": "Ayuda para llenar el formulario de inscripción",
@@ -1048,7 +968,6 @@
   },
   "cleanup_county_hotline": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Call the LA County Public Works Debris Removal Hotline at <a href=\"tel:844-347-3332\">844-347-3332</a> (TTY: 711)",
     "fr": "Appeler le hotline de retrait de débris du comté de Los Angeles au <a href=\"tel:844-347-3332\">844-347-3332</a> (TTY: 711)",
     "es": "Llame a la Línea directa de obras públicas para la eliminación de escombros del condado de Los Ángeles al <a href=\"tel:844-347-3332\">844-347-3332</a> (TTY: 711)",
@@ -1061,7 +980,6 @@
   },
   "cleanup_email_contact": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Email <a href=\"mailto:PalisadesFire@dpw.lacounty.gov\">PalisadesFire@dpw.lacounty.gov</a> or <a href=\"mailto:EatonFire@dpw.lacounty.gov\">EatonFire@dpw.lacounty.gov</a>",
     "fr": "Envoyer un email à <a href=\"mailto:PalisadesFire@dpw.lacounty.gov\">PalisadesFire@dpw.lacounty.gov</a> ou <a href=\"mailto:EatonFire@dpw.lacounty.gov\">EatonFire@dpw.lacounty.gov</a>",
     "es": "Correo electrónico <a href=\"mailto:PalisadesFire@dpw.lacounty.gov\">PalisadesFire@dpw.lacounty.gov</a> o <a href=\"mailto:EatonFire@dpw.lacounty.gov\">EatonFire@dpw.lacounty.gov</a>",
@@ -1074,7 +992,6 @@
   },
   "cleanup_in_person_help": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Get help in person at a <a href=\"/lafires/get-help-in-person/\">Disaster Recovery Center</a>",
     "fr": "Obtenir de l'aide en personne à un <a href=\"/lafires/get-help-in-person/\">Centre de récupération des catastrophes</a>",
     "es": "Obtenga ayuda en persona en un <a href=\"/lafires/get-help-in-person/\">centro de recuperación por catástrofes</a>",
@@ -1088,7 +1005,6 @@
   "cleanup_more_info_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "More about cleanup and debris removal",
     "fr": "Plus d'informations sur le nettoyage et le retrait des débris",
     "es": "Más información sobre la limpieza y remoción de escombros",
@@ -1102,7 +1018,6 @@
   "cleanup_la_county_recovers": {
     "old_key": "cleanup_la_county_recovers_heading",
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "LA County Recovers",
     "fr": "LA County Recovers",
     "es": "LA County Recovers",
@@ -1116,7 +1031,6 @@
   "cleanup_where_debris_goes": {
     "old_key": "cleanup_debris_destination_heading",
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Where debris goes",
     "fr": "Où les débris vont",
     "es": "Dónde terminan los escombros",
@@ -1130,7 +1044,6 @@
   "cleanup_debris_disposal_explanation": {
     "old_key": "cleanup_debris_disposal",
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Workers will dispose of debris in a way that protects public health and the environment.",
     "fr": "Les travailleurs disposeront des débris de manière à protéger la santé publique et l'environnement.",
     "es": "Los trabajadores desecharán los escombros de una manera que protege la salud pública y el medio ambiente.",
@@ -1143,7 +1056,6 @@
   },
   "cleanup_calepa_info": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Find out more at CalEPA’s <a href=\"https://calepa.ca.gov/disaster/debris/wildfire-debris-in-landfills-frequently-asked-questions/\">Wildfire Debris in Landfills</a>.",
     "fr": "En savoir plus sur <a href=\"https://calepa.ca.gov/disaster/debris/wildfire-debris-in-landfills-frequently-asked-questions/\">Wildfire Debris in Landfills</a>.",
     "es": "Obtenga más información sobre <a href=\"https://calepa.ca.gov/disaster/debris/wildfire-debris-in-landfills-frequently-asked-questions/\">escombros de incendios forestales en vertederos</a> de la Agencia de Protección Ambiental de California (California Environmental Protection Agency, CalEPA).",
@@ -1156,7 +1068,6 @@
   },
   "cleanup_phase_1_complete": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "en": "Phase 1 Complete",
     "es": "Fase 1 completada",
     "ko": "1단계 완료",

@@ -1,7 +1,6 @@
 {
   "vol_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Volunteer",
     "fr": "Volontaire",
     "es": "Ser voluntario",
@@ -14,7 +13,6 @@
   },
   "vol_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Thank you for donating your time or money. When deciding how to help, rely on trusted sources and beware of scams.",
     "fr": "Merci pour votre don de temps ou d'argent. Lorsque vous décidez comment aider, reliez-vous à des sources fiables et restez attentif aux escroqueries.",
     "es": "Gracias por donar su tiempo o dinero. A la hora de decidir cómo ayudar, debe basarse en fuentes de confianza y cuidarse de las estafas.",
@@ -28,7 +26,6 @@
   "vol_keywords": {
     "status": "ap_review",
     "comment": "Machine translation",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "LA, Los Angeles, fires, wildfires",
     "fr": "LA, Los Angeles, incendies, incendies de forêt",
     "es": "LA, Los Angeles, incendios, incendios forestales",
@@ -41,7 +38,6 @@
   },
   "vol_lead_text": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Thank you for donating your time or money. When deciding how to help, rely on trusted sources and beware of scams.",
     "fr": "Merci pour votre don de temps ou d'argent. Lorsque vous décidez comment aider, reliez-vous à des sources fiables et restez attentif aux escroqueries.",
     "es": "Gracias por donar su tiempo o dinero. A la hora de decidir cómo ayudar, debe basarse en fuentes de confianza y cuidarse de las estafas.",
@@ -54,7 +50,6 @@
   },
   "vol_on_this_page": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "On this page",
     "fr": "Sur cette page",
     "es": "En esta página",
@@ -67,7 +62,6 @@
   },
   "vol_where_to_volunteer_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Where to volunteer",
     "fr": "Où volontaire",
     "es": "Dónde participar como voluntario",
@@ -80,7 +74,6 @@
   },
   "vol_aid_in_wildfire_recovery": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Aid in wildfire recovery",
     "fr": "Aider à la récupération des incendies de forêt",
     "es": "Ayuda en la recuperación de incendios forestales",
@@ -93,7 +86,6 @@
   },
   "vol_by_california_volunteers": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "by California Volunteers",
     "fr": "par California Volunteers",
     "es": "de California Volunteers",
@@ -106,7 +98,6 @@
   },
   "vol_find_ways_to_get_involved": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Find ways to get involved — in Los Angeles and throughout the state.",
     "fr": "Trouvez des façons de participer — à Los Angeles et dans tout l'état.",
     "es": "Encuentre maneras de involucrarse en Los Ángeles y en todo el estado.",
@@ -119,7 +110,6 @@
   },
   "vol_help_animals": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Help animals",
     "fr": "Aider aux animaux",
     "es": "Ayuda de animales",
@@ -132,7 +122,6 @@
   },
   "vol_by_california_animal_response_emergency_support": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "by California Animal Response Emergency Support",
     "fr": "par California Animal Response Emergency Support",
     "es": "del Equipo de Respuesta ante Emergencias para Animales de California",
@@ -145,7 +134,6 @@
   },
   "vol_foster_or_adopt_a_pet": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Foster or adopt a pet, volunteer, or donate pet food.",
     "fr": "Foster ou adopter un animal de compagnie, un volontaire ou faire un don de nourriture pour animaux.",
     "es": "Adopte una mascota, sea voluntario o done comida para mascotas.",
@@ -158,7 +146,6 @@
   },
   "vol_ways_to_donate_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Ways to donate",
     "fr": "Façons de donner",
     "es": "Formas de donar",
@@ -171,7 +158,6 @@
   },
   "vol_give_for_recovery": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Give for recovery",
     "fr": "Donner pour la récupération",
     "es": "Donar para la recuperación",
@@ -184,7 +170,6 @@
   },
   "vol_by_philanthropy_california": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "by Philanthropy California",
     "fr": "par Philanthropy California",
     "es": "de Philanthropy California",
@@ -197,7 +182,6 @@
   },
   "vol_this_group_gathered_trusted_funds": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "This group gathered trusted funds for the 2025 disaster relief and recovery. They focus on helping marginalized or under-resourced communities.",
     "fr": "Ce groupe a réuni des fonds de confiance pour la récupération des dommages causés par les incendies de forêt en 2025. Ils se concentrent sur l'aide aux communautés marginalisées ou sous-régionales.",
     "es": "Este grupo reunió fondos de confianza para el alivio y la recuperación ante catástrofes de 2025. Se enfocan en ayudar a las comunidades sin recursos o de bajos recursos.",
@@ -210,7 +194,6 @@
   },
   "vol_give_for_animals": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Give for animals",
     "fr": "Donner pour les animaux",
     "es": "Donar para animales",
@@ -223,7 +206,6 @@
   },
   "vol_donate_money_to_support_emergency_services_animals_need": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/volunteer-shared.html",
     "en": "Donate money to support emergency services animals need.",
     "fr": "Faire un don pour soutenir les animaux nécessitant des services d'urgence.",
     "es": "Donar dinero para apoyar los servicios de emergencia que los animales necesitan.",

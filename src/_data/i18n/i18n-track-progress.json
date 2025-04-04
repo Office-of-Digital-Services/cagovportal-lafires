@@ -1,7 +1,6 @@
 {
   "track_progress_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Track LA’s progress",
     "fr": "Suivre les progrès de LA",
     "es": "Siga el progreso de Los Ángeles",
@@ -14,7 +13,6 @@
   },
   "track_progress_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Stay safe and informed. These trusted sources of info can help.",
     "fr": "Restez en sécurité et informé. Ces sources d'information fiables peuvent vous aider.",
     "es": "Manténgase seguro e informado. Estas fuentes de información confiables pueden ayudar.",
@@ -27,7 +25,6 @@
   },
   "track_progress_lead_text": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Stay safe and informed. These trusted sources of info can help.",
     "fr": "Restez en sécurité et informé. Ces sources d'information fiables peuvent vous aider.",
     "es": "Manténgase seguro e informado. Estas fuentes de información confiables pueden ayudar.",
@@ -41,7 +38,6 @@
   "track_progress_governor_website": {
     "status": "avantpage_review",
     "comment": "links added",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "LA’s recovery is Governor Newsom’s top priority. See all state actions to support recovery and rebuilding on <a href=\"https://www.gov.ca.gov/2025/01/24/heres-all-the-actions-governor-newsom-has-taken-in-response-to-the-los-angeles-fires/\">the Governor’s website</a>.",
     "fr": "La reprise de LA est la priorité absolue du gouverneur Newsom. Consultez toutes les actions de l'État pour soutenir la reprise et la reconstruction sur <a href=\"https://www.gov.ca.gov/2025/01/24/heres-all-the-actions-governor-newsom-has-taken-in-response-to-the-los-angeles-fires/\">le site web du gouverneur</a>.",
     "es": "La recuperación de Los Ángeles es la principal prioridad del gobernador Newsom. Consulte todas las acciones estatales para apoyar la recuperación y la reconstrucción en <a href=\"https://www.gov.ca.gov/2025/01/24/heres-all-the-actions-governor-newsom-has-taken-in-response-to-the-los-angeles-fires/\">el sitio web del gobernador</a>.",
@@ -55,7 +51,6 @@
   },
   "track_progress_people_helped": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "People helped",
     "fr": "Personnes aidées",
     "es": "Personas que recibieron ayuda",
@@ -68,7 +63,6 @@
   },
   "track_progress_local_state_federal_help_at_centers": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Local, state, and federal governments offer in-person help at disaster recovery centers.",
     "fr": "Les gouvernements locaux, étatiques et fédéraux offrent une aide en personne dans les centres de rétablissement après sinistre.",
     "es": "Los centros de recuperación por catástrofes ofrecen ayuda en persona a nivel local, estatal y federal.",
@@ -81,7 +75,6 @@
   },
   "track_progress_at_disaster_recovery_centers": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "At disaster recovery centers",
     "fr": "Dans les centres de rétablissement après sinistre",
     "es": "En centros de recuperación por catástrofes",
@@ -94,7 +87,6 @@
   },
   "track_progress_visits": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "visits",
     "fr": "visites",
     "es": "visitas",
@@ -107,13 +99,11 @@
   },
   "track_progress_reported_by_fema": {
     "status": "ap_not_found_in_ap_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Reported by Federal Emergency Management Agency",
     "fr": "Rapporté par l'Agence fédérale de gestion des urgences"
   },
   "track_progress_by_fema_assistance": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "By FEMA assistance",
     "fr": "Par l'assistance de la FEMA",
     "es": "Por medio de la ayuda de la Agencia Federal para el Manejo de Emergencias (FEMA)",
@@ -127,7 +117,6 @@
   "track_progress_people_helped_lowercase": {
     "status": "ap_review",
     "comment": "Extracted from submitted translation, converted to lowercase",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "people helped",
     "fr": "personnes aidées",
     "es": "personas que recibieron ayuda",
@@ -140,7 +129,6 @@
   },
   "track_progress_distributed_to_individuals": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "distributed to individuals",
     "fr": "distribué aux individus",
     "es": "distribuidos a individuos",
@@ -154,7 +142,6 @@
   },
   "track_progress_schools_reopened": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Schools reopened",
     "fr": "Écoles rouvertes",
     "es": "Escuelas reabiertas",
@@ -167,7 +154,6 @@
   },
   "track_progress_many_schools_in_fire_areas_damaged": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Many public schools operating in fire affected areas were damaged or destroyed. Federal, state, and local government is coordinating to help schools resume instruction for students.",
     "fr": "De nombreuses écoles publiques opérant dans les zones touchées par les incendies ont été endommagées ou détruites. Les gouvernements fédéral, étatique et local coordonnent leurs efforts pour aider les écoles à reprendre l'enseignement pour les élèves.",
     "es": "Muchas escuelas públicas que operaban en áreas afectadas por el incendio se dañaron o se destruyeron. Los gobiernos federales, estatales y locales se están coordinando para ayudar a las escuelas a reanudar las clases para los estudiantes.",
@@ -180,7 +166,6 @@
   },
   "track_progress_damaged_or_destroyed_public_schools": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Damaged or destroyed public schools",
     "fr": "Écoles publiques endommagées ou détruites",
     "es": "Escuelas públicas dañadas o destruidas",
@@ -194,7 +179,6 @@
   "track_progress_of": {
     "status": "ap_review",
     "comment": "Extracted from submitted translation, check page for usage",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "of",
     "fr": "sur",
     "es": "de",
@@ -209,7 +193,6 @@
   "track_progress_have_resumed_instruction": {
     "status": "ap_review",
     "comment": "Extracted from submitted translation, check page for usage",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "have resumed instruction",
     "fr": "ont repris l'enseignement",
     "es": "reanudaron las clases",
@@ -223,7 +206,6 @@
   },
   "track_progress_teaching_in_person": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Teaching in-person:",
     "fr": "Enseignement en présentiel:",
     "es": "Clases presenciales:",
@@ -237,7 +219,6 @@
   },
   "track_progress_teaching_online": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Teaching online:",
     "fr": "Enseignement en ligne:",
     "es": "Clases en línea:",
@@ -252,7 +233,6 @@
   "track_progress_reported_to_schools_task_force": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Reported to Schools Task Force",
     "fr": "Rapporté au groupe de travail des écoles",
     "es": "Reportado al Grupo de Trabajo de Escuelas",
@@ -266,7 +246,6 @@
   "track_progress_data_as_of": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Data as of <date> at <time>",
     "fr": "Données en date du <date> à <time>",
     "es": "Datos al <date> a las <time>",
@@ -280,7 +259,6 @@
   "track_progress_properties_cleaned_up": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Properties cleaned up",
     "fr": "Propriétés nettoyées",
     "es": "Propiedades limpiadas",
@@ -294,7 +272,6 @@
   "track_progress_there_are_2_phases_of_cleanup": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "There are 2 phases of cleanup:",
     "fr": "Il y a 2 phases de nettoyage:",
     "es": "Hay 2 fases de limpieza:",
@@ -308,7 +285,6 @@
   "track_progress_phase_1": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Phase 1",
     "fr": "Phase 1",
     "es": "Fase 1",
@@ -322,7 +298,6 @@
   "track_progress_epa_clears_household_hazardous_waste": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "U.S. Environmental Protection Agency clears household hazardous waste",
     "fr": "L'Agence de protection environnementale des États-Unis élimine les déchets ménagers dangereux",
     "es": "La Agencia de Protección Ambiental de EE. UU. elimina los residuos peligrosos domésticos",
@@ -336,7 +311,6 @@
   "track_progress_army_corps_clears_structural_debris": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "U.S. Army Corps of Engineers clears structural debris",
     "fr": "Le Corps des ingénieurs de l'armée américaine dégage les débris structurels",
     "es": "El Cuerpo de Ingenieros del Ejército de EE. UU. retira los escombros estructurales",
@@ -350,7 +324,6 @@
   "track_progress_accepting_phase_2_entry_forms": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Currently, LA County is <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">accepting Right of Entry forms</a> for Phase 2. Once validated by the county, the U.S. Army Corps of Engineers assesses properties and begins debris removal.",
     "fr": "Actuellement, le comté de LA <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">accepte les formulaires de droit d'entrée</a> pour la Phase 2. Une fois validés par le comté, le Corps des ingénieurs de l'armée américaine évalue les propriétés et commence l'enlèvement des débris.",
     "es": "Actualmente, el Condado de LA está <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">aceptando formularios de Derecho de Entrada</a> para la Fase 2. Una vez validados por el condado, el Cuerpo de Ingenieros del Ejército de EE. UU. evalúa las propiedades y comienza la remoción de escombros.",
@@ -364,7 +337,6 @@
   "track_progress_hazardous_household_waste_cleanup": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Hazardous household waste cleanup",
     "fr": "Nettoyage des déchets ménagers dangereux",
     "es": "Limpieza de residuos peligrosos domésticos",
@@ -378,7 +350,6 @@
   "track_progress_hazardous_household_waste_cleanup_progress": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Hazardous household waste cleanup progress",
     "fr": "Progrès du nettoyage des déchets ménagers dangereux",
     "es": "Progreso de la limpieza de residuos peligrosos domésticos",
@@ -392,7 +363,6 @@
   "track_progress_phase_1_complete": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Phase 1 complete",
     "fr": "Phase 1 terminée",
     "es": "Fase 1 completada",
@@ -406,7 +376,6 @@
   "track_progress_data_notes": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Data notes",
     "fr": "Notes sur les données",
     "es": "Notas sobre los datos",
@@ -420,8 +389,7 @@
   "track_progress_epa_progress_dashboard": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "For a detailed breakdown of Phase 1 progress, see the <a href=\"https://storymaps.arcgis.com/stories/12e839aa88764185ab7ef3f84cace1ea\">U.S. Environmental Protection Agency's progress dashboard</a>.",
+    "en": "For a detailed breakdown of Phase 1 progress, see the <a href=\"https://storymaps.arcgis.com/stories/12e839aa88764185ab7ef3f84cace1ea\">U.S. Environmental Protection Agency’s progress dashboard</a>.",
     "fr": "Pour une analyse détaillée des progrès de la Phase 1, consultez le <a href=\"https://storymaps.arcgis.com/stories/12e839aa88764185ab7ef3f84cace1ea\">tableau de bord des progrès de l'Agence de protection environnementale des États-Unis</a>.",
     "es": "Para un desglose detallado del progreso de la Fase 1, consulte el <a href=\"https://storymaps.arcgis.com/stories/12e839aa88764185ab7ef3f84cace1ea\">panel de progreso de la Agencia de Protección Ambiental de EE. UU.</a>",
     "ko": "1단계 진행 상황에 대한 자세한 내용은 <a href=\"https://storymaps.arcgis.com/stories/12e839aa88764185ab7ef3f84cace1ea\">미국 환경보호청의 진행 현황 대시보드</a>를 참조하십시오.",
@@ -434,7 +402,6 @@
   "track_progress_complete_means_staff_finished_removing_hazardous_waste": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Complete means staff finished removing hazardous waste, found unsafe structural debris that requires Phase 2 cleanup, or could not gain access to the property.",
     "fr": "Terminé signifie que le personnel a fini d'enlever les déchets dangereux, a trouvé des débris structurels dangereux nécessitant un nettoyage de Phase 2, ou n'a pas pu accéder à la propriété.",
     "es": "Completo significa que el personal terminó de retirar los residuos peligrosos, encontró escombros estructurales inseguros que requieren limpieza de Fase 2, o no pudo acceder a la propiedad.",
@@ -448,7 +415,6 @@
   "track_progress_us_army_corps_of_engineers_will_clear_any_unsafe_properties_in_phase_2": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "The U.S. Army Corps of Engineers will clear any unsafe properties in phase 2.",
     "fr": "Le Corps des ingénieurs de l'armée américaine dégagera toutes les propriétés dangereuses dans la phase 2.",
     "es": "El Cuerpo de Ingenieros del Ejército de EE. UU. limpiará cualquier propiedad insegura en la fase 2.",
@@ -462,7 +428,6 @@
   "track_progress_reported_by_epa": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Reported by U.S. Environmental Protection Agency",
     "fr": "Rapporté par l'Agence de protection environnementale des États-Unis",
     "es": "Reportado por la Agencia de Protección Ambiental de EE. UU.",
@@ -476,7 +441,6 @@
   "track_progress_phase_2": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Phase 2",
     "fr": "Phase 2",
     "es": "Fase 2",
@@ -490,7 +454,6 @@
   "track_progress_structural_debris_removal": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Structural debris removal",
     "fr": "Enlèvement des débris structurels",
     "es": "Remoción de escombros estructurales",
@@ -504,7 +467,6 @@
   "track_progress_right_of_entry_forms": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Right of Entry forms",
     "fr": "Formulaires de droit d'entrée",
     "es": "Formularios de Derecho de Entrada",
@@ -518,7 +480,6 @@
   "track_progress_right_of_entry_forms_submitted_to_la_county": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Right of Entry forms submitted to LA County",
     "fr": "Formulaires de droit d'entrée soumis au comté de LA",
     "es": "Formularios de Derecho de Entrada presentados al Condado de LA",
@@ -532,7 +493,6 @@
   "track_progress_opt_in": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Opt-in:",
     "fr": "Participation:",
     "es": "Participar:",
@@ -546,7 +506,6 @@
   "track_progress_opt_out": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Opt-out:",
     "fr": "Non-participation:",
     "es": "No participar:",
@@ -560,7 +519,6 @@
   "track_progress_reported_by_la_county": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Reported by LA County",
     "fr": "Rapporté par le comté de LA",
     "es": "Reportado por el Condado de LA",
@@ -574,7 +532,6 @@
   "track_progress_structural_debris_removal_progress": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Structural debris removal progress",
     "fr": "Progrès de l'enlèvement des débris structurels",
     "es": "Progreso en la remoción de escombros estructurales",
@@ -588,7 +545,6 @@
   "track_progress_parcels_have_been_accepted_for_phase_2_debris_removal": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "parcels have been accepted for Phase 2 debris removal",
     "fr": "parcelles ont été acceptées pour l'enlèvement des débris de Phase 2",
     "es": "parcelas han sido aceptadas para la remoción de escombros de la Fase 2",
@@ -602,7 +558,6 @@
   "track_progress_phase_2_progress": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Phase 2 progress",
     "fr": "Progrès de la Phase 2",
     "es": "Progreso de la Fase 2",
@@ -616,7 +571,6 @@
   "track_progress_parcels_completed_lowercase": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "parcels completed",
     "fr": "parcelles terminées",
     "es": "parcelas completadas",
@@ -630,7 +584,6 @@
   "track_progress_detailed_breakdown_of_phase_2_process_and_current_status": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "For a detailed breakdown of the Phase 2 process and current status, see the <a href=\"https://www.spl.usace.army.mil/Missions/Emergency-Management/Los-Angeles-County-Wildfire-Debris-Removal-Mission/\">U.S. Army Corps of Engineers' progress dashboard</a>.",
     "fr": "Pour une analyse détaillée du processus de Phase 2 et de l'état actuel, consultez le <a href=\"https://www.spl.usace.army.mil/Missions/Emergency-Management/Los-Angeles-County-Wildfire-Debris-Removal-Mission/\">tableau de bord des progrès du Corps des ingénieurs de l'armée américaine</a>.",
     "es": "Para un desglose detallado del proceso de la Fase 2 y el estado actual, consulte el <a href=\"https://www.spl.usace.army.mil/Missions/Emergency-Management/Los-Angeles-County-Wildfire-Debris-Removal-Mission/\">panel de progreso del Cuerpo de Ingenieros del Ejército de EE. UU.</a>",
@@ -644,7 +597,6 @@
   "track_progress_property_owners_must_submit_opt_in_right_of_entry_forms": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Property owners must submit opt-in Right of Entry forms for the U.S. Army Corps of Engineers to complete Phase 2. Property owners that opt out of this process must cover debris removal expenses and work.",
     "fr": "Les propriétaires doivent soumettre des formulaires de droit d'entrée avec participation pour que le Corps des ingénieurs de l'armée américaine puisse compléter la Phase 2. Les propriétaires qui ne participent pas à ce processus doivent couvrir les dépenses et le travail d'enlèvement des débris.",
     "es": "Los propietarios deben presentar formularios de Derecho de Entrada para participar y que el Cuerpo de Ingenieros del Ejército de EE. UU. complete la Fase 2. Los propietarios que opten por no participar en este proceso deben cubrir los gastos y el trabajo de remoción de escombros.",
@@ -658,7 +610,6 @@
   "track_progress_progress_bar_measures_the_number_of_parcels_that_have_completed_phase_2": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "The progress bar measures the number of parcels that have completed Phase 2 against the estimated total number of eligible parcels.",
     "fr": "La barre de progression mesure le nombre de parcelles qui ont terminé la Phase 2 par rapport au nombre total estimé de parcelles éligibles.",
     "es": "La barra de progreso mide el número de parcelas que han completado la Fase 2 en comparación con el número total estimado de parcelas elegibles.",
@@ -672,7 +623,6 @@
   "track_progress_complete_means_structural_debris_has_been_removed_from_the_property": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Complete means that structural debris has been removed from the property and the parcel has been returned back to the owner.",
     "fr": "Terminé signifie que les débris structurels ont été enlevés de la propriété et que la parcelle a été rendue au propriétaire.",
     "es": "Completo significa que los escombros estructurales han sido retirados de la propiedad y la parcela ha sido devuelta al propietario.",
@@ -686,7 +636,6 @@
   "track_progress_reported_by_us_army_corps_of_engineers": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Reported by U.S. Army Corps of Engineers",
     "fr": "Rapporté par le Corps des ingénieurs de l'armée américaine",
     "es": "Reportado por el Cuerpo de Ingenieros del Ejército de EE. UU.",
@@ -700,7 +649,6 @@
   "track_progress_water_restored": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Water restored",
     "fr": "Eau rétablie",
     "es": "Agua restaurada",
@@ -714,7 +662,6 @@
   "track_progress_california_state_water_resources_control_board": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "The California State Water Resources Control Board is working with local water systems impacted by the fires to restore safe drinking water for residents.",
     "fr": "Le Conseil de contrôle des ressources en eau de l'État de Californie travaille avec les systèmes d'eau locaux touchés par les incendies pour rétablir l'eau potable sûre pour les résidents.",
     "es": "La Junta Estatal de Control de Recursos Hídricos de California está trabajando con los sistemas de agua locales afectados por los incendios para restaurar el agua potable segura para los residentes.",
@@ -728,7 +675,6 @@
   "track_progress_water_systems_status": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Water systems status",
     "fr": "État des systèmes d'eau",
     "es": "Estado de los sistemas de agua",
@@ -742,7 +688,6 @@
   "track_progress_systems_safe_to_drink": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "systems safe to drink",
     "fr": "systèmes sûrs pour la consommation",
     "es": "sistemas seguros para beber",
@@ -756,7 +701,6 @@
   "track_progress_systems_in_progress": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "systems in progress",
     "fr": "systèmes en cours",
     "es": "sistemas en progreso",
@@ -770,7 +714,6 @@
   "track_progress_reported_by_state_water_resources_control_board": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Reported by State Water Resources Control Board",
     "fr": "Rapporté par le Conseil de contrôle des ressources en eau de l'État",
     "es": "Reportado por la Junta Estatal de Control de Recursos Hídricos",
@@ -784,7 +727,6 @@
   "track_progress_air_quality": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Air quality",
     "fr": "Qualité de l'air",
     "es": "Calidad del aire",
@@ -798,7 +740,6 @@
   "track_progress_south_coast_air_quality_management_district": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "South Coast Air Quality Management District and the California Air Resources Board are working together to measure air quality in your area.",
     "fr": "Le District de gestion de la qualité de l'air de la côte sud et le Conseil des ressources en air de Californie travaillent ensemble pour mesurer la qualité de l'air dans votre région.",
     "es": "El Distrito de Gestión de la Calidad del Aire de la Costa Sur y la Junta de Recursos del Aire de California están trabajando juntos para medir la calidad del aire en su área.",
@@ -812,7 +753,6 @@
   "track_progress_monitoring_occurs_in_two_stages": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Monitoring occurs in two stages: mobile monitoring surveys and stationary monitoring.",
     "fr": "La surveillance se fait en deux étapes : enquêtes de surveillance mobile et surveillance fixe.",
     "es": "El monitoreo ocurre en dos etapas: encuestas de monitoreo móvil y monitoreo estacionario.",
@@ -826,7 +766,6 @@
   "track_progress_stage_1_mobile_monitoring_surveys": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Stage 1 - Mobile monitoring surveys:",
     "fr": "Étape 1 - Enquêtes de surveillance mobile:",
     "es": "Etapa 1 - Encuestas de monitoreo móvil:",
@@ -840,7 +779,6 @@
   "track_progress_four_mobile_surveys_were_completed": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Four mobile surveys were completed, two for the Eaton fire area and two for the Palisades fire area. Mobile surveys capture a snapshot in time of air toxic metals and volatile organic compounds (VOCs). The data was used to help guide locations for stationary air monitors.",
     "fr": "Quatre enquêtes mobiles ont été réalisées, deux pour la zone de l'incendie d'Eaton et deux pour la zone de l'incendie des Palisades. Les enquêtes mobiles capturent un instantané des métaux toxiques dans l'air et des composés organiques volatils (COV). Les données ont été utilisées pour aider à guider l'emplacement des moniteurs d'air fixes.",
     "es": "Se completaron cuatro encuestas móviles, dos para el área del incendio de Eaton y dos para el área del incendio de Palisades. Las encuestas móviles capturan una instantánea en el tiempo de metales tóxicos en el aire y compuestos orgánicos volátiles (COV). Los datos se utilizaron para ayudar a guiar las ubicaciones de los monitores de aire estacionarios.",
@@ -854,7 +792,6 @@
   "track_progress_they_are_not_used_to_establish_health_risks": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "They are not used to establish health risks.",
     "fr": "Elles ne sont pas utilisées pour établir les risques pour la santé.",
     "es": "No se utilizan para establecer riesgos para la salud.",
@@ -868,7 +805,6 @@
   "track_progress_stage_2_stationary_air_quality_monitors": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Stage 2 - Stationary air quality monitors:",
     "fr": "Étape 2 - Moniteurs fixes de la qualité de l'air:",
     "es": "Etapa 2 - Monitores estacionarios de calidad del aire:",
@@ -882,7 +818,6 @@
   "track_progress_they_measure_pollutants_in_the_air": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "They measure pollutants in the air. This includes particulates (PM2.5 and PM10), lead, arsenic, other toxic metals, and asbestos.",
     "fr": "Ils mesurent les polluants dans l'air. Cela inclut les particules (PM2.5 et PM10), le plomb, l'arsenic, d'autres métaux toxiques et l'amiante.",
     "es": "Miden los contaminantes en el aire. Esto incluye partículas (PM2.5 y PM10), plomo, arsénico, otros metales tóxicos y asbesto.",
@@ -896,7 +831,6 @@
   "track_progress_eaton_fire_area": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Eaton fire area",
     "fr": "Zone de l'incendie d'Eaton",
     "es": "Área del incendio de Eaton",
@@ -910,7 +844,6 @@
   "track_progress_results_show": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Results show",
     "fr": "Les résultats montrent",
     "es": "Los resultados muestran",
@@ -924,7 +857,6 @@
   "track_progress_eaton_results_1": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Some elevated levels of Total Chromium, Nickel, Lead, and Arsenic",
     "fr": "Des niveaux élevés de Chrome total, Nickel, Plomb et Arsenic",
     "es": "Algunos niveles elevados de Cromo Total, Níquel, Plomo y Arsénico",
@@ -938,7 +870,6 @@
   "track_progress_eaton_results_2": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "No elevated levels of VOCs including benzene",
     "fr": "Pas de niveaux élevés de VOC, y compris le benzène",
     "es": "Sin niveles elevados de VOC, incluido el benceno",
@@ -952,7 +883,6 @@
   "track_progress_eaton_results_summary": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Overall, the majority of results were within background levels.",
     "fr": "Dans l'ensemble, la majorité des résultats étaient dans les niveaux de fond.",
     "es": "En general, la mayoría de los resultados estaban dentro de los niveles de fondo.",
@@ -966,7 +896,6 @@
   "track_progress_reported_by_south_coast_air_quality_management_district": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Reported by South Coast Air Quality Management District",
     "fr": "Rapporté par le District de gestion de la qualité de l'air de la côte sud",
     "es": "Reportado por el Distrito de Gestión de la Calidad del Aire de la Costa Sur",
@@ -980,7 +909,6 @@
   "track_progress_palisades_fire_area": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Palisades fire area",
     "fr": "Zone de l'incendie des Palisades",
     "es": "Área del incendio de Palisades",
@@ -994,7 +922,6 @@
   "track_progress_mobile_air_monitoring": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Mobile air monitoring",
     "fr": "Surveillance mobile de l'air",
     "es": "Monitoreo móvil del aire",
@@ -1008,7 +935,6 @@
   "track_progress_mobile_air_monitoring_is_now_complete": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Mobile air monitoring is now complete.",
     "fr": "La surveillance mobile de l'air est maintenant terminée.",
     "es": "El monitoreo móvil del aire está ahora completo.",
@@ -1022,7 +948,6 @@
   "track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Four mobile surveys, two in each burn area, were conducted.",
     "fr": "Quatre enquêtes mobiles, deux dans chaque zone brûlée, ont été réalisées.",
     "es": "Se realizaron cuatro encuestas móviles, dos en cada área quemada.",
@@ -1036,7 +961,6 @@
   "track_progress_overall_survey_results_from_eaton_and_palisades_areas_were_within_background_levels": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Overall, survey results from Eaton and Palisades areas were within background levels, with some elevated levels of lead, arsenic, chromium and nickel.",
     "fr": "Dans l'ensemble, les résultats des enquêtes des zones d'Eaton et des Palisades étaient dans les niveaux de fond, avec quelques niveaux élevés de plomb, d'arsenic, de chrome et de nickel.",
     "es": "En general, los resultados de las encuestas de las áreas de Eaton y Palisades estaban dentro de los niveles de fondo, con algunos niveles elevados de plomo, arsénico, cromo y níquel.",
@@ -1050,7 +974,6 @@
   "track_progress_stationary_air_monitoring": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Stationary air monitoring",
     "fr": "Surveillance de l'air fixe",
     "es": "Monitoreo estacionario del aire",
@@ -1064,7 +987,6 @@
   "track_progress_mobile_monitoring_survey_1_completed_on_february_10_2025": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Mobile monitoring survey #1 was completed on February 10, 2025.",
     "fr": "L'enquête de surveillance mobile n°1 a été achevée le 10 février 2025.",
     "es": "La encuesta de monitoreo móvil n.° 1 se completó el 10 de febrero de 2025.",
@@ -1078,7 +1000,6 @@
   "track_progress_overall_results_show_no_elevated_levels_of": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Overall, results show <strong>no elevated</strong> levels of",
     "fr": "Dans l'ensemble, les résultats ne montrent <strong>pas de niveaux élevés</strong> de",
     "es": "En general, los resultados no muestran niveles <strong>elevados</strong> de",
@@ -1092,7 +1013,6 @@
   "track_progress_air_toxic_metals_including_lead_and_arsenic": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Air toxic metals including lead and arsenic",
     "fr": "Métaux toxiques dans l'air, y compris le plomb et l'arsenic",
     "es": "Metales tóxicos en el aire, incluidos el plomo y el arsénico",
@@ -1106,7 +1026,6 @@
   "track_progress_volatile_organic_compounds_including_benzene": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Volatile Organic Compounds including benzene",
     "fr": "Composés organiques volatils, y compris le benzène",
     "es": "Compuestos orgánicos volátiles, incluido el benceno",
@@ -1120,7 +1039,6 @@
   "track_progress_elevated_methane_detected": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "One elevated level of methane, possibly from a gas leak, was detected. This result was reported to utilities and public health agencies for further investigation.",
     "fr": "Un niveau élevé de méthane, possiblement dû à une fuite de gaz, a été détecté. Ce résultat a été signalé aux services publics et aux agences de santé publique pour une enquête plus approfondie.",
     "es": "Se detectó un nivel elevado de metano, posiblemente debido a una fuga de gas. Este resultado se informó a los servicios públicos y las agencias de salud pública para una investigación más detallada.",
@@ -1134,7 +1052,6 @@
   "track_progress_how_we_are_monitoring": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "How we are monitoring",
     "fr": "Comment nous surveillons",
     "es": "Cómo estamos monitoreando",
@@ -1148,7 +1065,6 @@
   "track_progress_mobile_monitoring_surveys_completed_in_eaton_and_palisades_areas": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "mobile monitoring surveys completed in Eaton and Palisades areas",
     "fr": "enquêtes de surveillance mobile terminées dans les zones d'Eaton et des Palisades",
     "es": "encuestas de monitoreo móvil completadas en las áreas de Eaton y Palisades",
@@ -1162,7 +1078,6 @@
   "track_progress_stationary_air_quality_monitoring_sites_deployed": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "stationary air quality monitoring sites deployed for Eaton and Palisades areas",
     "fr": "sites fixes de surveillance de la qualité de l'air déployés pour les zones d'Eaton et des Palisades",
     "es": "sitios de monitoreo estacionario de la calidad del aire desplegados para las áreas de Eaton y Palisades",
@@ -1176,7 +1091,6 @@
   "track_progress_eaton_data_results": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Eaton data results",
     "fr": "Résultats des données d'Eaton",
     "es": "Resultados de datos de Eaton",
@@ -1188,33 +1102,60 @@
     "hy": "Իթոնի տվյալների արդյունքներ"
   },
   "track_progress_altadena_golf_course_results_1": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "While some samples are still being analyzed, analysis continues to show levels do not pose an immediate risk to public health. Residents are encouraged to continue following the safety precautions outlined by the Los Angeles County Department of Public Health."
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "While some samples are still being analyzed, analysis continues to show levels do not pose an immediate risk to public health. Residents are encouraged to continue following the safety precautions outlined by the Los Angeles County Department of Public Health.",
+    "fr": "Bien que certains échantillons soient encore en cours d'analyse, l'analyse continue de montrer que les niveaux ne présentent pas de risque immédiat pour la santé publique. Les résidents sont encouragés à continuer de suivre les précautions de sécurité décrites par le Département de la Santé Publique du Comté de Los Angeles.",
+    "es": "Aunque algunas muestras todavía están siendo analizadas, el análisis continúa mostrando que los niveles no representan un riesgo inmediato para la salud pública. Se anima a los residentes a seguir las precauciones de seguridad descritas por el Departamento de Salud Pública del Condado de Los Ángeles.",
+    "ko": "일부 샘플은 아직 분석 중이지만, 분석 결과는 계속해서 공중 보건에 즉각적인 위험을 초래하지 않는 수준임을 보여줍니다. 주민들은 로스앤젤레스 카운티 공중보건국이 제시한 안전 예방 조치를 계속 따르도록 권장됩니다.",
+    "vi": "Mặc dù một số mẫu vẫn đang được phân tích, kết quả phân tích tiếp tục cho thấy mức độ không gây ra nguy cơ tức thì đối với sức khỏe cộng đồng. Cư dân được khuyến khích tiếp tục tuân theo các biện pháp phòng ngừa an toàn được nêu ra bởi Sở Y Tế Công Cộng Quận Los Angeles.",
+    "tl": "Habang ang ilang mga sample ay patuloy na sinusuri, ang pagsusuri ay patuloy na nagpapakita na ang mga antas ay hindi nagdudulot ng agarang panganib sa kalusugan ng publiko. Ang mga residente ay hinihikayat na patuloy na sundin ang mga pag-iingat sa kaligtasan na nakabalangkas ng Kagawaran ng Pampublikong Kalusugan ng Los Angeles County.",
+    "zh-hans": "虽然一些样本仍在分析中，但分析结果继续表明水平不会对公共健康构成直接风险。鼓励居民继续遵循洛杉矶县公共卫生部概述的安全预防措施。",
+    "zh-hant": "雖然一些樣本仍在分析中，但分析結果繼續表明水平不會對公共健康構成直接風險。鼓勵居民繼續遵循洛杉磯縣公共衛生部概述的安全預防措施。",
+    "hy": "Մինչ որոշ նմուշներ դեռ վերլուծվում են, վերլուծությունը շարունակում է ցույց տալ, որ մակարդակները անմիջական վտանգ չեն ներկայացնում հանրային առողջության համար: Բնակիչներին խրախուսվում է շարունակել հետևել Լոս Անջելես շրջանի Հանրային առողջության վարչության կողմից նշված անվտանգության նախազգուշական միջոցներին:"
   },
   "track_progress_altadena_golf_course_results_2": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "Samples from 3/2/25, 3/5/25, and 3/8/25 near Altadena Golf Course and at Christ the Shepherd Lutheran Church and Fire Station 11:"
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "Samples from 3/2/25, 3/5/25, and 3/8/25 near Altadena Golf Course and at Christ the Shepherd Lutheran Church and Fire Station 11:",
+    "fr": "Échantillons du 2/3/25, 5/3/25 et 8/3/25 près du terrain de golf d'Altadena et à l'église luthérienne Christ the Shepherd et à la caserne de pompiers 11 :",
+    "es": "Muestras del 2/3/25, 5/3/25 y 8/3/25 cerca del campo de golf de Altadena y en la Iglesia Luterana Christ the Shepherd y la Estación de Bomberos 11:",
+    "ko": "알타데나 골프 코스 근처와 그리스도 목자 루터교회 및 소방서 11에서 3/2/25, 3/5/25, 3/8/25에 채취한 샘플:",
+    "vi": "Các mẫu từ ngày 2/3/25, 5/3/25 và 8/3/25 gần Sân Golf Altadena và tại Nhà thờ Lutheran Christ the Shepherd và Trạm Cứu hỏa 11:",
+    "tl": "Mga sample mula sa 3/2/25, 3/5/25, at 3/8/25 malapit sa Altadena Golf Course at sa Christ the Shepherd Lutheran Church at Fire Station 11:",
+    "zh-hans": "3/2/25、3/5/25和3/8/25在Altadena高尔夫球场附近以及基督牧羊人路德教堂和11号消防站采集的样本：",
+    "zh-hant": "3/2/25、3/5/25和3/8/25在Altadena高爾夫球場附近以及基督牧羊人路德教堂和11號消防站採集的樣本：",
+    "hy": "3/2/25, 3/5/25 և 3/8/25 թվականներին Ալտադենա գոլֆի դաշտի մոտ և Քրիստոս Հովիվ լյութերական եկեղեցում և 11-րդ հրշեջ կայանում վերցված նմուշներ."
   },
   "track_progress_eaton_data_list_1": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "All air toxic metals are within background levels. Asbestos was detected near the Altadena Golf Course and Christ the Shepherd Lutheran Church on 3/5/25, but then was not detected on 3/8/25."
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "All air toxic metals are within background levels. Asbestos was detected near the Altadena Golf Course and Christ the Shepherd Lutheran Church on 3/5/25, but then was not detected on 3/8/25.",
+    "fr": "Tous les métaux toxiques dans l'air sont dans les limites des niveaux de fond. De l'amiante a été détectée près du terrain de golf d'Altadena et de l'église luthérienne Christ the Shepherd le 5/3/25, mais n'a pas été détectée le 8/3/25.",
+    "es": "Todos los metales tóxicos del aire están dentro de los niveles de fondo. Se detectó asbesto cerca del campo de golf de Altadena y la Iglesia Luterana Christ the Shepherd el 5/3/25, pero luego no se detectó el 8/3/25.",
+    "ko": "모든 대기 유독성 금속은 배경 수준 내에 있습니다. 석면은 3/5/25에 알타데나 골프 코스와 그리스도 목자 루터교회 근처에서 검출되었지만, 3/8/25에는 검출되지 않았습니다.",
+    "vi": "Tất cả các kim loại độc hại trong không khí đều nằm trong mức nền. Amiăng đã được phát hiện gần Sân Golf Altadena và Nhà thờ Lutheran Christ the Shepherd vào ngày 5/3/25, nhưng sau đó không được phát hiện vào ngày 8/3/25.",
+    "tl": "Lahat ng mga nakakalason na metal sa hangin ay nasa loob ng background levels. Ang asbestos ay nadetect malapit sa Altadena Golf Course at Christ the Shepherd Lutheran Church noong 3/5/25, ngunit hindi na nadetect noong 3/8/25.",
+    "zh-hans": "所有空气有毒金属都在背景水平范围内。在3/5/25，Altadena高尔夫球场和基督牧羊人路德教堂附近检测到石棉，但在3/8/25则未检测到。",
+    "zh-hant": "所有空氣有毒金屬都在背景水平範圍內。在3/5/25，Altadena高爾夫球場和基督牧羊人路德教堂附近檢測到石棉，但在3/8/25則未檢測到。",
+    "hy": "Օդի բոլոր թունավոր մետաղները ֆոնային մակարդակների սահմաններում են: Ասբեստ է հայտնաբերվել Ալտադենա գոլֆի դաշտի և Քրիստոս Հովիվ լյութերական եկեղեցու մոտ 3/5/25-ին, սակայն այնուհետև չի հայտնաբերվել 3/8/25-ին:"
   },
   "track_progress_eaton_data_list_2": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "To date, continuous PM10 and PM2.5 hourly data were below federal standards."
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "To date, continuous PM10 and PM2.5 hourly data were below federal standards.",
+    "fr": "À ce jour, les données horaires continues de PM10 et PM2,5 étaient inférieures aux normes fédérales.",
+    "es": "Hasta la fecha, los datos horarios continuos de PM10 y PM2.5 estaban por debajo de los estándares federales.",
+    "ko": "현재까지 연속적인 PM10 및 PM2.5 시간별 데이터는 연방 기준 이하였습니다.",
+    "vi": "Cho đến nay, dữ liệu hàng giờ liên tục về PM10 và PM2.5 đều thấp hơn tiêu chuẩn liên bang.",
+    "tl": "Hanggang sa kasalukuyan, ang tuluy-tuloy na PM10 at PM2.5 hourly data ay nasa ilalim ng mga federal standards.",
+    "zh-hans": "迄今为止，连续的PM10和PM2.5每小时数据均低于联邦标准。",
+    "zh-hant": "迄今為止，連續的PM10和PM2.5每小時數據均低於聯邦標準。",
+    "hy": "Մինչ օրս, շարունակական PM10 և PM2.5 ժամային տվյալները եղել են դաշնային ստանդարտներից ցածր:"
   },
   "track_progress_palisades_data_results": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
     "en": "Palisades data results",
     "fr": "Résultats des données des Palisades",
     "es": "Resultados de datos de Palisades",
@@ -1226,34 +1167,61 @@
     "hy": "Փալիսադեսի տվյալների արդյունքներ"
   },
   "track_progress_will_rogers_results_1": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "While some samples are still being analyzed, analysis continues to show levels do not pose an immediate risk to public health. Residents are encouraged to continue following the safety precautions outlined by the Los Angeles County Department of Public Health. "
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "While some samples are still being analyzed, analysis continues to show levels do not pose an immediate risk to public health. Residents are encouraged to continue following the safety precautions outlined by the Los Angeles County Department of Public Health. ",
+    "fr": "Bien que certains échantillons soient encore en cours d'analyse, l'analyse continue de montrer que les niveaux ne présentent pas de risque immédiat pour la santé publique. Les résidents sont encouragés à continuer de suivre les précautions de sécurité décrites par le Département de la Santé Publique du Comté de Los Angeles.",
+    "es": "Aunque algunas muestras todavía están siendo analizadas, el análisis continúa mostrando que los niveles no representan un riesgo inmediato para la salud pública. Se anima a los residentes a seguir las precauciones de seguridad descritas por el Departamento de Salud Pública del Condado de Los Ángeles.",
+    "ko": "일부 샘플은 아직 분석 중이지만, 분석 결과는 계속해서 수준이 공중 보건에 즉각적인 위험을 초래하지 않는다는 것을 보여줍니다. 주민들은 로스앤젤레스 카운티 공중보건부가 제시한 안전 예방 조치를 계속 따르도록 권장됩니다.",
+    "vi": "Mặc dù một số mẫu vẫn đang được phân tích, kết quả phân tích tiếp tục cho thấy mức độ không gây ra nguy cơ tức thì đối với sức khỏe cộng đồng. Cư dân được khuyến khích tiếp tục tuân theo các biện pháp phòng ngừa an toàn được nêu ra bởi Sở Y tế Công cộng Quận Los Angeles.",
+    "tl": "Habang ang ilang mga sample ay patuloy na sinusuri, ang pagsusuri ay patuloy na nagpapakita na ang mga antas ay hindi nagdudulot ng agarang panganib sa kalusugan ng publiko. Ang mga residente ay hinihikayat na patuloy na sundin ang mga pag-iingat sa kaligtasan na nakabalangkas ng Los Angeles County Department of Public Health.",
+    "zh-hans": "虽然一些样本仍在分析中，但分析结果继续表明水平不会对公共健康构成直接风险。鼓励居民继续遵循洛杉矶县公共卫生部概述的安全预防措施。",
+    "zh-hant": "雖然一些樣本仍在分析中，但分析結果繼續表明水平不會對公共健康構成直接風險。鼓勵居民繼續遵循洛杉磯縣公共衛生部概述的安全預防措施。",
+    "hy": "Մինչ որոշ նմուշներ դեռ վերլուծվում են, վերլուծությունը շարունակում է ցույց տալ, որ մակարդակները անմիջական վտանգ չեն ներկայացնում հանրային առողջության համար: Բնակիչներին խրախուսվում է շարունակել հետևել Լոս Անջելես շրջանի Հանրային առողջապահության վարչության կողմից նշված անվտանգության նախազգուշական միջոցներին:"
   },
   "track_progress_will_rogers_results_2": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "Samples from 3/2/25, 3/5/25, and 3/8/25 near Will Rogers State Beach and at Fire Station 69:"
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "Samples from 3/2/25, 3/5/25, and 3/8/25 near Will Rogers State Beach and at Fire Station 69:",
+    "fr": "Échantillons du 2/3/25, 5/3/25 et 8/3/25 près de la plage d'État Will Rogers et à la caserne de pompiers 69 :",
+    "es": "Muestras del 2/3/25, 5/3/25 y 8/3/25 cerca de la playa estatal Will Rogers y en la Estación de Bomberos 69:",
+    "ko": "윌 로저스 주립 해변과 69번 소방서 근처에서 3/2/25, 3/5/25, 3/8/25에 채취한 샘플:",
+    "vi": "Các mẫu từ ngày 2/3/25, 5/3/25 và 8/3/25 gần Bãi biển Tiểu bang Will Rogers và tại Trạm Cứu hỏa 69:",
+    "tl": "Mga sample mula sa 3/2/25, 3/5/25, at 3/8/25 malapit sa Will Rogers State Beach at sa Fire Station 69:",
+    "zh-hans": "3/2/25、3/5/25和3/8/25在威尔·罗杰斯州立海滩附近和69号消防站采集的样本：",
+    "zh-hant": "3/2/25、3/5/25和3/8/25在威爾·羅傑斯州立海灘附近和69號消防站採集的樣本：",
+    "hy": "3/2/25, 3/5/25 և 3/8/25 թվականներին Վիլ Ռոջերս պետական լողափի մոտ և 69-րդ հրշեջ կայանում վերցված նմուշներ."
   },
   "track_progress_pasisades_data_list_1": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "Some air toxic metals were above background levels, but do not pose an immediate health risk. Asbestos was not detected."
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "Some air toxic metals were above background levels, but do not pose an immediate health risk. Asbestos was not detected.",
+    "fr": "Certains métaux toxiques dans l'air étaient au-dessus des niveaux de fond, mais ne présentent pas de risque immédiat pour la santé. L'amiante n'a pas été détectée.",
+    "es": "Algunos metales tóxicos del aire estaban por encima de los niveles de fondo, pero no representan un riesgo inmediato para la salud. No se detectó asbesto.",
+    "ko": "일부 대기 유독성 금속은 배경 수준 이상이었지만, 즉각적인 건강 위험을 초래하지는 않습니다. 석면은 검출되지 않았습니다.",
+    "vi": "Một số kim loại độc hại trong không khí cao hơn mức nền, nhưng không gây ra nguy cơ sức khỏe tức thì. Không phát hiện amiăng.",
+    "tl": "Ang ilang nakakalason na metal sa hangin ay mas mataas sa background levels, ngunit hindi nagdudulot ng agarang panganib sa kalusugan. Hindi nadetect ang asbestos.",
+    "zh-hans": "一些空气有毒金属高于背景水平，但不构成即时健康风险。未检测到石棉。",
+    "zh-hant": "一些空氣有毒金屬高於背景水平，但不構成即時健康風險。未檢測到石棉。",
+    "hy": "Օդի որոշ թունավոր մետաղներ գերազանցել են ֆոնային մակարդակները, սակայն անմիջական առողջական վտանգ չեն ներկայացնում: Ասբեստ չի հայտնաբերվել:"
   },
   "track_progress_pasisades_data_list_2": {
-    "status": "english_only",
-    "comment": "English only translation. Other languages needed",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "To date, continuous PM10 and PM2.5 hourly data were below federal standards."
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "To date, continuous PM10 and PM2.5 hourly data were below federal standards.",
+    "fr": "À ce jour, les données horaires continues de PM10 et PM2,5 étaient inférieures aux normes fédérales.",
+    "es": "Hasta la fecha, los datos horarios continuos de PM10 y PM2.5 estaban por debajo de los estándares federales.",
+    "ko": "현재까지 연속적인 PM10 및 PM2.5 시간별 데이터는 연방 기준 이하였습니다.",
+    "vi": "Cho đến nay, dữ liệu hàng giờ liên tục về PM10 và PM2.5 đều thấp hơn tiêu chuẩn liên bang.",
+    "tl": "Hanggang sa kasalukuyan, ang tuluy-tuloy na PM10 at PM2.5 hourly data ay nasa ilalim ng mga federal standards.",
+    "zh-hans": "迄今为止，连续的PM10和PM2.5每小时数据均低于联邦标准。",
+    "zh-hant": "迄今為止，連續的PM10和PM2.5每小時數據均低於聯邦標準。",
+    "hy": "Մինչ օրս, շարունակական PM10 և PM2.5 ժամային տվյալները եղել են դաշնային ստանդարտներից ցածր:"
   },
   "track_progress_all_results_from_the_stationary_sites_are_available": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/track-progress-shared.html",
-    "en": "All results from the stationary sites are available at South Coast Air Quality Management District's <a href=\"https://www.aqmd.gov/2025-wildfire-response\">2025 Wildfire Response page</a>.",
+    "en": "All results from the stationary sites are available at South Coast Air Quality Management District’s <a href=\"https://www.aqmd.gov/2025-wildfire-response\">2025 Wildfire Response page</a>.",
     "fr": "Tous les résultats des sites fixes sont disponibles sur la <a href=\"https://www.aqmd.gov/2025-wildfire-response\">page de réponse aux feux de forêt 2025</a> du District de gestion de la qualité de l'air de la côte sud.",
     "es": "Todos los resultados de los sitios estacionarios están disponibles en la <a href=\"https://www.aqmd.gov/2025-wildfire-response\">página de Respuesta a Incendios Forestales 2025</a> del Distrito de Gestión de la Calidad del Aire de la Costa Sur.",
     "ko": "고정 사이트의 모든 결과는 남부 해안 대기질 관리국의 <a href=\"https://www.aqmd.gov/2025-wildfire-response\">2025 산불 대응 페이지</a>에서 확인할 수 있습니다.",

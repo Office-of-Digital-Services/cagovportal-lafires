@@ -1,7 +1,6 @@
 {
   "help_business_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Help your business",
     "fr": "Aidez votre entreprise",
     "es": "Ayuda para su negocio",
@@ -14,7 +13,6 @@
   },
   "help_business_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Find support and assistance for local business recovery.",
     "fr": "Trouvez des ressources et des aides pour la récupération de votre entreprise.",
     "es": "Encontrar apoyo y asistencia para la recuperación de negocios locales.",
@@ -27,7 +25,6 @@
   },
   "help_business_lead_text": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Find support and assistance for local business recovery.",
     "fr": "Trouvez des ressources et des aides pour la récupération de votre entreprise.",
     "es": "Encontrar apoyo y asistencia para la recuperación de negocios locales.",
@@ -41,7 +38,6 @@
   "help_business_recovery_centers_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Find a Business Recovery Center",
     "fr": "Trouvez un centre de récupération des entreprises",
     "es": "Encuentre un centro de recuperación de negocios",
@@ -54,7 +50,6 @@
   },
   "help_business_recovery_centers_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Businesses can get in-person help.",
     "fr": "Les entreprises peuvent obtenir de l'aide en personne.",
     "es": "Los negocios pueden obtener ayuda en persona.",
@@ -67,7 +62,6 @@
   },
   "help_business_west_hollywood_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "West Hollywood Chamber of Commerce",
     "fr": "Chambre de commerce de West Hollywood",
     "es": "West Hollywood Chamber of Commerce",
@@ -80,7 +74,6 @@
   },
   "help_business_west_hollywood_address_line_1": {
     "status": "ap_review",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "8272 Santa Monica Blvd.",
     "fr": "8272 Santa Monica Blvd.",
     "es": "8272 Santa Monica Blvd.",
@@ -93,7 +86,6 @@
   },
   "help_business_west_hollywood_address_line_2": {
     "status": "ap_review",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "West Hollywood, CA 90046",
     "fr": "West Hollywood, CA 90046",
     "es": "West Hollywood, CA 90046",
@@ -106,7 +98,6 @@
   },
   "help_business_directions_link_text": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Directions",
     "fr": "Directions",
     "es": "Indicaciones",
@@ -120,7 +111,6 @@
   "help_business_west_hollywood_hours": {
     "status": "ap_review",
     "comment": "original text was truncated, so I added the missing text",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "<strong>Hours open</strong>: Thursday - Saturday, 9 am to 5:30 pm",
     "fr": "<strong>Heures ouvertes</strong>: Jeudi - Samedi, 9 h à 17 h 30",
     "es": "<strong>Horarios de disponibilidad</strong>: Jueves - Sábado, 9 am a 5:30 pm",
@@ -134,7 +124,6 @@
   },
   "help_business_wbc_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Women’s Business Center",
     "fr": "Centre des affaires des femmes",
     "es": "Centro de Negocios para Mujeres",
@@ -147,7 +136,6 @@
   },
   "help_business_wbc_address_line_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "18700 Sherman Way, Suite # 112",
     "fr": "18700 Sherman Way, Suite # 112",
     "es": "18700 Sherman Way, Suite # 112",
@@ -160,7 +148,6 @@
   },
   "help_business_wbc_address_line_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Reseda, CA 91335",
     "fr": "Reseda, CA 91335",
     "es": "Reseda, CA 91335",
@@ -174,7 +161,6 @@
   "help_business_wbc_hours": {
     "status": "ap_review",
     "comment": "original text was truncated, so I added the missing text",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "<strong>Hours open:</strong> Monday - Wednesday, 8:30 am to 5:30",
     "fr": "<strong>Heures ouvertes</strong>: Lundi - Mercredi, 8 h 30 à 17 h 30",
     "es": "<strong>Horarios de disponibilidad:</strong> Lunes - Miércoles, 8:30 am a 5:30 pm",
@@ -188,7 +174,6 @@
   "help_business_wbc_parking": {
     "status": "ap_review",
     "comment": "original text was truncated, so I added the missing text",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "<strong>Parking:</strong> Back of building on Yolanda Ave.",
     "fr": "<strong>Stationnement:</strong> Arrière du bâtiment sur l'avenue Yolanda.",
     "es": "<strong>Estacionamiento:</strong> Parte trasera del edificio en Yolanda Ave.",
@@ -202,7 +187,6 @@
   },
   "help_business_smcc_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Santa Monica Chamber of Commerce",
     "fr": "Chambre de commerce de Santa Monica",
     "es": "Santa Monica Chamber of Commerce",
@@ -215,7 +199,6 @@
   },
   "help_business_smcc_address_line_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "2525 Main Street, Suite #103",
     "fr": "2525 Main Street, Suite #103",
     "es": "2525 Main Street, Suite #103",
@@ -228,7 +211,6 @@
   },
   "help_business_smcc_address_line_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Santa Monica, CA 90405",
     "fr": "Santa Monica, CA 90405",
     "es": "Santa Monica, CA 90405",
@@ -242,7 +224,6 @@
   "help_business_smcc_hours": {
     "status": "ap_review",
     "comment": "original text was truncated, so I added the missing text",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "<strong>Hours open:</strong> Monday - Friday, 9 am to 5 pm",
     "fr": "<strong>Heures ouvertes</strong>: Lundi - Vendredi, 9 h à 17 h",
     "es": "<strong>Horarios de disponibilidad:</strong> Lunes - Viernes, 9 am a 5 pm",
@@ -256,7 +237,6 @@
   },
   "help_business_support_businesses_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Support for businesses",
     "fr": "Support pour les entreprises",
     "es": "Apoyo a los negocios",
@@ -269,7 +249,6 @@
   },
   "help_business_sba_support_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Small business support",
     "fr": "Support pour les entreprises",
     "es": "Apoyo a pequeñas empresas",
@@ -282,7 +261,6 @@
   },
   "help_business_sba_support_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "by Small Business Administration (SBA)",
     "fr": "par Small Business Administration (SBA)",
     "es": "de la Administración de Pequeñas Empresas (Small Business Administration, SBA)",
@@ -296,7 +274,6 @@
   "help_business_sba_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "The deadline to apply for loans to repair damage to your business was <strong>March 31, 2025</strong>.",
     "fr": "La date limite pour demander des prêts pour réparer les dommages à votre entreprise était le <strong>31 mars 2025</strong>.",
     "es": "El plazo para solicitar préstamos para reparar daños a su empresa fue el <strong>31 de marzo de 2025</strong>.",
@@ -310,7 +287,6 @@
   "help_business_sba_description2": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "You can still apply for a loan to cover economic losses. The deadline to apply for that is <strong>October 25, 2025</strong>.",
     "fr": "Vous pouvez toujours demander un prêt pour couvrir les pertes économiques. La date limite pour demander ce prêt est le <strong>25 octobre 2025</strong>.",
     "es": "Aún puede solicitar un préstamo para cubrir las pérdidas económicas. El plazo para solicitar ese préstamo es el <strong>25 de octubre de 2025</strong>.",
@@ -323,7 +299,6 @@
   },
   "help_business_edd_assistance_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Emergency and disaster assistance for employers",
     "fr": "Aide et assistance pour les employeurs en cas d'urgence et de catastrophe",
     "es": "Asistencia por emergencias y catástrofes para empleadores",
@@ -336,7 +311,6 @@
   },
   "help_business_edd_assistance_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "by Employment Development Department (EDD)",
     "fr": "par Employment Development Department (EDD)",
     "es": "del Departamento de Desarrollo de Empleo (Employment Development Department, EDD)",
@@ -349,7 +323,6 @@
   },
   "help_business_edd_assistance_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "EDD offers services to support employers impacted by disasters. This includes disaster relief payments, extensions for payments, and payroll reports.",
     "fr": "EDD offre des services pour soutenir les employeurs touchés par les catastrophes. Cela inclut les paiements de secours en cas de catastrophe, les extensions pour les paiements et les rapports de paie.",
     "es": "El EDD ofrece servicios para apoyar a empleadores afectados por catástrofes. Esto incluye pagos de subsidio por catástrofe, extensiones de pagos e informes de la nómina.",
@@ -362,7 +335,6 @@
   },
   "help_business_calosba_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Resources and steps for business recovery",
     "fr": "Ressources et étapes pour la récupération commerciale",
     "es": "Recursos y pasos para la recuperación de negocios",
@@ -375,7 +347,6 @@
   },
   "help_business_calosba_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "by California Office of the Small Business Advocate (CalOSBA)",
     "fr": "par California Office of the Small Business Advocate (CalOSBA)",
     "es": "de la Oficina del Defensor de la Pequeñas Empresas de California (California Office of the Small Business Advocate, CalOSBA)",
@@ -388,7 +359,6 @@
   },
   "help_business_calosba_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "CalOSBA offers resources and support for businesses and workers impacted by the wildfires. This includes financial help, recovery programs, and workforce support.",
     "fr": "CalOSBA offre des ressources et un soutien pour les entreprises et les travailleurs touchés par les incendies de forêts. Cela inclut l'aide financière, les programmes de récupération et le soutien à la main-d'œuvre.",
     "es": "CalOSBA ofrece recursos y apoyo a las empresas y los trabajadores afectados por los incendios forestales. Esto incluye ayuda financiera, programas de recuperación y apoyo financiero.",
@@ -403,7 +373,6 @@
   "help_business_sba_title": {
     "status": "ap_delivery",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Small business support",
     "fr": "Support pour les entreprises",
     "es": "Apoyo a pequeñas empresas",
@@ -417,7 +386,6 @@
   "help_business_sba_source": {
     "status": "ap_delivery",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Small business support",
     "fr": "Support pour les entreprises",
     "es": "Apoyo a pequeñas empresas",
@@ -431,7 +399,6 @@
   "help_business_sba_description3": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "The deadline to apply for an SBA loan has passed (March 31, 2025).",
     "fr": "La date limite pour demander un prêt SBA est passée (31 mars 2025).",
     "es": "La fecha límite para solicitar un préstamo de la SBA ha pasado (31 de marzo de 2025).",
@@ -444,7 +411,6 @@
   },
   "help_business_relief_fund_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "LA Region Small Business Relief Fund",
     "fr": "Fonds de secours pour les petites entreprises de la région de Los Angeles",
     "es": "Fondo de ayuda para pequeñas empresas de la región de LA",
@@ -457,7 +423,6 @@
   },
   "help_business_relief_fund_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "by City and County of Los Angeles",
     "fr": "par la ville et le comté de Los Angeles",
     "es": "de la ciudad y el condado de Los Ángeles (LA)",
@@ -470,7 +435,6 @@
   },
   "help_business_relief_fund_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "LA County businesses and nonprofits can get cash grants from $2,000 to $25,000. Submit your application by March 12.",
     "fr": "Les entreprises et les organisations sans but lucratif de Los Angeles County peuvent recevoir des subventions en espèces de 2 000 $ à 25 000 $. Soumettez votre candidature avant le 12 mars.",
     "es": "Las empresas y subsidios del condado de LA pueden obtener subsidios en efectivo de $2,000 a $25,000. Envíe su solicitud antes del 12 de marzo.",
@@ -483,7 +447,6 @@
   },
   "help_business_tax_help_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Tax help and relief",
     "fr": "Aide et assistance fiscale",
     "es": "Ayuda y asistencia fiscal",
@@ -496,7 +459,6 @@
   },
   "help_business_business_taxes_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Business income taxes",
     "fr": "Impôts sur le revenu des entreprises",
     "es": "Impuestos sobre ingresos de negocios",
@@ -509,7 +471,6 @@
   },
   "help_business_business_taxes_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "by Franchise Tax Board (FTB)",
     "fr": "par Franchise Tax Board (FTB)",
     "es": "dela Junta de Impuestos de Franquicias (Franchise Tax Board, FTB)",
@@ -522,7 +483,6 @@
   },
   "help_business_business_taxes_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Businesses impacted by the wildfires may postpone filing and paying income taxes. The deadline for them is now October 15, 2025. Only Los Angeles County was granted postponement. If the principal place of business is outside of Los Angeles County, you must file and pay by the normal due dates.",
     "fr": "Les entreprises touchées par les incendies de forêts peuvent reporter le paiement et le dépôt de leurs impôts sur le revenu. La date limite pour eux est maintenant le 15 octobre 2025. Seul le comté de Los Angeles a été autorisé à reporter. Si le siège social principal est situé en dehors du comté de Los Angeles, vous devez déposer et payer par les dates d'échéance normales.",
     "es": "Las empresas afectadas por los incendios forestales pueden posponer la presentación y el pago de impuestos sobre los ingresos. La fecha límite para estos servicios es el 15 de octubre de 2025. Se concedió el aplazamiento solo en el condado de Los Ángeles. Si el lugar principal de la empresa está fuera del condado de Los Ángeles, debe presentar una declaración de impuestos y pagar antes de las fechas de vencimiento normales.",
@@ -535,7 +495,6 @@
   },
   "help_business_sales_tax_relief_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Emergency sales tax or fee relief",
     "fr": "Relief fiscal des ventes en cas d'urgence",
     "es": "Impuesto sobre las ventas de emergencias o asistencia con la tarifa",
@@ -548,7 +507,6 @@
   },
   "help_business_sales_tax_relief_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "by CA Department of Tax and Fee Administration (CDTFA)",
     "fr": "par CA Department of Tax and Fee Administration (CDTFA)",
     "es": "del Departamento de Administración de Impuestos y Tarifas de California (California Department of Tax and Fee Administration, CDTFA)",
@@ -561,7 +519,6 @@
   },
   "help_business_sales_tax_relief_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Get emergency relief from penalties and interest. You can also get copies of tax records and up to a 3- month filing extension on your taxes.",
     "fr": "Obtenir un relèvement d'urgence des pénalités et des intérêts. Vous pouvez également obtenir des copies des enregistrements fiscaux et une extension de 3 mois pour le dépôt de vos impôts.",
     "es": "Obtener asistencia de emergencia por multas e intereses. También puede obtener copias de los registros fiscales y hasta una extensión de 3 meses para presentar sus impuestos.",
@@ -574,7 +531,6 @@
   },
   "help_business_payroll_taxes_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Payroll taxes",
     "fr": "Impôts sur la paie",
     "es": "Impuestos de la nómina",
@@ -587,7 +543,6 @@
   },
   "help_business_payroll_taxes_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "by Employment Development Department (EDD)",
     "fr": "par Employment Development Department (EDD)",
     "es": "del Departamento de Desarrollo de Empleo (Employment Development Department, EDD)",
@@ -599,23 +554,20 @@
     "hy": "Աշխատողների զարգացման վարչության (Employment Development Department, EDD) կողմից"
   },
   "help_business_payroll_taxes_description": {
-    "status": "ap_english_mismatch",
-    "comment": "original text was truncated, so I added the missing text",
-    "src_file": "pages/lafires/help-your-business-shared.html",
-    "orig_en": "Employers in Los Angeles and Ventura Counties directly affected by the Palisades Fire may request up to a two-month extension. Businesses may have extensions to",
+    "status": "ap_review",
+    "comment": "machine translated",
     "en": "Employers in Los Angeles and Ventura Counties directly affected by the Palisades Fire may request up to a two-month extension. Businesses may have extensions to file their state payroll reports.",
     "fr": "Les employeurs des comtés de Los Angeles et de Ventura directement touchés par le feu de la Palisades peuvent demander une extension de deux mois. Les entreprises peuvent avoir des extensions pour déposer leurs rapports de paie d'État.",
     "es": "Los empleadores de los condados de Los Ángeles y Ventura afectados directamente por el incendio de Palisades pueden solicitar una extensión de hasta dos meses. Es posible que las empresas tengan extensión para presentar sus informes de nómina estatales.",
-    "ko": "팰리세이드 화재로 직접 영향을 받은 로스앤젤레스와 벤투라 카운티의 고용주는 최대 2개월까지 연장을 요청할 수 있습니다. 기업은 주 정부 급여 보고서 제출 기한을 연장할 수 있습니다.",
+    "ko": "팰리세이즈 화재로 직접 영향을 받은 로스앤젤레스와 벤투라 카운티의 고용주는 최대 2개월까지 연장을 요청할 수 있습니다. 기업은 주 정부 급여 보고서 제출 기한을 연장할 수 있습니다.",
     "vi": "Chủ hãng ở các Quận Los Angeles và Ventura bị ảnh hưởng trực tiếp do Đám Cháy Palisades có thể yêu cầu gia hạn tối đa hai tháng. Doanh nghiệp có thể được gia hạn thời gian nộp báo cáo bảng lương cho tiểu bang.",
     "tl": "Ang mga employer sa County ng Los Angeles at County ng Ventura na direktang naapektuhan ng Sunog sa Palisades ay puwedeng humiling ng hanggang dalawang buwang palugit. Ang mga negosyo ay puwedeng magkaroon ng mga palugit para maihain ang kanilang mga ulat ng payroll sa estado.",
-    "zh-hans": "受 Palisades（帕利塞兹）大火火灾影响的洛杉矶县和文图拉县的雇主可申请最长两个月的延期。企业可申请延期提交州级工资税报告。",
-    "zh-hant": "直接受 Palisades 火災影響的洛杉磯縣和Ventura縣的雇主可以要求最多延長兩個月。企業可以申請延期提交他們的州工資報告。",
+    "zh-hans": "受帕利塞兹大火影响的洛杉矶县和文图拉县的雇主可申请最长两个月的延期。企业可申请延期提交州级工资税报告。",
+    "zh-hant": "直接受帕利塞兹火災影響的洛杉磯縣和文圖拉縣的雇主可以要求最多延長兩個月。企業可以申請延期提交他們的州工資報告。",
     "hy": "Լոս Անջելես և Վենտուրա վարչաշրջանների գործատուները, որոնք ուղղակիորեն տուժել են Պալիսեյդսի հրդեհից, կարող են պահանջել երկարաձգում մինչև երկու ամիս ժամկետով: Բիզնեսները կարող են ունենալ երկարաձգումներ՝ իրենց աշխատավարձի նահանգային հաշվետվությունները ներկայացնելու համար:"
   },
   "help_business_file_payroll_reports_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "File their state payroll reports:",
     "fr": "Déposer leurs rapports de paie d'État :",
     "es": "presentar los informes de la nómina del estado:",
@@ -628,7 +580,6 @@
   },
   "help_business_file_payroll_reports_link_text": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Reporting extension",
     "fr": "Extension de déclaration",
     "es": "extensión del informe",
@@ -641,7 +592,6 @@
   },
   "help_business_deposit_payroll_taxes_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Deposit payroll taxes without penalty or interest:",
     "fr": "Déposer les impôts sur la paie sans pénalité ou intérêt :",
     "es": "depositar los impuestos de la nómina sin multas ni intereses:",
@@ -654,7 +604,6 @@
   },
   "help_business_deposit_payroll_taxes_link_text": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Payroll tax extension",
     "fr": "Extension de l'impôt sur la paie",
     "es": "extensión del impuesto de la nómina",
@@ -667,7 +616,6 @@
   },
   "help_business_property_tax_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Property tax",
     "fr": "Impôt sur la propriété",
     "es": "Impuesto sobre la propiedad",
@@ -680,7 +628,6 @@
   },
   "help_business_property_tax_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "by the State of California and LA County",
     "fr": "par l'État de Californie et le comté de Los Angeles",
     "es": "del condado de Los Ángeles y el estado de California",
@@ -693,7 +640,6 @@
   },
   "help_business_property_tax_full_description_with_link_markup": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "The state <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">extended the property tax deadline</a> for businesses affected by the LA fires. You can apply for property tax reassessment with the <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">Los Angeles County Assessor</a>. Learn more about <a href=\"https://www.boe.ca.gov/proptaxes/disaster-relief.htm\">property tax reassessments and base year value transfers</a>.",
     "fr": "L'État a <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">prolongé la date limite pour l'impôt sur la propriété</a> pour les entreprises touchées par les incendies de Los Angeles. Vous pouvez demander une réévaluation de l'impôt sur la propriété avec le <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">Los Angeles County Assessor</a>. En savoir plus sur <a href=\"https://www.boe.ca.gov/proptaxes/disaster-relief.htm\">la réévaluation de l'impôt sur la propriété et les transferts de valeur de l'année de base</a>.",
     "es": "El estado <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">extendió la fecha límite de impuestos a la propiedad</a> para las empresas afectadas por los incendios de LA. Puede solicitar una reevaluación fiscal de la propiedad con el <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">tasador del condado de Los Ángeles</a>. Obtenga más información sobre las <a href=\"https://www.boe.ca.gov/proptaxes/disaster-relief.htm\">reevaluaciones de impuestos a la propiedad y las transferencias de valor del año base</a>.",
@@ -708,7 +654,6 @@
   "get_free_debris_removal_title": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Get free debris removal",
     "fr": "Obtenir le nettoyage gratuit des débris",
     "es": "Obtener el limpieza gratuita de escombros",
@@ -722,7 +667,6 @@
   "get_free_debris_removal_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Business owners can now get free debris removal for their commercial properties.",
     "fr": "Les propriétaires d'entreprises peuvent maintenant obtenir un nettoyage gratuit des débris pour leurs propriétés commerciales.",
     "es": "Los propietarios de negocios ahora pueden obtener un limpieza gratuita de escombros para sus propiedades comerciales.",
@@ -736,7 +680,6 @@
   "get_free_debris_removal_description2": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Some commercial properties will not qualify. But LA County encourages you to opt in just in case.",
     "fr": "Certaines propriétés commerciales ne seront pas éligibles. Mais le comté de Los Angeles vous incitera à vous inscrire juste au cas où.",
     "es": "Algunas propiedades comerciales no serán elegibles. Pero el condado de Los Ángeles le animará a inscribirse solo en caso de que.",
@@ -750,7 +693,6 @@
   "get_free_debris_removal_description3": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "You must <strong>opt in by April 15, 2025</strong>.",
     "fr": "Vous devez <strong>vous inscrire avant le 15 avril 2025</strong>.",
     "es": "Debe <strong>optar por el 15 de abril de 2025</strong>.",
@@ -764,7 +706,6 @@
   "get_free_debris_removal_button": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/help-your-business-shared.html",
     "en": "Opt in for free removal",
     "fr": "S'inscrire pour le nettoyage gratuit",
     "es": "Inscribirse para el limpieza gratuita",

@@ -1,0 +1,590 @@
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/topic1-lineart.svg?v2') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">{{'help_online_lead_text' | i18n}}</p>
+
+      <nav class="page-navigation"></nav>
+
+      <div
+        class="section-primary p-a-md m-t-sm d-flex align-items-top pos-rel transition-0_3 transform-scale-1_05--hover">
+        <img
+          src="/lafires/images/recovery-finder-icon.svg"
+          alt="{{ 'help_online_recovery_services_finder_icon_alt' | i18n }}"
+          class="height-30 m-r-sm" />
+        <p class="m-b-0">
+          <a
+            href="{{ '/lafires/recovery-services-finder/' | localizedPath }}"
+            class="m-t-lg bold link-before"
+            >{{ 'help_online_recovery_services_finder_title' | i18n }}</a
+          ><br />
+          {{ 'help_online_recovery_services_finder_description' | i18n }}
+        </p>
+      </div>
+
+      <div class="bg-gray-100 p-a-md m-t-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="color-p2-darker m-b-0">
+          {{ 'help_online_disaster_relief_navigator' | i18n | safe }}
+        </p>
+      </div>
+
+      <h2 class="m-b-0">{{ 'help_online_shelter_heading' | i18n }}</h2>
+
+      <div class="row">
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://www.fema.gov/assistance/individual/program"
+                class="color-p2 text-left d-block"
+                >{{ 'help_online_shelter_list_title' | i18n }}</a
+              >
+            </h3>
+            <p class="m-b text-left">
+              {{ 'help_online_shelter_list_description' | i18n }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0">{{ 'help_online_food_heading' | i18n }}</h2>
+
+      <div class="row">
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://myfamily.wic.ca.gov/Home/HowCanIGetWIC#HowCanIGetWIC"
+                class="color-p2 text-left d-block"
+                >{{ 'help_online_wic_title' | i18n }}</a
+              >
+            </h3>
+            <p class="m-b text-left">
+              {{ 'help_online_wic_description' | i18n }}
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://benefitscal.com/"
+                class="color-p2 text-left d-block"
+                >{{ 'help_online_calfresh_title' | i18n }}</a
+              >
+            </h3>
+            <p class="m-b text-left">
+              {{ 'help_online_calfresh_description' | i18n }} >.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://cdss.ca.gov/food-banks"
+                class="color-p2 text-left d-block"
+                >{{ 'help_online_food_banks_title' | i18n }}</a
+              >
+            </h3>
+            <p class="m-b text-left">
+              {{ 'help_online_food_banks_description' | i18n }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0">{{ 'help_online_pet_help_title' | i18n }}</h2>
+      <div class="row">
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              {{ 'help_online_pet_help_description' | i18n }}
+            </h3>
+            <ul>
+              <li class="m-t">{{ 'help_online_lost_a_pet' | i18n }}</li>
+              <li class="m-t">{{ 'help_online_had_to_leave_a_pet' | i18n }}</li>
+              <li class="m-t">
+                {{ 'help_online_need_shelter_for_your_pet' | i18n }}
+              </li>
+            </ul>
+            <p>
+              {{
+              'help_online_visit_california_animal_response_emergency_support' |
+              i18n | safe }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0">{{ 'help_online_mental_health_heading' | i18n }}</h2>
+      <div class="row">
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://www.cdss.ca.gov/Portals/13/Press%20Releases/2025/CDSS_News_Release-Crisis_Counseling.pdf"
+                class="color-p2 text-left d-block"
+                >{{ 'help_online_free_crisis_counseling' | i18n }}</a
+              >
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              {{ 'help_online_available_online_or_in_person' | i18n }}
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://www.chhs.ca.gov/youthresources/"
+                class="color-p2 text-left d-block"
+                >{{ 'help_online_mental_health_resources_for_youth' | i18n }}</a
+              >
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              {{ 'help_online_by_california_health_and_human_services_agency' |
+              i18n }}
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://crisiscare.org/wildfire-relief/"
+                class="color-p2 text-left d-block"
+                >{{ 'help_online_wildfire_relief' | i18n }}</a
+              >
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              {{ 'help_online_from_didi_hirsch_suicide_prevention_center' | i18n
+              }}
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/"
+                class="color-p2 text-left d-block"
+                >{{ 'help_online_disaster_mental_health_resources' | i18n }}</a
+              >
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              {{
+              'help_online_from_los_angeles_county_department_of_mental_health'
+              | i18n }}
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              <a
+                href="https://www.cdph.ca.gov/Programs/EPO/Pages/Wildfire%20Pages/Wildfires--Mental-Health.aspx#:~:text=Communications%20Toolkit-,Wildfires%20%26%20Mental%20Health,-Emotional%20recovery%20after"
+                class="color-p2 text-left d-block"
+                >{{ 'help_online_wildfires_and_mental_health' | i18n }}</a
+              >
+            </h3>
+            <p class="text-sm font-size-15 text-left gray-600">
+              {{ 'help_online_from_california_department_of_public_health' |
+              i18n }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2 id="Replacing-your-personal-documents" class="m-b-0">
+        {{ 'help_online_replacing_personal_documents_heading' | i18n }}
+      </h2>
+
+      <div class="row">
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">{{ 'help_online_ids_title' | i18n }}</h3>
+            <ul>
+              <li class="m-t">
+                <a href="https://www.ssa.gov/number-card/replace-card"
+                  >{{ 'help_online_social_security_card' | i18n }}</a
+                >
+              </li>
+              <li class="m-t">
+                <a
+                  href="https://travel.state.gov/content/travel/en/passports/have-passport.html"
+                  >{{ 'help_online_us_passport' | i18n }}</a
+                >
+              </li>
+              <li class="m-t">
+                <a href="https://idco.dmdc.osd.mil/idco/"
+                  >{{ 'help_online_military_veteran_id' | i18n }}</a
+                >
+              </li>
+              <li class="m-t">
+                <a
+                  href="https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/replace-your-driver-license-or-identification-dl-id-card/"
+                  >{{ 'help_online_drivers_license' | i18n }}</a
+                >
+                <p>{{ 'help_online_no_fees_to_replace_cards' | i18n }}</p>
+              </li>
+              <ul>
+                <li class="m-t">{{ 'help_online_dmv_phone' | i18n | safe}}</li>
+
+                <li class="m-t">
+                  {{ 'help_online_dmv_tty_phone' | i18n | safe}}
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              {{ 'help_online_citizenship_heading' | i18n }}
+            </h3>
+            <ul>
+              <li class="m-t">
+                <a href="https://www.uscis.gov/n-565"
+                  >{{ 'help_online_naturalization_certificate' | i18n }}</a
+                >
+              </li>
+              <li class="m-t">
+                <a
+                  href="https://www.uscis.gov/green-card/after-we-grant-your-green-card/replace-your-green-card"
+                  >{{ 'help_online_green_card' | i18n }}</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b text-left">
+              {{ 'help_online_titles_heading' | i18n }}
+            </h3>
+            <ul class="text-left">
+              <li>
+                <a
+                  href="https://www.dmv.ca.gov/portal/dmv-virtual-office/replacement-title/"
+                  class="color-p2 text-left"
+                  >{{ 'help_online_vehicle_titles' | i18n }}</a
+                >
+                <p>{{ 'help_online_no_fees_to_replace_titles' | i18n }}</p>
+              </li>
+
+              <ul>
+                <li class="m-t text-left">
+                  {{ 'help_online_dmv_phone' | i18n | safe}}
+                </li>
+                <li class="m-t text-left">
+                  {{ 'help_online_dmv_tty_phone' | i18n | safe}}
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12 m-t-md">
+        <div
+          class="bg-white text-left p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+          <h3 class="h5 m-t-md m-b">
+            {{ 'help_online_birth_marriage_death_heading' | i18n }}
+          </h3>
+          <p>{{ 'help_online_see_how_to_order' | i18n }}</p>
+          <a
+            href="{{ '/lafires/vital-records/' | localizedPath }}"
+            class="btn btn-primary btn-lg m-y-md">
+            {{ 'help_online_get_copies_button' | i18n }}
+          </a>
+        </div>
+      </div>
+      <div>
+        <h2>{{ 'help_online_employment_heading' | i18n }}</h2>
+
+        <div class="row">
+          <div class="col-lg-12 m-t-md">
+            <div
+              class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded">
+              <h3 class="h5">{{ 'help_online_edd_services_title' | i18n }}</h3>
+              <p class="m-t-md">{{ 'help_online_get_help_with' | i18n }}</p>
+              <ul>
+                <li class="m-t">
+                  {{ 'help_online_state_unemployment' | i18n | safe }}
+                </li>
+                <li class="m-t">
+                  {{ 'help_online_federal_disaster_unemployment' | i18n | safe
+                  }}
+                </li>
+                <li class="m-t">
+                  {{ 'help_online_state_disability' | i18n | safe }}
+                </li>
+                <li class="m-t">
+                  {{ 'help_online_job_opportunities' | i18n | safe }}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h2>{{ 'help_online_housing_repairs_legal_heading' | i18n }}</h2>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="m-t mb-2">
+            {{ 'help_online_fema_assistance_title' | i18n }}
+          </h3>
+          <p class="bold">{{ 'help_online_fema_deadline' | i18n }}</p>
+          <p>{{ 'help_online_fema_description' | i18n }}</p>
+          <ul>
+            <li class="m-t">
+              {{ 'help_online_fema_assistance_list_housing' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_fema_assistance_list_repairs' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_fema_assistance_list_disabilities' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_fema_assistance_list_legal' | i18n }}
+            </li>
+          </ul>
+
+          <p>{{ 'help_online_fema_news_updates' | i18n | safe }}</p>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="m-t mb-2">
+            {{ 'help_online_mortgage_relief_heading' | i18n }}
+          </h3>
+          <p>{{ 'help_online_mortgage_relief_description' | i18n }}</p>
+          <ul>
+            <li class="m-t">
+              {{ 'help_online_mortgage_relief_list_1' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_mortgage_relief_list_2' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_mortgage_relief_list_3' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_mortgage_relief_list_4' | i18n }}
+            </li>
+          </ul>
+
+          <div class="bg-gray-100 p-a-md m-t-md m-b-md">
+            <p class="color-p2-darker m-b-0">
+              {{ 'help_online_mortgage_relief_note' | i18n }}
+            </p>
+          </div>
+
+          <p>{{ 'help_online_mortgage_relief_resources' | i18n | safe }}</p>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="m-t mb-2">
+            {{ 'help_online_foreclosure_protection_title' | i18n }}
+          </h3>
+          <p>{{ 'help_online_foreclosure_protection_description' | i18n }}</p>
+
+          <ul>
+            <li class="m-t">
+              {{ 'help_online_foreclosure_protection_list_1' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_foreclosure_protection_list_2' | i18n }}
+            </li>
+          </ul>
+
+          <p>
+            {{ 'help_online_foreclosure_protection_description_2' | i18n | safe
+            }}
+          </p>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="m-t mb-2">
+            {{ 'help_online_renter_protection_heading' | i18n }}
+          </h3>
+          <p>
+            <strong
+              >{{ 'help_online_renter_protection_eviction_title' | i18n
+              }}</strong
+            >
+          </p>
+          <p>{{ 'help_online_renter_protection_description' | i18n | safe }}</p>
+
+          <p>
+            {{ 'help_online_renter_protection_city_description' | i18n | safe }}
+          </p>
+          <ul>
+            <li class="m-t">
+              {{ 'help_online_renter_protection_eligibility_1' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_renter_protection_eligibility_2' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_renter_protection_eligibility_3' | i18n }}
+            </li>
+          </ul>
+
+          <p>{{ 'help_online_renter_protection_note_1' | i18n }}</p>
+          <p>{{ 'help_online_renter_protection_note_2' | i18n | safe }}</p>
+
+          <p>
+            <strong
+              >{{ 'help_online_renter_protection_mediation_title' | i18n
+              }}</strong
+            ><br />
+
+            {{ 'help_online_renter_protection_mediation' | i18n | safe }}
+          </p>
+        </div>
+
+        <h2>{{ 'help_online_help_for_immigrants_heading' | i18n }}</h2>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="h5 m-t-md m-b text-left">
+            {{ 'help_online_immigrants_guide_title' | i18n }}
+          </h3>
+          <p class="text-left">
+            {{ 'help_online_immigrants_guide_description' | i18n | safe }}
+          </p>
+          <ul>
+            <li class="m-t">
+              {{ 'help_online_immigrants_guide_languages_1' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_immigrants_guide_languages_2' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_immigrants_guide_languages_3' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_immigrants_guide_languages_4' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_immigrants_guide_languages_5' | i18n }}
+            </li>
+          </ul>
+        </div>
+
+        <h2>{{ 'help_online_student_loans_heading' | i18n }}</h2>
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <p class="text-sm font-size-15 text-left gray-600">
+            {{ 'help_online_student_loans_source' | i18n | safe }}
+          </p>
+          <p class="text-left">
+            {{ 'help_online_student_loans_description' | i18n | safe }}<br />
+
+            {{ 'help_online_student_loans_faq' | i18n | safe }}
+          </p>
+        </div>
+
+        <h2>{{ 'help_online_avoiding_price_gouging_heading' | i18n }}</h2>
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="h5 m-t-sm m-b">
+            <a href="https://oag.ca.gov/LAFires"
+              >{{ 'help_online_price_gouging_protection_title' | i18n }}</a
+            >
+          </h3>
+          <p class="text-left">
+            {{ 'help_online_price_gouging_protection_source' | i18n | safe }}
+          </p>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="h5 m-t-sm m-b">
+            <a href="https://dcba.lacounty.gov/portfolio/price-gouging/"
+              >{{ 'help_online_price_gouging_info_title' | i18n }}</a
+            >
+          </h3>
+          <p class="text-left">
+            {{ 'help_online_price_gouging_info_source' | i18n | safe }}
+          </p>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="h5 m-t-sm m-b">
+            <a
+              href="https://dcba.3diengage.com/FrontPortal/Page/RenderPage?tabId=27&searchParameter=srTypeId%3D17"
+              >{{ 'help_online_price_gouging_complaint_title' | i18n }}</a
+            >
+          </h3>
+          <p class="text-left">
+            {{ 'help_online_price_gouging_complaint_source' | i18n | safe }}
+          </p>
+        </div>
+
+        <div class="bg-white brd-gray-200 brd-solid-1 rounded-10 p-a-md m-t-md">
+          <h3 class="h5 m-t-sm m-b">
+            <a href="https://cityoflaprod.service-now.com/pgc"
+              >{{ 'help_online_price_gouging_la_complaint_title' | i18n }}</a
+            >
+          </h3>
+          <p class="text-left">
+            {{ 'help_online_price_gouging_la_complaint_source' | i18n | safe }}
+          </p>
+        </div>
+
+        <h2>{{ 'help_online_more_county_resources_heading' | i18n }}</h2>
+        <p>
+          {{ 'help_online_more_county_resources_description' | i18n | safe }}
+        </p>
+
+        <ul>
+          <li class="m-t">{{ 'help_online_seniors' | i18n }}</li>
+          <li class="m-t">{{ 'help_online_disabled_people' | i18n }}</li>
+          <li class="m-t">{{ 'help_online_animals' | i18n }}</li>
+          <li class="m-t">{{ 'help_online_children' | i18n }}</li>
+          <li class="m-t">{{ 'help_online_mental_health' | i18n }}</li>
+          <li class="m-t">{{ 'help_online_much_more' | i18n }}</li>
+        </ul>
+
+        <p>{{ 'help_online_language_note' | i18n }}</p>
+        <p>{{ 'help_online_salvation_army_description' | i18n | safe}}</p>
+      </div>
+    </div>
+  </div>
+</div>

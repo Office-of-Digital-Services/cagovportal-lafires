@@ -1,7 +1,6 @@
 {
   "stay_healthy_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Stay healthy",
     "fr": "Restez en bonne santé",
     "es": "Mantenerse saludable",
@@ -14,7 +13,6 @@
   },
   "stay_healthy_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Find out how to stay healthy after a wildfire.",
     "fr": "Découvrez comment rester en bonne santé après un feu de forêt.",
     "es": "Aprenda cómo mantenerse saludable después de un incendio forestal.",
@@ -27,7 +25,6 @@
   },
   "stay_healthy_keywords": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "California, government, LA, Los Angeles, fires, wildfires, air safety, water safety",
     "fr": "Californie, gouvernement, LA, Los Angeles, incendies, feux de forêt, sécurité de l'air, sécurité de l'eau",
     "es": "California, gobierno, LA, Los Ángeles, incendios, seguridad del aire, seguridad del agua",
@@ -40,7 +37,6 @@
   },
   "stay_healthy_lead_text": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Learn how to stay safe and healthy during recovery.",
     "fr": "Apprenez comment rester en sécurité et en bonne santé pendant la période de rétablissement.",
     "es": "Obtenga información sobre cómo mantenerse seguro y saludable durante la recuperación.",
@@ -53,7 +49,6 @@
   },
   "stay_healthy_air_safety_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Air safety",
     "fr": "Sécurité de l'air",
     "es": "Seguridad del aire",
@@ -66,7 +61,6 @@
   },
   "stay_healthy_understand_air_quality": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Understand air quality and how to protect yourself from toxins.",
     "fr": "Comprendre la qualité de l'air et comment se protéger des toxines.",
     "es": "Comprenda la calidad del aire y cómo protegerse de las toxinas.",
@@ -79,7 +73,6 @@
   },
   "stay_healthy_outdoor_air_quality_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Outdoor air quality",
     "fr": "Qualité de l'air extérieur",
     "es": "Calidad del aire en exteriores",
@@ -91,8 +84,7 @@
     "hy": "Դրսի օդի որակ"
   },
   "stay_healthy_outdoor_air_quality": {
-    "status": "avantpage_delivery", 
-    "src_file": "pages/lafires/stay-healthy-shared.html",
+    "status": "avantpage_delivery",
     "en": "Now that the fires are out, air quality has improved. But you can check the <a href=\"https://www.aqmd.gov/\">air quality index (AQI)</a> from South Coast Air Quality Monitoring District.",
     "fr": "Maintenant que les incendies sont éteints, la qualité de l'air s'est améliorée. Mais vous pouvez vérifier l'<a href=\"https://www.aqmd.gov/\">indice de qualité de l'air (IQA)</a> du district de surveillance de la qualité de l'air de la côte sud.",
     "es": "Ahora que se han apagado los incendios, la calidad del aire ha mejorado. Pero puede revisar el <a href=\"https://www.aqmd.gov/\">índice de calidad del aire</a> del Distrito de Monitoreo de la Calidad del Aire de la Costa Sur.",
@@ -106,7 +98,6 @@
   },
   "stay_healthy_air_quality_monitoring": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "See <a href=\"/lafires/track-progress/#Air-quality\">how air quality is monitored in your area</a>.",
     "fr": "Voir <a href=\"/lafires/fr/track-progress/#Air-quality\">comment la qualité de l'air est surveillée dans votre région</a>.",
     "es": "Vea <a href=\"/lafires/es/track-progress/#Air-quality\">cómo se monitorea la calidad del aire en su área</a>.",
@@ -120,7 +111,6 @@
   },
   "stay_healthy_indoor_air_quality_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Indoor air quality",
     "fr": "Qualité de l'air intérieur",
     "es": "Calidad del aire en interiores",
@@ -133,7 +123,6 @@
   },
   "stay_healthy_indoor_air_quality": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "There may be toxins still in your home from smoke and ash. Wear a respirator and other protection when you return home.",
     "fr": "Il peut encore y avoir des toxines dans votre maison provenant de la fumée et des cendres. Portez un respirateur et d'autres protections lorsque vous rentrez chez vous.",
     "es": "Es posible que aún haya toxinas en su hogar por el humo y las cenizas. Use un aparato respiratorio y otras protecciones cuando regrese a casa.",
@@ -146,7 +135,6 @@
   },
   "stay_healthy_water_safety_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Water safety",
     "fr": "Sécurité de l'eau",
     "es": "Seguridad del agua",
@@ -159,8 +147,7 @@
   },
   "stay_healthy_water_safety": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
-    "en": "The fires contaminated some water systems. Find the <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">latest information on water safety</a> from your water provider. Check your water bill to find your provider. If you're a renter, ask your landlord.",
+    "en": "The fires contaminated some water systems. Find the <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">latest information on water safety</a> from your water provider. Check your water bill to find your provider. If you’re a renter, ask your landlord.",
     "fr": "Les incendies ont contaminé certains systèmes d'eau. Trouvez les <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">dernières informations sur la sécurité de l'eau</a> auprès de votre fournisseur d'eau. Vérifiez votre facture d'eau pour trouver votre fournisseur. Si vous êtes locataire, demandez à votre propriétaire.",
     "es": "Los incendios contaminaron algunos sistemas de agua. Encuentre la <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">información más reciente sobre la seguridad del agua</a> de su proveedor de agua. Revise su factura de agua para encontrar a su proveedor. Si usted alquila su hogar, pregúntele al propietario.",
     "ko": "화재로 인해 일부 상수도 시스템이 오염되었습니다. 물 공급업체로부터 <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">수질 안전에 대한 최신 정보</a>를 받아보십시오. 수도 요금 청구서에서 공급업체를 확인하십시오. 임차인인 경우 임대인에게 문의하십시오.",
@@ -173,7 +160,6 @@
   },
   "stay_healthy_water_safety_notice": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "If your water provider sent a notice, your water may not be safe to use, drink, or boil. If you got a notice like that, use bottled water for:",
     "fr": "Si votre fournisseur d'eau a envoyé un avis, votre eau peut ne pas être sûre à utiliser, à boire ou à faire bouillir. Si vous avez reçu un tel avis, utilisez de l'eau en bouteille pour :",
     "es": "Si su proveedor de agua le envió una notificación, es posible que su agua no sea segura para usar, beber o hervir. Si recibió un aviso como este, use agua embotellada para:",
@@ -186,7 +172,6 @@
   },
   "stay_healthy_drinking": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Drinking",
     "fr": "Boire",
     "es": "beber",
@@ -199,7 +184,6 @@
   },
   "stay_healthy_baby_formula": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Baby formula",
     "fr": "Préparation pour nourrissons",
     "es": "preparar fórmula para bebés",
@@ -212,7 +196,6 @@
   },
   "stay_healthy_brushing_teeth": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Brushing teeth",
     "fr": "Se brosser les dents",
     "es": "cepillarse los dientes",
@@ -225,7 +208,6 @@
   },
   "stay_healthy_washing_dishes": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Washing dishes",
     "fr": "Laver la vaisselle",
     "es": "lavar los platos",
@@ -238,7 +220,6 @@
   },
   "stay_healthy_making_ice": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Making ice",
     "fr": "Faire des glaçons",
     "es": "hacer hielo",
@@ -251,7 +232,6 @@
   },
   "stay_healthy_preparing_food": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Preparing food",
     "fr": "Préparer la nourriture",
     "es": "preparar su comida",
@@ -264,7 +244,6 @@
   },
   "stay_healthy_feeding_pets": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Feeding pets",
     "fr": "Nourrir les animaux domestiques",
     "es": "dar de beber o preparar el alimento de sus mascotas",
@@ -277,8 +256,7 @@
   },
   "stay_healthy_water_notice_lifted": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
-    "en": "If your water provider lifted the water notice in your area, you can use tap water again. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Flush your water pipes</a> to clear the contaminated water from your home. Keep in mind that home water testing kits aren't reliable.",
+    "en": "If your water provider lifted the water notice in your area, you can use tap water again. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Flush your water pipes</a> to clear the contaminated water from your home. Keep in mind that home water testing kits aren’t reliable.",
     "fr": "Si votre fournisseur d'eau a levé l'avis concernant l'eau dans votre région, vous pouvez à nouveau utiliser l'eau du robinet. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Rincez vos canalisations</a> pour éliminer l'eau contaminée de votre maison. Gardez à l'esprit que les kits de test d'eau domestique ne sont pas fiables.",
     "es": "Si su proveedor de agua dio de baja la notificación de agua en su área, puede volver a usar agua del grifo. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Descargue el agua de las tuberías</a> para eliminar el agua contaminada de su hogar. Tenga en cuenta que los kits de prueba de agua para el hogar no son confiables.",
     "ko": "물 공급업체가 귀하가 거주하는 지역의 수질 관련 공지를 해제한 경우, 수돗물을 다시 사용할 수 있습니다. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">수도관을 세척</a>하여 가정에서 오염된 물을 제거하십시오. 가정용 수질 테스트 키트는 신뢰할 수 없습니다.",
@@ -291,7 +269,6 @@
   },
   "stay_healthy_beach_water_quality": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Also, check for <a href=\"http://publichealth.lacounty.gov/phcommon/public/eh/water_quality/beach_grades.cfm/\">beach water quality advisories</a>. Rain can wash toxins from the fires into the ocean.",
     "fr": "Vérifiez également les <a href=\"http://publichealth.lacounty.gov/phcommon/public/eh/water_quality/beach_grades.cfm/\">avis sur la qualité de l'eau des plages</a>. La pluie peut entraîner les toxines des incendies dans l'océan.",
     "es": "Además, consulte los <a href=\"http://publichealth.lacounty.gov/phcommon/public/eh/water_quality/beach_grades.cfm/\">avisos sobre la calidad del agua de la playa</a>. La lluvia puede arrastrar las toxinas de los incendios al mar.",
@@ -305,7 +282,6 @@
   },
   "stay_healthy_staying_safe_at_home_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Staying safe at home",
     "fr": "Rester en sécurité à la maison",
     "es": "Quédese a salvo en casa",
@@ -318,7 +294,6 @@
   },
   "stay_healthy_staying_safe_at_home_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Once you get a pass to return home, be aware of toxic materials and ash.",
     "fr": "Une fois que vous avez l'autorisation de rentrer chez vous, faites attention aux matériaux toxiques et aux cendres.",
     "es": "Una vez que obtenga la autorización para regresar a casa, tenga en cuenta los materiales tóxicos y las cenizas.",
@@ -331,7 +306,6 @@
   },
   "stay_healthy_clearing_hazardous_waste_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Clearing hazardous waste",
     "fr": "Élimination des déchets dangereux",
     "es": "Quitar los residuos peligrosos",
@@ -344,7 +318,6 @@
   },
   "stay_healthy_clearing_hazardous_waste_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "The EPA has removed household hazardous waste from burned properties.",
     "fr": "L'EPA a retiré les déchets dangereux domestiques des propriétés brûlées.",
     "es": "La Agencia de Protección Ambiental (Environmental Protection Agency, EPA) retiró los residuos peligrosos de las propiedades que se quemaron.",
@@ -357,7 +330,6 @@
   },
   "stay_healthy_hazardous_waste_removal_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "They removed toxic and explosive materials they can see. This includes things like paints, batteries, and propane tanks. This service was automatic and there’s no cost to you.",
     "fr": "Ils ont retiré les matériaux toxiques et explosifs visibles. Cela comprend des choses comme les peintures, les batteries et les réservoirs de propane. Ce service était automatique et gratuit pour vous.",
     "es": "Retiró los materiales tóxicos y explosivos que se podían ver. Esto incluye cosas como pinturas, baterías y tanques de propano. Este servicio se hizo de forma automática y no implicó ningún costo para usted.",
@@ -370,7 +342,6 @@
   },
   "stay_healthy_hazardous_waste_removal_notice_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "If you still see hazardous waste after the EPA cleared your home, leave it alone. It is toxic and could spark more fires. If you hear a popping or hissing noise or see smoke, leave the area immediately and call 911.",
     "fr": "Si vous voyez encore des déchets dangereux après que l'EPA ait nettoyé votre maison, ne les touchez pas. Ils sont toxiques et pourraient déclencher d'autres incendies. Si vous entendez un bruit de crépitement ou de sifflement ou si vous voyez de la fumée, quittez immédiatement la zone et appelez le 911.",
     "es": "Si aún ve residuos peligrosos después de que la EPA haya limpiado su hogar, no los toque. Son tóxicos y pueden provocar más incendios. Si escucha un chasquido o ve humo, abandone el área de inmediato y llame al 911.",
@@ -382,8 +353,7 @@
     "hy": "Եթե EPA-ի կողմից Ձեր տունը մաքրելուց հետո դեռևս վտանգավոր թափոններ եք տեսնում, ձեռք մի տվեք դրանց: Այն թունավոր է և կարող է ավելի շատ հրդեհներ առաջացնել: Եթե լսում եք ճթճթան կամ ֆսսացող ձայն, կամ ծուխ եք տեսնում, անմիջապես լքեք տարածքը և զանգահարեք 911։"
   },
   "stay_healthy_worker_safety_description": {
-    "status": "avantpage_delivery", 
-    "src_file": "pages/lafires/stay-healthy-shared.html",
+    "status": "avantpage_delivery",
     "en": "If you are a worker at a fire cleanup site, find out how to <a href=\"https://www.dir.ca.gov/wildfire-faq.html\">stay safe while you work</a>.",
     "fr": "Si vous êtes un travailleur sur un site de nettoyage d'incendie, découvrez comment <a href=\"https://www.dir.ca.gov/wildfire-faq.html\">rester en sécurité pendant votre travail</a>.",
     "es": "Si usted es trabajador en un sitio de limpieza de incendios, descubra cómo <a href=\"https://www.dir.ca.gov/wildfire-faq.html\">mantenerse seguro mientras trabaja</a>.",
@@ -397,21 +367,19 @@
   },
   "stay_healthy_learn_more_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
-    "en": "Learn more about the <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA cleanup</a> and the <a href=\"/lafires/return-to-your-home-safely/\">next cleanup phase</a>.",
-    "fr": "En savoir plus sur le <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">nettoyage de l'EPA</a> et la <a href=\"/lafires/fr/return-to-your-home-safely/\">prochaine phase de nettoyage</a>.",
-    "es": "Obtenga más información sobre la <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">limpieza de la EPA </a> y la <a href=\"/lafires/es/return-to-your-home-safely/\">próxima fase de limpieza</a>.",
-    "ko": "<a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 청소</a> 및 <a href=\"/lafires/ko/return-to-your-home-safely/\">다음 청소 단계</a>에 대해 자세히 알아보십시오.",
-    "vi": "Tìm hiểu thêm về <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">công việc dọn dẹp của EPA</a> và <a href=\"/lafires/vi/return-to-your-home-safely/\">giai đoạn dọn dẹp tiếp theo</a>.",
-    "tl": "Alamin pa ang tungkol sa <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">paglilinis ng EPA</a> at sa <a href=\"/lafires/tl/return-to-your-home-safely/\">susunod na yugto ng paglilinis</a>.",
-    "zh-hans": "详细了解 <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 的清理工作</a>和<a href=\"/lafires/zh-hans/return-to-your-home-safely/\">下一阶段清理工作</a>。",
-    "zh-hant": "了解有關 <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 清理</a> 和 <a href=\"/lafires/zh-hant/return-to-your-home-safely/\">下個清理階段</a> 的更多資訊。",
-    "hy": "Իմացեք ավելին <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA մաքրումների</a> և <a href=\"/lafires/hy/return-to-your-home-safely/\">հաջորդ մաքրման փուլի</a> մասին:",
+    "en": "Learn more about the <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA cleanup</a> and the <a href=\"/lafires/accessing-your-property/\">next cleanup phase</a>.",
+    "fr": "En savoir plus sur le <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">nettoyage de l'EPA</a> et la <a href=\"/lafires/fr/accessing-your-property/\">prochaine phase de nettoyage</a>.",
+    "es": "Obtenga más información sobre la <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">limpieza de la EPA </a> y la <a href=\"/lafires/es/accessing-your-property/\">próxima fase de limpieza</a>.",
+    "ko": "<a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 청소</a> 및 <a href=\"/lafires/ko/accessing-your-property/\">다음 청소 단계</a>에 대해 자세히 알아보십시오.",
+    "vi": "Tìm hiểu thêm về <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">công việc dọn dẹp của EPA</a> và <a href=\"/lafires/vi/accessing-your-property/\">giai đoạn dọn dẹp tiếp theo</a>.",
+    "tl": "Alamin pa ang tungkol sa <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">paglilinis ng EPA</a> at sa <a href=\"/lafires/tl/accessing-your-property/\">susunod na yugto ng paglilinis</a>.",
+    "zh-hans": "详细了解 <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 的清理工作</a>和<a href=\"/lafires/zh-hans/accessing-your-property/\">下一阶段清理工作</a>。",
+    "zh-hant": "了解有關 <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA 清理</a> 和 <a href=\"/lafires/zh-hant/accessing-your-property/\">下個清理階段</a> 的更多資訊。",
+    "hy": "Իմացեք ավելին <a href=\"https://file.lacounty.gov/SDSInter/lac/1176389_EPAPhaseIHouseholdHazardousWasteFactSheet.pdf\">EPA մաքրումների</a> և <a href=\"/lafires/hy/accessing-your-property/\">հաջորդ մաքրման փուլի</a> մասին:",
     "orig_en": "Learn more about the <link1>EPA cleanup</link1> and the <link2>next cleanup phase</link2>."
   },
   "stay_healthy_ash_dust_and_debris_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Ash, dust, and debris",
     "fr": "Cendres, poussière et débris",
     "es": "Ceniza, polvo y escombros",
@@ -424,7 +392,6 @@
   },
   "stay_healthy_ash_dust_and_debris_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Protect yourself from ash, dust, and debris. They may contain toxic and cancer-causing chemicals like asbestos, arsenic, and lead. Limit contact with these materials.",
     "fr": "Protégez-vous des cendres, de la poussière et des débris. Ils peuvent contenir des produits chimiques toxiques et cancérigènes comme l'amiante, l'arsenic et le plomb. Limitez le contact avec ces matériaux.",
     "es": "Protéjase de la ceniza, el polvo y los escombros. Pueden tener sustancias químicas tóxicas y cancerígenas, como asbesto, arsénico y plomo. Limite el contacto con estos materiales.",
@@ -437,7 +404,6 @@
   },
   "stay_healthy_sensitive_groups_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Some groups are more sensitive to these materials. They should stay away from debris and the cleanup. They include:",
     "fr": "Certains groupes sont plus sensibles à ces matériaux. Ils doivent rester à l'écart des débris et du nettoyage. Ils comprennent :",
     "es": "Algunos grupos son más sensibles a estos materiales. Deberían permanecer lejos de los escombros y la limpieza. Estos grupos incluyen:",
@@ -450,7 +416,6 @@
   },
   "stay_healthy_people_with_heart_or_lung_disease": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "People with heart or lung disease (like asthma)",
     "fr": "Les personnes atteintes de maladies cardiaques ou pulmonaires (comme l'asthme)",
     "es": "personas con enfermedad cardíaca o pulmonar (como asma)",
@@ -463,7 +428,6 @@
   },
   "stay_healthy_older_adults": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Older adults",
     "fr": "Les personnes âgées",
     "es": "adultos mayores",
@@ -476,7 +440,6 @@
   },
   "stay_healthy_pregnant_women": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Pregnant women",
     "fr": "Les femmes enceintes",
     "es": "mujeres embarazadas",
@@ -489,7 +452,6 @@
   },
   "stay_healthy_children": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Children",
     "fr": "Les enfants",
     "es": "niños",
@@ -502,7 +464,6 @@
   },
   "stay_healthy_pets": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Pets",
     "fr": "Les animaux domestiques",
     "es": "mascotas",
@@ -515,7 +476,6 @@
   },
   "stay_healthy_ash_dust_and_debris_clean_home": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "If you can see ash and smell smoke, you need to clean your home. No laboratory test can determine if your property is safe.",
     "fr": "Si vous pouvez voir des cendres et sentir la fumée, vous devez nettoyer votre maison. Aucun test de laboratoire ne peut déterminer si votre propriété est sûre.",
     "es": "Si puede ver la ceniza y oler el humo, debe limpiar su casa. Ninguna prueba de laboratorio puede determinar si su propiedad es segura.",
@@ -527,9 +487,8 @@
     "hy": "Եթե Դուք կարող եք տեսնել մոխիրը և զգալ ծուխը, ապա պետք է մաքրել Ձեր տունը: Ոչ մի լաբորատոր հետազոտություն չի կարող որոշել, թե արդյոք Ձեր անշարժ գույքն ապահով է:"
   },
   "stay_healthy_ash_dust_and_debris_keep_ash_from_spreading": {
-    "status": "ap_review", 
+    "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Keep ash from spreading by wet mopping. Put debris and ash in a plastic trash bag and throw them away with your regular trash. If ash gets on your skin, wash with warm water and soap as soon as possible. Stay safe by wearing:",
     "fr": "Empêchez la propagation des cendres en passant la serpillière humide. Mettez les débris et les cendres dans un sac poubelle en plastique et jetez-les avec vos ordures habituelles. Si des cendres entrent en contact avec votre peau, lavez-vous à l'eau tiède et au savon dès que possible. Restez en sécurité en portant:",
     "es": "Evite que la ceniza se propague usando un trapeador húmedo. Coloque los escombros y la ceniza en una bolsa de basura de plástico y tírelos con su basura regular. Si la ceniza entra en contacto con su piel, lávese con agua tibia y jabón lo antes posible. Manténgase seguro usando:",
@@ -542,8 +501,7 @@
   },
   "stay_healthy_n_100_or_p_100_respirator": {
     "status": "ap_review",
-    "comment": "Machine translated", 
-    "src_file": "pages/lafires/stay-healthy-shared.html",
+    "comment": "Machine translated",
     "en": "N-100 or P-100 respirator",
     "fr": "Un respirateur N-100 ou P-100",
     "es": "Respirador N-100 o P-100",
@@ -557,7 +515,6 @@
   "stay_healthy_rubber_gloves": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Rubber gloves",
     "fr": "Des gants en caoutchouc",
     "es": "Guantes de goma",
@@ -569,9 +526,8 @@
     "hy": "Ռետինե ձեռնոցներ"
   },
   "stay_healthy_booties": {
-    "status": "ap_review", 
+    "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Booties",
     "fr": "Des sur-chaussures",
     "es": "Botitas protectoras",
@@ -584,8 +540,7 @@
   },
   "stay_healthy_long_sleeved_shirts": {
     "status": "ap_review",
-    "comment": "Machine translated", 
-    "src_file": "pages/lafires/stay-healthy-shared.html",
+    "comment": "Machine translated",
     "en": "Long-sleeved shirts",
     "fr": "Des chemises à manches longues",
     "es": "Camisas de manga larga",
@@ -599,7 +554,6 @@
   "stay_healthy_long_pants": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html", 
     "en": "Long pants",
     "fr": "Des pantalons longs",
     "es": "Pantalones largos",
@@ -613,7 +567,6 @@
   "stay_healthy_socks_and_shoes": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Socks and shoes",
     "fr": "Des chaussettes et des chaussures",
     "es": "Calcetines y zapatos",
@@ -627,7 +580,6 @@
   "stay_healthy_safety_goggles": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Safety goggles (not glasses)",
     "fr": "Des lunettes de sécurité (pas des lunettes ordinaires)",
     "es": "Gafas de seguridad (no anteojos normales)",
@@ -640,8 +592,7 @@
   },
   "stay_healthy_n95_masks_cannot_protect_from_asbestos": {
     "status": "ap_review",
-    "comment": "Machine translated", 
-    "src_file": "pages/lafires/stay-healthy-shared.html",
+    "comment": "Machine translated",
     "en": "N95 masks cannot protect you from asbestos. Learn more about the <a href=\"https://www.dir.ca.gov/dosh/fire_resp_protection.html\">respiratorsthat can protect you</a>. You can get personal protective equipment at a <a href=\"/lafires/get-help-in-person/\">Disaster Recovery Center</a>.",
     "fr": "Les masques N95 ne peuvent pas vous protéger de l'amiante. En savoir plus sur les <a href=\"https://www.dir.ca.gov/dosh/fire_resp_protection.html\">respirateurs qui peuvent vous protéger</a>. Vous pouvez obtenir des équipements de protection individuelle dans un <a href=\"/lafires/fr/get-help-in-person/\">Centre de rétablissement après sinistre</a>.",
     "es": "Las mascarillas N95 no pueden protegerlo del asbesto. Obtenga más información sobre los <a href=\"https://www.dir.ca.gov/dosh/fire_resp_protection.html\">respiradores que pueden protegerlo</a>. Puede obtener equipo de protección personal en un <a href=\"/lafires/es/get-help-in-person/\">Centro de Recuperación por Desastre</a>.",
@@ -653,9 +604,8 @@
     "hy": "N95 դիմակները չեն կարող պաշտպանել Ձեզ ասբեստից: Իմացեք ավելին <a href=\"https://www.dir.ca.gov/dosh/fire_resp_protection.html\">Ձեզ պաշտպանող ռեսպիրատորների</a> մասին: Դուք կարող եք անհատական պաշտպանիչ սարքավորումներ ստանալ <a href=\"/lafires/hy/get-help-in-person/\">Աղետներից վերականգնման կենտրոնում</a>:"
   },
   "stay_healthy_dealing_with_dust_and_debris_when_returning_home": {
-    "status": "ap_review", 
+    "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Learn more about <a href=\"https://recovery.lacounty.gov/returning-after-a-fire-public-health\">dealing with dust and debris</a> when returning home.",
     "fr": "En savoir plus sur la <a href=\"https://recovery.lacounty.gov/returning-after-a-fire-public-health\">gestion de la poussière et des débris</a> lors du retour à la maison.",
     "es": "Obtenga más información sobre cómo <a href=\"https://recovery.lacounty.gov/returning-after-a-fire-public-health\">manejar el polvo y los escombros</a> al regresar a casa.",
@@ -668,8 +618,7 @@
   },
   "stay_healthy_health_and_wellness_heading": {
     "status": "ap_review",
-    "comment": "Machine translated", 
-    "src_file": "pages/lafires/stay-healthy-shared.html",
+    "comment": "Machine translated",
     "en": "Health and wellness",
     "fr": "Santé et bien-être",
     "es": "Salud y bienestar",
@@ -683,7 +632,6 @@
   "stay_healthy_medical_help_heading": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Medical help",
     "fr": "Aide médicale",
     "es": "Ayuda médica",
@@ -697,7 +645,6 @@
   "stay_healthy_medical_help_description": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "<a href=\"https://aspr.hhs.gov/EPAP/Pages/epap-for-patients.aspx\">Get the medicine you need</a> through the federal Emergency Prescription Assistance Program. This program helps people without insurance replace prescriptions or medical equipment.",
     "fr": "<a href=\"https://aspr.hhs.gov/EPAP/Pages/epap-for-patients.aspx\">Obtenez les médicaments dont vous avez besoin</a> grâce au Programme fédéral d'assistance aux prescriptions d'urgence. Ce programme aide les personnes sans assurance à remplacer leurs prescriptions ou leur équipement médical.",
     "es": "<a href=\"https://aspr.hhs.gov/EPAP/Pages/epap-for-patients.aspx\">Obtenga los medicamentos que necesita</a> a través del Programa Federal de Asistencia para Medicamentos de Emergencia. Este programa ayuda a las personas sin seguro a reemplazar recetas o equipo médico.",
@@ -711,7 +658,6 @@
   "stay_healthy_get_help_in_person_description": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Get help in person at a <a href=\"/lafires/get-help-in-person/\">Disaster Recovery Center</a>. Nurses can connect you with referrals and access to medications.",
     "fr": "Obtenez de l'aide en personne dans un <a href=\"/lafires/fr/get-help-in-person/\">Centre de rétablissement après sinistre</a>. Les infirmières peuvent vous mettre en relation avec des références et l'accès aux médicaments.",
     "es": "Obtenga ayuda en persona en un <a href=\"/lafires/es/get-help-in-person/\">Centro de Recuperación por Desastre</a>. Las enfermeras pueden conectarlo con referencias y acceso a medicamentos.",
@@ -725,7 +671,6 @@
   "stay_healthy_health_insurance_description": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "If you need health insurance, you may be able to get <a href=\"https://dpss.lacounty.gov/en/health.html\">Medi-Cal</a>.",
     "fr": "Si vous avez besoin d'une assurance maladie, vous pourriez être éligible à <a href=\"https://dpss.lacounty.gov/en/health.html\">Medi-Cal</a>.",
     "es": "Si necesita seguro médico, es posible que pueda obtener <a href=\"https://dpss.lacounty.gov/en/health.html\">Medi-Cal</a>.",
@@ -739,7 +684,6 @@
   "stay_healthy_mental_health_heading": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Mental health",
     "fr": "Santé mentale",
     "es": "Salud mental",
@@ -753,7 +697,6 @@
   "stay_healthy_mental_health_description": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Navigating disaster recovery is stressful and overwhelming. Get mental and emotional support for yourself and your loved ones.",
     "fr": "Naviguer dans le rétablissement après un sinistre est stressant et accablant. Obtenez un soutien mental et émotionnel pour vous-même et vos proches.",
     "es": "Navegar por la recuperación de desastres es estresante y abrumador. Obtenga apoyo mental y emocional para usted y sus seres queridos.",
@@ -767,7 +710,6 @@
   "stay_healthy_calhope_warm_line_description": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Call the <a href=\"https://www.calhope.org/\">CalHOPE Warm Line</a>, a 24/7 peer-run hotline. It gives free and confidential emotional support. Find more <a href=\"https://www.cdph.ca.gov/Programs/EPO/Pages/Wildfire%20Pages/Wildfires--Mental-Health.aspx\">free and confidential support</a> for youth and adults.",
     "fr": "Appelez la <a href=\"https://www.calhope.org/\">ligne d'assistance CalHOPE</a>, une ligne d'assistance gérée par des pairs disponible 24h/24 et 7j/7. Elle offre un soutien émotionnel gratuit et confidentiel. Trouvez plus de <a href=\"https://www.cdph.ca.gov/Programs/EPO/Pages/Wildfire%20Pages/Wildfires--Mental-Health.aspx\">soutien gratuit et confidentiel</a> pour les jeunes et les adultes.",
     "es": "Llame a la <a href=\"https://www.calhope.org/\">Línea de Apoyo CalHOPE</a>, una línea directa atendida por pares las 24 horas del día, los 7 días de la semana. Brinda apoyo emocional gratuito y confidencial. Encuentre más <a href=\"https://www.cdph.ca.gov/Programs/EPO/Pages/Wildfire%20Pages/Wildfires--Mental-Health.aspx\">apoyo gratuito y confidencial</a> para jóvenes y adultos.",
@@ -781,7 +723,6 @@
   "stay_healthy_employee_assistance_program_description": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Check if your workplace has an Employee Assistance Program. They may offer confidential counseling and support.",
     "fr": "Vérifiez si votre lieu de travail dispose d'un Programme d'aide aux employés. Ils peuvent offrir des conseils et un soutien confidentiels.",
     "es": "Verifique si su lugar de trabajo tiene un Programa de Asistencia al Empleado. Pueden ofrecer asesoramiento y apoyo confidencial.",
@@ -795,7 +736,6 @@
   "stay_healthy_benefits_for_disaster_injuries_heading": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "Benefits for disaster injuries",
     "fr": "Prestations pour les blessures liées aux catastrophes",
     "es": "Beneficios por lesiones por desastres",
@@ -809,7 +749,6 @@
   "stay_healthy_benefits_for_disaster_injuries_description": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "If you or your loved ones have injuries from the wildfires, you may be eligible for benefits.",
     "fr": "Si vous ou vos proches avez des blessures causées par les feux de forêt, vous pourriez être éligible à des prestations.",
     "es": "Si usted o sus seres queridos tienen lesiones por los incendios forestales, puede ser elegible para beneficios.",
@@ -823,7 +762,6 @@
   "stay_healthy_disability_insurance_description": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "<a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">Disability Insurance</a> provides short-term wages if an injury prevents you from working.",
     "fr": "L'<a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">assurance invalidité</a> fournit des salaires à court terme si une blessure vous empêche de travailler.",
     "es": "El <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">Seguro de Discapacidad</a> proporciona salarios a corto plazo si una lesión le impide trabajar.",
@@ -837,7 +775,6 @@
   "stay_healthy_paid_family_leave_description": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/stay-healthy-shared.html",
     "en": "<a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">Paid Family Leave</a> provides benefits if you need to take time off work to care for a seriously ill family member.",
     "fr": "Le <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">congé familial payé</a> fournit des prestations si vous devez prendre un congé pour vous occuper d'un membre de la famille gravement malade.",
     "es": "La <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">Licencia Familiar Pagada</a> proporciona beneficios si necesita tomar tiempo libre del trabajo para cuidar a un familiar gravemente enfermo.",

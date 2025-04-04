@@ -1,7 +1,6 @@
 {
   "sidenav_2025_los_angeles_fires": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "2025 Los Angeles fires",
     "es": "Incendios de Los Ángeles en 2025",
     "ko": "2025년 로스앤젤레스 화재",
@@ -13,7 +12,6 @@
   },
   "sidenav_get_help_online": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Get help online",
     "fr": "Obtenir de l'aide en ligne",
     "es": "Obtenga ayuda en línea",
@@ -26,7 +24,6 @@
   },
   "sidenav_recovery_services_finder": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Recovery services finder",
     "fr": "Recherche de services de récupération",
     "es": "Buscador de servicios de recuperación",
@@ -39,7 +36,6 @@
   },
   "sidenav_vital_records": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Vital records",
     "fr": "Certificats de naissance, mariage et décès",
     "es": "Documentos del registro civil",
@@ -52,7 +48,6 @@
   },
   "sidenav_get_help_in_person": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Get help in person",
     "fr": "Obtenir de l'aide en personne",
     "es": "Obtenga ayuda en persona",
@@ -65,7 +60,6 @@
   },
   "sidenav_plan_your_in_person_visit": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Plan your in-person visit",
     "fr": "Planifier votre visite en personne",
     "es": "Planee su visita en persona",
@@ -78,7 +72,6 @@
   },
   "sidenav_see_real_time_info": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "See real-time info",
     "fr": "Voir les informations en temps réel",
     "es": "Vea información en tiempo real",
@@ -91,7 +84,6 @@
   },
   "sidenav_start_your_recovery": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Start your recovery",
     "fr": "Commencez votre récupération",
     "es": "Comience la recuperación",
@@ -102,21 +94,21 @@
     "zh-hant": "開始恢復",
     "hy": "Սկսել վերականգնումը"
   },
-  "sidenav_return_to_your_home_safely": {
-    "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
-    "en": "Return to your home safely",
-    "es": "Regrese a su hogar a salvo",
-    "ko": "집으로 안전하게 돌아가기",
-    "vi": "Trở về nhà an toàn",
-    "tl": "Ligtas na bumalik sa iyong tahanan",
-    "zh-hans": "安全返家指南",
-    "zh-hant": "安全返回家中",
-    "hy": "Անվտանգ վերադարձ տուն"
+  "sidenav_accessing_your_property": {
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "Accessing your property",
+    "fr": "Accéder à votre propriété",
+    "es": "Acceder a su propiedad",
+    "ko": "소유 재산 접근",
+    "vi": "Truy cập vào tài sản của bạn",
+    "tl": "Pumunta sa iyong property",
+    "zh-hans": "访问您的财产",
+    "zh-hant": "訪問您的財產",
+    "hy": "Անձնական գույքի այլասերման միջոցներ"
   },
   "sidenav_cleanup_and_debris_removal": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Cleanup and debris removal",
     "es": "Limpieza y remoción de escombros",
     "ko": "청소 및 잔해 제거",
@@ -128,7 +120,6 @@
   },
   "sidenav_steps_to_rebuilding": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Steps to rebuilding",
     "es": "Pasos para la reconstrucción",
     "ko": "재건 단계",
@@ -140,7 +131,6 @@
   },
   "sidenav_help_your_business": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Help your business",
     "es": "Ayuda para su negocio",
     "ko": "비즈니스 지원",
@@ -152,7 +142,6 @@
   },
   "sidenav_volunteer": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Volunteer",
     "es": "Ser voluntario",
     "ko": "자원봉사",
@@ -164,7 +153,6 @@
   },
   "sidenav_stay_healthy": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
     "en": "Stay healthy",
     "es": "Mantenerse saludable",
     "ko": "건강 유지",
@@ -176,8 +164,7 @@
   },
   "sidenav_track_las_progress": {
     "status": "avantpage_delivery",
-    "src_file": "src/_includes/dynamic-sidenav.html",
-    "en": "Track LA's progress",
+    "en": "Track LA’s progress",
     "es": "Siga el progreso de Los Ángeles",
     "ko": "LA의 진행 상황 추적",
     "vi": "Theo dõi tiến độ của LA",
