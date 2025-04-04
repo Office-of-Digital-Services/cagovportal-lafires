@@ -1,7 +1,6 @@
 {
   "plan_visit_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Plan your in-person visit",
     "fr": "Planifier votre visite en personne",
     "es": "Planee su visita en persona",
@@ -14,7 +13,6 @@
   },
   "plan_visit_breadcrumb_parent": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help in person",
     "fr": "Obtenir de l'aide en personne",
     "es": "Obtenga ayuda en persona",
@@ -27,7 +25,6 @@
   },
   "plan_visit_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Use this checklist to find the resources you need at a Disaster Recovery Center. It covers the most common services.",
     "fr": "Utilisez ce formulaire pour trouver les ressources dont vous avez besoin au centre de récupération des dommages. Il couvre les services les plus courants.",
     "es": "Use esta lista para encontrar los recursos que necesita en un centro de recuperación por catástrofes. Enumera los servicios más comunes.",
@@ -40,7 +37,6 @@
   },
   "plan_visit_share_button": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Share",
     "fr": "Partager",
     "es": "Compartir",
@@ -54,7 +50,6 @@
   "plan_visit_share_aria_label": {
     "status": "ap_review",
     "comment": "Machine translated aria label",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Share checklist",
     "fr": "Partager le formulaire",
     "es": "Compartir el formulario",
@@ -67,7 +62,6 @@
   },
   "plan_visit_english_pdf": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "English PDF",
     "fr": "PDF en anglais",
     "es": "PDF en inglés",
@@ -80,7 +74,6 @@
   },
   "plan_visit_more_languages": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "More languages",
     "fr": "Plus de langues",
     "es": "Más idiomas",
@@ -93,7 +86,6 @@
   },
   "plan_visit_spanish_pdf": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Español (Spanish) PDF",
     "fr": "PDF en espagnol",
     "es": "PDF en español",
@@ -106,7 +98,6 @@
   },
   "plan_visit_chinese_simplified_pdf": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "简体中文 (Simplified Chinese) PDF",
     "fr": "PDF en chinois simplifié",
     "es": "简体中文 (PDF en chino simplificado)",
@@ -119,7 +110,6 @@
   },
   "plan_visit_chinese_traditional_pdf": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "繁體中文 (Traditional Chinese) PDF",
     "fr": "PDF en chinois traditionnel",
     "es": "繁體 (PDF en chino tradicional)",
@@ -132,7 +122,6 @@
   },
   "plan_visit_tagalog_pdf": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Tagalog (Filipino) PDF",
     "fr": "PDF en tagalog",
     "es": "PDF en tagalog",
@@ -145,7 +134,6 @@
   },
   "plan_visit_vietnamese_pdf": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Việt (Vietnamese) PDF",
     "fr": "PDF en vietnamien",
     "es": "PDF en vietnamita",
@@ -158,7 +146,6 @@
   },
   "plan_visit_korean_pdf": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "한국인 (Korean) PDF",
     "fr": "PDF en coréen",
     "es": "한국인 (PDF en coreano)",
@@ -171,7 +158,6 @@
   },
   "plan_visit_health_section": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Health",
     "fr": "Santé",
     "es": "Salud",
@@ -184,7 +170,6 @@
   },
   "plan_visit_health_wildfire": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Find out how to stay healthy during a wildfire",
     "fr": "Découvrez comment rester en bonne santé pendant un incendie de forêt",
     "es": "Aprenda cómo mantenerse saludable durante un incendio forestal",
@@ -197,7 +182,6 @@
   },
   "plan_visit_health_wildfire_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Department of Public Health (CDPH)",
     "fr": "Département de la santé publique de Californie (CDPH)",
     "es": "Departamento de Salud Pública de California (California Department of Public Health, CDPH)",
@@ -210,7 +194,6 @@
   },
   "plan_visit_health_n95": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get N95s and public health information",
     "fr": "Obtenir des N95 et des informations sur la santé publique",
     "es": "Obtener cubrebocas N95 e información de salud pública",
@@ -223,7 +206,6 @@
   },
   "plan_visit_health_n95_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Department of Public Health, Environmental Health Division (DPH)",
     "fr": "Département de la santé publique de Los Angeles, Division de l'hygiène environnementale (DPH)",
     "es": "Departamento de Salud Pública (Department of Public Health, DPH) del condado de Los Ángeles, División de Salud Ambiental",
@@ -236,7 +218,6 @@
   },
   "plan_visit_health_medical": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help accessing medical services",
     "fr": "Obtenir de l'aide pour accéder aux services médicaux",
     "es": "Obtener ayuda para acceder a los servicios médicos:",
@@ -249,7 +230,6 @@
   },
   "plan_visit_health_medical_prescription": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Prescription medication refills",
     "fr": "Remplissage de médicaments de prescription",
     "es": "resurtir sus medicamentos recetados",
@@ -262,7 +242,6 @@
   },
   "plan_visit_health_medical_referrals": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Service referrals",
     "fr": "Références de services",
     "es": "referencias de servicio",
@@ -275,7 +254,6 @@
   },
   "plan_visit_health_medical_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Department of Public Health, Medication Assistance (DPH)",
     "fr": "Département de la santé publique de Los Angeles, Assistance médicamentaire (DPH)",
     "es": "Asistencia con Medicamentos del Departamento de Salud Pública (DPH) del condado de Los Ángeles",
@@ -288,7 +266,6 @@
   },
   "plan_visit_health_medical_cal": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get Medi-Cal",
     "fr": "Obtenir Medi-Cal",
     "es": "Obtener Medi-Cal",
@@ -301,7 +278,6 @@
   },
   "plan_visit_health_medical_cal_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Department of Public Social Services (DPSS)",
     "fr": "Département de la santé publique de Los Angeles, Services sociaux (DPSS)",
     "es": "Departamento de Servicios Sociales Públicos (Department of Public Social Services, DPSS) del condado de Los Ángeles",
@@ -314,7 +290,6 @@
   },
   "plan_visit_health_mental": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with mental health resources",
     "fr": "Obtenir de l'aide pour les ressources de santé mentale",
     "es": "Obtenga ayuda con los recursos de salud mental",
@@ -327,7 +302,6 @@
   },
   "plan_visit_health_mental_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Department of Mental Health (DMH)",
     "fr": "Département de la santé mentale de Los Angeles (DMH)",
     "es": "Departamento de Salud Mental (Department of Mental Health, DMH) del condado de Los Ángeles",
@@ -340,7 +314,6 @@
   },
   "plan_visit_health_disabilities": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help for people who are older or have disabilities",
     "fr": "Obtenir de l'aide pour les personnes âgées ou handicapées",
     "es": "Obtenga ayuda para las personas mayores o personas con discapacidad:",
@@ -353,7 +326,6 @@
   },
   "plan_visit_health_disabilities_referrals": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Service referrals",
     "fr": "Références de services",
     "es": "referencias de servicio",
@@ -366,7 +338,6 @@
   },
   "plan_visit_health_disabilities_caregiver": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Caregiver support",
     "fr": "Support pour les soignants",
     "es": "apoyo para cuidadores",
@@ -379,7 +350,6 @@
   },
   "plan_visit_health_disabilities_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Aging & Disabilities Department (AD)",
     "fr": "Département des soins aux personnes âgées et aux personnes handicapées de Los Angeles (AD)",
     "es": "Departamento para Adultos Mayores y Personas con Discapacidad (Aging & Disabilities, AD) del condado de Los Ángeles",
@@ -392,7 +362,6 @@
   },
   "plan_visit_health_veterans": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get long-term care for veterans and spouses",
     "fr": "Obtenir des soins à long terme pour les vétérans et leurs conjoints",
     "es": "Obtener atención a largo plazo para veteranos y sus cónyuges",
@@ -405,7 +374,6 @@
   },
   "plan_visit_health_veterans_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Veterans Affairs (CalVet)",
     "fr": "Département des affaires des vétérans de Californie (CalVet)",
     "es": "Asuntos de Veteranos de California (California Veterans Affairs, CalVet)",
@@ -418,7 +386,6 @@
   },
   "plan_visit_food_section": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Food",
     "fr": "Alimentation",
     "es": "Alimentos",
@@ -431,7 +398,6 @@
   },
   "plan_visit_food_benefits": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get food benefits",
     "fr": "Obtenir des avantages alimentaires",
     "es": "Obtenga asistencia para alimentos",
@@ -444,7 +410,6 @@
   },
   "plan_visit_food_benefits_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Department of Public Social Services (DPSS)",
     "fr": "Département des services sociaux de Los Angeles (DPSS)",
     "es": "Departamento de Servicios Sociales Públicos (DPSS) del condado de Los Ángeles",
@@ -457,7 +422,6 @@
   },
   "plan_visit_food_wic": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get food benefits for women and children (WIC)",
     "fr": "Obtenir des avantages alimentaires pour les femmes et les enfants (WIC)",
     "es": "Obtener beneficios del Programa de Nutrición Suplementaria Especial para Mujeres, Bebés y Niños (Women, Infants, and Children, WIC)",
@@ -470,7 +434,6 @@
   },
   "plan_visit_food_wic_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Department of Public Health (CDPH)",
     "fr": "Département de la santé publique de Californie (CDPH)",
     "es": "Departamento de Salud Pública de California (CDPH)",
@@ -483,7 +446,6 @@
   },
   "plan_visit_housing_section": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Housing",
     "fr": "Logement",
     "es": "Vivienda",
@@ -496,7 +458,6 @@
   },
   "plan_visit_housing_help": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with housing",
     "fr": "Obtenir de l'aide avec le logement",
     "es": "Obtenga ayuda con la vivienda",
@@ -509,7 +470,6 @@
   },
   "plan_visit_housing_help_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County 211",
     "fr": "LA County 211",
     "es": "LA County 211",
@@ -523,7 +483,6 @@
   "plan_visit_housing_temporary": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Find temporary housing",
     "fr": "Trouver un logement provisoire",
     "es": "Encontrar alojamiento temporal",
@@ -537,7 +496,6 @@
   "plan_visit_housing_temporary_agency": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Department of Public Social Services (DPSS)",
     "fr": "Département des services sociaux de Los Angeles (DPSS)",
     "es": "Departamento de Servicios Sociales Públicos (DPSS) del condado de Los Ángeles",
@@ -550,7 +508,6 @@
   },
   "plan_visit_housing_protections": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with housing protections",
     "fr": "Obtenir de l'aide avec les protections du logement",
     "es": "Obtenga ayuda con la protección de vivienda:",
@@ -563,7 +520,6 @@
   },
   "plan_visit_housing_protections_gouging": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Price gouging",
     "fr": "Surtaxe",
     "es": "alza de precios",
@@ -576,7 +532,6 @@
   },
   "plan_visit_housing_protections_tenant": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Housing and tenant protections",
     "fr": "Protection du logement et des locataires",
     "es": "protección para viviendas e inquilinos",
@@ -589,7 +544,6 @@
   },
   "plan_visit_housing_protections_foreclosure": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Foreclosure prevention",
     "fr": "Prévention des saisies",
     "es": "prevención de ejecución hipotecaria",
@@ -602,7 +556,6 @@
   },
   "plan_visit_housing_protections_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Department of Consumer & Business Affairs (DCBA)",
     "fr": "Département des affaires du consommateur et de la vente de Los Angeles (DCBA)",
     "es": "Departamento de Asuntos de Empresas y Consumidores (Department of Consumer and Business Affairs, DCBA) del condado de Los Ángeles",
@@ -615,7 +568,6 @@
   },
   "plan_visit_social_services_section": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Social services",
     "fr": "Services sociaux",
     "es": "Servicios sociales",
@@ -628,7 +580,6 @@
   },
   "plan_visit_social_services_child_support": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with child support questions",
     "fr": "Obtenir de l'aide avec les questions relatives au soutien financier",
     "es": "Obtenga ayuda con las preguntas sobre la manutención infantil",
@@ -641,7 +592,6 @@
   },
   "plan_visit_social_services_child_support_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Child Support Services Department (CSSD)",
     "fr": "Département des services de soutien financier des enfants de Los Angeles (CSSD)",
     "es": "Departamento de Servicios de Manutención Infantil (Child Support Services Department, CSSD) del condado de Los Ángeles",
@@ -654,7 +604,6 @@
   },
   "plan_visit_social_services_va": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get VA benefits",
     "fr": "Obtenir des avantages VA",
     "es": "Obtenga asistencia para veteranos",
@@ -667,7 +616,6 @@
   },
   "plan_visit_social_services_va_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Veterans Affairs (CalVet)",
     "fr": "Département des affaires des vétérans de Californie (CalVet)",
     "es": "Asuntos de Veteranos de California (CalVet)",
@@ -681,7 +629,6 @@
   "plan_visit_fema_section": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Individual assistance",
     "fr": "Aide individuelle",
     "es": "Ayuda individual",
@@ -694,7 +641,6 @@
   },
   "plan_visit_fema_grants": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get Individual and Household Program grant extensions (State Supplemental Grant Program)",
     "fr": "Obtenir des extensions de subventions pour les programmes individuels et de ménage (Programme d'aide supplémentaire de l'État)",
     "es": "Obtenga una extensión del subsidio del programa para individuos y familias (Programa Estatal de Subsidio Suplementario)",
@@ -707,7 +653,6 @@
   },
   "plan_visit_fema_grants_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Department of Social Services (CDSS)",
     "fr": "Département des services sociaux de Californie (CDSS)",
     "es": "Departamento de Servicios Sociales de California (California Department of Social Services, CDSS)",
@@ -720,7 +665,6 @@
   },
   "plan_visit_documents_section": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Replace your personal documents",
     "fr": "Remplacer vos documents personnels",
     "es": "Remplace sus documentos personales",
@@ -733,7 +677,6 @@
   },
   "plan_visit_documents_vital": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Replace your birth, death, and marriage certificates",
     "fr": "Remplacer vos certificats de naissance, de décès et de mariage",
     "es": "Reemplace sus certificados de nacimiento, muerte y matrimonio",
@@ -746,7 +689,6 @@
   },
   "plan_visit_documents_vital_fees": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "(Fees are waived)",
     "fr": "(Les frais sont remboursés)",
     "es": "(no se aplican tarifas)",
@@ -759,7 +701,6 @@
   },
   "plan_visit_documents_vital_agency_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Department of Public Health (CDPH)",
     "fr": "Département de la santé publique de Californie (CDPH)",
     "es": "Departamento de Salud Pública de California (CDPH)",
@@ -772,7 +713,6 @@
   },
   "plan_visit_documents_vital_agency_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Registrar Recorder/County Clerk (RR/CC)",
     "fr": "Département du recenseur enregistrateur/clerc de comté de Los Angeles (RR/CC)",
     "es": "Registrador o secretario (Registrar Recorder/County Clerk, RR/CC) del condado de Los Ángeles",
@@ -785,7 +725,6 @@
   },
   "plan_visit_documents_id": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Replace your identity and car documents",
     "fr": "Remplacer vos documents d'identité et de voiture",
     "es": "Reemplace sus documentos identidad y registro de automóvil",
@@ -798,7 +737,6 @@
   },
   "plan_visit_documents_id_car": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Car registration and titles",
     "fr": "Enregistrement et titres de voiture",
     "es": "registro y títulos del automóvil",
@@ -811,7 +749,6 @@
   },
   "plan_visit_documents_id_license": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Driver’s licenses and ID cards",
     "fr": "Permis de conduire et cartes d'identité",
     "es": "licencias de conducir y tarjetas de identificación",
@@ -824,7 +761,6 @@
   },
   "plan_visit_documents_id_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Department of Motor Vehicles (DMV)",
     "fr": "Département des véhicules terrestres à moteur (DMV)",
     "es": "Departamento de Vehículos Motorizados (Department of Motor Vehicles, DMV)",
@@ -837,7 +773,6 @@
   },
   "plan_visit_documents_mobile_home": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get or replace manufactured and mobile home (MH-unit) documents",
     "fr": "Obtenir ou remplacer les documents des maisons mobiles et des maisons mobiles (MH-unit)",
     "es": "Obtenga o reemplace los documentos de casas móviles (mobile home, MH) o prefabricadas:",
@@ -850,7 +785,6 @@
   },
   "plan_visit_documents_mobile_home_ownership": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Ownership documents",
     "fr": "Documents de propriété",
     "es": "documentos de propiedad",
@@ -863,7 +797,6 @@
   },
   "plan_visit_documents_mobile_home_salvage": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Salvage certificates and removal from HCD registration",
     "fr": "Certificats de sauvetage et retrait de l'enregistrement HCD",
     "es": "recupere certificados y eliminación del registro del Departamento de Vivienda y Desarrollo Comunitario (Housing and Community Development, HCD)",
@@ -876,7 +809,6 @@
   },
   "plan_visit_documents_mobile_home_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Department of Housing and Community Development (HCD)",
     "fr": "Département de l'habitat et du développement communautaire (HCD)",
     "es": "Departamento de Vivienda y Desarrollo Comunitario (HCD)",
@@ -889,7 +821,6 @@
   },
   "plan_visit_documents_property": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Replace your property records",
     "fr": "Remplacer vos enregistrements de propriété",
     "es": "Reemplazar sus registros de propiedad",
@@ -902,7 +833,6 @@
   },
   "plan_visit_documents_property_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Registrar Recorder/County Clerk (RR/CC)",
     "fr": "Département du recenseur enregistrateur/clerc de comté de Los Angeles (RR/CC)",
     "es": "Registrador o secretario (RR/CC) del condado de Los Ángeles",
@@ -915,7 +845,6 @@
   },
   "plan_visit_documents_tax": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Replace income tax documents",
     "fr": "Remplacer vos documents de taxes sur le revenu",
     "es": "Reemplazar documentos fiscales",
@@ -928,7 +857,6 @@
   },
   "plan_visit_documents_tax_fees": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "(Fees are waived)",
     "fr": "(Les frais sont remboursés)",
     "es": "(no se aplican tarifas)",
@@ -941,7 +869,6 @@
   },
   "plan_visit_documents_tax_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Franchise Tax Board (FTB)",
     "fr": "Département des taxes sur le revenu (FTB)",
     "es": "Junta de Impuestos de Franquicias (Franchise Tax Board, FTB)",
@@ -954,7 +881,6 @@
   },
   "plan_visit_documents_military": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Replace military service records",
     "fr": "Remplacer vos enregistrements de service militaire",
     "es": "Reemplazar los registros de servicio militar estadounidense",
@@ -967,7 +893,6 @@
   },
   "plan_visit_documents_military_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Veterans Affairs (CalVet)",
     "fr": "Département des affaires des vétérans de Californie (CalVet)",
     "es": "Asuntos de Veteranos de California (CalVet)",
@@ -980,7 +905,6 @@
   },
   "plan_visit_insurance_section": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Insurance claims",
     "fr": "Réclamations d'assurance",
     "es": "Reclamos de seguro",
@@ -993,7 +917,6 @@
   },
   "plan_visit_insurance_claims": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with insurance claims",
     "fr": "Obtenir de l'aide avec les réclamations d'assurance",
     "es": "Obtener ayuda con reclamos de seguro",
@@ -1006,7 +929,6 @@
   },
   "plan_visit_insurance_claims_delays": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Handling delays",
     "fr": "Gestion des retards",
     "es": "demoras de procesamiento",
@@ -1019,7 +941,6 @@
   },
   "plan_visit_insurance_claims_expenses": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Living expenses",
     "fr": "Dépenses de subsistance",
     "es": "gastos de vida",
@@ -1032,7 +953,6 @@
   },
   "plan_visit_insurance_claims_disputes": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Underinsurance disputes",
     "fr": "Différends sur l'assurance sous-assurée",
     "es": "disputas de cobertura insuficiente",
@@ -1045,7 +965,6 @@
   },
   "plan_visit_insurance_claims_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Department of Insurance (CDI)",
     "fr": "Département de l'assurance (CDI)",
     "es": "Departamento de Seguros (Department of Insurance, CDI)",
@@ -1058,7 +977,6 @@
   },
   "plan_visit_employment_section": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Employment",
     "fr": "Emploi",
     "es": "Empleo",
@@ -1071,7 +989,6 @@
   },
   "plan_visit_employment_benefits": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "If you can’t work due to the fires, apply for benefits",
     "fr": "Si vous ne pouvez pas travailler en raison des incendies, appliquez pour des avantages",
     "es": "Si no puede trabajar debido a los incendios, solicite los beneficios",
@@ -1084,7 +1001,6 @@
   },
   "plan_visit_employment_benefits_unemployment": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "State and federal unemployment benefits",
     "fr": "Avantages de chômage fédéral et étatiques",
     "es": "beneficios por desempleo estatales y federales",
@@ -1097,7 +1013,6 @@
   },
   "plan_visit_employment_benefits_disability": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Disability insurance benefits",
     "fr": "Avantages de l'assurance invalidité",
     "es": "beneficios de seguro por discapacidad",
@@ -1110,7 +1025,6 @@
   },
   "plan_visit_employment_benefits_jobs": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Job opportunities and training",
     "fr": "Opportunités d'emploi et formation",
     "es": "oportunidades de trabajo y capacitación",
@@ -1123,7 +1037,6 @@
   },
   "plan_visit_employment_benefits_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Employment Development Department (EDD)",
     "fr": "Département du développement de l'emploi (EDD)",
     "es": "Departamento de Desarrollo de Empleo (Employment Development Department, EDD)",
@@ -1136,7 +1049,6 @@
   },
   "plan_visit_taxes_section": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Taxes",
     "fr": "Impôts",
     "es": "Impuestos",
@@ -1149,7 +1061,6 @@
   },
   "plan_visit_taxes_help": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with taxes",
     "fr": "Obtenir de l'aide avec les taxes",
     "es": "Obtener ayuda con impuestos",
@@ -1162,7 +1073,6 @@
   },
   "plan_visit_taxes_help_relief": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Income tax relief and filing assistance",
     "fr": "Relief fiscal sur le revenu et assistance à la déclaration",
     "es": "asistencia para subsidio de impuestos y asistencia para la presentación de declaraciones",
@@ -1175,7 +1085,6 @@
   },
   "plan_visit_taxes_help_address": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Address updates",
     "fr": "Mise à jour de l'adresse",
     "es": "actualizar una dirección",
@@ -1188,7 +1097,6 @@
   },
   "plan_visit_taxes_help_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Franchise Tax Board (FTB)",
     "fr": "Département des taxes sur le revenu (FTB)",
     "es": "Junta de Impuestos de Franquicias (FTB)",
@@ -1201,7 +1109,6 @@
   },
   "plan_visit_taxes_relief": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with tax relief",
     "fr": "Obtenir de l'aide avec le relief fiscal",
     "es": "Obtener asistencia para impuestos",
@@ -1214,7 +1121,6 @@
   },
   "plan_visit_taxes_relief_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Treasurer and Tax Collector (TTC)",
     "fr": "Trésorier et collecteur de taxes de comté de Los Angeles (TTC)",
     "es": "Tesorero y Recaudador de Impuestos (Treasurer and Tax Collector, TTC) del condado de Los Ángeles",
@@ -1227,7 +1133,6 @@
   },
   "plan_visit_rebuilding_section": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Rebuilding help",
     "fr": "Aide pour la reconstruction",
     "es": "Ayuda para reconstruir",
@@ -1240,7 +1145,6 @@
   },
   "plan_visit_rebuilding_clearing": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help clearing your property",
     "fr": "Obtenir de l'aide pour nettoyer votre propriété",
     "es": "Obtenga ayuda para limpiar su propiedad",
@@ -1253,7 +1157,6 @@
   },
   "plan_visit_rebuilding_clearing_debris": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Debris removal",
     "fr": "Retrait des débris",
     "es": "remoción de escombros",
@@ -1266,7 +1169,6 @@
   },
   "plan_visit_rebuilding_clearing_mud": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Mud and debris flow",
     "fr": "Boue et écoulement de débris",
     "es": "derrumbe de lodo y basura",
@@ -1279,7 +1181,6 @@
   },
   "plan_visit_rebuilding_clearing_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Public Works (DPW)",
     "fr": "Service public de Los Angeles (DPW)",
     "es": "Departamento de Obras Públicas (Department of Public Works, DPW) del condado de Los Ángeles",
@@ -1292,7 +1193,6 @@
   },
   "plan_visit_rebuilding_process": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help starting the rebuilding process",
     "fr": "Obtenir de l'aide pour commencer le processus de reconstruction",
     "es": "Obtenga ayuda para comenzar el proceso de reconstrucción:",
@@ -1305,7 +1205,6 @@
   },
   "plan_visit_rebuilding_process_intake": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Project and case intake",
     "fr": "Intake de projet et de cas",
     "es": "admisión de proyectos y casos",
@@ -1318,7 +1217,6 @@
   },
   "plan_visit_rebuilding_process_zoning": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Zoning",
     "fr": "Zonage",
     "es": "zonificación",
@@ -1331,7 +1229,6 @@
   },
   "plan_visit_rebuilding_process_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Department of Regional Planning",
     "fr": "Département de planification régionale de comté de Los Angeles",
     "es": "Departamento de Planificación Regional del condado de Los Ángeles",
@@ -1344,7 +1241,6 @@
   },
   "plan_visit_rebuilding_permits": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with rebuilding permits",
     "fr": "Obtenir de l'aide avec les permis de reconstruction",
     "es": "Obtener ayuda con autorizaciones de reconstrucción",
@@ -1357,7 +1253,6 @@
   },
   "plan_visit_rebuilding_permits_agency_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Public Works (DPW)",
     "fr": "Service public de Los Angeles (DPW)",
     "es": "Departamento de Obras Públicas (DPW) del condado de Los Ángeles",
@@ -1370,7 +1265,6 @@
   },
   "plan_visit_rebuilding_permits_agency_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Department of Regional Planning",
     "fr": "Département de planification régionale de comté de Los Angeles",
     "es": "Departamento de Planificación Regional del condado de Los Ángeles",
@@ -1383,7 +1277,6 @@
   },
   "plan_visit_rebuilding_contractors": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with contractors",
     "fr": "Obtenir de l'aide avec les entrepreneurs",
     "es": "Obtenga ayuda con contratistas",
@@ -1396,7 +1289,6 @@
   },
   "plan_visit_rebuilding_contractors_license": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Making sure your contractor is licensed",
     "fr": "Assurer que votre entrepreneur est licencié",
     "es": "asegurarse de que su contratista tenga licencia",
@@ -1409,7 +1301,6 @@
   },
   "plan_visit_rebuilding_contractors_hiring": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Finding and hiring a licensed contractor",
     "fr": "Recherche et engagement d'un entrepreneur licencié",
     "es": "encontrar y emplear a un contratista autorizado",
@@ -1422,7 +1313,6 @@
   },
   "plan_visit_rebuilding_contractors_complaint": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Filing a complaint",
     "fr": "Déposer une plainte",
     "es": "presentar una queja",
@@ -1435,7 +1325,6 @@
   },
   "plan_visit_rebuilding_contractors_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Contractors State Licensing Board (CSLB)",
     "fr": "Commission des licences d'entrepreneurs de l'État (CSLB)",
     "es": "Junta Estatal de Contratistas Licenciados (Contractors State Licensing Board, CSLB)",
@@ -1448,7 +1337,6 @@
   },
   "plan_visit_rebuilding_case": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get case management and referrals",
     "fr": "Gestion des cas et références",
     "es": "Obtener referencias y administración de casos",
@@ -1461,7 +1349,6 @@
   },
   "plan_visit_rebuilding_case_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County 211",
     "fr": "211 de comté de Los Angeles",
     "es": "LA County 211",
@@ -1474,7 +1361,6 @@
   },
   "plan_visit_rebuilding_dcmp": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get long-term recovery planning through the Disaster Case Management Program (DCMP)",
     "fr": "Obtenir le plan de récupération à long terme via le programme de gestion des cas de catastrophe (DCMP)",
     "es": "Obtener una planificación de recuperación a largo plazo a través del Programa de Administración de Casos por Catástrofes (Disaster Case Management Program, DCMP)",
@@ -1487,7 +1373,6 @@
   },
   "plan_visit_rebuilding_dcmp_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Department of Social Services (CDSS)",
     "fr": "Département des services sociaux de Californie (CDSS)",
     "es": "Departamento de Servicios Sociales de California (California Department of Social Services, CDSS)",
@@ -1500,7 +1385,6 @@
   },
   "plan_visit_rebuilding_property": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with property reassessment",
     "fr": "Obtenir de l'aide avec la réévaluation de la propriété",
     "es": "Obtenga ayuda con la revaloración de una propiedad",
@@ -1513,7 +1397,6 @@
   },
   "plan_visit_rebuilding_property_items_applications": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Applications",
     "fr": "Applications",
     "es": "solicitudes",
@@ -1526,7 +1409,6 @@
   },
   "plan_visit_rebuilding_property_items_property_value": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Property value information",
     "fr": "Informations sur la valeur de la propriété",
     "es": "información sobre el valor de una propiedad",
@@ -1539,7 +1421,6 @@
   },
   "plan_visit_rebuilding_property_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Assessor’s Office",
     "fr": "Office du recenseur de comté de Los Angeles",
     "es": "Oficina del tasador del condado de Los Ángeles",
@@ -1552,7 +1433,6 @@
   },
   "plan_visit_rebuilding_calvet": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get CalVet home loans",
     "fr": "Obtenir des prêts immobiliers CalVet",
     "es": "Obtener préstamos para el hogar CalVet ",
@@ -1565,7 +1445,6 @@
   },
   "plan_visit_rebuilding_calvet_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Veterans Affairs (CalVet)",
     "fr": "Département des affaires des vétérans de Californie (CalVet)",
     "es": "Asuntos de Veteranos de California (CalVet)",
@@ -1578,7 +1457,6 @@
   },
   "plan_visit_rebuilding_mobile": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with mobile home and manufactured home (MH-unit) rebuilding",
     "fr": "Obtenir de l'aide avec la reconstruction de la maison mobile et de la maison modulable (MH-unit)",
     "es": "Obtenga ayuda con la reconstrucción de una casa móvil (MH) o prefabricada",
@@ -1591,7 +1469,6 @@
   },
   "plan_visit_rebuilding_mobile_items": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Application for mobile home park construction, mobile home park MH-unit installation permits",
     "fr": "Demande d'autorisation de construction de parc de maisons mobiles, installation de permis de maison mobile (MH-unit) dans un parc de maisons mobiles",
     "es": "solicitud para la construcción en un complejo de casas móviles, permiso para instalación de MH",
@@ -1604,7 +1481,6 @@
   },
   "plan_visit_rebuilding_mobile_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Department of Housing and Community Development (HCD)",
     "fr": "Département du logement et du développement communautaire de Californie (HCD)",
     "es": "Departamento de Vivienda y Desarrollo Comunitario ( HCD) de California",
@@ -1617,7 +1493,6 @@
   },
   "plan_visit_business_section": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Business help",
     "fr": "Aide pour les entreprises",
     "es": "Ayuda para empresas",
@@ -1630,7 +1505,6 @@
   },
   "plan_visit_business_taxes": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help with business taxes",
     "fr": "Obtenir de l'aide avec les taxes d'entreprise",
     "es": "Obtener ayuda con impuestos de empresas",
@@ -1643,7 +1517,6 @@
   },
   "plan_visit_business_taxes_items_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Sales and use tax",
     "fr": "Taxe de vente et d'utilisation",
     "es": "impuestos sobre ventas y uso",
@@ -1656,7 +1529,6 @@
   },
   "plan_visit_business_taxes_items_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Extensions to file returns",
     "fr": "Extensions pour déposer des retours",
     "es": "extensiones para presentar documentos fiscales",
@@ -1669,7 +1541,6 @@
   },
   "plan_visit_business_taxes_items_3": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Relief from interest and penalties",
     "fr": "Relief des intérêts et des pénalités",
     "es": "asistencia para intereses y multas",
@@ -1682,7 +1553,6 @@
   },
   "plan_visit_business_taxes_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "California Department of Tax and Fee Administration (CDTFA)",
     "fr": "Département de la taxe et des frais de Californie (CDTFA)",
     "es": "Departamento de Impuestos y Administración de Tarifas de California (California Department of Tax and Fee Administration, CDTFA)",
@@ -1695,7 +1565,6 @@
   },
   "plan_visit_business_income": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get business income tax relief and filing extensions",
     "fr": "Relief des impôts sur le revenu d'entreprise et extensions pour déposer des retours",
     "es": "Obtener asistencia con impuestos sobre la renta comercial y extensiones de presentación",
@@ -1708,7 +1577,6 @@
   },
   "plan_visit_business_income_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Franchise Tax Board (FTB)",
     "fr": "Département des taxes sur le revenu (FTB)",
     "es": "Junta de Impuestos de Franquicias (FTB)",
@@ -1721,7 +1589,6 @@
   },
   "plan_visit_business_payroll": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get employer payroll tax extensions",
     "fr": "Extensions pour les taxes de paie de l'employeur",
     "es": "Obtener extensiones de impuesto sobre la nómina de empleador",
@@ -1734,7 +1601,6 @@
   },
   "plan_visit_business_payroll_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Employment Development Department (EDD)",
     "fr": "Département du développement de l'emploi (EDD)",
     "es": "Departamento de Desarrollo de Empleo (EDD)",
@@ -1747,7 +1613,6 @@
   },
   "plan_visit_business_records": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Replace your business records",
     "fr": "Remplacer vos enregistrements commerciaux",
     "es": "Reemplazar sus registros comerciales",
@@ -1760,7 +1625,6 @@
   },
   "plan_visit_business_records_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Registrar Recorder/County Clerk (RR/CC)",
     "fr": "Registre du comté de Los Angeles/Clerc de comté (RR/CC)",
     "es": "Registrador o secretario (RR/CC) del condado de Los Ángeles",
@@ -1773,7 +1637,6 @@
   },
   "plan_visit_business_help": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Get help for businesses",
     "fr": "Obtenir de l'aide pour les entreprises",
     "es": "Obtenga ayuda para empresas",
@@ -1786,7 +1649,6 @@
   },
   "plan_visit_business_help_items_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Small business assistance",
     "fr": "Aide aux entreprises de petite taille",
     "es": "ayuda para pequeñas empresas",
@@ -1799,7 +1661,6 @@
   },
   "plan_visit_business_help_items_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Grants",
     "fr": "Subventions",
     "es": "subsidios",
@@ -1812,7 +1673,6 @@
   },
   "plan_visit_business_help_items_3": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "Worker development programs",
     "fr": "Programmes de développement du travail",
     "es": "programas de desarrollo de trabajadores",
@@ -1825,7 +1685,6 @@
   },
   "plan_visit_business_help_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/plan-your-in-person-visit-shared.html",
     "en": "LA County Department of Economic Opportunity (DEO)",
     "fr": "Département de l'opportunité économique de comté de Los Angeles (DEO)",
     "es": "Departamento de Oportunidad Económica (Department of Economic Opportunity, DEO) del condado de LA",

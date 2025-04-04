@@ -1,7 +1,6 @@
 {
   "recovery_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Start your recovery",
     "fr": "Commencez votre rétablissement",
     "es": "Comience la recuperación",
@@ -15,7 +14,6 @@
   "recovery_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Learn how to get what you need to start recovering.",
     "fr": "Apprenez comment obtenir ce dont vous avez besoin pour commencer à récupérer.",
     "es": "Aprenda cómo obtener lo que necesita para comenzar a recuperar.",
@@ -29,7 +27,6 @@
   "recovery_lead_text": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Learn how to get what you need to start recovering.",
     "fr": "Apprenez comment obtenir ce dont vous avez besoin pour commencer à récupérer.",
     "es": "Aprenda cómo obtener lo que necesita para comenzar a recuperar.",
@@ -42,7 +39,6 @@
   },
   "recovery_document_note": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "If you need to replace documents like IDs, do that first. See <a href=\"/lafires/get-help-online/#Replacing-your-personal-documents\">Replacing your personal documents</a>.",
     "fr": "Si vous devez remplacer des documents comme des pièces d'identité, faites-le en premier. Consultez <a href=\"/lafires/fr/get-help-online/#Replacing-your-personal-documents\">Remplacement de vos documents personnels</a>.",
     "es": "Si necesita reemplazar documentos como tarjetas de identificación, haga eso primero. Consulte <a href=\"/lafires/es/get-help-online/#Replacing-your-personal-documents\">Remplazar sus documentos personales</a>",
@@ -56,7 +52,6 @@
   "recovery_returning_home_heading": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Accessing your property",
     "fr": "Accéder à votre propriété",
     "es": "Acceder a su propiedad",
@@ -83,7 +78,6 @@
   "recovery_return_home_button_text": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "How to access your property safely",
     "fr": "Comment accéder à votre propriété en toute sécurité",
     "es": "Cómo acceder a su propiedad de manera segura",
@@ -96,7 +90,6 @@
   },
   "recovery_insurance_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Filing insurance claims",
     "fr": "Dépôt des réclamations d'assurance",
     "es": "Presentar reclamos de seguro",
@@ -109,7 +102,6 @@
   },
   "recovery_insurance_prompt": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "If you have insurance, file a claim as soon as possible.",
     "fr": "Si vous avez une assurance, déposez une réclamation dès que possible.",
     "es": "Si tiene seguro, presente un reclamo lo antes posible.",
@@ -122,7 +114,6 @@
   },
   "recovery_california_protects_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "California protects you from losing your home insurance",
     "fr": "La Californie vous protège contre la perte de votre assurance habitation",
     "es": "California lo protege de perder el seguro de su hogar",
@@ -135,7 +126,6 @@
   },
   "recovery_california_protects_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "State law protects residents. It prevents insurance companies from canceling or not renewing home insurance polices for one year in areas near a wildfire. This 1-year moratorium applies to all residents in the affected area, including total and no loss.",
     "fr": "La loi de l'État protège les résidents. Elle empêche les compagnies d'assurance d'annuler ou de ne pas renouveler les polices d'assurance habitation pendant un an dans les zones proches d'un incendie de forêt. Ce moratoire d'un an s'applique à tous les résidents de la zone touchée, y compris en cas de perte totale ou d'absence de perte.",
     "es": "La ley estatal protege a los residentes. Esto impide que las compañías de seguros cancelen o no renueven pólizas de seguro de hogares durante un año en áreas cercanas a un área que se incendió. Esta moratoria de un año se aplica a todos los residentes en el área afectada, incluida la pérdida total y nula.",
@@ -148,7 +138,6 @@
   },
   "recovery_get_help_claim_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Get help with your claim",
     "fr": "Obtenez de l'aide pour votre réclamation",
     "es": "Obtenga ayuda con su reclamo",
@@ -161,7 +150,6 @@
   },
   "recovery_get_help_claim_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "California Department of Insurance (CDI) gives help in many languages.",
     "fr": "Le Département des assurances de Californie (CDI) offre de l'aide en plusieurs langues.",
     "es": "El Departamento de Seguros de California (California Department of Insurance, CDI) brinda ayuda en muchos idiomas.",
@@ -174,7 +162,6 @@
   },
   "recovery_get_help_claim_items_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Resources to help recent wildfire victims",
     "fr": "Ressources pour aider les victimes récentes des feux de forêt",
     "es": "Recursos para ayudar a las víctimas recientes de incendios forestales",
@@ -187,7 +174,6 @@
   },
   "recovery_get_help_claim_items_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Top ten tips for wildfire claims",
     "fr": "Les dix meilleurs conseils pour les réclamations liées aux feux de forêt",
     "es": "Diez consejos principales para reclamaciones por incendios forestales",
@@ -200,7 +186,6 @@
   },
   "recovery_get_help_claim_items_3": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Working with contractors",
     "fr": "Travailler avec des entrepreneurs",
     "es": "Trabajar con contratistas",
@@ -213,7 +198,6 @@
   },
   "recovery_get_help_claim_items_4": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Help with CalVet claims",
     "fr": "Aide pour les réclamations CalVet",
     "es": "Ayuda con las reclamaciones de Asuntos de Veteranos de California (California Veterans Affairs, CalVet)",
@@ -227,7 +211,6 @@
   "recovery_get_help_claim_items_5": {
     "status": "ap_review",
     "comment": "machine translated, original text modified",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "On the phone: Call <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (HELP) or TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> for assistance",
     "fr": "Par téléphone: Appeler <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (HELP) ou TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> pour obtenir de l'aide",
     "es": "Por teléfono: Llame al <a href=\"tel:1-800-927-4357\">1-800-927-4357</a> (AYUDA) o TTY: <a href=\"tel:1-800-482-4833\">1-800-482-4833</a> para obtener ayuda",
@@ -240,7 +223,6 @@
   },
   "recovery_get_help_claim_items_6": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "In-person insurance workshops will be offered on the weekend of January 25",
     "fr": "Des ateliers d'assurance en personne seront proposés le week-end du 25 janvier",
     "es": "Los talleres de seguro en persona se ofrecerán el fin de semana del 25 de enero.",
@@ -253,7 +235,6 @@
   },
   "recovery_rebuilding_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Rebuilding",
     "fr": "Reconstruction",
     "es": "Reconstruir",
@@ -266,7 +247,6 @@
   },
   "recovery_rebuilding_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "See the major steps to take when rebuilding your home.",
     "fr": "Découvrez les principales étapes à suivre pour reconstruire votre maison.",
     "es": "Consulte los pasos principales a seguir cuando reconstruya su hogar.",
@@ -279,7 +259,6 @@
   },
   "recovery_steps_to_rebuilding_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "See the major steps to take when rebuilding your home.",
     "fr": "Découvrez les principales étapes à suivre pour reconstruire votre maison.",
     "es": "Consulte los pasos principales a seguir cuando reconstruya su hogar.",
@@ -292,7 +271,6 @@
   },
   "recovery_steps_to_rebuilding_button_text": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Steps to rebuilding",
     "fr": "Étapes de la reconstruction",
     "es": "Pasos para la reconstrucción",
@@ -305,7 +283,6 @@
   },
   "recovery_employment_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Employment",
     "fr": "Emploi",
     "es": "Empleo",
@@ -318,7 +295,6 @@
   },
   "recovery_cant_work_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "If you can’t work",
     "fr": "Si vous ne pouvez pas travailler",
     "es": "Si no puede trabajar",
@@ -331,7 +307,6 @@
   },
   "recovery_cant_work_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "You may not be able to work for many reasons. Here’s how to receive wage replacement during this time.",
     "fr": "Vous pourriez ne pas être en mesure de travailler pour plusieurs raisons. Voici comment recevoir un remplacement de salaire pendant cette période.",
     "es": "Es posible que no pueda trabajar por muchas razones. Esto es lo que debe hacer para recibir un salario de reemplazo durante este tiempo.",
@@ -344,7 +319,6 @@
   },
   "recovery_cant_work_items_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "If you lost your job due to the fire, apply for <a href=\"https://edd.ca.gov/en/unemployment/disaster_unemployment_assistance\">unemployment</a>",
     "fr": "Si vous avez perdu votre emploi à cause de l'incendie, faites une demande d'<a href=\"https://edd.ca.gov/en/unemployment/disaster_unemployment_assistance\">allocation chômage</a>",
     "es": "Si perdió su trabajo a causa de los incendios, solicite los beneficios por <a href=\"https://edd.ca.gov/en/unemployment/disaster_unemployment_assistance\">desempleo</a>.",
@@ -358,7 +332,6 @@
   },
   "recovery_cant_work_items_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "If you are sick or hurt due to the fires, apply for <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">disability</a>",
     "fr": "Si vous êtes malade ou blessé à cause des incendies, faites une demande d'<a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">allocation d'invalidité</a>",
     "es": "Si está enfermo o lesionado debido a los incendios, solicite los beneficios por <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">discapacidad</a>.",
@@ -372,7 +345,6 @@
   },
   "recovery_cant_work_items_3": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "If you need time off to care for your family and can’t work, apply for <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">Paid Family Leave</a>",
     "fr": "Si vous avez besoin de temps libre pour vous occuper de votre famille et ne pouvez pas travailler, faites une demande de <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">congé familial payé</a>",
     "es": "Si necesita una licencia del trabajo para cuidar a su familia y no puede trabajar, solicite un <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">permiso de ausencia remunerada por motivos familiares</a>.",
@@ -386,7 +358,6 @@
   },
   "recovery_looking_for_work_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "If you’re looking for new work",
     "fr": "Si vous cherchez un nouveau travail",
     "es": "Si está buscando trabajo nuevo",
@@ -399,7 +370,6 @@
   },
   "recovery_looking_for_work_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "We have resources to assist you in finding employment after the wildfire. You may qualify for job placement services, training programs, or other help. The Employment Development Department (EDD) offers this support.",
     "fr": "Nous avons des ressources pour vous aider à trouver un emploi après l'incendie de forêt. Vous pourriez être admissible à des services de placement, des programmes de formation ou d'autres aides. Le Département du développement de l'emploi (EDD) offre ce soutien.",
     "es": "Tenemos recursos para ayudarle a encontrar empleo después del incendio. Es posible que califique para servicios de colocación laboral, programas de capacitación u otra ayuda. El Departamento de Desarrollo de Empleo (Employment Development Department, EDD) ofrece este apoyo.",
@@ -412,7 +382,6 @@
   },
   "recovery_looking_for_work_items_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Apply for a new job on <a href=\"https://www.caljobs.ca.gov/vosnet/default.aspx\">CalJOBS</a>, California’s online job exchange system.",
     "fr": "Postulez pour un nouvel emploi sur <a href=\"https://www.caljobs.ca.gov/vosnet/default.aspx\">CalJOBS</a>, le système d'échange d'emplois en ligne de la Californie.",
     "es": "Busque un nuevo trabajo en <a href=\"https://www.caljobs.ca.gov/vosnet/default.aspx\">CalJOBS</a>, el sistema de intercambio de trabajo en línea de California.",
@@ -426,7 +395,6 @@
   },
   "recovery_looking_for_work_items_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "<a href=\"https://edd.ca.gov/en/jobs/\">Jobs and training</a> has general support, referrals, and training to find a new job in California.",
     "fr": "<a href=\"https://edd.ca.gov/en/jobs/\">Emplois et formation</a> offre un soutien général, des références et de la formation pour trouver un nouvel emploi en Californie.",
     "es": "<a href=\"https://edd.ca.gov/en/jobs/\">La sección de empleos y capacitación</a> ofrece apoyo general, referencias y capacitación para encontrar un nuevo trabajo en California.",
@@ -440,7 +408,6 @@
   },
   "recovery_cleanup_work_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "If you’re working on fire cleanup",
     "fr": "Si vous travaillez au nettoyage après l'incendie",
     "es": "Si está trabajando en la limpieza de los incendios",
@@ -453,7 +420,6 @@
   },
   "recovery_cleanup_work_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "If you have a job where you’re cleaning up from the fires, your employer must protect you.",
     "fr": "Si vous avez un emploi où vous nettoyez après les incendies, votre employeur doit vous protéger.",
     "es": "Si tiene un trabajo en el que debe limpiar después de un incendio, su empleador debe protegerlo.",
@@ -466,7 +432,6 @@
   },
   "recovery_cleanup_work_items_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Read about how to stay <a href=\"https://www.labor.ca.gov/2025/02/06/know-your-rights-keep-yourself-safe-working-on-fire-cleanup/\">safe while working on fire cleanup</a>",
     "fr": "Lisez comment rester <a href=\"https://www.labor.ca.gov/2025/02/06/know-your-rights-keep-yourself-safe-working-on-fire-cleanup/\">en sécurité pendant le nettoyage après l'incendie</a>",
     "es": "Lea sobre cómo mantenerse seguro mientras <a href=\"https://www.labor.ca.gov/2025/02/06/know-your-rights-keep-yourself-safe-working-on-fire-cleanup/\">trabaja en la limpieza de los incendios</a>",
@@ -480,7 +445,6 @@
   },
   "recovery_cleanup_work_items_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "See <a href=\"https://www.ca.gov/departments/91/services/1279/\">what laws protect cleanup and rebuilding workers</a>",
     "fr": "Consultez <a href=\"https://www.ca.gov/departments/91/services/1279/\">les lois qui protègent les travailleurs du nettoyage et de la reconstruction</a>",
     "es": "Vea <a href=\"https://www.ca.gov/departments/91/services/1279/\">qué leyes protegen a los trabajadores de limpieza y reconstrucción</a>",
@@ -494,7 +458,6 @@
   },
   "recovery_taxes_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Taxes for individuals",
     "fr": "Impôts pour les particuliers",
     "es": "Impuestos para individuos",
@@ -507,7 +470,6 @@
   },
   "recovery_income_tax_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Income tax",
     "fr": "Impôt sur le revenu",
     "es": "Impuesto sobre los ingresos",
@@ -520,7 +482,6 @@
   },
   "recovery_income_tax_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "by Franchise Tax Board",
     "fr": "par le Conseil des impôts",
     "es": "de la Junta de Impuestos de Franquicias",
@@ -533,7 +494,6 @@
   },
   "recovery_income_tax_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "People in Los Angeles County affected by the fires may <a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">postpone filing and paying taxes</a>. Their new deadline is October 15, 2025.",
     "fr": "Les personnes du comté de Los Angeles touchées par les incendies peuvent <a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">reporter le dépôt et le paiement des impôts</a>. Leur nouvelle date limite est le 15 octobre 2025.",
     "es": "Las personas en el condado de Los Ángeles afectadas por los incendios pueden <a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">posponer la presentación y el pago de impuestos</a>. Su nueva fecha límite es el 15 de octubre de 2025.",
@@ -547,7 +507,6 @@
   },
   "recovery_property_tax_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "Property tax",
     "fr": "Impôt foncier",
     "es": "Impuesto sobre la propiedad",
@@ -560,7 +519,6 @@
   },
   "recovery_property_tax_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "by the State of California and LA County",
     "fr": "par l'État de Californie et le comté de LA",
     "es": "del condado de Los Ángeles y el estado de California",
@@ -573,7 +531,6 @@
   },
   "recovery_property_tax_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/start-your-recovery-shared.html",
     "en": "The state <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">extended the property tax deadline</a> for people affected by the LA fires. You can apply for property tax reassessment with the <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">Los Angeles County Assessor</a>. Learn more about <a href=\"https://www.boe.ca.gov/proptaxes/disaster-relief.htm\">property tax reassessments and base year value transfers</a>.",
     "fr": "L'État a <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">prolongé la date limite de l'impôt foncier</a> pour les personnes touchées par les incendies de LA. Vous pouvez demander une réévaluation de l'impôt foncier auprès de l'<a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">évaluateur du comté de Los Angeles</a>. En savoir plus sur les <a href=\"https://www.boe.ca.gov/proptaxes/disaster-relief.htm\">réévaluations de l'impôt foncier et les transferts de valeur de l'année de base</a>.",
     "es": "El estado <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">extendió la fecha límite de pago del impuesto a la propiedad</a> para las personas afectadas por los incendios de Los Ángeles. Puede solicitar una <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">reevaluación</a> de impuestos sobre la propiedad con el <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">asesor del condado de Los Ángeles</a>. Obtenga más información sobre <a href=\"https://www.boe.ca.gov/proptaxes/disaster-relief.htm\">las reevaluaciones de impuestos a la propiedad y las transferencias de valor del año base</a>.",
