@@ -7,7 +7,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -20,7 +20,7 @@
 
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
-      <p class="m-b-md lead">{{description}}</p>
+      <p class="m-b-md lead">{{ 'recovery_lead_text' | i18n }}</p>
 
       <nav class="page-navigation"></nav>
 
@@ -33,15 +33,12 @@
         </p>
       </div>
 
-      <h2 class="m-b-0">{{ 'recovery_returning_home_heading' | i18n }}</h2>
-      <h3>{{ 'recovery_what_to_know_heading' | i18n }}</h3>
-      <p>
-        {{ 'recovery_assessment_info' | i18n }}
-      </p>
+      <h2>{{ 'recovery_returning_home_heading' | i18n }}</h2>
+      <p>{{ 'recovery_assessment_info' | i18n }}</p>
 
       <p class="m-t-md">
         <a
-          href="{{ '/lafires/return-to-your-home-safely/' | localizedPath }}"
+          href="{{ '/lafires/accessing-your-property/' | localizedPath }}"
           class="btn btn-primary rounded-5 btn-lg"
           >{{ 'recovery_return_home_button_text' | i18n }}</a
         >
@@ -105,7 +102,7 @@
                 >
               </li>
               <li class="m-t">
-                {{ 'recovery_get_help_claim_items_5' | i18n }}
+                {{ 'recovery_get_help_claim_items_5' | i18n | safe}}
               </li>
               <li class="m-t">
                 {{ 'recovery_get_help_claim_items_6' | i18n }}
@@ -134,9 +131,7 @@
               {{ 'recovery_cant_work_title' | i18n }}
             </h3>
 
-            <p>
-              {{ 'recovery_cant_work_description' | i18n }}
-            </p>
+            <p>{{ 'recovery_cant_work_description' | i18n }}</p>
 
             <ul>
               <li class="m-t">
@@ -159,9 +154,7 @@
               {{ 'recovery_looking_for_work_title' | i18n }}
             </h3>
 
-            <p>
-              {{ 'recovery_looking_for_work_description' | i18n }}
-            </p>
+            <p>{{ 'recovery_looking_for_work_description' | i18n }}</p>
 
             <ul>
               <li class="m-t">
@@ -179,9 +172,7 @@
             <h3 class="h5 m-t-md m-b">
               {{ 'recovery_cleanup_work_title' | i18n }}
             </h3>
-            <p>
-              {{ 'recovery_cleanup_work_description' | i18n }}
-            </p>
+            <p>{{ 'recovery_cleanup_work_description' | i18n }}</p>
             <ul>
               <li class="m-t">
                 {{ 'recovery_cleanup_work_items_1' | i18n | safe}}
@@ -193,9 +184,7 @@
           </div>
         </div>
 
-        <h2 class="m-b-sm">
-          {{ 'recovery_taxes_heading' | i18n }}
-        </h2>
+        <h2 class="m-b-sm">{{ 'recovery_taxes_heading' | i18n }}</h2>
 
         <div class="row">
           <div class="col-lg-6 m-t-md">
@@ -207,9 +196,7 @@
               <p class="text-sm font-size-15 text-left gray-600 m-y-md">
                 {{ 'recovery_income_tax_source' | i18n }}
               </p>
-              <p>
-                {{ 'recovery_income_tax_description' | i18n | safe}}
-              </p>
+              <p>{{ 'recovery_income_tax_description' | i18n | safe}}</p>
             </div>
           </div>
           <div class="col-lg-6 m-t-md">
@@ -221,9 +208,7 @@
               <p class="text-sm font-size-15 text-left gray-600 m-y-md">
                 {{ 'recovery_property_tax_source' | i18n }}
               </p>
-              <p>
-                {{ 'recovery_property_tax_description' | i18n | safe}}
-              </p>
+              <p>{{ 'recovery_property_tax_description' | i18n | safe}}</p>
             </div>
           </div>
         </div>

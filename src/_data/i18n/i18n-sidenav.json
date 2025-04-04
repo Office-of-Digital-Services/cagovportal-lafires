@@ -102,17 +102,19 @@
     "zh-hant": "開始恢復",
     "hy": "Սկսել վերականգնումը"
   },
-  "sidenav_return_to_your_home_safely": {
-    "status": "avantpage_delivery",
+  "sidenav_accessing_your_property": {
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "src/_includes/dynamic-sidenav.html",
-    "en": "Return to your home safely",
-    "es": "Regrese a su hogar a salvo",
-    "ko": "집으로 안전하게 돌아가기",
-    "vi": "Trở về nhà an toàn",
-    "tl": "Ligtas na bumalik sa iyong tahanan",
-    "zh-hans": "安全返家指南",
-    "zh-hant": "安全返回家中",
-    "hy": "Անվտանգ վերադարձ տուն"
+    "en": "Accessing your property",
+    "fr": "Accéder à votre propriété",
+    "es": "Acceder a su propiedad",
+    "ko": "소유 재산 접근",
+    "vi": "Truy cập vào tài sản của bạn",
+    "tl": "Pumunta sa iyong property",
+    "zh-hans": "访问您的财产",
+    "zh-hant": "訪問您的財產",
+    "hy": "Անձնական գույքի այլասերման միջոցներ"
   },
   "sidenav_cleanup_and_debris_removal": {
     "status": "avantpage_delivery",
@@ -177,7 +179,7 @@
   "sidenav_track_las_progress": {
     "status": "avantpage_delivery",
     "src_file": "src/_includes/dynamic-sidenav.html",
-    "en": "Track LA's progress",
+    "en": "Track LA’s progress",
     "es": "Siga el progreso de Los Ángeles",
     "ko": "LA의 진행 상황 추적",
     "vi": "Theo dõi tiến độ của LA",

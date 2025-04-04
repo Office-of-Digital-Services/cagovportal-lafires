@@ -131,18 +131,18 @@
     "hy": "Փուլ 1-ում ԱՄՆ-ի EPA-ն մաքրել է ամենօրյա ապրանքները, որոնք գտնվում էին Ձեր տանը և կարող էին վտանգ ներկայացնել:"
   },
   "cleanup_these_include": {
-    "status": "avantpage_delivery",
+    "status": "ap_review",
+    "comment": "Machine translated",
     "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
-    "en": "These include:",
+    "en": "These included:",
     "fr": "Cela inclut:",
-    "es": "Esos productos incluyen:",
-    "ko": "여기에 포함되는 사항:",
-    "vi": "Trong đó bao gồm:",
+    "es": "Incluye:",
+    "ko": "포함되는 것들:",
+    "vi": "Bao gồm:",
     "tl": "Kabilang sa mga ito ang:",
     "zh-hans": "包括：",
-    "zh-hant": "這些包括：",
-    "hy": "Այդ թվում՝",
-    "orig_en": "These include"
+    "zh-hant": "包括：",
+    "hy": "Այդ թվում՝"
   },
   "cleanup_batteries": {
     "status": "avantpage_delivery",
@@ -669,7 +669,7 @@
     "status": "ap_review",
     "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
     "orig_en": "Debris removal can't start until Phase 1 cleanup is completed or deferred.",
-    "en": "Debris removal can't start on your property until Phase 1 is completed or deferred.",
+    "en": "Debris removal can’t start on your property until Phase 1 is completed or deferred.",
     "fr": "Le retrait de débris ne peut pas commencer sur votre propriété avant que la Phase 1 soit terminée ou reportée.",
     "es": "La remoción de escombros no puede comenzar en su propiedad hasta que se complete o se difiera la fase 1.",
     "ko": "귀하의 부동산에서 잔해 제거는 1단계 청소가 완료되거나 연기될 때까지는 시작할 수 없습니다.",
@@ -1086,16 +1086,17 @@
     "hy": "Անձամբ օգնություն ստացեք <a href=\"/lafires/get-help-in-person/\">Աղետների վերականգնման կենտրոնում</a>"
   },
   "cleanup_more_info_heading": {
-    "status": "avantpage_delivery",
+    "status": "ap_review",
+    "comment": "machine translated",
     "src_file": "pages/lafires/cleanup-and-debris-removal-shared.html",
-    "en": "More info about cleanup and debris removal",
+    "en": "More about cleanup and debris removal",
     "fr": "Plus d'informations sur le nettoyage et le retrait des débris",
     "es": "Más información sobre la limpieza y remoción de escombros",
     "ko": "청소 및 잔해 제거에 관한 자세한 정보",
     "vi": "Thêm thông tin về dọn dẹp và di dời đống đổ nát",
     "tl": "Higit pang impormasyon tungkol sa paglilinis at pag-aalis ng kalat",
-    "zh-hans": "更多住宅清理及残余物清除相关信息",
-    "zh-hant": "更多有關清理和清除雜物的資訊",
+    "zh-hans": "更多关于清理和残余物清除的信息",
+    "zh-hant": "更多關於清理和清除雜物的資訊",
     "hy": "Լրացուցիչ տեղեկություններ մաքրման և աղբի հեռացման վերաբերյալ"
   },
   "cleanup_la_county_recovers": {

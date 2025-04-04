@@ -44,10 +44,10 @@
       "key": "sidenav_start_your_recovery"
     },
     {
-      "href": "/lafires/return-to-your-home-safely/",
-      "text": "Return to your home safely",
+      "href": "/lafires/accessing-your-property/",
+      "text": "Accessing your property",
       "indent": true,
-      "key": "sidenav_return_to_your_home_safely"
+      "key": "sidenav_accessing_your_property"
     },
     {
       "href": "/lafires/cleanup-and-debris-removal/",
