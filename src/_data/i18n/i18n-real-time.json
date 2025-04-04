@@ -504,43 +504,19 @@
     "status": "ap_review",
     "comment": "machine translated",
     "src_file": "pages/lafires/see-real-time-info-shared.html",
-    "en": "Pacific Coast Highway closures (SR1)",
-    "fr": "Fermetures de l'autoroute Pacific Coast (SR1)",
-    "es": "Cierres de la autopista Pacific Coast (SR1)",
-    "ko": "퍼시픽 코스트 하이웨이 폐쇄 (SR1)",
-    "vi": "Đóng cửa Đường Cao Tốc Pacific Coast (SR1)",
-    "tl": "Mga pagsasara ng Pacific Coast Highway (SR1)",
-    "zh-hans": "太平洋海岸公路关闭 (SR1)",
-    "zh-hant": "太平洋海岸公路關閉 (SR1)",
-    "hy": "Խաղաղօվկիանոսյան ափի մայրուղու փակումներ (SR1)"
+    "en": ""
   },
   "realtime_roads_card_list_2": {
     "status": "ap_review",
     "comment": "machine translated",
     "src_file": "pages/lafires/see-real-time-info-shared.html",
-    "en": "Topanga Canyon Road closures (SR27)",
-    "fr": "Fermetures de la route Topanga Canyon (SR27)",
-    "es": "Cierres de la carretera Topanga Canyon (SR27)",
-    "ko": "토팡가 캐년 도로 폐쇄 (SR27)",
-    "vi": "Đóng cửa Đường Topanga Canyon (SR27)",
-    "tl": "Mga pagsasara ng Topanga Canyon Road (SR27)",
-    "zh-hans": "托潘加峡谷道路关闭 (SR27)",
-    "zh-hant": "托潘加峽谷道路關閉 (SR27)",
-    "hy": "Տոպանգա կիրճի ճանապարհի փակումներ (SR27)"
+    "en": ""
   },
   "realtime_roads_card_list_3": {
     "status": "ap_review",
     "comment": "machine translated",
     "src_file": "pages/lafires/see-real-time-info-shared.html",
-    "en": "Other road closures",
-    "fr": "Autres fermetures de routes",
-    "es": "Otros cierres de carreteras",
-    "ko": "기타 도로 폐쇄",
-    "vi": "Đóng cửa đường xá khác",
-    "tl": "Iba pang pagsasara ng kalsada",
-    "zh-hans": "其他道路关闭",
-    "zh-hant": "其他道路關閉",
-    "hy": "Այլ ճանապարհների փակումներ"
+    "en": ""
   },
   "realtime_power_heading": {
     "status": "ap_review",
