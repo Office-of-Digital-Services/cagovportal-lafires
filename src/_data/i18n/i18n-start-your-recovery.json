@@ -14,15 +14,15 @@
   "recovery_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Learn how to get what you need to start recovering.",
-    "fr": "Apprenez comment obtenir ce dont vous avez besoin pour commencer à récupérer.",
-    "es": "Aprenda cómo obtener lo que necesita para comenzar a recuperar.",
-    "ko": "복구를 시작하는 데 필요한 것을 배우십시오.",
-    "vi": "Tìm hiểu cách nhận được những gì bạn cần để bắt đầu phục hồi.",
-    "tl": "Matuto kung paano makuha kung ano ang kinakailangan mo para magsimula na muling pagbangon.",
-    "zh-hans": "了解如何获取所需内容以开始恢复。",
-    "zh-hant": "了解如何獲取所需內容以開始恢復。",
-    "hy": "Իմանաք, թե ինչ պետք է ստանալ այն բոլոր բաները, որոնք անհրաժեշտ են վերականգնելու համար:"
+    "en": "Learn when you can return home and what you need to start recovering.",
+    "fr": "Découvrez quand vous pouvez rentrer chez vous et ce dont vous avez besoin pour commencer à vous rétablir.",
+    "es": "Aprenda cuándo puede regresar a casa y qué necesita para comenzar su recuperación.",
+    "ko": "집으로 돌아갈 수 있는 시기와 복구를 시작하는 데 필요한 것을 알아보세요.",
+    "vi": "Tìm hiểu khi nào bạn có thể trở về nhà và những gì bạn cần để bắt đầu phục hồi.",
+    "tl": "Alamin kung kailan ka maaaring bumalik sa bahay at kung ano ang kailangan mo para magsimulang bumangon.",
+    "zh-hans": "了解何时可以返回家园以及开始恢复所需的内容。",
+    "zh-hant": "了解何時可以返回家園以及開始恢復所需的內容。",
+    "hy": "Իմացեք, թե երբ կարող եք վերադառնալ տուն և ինչ է Ձեզ անհրաժեշտ վերականգնումը սկսելու համար:"
   },
   "recovery_lead_text": {
     "status": "ap_review",
