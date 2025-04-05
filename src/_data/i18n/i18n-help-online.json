@@ -1,7 +1,6 @@
 {
   "help_online_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Get help online",
     "fr": "Obtenir de l'aide en ligne",
     "es": "Obtenga ayuda en línea",
@@ -14,7 +13,6 @@
   },
   "help_online_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "You can get help online with food, expenses, shelter, and more.",
     "fr": "Vous pouvez obtenir de l'aide en ligne pour les aliments, les dépenses, le logement et plus encore.",
     "es": "Puede obtener ayuda en línea con alimentos, gastos, alojamiento y mucho más.",
@@ -27,7 +25,6 @@
   },
   "help_online_lead_text": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "You can get help online with food, expenses, shelter, and more.",
     "fr": "Vous pouvez obtenir de l'aide en ligne pour les aliments, les dépenses, le logement et plus encore.",
     "es": "Puede obtener ayuda en línea con alimentos, gastos, alojamiento y mucho más.",
@@ -41,7 +38,6 @@
   "help_online_recovery_services_finder_icon_alt": {
     "status": "ap_review",
     "comment": "was machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Recovery finder icon",
     "fr": "Icône de recherche de récupération",
     "es": "Icono de búsqueda de recuperación",
@@ -54,7 +50,6 @@
   },
   "help_online_recovery_services_finder_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Recovery services finder",
     "fr": "Recherche de services de récupération",
     "es": "Buscador de servicios de recuperación",
@@ -67,7 +62,6 @@
   },
   "help_online_recovery_services_finder_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Not sure where to start? Answer a few questions. You’ll get a list of services just for you.",
     "fr": "Pas sûr de par où commencer ? Répondez à quelques questions. Vous obtiendrez une liste de services spécifiques à votre situation.",
     "es": "¿No sabe por dónde comenzar? Responda unas cuantas preguntas. Obtendrá una lista de servicios personalizados para usted.",
@@ -80,7 +74,6 @@
   },
   "help_online_disaster_relief_navigator": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "If you want to know all help that’s available for your situation, visit <a href= \"https://wildfires.betterangels.la/\">LA Disaster Relief Navigator</a>.",
     "fr": "Si vous voulez savoir toutes les aides disponibles pour votre situation, visitez <a href= \"https://wildfires.betterangels.la/\">LA Disaster Relief Navigator</a>.",
     "es": "Si desea conocer toda la ayuda disponible para su situación, visite <a href= \"https://wildfires.betterangels.la/\">la guía de ayuda para catástrofes de Los Ángeles (LA)</a>.",
@@ -93,7 +86,6 @@
   },
   "help_online_shelter_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Shelter",
     "fr": "Logement",
     "es": "Refugios",
@@ -107,7 +99,6 @@
   "help_online_shelter_list_title": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Temporary housing",
     "es": "Vivienda temporal",
     "fr": "Logement temporaire",
@@ -121,7 +112,6 @@
   "help_online_shelter_list_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "FEMA’s Individuals and Households Program. It gives 14 days of temporary housing for people who qualify. You could also qualify for several months of rental assistance.",
     "fr": "Programme d'aide aux particuliers et aux ménages de la FEMA. Il offre 14 jours de logement temporaire aux personnes éligibles. Vous pourriez également être éligible à plusieurs mois d'aide au loyer.",
     "es": "Programa para Individuos y Familias de FEMA. Proporciona 14 días de vivienda temporal para las personas que califican. También podría calificar para varios meses de asistencia para el alquiler.",
@@ -134,7 +124,6 @@
   },
   "help_online_food_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Food",
     "fr": "Aliments",
     "es": "Alimentos",
@@ -147,7 +136,6 @@
   },
   "help_online_wic_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "WIC",
     "fr": "WIC",
     "es": "Programa de Nutrición Suplementaria Especial para Mujeres, Bebés y Niños (WIC)",
@@ -160,7 +148,6 @@
   },
   "help_online_wic_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "WIC offers food benefits for mothers with low incomes.",
     "fr": "WIC offre des avantages alimentaires pour les mères avec des revenus faibles.",
     "es": "El Programa de Nutrición Suplementaria Especial para Mujeres, Bebés y Niños (Women, Infants, and Children, WIC) ofrece beneficios de alimentos para madres de bajos ingresos.",
@@ -173,7 +160,6 @@
   },
   "help_online_calfresh_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "CalFresh",
     "fr": "CalFresh",
     "es": "CalFresh",
@@ -187,7 +173,6 @@
   "help_online_calfresh_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Sign up for CalFresh food benefits",
     "fr": "Inscrivez-vous aux prestations alimentaires CalFresh",
     "es": "Inscríbase para recibir beneficios alimentarios de CalFresh",
@@ -200,7 +185,6 @@
   },
   "help_online_food_banks_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Food banks",
     "fr": "Banques alimentaires",
     "es": "Bancos de alimentos",
@@ -213,7 +197,6 @@
   },
   "help_online_food_banks_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Find food banks near you.",
     "fr": "Trouvez des banques alimentaires près de chez vous.",
     "es": "Encuentre bancos de alimentos cerca de usted.",
@@ -226,7 +209,6 @@
   },
   "help_online_pet_help_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Help for your pets",
     "fr": "Aide pour vos animaux",
     "es": "Ayuda para sus mascotas",
@@ -239,7 +221,6 @@
   },
   "help_online_pet_help_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "We have help if you",
     "fr": "Nous avons de l'aide si vous",
     "es": "Podemos ayudarle si usted:",
@@ -252,7 +233,6 @@
   },
   "help_online_lost_a_pet": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "lost a pet",
     "fr": "avez perdu un animal",
     "es": "perdió una mascota",
@@ -265,7 +245,6 @@
   },
   "help_online_had_to_leave_a_pet": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "had to leave a pet behind",
     "fr": "avez dû laisser un animal derrière",
     "es": "tuvo que dejar una mascota atrás",
@@ -278,7 +257,6 @@
   },
   "help_online_need_shelter_for_your_pet": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "need shelter for your pet",
     "fr": "avez besoin d'un refuge pour votre animal",
     "es": "necesita un refugio para su mascota",
@@ -291,7 +269,6 @@
   },
   "help_online_visit_california_animal_response_emergency_support": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Visit <a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">California Animal Response Emergency Support</a>.",
     "fr": "Visitez <a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">Support d'urgence pour les animaux de Californie</a>.",
     "es": "Visite <a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">Equipo de Respuesta ante Emergencias para Animales de California</a>.",
@@ -304,7 +281,6 @@
   },
   "help_online_mental_health_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Mental health",
     "fr": "Santé mentale",
     "es": "Salud mental",
@@ -318,7 +294,6 @@
   "help_online_free_crisis_counseling": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Crisis counseling",
     "fr": "Conseil en cas de crise",
     "es": "Asesoramiento en crisis",
@@ -331,7 +306,6 @@
   },
   "help_online_available_online_or_in_person": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Available online or in person",
     "fr": "Disponible en ligne ou en personne",
     "es": "disponibilidad en línea o en persona",
@@ -344,7 +318,6 @@
   },
   "help_online_mental_health_resources_for_youth": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Mental health resources for youth",
     "fr": "Ressources pour la santé mentale des jeunes",
     "es": "Recursos de salud mental para jóvenes",
@@ -357,7 +330,6 @@
   },
   "help_online_by_california_health_and_human_services_agency": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "by California Health and Human Services Agency (CalHHS)",
     "fr": "par le California Health and Human Services Agency (CalHHS)",
     "es": "de la Agencia de Salud y Servicios Humanos de California (California Health and Human Services Agency, CalHHS)",
@@ -371,7 +343,6 @@
   "help_online_wildfire_relief": {
     "status": "ap_review",
     "comment": "was machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Wildfire relief",
     "fr": "Relief pour les incendies de forêts",
     "es": "Ayuda para incendios forestales",
@@ -385,7 +356,6 @@
   "help_online_from_didi_hirsch_suicide_prevention_center": {
     "status": "ap_review",
     "comment": "was machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "from Didi Hirsch Suicide Prevention Center",
     "fr": "de Didi Hirsch Suicide Prevention Center",
     "es": "del Centro de Prevención del Suicidio Didi Hirsch",
@@ -399,7 +369,6 @@
   "help_online_disaster_mental_health_resources": {
     "status": "ap_review",
     "comment": "was machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Disaster mental health resources",
     "fr": "Ressources pour la santé mentale des catastrophes",
     "es": "Recursos de salud mental para desastres",
@@ -413,7 +382,6 @@
   "help_online_from_los_angeles_county_department_of_mental_health": {
     "status": "ap_review",
     "comment": "was machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "from Los Angeles County Department of Mental Health",
     "fr": "de Los Angeles County Department of Mental Health",
     "es": "del Departamento de Salud Mental del Condado de Los Ángeles",
@@ -427,7 +395,6 @@
   "help_online_wildfires_and_mental_health": {
     "status": "ap_review",
     "comment": "was machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Wildfires and mental health",
     "fr": "Incendies de forêts et santé mentale",
     "es": "Incendios forestales y salud mental",
@@ -441,7 +408,6 @@
   "help_online_from_california_department_of_public_health": {
     "status": "ap_review",
     "comment": "was machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "from California Department of Public Health (CDPH)",
     "fr": "de California Department of Public Health (CDPH)",
     "es": "del Departamento de Salud Pública de California (California Department of Public Health, CDPH)",
@@ -454,7 +420,6 @@
   },
   "help_online_replacing_personal_documents_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Replacing your personal documents",
     "fr": "Remplacer vos documents personnels",
     "es": "Remplazo de sus documentos personales",
@@ -467,7 +432,6 @@
   },
   "help_online_ids_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "IDs",
     "fr": "IDs",
     "es": "Tarjetas de identificación",
@@ -480,7 +444,6 @@
   },
   "help_online_social_security_card": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Social Security card",
     "fr": "Carte de sécurité sociale",
     "es": "tarjeta del Seguro Social",
@@ -493,7 +456,6 @@
   },
   "help_online_us_passport": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "U.S. passport",
     "fr": "Passeport des États-Unis",
     "es": "pasaporte estadounidense",
@@ -506,7 +468,6 @@
   },
   "help_online_military_veteran_id": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Military or veteran ID",
     "fr": "ID militaire ou vétéran",
     "es": "identificación militar o de veterano",
@@ -519,7 +480,6 @@
   },
   "help_online_drivers_license": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Driver’s license or California ID card",
     "fr": "Permis de conduire ou carte d'identité de Californie",
     "es": "licencia de conducir o tarjeta de identificación de California",
@@ -532,7 +492,6 @@
   },
   "help_online_no_fees_to_replace_cards": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "No fees to replace cards lost in the fires. You can also call",
     "fr": "Pas de frais pour remplacer les cartes perdues dans les incendies. Vous pouvez également appeler",
     "es": "No tiene que pagar nada para reemplazar las tarjetas que se perdieron en los incendios. También puede llamar al:",
@@ -545,7 +504,6 @@
   },
   "help_online_dmv_phone": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "<a href=\"tel:8007770133\">1-800-777-0133</a>",
     "fr": "<a href=\"tel:8007770133\">1-800-777-0133</a>",
     "es": "<a href=\"tel:8007770133\">1-800-777-0133</a>",
@@ -559,7 +517,6 @@
   },
   "help_online_dmv_tty_phone": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Or <a href=\"tel:8007352929\">TTY 1-800-735-2929</a> or <a href=\"tel:8003684327\">1-800-368-4327</a> for hearing or speech-impaired.",
     "fr": "Ou <a href=\"tel:8007352929\">TTY 1-800-735-2929</a> ou <a href=\"tel:8003684327\">1-800-368-4327</a> pour les personnes sourdes ou malentendantes.",
     "es": "al <a href=\"tel:8007352929\">TTY 1-800-735-2929</a> o al <a href=\"tel:8003684327\">1-800-368-4327</a> para personas con deficiencias auditivas o del habla.",
@@ -572,7 +529,6 @@
   },
   "help_online_citizenship_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Citizenship",
     "fr": "Citoyenneté",
     "es": "Ciudadanía",
@@ -585,7 +541,6 @@
   },
   "help_online_naturalization_certificate": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Certificate of naturalization or citizenship",
     "fr": "Certificat de nationalisation ou de citoyenneté",
     "es": "certificado de naturalización o ciudadanía",
@@ -598,7 +553,6 @@
   },
   "help_online_green_card": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "U.S. Permanent Resident Card (Green Card)",
     "fr": "Carte de résident permanent des États-Unis (carte verte)",
     "es": "tarjeta de residente permanente de los Estados Unidos (tarjeta verde o 'green card')",
@@ -611,7 +565,6 @@
   },
   "help_online_titles_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Titles",
     "fr": "Titres",
     "es": "Títulos",
@@ -624,7 +577,6 @@
   },
   "help_online_vehicle_titles": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Vehicle titles",
     "fr": "Titres de véhicules",
     "es": "Títulos de vehículos",
@@ -637,7 +589,6 @@
   },
   "help_online_no_fees_to_replace_titles": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "No fees to replace titles lost in the fires. You can also call:",
     "fr": "Pas de frais pour remplacer les titres perdus dans les incendies. Vous pouvez également appeler :",
     "es": "No tiene que pagar nada para reemplazar los títulos que se perdieron en los incendios. También puede llamar al:",
@@ -650,7 +601,6 @@
   },
   "help_online_dmv_phone_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "<link>1-800-777-0133</link>",
     "fr": "<link>1-800-777-0133</link>",
     "es": "<link>1-800-777-0133,</link>",
@@ -663,7 +613,6 @@
   },
   "help_online_dmv_tty_phone_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Or <link1>TTY 1-800-735-2929</link1> or <link2>1-800-368-4327</link2> for hearing or speech-impaired.",
     "fr": "Ou <link1>TTY 1-800-735-2929</link1> ou <link2>1-800-368-4327</link2> pour les personnes sourdes ou malentendantes.",
     "es": "al <link1>TTY 1-800-735-2929</link1> o al <link2>1-800-368-4327</link2> para personas con deficiencias auditivas o del habla.",
@@ -676,7 +625,6 @@
   },
   "help_online_birth_marriage_death_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Birth, marriage, and death certificates",
     "fr": "Certificats de naissance, mariage et décès",
     "es": "Actas de nacimiento, matrimonio y defunción",
@@ -689,7 +637,6 @@
   },
   "help_online_see_how_to_order": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "See how to order replacements.",
     "fr": "Voir comment commander des remplacements.",
     "es": "Vea cómo pedir nuevas copias.",
@@ -702,7 +649,6 @@
   },
   "help_online_get_copies_button": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Get copies of vital records",
     "fr": "Obtenir des copies des enregistrements vitaux",
     "es": "Obtenga copias de sus documentos de registro civil.",
@@ -715,7 +661,6 @@
   },
   "help_online_employment_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Employment",
     "fr": "Emploi",
     "es": "Empleo",
@@ -728,7 +673,6 @@
   },
   "help_online_edd_services_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Services from the California Employment Development Department (EDD)",
     "fr": "Services du California Employment Development Department (EDD)",
     "es": "Servicios del Departamento de Desarrollo de Empleo (Employment Development Department, EDD) de California",
@@ -741,7 +685,6 @@
   },
   "help_online_get_help_with": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Get help with",
     "fr": "Obtenir de l'aide avec",
     "es": "Obtenga ayuda con:",
@@ -754,7 +697,6 @@
   },
   "help_online_state_unemployment": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "State <a href=\"https://edd.ca.gov/en/unemployment/disaster_unemployment_assistance\">unemployment</a> insurance benefits",
     "fr": "Assistance de chômage de l'État <a href=\"https://edd.ca.gov/en/unemployment/disaster_unemployment_assistance\">unemployment</a> insurance benefits",
     "es": "beneficios del seguro por <a href=\"https://edd.ca.gov/en/unemployment/disaster_unemployment_assistance\">desempleo</a> estatal",
@@ -767,7 +709,6 @@
   },
   "help_online_federal_disaster_unemployment": {
     "status": "avantpage_delivered",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Federal <a href=\"https://edd.ca.gov/en/unemployment/Disaster_Unemployment_Assistance/\">disaster unemployment assistance</a> ",
     "fr": "Assistance de chômage fédérale <a href=\"https://edd.ca.gov/en/unemployment/Disaster_Unemployment_Assistance/\">disaster unemployment assistance</a> ",
     "es": "asistencia federal para desempleo por <a href=\"https://edd.ca.gov/en/unemployment/Disaster_Unemployment_Assistance/\">catástrofes</a>",
@@ -781,7 +722,6 @@
   },
   "help_online_state_disability": {
     "status": "avantpage_delivered",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "State <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">disability</a> insurance and <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">paid family leave</a>",
     "fr": "Assurance de <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">handicap</a> de l'État et <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">congé de famille payé</a>",
     "es": "seguro estatal por <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">discapacidad</a> y <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">permiso de ausencia remunerada por motivos familiares</a>",
@@ -795,7 +735,6 @@
   },
   "help_online_job_opportunities": {
     "status": "avantpage_delivered",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "<a href=\"https://edd.ca.gov/en/jobs/\">Job opportunities</a> and <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">training</a>",
     "fr": "<a href=\"https://edd.ca.gov/en/jobs/\">Opportunités d'emploi</a> et <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">formation</a>",
     "es": "<a href=\"https://edd.ca.gov/en/jobs/\">oportunidades de empleo</a> y <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">capacitación</a>",
@@ -808,7 +747,6 @@
   },
   "help_online_housing_repairs_legal_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Housing, repairs, and legal help",
     "fr": "Logement, réparations et aide juridique",
     "es": "Vivienda, reparaciones y ayuda legal",
@@ -821,7 +759,6 @@
   },
   "help_online_la_county_relief_grant_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "LA County Household Relief Grant",
     "fr": "Subvention de la maison de Los Angeles",
     "es": "Subsidio para asistencia familiar del condado de Los Ángeles",
@@ -834,7 +771,6 @@
   },
   "help_online_la_county_relief_grant_deadline": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Must apply by March 12, 2025",
     "fr": "Doit s'inscrire avant le 12 mars 2025",
     "es": "Debe aplicar antes del 12 de marzo de 2025",
@@ -847,7 +783,6 @@
   },
   "help_online_la_county_relief_grant_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "This grant helps people displaced by the fires. Eligible households can get grants of up to $18,000.",
     "fr": "Cette subvention aide les personnes déplacées par les incendies. Les ménages éligibles peuvent recevoir des subventions de 18 000 $.",
     "es": "Este subsidio ayuda a las personas desplazadas por los incendios. Los familias elegibles pueden obtener subsidios de hasta $18,000.",
@@ -858,9 +793,60 @@
     "zh-hant": "這筆補助金幫助因火災而流離失所的人們。符合條件的家庭可以獲得高達18,000美元的補助金。",
     "hy": "Այս դրամաշնորհն օգնում է հրդեհների պատճառով տեղահանված մարդկանց։ Համապատասխան տնային տնտեսությունները կարող են ստանալ մինչև $18,000 դրամաշնորհներ:"
   },
+  "help_online_low-income_housing_title": {
+    "status": "machine_translated",
+    "src_file": "pages/lafires/get-help-online-shared.html",
+    "en": "Low-income housing",
+    "fr": "Logement à faible revenu",
+    "es": "Vivienda de bajos ingresos",
+    "ko": "저소득 주택",
+    "vi": "Nhà ở thu nhập thấp",
+    "tl": "Mababang kita na pabahay",
+    "zh-hans": "低收入住房",
+    "zh-hant": "低收入住房",
+    "hy": "Բնակարանային օգնություն"
+  },
+  "help_online_low-income_housing_description-1": {
+    "status": "machine_translated",
+    "src_file": "pages/lafires/get-help-online-shared.html",
+    "en": "Low-income households affected by the fires may go to the front of the line for Section 8 housing vouchers.",
+    "fr": "Un logement à faible revenu est disponible pour les personnes qui ont perdu leur maison dans les incendies.",
+    "es": "La vivienda de bajos ingresos está disponible para las personas que perdieron sus hogares en los incendios.",
+    "ko": "저소득 주택은 화재로 집을 잃은 사람들을 위해 제공됩니다.",
+    "vi": "Nhà ở thu nhập thấp dành cho những người đã mất nhà vì hỏa hoạn.",
+    "tl": "Ang mababang kita na pabahay ay magagamit para sa mga taong nawalan ng tahanan sa mga sunog.",
+    "zh-hans": "低收入住房适用于在火灾中失去家园的人们。",
+    "zh-hant": "低收入住房適用於在火災中失去家園的人們。",
+    "hy": "Հրդեհների պատճառով իրենց տները կորցրած մարդկանց համար հասանելի է բնակարանային օգնություն:"
+  },
+  "help_online_low-income_housing_description-2": {
+    "status": "machine_translated",
+    "src_file": "pages/lafires/get-help-online-shared.html",
+    "en": "The Los Angeles County Development Authority (LACDA) opened up its <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">waiting list</a> for these vouchers on April 4, 2025. It will grant these vouchers to 50 eligible people or families. They will leave the list open until they reach 300 applicants.",
+    "fr": "L'Autorité de développement du comté de Los Angeles (LACDA) a ouvert sa <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">liste d'attente</a> pour ces bons le 4 avril 2025. Elle accordera ces bons à 50 personnes ou familles éligibles. Ils laisseront la liste ouverte jusqu'à ce qu'ils atteignent 300 candidats.",
+    "es": "La Autoridad de Desarrollo del Condado de Los Ángeles (LACDA) abrió su <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">lista de espera</a> para estos vales el 4 de abril de 2025. Otorgará estos vales a 50 personas o familias elegibles. Mantendrán la lista abierta hasta que lleguen a 300 solicitantes.",
+    "ko": "로스앤젤레스 카운티 개발국(LACDA)은 2025년 4월 4일에 이 바우처의 <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">대기자 명단</a>을 열었습니다. 이들은 50명의 적격 개인 또는 가족에게 바우처를 부여합니다. 그들은 300명의 지원자가 될 때까지 목록을 열어둘 것입니다.",
+    "vi": "Cơ quan Phát triển Hạt Los Angeles (LACDA) đã mở <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">danh sách chờ</a> cho các phiếu này vào ngày 4 tháng 4 năm 2025. Nó sẽ cấp những phiếu này cho 50 người hoặc gia đình đủ điều kiện. Họ sẽ để danh sách mở cho đến khi họ đạt được 300 người nộp đơn.",
+    "tl": "Ang Los Angeles County Development Authority (LACDA) ay nagbukas ng <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">waiting list</a> para sa mga voucher na ito noong Abril 4, 2025. Ibibigay nito ang mga voucher na ito sa 50 kwalipikadong tao o pamilya. Iiwan nila ang listahan na bukas hanggang maabot nila ang 300 aplikante.",
+    "zh-hans": "洛杉矶县发展局 (LACDA) 于 2025 年 4 月 4 日为这些凭证开放了<a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">候补名单</a>。它将向 50 名符合条件的人或家庭授予这些凭证。他们将保持名单开放，直到他们达到 300 名申请人。",
+    "zh-hant": "洛杉磯縣發展局 (LACDA) 於 2025 年 4 月 4 日為這些憑證開放了<a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">候補名單</a>。它將向 50 名符合條件的人或家庭授予這些憑證。他們將保持名單開放，直到他們達到 300 名申請人。",
+    "hy": "Լոս Անջելեսի շրջանի զարգացման իշխանությունը (LACDA) 2025 թվականի ապրիլի 4-ին բացեց այս վաուչերների <a href=\"https://harp.lacda.org/Login.aspx?ReturnUrl=%2f\">սպասման ցուցակը</a>։ Այն այս վաուչերները կտա 50 համապատասխան անձանց կամ ընտանիքներին։ Նրանք կթողնեն ցուցակը բաց մինչև 300 դիմորդ ունենան։"
+  },
+  "help_online_low-income_housing_description-3": {
+    "status": "machine_translated",
+    "src_file": "pages/lafires/get-help-online-shared.html",
+    "en": "If you get a voucher, you still need to find a place to rent that accepts them. Learn more at this <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">article from LAist</a>",
+    "fr": "Si vous obtenez un bon, vous devez toujours trouver un endroit à louer qui les accepte. En savoir plus dans cet <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">article de LAist</a>",
+    "es": "Si obtiene un vale, aún necesita encontrar un lugar para alquilar que los acepte. Aprenda más en este <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">artículo de LAist</a>",
+    "ko": "바우처를 받으면 여전히 바우처를 수락하는 임대할 장소를 찾아야 합니다. 자세한 내용은 <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">LAist의 이 기사</a>를 참조하세요.",
+    "vi": "Nếu bạn nhận được phiếu, bạn vẫn cần tìm một nơi để thuê mà chấp nhận chúng. Tìm hiểu thêm trong <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">bài viết này từ LAist</a>",
+    "tl": "Kung makakuha ka ng voucher, kailangan mo pa ring makahanap ng lugar na paupahan na tumatanggap sa mga ito. Alamin ang higit pa sa <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">artikulong ito mula sa LAist</a>",
+    "zh-hans": "如果您获得了凭证，您仍然需要找到一个接受它们的租赁地点。 在<a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">LAist 的这篇文章</a>中了解更多信息",
+    "zh-hant": "如果您獲得了憑證，您仍然需要找到一個接受它們的租賃地點。 在<a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">LAist 的這篇文章</a>中了解更多信息",
+    "hy": "Եթե դուք ստանում եք վաուչեր, ապա դեռ պետք է գտնել վարձակալության այնպիսի վայր, որը դրանք ընդունում է։ Ավելին իմանալու համար այցելեք <a href=\"https://laist.com/news/housing-homelessness/los-angeles-fire-housing-choice-section-8-vouchers-50-how-to-apply\">LAist-ի այս հոդվածը</a>"
+  },
   "help_online_fema_assistance_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Individual Assistance (FEMA)",
     "fr": "Assistance individuelle (FEMA)",
     "es": "Asistencia Individual (FEMA)",
@@ -874,7 +860,6 @@
   "help_online_fema_deadline": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "The deadline to apply was March 31, 2025",
     "fr": "La date limite pour postuler était le 31 mars 2025",
     "es": "La fecha límite para solicitar fue el 31 de marzo de 2025",
@@ -888,7 +873,6 @@
   "help_online_fema_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Individual Assistance is a group of federal programs that help disaster survivors. This includes:",
     "fr": "L'assistance individuelle est un ensemble de programmes fédéraux qui aident les survivants de catastrophes. Cela comprend :",
     "es": "La Asistencia Individual es un grupo de programas federales que ayudan a los sobrevivientes de desastres. Esto incluye:",
@@ -901,7 +885,6 @@
   },
   "help_online_fema_assistance_list_housing": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Housing",
     "fr": "Logement",
     "es": "vivienda",
@@ -914,7 +897,6 @@
   },
   "help_online_fema_assistance_list_repairs": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Funds for repairs",
     "fr": "Fonds pour les réparations",
     "es": "fondos para reparaciones",
@@ -927,7 +909,6 @@
   },
   "help_online_fema_assistance_list_disabilities": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Help for people with disabilities",
     "fr": "Aide pour les personnes handicapées",
     "es": "ayuda para las personas con discapacidad",
@@ -940,7 +921,6 @@
   },
   "help_online_fema_assistance_list_legal": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Legal services",
     "fr": "Services juridiques",
     "es": "servicios legales",
@@ -953,7 +933,6 @@
   },
   "help_online_fema_news_updates": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Learn more on <a href=\"https://www.fema.gov/disaster/4856\">FEMA’s LA Fires page</a> or view <a href=\"https://www.fema.gov/disaster/4856/news-media\">FEMA’s news updates</a>.",
     "fr": "En savoir plus sur la page <a href=\"https://www.fema.gov/disaster/4856\">FEMA's LA Fires page</a> ou consultez <a href=\"https://www.fema.gov/disaster/4856/news-media\">FEMA's news updates</a>.",
     "es": "Obtenga más información en la <a href=\"https://www.fema.gov/disaster/4856\">página de FEMA para los incendios de LA</a> o consulte las <a href=\"https://www.fema.gov/disaster/4856/news-media\">actualizaciones de FEMA</a>.",
@@ -966,7 +945,6 @@
   },
   "help_online_mortgage_relief_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Mortgage relief",
     "fr": "Relief hypothécaire",
     "es": "Asistencia hipotecaria",
@@ -979,7 +957,6 @@
   },
   "help_online_mortgage_relief_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Get mortgage relief for structures damaged or destroyed by the LA fires. The state worked with major lenders to offer this relief. Over 400 lenders committed to:",
     "fr": "Obtenir un relief hypothécaire pour les structures endommagées ou détruites par les incendies de Los Angeles. L'État a travaillé avec des prêteurs majeurs pour offrir ce relèvement. Plus de 400 prêteurs ont engagé :",
     "es": "Obtener asistencia hipotecaria por estructuras dañadas o destruidas por los incendios de LA. El estado trabajó con grandes prestamistas para ofrecer este beneficio. Más de 400 prestamistas se comprometieron a:",
@@ -992,7 +969,6 @@
   },
   "help_online_mortgage_relief_list_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Reduce or pause mortgage payments for 90 days",
     "fr": "Réduire ou suspendre les paiements hypothécaires pendant 90 jours",
     "es": "Reducir o pausar los pagos hipotecarios durante 90 días.",
@@ -1005,7 +981,6 @@
   },
   "help_online_mortgage_relief_list_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Waive late fees for 90 days",
     "fr": "Exonérer les frais de retard pour 90 jours",
     "es": "Hacer una exención de las tarifas por pagos atrasados por 90 días.",
@@ -1018,7 +993,6 @@
   },
   "help_online_mortgage_relief_list_3": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Protect owners from new foreclosures or evictions for 60 days",
     "fr": "Protéger les propriétaires contre les nouvelles saisies ou les expulsions pour 60 jours",
     "es": "Proteger a los dueños de nuevas ejecuciones hipotecarias o desalojo durante 60 días.",
@@ -1031,7 +1005,6 @@
   },
   "help_online_mortgage_relief_list_4": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Not report late payments to credit agencies",
     "fr": "Ne pas signaler les paiements en retard aux agences de crédit",
     "es": "No informar a las agencias de crédito sobre pagos atrasados.",
@@ -1044,7 +1017,6 @@
   },
   "help_online_mortgage_relief_note": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "You must contact your mortgage lender to get relief. It does not happen automatically.",
     "fr": "Vous devez contacter votre prêteur hypothécaire pour obtenir un relèvement. Cela ne se produit pas automatiquement.",
     "es": "Debe comunicarse con el banco de su crédito hipotecario para obtener asistencia. No la recibirá automáticamente.",
@@ -1057,7 +1029,6 @@
   },
   "help_online_mortgage_relief_resources": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Visit <a href=\"https://dfpi.ca.gov/lafires/relief/\">Mortgage relief resources</a> for a list of participating lenders and more.",
     "fr": "Visitez <a href=\"https://dfpi.ca.gov/lafires/relief/\">Mortgage relief resources</a> pour une liste des prêteurs participant et plus encore.",
     "es": "Visite <a href=\"https://dfpi.ca.gov/lafires/relief/\">los recursos de asistencia hipotecaria</a> para obtener una lista de prestamistas participantes y mucho más.",
@@ -1070,7 +1041,6 @@
   },
   "help_online_renter_protection_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Renter protection",
     "fr": "Protection locative",
     "es": "Protección del inquilino",
@@ -1083,7 +1053,6 @@
   },
   "help_online_renter_protection_eviction_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Protection from eviction",
     "fr": "Protection contre les expulsions",
     "es": "Protección contra el desalojo",
@@ -1096,7 +1065,6 @@
   },
   "help_online_renter_protection_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "The LA County Board of Supervisors has <a href=\"https://caanet.org/l-a-county-adopts-eviction-moratorium-rental-assistance-funding-remains-uncertain/#:~:text=The%20Los%20Angeles%20County%20Board,funding%20for%20unpaid%20landlords%20continue.\">prohibited evictions for tenants who qualify</a>. This protection lasts through July 31, 2025. See <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/January-2025-Wildfire-and-Critical-Windstorm-Resolution-FAQ-ENG-2.28.25.pdf\">FAQs about this resolution (PDF)</a>.",
     "fr": "Le conseil des superviseurs de Los Angeles a <a href=\"https://caanet.org/l-a-county-adopts-eviction-moratorium-rental-assistance-funding-remains-uncertain/#:~:text=The%20Los%20Angeles%20County%20Board,funding%20for%20unpaid%20landlords%20continue.\">interdit les expulsions pour les locataires qui remplissent les conditions</a>. Cette protection dure jusqu'au 31 juillet 2025. Voir <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/January-2025-Wildfire-and-Critical-Windstorm-Resolution-FAQ-ENG-2.28.25.pdf\">FAQs sur cette résolution (PDF)</a>.",
     "es": "La Junta de Supervisores (Board of Supervisors) del condado de LA <a href=\"https://caanet.org/l-a-county-adopts-eviction-moratorium-rental-assistance-funding-remains-uncertain/#:~:text=The%20Los%20Angeles%20County%20Board,funding%20for%20unpaid%20landlords%20continue.\">prohibió el desalojo de inquilinos que califican</a>. Esta protección dura hasta el 31 de julio de 2025. Consulte las <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/January-2025-Wildfire-and-Critical-Windstorm-Resolution-FAQ-ENG-2.28.25.pdf\">preguntas frecuentes sobre esta resolución (PDF)</a>.",
@@ -1110,7 +1078,6 @@
   "help_online_renter_protection_city_description": {
     "status": "ap_review",
     "comment": "missing links added",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "The City of Los Angeles <a href=\"https://housing.lacity.gov/renter-protections-2\">protects eligible tenants from eviction</a>. The protection lasts through July 31, 2025. You are eligible if you lost wages because:",
     "fr": "La ville de Los Angeles <a href=\"https://housing.lacity.gov/renter-protections-2\">protège les locataires éligibles contre les expulsions</a>. Cette protection dure jusqu'au 31 juillet 2025. Vous êtes éligible si vous avez perdu des revenus en raison de:",
     "es": "La ciudad de Los Ángeles <a href=\"https://housing.lacity.gov/renter-protections-2\">protege los inquilinos elegibles del desalojo</a>. Esta protección dura hasta el 31 de julio de 2025. Usted es elegible si perdió ingresos porque:",
@@ -1124,7 +1091,6 @@
   },
   "help_online_renter_protection_eligibility_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "The wildfires destroyed your workplace or rendered it unusable, or",
     "fr": "Les incendies ont détruit votre lieu de travail ou l'ont rendu inutilisable, ou",
     "es": "los incendios destruyeron su lugar de trabajo o lo dejaron inservible; o",
@@ -1137,7 +1103,6 @@
   },
   "help_online_renter_protection_eligibility_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Your employer laid you off or reduced your working hours, or",
     "fr": "Votre employeur vous a licencié ou réduit votre temps de travail, ou",
     "es": "su empleador lo despidió o redujo su horario de trabajo, o",
@@ -1150,7 +1115,6 @@
   },
   "help_online_renter_protection_eligibility_3": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "You had clients located in the wildfires, so you lost income.",
     "fr": "Vous aviez des clients situés dans les incendies, donc vous avez perdu des revenus.",
     "es": "usted tenía clientes ubicados en los incendios, por lo que perdió sus ingresos.",
@@ -1163,7 +1127,6 @@
   },
   "help_online_renter_protection_note_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Tenants are also protected from evictions for renovations through this date.",
     "fr": "Les locataires sont également protégés contre les expulsions pour des rénovations jusqu'à cette date.",
     "es": "Los inquilinos también están protegidos contra desalojos por renovaciones hasta esta fecha.",
@@ -1176,7 +1139,6 @@
   },
   "help_online_renter_protection_note_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "If you need eviction protection in the City or County of Los Angeles, you must notify your landlord. Send a <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">Notice to Landlord of Inability to Pay Rent (PDF)</a>.",
     "fr": "Si vous avez besoin de protection contre les expulsions dans la ville ou le comté de Los Angeles, vous devez informer votre propriétaire. Envoyer un <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">Notice to Landlord of Inability to Pay Rent (PDF)</a>.",
     "es": "Si necesita protección de desalojo en la ciudad o el condado de Los Ángeles, debe notificar al propietario. Envíe un <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">aviso al propietario sobre la incapacidad de pagar el alquiler (PDF)</a>.",
@@ -1189,7 +1151,6 @@
   },
   "help_online_renter_protection_mediation_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Free mediation",
     "fr": "Médiation gratuite",
     "es": "Mediación gratuita",
@@ -1202,7 +1163,6 @@
   },
   "help_online_renter_protection_mediation": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "The Department of Consumer and Business Affairs (DCBA) offers free mediation services. They help tenants and landlords work out a payment plan. Call <a href=\"tel:8005938222\">(800) 593-8222</a> to learn more.",
     "fr": "Le Département des consommateurs et des affaires commerciales (DCBA) offre des services de médiation gratuits. Ils aident les locataires et les propriétaires à mettre en place un plan de paiement. Appeler <a href=\"tel:8005938222\">(800) 593-8222</a> pour en savoir plus.",
     "es": "El Departamento de Asuntos de Empresas y Consumidores (Department of Consumer and Business Affairs, DCBA) ofrece servicios de mediación gratuitos. Ayudan a los inquilinos y propietarios a elaborar un plan de pago. Llame al <a href=\"tel:8005938222\">(800) 593-8222</a> para obtener más información.",
@@ -1216,7 +1176,6 @@
   },
   "help_online_help_for_immigrants_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Help for immigrants",
     "fr": "Aide pour les immigrants",
     "es": "Ayuda para inmigrantes",
@@ -1229,7 +1188,6 @@
   },
   "help_online_immigrants_guide_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Disaster Assistance Guide for Immigrants",
     "fr": "Guide d'assistance aux victimes des catastrophes pour les immigrants",
     "es": "Guía de asistencia ante catástrofes para inmigrantes",
@@ -1242,7 +1200,6 @@
   },
   "help_online_immigrants_guide_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "You can <a href=\"https://cdss.ca.gov/disaster-help-center\">get the guide</a> in 5 languages",
     "fr": "Vous pouvez <a href=\"https://cdss.ca.gov/disaster-help-center\">obtenir le guide</a> dans 5 langues",
     "es": "Puede <a href=\"https://cdss.ca.gov/disaster-help-center\">obtener la guía</a> en 5 idiomas:",
@@ -1256,7 +1213,6 @@
   },
   "help_online_immigrants_guide_languages_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "English",
     "fr": "Anglais",
     "es": "inglés",
@@ -1269,7 +1225,6 @@
   },
   "help_online_immigrants_guide_languages_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Spanish",
     "fr": "Espagnol",
     "es": "español",
@@ -1282,7 +1237,6 @@
   },
   "help_online_immigrants_guide_languages_3": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Simplified Chinese",
     "fr": "Chinois simplifié",
     "es": "chino simplificado",
@@ -1295,7 +1249,6 @@
   },
   "help_online_immigrants_guide_languages_4": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Traditional Chinese",
     "fr": "Chinois traditionnel",
     "es": "chino tradicional",
@@ -1308,7 +1261,6 @@
   },
   "help_online_immigrants_guide_languages_5": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Armenian",
     "fr": "Arménien",
     "es": "armenio",
@@ -1321,7 +1273,6 @@
   },
   "help_online_student_loans_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Help with student loans",
     "fr": "Aide pour les prêts étudiants",
     "es": "Ayuda con préstamos estudiantiles",
@@ -1334,7 +1285,6 @@
   },
   "help_online_student_loans_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "from the Department of Financial Protection and Innovation (DFPI)",
     "es": "del Departamento de Protección Financiera e Innovación (Department of Financial Protection and Innovation, DFPI)",
     "ko": "금융보호 및 혁신국(DFPI) 제공",
@@ -1346,7 +1296,6 @@
   },
   "help_online_student_loans_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "If the fires affected you and you have student loans, you may be eligible for relief.",
     "fr": "Si les incendies ont affecté vous et que vous avez des prêts étudiants, vous pouvez être éligible à un relèvement.",
     "es": "Si usted fue afectado por los incendios y tiene préstamos estudiantiles, podría ser elegible para recibir ayuda.",
@@ -1359,7 +1308,6 @@
   },
   "help_online_student_loans_faq": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "See <a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">Student Loan Relief FAQ</a>.",
     "fr": "Voir <a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">Student Loan Relief FAQ</a>.",
     "es": "Consulte las <a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">preguntas frecuentes sobre asistencia para préstamos estudiantiles</a>.",
@@ -1373,7 +1321,6 @@
   },
   "help_online_avoiding_price_gouging_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Avoiding price gouging",
     "fr": "Éviter la hausse des prix",
     "es": "Cómo evitar el alza de precios",
@@ -1386,7 +1333,6 @@
   },
   "help_online_price_gouging_protection_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Consumer protections against price gouging",
     "fr": "Protection contre la hausse des prix",
     "es": "Protección del consumidor contra el alza de precios",
@@ -1399,7 +1345,6 @@
   },
   "help_online_price_gouging_protection_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "from the Office of the Attorney General",
     "fr": "de l'Office de l'avocat général",
     "es": "de la Oficina del Fiscal General",
@@ -1412,7 +1357,6 @@
   },
   "help_online_price_gouging_info_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "About price gouging",
     "fr": "À propos de la hausse des prix",
     "es": "Acerca del alza de precios",
@@ -1425,7 +1369,6 @@
   },
   "help_online_price_gouging_info_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "from Los Angeles County",
     "fr": "du comté de Los Angeles",
     "es": "del condado de Los Ángeles",
@@ -1438,7 +1381,6 @@
   },
   "help_online_price_gouging_complaint_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Consumer protection complaint form",
     "fr": "Formulaire de plainte contre la hausse des prix",
     "es": "Formulario de queja de protección al consumidor",
@@ -1451,7 +1393,6 @@
   },
   "help_online_price_gouging_complaint_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "from Los Angeles County",
     "fr": "du comté de Los Angeles",
     "es": "del condado de Los Ángeles",
@@ -1464,7 +1405,6 @@
   },
   "help_online_price_gouging_la_complaint_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Price gouging complaint form",
     "fr": "Formulaire de plainte contre la hausse des prix",
     "es": "Formulario de queja de alza de precios",
@@ -1477,7 +1417,6 @@
   },
   "help_online_price_gouging_la_complaint_source": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "from the City of Los Angeles",
     "fr": "de la ville de Los Angeles",
     "es": "de la ciudad de Los Ángeles",
@@ -1490,7 +1429,6 @@
   },
   "help_online_more_county_resources_heading": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "More county resources",
     "fr": "Plus de ressources du comté",
     "es": "Más recursos del condado",
@@ -1503,7 +1441,6 @@
   },
   "help_online_more_county_resources_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "<strong><a href=\"https://recovery.lacounty.gov/resources/\">LA County Recovers</a></strong> lists help from many county agencies. This includes help for:",
     "fr": "<strong><a href=\"https://recovery.lacounty.gov/resources/\">LA County Recovers</a></strong> liste les aides de nombreux agences du comté. Cela inclut des aides pour:",
     "es": "<strong><a href=\"https://recovery.lacounty.gov/resources/\">LA County Recovers</a></strong> enumera la asistencia que ofrecen muchas agencias del condado. Esto incluye asistencia para:",
@@ -1516,7 +1453,6 @@
   },
   "help_online_seniors": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Seniors",
     "fr": "Personnes âgées",
     "es": "personas mayores",
@@ -1529,7 +1465,6 @@
   },
   "help_online_disabled_people": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Disabled people",
     "fr": "Personnes handicapées",
     "es": "personas con discapacidad",
@@ -1542,7 +1477,6 @@
   },
   "help_online_animals": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Animals",
     "fr": "Animaux",
     "es": "animales",
@@ -1555,7 +1489,6 @@
   },
   "help_online_children": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Children",
     "fr": "Enfants",
     "es": "niños",
@@ -1568,7 +1501,6 @@
   },
   "help_online_mental_health": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Mental health",
     "fr": "Santé mentale",
     "es": "salud mental",
@@ -1581,7 +1513,6 @@
   },
   "help_online_much_more": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "And much more",
     "fr": "Et bien plus encore",
     "es": "y mucho más",
@@ -1594,7 +1525,6 @@
   },
   "help_online_language_note": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Information is written in English and Spanish.",
     "fr": "Les informations sont écrites en anglais et en espagnol.",
     "es": "La información está escrita en inglés y español.",
@@ -1607,7 +1537,6 @@
   },
   "help_online_salvation_army_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "The Salvation Army",
     "fr": "L'Armée du Salut",
     "es": "The Salvation Army",
@@ -1620,7 +1549,6 @@
   },
   "help_online_salvation_army_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "<strong>The Salvation Army</strong> gives disaster services to those affected by the fires. Visit their <a href=\"https://socal.salvationarmy.org/southern-california/disaster-services/\">Disaster Services</a> page or call <a href=\"tel:8007259005\">(800)725-9005</a>.",
     "fr": "<strong>L'Armée du Salut</strong> donne des services aux victimes des incendies. Visitez leur page <a href=\"https://socal.salvationarmy.org/southern-california/disaster-services/\">Services aux catastrophes</a> ou appeler <a href=\"tel:8007259005\">(800)725-9005</a>.",
     "es": "<strong>The Salvation Army</strong> ofrece servicios por catástrofes aquellos afectados por los incendios. Visite la página <a href=\"https://socal.salvationarmy.org/southern-california/disaster-services/\">de servicios en caso de catástrofes</a> o llame al <a href=\"tel:8007259005\">(800) 725-9005</a>.",
@@ -1634,7 +1562,6 @@
   "help_online_foreclosure_protection_title": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Foreclosure protection",
     "fr": "Protection contre la saisie immobilière",
     "es": "Protección contra ejecuciones hipotecarias",
@@ -1648,7 +1575,6 @@
   "help_online_foreclosure_protection_description": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "The U.S. Department of Housing and Urban Development (HUD) has stopped foreclosures for those affected by the fires. To qualify, your mortgage must be:",
     "fr": "Le Département américain du logement et du développement urbain (HUD) a arrêté les saisies immobilières pour les personnes touchées par les incendies. Pour être éligible, votre prêt hypothécaire doit être :",
     "es": "El Departamento de Vivienda y Desarrollo Urbano de EE. UU. (HUD) ha detenido las ejecuciones hipotecarias para los afectados por los incendios. Para calificar, su hipoteca debe ser:",
@@ -1662,7 +1588,6 @@
   "help_online_foreclosure_protection_list_1": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "For a single family, and",
     "fr": "Pour une famille unique, et",
     "es": "Para una familia individual, y",
@@ -1676,7 +1601,6 @@
   "help_online_foreclosure_protection_list_2": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "Insured by the Federal Housing Administration (FHA).",
     "fr": "Assuré par la Federal Housing Administration (FHA).",
     "es": "Asegurada por la Administración Federal de Vivienda (FHA).",
@@ -1691,7 +1615,6 @@
   "help_online_foreclosure_protection_description_2": {
     "status": "ap_review",
     "comment": "machine translated",
-    "src_file": "pages/lafires/get-help-online-shared.html",
     "en": "If you are facing foreclosure, contact your mortgage company. You may also call the FHA Resource Center at <a href=\"tel:8002255342\">(800) CALL-FHA.</a>",
     "fr": "Si vous êtes confronté à une saisie immobilière, contactez votre société de prêt hypothécaire. Vous pouvez également appeler le Centre de ressources de la FHA au <a href=\"tel:8002255342\">(800) CALL-FHA.</a>",
     "es": "Si se enfrenta a una ejecución hipotecaria, comuníquese con su compañía hipotecaria. También puede llamar al Centro de Recursos de la FHA al <a href=\"tel:8002255342\">(800) CALL-FHA.</a>",

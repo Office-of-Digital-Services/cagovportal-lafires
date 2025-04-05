@@ -8,6 +8,7 @@ const postcssNested = require("postcss-nested");
 const { DateTime } = require("luxon");
 const fs = require("node:fs");
 const path = require("node:path");
+const chalk = require("chalk");
 
 // Utility function to load all translation files and combine them
 function loadAllTranslations() {
@@ -19,11 +20,20 @@ function loadAllTranslations() {
   
   // Load and merge all translation files into a single object
   let allTranslations = {};
+  let knownKeys = [];
   translationFiles.forEach(file => {
     const filePath = path.join(translationsDir, file);
     try {
       const fileContent = fs.readFileSync(filePath, 'utf8');
       const translations = JSON.parse(fileContent);
+      // warn if any keys are duplicated
+      Object.keys(translations).forEach(key => {
+        if (knownKeys.includes(key)) {
+          console.warn(chalk.red(`[i18n] Duplicate key found in ${file}: ${key}`));
+        } else {
+          knownKeys.push(key);
+        }
+      });
       allTranslations = { ...allTranslations, ...translations };
     } catch (error) {
       console.error(`Error loading translation file ${file}:`, error);
@@ -35,7 +45,6 @@ function loadAllTranslations() {
 
 let translationsModule = loadAllTranslations();
 
-const chalk = require("chalk");
 
 // canonical domain
 const domain = "https://www.ca.gov";
@@ -384,7 +393,7 @@ module.exports = function (
 
     // Check if the requested content key exists.
     if (!contentGroup) {
-      console.log(chalk.yellow(`[i18n] Could not find content group for *${key}* in translations table.`));
+      console.log(chalk.red(`[i18n] Could not find content group for *${key}* in translations table.`));
       return "";
     }
 

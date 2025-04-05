@@ -1,7 +1,6 @@
 {
   "home_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "2025 Los Angeles Fires",
     "fr": "Feux de Los Angeles en 2025",
     "es": "Incendios de Los Ángeles en 2025",
@@ -14,7 +13,6 @@
   },
   "home_breadcrumbparent": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Home",
     "fr": "Accueil",
     "es": "Inicio",
@@ -27,7 +25,6 @@
   },
   "home_category1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "LA Fires",
     "fr": "Feux de Los Angeles",
     "es": "Incendios de Los Ángeles",
@@ -40,7 +37,6 @@
   },
   "home_category2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Top Story",
     "fr": "Top Story",
     "es": "Noticia principal",
@@ -53,7 +49,6 @@
   },
   "home_category3": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Public Safety",
     "fr": "Public Safety",
     "es": "Seguridad pública",
@@ -66,7 +61,6 @@
   },
   "home_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Help and info for people affected by the 2025 Los Angeles County fires.",
     "fr": "Aide et informations pour les personnes affectées par les feux de Los Angeles County en 2025.",
     "es": "Ayuda e información para las personas afectadas por los incendios del condado de Los Ángeles (LA) de 2025",
@@ -79,7 +73,6 @@
   },
   "home_keywords": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "California, government, LA, Los Angeles, fires, wildfires",
     "fr": "Californie, gouvernement, LA, Los Angeles, feux, feux de forêt",
     "es": "California, gobierno, LA, Los Ángeles, incendios, incendios forestales",
@@ -92,7 +85,6 @@
   },
   "home_main_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "2025 Los Angeles Fires",
     "fr": "Feux de Los Angeles en 2025",
     "es": "Incendios de Los Ángeles en 2025",
@@ -105,7 +97,6 @@
   },
   "home_main_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Help and info for people affected by the wildfires",
     "fr": "Aide et informations pour les personnes affectées par les feux de forêt",
     "es": "Ayuda e información para las personas afectadas por los incendios forestales",
@@ -118,7 +109,6 @@
   },
   "home_find_help_available_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Find help available to you",
     "fr": "Trouvez l'aide disponible pour vous",
     "es": "Encuentre ayuda disponible para usted",
@@ -131,7 +121,6 @@
   },
   "home_track_la_progress_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Track LA’s progress",
     "fr": "Suivez le progrès de Los Angeles",
     "es": "Siga el progreso de LA",
@@ -144,7 +133,6 @@
   },
   "home_top_needs": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Top needs",
     "fr": "Top besoins",
     "es": "Necesidades principales",
@@ -158,7 +146,6 @@
   "home_hands_reaching_out_image_alt": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Hands reaching out to help line art background image",
     "fr": "Image de fond en ligne de mains qui atteignent pour aider",
     "es": "Imagen de fondo de líneas de manos que se extienden para ayudar",
@@ -171,7 +158,6 @@
   },
   "home_stay_healthy": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Stay healthy",
     "fr": "Restez en santé",
     "es": "Mantenerse saludable",
@@ -184,7 +170,6 @@
   },
   "home_replace_documents": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Replace documents",
     "fr": "Remplacer les documents",
     "es": "Reemplazar documentos",
@@ -197,7 +182,6 @@
   },
   "home_get_debris_removed": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Get debris removed",
     "fr": "Obtenir le débris enlevé",
     "es": "Solicitar remoción de escombros",
@@ -211,47 +195,20 @@
   "home_upcoming_deadlines": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/index-shared.html",
-    "en": "Deadlines",
-    "fr": "Délais",
-    "es": "Plazos",
-    "ko": "기한",
-    "vi": "Hạn cuối",
-    "tl": "Mga deadline",
-    "zh-hans": "截止日期",
-    "zh-hant": "截止日期",
-    "hy": "Վերջնաժամկետներ"
+    "en": "Free debris removal: opt in by April 15, 2025",
+    "fr": "Enlèvement gratuit des débris : optez avant le 15 avril 2025",
+    "es": "Remoción gratuita de escombros: opte por participar antes del 15 de abril de 2025",
+    "ko": "잔해 무료 제거: 2025년 4월 15일까지 선택",
+    "vi": "Di dời đống đổ nát miễn phí: tham gia trước ngày 15 tháng 4 năm 2025",
+    "tl": "Libreng pag-aalis ng kalat: mag-opt in bago ang Abril 15, 2025",
+    "zh-hans": "免费清除残余物：请在 2025 年 4 月 15 日之前选择加入",
+    "zh-hant": "免費清除雜物：請在 2025 年 4 月 15 日之前選擇加入",
+    "hy": "Անվճար աղբի հեռացում. գրանցվեք մինչև 2025թ․ ապրիլի 15-ը"
   },
-  "home_march_31_2025": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
-    "en": "March 31, 2025",
-    "fr": "31 mars 2025",
-    "es": "31 de marzo de 2025",
-    "ko": "2025년 3월 31일",
-    "vi": "Ngày 31 tháng 3 năm 2025",
-    "tl": "Marso 31, 2025",
-    "zh-hans": "2025 年 3 月 31 日",
-    "zh-hant": "2025 年 3 月 31日",
-    "hy": "2025թ․ մարտի 31"
-  },
-  "home_april_15_2025": {
-    "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
-    "en": "April 15, 2025",
-    "fr": "15 avril 2025",
-    "es": "15 de abril de 2025",
-    "ko": "2025년 4월 15일",
-    "vi": "Ngày 15 tháng 4 năm 2025",
-    "tl": "Abril 15, 2025",
-    "zh-hans": "2025 年 4 月 15 日",
-    "zh-hant": "2025 年 4 月 15日",
-    "hy": "2025թ․ ապրիլի 15"
-  },
+
   "home_apply_for_fema_individual_assistance": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "To apply for <a href=\"http://disasterassistance.gov\">FEMA Individual Assistance</a>",
     "fr": "Pour appliquer pour <a href=\"http://disasterassistance.gov\">l'Aide individuelle FEMA</a>",
     "es": "Para solicitar <a href=\"http://disasterassistance.gov\">asistencia individual de la Agencia Federal para el Manejo de Emergencias (FEMA)</a>",
@@ -263,39 +220,21 @@
     "hy": "Որպեսզի դիմեք <a href=\"http://disasterassistance.gov\">FEMA-ի անհատական օգնության</a> համար",
     "orig_en": "Apply for <link>FEMA Individual Assistance</link>"
   },
-  "home_apply_for_sba_business_loan": {
-    "status": "ap_review",
-    "comment": "Machine translated",
-    "src_file": "pages/lafires/index-shared.html",
-    "en": "To apply for an <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA business loan</a>",
-    "fr": "Pour appliquer pour un <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">prêt d'entreprise SBA</a>",
-    "es": "Para solicitar un <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">crédito comercial de la Agencia Federal de Pequeños Negocios (SBA)</a>",
-    "ko": "<a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA 기업 대출</a> 신청을 위해",
-    "vi": "Để đơn xin nhận <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">khoản vay kinh doanh của Cơ Quan Quản Lý Doanh Nghiệp Nhỏ (SBA)</a>",
-    "tl": "Para mag-apply para sa <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">loan para sa negosyo ng SBA</a>",
-    "zh-hans": "要申请 <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA 商业贷款</a>",
-    "zh-hant": "要申請 <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA 商業貸款</a>",
-    "hy": "Որպեսզի դիմեք <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA-ի բիզնես վարկի</a> համար",
-    "orig_en": "Apply for an <link>SBA business loan</link>"
-  },
   "home_opt_in_for_free_debris_removal": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/index-shared.html",
-    "en": "To opt in for <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">free debris removal</a>",
-    "fr": "Pour s'inscrire à <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">l'enlèvement gratuit des débris</a>",
-    "es": "Para optar por la <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">remoción gratuita</a>",
-    "ko": "<a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">무료 잔해 제거</a>에 동의하려면",
-    "vi": "Để tham gia <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">di dời miễn phí đống đổ nát</a>",
-    "tl": "Para mag-opt in para sa <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">libreng pag-aalis ng kalat</a>",
-    "zh-hans": "要加入<a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">免费残余物清除服务</a>",
-    "zh-hant": "要選擇加入<a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">免費清除雜物</a>",
-    "hy": "Անվճար <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">աղբի հեռացման</a> համար գրանցվելու համար",
-    "orig_en": "Opt in for <link>free debris removal</link>"
+    "en": "Homeowners can opt in for <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">free debris removal</a>. Businesses are also encouraged to apply.",
+    "fr": "Les propriétaires peuvent opter pour <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">l'enlèvement gratuit des débris</a>. Les entreprises sont également encouragées à postuler.",
+    "es": "Los propietarios pueden optar por <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">la remoción gratuita de escombros</a>. También se anima a las empresas a postularse.",
+    "ko": "주택 소유자는 <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">무료 잔해 제거</a>를 선택할 수 있습니다. 기업도 신청하는 것이 좋습니다.",
+    "vi": "Chủ nhà có thể chọn <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">di dời đống đổ nát miễn phí</a>. Các doanh nghiệp cũng được khuyến khích nộp đơn.",
+    "tl": "Maaaring mag-opt in ang mga may-ari ng bahay para sa <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">libreng pag-aalis ng kalat</a>. Ang mga negosyo ay hinihimok din na mag-apply.",
+    "zh-hans": "房主可以选择 <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">免费清除残余物</a>。企业也鼓励申请。",
+    "zh-hant": "房主可以選擇 <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">免費清除雜物</a>。企業也鼓勵申請。",
+    "hy": "Տունատերերը կարող են ընտրել <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">անվճար աղբի հեռացում</a>։ Բիզնեսները նույնպես խրախուսվում են դիմել:"
   },
   "home_what_you_can_do": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "What you can do",
     "fr": "Ce que vous pouvez faire",
     "es": "Lo que puede hacer",
@@ -308,7 +247,6 @@
   },
   "home_help_online_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Get help online",
     "fr": "Obtenir de l'aide en ligne",
     "es": "Obtenga ayuda en línea",
@@ -321,7 +259,6 @@
   },
   "home_help_online_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "We can help you with food, expenses, shelter, and more.",
     "fr": "Nous pouvons vous aider avec de la nourriture, les dépenses, le logement et plus encore.",
     "es": "Podemos ayudarle con alimentos, gastos, alojamiento y mucho más.",
@@ -334,7 +271,6 @@
   },
   "home_help_in_person_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Get help in person",
     "fr": "Obtenir de l'aide en personne",
     "es": "Obtenga ayuda en persona",
@@ -348,7 +284,6 @@
   "home_help_in_person_description": {
     "status": "ap_review",
     "comment": "Edited for title consistency",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Disaster Recovery Centers are open in Altadena and UCLA Research Park West.",
     "fr": "Les Disaster Recovery Centers sont ouverts à Altadena et UCLA Research Park West.",
     "es": "Los Disaster Recovery Centers están abiertos en Altadena y UCLA Research Park West.",
@@ -361,7 +296,6 @@
   },
   "home_see_real_time_info": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "See real-time info",
     "fr": "Voir les informations en temps réel",
     "es": "Vea información en tiempo real",
@@ -374,7 +308,6 @@
   },
   "home_find_fire_maps_air_quality_and_road_closure_maps": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Find fire maps, air quality information, and road closure maps.",
     "fr": "Trouvez les cartes de feux, les informations sur la qualité de l'air et les cartes de fermeture des routes.",
     "es": "Encuentre mapas de incendios, información sobre la calidad del aire y los mapas de cierres viales.",
@@ -387,7 +320,6 @@
   },
   "home_start_your_recovery": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Start your recovery",
     "fr": "Commencer votre récupération",
     "es": "Comience la recuperación",
@@ -400,7 +332,6 @@
   },
   "home_learn_when_you_can_return_home_and_how_to_start_recovering": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Learn when you can return home and how to start recovering.",
     "fr": "Apprenez quand vous pouvez retourner à la maison et comment commencer à récupérer.",
     "es": "Sepa cuándo puede regresar a casa y cómo empezar a recuperarse.",
@@ -413,7 +344,6 @@
   },
   "home_help_business_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Help your business",
     "fr": "Aider votre entreprise",
     "es": "Ayuda para su negocio",
@@ -426,7 +356,6 @@
   },
   "home_businesses_affected_by_the_fires_can_get_tax_relief_and_extensions": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Businesses affected by the fires can get tax relief and extensions.",
     "fr": "Les entreprises affectées par les feux peuvent obtenir des exonérations fiscales et des extensions.",
     "es": "Las empresas afectadas por los incendios pueden obtener alivio fiscal y extensiones.",
@@ -439,7 +368,6 @@
   },
   "home_volunteer": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Volunteer",
     "fr": "Volontaire",
     "es": "Ser voluntario",
@@ -452,7 +380,6 @@
   },
   "home_give_time_or_money_to_help_people_affected_by_the_fires": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Give time or money to help people affected by the fires.",
     "fr": "Donnez du temps ou de l'argent pour aider les personnes affectées par les feux.",
     "es": "Dar tiempo o dinero para ayudar a las personas afectadas por los incendios.",
@@ -465,7 +392,6 @@
   },
   "home_services_finder_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Recovery services finder",
     "fr": "Recherche de services de récupération",
     "es": "Buscador de servicios de recuperación",
@@ -478,7 +404,6 @@
   },
   "home_services_finder_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Don’t know where to start? Use our finder to see what recovery help is available to you.",
     "fr": "Ne savez pas par où commencer ? Utilisez notre recherche pour voir quelles aides de récupération sont disponibles pour vous.",
     "es": "¿No sabe por dónde comenzar? Use nuestro buscador para ver qué ayuda de recuperación está disponible para usted.",
@@ -491,7 +416,6 @@
   },
   "home_help_us_improve": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Help us improve",
     "fr": "Aidez-nous à améliorer",
     "es": "Ayudarnos a mejorar",
@@ -504,7 +428,6 @@
   },
   "home_tell_us_what_this_website_could_do_better": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Tell us what this website could do better. Take this <a href=\"https://www.surveymonkey.com/r/2025LAFireStateResponse\">3-minute survey</a>. You can take it in English or <a href=\"https://www.surveymonkey.com/r/2025LAFireStateResponse?lang=es\">Spanish</a>.",
     "fr": "Dites-nous ce que ce site web pourrait faire mieux. Faites ce <a href=\"https://www.surveymonkey.com/r/2025LAFireStateResponse\">enquête de 3 minutes</a>. Vous pouvez le faire en anglais ou <a href=\"https://www.surveymonkey.com/r/2025LAFireStateResponse?lang=es\">en espagnol</a>.",
     "es": "Díganos lo que esta página web podría mejorar. Conteste esta <a href=\"https://www.surveymonkey.com/r/2025LAFireStateResponse\">encuesta de 3 minutos</a>. Puede contestarla en inglés o en <a href=\"https://www.surveymonkey.com/r/2025LAFireStateResponse?lang=es\">español</a>.",
@@ -517,7 +440,6 @@
   },
   "home_join_the_conversation": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Join the conversation",
     "fr": "Rejoignez la conversation",
     "es": "Unirse a la conversación",
@@ -530,7 +452,6 @@
   },
   "home_sign_up_to_tell_us_about_your_recovery_experience_and_hear_from_others": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "<a href=\"https://engaged.ca.gov/\">Sign up</a> to tell us about your recovery experience and hear from others.",
     "fr": "<a href=\"https://engaged.ca.gov/\">S'inscrire</a> pour nous parler de votre expérience de récupération et entendre parler d'autres personnes.",
     "es": "<a href=\"https://engaged.ca.gov/\">Regístrese</a> para contarnos sobre su experiencia de recuperación y conocer noticias de otras personas.",
@@ -543,7 +464,6 @@
   },
   "home_state_updates": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "State updates",
     "fr": "Mises à jour de l'État",
     "es": "Actualizaciones estatales",
@@ -557,7 +477,6 @@
   "home_view_all_la_fires_news": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "View all LA fires news",
     "fr": "Voir toutes les nouvelles des feux de Los Angeles",
     "es": "Ver todas las noticias sobre los incendios de Los Ángeles",
@@ -570,7 +489,6 @@
   },
   "home_rebuild_faster_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Rebuild - faster",
     "fr": "Reconstruire - plus rapidement",
     "es": "Reconstruir más rápido",
@@ -583,7 +501,6 @@
   },
   "home_rebuild_faster_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Governor Newsom <a href=\"https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/\">suspended permit and review requirements</a> under the California Environmental Quality Act (CEQA) and the California Coastal Act. This allows victims of the recent fires to restore their homes and businesses faster.",
     "fr": "Le gouverneur Newsom a suspendu les exigences de permis et de révision sous le California Environmental Quality Act (CEQA) et le California Coastal Act. Cela permet aux victimes des feux récents de restaurer leurs maisons et leurs entreprises plus rapidement.",
     "es": "El gobernador Newsom <a href=\"https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/\">suspendió los requisitos de permisos y revisiones</a> según la Ley de Calidad Ambiental de California (California Environmental Quality Act, CEQA) y la Ley Costera de California. Esto permite que las personas afectadas por los incendios recientes reconstruyan sus casas y empresas más rápido.",
@@ -597,7 +514,6 @@
   },
   "home_governor_signs_legislation": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "The Governor <a href=\"https://www.gov.ca.gov/2025/01/23/governor-newsom-signs-2-5-billion-bipartisan-relief-package-to-help-los-angeles-recover-and-rebuild-faster-from-firestorm/\">signed legislation</a> providing $2.5 billion in immediate disaster relief. This supports response and recovery efforts.",
     "fr": "Le gouverneur a signé une législation <a href=\"https://www.gov.ca.gov/2025/01/23/governor-newsom-signs-2-5-billion-bipartisan-relief-package-to-help-los-angeles-recover-and-rebuild-faster-from-firestorm/\">fournissant 2,5 milliards de dollars en aide aux victimes des feux</a>. Cela soutient les efforts de réponse et de récupération.",
     "es": "El gobernador <a href=\"https://www.gov.ca.gov/2025/01/23/governor-newsom-signs-2-5-billion-bipartisan-relief-package-to-help-los-angeles-recover-and-rebuild-faster-from-firestorm/\">firmó la legislación</a> para proporcionar $2.5 mil millones en subsidio inmediato por catástrofes. Esto respalda los esfuerzos de respuesta y recuperación.",
@@ -611,7 +527,6 @@
   },
   "home_see_all_actions": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "See all the <a href=\"https://www.gov.ca.gov/2025/01/24/heres-all-the-actions-governor-newsom-has-taken-in-response-to-the-los-angeles-fires/\">Governor's actions in response to the fires</a>.",
     "fr": "Voir toutes les <a href=\"https://www.gov.ca.gov/2025/01/24/heres-all-the-actions-governor-newsom-has-taken-in-response-to-the-los-angeles-fires/\">actions du gouverneur en réponse aux feux</a>.",
     "es": "Vea todas las <a href=\"https://www.gov.ca.gov/2025/01/24/heres-all-the-actions-governor-newsom-has-taken-in-response-to-the-los-angeles-fires/\">acciones del gobernador en respuesta a los incendios</a>.",
@@ -625,7 +540,6 @@
   },
   "home_major_disaster_title": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Major Disaster Declaration",
     "fr": "Déclaration de catastrophe majeure",
     "es": "Declaración de catástrofe importante",
@@ -638,7 +552,6 @@
   },
   "home_major_disaster_description": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "On January 8, California got a <a href=\"https://www.fema.gov/press-release/20250109/president-joseph-r-biden-jr-approves-major-disaster-declaration-california#:~:text=Learn%20more-,President%20Joseph%20R.%20Biden%2C%20Jr.,Major%20Disaster%20Declaration%20for%20California&text=WASHINGTON%20%2D%2D%20FEMA%20announced%20that,7%2C%202025%2C%20and%20continuing.\">Major Disaster Declaration</a> for the California wildfires. This lets federal agencies give aid and resources for recovery in the affected areas.",
     "fr": "Le 8 janvier, Californie a obtenu une <a href=\"https://www.fema.gov/press-release/20250109/president-joseph-r-biden-jr-approves-major-disaster-declaration-california#:~:text=Learn%20more-,President%20Joseph%20R.%20Biden%2C%20Jr.,Major%20Disaster%20Declaration%20for%20California&text=WASHINGTON%20%2D%2D%20FEMA%20announced%20that,7%2C%202025%2C%20and%20continuing.\">Déclaration de catastrophe majeure</a> pour les feux de forêt de Californie. Cela permet aux agences fédérales de donner de l'aide et des ressources pour la récupération dans les zones affectées.",
     "es": "El 8 de enero, California hizo una <a href=\"https://www.fema.gov/press-release/20250109/president-joseph-r-biden-jr-approves-major-disaster-declaration-california#:~:text=Learn%20more-,President%20Joseph%20R.%20Biden%2C%20Jr.,Major%20Disaster%20Declaration%20for%20California&text=WASHINGTON%20%2D%2D%20FEMA%20announced%20that,7%2C%202025%2C%20and%20continuing.\">declaración de catástrofe importante</a> por los incendios forestales. Esto permite a las agencias federales dar ayuda y recursos para la recuperación en las áreas afectadas.",
@@ -652,7 +565,6 @@
   },
   "home_declaration_assistance": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "Through this declaration from President Biden, California gets assistance for",
     "fr": "Grâce à cette déclaration du président Biden, Californie obtient de l'aide pour",
     "es": "Mediante esta declaración del presidente Biden, California obtiene asistencia para:",
@@ -665,7 +577,6 @@
   },
   "home_assistance_list_1": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "individuals,",
     "fr": "des individus,",
     "es": "las personas,",
@@ -678,7 +589,6 @@
   },
   "home_assistance_list_2": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "the public, and",
     "fr": "le public, et",
     "es": "el público, y",
@@ -691,7 +601,6 @@
   },
   "home_assistance_list_3": {
     "status": "avantpage_delivery",
-    "src_file": "pages/lafires/index-shared.html",
     "en": "small businesses.",
     "fr": "les petites entreprises.",
     "es": "las pequeñas empresas.",
