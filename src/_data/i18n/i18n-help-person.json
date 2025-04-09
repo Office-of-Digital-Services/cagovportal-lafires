@@ -12,28 +12,30 @@
     "hy": "Ստացեք օգնություն անձամբ"
   },
   "help_person_description": {
-    "status": "avantpage_delivery",
-    "en": "You can get help and advice in person at a Disaster Recovery Center.",
-    "fr": "Vous pouvez obtenir de l'aide et des conseils en personne dans un centre de récupération des dommages.",
-    "es": "Puede obtener ayuda en persona en un centro de recuperación por catástrofes",
-    "ko": "재난 복구 센터를 직접 방문하여 도움과 조언을 받을 수 있습니다.",
-    "vi": "Quý vị có thể nhận trợ giúp và tư vấn trực tiếp tại Trung Tâm Phục Hồi sau Thảm Họa.",
-    "tl": "Puwede kang makakuha ng tulong at payo sa personal sa isang Disaster Recovery Center.",
-    "zh-hans": "您可亲临灾害恢复中心获取帮助与建议。",
-    "zh-hant": "您可以親自到災難復原中心獲得協助和諮詢。",
-    "hy": "Դուք կարող եք անձամբ օգնություն և խորհուրդ ստանալ Աղետների վերականգնման կենտրոնում։"
+    "status": "ap_review",
+    "comment": "machine translation used",
+    "en": "You can get help and advice in person at a Disaster Recovery Center. For help rebuilding your home, you can go to a One-Stop Permit Center.",
+    "fr": "Vous pouvez obtenir de l'aide et des conseils en personne dans un centre de récupération des dommages. Pour obtenir de l'aide pour reconstruire votre maison, vous pouvez vous rendre dans un centre de permis unique.",
+    "es": "Puede obtener ayuda y asesoramiento en persona en un centro de recuperación por catástrofes. Para obtener ayuda para reconstruir su hogar, puede ir a un centro de permisos de una sola parada.",
+    "ko": "재난 복구 센터를 직접 방문하여 도움과 조언을 받을 수 있습니다. 집을 재건하는 데 도움이 필요하면 원스톱 허가 센터에 가실 수 있습니다.",
+    "vi": "Quý vị có thể nhận trợ giúp và tư vấn trực tiếp tại Trung Tâm Phục Hồi sau Thảm Họa. Để được hỗ trợ xây dựng lại nhà ở, quý vị có thể đến Trung Tâm Cấp Phép Một Cửa.",
+    "tl": "Puwede kang makakuha ng tulong at payo sa personal sa isang Disaster Recovery Center. Para sa tulong sa muling pagtatayo ng iyong bahay, puwede kang pumunta sa One-Stop Permit Center.",
+    "zh-hans": "您可亲临灾害恢复中心获取帮助与建议。如需重建家园的帮助，您可前往一站式许可中心。",
+    "zh-hant": "您可以親自到災難復原中心獲得協助和諮詢。如需重建家園的幫助，您可以前往一站式許可中心。",
+    "hy": "Դուք կարող եք անձամբ օգնություն և խորհուրդ ստանալ Աղետների վերականգնման կենտրոնում։ Ձեր տունը վերակառուցելու համար օգնություն ստանալու համար կարող եք գնալ «Մեկ պատուհանի թույլտվությունների կենտրոն»։"
   },
   "help_person_lead_text": {
-    "status": "avantpage_delivery",
-    "en": "You can get help and advice in person at a Disaster Recovery Center.",
-    "fr": "Vous pouvez obtenir de l'aide et des conseils en personne dans un centre de récupération des dommages.",
-    "es": "Puede obtener ayuda en persona en un centro de recuperación por catástrofes",
-    "ko": "재난 복구 센터를 직접 방문하여 도움과 조언을 받을 수 있습니다.",
-    "vi": "Quý vị có thể nhận trợ giúp và tư vấn trực tiếp tại Trung Tâm Phục Hồi sau Thảm Họa.",
-    "tl": "Puwede kang makakuha ng tulong at payo sa personal sa isang Disaster Recovery Center.",
-    "zh-hans": "您可亲临灾害恢复中心获取帮助与建议。",
-    "zh-hant": "您可以親自到災難復原中心獲得協助和諮詢。",
-    "hy": "Դուք կարող եք անձամբ օգնություն և խորհուրդ ստանալ Աղետների վերականգնման կենտրոնում։"
+    "status": "ap_review",
+    "comment": "machine translation used",
+    "en": "You can get help and advice in person at a Disaster Recovery Center. For help rebuilding your home, you can go to a <a href=\"#one-shop\">One-Stop Permit Center</a>.",
+    "fr": "Vous pouvez obtenir de l'aide et des conseils en personne dans un centre de récupération des dommages. Pour obtenir de l'aide pour reconstruire votre maison, vous pouvez vous rendre dans un <a href=\"#one-shop\">centre de permis unique</a>.",
+    "es": "Puede obtener ayuda y asesoramiento en persona en un centro de recuperación por catástrofes. Para obtener ayuda para reconstruir su hogar, puede ir a un <a href=\"#one-shop\">centro de permisos de una sola parada</a>.",
+    "ko": "재난 복구 센터를 직접 방문하여 도움과 조언을 받을 수 있습니다. 집을 재건하는 데 도움이 필요하면 <a href=\"#one-shop\">원스톱 허가 센터</a>에 가실 수 있습니다.",
+    "vi": "Quý vị có thể nhận trợ giúp và tư vấn trực tiếp tại Trung Tâm Phục Hồi sau Thảm Họa. Để được hỗ trợ xây dựng lại nhà ở, quý vị có thể đến một <a href=\"#one-shop\">Trung Tâm Cấp Phép Một Cửa</a>.",
+    "tl": "Puwede kang makakuha ng tulong at payo sa personal sa isang Disaster Recovery Center. Para sa tulong sa muling pagtatayo ng iyong bahay, puwede kang pumunta sa isang <a href=\"#one-shop\">One-Stop Permit Center</a>.",
+    "zh-hans": "您可亲临灾害恢复中心获取帮助与建议。如需重建家园的帮助，您可前往<a href=\"#one-shop\">一站式许可中心</a>。",
+    "zh-hant": "您可以親自到災難復原中心獲得協助和諮詢。如需重建家園的幫助，您可以前往<a href=\"#one-shop\">一站式許可中心</a>。",
+    "hy": "Դուք կարող եք անձամբ օգնություն և խորհուրդ ստանալ Աղետների վերականգնման կենտրոնում։ Ձեր տունը վերակառուցելու համար օգնություն ստանալու համար կարող եք գնալ <a href=\"#one-shop\">«Մեկ պատուհանի թույլտվությունների կենտրոն»</a>։"
   },
   "help_person_plan_visit_button_text": {
     "status": "avantpage_delivery",
@@ -147,15 +149,15 @@
   "help_person_hours_open": {
     "status": "ap_review",
     "comment": "original text was trunctated - machine translation used to repair",
-    "en": "<strong>Hours open</strong>: Monday - Saturday, 9 am to 7 pm. Closed Sundays.",
-    "fr": "<strong>Heures d'ouverture</strong>: Lundi - Samedi, 9h à 19h. Fermé le dimanche.",
-    "es": "<strong>Horarios de disponibilidad</strong>: Lunes a sábado, 9 am a 7 pm. Cerrado los domingos.",
-    "ko": "<strong>운영 시간</strong>: 월요일 - 토요일, 오전 9시 - 오후 7시. 일요일 휴무.",
-    "vi": "<strong>Giờ mở cửa</strong>: Thứ 2 - Thứ 7, 9h - 19h. Chủ nhật ngày không hoạt động.",
-    "tl": "<strong>Mga oras na bukas</strong>: Lunes - Sabado, 9 am - 7 pm. Hindi nag-aalaga ng araw ng puso.",
-    "zh-hans": "<strong>开放时段</strong>: 周一 - 周六, 9 am - 7 pm. 周日休息。",
-    "zh-hant": "<strong>開放時段</strong>: 周一 - 周六, 9 am - 7 pm. 周日休息。",
-    "hy": "<strong>Աշխատանքային ժամեր</strong>: Երկուշաբթի - Շաբաթ, 9 am - 7 pm. Կիրակի օրը անջատված է:",
+    "en": "<strong>Hours open</strong>: Monday - Saturday, 9 AM to 7 PM. Closed Sundays.",
+    "fr": "<strong>Heures d'ouverture</strong> : du lundi au samedi, de 9 h à 19 h. Fermé le dimanche.",
+    "es": "<strong>Horas abiertas</strong>: de lunes a sábado, de 9 a. m. a 7 p. m. Cerrado los domingos.",
+    "ko": "<strong>영업시간</strong>: 월요일 - 토요일, 오전 9시 - 오후 7시. 일요일 휴무.",
+    "vi": "<strong>Giờ mở cửa</strong>: Thứ Hai - Thứ Bảy, 9 giờ sáng đến 7 giờ tối. Đóng cửa vào Chủ Nhật.",
+    "tl": "<strong>Mga oras ng pagbubukas</strong>: Lunes - Sabado, 9 AM hanggang 7 PM. Sarado ang Linggo.",
+    "zh-hans": "<strong>开放时间</strong>: 周一至周六，上午9点至晚上7点。周日休息。",
+    "zh-hant": "<strong>開放時間</strong>: 星期一至星期六，上午9時至晚上7時。星期日休息。",
+    "hy": "<strong>Աշխատանքային ժամեր</strong>: Երկուշաբթի - Շաբաթ, 9:00 - 19:00։ Կիրակի փակ է։",
     "orig_en": "<strong>Hours open"
   },
   "help_person_wait_times_alt": {
@@ -295,19 +297,6 @@
     "zh-hant": "查看完整列表，請訪問",
     "hy": "Տեսեք ամբողջական ցանկը"
   },
-  "help_person_food": {
-    "status": "ap_review",
-    "comment": "machine translation used",
-    "en": "Food benefits",
-    "fr": "Avantages alimentaires",
-    "es": "beneficios alimentarios",
-    "ko": "식량 혜택",
-    "vi": "Lợi ích thực phẩm",
-    "tl": "Mga benepisyo sa pagkain",
-    "zh-hans": "食品福利",
-    "zh-hant": "食品福利",
-    "hy": "Առողջապահական նպաստներ"
-  },
   "help_person_health_services": {
     "status": "avantpage_delivery",
     "en": "Health services and advice",
@@ -368,18 +357,6 @@
     "zh-hans": "个人文件补办",
     "zh-hant": "替換個人文件",
     "hy": "Անձնական փաստաթղթերի փոխարինում"
-  },
-  "help_person_tips_for_hiring_contractors": {
-    "status": "avantpage_delivery",
-    "en": "Tips for hiring contractors",
-    "fr": "Conseils pour embaucher des entrepreneurs",
-    "es": "consejos para emplear contratistas",
-    "ko": "계약자 고용을 위한 팁",
-    "vi": "Lời khuyên khi thuê nhà thầu",
-    "tl": "Mga tip para sa pag-hire ng mga kontratista",
-    "zh-hans": "承包商雇佣建议",
-    "zh-hant": "招聘承包商的建議",
-    "hy": "Խորհուրդներ կապալառուներ վարձելու համար"
   },
   "help_person_help_with_insurance_claims": {
     "status": "avantpage_delivery",
@@ -517,19 +494,6 @@
     "zh-hant": "<strong>停車: </strong>免費停車。人們可能會在那裡引導您。",
     "hy": "<strong>Կայանատեղի: </strong>Անվճար կայանատեղի առկա է: Դուք կարող եք նրանց համար այցելել ու նրանց համար անհրաժեշտ է ձեզ հասցնել:"
   },
-  "help_person_sign_in_info": {
-    "status": "ap_review",
-    "comment": "machine translation used, original was truncated",
-    "en": "<strong>Sign in: </strong>Sign in at FEMA tents for federal benefits, or go into the building for state and local services.",
-    "fr": "<strong>S'inscrire: </strong>Inscrivez-vous aux tentes FEMA pour les prestations fédérales, ou entrez dans le bâtiment pour les services étatiques et locaux.",
-    "es": "<strong>Regístrese: </strong>Regístrese en las carpas de FEMA para beneficios federales, o entre al edificio para servicios estatales y locales.",
-    "ko": "<strong>등록: </strong>연방 혜택을 받으려면 FEMA 텐트에서 등록하시고, 주 및 지역 서비스를 받으려면 건물로 들어가십시오.",
-    "vi": "<strong>Ký tên đăng ký: </strong>Ký tên đăng ký tại lều FEMA để nhận phúc lợi liên bang, hoặc vào tòa nhà để nhận dịch vụ tiểu bang và địa phương.",
-    "tl": "<strong>Mag-sign in: </strong>Mag-sign in sa mga tent ng FEMA para sa mga benepisyong pederal, o pumasok sa gusali para sa mga serbisyo ng estado at lokal.",
-    "zh-hans": "<strong>登记: </strong>在FEMA帐篷登记申请联邦福利，或进入大楼办理州和地方服务。",
-    "zh-hant": "<strong>簽到: </strong>在FEMA帳篷簽到申請聯邦福利，或進入大樓辦理州和地方服務。",
-    "hy": "<strong>Գրանցվել: </strong>Գրանցվեք FEMA վրաններում դաշնային նպաստների համար կամ մտեք շենք՝ նահանգային և տեղական ծառայությունների համար:"
-  },
   "help_person_restrooms_and_beverages": {
     "status": "avantpage_delivery",
     "en": "Restrooms and beverages available.",
@@ -554,5 +518,61 @@
     "zh-hant": "使用 <a href=\"/lafires/zh-hant/plan-your-in-person-visit/\">計劃您的親自到訪 (Plan your in-person visit)</a> 以幫助您找到所需的服務。",
     "hy": "Օգտագործեք <a href=\"/lafires/hy/plan-your-in-person-visit/\">Պլանավորեք Ձեր այցը</a>՝ Ձեզ անհրաժեշտ ծառայությունները գտնելու համար։",
     "orig_en": "Use <link>Plan your in-person visit</link> to help you find the services you need."
+  },
+  "help_person_one_shop_h2": {
+    "status": "english_only",
+    "en": "Find a One-Stop Permit Center"
+  },
+  "help_person_one_shop_description": {
+    "status": "english_only",
+    "en": "Go to these centers for help with the rebuilding process."
+  },
+  "help_person_one_shop_center1": {
+    "status": "english_only",
+    "en": "Calabasas One-Stop Permit Center"
+  },
+  "help_person_one_shop_center1_address": {
+    "status": "english_only",
+    "en": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302"
+  },
+  "help_person_one_shop_center1_hours": {
+    "status": "english_only",
+    "en": "<strong>Hours open:</strong> <br />Monday - Thursday: 7:00 AM - 4:30 PM<br />Friday: 7:00 AM - 3:30 PM"
+  },
+  "help_person_one_shop_center2": {
+    "status": "english_only",
+    "en": "Altadena One-Stop Permit Center"
+  },
+  "help_person_one_shop_center2_address": {
+    "status": "english_only",
+    "en": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001"
+  },
+  "help_person_one_shop_center2_hours": {
+    "status": "english_only",
+    "en": "<strong>Hours open:</strong> <br />Monday - Friday: 9:30 AM - 6:00 PM <br />Saturday: 8:00 AM - 1:00 PM"
+  },
+  "help_person_one_shop_learn_more": {
+    "status": "english_only",
+    "en": "Learn more about <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a>. Walk-ins are welcome. You can also schedule an appointment."
+  },
+  "help_person_one_shop_service": {
+    "status": "english_only",
+    "en": "Services on site"
+  },
+  "help_person_one_shop_service_description": {
+    "status": "english_only",
+    "en": "You can get help and advice about the rebuilding process, including these steps:"
+  },
+  "help_person_one_shop_service_list_1": {
+    "status": "english_only",
+    "en": "Preparing building plans"
+  },
+  "help_person_one_shop_service_list_2": {
+    "status": "english_only",
+    "en": "Getting permits"
+  },
+  "help_person_one_shop_service_list_3": {
+    "status": "english_only",
+    "en": "Scheduling inspections"
   }
 }
