@@ -580,5 +580,31 @@
     "zh-hans": "信息来自州水资源控制委员会",
     "zh-hant": "來自州水資源控制委員會",
     "hy": "Նահանգի ջրային ռեսուրսների վերահսկման խորհրդի կողմից"
+  },
+  "realtime_review_fire_hazard_heading": {
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "Review fire hazard zones",
+    "fr": "Examiner les zones de danger d'incendie",
+    "es": "Revisar las zonas de peligro de incendio",
+    "ko": "화재 위험 지역 검토",
+    "vi": "Xem xét các khu vực có nguy cơ cháy",
+    "tl": "Suriin ang mga lugar ng panganib sa sunog",
+    "zh-hans": "检查火灾危险区",
+    "zh-hant": "檢查火災危險區",
+    "hy": "Ստուգել հրդեհային վտանգի գոտիները"
+  },
+  "realtime_review_fire_hazard_description": {
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "from CAL FIRE",
+    "fr": "de CAL FIRE",
+    "es": "de CAL FIRE",
+    "ko": "CAL FIRE 제공",
+    "vi": "từ CAL FIRE",
+    "tl": "mula sa CAL FIRE",
+    "zh-hans": "信息来自 CAL FIRE",
+    "zh-hant": "來自 CAL FIRE",
+    "hy": "CAL FIRE-ի կողմից"
   }
 }
