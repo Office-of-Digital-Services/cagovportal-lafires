@@ -55,15 +55,16 @@
         <div class="col-lg-12 m-t-md">
           <div
             class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">
-              <a
-                href="https://www.fema.gov/assistance/individual/program"
-                class="color-p2 text-left d-block"
-                >{{ 'help_online_shelter_list_title' | i18n }}</a
-              >
-            </h3>
+            <p class="m-b text-left mt-4">
+              {{ 'help_online_shelter_list_description_1' | i18n }}
+            </p>
+
             <p class="m-b text-left">
               {{ 'help_online_shelter_list_description' | i18n }}
+            </p>
+
+            <p class="m-b text-left">
+              {{ 'help_online_shelter_list_description_2' | i18n | safe }}
             </p>
           </div>
         </div>
@@ -341,29 +342,20 @@
       <div>
         <h2>{{ 'help_online_employment_heading' | i18n }}</h2>
 
-        <div class="row">
-          <div class="col-lg-12 m-t-md">
-            <div
-              class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded">
-              <h3 class="h5">{{ 'help_online_edd_services_title' | i18n }}</h3>
-              <p class="m-t-md">{{ 'help_online_get_help_with' | i18n }}</p>
-              <ul>
-                <li class="m-t">
-                  {{ 'help_online_state_unemployment' | i18n | safe }}
-                </li>
-                <li class="m-t">
-                  {{ 'help_online_federal_disaster_unemployment' | i18n | safe
-                  }}
-                </li>
-                <li class="m-t">
-                  {{ 'help_online_state_disability' | i18n | safe }}
-                </li>
-                <li class="m-t">
-                  {{ 'help_online_job_opportunities' | i18n | safe }}
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded">
+          <p class="m-t-md">{{ 'help_online_get_help_with' | i18n }}</p>
+          <ul>
+            <li class="m-t">
+              {{ 'help_online_federal_disaster_unemployment' | i18n | safe }}
+            </li>
+            <li class="m-t">
+              {{ 'help_online_state_disability' | i18n | safe }}
+            </li>
+            <li class="m-t">{{ 'help_online_family_leave' | i18n | safe }}</li>
+            <li class="m-t">
+              {{ 'help_online_job_opportunities' | i18n | safe }}
+            </li>
+          </ul>
         </div>
 
         <h2>{{ 'help_online_housing_repairs_legal_heading' | i18n }}</h2>
@@ -385,22 +377,10 @@
           <h3 class="m-t mb-2">
             {{ 'help_online_fema_assistance_title' | i18n }}
           </h3>
-          <p class="bold">{{ 'help_online_fema_deadline' | i18n }}</p>
-          <p>{{ 'help_online_fema_description' | i18n }}</p>
-          <ul>
-            <li class="m-t">
-              {{ 'help_online_fema_assistance_list_housing' | i18n }}
-            </li>
-            <li class="m-t">
-              {{ 'help_online_fema_assistance_list_repairs' | i18n }}
-            </li>
-            <li class="m-t">
-              {{ 'help_online_fema_assistance_list_disabilities' | i18n }}
-            </li>
-            <li class="m-t">
-              {{ 'help_online_fema_assistance_list_legal' | i18n }}
-            </li>
-          </ul>
+
+          <p>{{ 'help_online_fema_description' | i18n | safe }}</p>
+
+          <p>{{ 'help_online_fema_deadline' | i18n | safe }}</p>
 
           <p>{{ 'help_online_fema_news_updates' | i18n | safe }}</p>
         </div>

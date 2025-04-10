@@ -2355,29 +2355,29 @@
   "sf_cat_description_essential_help_housing": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Shelters, temporary housing, mortgage relief",
-    "fr": "Refuges, logements temporaires, allègement hypothécaire",
-    "es": "Refugios, vivienda temporal, alivio hipotecario",
-    "ko": "대피소, 임시 주택, 모기지 구제",
-    "tl": "Mga shelter, pansamantalang pabahay, mortgage relief",
-    "vi": "Nơi trú ẩn, nhà ở tạm thời, cứu trợ thế chấp",
-    "zh-hans": "避难所、临时住房、抵押贷款救济",
-    "zh-hant": "避難所、臨時住房、抵押貸款救濟",
-    "hy": "Ապաստարաններ, ժամանակավոր բնակարաններ, հիպոթեքային օգնություն"
+    "en": "Temporary housing, mortgage relief, shelters",
+    "fr": "Logement temporaire, allégement hypothécaire, refuges",
+    "es": "Vivienda temporal, alivio hipotecario, refugios",
+    "ko": "임시 주택, 모기지 구제, 대피소",
+    "tl": "Pansamantalang pabahay, pagpapagaan ng mortgage, mga kanlungan",
+    "vi": "Nhà ở tạm thời, giảm nhẹ thế chấp, nơi trú ẩn",
+    "zh-hans": "临时住房、抵押贷款救济、避难所",
+    "zh-hant": "臨時住房、抵押貸款救濟、避難所",
+    "hy": "Թողարկման բնակարան, վարկային թեթևացում, ապաստարաններ"
   },
 
   "sf_cat_description_essential_help_food": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Food or food benefits",
-    "fr": "Nourriture ou avantages alimentaires",
-    "es": "Alimentos o beneficios alimentarios",
-    "ko": "식품 또는 식품 혜택",
-    "tl": "Pagkain o mga benepisyo sa pagkain",
-    "vi": "Thực phẩm hoặc trợ cấp thực phẩm",
-    "zh-hans": "食品或食品福利",
-    "zh-hant": "食品或食品福利",
-    "hy": "Սնունդ կամ սննդի նպաստներ"
+    "en": "Food banks, food benefits",
+    "fr": "Banques alimentaires, prestations alimentaires",
+    "es": "Bancos de alimentos, beneficios alimentarios",
+    "ko": "푸드 뱅크, 식품 혜택",
+    "tl": "Mga bangko ng pagkain, mga benepisyo sa pagkain",
+    "vi": "Ngân hàng thực phẩm, lợi ích thực phẩm",
+    "zh-hans": "食品银行、食品福利",
+    "zh-hant": "食品銀行、食品福利",
+    "hy": "Սննդի բանկեր, սննդի օգուտներ"
   },
 
   "sf_cat_label_essential_help_food": {
@@ -2411,15 +2411,14 @@
   "sf_cat_description_essential_help_pets": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Lost or found a pet, and more",
-    "fr": "Animal de compagnie perdu ou trouvé, et plus",
-    "es": "Mascota perdida o encontrada, y más",
-    "ko": "반려동물 분실 또는 발견, 기타",
-    "tl": "Nawala o nahanap ang alagang hayop, at iba pa",
-    "vi": "Thú cưng bị mất hoặc tìm thấy, và nhiều hơn nữa",
-    "zh-hans": "丢失或找到宠物，以及更多",
-    "zh-hant": "丟失或找到寵物，以及更多",
-    "hy": "Կորած կամ գտնված ընտանի կենդանի և ավելին"
+    "en": "Animal shelters, resources for lost pets",
+    "fr": "Refuges pour animaux, ressources pour animaux perdus",
+    "tl": "Mga kanlungan ng hayop, mga mapagkukunan para sa nawawalang mga alagang hayop",
+    "vi": "Nơi trú ẩn động vật, tài nguyên cho thú cưng bị mất",
+    "ko": "동물 보호소, 잃어버린 애완동물을 위한 자원",
+    "zh-hans": "动物收容所，走失宠物资源",
+    "zh-hant": "動物收容所，走失寵物資源",
+    "hy": "Կենդանիների ապաստարաններ, կորած ընտանի կենդանիների ռեսուրսներ"
   },
 
   "sf_cat_label_essential_help_health": {
@@ -2439,15 +2438,15 @@
   "sf_cat_description_essential_help_health": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Staying healthy, mental health",
-    "fr": "Rester en bonne santé, santé mentale",
-    "es": "Mantenerse saludable, salud mental",
-    "ko": "건강 유지, 정신 건강",
-    "tl": "Pananatiling malusog, kalusugan ng isip",
-    "vi": "Giữ gìn sức khỏe, sức khỏe tâm thần",
-    "zh-hans": "保持健康，心理健康",
-    "zh-hant": "保持健康，心理健康",
-    "hy": "Առողջ մնալ, հոգեկան առողջություն"
+    "en": "Mental health resources, crisis counseling, prescription assistance",
+    "fr": "Ressources en santé mentale, conseils de crise, assistance à la prescription",
+    "es": "Recursos de salud mental, asesoramiento en crisis, asistencia con recetas",
+    "ko": "정신 건강 리소스, 위기 상담, 처방 지원",
+    "tl": "Mga mapagkukunan ng kalusugan ng isip, pagpapayo sa krisis, tulong sa reseta",
+    "vi": "Tài nguyên sức khỏe tâm thần, tư vấn khủng hoảng, hỗ trợ đơn thuốc",
+    "zh-hans": "心理健康资源、危机咨询、处方援助",
+    "zh-hant": "心理健康資源、危機諮詢、處方援助",
+    "hy": "Մտավոր առողջության ռեսուրսներ, ճգնաժամային խորհրդատվություն, դեղատոմսերի օգնություն"
   },
 
   "sf_cat_label_essential_help_individual_help": {
@@ -2467,15 +2466,15 @@
   "sf_cat_description_essential_help_individual_help": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "State and federal (FEMA) programs that help disaster survivors",
-    "fr": "Programmes d'aide étatiques et fédéraux (FEMA) pour les survivants de catastrophes",
-    "es": "Programas estatales y federales (FEMA) que ayudan a los sobrevivientes de desastres",
-    "ko": "재난 생존자를 돕는 주 및 연방(FEMA) 프로그램",
-    "tl": "Mga programa ng Estado at pederal (FEMA) na tumutulong sa mga nakaligtas sa sakuna",
-    "vi": "Các chương trình của tiểu bang và liên bang (FEMA) giúp đỡ những người sống sót sau thảm họa",
-    "zh-hans": "帮助灾难幸存者的州和联邦（FEMA）计划",
-    "zh-hant": "幫助災難倖存者的州和聯邦（FEMA）計劃",
-    "hy": "Նահանգային և դաշնային (FEMA) ծրագրեր, որոնք օգնում են աղետից վերապրածներին"
+    "en": "Cash assistance, case management, and help for specific groups",
+    "fr": "Aide financière, gestion de cas et aide pour des groupes spécifiques",
+    "es": "Asistencia en efectivo, gestión de casos y ayuda para grupos específicos",
+    "ko": "현금 지원, 사례 관리 및 특정 그룹에 대한 지원",
+    "tl": "Tulong sa salapi, pamamahala ng kaso, at tulong para sa mga tiyak na grupo",
+    "vi": "Hỗ trợ tiền mặt, quản lý trường hợp và hỗ trợ cho các nhóm cụ thể",
+    "zh-hans": "现金援助、个案管理和特定群体的帮助",
+    "zh-hant": "現金援助、個案管理和特定群體的幫助",
+    "hy": "Նախագծային օգնություն, դեպքերի կառավարում և օգնություն հատուկ խմբերի համար"
   },
 
   "sf_cat_label_essential_help_personal_documents": {
@@ -2495,43 +2494,15 @@
   "sf_cat_description_essential_help_personal_documents": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Driver's license, birth, death, and marriage records",
-    "fr": "Permis de conduire, actes de naissance, de décès et de mariage",
-    "es": "Licencia de conducir, registros de nacimiento, defunción y matrimonio",
-    "ko": "운전면허증, 출생, 사망 및 혼인 기록",
-    "tl": "Lisensya sa pagmamaneho, mga rekord ng kapanganakan, kamatayan, at kasal",
-    "vi": "Bằng lái xe, giấy khai sinh, giấy chứng tử và giấy kết hôn",
-    "zh-hans": "驾驶执照、出生、死亡和婚姻记录",
-    "zh-hant": "駕駛執照、出生、死亡和婚姻記錄",
-    "hy": "Վարորդական իրավունք, ծննդյան, մահվան և ամուսնության վկայականներ"
-  },
-
-  "sf_cat_label_start_recovering_returning_home": {
-    "status": "ap_review",
-    "comment": "machine translated",
-    "en": "Returning home",
-    "fr": "Retour à la maison",
-    "es": "Regreso a casa",
-    "ko": "귀가",
-    "tl": "Pagbabalik sa Tahanan",
-    "vi": "Trở về nhà",
-    "zh-hans": "返回家园",
-    "zh-hant": "返回家園",
-    "hy": "Տուն վերադառնալը"
-  },
-
-  "sf_cat_description_start_recovering_returning_home": {
-    "status": "ap_review",
-    "comment": "machine translated",
-    "en": "Assessments, cleanup, debris removal",
-    "fr": "Évaluations, nettoyage, enlèvement des débris",
-    "es": "Evaluaciones, limpieza, remoción de escombros",
-    "ko": "평가, 청소, 잔해물 제거",
-    "tl": "Mga pagtatasa, paglilinis, pag-aalis ng mga debris",
-    "vi": "Đánh giá, dọn dẹp, loại bỏ mảnh vỡ",
-    "zh-hans": "评估、清理、碎片清除",
-    "zh-hant": "評估、清理、碎片清除",
-    "hy": "Գնահատումներ, մաքրում, բեկորների հեռացում"
+    "en": "Driver's licenses, IDs, and birth, death, and marriage records",
+    "fr": "Permis de conduire, cartes d'identité et actes de naissance, de décès et de mariage",
+    "es": "Licencias de conducir, identificaciones y registros de nacimiento, muerte y matrimonio",
+    "ko": "운전 면허증, 신분증, 출생, 사망 및 결혼 기록",
+    "tl": "Mga lisensya sa pagmamaneho, mga ID, at mga tala ng kapanganakan, kamatayan, at kasal",
+    "vi": "Giấy phép lái xe, ID và hồ sơ sinh, tử và kết hôn",
+    "zh-hans": "驾照、身份证、出生、死亡和结婚记录",
+    "zh-hant": "駕照、身份證、出生、死亡和結婚記錄",
+    "hy": "Վարորդական իրավունքներ, անձնագրեր և ծննդյան, մահվան և ամուսնության գրանցումներ"
   },
 
   "sf_cat_label_start_recovering_insurance": {
@@ -2551,15 +2522,15 @@
   "sf_cat_description_start_recovering_insurance": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Home insurance and insurance claims",
-    "fr": "Assurance habitation et réclamations d'assurance",
-    "es": "Seguro de vivienda y reclamos de seguro",
-    "ko": "주택 보험 및 보험 청구",
-    "tl": "Insurance sa bahay at mga claim sa insurance",
-    "vi": "Bảo hiểm nhà và yêu cầu bồi thường bảo hiểm",
-    "zh-hans": "房屋保险和保险理赔",
-    "zh-hant": "房屋保險和保險理賠",
-    "hy": "Տան ապահովագրություն և ապահովագրական հայցեր"
+    "en": "Home insurance, insurance claims",
+    "fr": "Assurance habitation, demandes d'assurance",
+    "es": "Seguro de hogar, reclamaciones de seguros",
+    "ko": "주택 보험, 보험 청구",
+    "tl": "Insurance sa bahay, mga claim sa insurance",
+    "vi": "Bảo hiểm nhà, yêu cầu bảo hiểm",
+    "zh-hans": "房屋保险、保险索赔",
+    "zh-hant": "房屋保險、保險索賠",
+    "hy": "Տնային ապահովագրություն, ապահովագրական պահանջներ"
   },
 
   "sf_cat_label_start_recovering_rebuilding": {
@@ -2579,15 +2550,15 @@
   "sf_cat_description_start_recovering_rebuilding": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Find a contractor, verify a professional license",
-    "fr": "Trouver un entrepreneur, vérifier une licence professionnelle",
-    "es": "Encontrar un contratista, verificar una licencia profesional",
-    "ko": "계약자 찾기, 전문 면허 확인",
-    "tl": "Maghanap ng contractor, i-verify ang professional license",
-    "vi": "Tìm nhà thầu, xác minh giấy phép chuyên môn",
-    "zh-hans": "寻找承包商，验证专业执照",
-    "zh-hant": "尋找承包商，驗證專業執照",
-    "hy": "Գտնել կապալառու, ստուգել մասնագիտական լիցենզիա"
+    "en": "Contractor search tools, debris removal, tree removal",
+    "es": "Herramientas de búsqueda de contratistas, remoción de escombros, remoción de árboles",
+    "fr": "Outils de recherche d'entrepreneurs, enlèvement des débris, enlèvement des arbres",
+    "ko": "계약자 검색 도구, 잔해 제거, 나무 제거",
+    "tl": "Mga tool sa paghahanap ng kontratista, pagtanggal ng debris, pagtanggal ng puno",
+    "vi": "Công cụ tìm kiếm nhà thầu, dọn dẹp mảnh vỡ, loại bỏ cây",
+    "zh-hans": "承包商搜索工具、废墟清理、树木移除",
+    "zh-hant": "承包商搜索工具、廢墟清理、樹木移除",
+    "hy": "Կապալառուների որոնման գործիքներ, բեկորների հեռացում, ծառերի հեռացում"
   },
 
   "sf_cat_label_start_recovering_employment": {
@@ -2607,42 +2578,42 @@
   "sf_cat_description_start_recovering_employment": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Unemployment, disability, find a job",
-    "fr": "Chômage, invalidité, trouver un emploi",
-    "es": "Desempleo, discapacidad, encontrar trabajo",
-    "ko": "실업, 장애, 구직",
-    "tl": "Kawalan ng trabaho, kapansanan, maghanap ng trabaho",
-    "vi": "Thất nghiệp, khuyết tật, tìm việc làm",
-    "zh-hans": "失业、残疾、找工作",
-    "zh-hant": "失業、殘疾、找工作",
-    "hy": "Գործազրկություն, հաշմանդամություն, աշխատանքի որոնում"
+    "en": "Unemployment, disability, job search tools",
+    "fr": "Chômage, invalidité, outils de recherche d'emploi",
+    "es": "Desempleo, discapacidad, herramientas de búsqueda de empleo",
+    "ko": "실업, 장애, 구직 도구",
+    "tl": "Walang trabaho, kapansanan, mga tool sa paghahanap ng trabaho",
+    "vi": "Thất nghiệp, khuyết tật, công cụ tìm kiếm việc làm",
+    "zh-hans": "失业、残疾、求职工具",
+    "zh-hant": "失業、殘疾、求職工具",
+    "hy": "Աշխատանքի չհասանելիություն, հաշմանդամություն, աշխատանքի որոնման գործիքներ"
   },
 
   "sf_cat_label_start_recovering_taxes": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Taxes",
-    "fr": "Impôts",
-    "es": "Impuestos",
-    "ko": "세금",
-    "tl": "Mga Buwis",
-    "vi": "Thuế",
-    "zh-hans": "税收",
-    "zh-hant": "稅收",
-    "hy": "Հարկեր"
+    "en": "Tax help and relief",
+    "fr": "Impôts et aide",
+    "es": "Ayuda y alivio fiscal",
+    "ko": "세금 지원 및 감면",
+    "tl": "Tulong at relief sa buwis",
+    "vi": "Hỗ trợ và giảm nhẹ thuế",
+    "zh-hans": "税务帮助和减免",
+    "zh-hant": "稅務幫助和減免",
+    "hy": "Հարկային օգնություն և թեթևացում"
   },
   "sf_cat_description_start_recovering_taxes": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Relief for income and property taxes",
-    "fr": "Allègement pour les impôts sur le revenu et les taxes foncières",
-    "es": "Alivio para impuestos sobre la renta y la propiedad",
-    "ko": "소득세 및 재산세 감면",
-    "tl": "Relief para sa mga buwis sa kita at ari-arian",
-    "vi": "Giảm nhẹ thuế thu nhập và thuế tài sản",
-    "zh-hans": "所得税和房产税减免",
-    "zh-hant": "所得稅和房產稅減免",
-    "hy": "Եկամտահարկի և գույքահարկի թեթևացում"
+    "en": "Income tax, property tax",
+    "fr": "Impôt sur le revenu, impôt foncier",
+    "es": "Impuesto sobre la renta, impuesto sobre la propiedad",
+    "ko": "소득세, 재산세",
+    "tl": "Buwis sa kita, buwis sa ari-arian",
+    "vi": "Thuế thu nhập, thuế tài sản",
+    "zh-hans": "所得税、财产税",
+    "zh-hant": "所得稅、財產稅",
+    "hy": "Եկամտային հարկ, գույքահարկ"
   },
 
   "sf_cat_label_business_help_support": {
@@ -2662,15 +2633,15 @@
   "sf_cat_description_business_help_support": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Financial help, recovery, disaster relief payments, small businesses",
-    "fr": "Aide financière, reprise, paiements de secours en cas de catastrophe, petites entreprises",
-    "es": "Ayuda financiera, recuperación, pagos de ayuda por desastre, pequeñas empresas",
-    "ko": "재정 지원, 복구, 재난 구호 지원금, 소기업",
-    "tl": "Tulong pinansyal, pagbangon, mga bayad sa disaster relief, maliliit na negosyo",
-    "vi": "Hỗ trợ tài chính, phục hồi, thanh toán cứu trợ thiên tai, doanh nghiệp nhỏ",
-    "zh-hans": "财务援助、恢复、灾害救济金、小企业",
-    "zh-hant": "財務援助、恢復、災害救濟金、小企業",
-    "hy": "Ֆինանսական օգնություն, վերականգնում, աղետի օգնության վճարումներ, փոքր բիզնես"
+    "en": "Financial help, disaster relief payments, small business resource, debris removal",
+    "fr": "Aide financière, paiements d'aide en cas de catastrophe, ressources pour les petites entreprises, enlèvement des débris",
+    "es": "Ayuda financiera, pagos de ayuda por desastre, recursos para pequeñas empresas, eliminación de escombros",
+    "ko": "재정 지원, 재해 구호금, 중소기업 자원, 잔해 제거",
+    "tl": "Pinansyal na tulong, mga pagbabayad ng tulong sa sakuna, mapagkukunan ng maliliit na negosyo, pagtanggal ng debris",
+    "vi": "Hỗ trợ tài chính, thanh toán cứu trợ thiên tai, nguồn lực cho doanh nghiệp nhỏ, dọn dẹp mảnh vỡ",
+    "zh-hans": "财政援助、灾难救济金、小企业资源、废墟清理",
+    "zh-hant": "財政援助、災難救濟金、小企業資源、廢墟清理",
+    "hy": "Ֆինանսական օգնություն, աղետի օգնության վճարներ, փոքր բիզնեսի ռեսուրս, բեկորների հեռացում"
   },
 
   "sf_cat_label_business_help_tax_help_and_relief": {
@@ -2690,15 +2661,15 @@
   "sf_cat_description_business_help_tax_help_and_relief": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "Income taxes, sales tax, payroll taxes",
-    "fr": "Impôts sur le revenu, taxe de vente, taxes sur la paie",
-    "es": "Impuestos sobre la renta, impuesto sobre las ventas, impuestos sobre la nómina",
+    "en": "Income tax, sales tax, payroll tax",
+    "fr": "Impôt sur le revenu, taxe de vente, taxe sur les salaires",
+    "es": "Impuesto sobre la renta, impuesto sobre las ventas, impuesto sobre la nómina",
     "ko": "소득세, 판매세, 급여세",
-    "tl": "Mga buwis sa kita, buwis sa pagbebenta, mga buwis sa payroll",
-    "vi": "Thuế thu nhập, thuế bán hàng, thuế lương",
+    "tl": "Buwis sa kita, buwis sa benta, buwis sa suweldo",
+    "vi": "Thuế thu nhập, thuế bán hàng, thuế tiền lương",
     "zh-hans": "所得税、销售税、工资税",
     "zh-hant": "所得稅、銷售稅、工資稅",
-    "hy": "Եկամտահարկ, վաճառքի հարկ, աշխատավարձի հարկեր"
+    "hy": "Եկամտային հարկ, վաճառքի հարկ, աշխատավարձի հարկ"
   },
   "sf_title": {
     "status": "avantpage_delivery",
