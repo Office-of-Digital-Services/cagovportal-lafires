@@ -112,15 +112,7 @@
   "help_online_shelter_list_description_2": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "<strong>If FEMA denied your application</strong>, you have 60 days to <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">appeal FEMA’s decision</a>.",
-    "fr": "<strong>Si FEMA a refusé votre demande</strong>, vous disposez de 60 jours pour <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">contester la décision de FEMA</a>.",
-    "es": "<strong>Si FEMA rechazó su solicitud</strong>, tiene 60 días para <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">apelar la decisión de FEMA</a>.",
-    "ko": "<strong>FEMA가 귀하의 신청을 거부한 경우</strong>, <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">FEMA의 결정을 항소</a>할 수 있는 기간은 60일입니다.",
-    "vi": "<strong>Nếu FEMA từ chối đơn của bạn</strong>, bạn có 60 ngày để <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">kháng cáo quyết định của FEMA</a>.",
-    "tl": "<strong>Kung tinanggihan ng FEMA ang iyong aplikasyon</strong>, mayroon kang 60 araw upang <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">mag-apela sa desisyon ng FEMA</a>.",
-    "zh-hans": "<strong>如果 FEMA 拒绝了您的申请</strong>，您有 60 天的时间 <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">对 FEMA 的决定提出上诉</a>。",
-    "zh-hant": "<strong>如果 FEMA 拒絕了您的申請</strong>，您有 60 天的時間 <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">對 FEMA 的決定提出上訴</a>。",
-    "hy": "<strong>Եթե FEMA-ն մերժել է Ձեր դիմումը</strong>, ապա ունեք 60 օր՝ <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">FEMA-ի որոշման դեմ բողոքարկելու համար</a>:"
+    "en": "<strong>If FEMA denied your application</strong>, you have 60 days to <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">appeal FEMA’s decision</a>."
   },
   "help_online_shelter_list_description_1": {
     "status": "ap_review",
@@ -859,15 +851,7 @@
   "help_online_fema_deadline": {
     "status": "ap_review",
     "comment": "machine translated",
-    "en": "<strong>If FEMA denied your application</strong>, you have 60 days to <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">appeal FEMA’s decision</a>.",
-    "fr": "<strong>Si la FEMA a refusé votre demande</strong>, vous disposez de 60 jours pour <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">contester la décision de la FEMA</a>.",
-    "es": "<strong>Si FEMA rechazó su solicitud</strong>, tiene 60 días para <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">apelar la decisión de FEMA</a>.",
-    "ko": "<strong>FEMA가 귀하의 신청을 거부한 경우</strong>, <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">FEMA의 결정에 항소</a>할 수 있는 기간은 60일입니다.",
-    "vi": "<strong>Nếu FEMA từ chối đơn đăng ký của bạn</strong>, bạn có 60 ngày để <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">kháng cáo quyết định của FEMA</a>.",
-    "tl": "<strong>Kung tinanggihan ng FEMA ang iyong aplikasyon</strong>, mayroon kang 60 araw upang <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">mag-apela sa desisyon ng FEMA</a>.",
-    "zh-hans": "<strong>如果 FEMA 拒绝了您的申请</strong>，您有 60 天时间<a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">对 FEMA 的决定提出上诉</a>。",
-    "zh-hant": "<strong>如果 FEMA 拒絕了您的申請</strong>，您有 60 天的時間<a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">對 FEMA 的決定提出上訴</a>。",
-    "hy": "<strong>Եթե FEMA-ն մերժել է ձեր դիմումը</strong>, ապա դուք 60 օր ունեք <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">FEMA-ի որոշման դեմ բողոքարկելու համար</a>։"
+    "en": "<strong>If FEMA denied your application</strong>, you have 60 days to <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">appeal FEMA’s decision</a>."
   },
   "help_online_fema_description": {
     "status": "ap_review",
