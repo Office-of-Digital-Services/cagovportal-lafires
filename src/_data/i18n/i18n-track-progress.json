@@ -896,15 +896,7 @@
   "track_progress_reported_by_south_coast_air_quality_management_district": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "en": "Reported by South Coast Air Quality Management District",
-    "fr": "Rapporté par le District de gestion de la qualité de l'air de la côte sud",
-    "es": "Reportado por el Distrito de Gestión de la Calidad del Aire de la Costa Sur",
-    "ko": "남부 해안 대기질 관리국 보고",
-    "vi": "Được báo cáo bởi Khu vực Quản lý Chất lượng Không khí Bờ biển Nam",
-    "tl": "Iniulat ng South Coast Air Quality Management District",
-    "zh-hans": "由南海岸空气质量管理区报告",
-    "zh-hant": "由南海岸空氣品質管理區報告",
-    "hy": "Զեկուցվել է Հարավային ափի օդի որակի կառավարման շրջանի կողմից"
+    "en": "Reported by South Coast Air Quality Management District"
   },
   "track_progress_palisades_fire_area": {
     "status": "ap_review",
