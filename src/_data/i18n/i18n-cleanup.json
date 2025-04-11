@@ -1,4 +1,28 @@
 {
+  "cleanup_opt_in_title": {
+    "status": "english_only",
+    "en": "Opt in for free debris removal by April 15 or you’ll pay the full cost"
+  },
+  "cleanup_opt_in_description": {
+    "status": "english_only",
+    "en": "If your home or other property was destroyed in the fires, you must submit a form to opt in or out of free debris removal. The deadline to opt in or out is April 15."
+  },
+  "cleanup_opt_in_list_1": {
+    "status": "english_only",
+    "en": "<strong>If you opt in</strong>, you’ll get free debris removal with no out-of-pocket costs."
+  },
+  "cleanup_opt_in_list_2": {
+    "status": "english_only",
+    "en": "<strong>If you opt out</strong>, you’ll arrange and pay for debris removal yourself."
+  },
+  "cleanup_opt_in_list_3": {
+    "status": "english_only",
+    "en": "<strong>If you do nothing</strong>, LA County will remove the debris on your property and send you a bill for the full removal costs. If you can’t pay the bill, LA County may place a lien on your property."
+  },
+  "cleanup_opt_in_description_2": {
+    "status": "english_only",
+    "en": "If your home or other property was destroyed in the fires, you must submit a form to opt in or out of free debris removal. The deadline to opt in or out is April 15. If you’re not sure whether to opt in or opt out, <strong>LA County encourages you to opt in</strong>. This is the best way to avoid a large bill for debris removal that you can’t afford."
+  },
   "cleanup_title": {
     "status": "avantpage_delivery",
     "en": "Cleanup and debris removal",
