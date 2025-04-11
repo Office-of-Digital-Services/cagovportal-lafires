@@ -2678,5 +2678,18 @@
     "zh-hans": "提交",
     "zh-hant": "提交",
     "hy": "Ուղարկել"
+  },
+  "sf_how_to_get_this_service": {
+    "status": "ap_review",
+    "comment": "machine translation used",
+    "en": "How to get this service",
+    "fr": "Comment obtenir ce service",
+    "es": "Cómo obtener este servicio",
+    "ko": "이 서비스를 얻는 방법",
+    "vi": "Cách nhận được dịch vụ này",
+    "tl": "Kung paano makakuha ng serbisyo na ito",
+    "zh-hans": "如何获取此服务",
+    "zh-hant": "如何獲取此服務",
+    "hy": "Ինչպես ստանալ այս ծառայություն"
   }
 }

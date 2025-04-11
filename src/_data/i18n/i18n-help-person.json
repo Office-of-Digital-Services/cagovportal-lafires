@@ -310,13 +310,13 @@
   "help_person_mental_health_services": {
     "status": "avantpage_delivery",
     "en": "Mental health services",
-    "es": "Servicios de salud mental",
+    "es": "servicios de salud mental",
     "ko": "정신 건강 서비스",
-    "vi": "Dịch vụ sức khỏe tâm thần",
-    "tl": "Mga serbisyo sa kalusugan ng pag-iisip",
+    "vi": "dịch vụ sức khỏe tâm thần",
+    "tl": "mga serbisyo sa kalusugan ng pag-iisip",
     "zh-hans": "心理健康服务",
     "zh-hant": "心理健康服務",
-    "hy": "Հոգեկան առողջության ծառայություններ",
+    "hy": "հոգեկան առողջության ծառայություններ",
     "comment": "Translation delivered 2025-04-10"
   },
   "help_person_unemployment": {
@@ -419,7 +419,7 @@
   "help_person_items_address_damaged_home": {
     "status": "avantpage_delivery",
     "en": "Address of the damaged primary home",
-    "es": "Dirección de la casa principal que resultó dañada",
+    "es": "dirección de la casa principal que resultó dañada",
     "ko": "손상된 주 거주지의 주소",
     "vi": "Địa chỉ của ngôi nhà chính bị hư hỏng",
     "tl": "Address ng nasirang pangunahing tahanan",
