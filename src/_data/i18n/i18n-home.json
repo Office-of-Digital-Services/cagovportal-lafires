@@ -191,18 +191,31 @@
     "zh-hant": "如何清除雜物",
     "hy": "Ստացեք օգնություն աղբի հեռացման հարցում"
   },
+  "home_help_online_label": {
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "URGENT",
+    "fr": "URGENCE",
+    "es": "URGENTE",
+    "ko": "긴급",
+    "vi": "KHẨN CẤP",
+    "tl": "MABILIS",
+    "zh-hans": "紧急",
+    "zh-hant": "緊急",
+    "hy": "Անհրաժեշտ է արագ արձագանքել"
+  },
   "home_upcoming_deadlines": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "en": "Free debris removal: opt in by April 15, 2025",
-    "fr": "Enlèvement gratuit des débris : optez avant le 15 avril 2025",
-    "es": "Remoción gratuita de escombros: opte por participar antes del 15 de abril de 2025",
-    "ko": "잔해 무료 제거: 2025년 4월 15일까지 선택",
-    "vi": "Di dời đống đổ nát miễn phí: tham gia trước ngày 15 tháng 4 năm 2025",
-    "tl": "Libreng pag-aalis ng kalat: mag-opt in bago ang Abril 15, 2025",
-    "zh-hans": "免费清除残余物：请在 2025 年 4 月 15 日之前选择加入",
-    "zh-hant": "免費清除雜物：請在 2025 年 4 月 15 日之前選擇加入",
-    "hy": "Անվճար աղբի հեռացում. գրանցվեք մինչև 2025թ․ ապրիլի 15-ը"
+    "en": "Opt in for free debris removal by April 15 or you’ll pay the full cost",
+    "fr": "Optez pour l'enlèvement gratuit des débris avant le 15 avril ou vous paierez le coût total",
+    "es": "Opte por la remoción gratuita de escombros antes del 15 de abril o pagará el costo total",
+    "ko": "4월 15일까지 무료 잔해 제거를 신청하지 않으면 전체 비용을 지불해야 합니다",
+    "vi": "Chọn di dời đống đổ nát miễn phí trước ngày 15 tháng 4 nếu không quý vị sẽ phải trả toàn bộ chi phí",
+    "tl": "Mag-opt in para sa libreng pag-aalis ng kalat bago ang Abril 15 o babayaran mo ang buong halaga",
+    "zh-hans": "请在4月15日之前选择免费清除残余物，否则您将支付全额费用",
+    "zh-hant": "請在4月15日之前選擇免費清除雜物，否則您將支付全額費用",
+    "hy": "Ընտրեք անվճար աղբի հեռացում մինչև ապրիլի 15-ը, այլապես դուք կվճարեք ամբողջ արժեքը"
   },
   "home_apply_for_fema_individual_assistance": {
     "status": "ap_review",
@@ -221,15 +234,15 @@
   "home_opt_in_for_free_debris_removal": {
     "status": "ap_review",
     "comment": "Machine translated",
-    "en": "Homeowners can opt in for <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">free debris removal</a>. Businesses are also encouraged to apply.",
-    "fr": "Les propriétaires peuvent opter pour <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">l'enlèvement gratuit des débris</a>. Les entreprises sont également encouragées à postuler.",
-    "es": "Los propietarios pueden optar por <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">la remoción gratuita de escombros</a>. También se anima a las empresas a postularse.",
-    "ko": "주택 소유자는 <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">무료 잔해 제거</a>를 선택할 수 있습니다. 기업도 신청하는 것이 좋습니다.",
-    "vi": "Chủ nhà có thể chọn <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">di dời đống đổ nát miễn phí</a>. Các doanh nghiệp cũng được khuyến khích nộp đơn.",
-    "tl": "Maaaring mag-opt in ang mga may-ari ng bahay para sa <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">libreng pag-aalis ng kalat</a>. Ang mga negosyo ay hinihimok din na mag-apply.",
-    "zh-hans": "房主可以选择 <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">免费清除残余物</a>。企业也鼓励申请。",
-    "zh-hant": "房主可以選擇 <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">免費清除雜物</a>。企業也鼓勵申請。",
-    "hy": "Տունատերերը կարող են ընտրել <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">անվճար աղբի հեռացում</a>։ Բիզնեսները նույնպես խրախուսվում են դիմել:"
+    "en": "You must opt in or out. <strong>If you do nothing</strong>, LA County will remove the debris on your property and send you a bill for the removal costs. Learn more about your debris removal options.",
+    "fr": "Vous devez choisir d'opter ou non. <strong>Si vous ne faites rien</strong>, le comté de Los Angeles enlèvera les débris de votre propriété et vous enverra une facture pour les frais d'enlèvement. En savoir plus sur vos options de nettoyage des débris.",
+    "es": "Debe optar por participar o no. <strong>Si no hace nada</strong>, el condado de Los Ángeles retirará los escombros de su propiedad y le enviará una factura por los costos de remoción. Obtenga más información sobre sus opciones de remoción de escombros.",
+    "ko": "선택하거나 선택 해제해야 합니다. <strong>아무것도 하지 않으면</strong>, 로스앤젤레스 카운티에서 귀하의 재산에 있는 잔해를 제거하고 제거 비용 청구서를 보내드립니다. 잔해 제거 옵션에 대해 자세히 알아보십시오.",
+    "vi": "Quý vị phải chọn tham gia hoặc không tham gia. <strong>Nếu quý vị không làm gì cả</strong>, Quận Los Angeles sẽ dọn dẹp đống đổ nát trên tài sản của quý vị và gửi hóa đơn cho quý vị về chi phí dọn dẹp. Tìm hiểu thêm về các tùy chọn dọn dẹp đống đổ nát của quý vị.",
+    "tl": "Kailangan mong mag-opt in o out. <strong>Kung wala kang gagawin</strong>, aalisin ng LA County ang kalat sa iyong ari-arian at padadalhan ka ng bill para sa mga gastos sa pag-aalis. Alamin ang higit pa tungkol sa iyong mga pagpipilian sa pag-aalis ng kalat.",
+    "zh-hans": "您必须选择加入或退出。<strong>如果您什么都不做</strong>，洛杉矶县将清除您财产上的残余物，并向您发送清除费用的账单。了解有关您的残余物清除选项的更多信息。",
+    "zh-hant": "您必須選擇加入或退出。<strong>如果您什麼都不做</strong>，洛杉磯縣將清除您財產上的雜物，並向您發送清除費用的帳單。了解有關您的雜物清除選項的更多信息。",
+    "hy": "Դուք պետք է ընտրեք ներգրավվել կամ դուրս գալ։ <strong>Եթե ոչինչ չանեք</strong>, Լոս Անջելեսի վարչաշրջանը կհանեն ձեր սեփականության աղբը և ձեզ կուղարկեն հեռացման ծախսերի հաշիվ։ Տեղեկացեք ձեր աղբի հեռացման տարբերակների մասին։"
   },
   "home_what_you_can_do": {
     "status": "avantpage_delivery",
