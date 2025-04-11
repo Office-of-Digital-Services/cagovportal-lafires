@@ -1,170 +1,160 @@
 {
+  "story_99498_title": {
+    "status": "ap_review",
+    "en": "As LA Fire cleanup advances ahead of schedule, deadline nears for debris removal",
+    "es": "A medida que la limpieza de incendios de Los Ángeles avanza antes de lo previsto, se acerca la fecha límite para la remoción de escombros",
+    "ko": "LA 화재 정리가 예정보다 빨리 진행됨에 따라 잔해 제거 마감일이 다가오고 있습니다",
+    "vi": "Khi công tác dọn dẹp đám cháy ở LA tiến triển trước thời hạn, thời hạn dọn dẹp đống đổ nát đang đến gần",
+    "tl": "Habang umuusad ang paglilinis ng sunog sa LA nang mas maaga sa iskedyul, papalapit na ang deadline para sa pag-aalis ng kalat",
+    "zh-hans": "随着洛杉矶火灾清理工作提前进行，清除残骸的截止日期临近",
+    "zh-hant": "隨著洛杉磯火災清理工作提前進行，清除殘骸的截止日期臨近",
+    "hy": "Լոս Անջելեսի հրդեհի մաքրումը ընթանում է ժամանակացույցից առաջ, իսկ աղբահանության ժամկետը մոտենում է"
+  },
   "story_99085_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+    "status": "avantpage_delivery",
     "en": "Federal government approves California’s request to expand LA fire debris removal program",
-    "fr": "Le gouvernement fédéral approuve la demande de la Californie pour étendre le programme de nettoyage des débris des incendies de LA",
-    "es": "El gobierno federal aprueba la solicitud de California para expandir el programa de limpieza de desechos de incendios de LA",
-    "ko": "연방 정부가 캘리포니아의 요청을 승인하여 LA 화재 폐기물 정리 프로그램 확장",
-    "vi": "Chính phủ liên bang đã chấp thuận đề xuất của California để mở rộng chương trình làm sạch rác từ đám cháy LA",
-    "tl": "Inihayag ng federal na nag-approve ang pag-request ng California na idagdag ang programang paglilinis ng mga boto ng LA",
-    "zh-hans": "联邦政府批准加州请求扩大洛杉矶火灾垃圾清理项目",
-    "zh-hant": "聯邦政府批准加州請求擴大洛杉磯火災垃圾清理項目",
-    "hy": "Հայաստանի կառավարությունը կառավարության հրամանի միջոցով ներդաշնայությունից պաշտպանելու համար նահանգապետ Նյուսոմը նահանգային հրաման է նշանակում"
+    "es": "El gobierno federal aprueba la solicitud de California para ampliar el programa de la remoción de escombros de los incendios de LA",
+    "ko": "연방 정부에서 LA 화재 잔해 제거 프로그램 확장과 관련한 캘리포니아의 요청을 승인했습니다",
+    "vi": "Chính phủ liên bang phê duyệt yêu cầu của California về việc mở rộng chương trình di dời đống đổ nát từ đám cháy ở LA",
+    "tl": "Inaprubahan ng pederal na gobyerno ang kahilingan ng California na palawakin ang programa ng pag-aalis ng kalat mula sa sunog sa LA",
+    "zh-hans": "联邦政府批准加州扩大洛杉矶火灾残余物清除计划的请求",
+    "zh-hant": "聯邦政府批准加州擴大洛杉磯火災殘餘物清除計畫的請求",
+    "hy": "Դաշնային կառավարությունը հավանություն է տվել Լոս Անջելեսի հրդեհից հետո աղբահանության ծրագիրն ընդլայնելու Կալիֆոռնիայի խնդրանքին",
+    "comment": "Translation delivered 2025-04-10"
   },
-"story_99078_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+  "story_99078_title": {
+    "status": "avantpage_delivery",
     "en": "California urges FEMA to add businesses, non-profits, and multi-family structures to LA fire debris cleanup",
-    "fr": "La Californie demande à FEMA d'ajouter les entreprises, les associations sans but lucratif et les structures multi-familiales à la récupération des débris des incendies de LA",
-    "es": "La California pide a FEMA que agregue negocios, organizaciones sin fines de lucro y estructuras de vivienda múltiple a la limpieza de desechos de incendios de LA",
-    "ko": "캘리포니아가 FEMA에게 비영리 기관과 다가구 구조를 추가하도록 요청하여 LA 화재 폐기물 정리에 도움을 줄 것을 요청합니다",
-    "vi": "California khuyến nghị FEMA thêm doanh nghiệp, tổ chức phi lợi nhuận và cấu trúc nhiều gia đình vào việc làm sạch rác từ đám cháy LA",
-    "tl": "Inihayag ng California na hinugot na idagdag ang mga negosyo, mga organisasyon na walang kapaligiran, at mga multi-family structure sa paglilinis ng mga boto ng LA",
-    "zh-hans": "加州敦促FEMA将企业、非营利组织和多户结构纳入洛杉矶火灾垃圾清理",
-    "zh-hant": "加州敦促FEMA將企業、非營利組織和多戶結構納入洛杉磯火災垃圾清理",
-    "hy": "Կալիֆոռնիա առաջարկում է FEMA-ին ավելացնել բիզնեսները, ոչ առաջապահ կազմակերպությունները և բազմապատկական տուները Լոս Անջելեսի հրդեհների աղբահանման համար"
+    "es": "California insta a la Agencia Federal de Gestión de Emergencias a sumar empresas, organizaciones sin fines de lucro y estructuras multifamiliares a la limpieza de escombros del incendio de Los Ángeles",
+    "ko": "캘리포니아는 연방재난관리청(Federal Emergency Management Agency, FEMA)에 LA 화재 잔해 정리 대상에 소상공인, 비영리 단체 및 다가구 건물을 추가할 것을 요청했습니다",
+    "vi": "California kêu gọi Cơ Quan Quản Lý Tình Trạng Khẩn Cấp Liên Bang (Federal Emergency Management Agency, FEMA) thêm các doanh nghiệp, tổ chức phi lợi nhuận và các cấu trúc đa gia đình vào việc di dời đống đổ nát từ đám cháy ở LA",
+    "tl": "Hinikayat ng California ang Pederal na Ahensya sa Pamamahala sa Emergency (Federal Emergency Management Agency, FEMA) na magdagdag ng mga negosyo, non-profit, at multi-family structure sa paglilinis ng kalat mula sa sunog sa LA",
+    "zh-hans": "加州敦促联邦紧急事务管理局 (Federal Emergency Management Agency, FEMA) 将企业、非营利组织和多户住宅建筑物加入到洛杉矶的火灾残余物清理工作中",
+    "zh-hant": "加州敦促聯邦緊急事務管理局 (Federal Emergency Management Agency, FEMA) 將企業、非營利組織和多戶住宅建築物加入到洛杉磯的火災殘餘物清理工作中",
+    "hy": "Կալիֆոռնիան հորդորում է Արտակարգ իրավիճակների կառավարման դաշնային գործակալությանն (Federal Emergency Management Agency, FEMA) ավելացնել բիզնեսներ, շահույթ չհետապնդող կազմակերպություններ և բազմաբնակարան կառույցներ Լոս Անջելեսի հրդեհային աղբի մաքրմանը",
+    "comment": "Translation delivered 2025-04-10"
   },
-"story_99057_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+  "story_99057_title": {
+    "status": "avantpage_delivery",
     "en": "Governor Newsom signs executive order to build Los Angeles back faster, prevent future fires",
-    "fr": "Le gouverneur Newsom signe une ordonnance exécutive pour reconstruire Los Angeles plus rapidement et prévenir les incendies futurs",
-    "es": "El gobernador Newsom firma una orden ejecutiva para reconstruir Los Angeles más rápidamente y prevenir incendios futuros",
-    "ko": "뉴섬 주지사가 빠르게 재건하고 미래의 화재를 방지하기 위한 실행 명령을 서명합니다",
-    "vi": "Thống đốc Newsom ký quyết định thực thi để xây dựng lại Los Angeles nhanh hơn và ngăn chặn các vụ cháy tương lai",
-    "tl": "Nag-sign ng isang utos na tumatayong bumuo ng Los Angeles mabilis at maiwasan ang mga sunog sa hinaharap",
-    "zh-hans": "纽森州长签署行政命令，加快洛杉矶重建，预防未来火灾",
-    "zh-hant": "紐森州長簽署行政命令，加快洛杉磯重建，預防未來火災",
-    "hy": "Նահանգապետ Նյուսոմը նահանգային հրաման է նշանակում ՝ Լոս Անջելեսի վերականգնման արագացումը պաշտպանելու համար և հաջորդ հրդեհների համար"
+    "es": "El gobernador Newsom firma una orden ejecutiva para reconstruir Los Ángeles más rápido y prevenir futuros incendios",
+    "ko": "Newsom 주지사는 로스앤젤레스를 더 빨리 재건하고 미래의 화재를 예방할 수 있도록 행정 명령에 서명했습니다",
+    "vi": "Thống Đốc Newsom ký sắc lệnh hành pháp để xây dựng lại Los Angeles nhanh hơn, ngăn chặn các đám cháy trong tương lai",
+    "tl": "Nilagdaan ni Gobernador Newsom ang executive order na muling itayo ang Los Angeles nang mas mabilis at iwasan ang mga sunog sa hinaharap",
+    "zh-hans": "Newsom 州长签署行政命令，要求加快重建洛杉矶，防止未来火灾的发生",
+    "zh-hant": "Newsom 州長簽署行政命令，要求加快重建洛杉磯，防止未來火災的發生",
+    "hy": "Նահանգապետ Նյուսոմը հրամանագիր է ստորագրել Լոս Անջելեսն ավելի արագ վերականգնելու և ապագա հրդեհները կանխելու մասին",
+    "comment": "Translation delivered 2025-04-10"
   },
-"story_99042_title": {
-    "status": "ap_review",
-    "comment": "machine_translated", 
+  "story_99042_title": {
+    "status": "avantpage_delivery",
     "en": "Assistance continues to flow to families and businesses as federal aid for LA fires tops $2 billion",
-    "fr": "L'aide continue d'affluer vers les familles et les entreprises alors que l'aide fédérale pour les incendies de LA dépasse 2 milliards de dollars",
-    "es": "La asistencia continúa fluyendo a familias y negocios mientras la ayuda federal para los incendios de LA supera los $2 mil millones",
-    "ko": "LA 화재에 대한 연방 지원이 20억 달러를 넘어서면서 가족과 기업에 대한 지원이 계속 이어지고 있습니다",
-    "vi": "Hỗ trợ tiếp tục đến với các gia đình và doanh nghiệp khi viện trợ liên bang cho các vụ cháy LA vượt quá 2 tỷ đô la",
-    "tl": "Patuloy na dumadaloy ang tulong sa mga pamilya at negosyo habang ang pederal na tulong para sa mga sunog sa LA ay umabot sa $2 bilyon",
-    "zh-hans": "随着洛杉矶火灾联邦援助超过20亿美元，援助继续流向家庭和企业",
-    "zh-hant": "隨著洛杉磯火災聯邦援助超過20億美元，援助持續流向家庭和企業",
-    "hy": "Օգնությունը շարունակում է հոսել դեպի ընտանիքներ և բիզնեսներ, քանի որ LA հրդեհների դաշնային օգնությունը գերազանցում է 2 միլիարդ դոլարը"
+    "es": "La asistencia continúa fluyendo a las familias y empresas, ya que la ayuda federal para los incendios de LA supera los $2 mil millones",
+    "ko": "LA 화재 관련하여 연방의 지원이 20억 달러를 넘어서면서 지역 주민들과 기업 지원이 계속 이어지고 있습니다",
+    "vi": "Công tác hỗ trợ tiếp tục hướng đến các gia đình và doanh nghiệp khi viện trợ liên bang cho các đám cháy ở LA lên tới $2 tỷ",
+    "tl": "Patuloy na naihahatid ang tulong sa mga pamilya at negosyo sa pag-abot ng pederal na tulong para sa sunog sa LA sa $2 bilyon",
+    "zh-hans": "联邦政府为洛杉矶火灾提供的援助金额超过 20 亿美元，援助持续流向家庭和企业",
+    "zh-hant": "聯邦政府為洛杉磯火災提供的援助金額超過 20 億美元，援助持續流向家庭和企業",
+    "hy": "Օգնությունը շարունակում է հոսել ընտանիքների և բիզնեսի համար, քանի որ Լոս Անջելեսի հրդեհների դաշնային օգնությունը գերազանցում է 2 միլիարդ դոլարը:",
+    "comment": "Translation delivered 2025-04-10"
   },
-
-"story_99004_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+  "story_99004_title": {
+    "status": "avantpage_delivery",
     "en": "LA fires cleanup on-track as fastest major cleanup in American history continues with new milestones",
-    "fr": "Le nettoyage des incendies de LA est en bonne voie alors que le nettoyage majeur le plus rapide de l'histoire américaine se poursuit avec de nouvelles étapes",
-    "es": "La limpieza de los incendios de LA va por buen camino mientras continúa la limpieza más rápida en la historia estadounidense con nuevos hitos",
-    "ko": "미국 역사상 가장 빠른 대규모 정화 작업이 새로운 이정표와 함께 계속되면서 LA 화재 정화 작업이 순조롭게 진행되고 있습니다",
-    "vi": "Dọn dẹp các vụ cháy LA đang đúng tiến độ khi công tác dọn dẹp lớn nhất trong lịch sử Hoa Kỳ tiếp tục với các mốc mới",
-    "tl": "Ang paglilinis ng mga sunog sa LA ay nasa tamang landas habang nagpapatuloy ang pinakamabilis na pangunahing paglilinis sa kasaysayan ng Amerika na may mga bagong milestone",
-    "zh-hans": "洛杉矶火灾清理工作进展顺利，美国历史上最快的大规模清理工作继续创造新的里程碑",
-    "zh-hant": "洛杉磯火災清理工作進展順利，美國歷史上最快的大規模清理工作繼續創造新的里程碑",
-    "hy": "LA հրդեհների մաքրման աշխատանքները ընթանում են ըստ պլանի, քանի որ ամերիկյան պատմության մեջ ամենաարագ խոշոր մաքրման աշխատանքները շարունակվում են նոր հանգրվաններով"
+    "es": "La limpieza de los incendios de Los Ángeles avanza como la limpieza más rápida en la historia de Estados Unidos y continúa con nuevos hitos",
+    "ko": "미국 역사상 가장 빠른 대규모 정리 작업이 새로운 이정표와 함께 계속되면서 LA 화재 정리 작업이 순조롭게 진행되고 있습니다",
+    "vi": "Công tác dọn dẹp đám cháy ở LA đang đi đúng tiến độ, trở thành công tác dọn dẹp lớn nhanh nhất trong lịch sử Hoa Kỳ và đang tiếp tục với những cột mốc mới",
+    "tl": "On-track ang paglilinis pagkatapos ng sunog sa LA habang patuloy sa pag-abot ng mga bagong tagumpay ang pinakamabilis na malawakang paglilinis sa kasaysayan ng America",
+    "zh-hans": "洛杉矶清理工作进展顺利，美国历史上最快的重大清理工作继续取得新的里程碑",
+    "zh-hant": "洛杉磯清理工作進展順利，美國歷史上最快的重大清理工作繼續取得新的里程碑",
+    "hy": "Լոս Անջելեսում շարունակվում է լայնածավալ մաքրումը, որը դարձել է ամենաարագը ամերիկյան պատմության մեջ, և շարունակվում են նոր հանգրվանները",
+    "comment": "Translation delivered 2025-04-10"
   },
-
-"story_98928_title": {
-    "status": "ap_review", 
-    "comment": "machine_translated",
+  "story_98928_title": {
+    "status": "avantpage_delivery",
     "en": "Governor Newsom continues supporting Los Angeles business, fire recovery workers with funding, educational workplace safety outreach",
-    "fr": "Le gouverneur Newsom continue de soutenir les entreprises de Los Angeles et les travailleurs de la reprise après incendie avec des financements et des actions de sensibilisation à la sécurité au travail",
-    "es": "El gobernador Newsom continúa apoyando a las empresas de Los Ángeles y a los trabajadores de recuperación de incendios con financiamiento y actividades educativas sobre seguridad en el lugar de trabajo",
-    "ko": "뉴섬 주지사, 자금 지원과 교육적 작업장 안전 지원을 통해 로스앤젤레스 기업과 화재 복구 근로자 지원 지속",
-    "vi": "Thống đốc Newsom tiếp tục hỗ trợ doanh nghiệp Los Angeles, công nhân phục hồi sau hỏa hoạn với tài trợ, tiếp cận an toàn nơi làm việc giáo dục",
-    "tl": "Patuloy na sinusuportahan ni Gobernador Newsom ang negosyo sa Los Angeles, mga manggagawa sa pagbangon mula sa sunog sa pamamagitan ng pagpopondo, pang-edukasyong outreach sa kaligtasan sa lugar ng trabaho",
-    "zh-hans": "纽森州长继续通过资金支持和教育性工作场所安全宣传支持洛杉矶企业和火灾恢复工人",
-    "zh-hant": "紐森州長繼續通過資金支持和教育性工作場所安全宣傳支持洛杉磯企業和火災恢復工人",
-    "hy": "Նահանգապետ Նյուսոմը շարունակում է աջակցել Լոս Անջելեսի բիզնեսին և հրդեհների վերականգնման աշխատողներին՝ ֆինանսավորմամբ, աշխատավայրի անվտանգության կրթական աջակցությամբ"
+    "es": "El gobernador Newsom continúa apoyando a las empresas de Los Ángeles y a los trabajadores de recuperación de incendios con fondos y actividades educativas de seguridad en el lugar de trabajo",
+    "ko": "Newsom 주지사는 로스앤젤레스 소상공인, 화재 복구 근로자 자금 지원, 교육, 직장 안전 봉사 활동을 계속 지원합니다",
+    "vi": "Thống Đốc Newsom tiếp tục hỗ trợ doanh nghiệp Los Angeles, nhân viên cứu hỏa thông qua tài trợ, tiếp cận an toàn tại nơi làm việc giáo dục",
+    "tl": "Patuloy na sinusuportahan ni Gobernador Newsom ang negosyo sa Los Angeles, mga manggagawa sa muling pagbangon mula sa sunog sa pamamagitan ng pagpopondo, at pangkaligtasang outreach sa pang-edukasyong lugar ng trabaho",
+    "zh-hans": "Newsom 州长持续为洛杉矶企业和火灾救援人员提供资金，并为工作场所安全宣传教育提供支持",
+    "zh-hant": "Newsom 州長持續為洛杉磯企業和火災救援人員提供資金，並為工作場所安全宣傳教育提供支援",
+    "hy": "Նահանգապետ Նյուսոմը շարունակում է ֆինանսական աջակցություն ցուցաբերել Լոս Անջելեսի բիզնեսին, հրդեհաշիջման աշխատողներին, ինչպես նաև կրթական աշխատանքներ իրականացնել աշխատավայրում անվտանգության հարցերի շուրջ",
+    "comment": "Translation delivered 2025-04-10"
   },
-
-"story_98879_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+  "story_98879_title": {
+    "status": "avantpage_delivery",
     "en": "ICYMI: LA’s rebuilding and recovery efforts continue with support from Governor Newsom and LA Rises",
-    "fr": "Au cas où vous l'auriez manqué : Les efforts de reconstruction et de rétablissement de LA se poursuivent avec le soutien du gouverneur Newsom et de LA Rises",
-    "es": "Por si te lo perdiste: Los esfuerzos de reconstrucción y recuperación de LA continúan con el apoyo del gobernador Newsom y LA Rises",
-    "ko": "놓치지 마세요: 뉴섬 주지사와 LA Rises의 지원으로 LA의 재건 및 복구 노력 계속",
-    "vi": "Trong trường hợp bạn bỏ lỡ: Nỗ lực tái thiết và phục hồi của LA tiếp tục với sự hỗ trợ từ Thống đốc Newsom và LA Rises",
-    "tl": "Kung hindi mo nakita: Nagpapatuloy ang mga pagsisikap sa muling pagtatayo at pagbangon ng LA sa suporta mula kay Gobernador Newsom at LA Rises",
-    "zh-hans": "以防你错过：在纽森州长和LA Rises的支持下，洛杉矶的重建和恢复工作继续进行",
-    "zh-hant": "以防你錯過：在紐森州長和LA Rises的支持下，洛杉磯的重建和恢復工作繼續進行",
-    "hy": "Եթե բաց եք թողել. LA-ի վերակառուցման և վերականգնման ջանքերը շարունակվում են նահանգապետ Նյուսոմի և LA Rises-ի աջակցությամբ"
+    "es": "No se lo pierda: los esfuerzos de reconstrucción y recuperación de Los Ángeles continúan con el apoyo del gobernador Newsom y LA Rises",
+    "ko": "ICYMI: LA의 재건 및 복구 노력은 Newsom 주지사와 LA Rises의 지원으로 계속됩니다",
+    "vi": "ICYMI: Các nỗ lực xây dựng lại và phục hồi của LA tiếp tục với sự hỗ trợ từ Thống Đốc Newsom và LA Rises",
+    "tl": "ICYMI: Nagpapatuloy ang mga pagsisikap ng muling pagpapatayo at muling pagbangon ng LA sa suporta ni Gobernador Newsom at ng LA Rises",
+    "zh-hans": "ICYMI：在 Newsom 州长和 LA Rises 的支持下，洛杉矶的重建和恢复工作仍在持续进行中",
+    "zh-hant": "ICYMI：在 Newsom 州長和 LA Rises 的支持下，洛杉磯的重建和恢復工作仍在持續進行中",
+    "hy": "Եթե բաց էիք թողել․ Լոս Անջելեսի վերականգնման ջանքերը շարունակվում են նահանգապետ Նյուսոմի և LA Rises-ի աջակցությամբ",
+    "comment": "Translation delivered 2025-04-10"
   },
-
-"story_98867_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+  "story_98867_title": {
+    "status": "avantpage_delivery",
     "en": "California deploys cutting-edge technologies for LA fires recovery with expanded NASA Jet Propulsion Laboratory partnership",
-    "fr": "La Californie déploie des technologies de pointe pour la reprise après les incendies de LA avec un partenariat élargi avec le Laboratoire de propulsion par réaction de la NASA",
-    "es": "California implementa tecnologías de vanguardia para la recuperación de los incendios de LA con una asociación ampliada con el Laboratorio de Propulsión a Chorro de la NASA",
-    "ko": "캘리포니아, NASA 제트추진연구소와의 확대된 파트너십을 통해 LA 화재 복구를 위한 최첨단 기술 배치",
-    "vi": "California triển khai công nghệ tiên tiến để phục hồi sau các vụ cháy LA với quan hệ đối tác mở rộng với Phòng thí nghiệm Động cơ phản lực NASA",
-    "tl": "Nagpapatupad ang California ng cutting-edge na teknolohiya para sa pagbangon mula sa mga sunog sa LA sa pamamagitan ng pinalawak na pakikipagtulungan sa NASA Jet Propulsion Laboratory",
-    "zh-hans": "加利福尼亚州通过扩大与NASA喷气推进实验室的合作，部署尖端技术用于洛杉矶火灾恢复",
-    "zh-hant": "加利福尼亞州通過擴大與NASA噴氣推進實驗室的合作，部署尖端技術用於洛杉磯火災恢復",
-    "hy": "Կալիֆոռնիան տեղակայում է նորագույն տեխնոլոգիաներ LA հրդեհների վերականգնման համար՝ NASA-ի Ռեակտիվ շարժման լաբորատորիայի հետ ընդլայնված գործընկերությամբ"
+    "es": "California implementa tecnologías de vanguardia para la recuperación de los incendios de Los Ángeles con una colaboración expandida con el Laboratorio de Propulsión a Chorro de la NASA",
+    "ko": "캘리포니아에서는 LA 화재 복구를 위해 NASA 제트추진연구소 확장 파트너십을 통한 최첨단 기술을 사용합니다",
+    "vi": "California triển khai các công nghệ tiên tiến để phục hồi sau đám cháy ở LA thông qua quan hệ đối tác mở rộng với Phòng Thí Nghiệm Sức Đẩy Phản Lực của NASA",
+    "tl": "Nagpadala ang California ng mga makabagong teknolohiya para sa muling pagbangon mula sa sunog sa LA sa pamamagitan ng pinalawak na partnership sa NASA Jet Propulsion Laboratory",
+    "zh-hans": "加州通过扩大与 NASA 喷气推进实验室 (Jet Propulsion Laboratory, JPL) 的合作伙伴关系，为洛杉矶火灾恢复行动部署尖端技术",
+    "zh-hant": "加州透過擴大與 NASA 噴氣推進實驗室 (Jet Propulsion Laboratory，JPL) 的合作夥伴關係，為洛杉磯火災恢復行動部署尖端技術",
+    "hy": "Կալիֆոռնիան ներդնում է առաջադեմ տեխնոլոգիաներ Լոս Անջելեսի հրդեհների հետևանքները վերացնելու համար՝ որպես ՆԱՍԱ-ի Ռեակտիվ շարժման լաբորատորիայի հետ ընդլայնված համագործակցության մաս",
+    "comment": "Translation delivered 2025-04-10"
   },
-
-"story_98806_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+  "story_98806_title": {
+    "status": "avantpage_delivery",
     "en": "Governor Newsom announces deadline extension to apply for federal assistance for Los Angeles fires",
-    "fr": "Le gouverneur Newsom annonce la prolongation du délai pour demander une aide fédérale pour les incendies de Los Angeles",
-    "es": "El gobernador Newsom anuncia la extensión del plazo para solicitar asistencia federal para los incendios de Los Ángeles",
-    "ko": "뉴섬 주지사, 로스앤젤레스 화재에 대한 연방 지원 신청 기한 연장 발표",
-    "vi": "Thống đốc Newsom thông báo gia hạn thời hạn nộp đơn xin hỗ trợ liên bang cho các vụ cháy Los Angeles",
-    "tl": "Inihayag ni Gobernador Newsom ang pagpapalawig ng deadline para mag-apply para sa pederal na tulong para sa mga sunog sa Los Angeles",
-    "zh-hans": "纽森州长宣布延长洛杉矶火灾联邦援助申请截止日期",
-    "zh-hant": "紐森州長宣布延長洛杉磯火災聯邦援助申請截止日期",
-    "hy": "Նահանգապետ Նյուսոմը հայտարարում է Լոս Անջելեսի հրդեհների համար դաշնային օգնության դիմելու վերջնաժամկետի երկարաձգման մասին"
+    "es": "El gobernador Newsom anuncia extensión del plazo para solicitar asistencia federal por los incendios de Los Ángeles",
+    "ko": "Newsom 주지사는 로스앤젤레스 화재 관련하여 연방 지원 신청 기한 연장을 발표합니다",
+    "vi": "Thống Đốc Newsom thông báo gia hạn thời hạn để nộp đơn xin hỗ trợ liên bang cho các đám cháy ở Los Angeles",
+    "tl": "Inanunsyo ni Gobernador Newsom ang palugit sa deadline para mag-apply para sa pederal na tulong para sa sunog sa Los Angeles",
+    "zh-hans": "Newsom 州长宣布延长为洛杉矶火灾申请联邦援助的截止日期",
+    "zh-hant": "Newsom 州長宣佈延長為洛杉磯火災申請聯邦援助的截止日期",
+    "hy": "Նահանգապետ Նյուսոմը հայտարարել է Լոս Անջելեսի հրդեհների հետ կապված դաշնային օգնության հայտերի ներկայացման ժամկետի երկարաձգման մասին",
+    "comment": "Translation delivered 2025-04-10"
   },
-
-"story_98791_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+  "story_98791_title": {
+    "status": "avantpage_delivery",
     "en": "Governor Newsom extends protections for LA firestorm survivors",
-    "fr": "Le gouverneur Newsom étend les protections pour les survivants des incendies de LA",
-    "es": "El gobernador Newsom extiende las protecciones para los sobrevivientes de la tormenta de fuego de LA",
-    "ko": "뉴섬 주지사, LA 화재 생존자를 위한 보호 조치 연장",
-    "vi": "Thống đốc Newsom mở rộng bảo vệ cho những người sống sót sau thảm họa cháy LA",
-    "tl": "Pinalawig ni Gobernador Newsom ang mga proteksyon para sa mga nakaligtas sa firestorm sa LA",
-    "zh-hans": "纽森州长延长对洛杉矶火灾幸存者的保护措施",
-    "zh-hant": "紐森州長延長對洛杉磯火災倖存者的保護措施",
-    "hy": "Նահանգապետ Նյուսոմը երկարաձգում է LA հրդեհի վերապրածների պաշտպանությունը"
+    "es": "El gobernador Newsom extiende las protecciones para los sobrevivientes de la tormenta de fuego en Los Ángeles",
+    "ko": "Newsom 주지사는 LA 화재 생존자를 위 보호 조치를 연장합니다",
+    "vi": "Thống Đốc Newsom mở rộng biện pháp bảo vệ cho những người sống sót sau cơn bão lửa LA",
+    "tl": "Nag-alok si Gobernador Newsom ng mga proteksyon para sa mga nakaligtas sa sunog sa LA",
+    "zh-hans": "Newsom 州长扩展对洛杉矶大火幸存者的保护工作",
+    "zh-hant": "Newsom 州長擴展對洛杉磯大火倖存者的保護工作",
+    "hy": "Նահանգապետ Նյուսոմը ընդլայնում է պաշտպանության միջոցները Լոս Անջելեսի հրդեհից տուժածների համար",
+    "comment": "Translation delivered 2025-04-10"
   },
-
-"story_98782_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+  "story_98782_title": {
+    "status": "avantpage_delivery",
     "en": "What they’re saying: Governor Newsom’s state of emergency to fast-track wildfire prevention projects",
-    "fr": "Ce qu'ils disent : L'état d'urgence du gouverneur Newsom pour accélérer les projets de prévention des incendies de forêt",
-    "es": "Lo que están diciendo: Estado de emergencia del gobernador Newsom para acelerar proyectos de prevención de incendios forestales",
-    "ko": "그들이 말하는 것: 뉴섬 주지사의 산불 예방 프로젝트 신속 처리를 위한 비상사태 선포",
-    "vi": "Họ đang nói gì: Tình trạng khẩn cấp của Thống đốc Newsom để đẩy nhanh các dự án phòng chống cháy rừng",
-    "tl": "Ano ang sinasabi nila: Estado ng emergency ni Gobernador Newsom upang mapabilis ang mga proyekto sa pag-iwas sa wildfire",
-    "zh-hans": "他们说什么：纽森州长宣布紧急状态，加快野火预防项目",
-    "zh-hant": "他們說什麼：紐森州長宣布緊急狀態，加快野火預防項目",
-    "hy": "Ինչ են ասում. Նահանգապետ Նյուսոմի արտակարգ դրությունը՝ արագացնելու անտառային հրդեհների կանխարգելման ծրագրերը"
+    "es": "Lo que se dice: El estado de emergencia del gobernador Newsom acelerará los proyectos de prevención de incendios forestales",
+    "ko": "해당 내용: 산불 예방 프로젝트를 신속하게 처리하기 위한 Newsom 주지사의 비상 사태 선포",
+    "vi": "Họ đang nói gì: Tình trạng khẩn cấp do Thống Đốc Newsom đặt ra để theo dõi nhanh các dự án phòng chống cháy rừng",
+    "tl": "Ano ang sinasabi nila: Pabibilisin ng state of emergency ng Gobernador ng Newsom ang mga proyekto ng pag-iwas sa wildfire",
+    "zh-hans": "他们在说什么：Newsom 州长宣布紧急状态，要求加快开展山火预防项目",
+    "zh-hant": "他們在說什麼：Newsom 州長宣佈緊急狀態，要求加快開展山火預防專案",
+    "hy": "Ինչ են ասում. նահանգապետ Նյուսոմը արտակարգ դրություն է մտցրել անտառային հրդեհների կանխարգելման նախագծերի իրականացումն արագացնելու համար",
+    "comment": "Translation delivered 2025-04-10"
   },
-
-"story_98775_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+  "story_98775_title": {
+    "status": "avantpage_delivery",
     "en": "With rain incoming, California takes action to protect fire-impacted communities in Los Angeles County",
-    "fr": "Avec l'arrivée de la pluie, la Californie prend des mesures pour protéger les communautés touchées par les incendies dans le comté de Los Angeles",
-    "es": "Con la llegada de la lluvia, California toma medidas para proteger a las comunidades afectadas por incendios en el condado de Los Ángeles",
-    "ko": "비가 오는 가운데 캘리포니아, 로스앤젤레스 카운티의 화재 피해 지역사회 보호를 위한 조치 시행",
-    "vi": "Với mưa sắp đến, California hành động để bảo vệ các cộng đồng bị ảnh hưởng bởi hỏa hoạn tại Quận Los Angeles",
-    "tl": "Sa pagdating ng ulan, kumikilos ang California upang protektahan ang mga komunidad na naapektuhan ng sunog sa Los Angeles County",
-    "zh-hans": "随着降雨来临，加利福尼亚州采取行动保护洛杉矶县受火灾影响的社区",
-    "zh-hant": "隨著降雨來臨，加利福尼亞州採取行動保護洛杉磯縣受火災影響的社區",
-    "hy": "Անձրևի մոտենալու հետ Կալիֆոռնիան գործողություններ է ձեռնարկում՝ պաշտպանելու հրդեհից տուժած համայնքները Լոս Անջելես շրջանում"
+    "es": "Con la lluvia próxima, California toma medidas para proteger las comunidades afectadas por los incendios en el condado de Los Ángeles",
+    "ko": "비가 내리기 시작하면서 캘리포니아는 로스앤젤레스 카운티의 화재 피해를 입은 지역사회를 보호하기 위한 조치를 시행했습니다",
+    "vi": "Khi mùa mưa đang đến gần, California hành động để bảo vệ các cộng đồng bị ảnh hưởng bởi đám cháy ở Quận Los Angeles",
+    "tl": "Sa paparating na pag-ulan, umaksyon ang California para protektahan ang mga komunidad na naapektuhan ng sunog sa County ng Los Angeles",
+    "zh-hans": "随着降雨的到来，加州采取行动保护洛杉矶县受火灾影响的社区",
+    "zh-hant": "隨著降雨的到來，加州採取行動保護洛杉磯縣受火災影響的社區",
+    "hy": "Անձրևների մոտենալու կապակցությամբ Կալիֆոռնիան միջոցներ է ձեռնարկում Լոս Անջելեսի վարչաշրջանում հրդեհներից տուժած բնակավայրերը պաշտպանելու համար",
+    "comment": "Translation delivered 2025-04-10"
   },
-
-"story_98699_title": {
+  "story_98699_title": {
     "status": "ap_review",
     "comment": "machine_translated",
     "en": "Governor Newsom announces statewide plan for economic growth, $245 million for more jobs — with additional investment for LA&#8217;s recovery",
@@ -177,5 +167,4 @@
     "zh-hant": "紐森州長宣布全州經濟增長計劃，2.45億美元用於創造更多就業機會 — 並為洛杉磯復甦提供額外投資",
     "hy": "Նահանգապետ Նյուսոմը հայտարարում է տնտեսական աճի նահանգային պլանի, 245 միլիոն դոլար՝ ավելի շատ աշխատատեղերի համար — LA-ի վերականգնման համար լրացուցիչ ներդրումներով"
   }
-
 }

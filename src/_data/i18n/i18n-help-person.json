@@ -161,17 +161,16 @@
     "orig_en": "<strong>Hours open"
   },
   "help_person_wait_times_alt": {
-    "status": "ap_review",
-    "comment": "machine translation used",
+    "status": "avantpage_delivery",
     "en": "Bar chart showing the wait times for Los Angeles Disaster Recovery Centers. 12 pm to 3 pm are the busiest time with up to a 1 hour wait. 9 am, 5pm, and 6 pm are less busy. 7 pm to 8 pm tends not to have any wait.",
-    "fr": "Graphique à barres montrant les temps d'attente pour les centres de récupération des dommages de Los Angeles. De 12h à 15h sont les heures les plus chargées avec jusqu'à 1 heure d'attente. 9h, 17h et 18h sont moins chargées. De 19h à 20h, il n'y a généralement pas d'attente.",
-    "es": "Gráfico de barras que muestra los tiempos de espera en los centros de recuperación por catástrofes de Los Ángeles. De 12 p. m. a 3 p. m. es el horario más ocupado con hasta 1 hora de espera. A las 9 a. m., 5 p. m. y 6 p. m. hay menos gente. De 7 p. m. a 8 p. m. suele no haber espera.",
-    "ko": "로스앤젤레스 재난 복구 센터의 대기 시간을 보여주는 막대 그래프입니다. 오후 12시부터 오후 3시까지가 가장 붐비는 시간대로 최대 1시간 대기할 수 있습니다. 오전 9시, 오후 5시, 오후 6시는 덜 붐빕니다. 오후 7시부터 8시까지는 대기 시간이 거의 없습니다.",
-    "vi": "Biểu đồ cột thể hiện thời gian chờ đợi tại các Trung Tâm Phục Hồi sau Thảm Họa Los Angeles. Từ 12 giờ trưa đến 3 giờ chiều là thời gian bận rộn nhất với thời gian chờ đợi lên đến 1 giờ. 9 giờ sáng, 5 giờ chiều và 6 giờ chiều ít bận rộn hơn. Từ 7 giờ tối đến 8 giờ tối thường không có thời gian chờ đợi.",
-    "tl": "Graph na nagpapakita ng mga oras ng paghihintay para sa mga Disaster Recovery Center ng Los Angeles. Ang 12 pm hanggang 3 pm ay ang pinakamataong oras na may hanggang 1 oras na paghihintay. Ang 9 am, 5 pm, at 6 pm ay hindi gaanong matao. Ang 7 pm hanggang 8 pm ay karaniwang walang paghihintay.",
-    "zh-hans": "柱状图显示洛杉矶灾害恢复中心的等候时间。中午12点至下午3点是最繁忙时段，等候时间可达1小时。上午9点、下午5点和6点较不繁忙。晚上7点至8点通常无需等候。",
-    "zh-hant": "長條圖顯示洛杉磯災難復原中心的等候時間。中午12點至下午3點是最繁忙時段，等候時間可達1小時。上午9點、下午5點和6點較不繁忙。晚上7點至8點通常無需等候。",
-    "hy": "Գծապատկեր, որը ցույց է տալիս Լոս Անջելեսի աղետների վերականգնման կենտրոնների սպասման ժամանակը։ Ժամը 12-ից մինչև 15-ը ամենազբաղված ժամերն են՝ մինչև 1 ժամ սպասման ժամանակով։ Ժամը 9-ին, 17-ին և 18-ին ավելի քիչ զբաղված է։ Ժամը 19-ից 20-ը սովորաբար սպասման ժամանակ չի լինում։"
+    "es": "Gráfico de barras que muestra los tiempos de espera para los Centros de Recuperación por Desastres de Los Ángeles. De las 12 p. m. a las 3 p. m. es el horario de mayor actividad, con hasta 1 hora de espera. Las 9 a. m., las 5 p. m. y las 6 p. m. son horarios con menos concurrencia. De las 7 p. m. a las 8 p. m. la espera es mínima.",
+    "ko": "로스앤젤레스 재난 복구 센터의 대기 시간을 보여주는 막대 차트. 오후 12시부터 오후 3시까지가 가장 붐비는 시간대로, 최대 1시간까지 대기할 수 있습니다. 오전 9시, 오후 5시, 오후 6시는 덜 붐빕니다. 오후 7시부터 8시까지는 대기 시간이 거의 없습니다.",
+    "vi": "Biểu đồ cột thể hiện thời gian chờ tại các Trung Tâm Phục Hồi sau Thảm Họa của Los Angeles. 12 giờ trưa đến 3 giờ chiều là thời gian bận rộn nhất với thời gian chờ lên đến 1 giờ. 9 giờ sáng, 5 giờ chiều và 6 giờ chiều ít bận rộn hơn. 7 giờ tối đến 8 giờ tối thường không phải chờ.",
+    "tl": "Ipinapakita sa bar chart ang mga tagal ng paghihintay para sa Mga Los Angeles Disaster Recovery Center. 12 pm hanggang 3 pm ang pinaka-busy na oras na may hanggang 1 oras na paghihintay. 9 am, 5pm, at 6 pm ang hindi gaanong busy. Karaniwang walang pila nang 7 pm hanggang 8 pm.",
+    "zh-hans": "条形图显示洛杉矶灾害恢复中心的救助等待时间。中午 12 点到下午 3 点最繁忙，最多需要等待 1 小时。上午 9 点、下午 5 点和下午 6 点相对空闲。晚上 7 点到 8 点往往不需等待即可提供救助服务。",
+    "zh-hant": "橫條圖顯示洛杉磯災後恢復中心的救助等待時間。中午 12 點到下午 3 點最繁忙，最多需要等待 1 小時。上午 9 點、下午 5 點和下午 6 點相對空閒。晚上 7 點到 8 點往往不需等待即可提供救助服務。",
+    "hy": "Սյունակային դիագրամ՝ Լոս Անջելեսի աղետների վերականգնման կենտրոններում հերթերի վերաբերյալ։ 12 pm-ից 3 pm-ը ամենազբաղված ժամերն են, երբ ստիպված եք լինելու մինչև 1 ժամ սպասել։ 9 am-ը, 5 pm-ը և 6pm-ը ավելի քիչ զբաղված են։ 7pm-ից մինչև 8pm-ը հերթեր չեն լինում։",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_person_wait_time": {
     "status": "avantpage_delivery",
@@ -235,17 +234,16 @@
     "orig_en": "More about these centers"
   },
   "help_person_drcs_link_text": {
-    "status": "ap_review",
-    "comment": "machine translation used",
+    "status": "avantpage_delivery",
     "en": "Los Angeles County Disaster Recovery Centers",
-    "fr": "Centres de récupération des dommages de Los Angeles County",
-    "es": "Centros de recuperación de daños de Los Angeles County",
-    "ko": "Los Angeles County 재난 복구 센터",
-    "vi": "Trung tâm phục hồi sau thảm họa Los Angeles County",
-    "tl": "Mga center ng pagkukulang ng Los Angeles County",
+    "es": "Centros de Recuperación por Desastres del Condado de Los Ángeles",
+    "ko": "로스 앤젤레스 카운티 재난 복구 센터",
+    "vi": "Trung Tâm Phục Hồi sau Thảm Họa của Quận Los Angeles",
+    "tl": "Mga Los Angeles County Disaster Recovery Center",
     "zh-hans": "洛杉矶县灾害恢复中心",
-    "zh-hant": "洛杉磯縣災害恢復中心",
-    "hy": "Լոս Անջելեսի աղետների վերականգնման կենտրոններ"
+    "zh-hant": "洛杉磯縣災後恢復中心",
+    "hy": "Լոս Անջելեսի շրջանի աղետների վերականգնման կենտրոններ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_person_services_on_site": {
     "status": "avantpage_delivery",
@@ -310,17 +308,16 @@
     "hy": "Առողջապահական ծառայություններ և խորհրդատվություն"
   },
   "help_person_mental_health_services": {
-    "status": "ap_review",
-    "comment": "machine translation used",
+    "status": "avantpage_delivery",
     "en": "Mental health services",
-    "fr": "Services de santé mentale et conseils",
-    "es": "servicios y consejos de salud mental",
+    "es": "servicios de salud mental",
     "ko": "정신 건강 서비스",
-    "vi": "Dịch vụ và tư vấn tâm lý",
-    "tl": "Mga serbisyo at payo sa tibay",
+    "vi": "dịch vụ sức khỏe tâm thần",
+    "tl": "mga serbisyo sa kalusugan ng pag-iisip",
     "zh-hans": "心理健康服务",
     "zh-hant": "心理健康服務",
-    "hy": "Առողջապահական ծառայություններ և խորհրդատվություն"
+    "hy": "հոգեկան առողջության ծառայություններ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_person_unemployment": {
     "status": "avantpage_delivery",
@@ -382,7 +379,6 @@
     "zh-hant": "稅務幫助和減免",
     "hy": "Հարկային օգնություն և աջակցություն"
   },
-
   "help_person_before_you_arrive": {
     "status": "avantpage_delivery",
     "en": "Before you arrive",
@@ -421,17 +417,16 @@
     "hy": "Եթե կարող եք, Ձեզ հետ բերեք հետևյալը՝"
   },
   "help_person_items_address_damaged_home": {
-    "status": "ap_review",
-    "comment": "machine translation used",
+    "status": "avantpage_delivery",
     "en": "Address of the damaged primary home",
-    "fr": "Adresse de la maison principale endommagée",
-    "es": "Dirección de la casa principal dañada",
-    "ko": "손상된 주택의 주소",
-    "vi": "Địa chỉ của nhà chính bị hư hỏng",
-    "tl": "Address ng damaged primary home",
-    "zh-hans": "受损主房屋的地址",
-    "zh-hant": "損害主房屋的地址",
-    "hy": "Ապահովագրական ծածկույթի վերաբերյալ տեղեկատվություն"
+    "es": "dirección de la casa principal que resultó dañada",
+    "ko": "손상된 주 거주지의 주소",
+    "vi": "Địa chỉ của ngôi nhà chính bị hư hỏng",
+    "tl": "Address ng nasirang pangunahing tahanan",
+    "zh-hans": "受损主居所地址",
+    "zh-hant": "受損主居所地址",
+    "hy": "Վնասված առաջնային տան հասցե",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_person_insurance_coverage_information": {
     "status": "avantpage_delivery",
@@ -482,17 +477,16 @@
     "hy": "Երբ ժամանեք"
   },
   "help_person_arrival_info_parking": {
-    "status": "ap_review",
-    "comment": "machine translation used",
+    "status": "avantpage_delivery",
     "en": "<strong>Parking: </strong>Free parking available. People may be there to direct you.",
-    "fr": "<strong>Parking: </strong>Parking gratuit disponible. Des personnes peuvent être là pour vous diriger.",
-    "es": "<strong>Parking: </strong>Parking gratuito disponible. Las personas pueden estar allí para guiarte.",
-    "ko": "<strong>주차: </strong>무료 주차 가능. 사람들이 거기에 있을 수 있어 당신을 지도합니다.",
-    "vi": "<strong>Parking: </strong>Parking miễn phí có sẵn. Một số người có thể ở đó để hướng dẫn bạn.",
-    "tl": "<strong>Parking: </strong>Free parking available. People may be there to direct you.",
-    "zh-hans": "<strong>停车: </strong>免费停车。人们可能会在那里引导您。",
-    "zh-hant": "<strong>停車: </strong>免費停車。人們可能會在那裡引導您。",
-    "hy": "<strong>Կայանատեղի: </strong>Անվճար կայանատեղի առկա է: Դուք կարող եք նրանց համար այցելել ու նրանց համար անհրաժեշտ է ձեզ հասցնել:"
+    "es": "<strong>Estacionamiento: </strong>estacionamiento gratuito disponible. Es posible que haya personas para señalarle el camino.",
+    "ko": "<strong>주차장: </strong>무료 주차 가능. 그곳에 있는 사람들이 귀하를 안내합니다.",
+    "vi": "<strong>Bãi đậu xe: </strong>Có bãi đậu xe miễn phí. Mọi người có thể ở đó để hướng dẫn quý vị.",
+    "tl": "<strong>Parking: </strong>Available ang libreng parking. Posibleng may mga tao roon para gabayan ka.",
+    "zh-hans": "<strong>停车：</strong>提供免费停车。工作人员可能会在那里为您提供指导。",
+    "zh-hant": "<strong>停車：</strong>提供免費停車場。工作人員可能會在那裡為您提供指導。",
+    "hy": "<strong>Ավտոկայանատեղի՝ </strong>Առկա է անվճար կայանատեղի: Տարածքում կարող են լինել օգնական մարդիկ՝ Ձեզ ուղղորդելու համար։",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_person_restrooms_and_beverages": {
     "status": "avantpage_delivery",
@@ -520,59 +514,185 @@
     "orig_en": "Use <link>Plan your in-person visit</link> to help you find the services you need."
   },
   "help_person_one_shop_h2": {
-    "status": "english_only",
-    "en": "Find a One-Stop Permit Center"
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "Find a One-Stop Permit Center",
+    "fr": "Trouvez un centre de permis à guichet unique",
+    "es": "Encuentre un Centro de Permisos de Ventanilla Única",
+    "ko": "원스톱 허가 센터 찾기",
+    "vi": "Tìm Trung tâm Cấp phép Một cửa",
+    "tl": "Maghanap ng One-Stop Permit Center",
+    "zh-hans": "寻找一站式许可中心",
+    "zh-hant": "尋找一站式許可中心",
+    "hy": "Գտեք Մեկ կանգառով թույլտվության կենտրոն"
   },
   "help_person_one_shop_description": {
-    "status": "english_only",
-    "en": "Go to these centers for help with the rebuilding process."
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "Go to these centers for help with the rebuilding process.",
+    "fr": "Rendez-vous dans ces centres pour obtenir de l'aide concernant le processus de reconstruction.",
+    "es": "Acuda a estos centros para obtener ayuda con el proceso de reconstrucción.",
+    "ko": "재건 과정에 도움이 필요하시면 이 센터를 방문하세요.",
+    "vi": "Đến các trung tâm này để được hỗ trợ về quy trình tái thiết.",
+    "tl": "Pumunta sa mga sentro na ito para sa tulong sa proseso ng muling pagtatayo.",
+    "zh-hans": "前往这些中心获取重建过程的帮助。",
+    "zh-hant": "前往這些中心獲取重建過程的幫助。",
+    "hy": "Այցելեք այս կենտրոններ վերակառուցման գործընթացի հետ կապված օգնության համար։"
   },
   "help_person_one_shop_center1": {
-    "status": "english_only",
-    "en": "Calabasas One-Stop Permit Center"
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "Calabasas One-Stop Permit Center",
+    "fr": "Centre de permis à guichet unique de Calabasas",
+    "es": "Centro de Permisos de Ventanilla Única de Calabasas",
+    "ko": "칼라바사스 원스톱 허가 센터",
+    "vi": "Trung tâm Cấp phép Một cửa Calabasas",
+    "tl": "Calabasas One-Stop Permit Center",
+    "zh-hans": "卡拉巴萨斯一站式许可中心",
+    "zh-hant": "卡拉巴薩斯一站式許可中心",
+    "hy": "Կալաբասաս Մեկ կանգառով թույլտվության կենտրոն"
   },
   "help_person_one_shop_center1_address": {
-    "status": "english_only",
-    "en": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302"
+    "status": "do_not_translate",
+    "comment": "Machine translated",
+    "en": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
+    "fr": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
+    "es": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
+    "ko": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
+    "vi": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
+    "tl": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
+    "zh-hans": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
+    "zh-hant": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
+    "hy": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302"
   },
   "help_person_one_shop_center1_hours": {
-    "status": "english_only",
-    "en": "<strong>Hours open:</strong> <br />Monday - Thursday: 7:00 AM - 4:30 PM<br />Friday: 7:00 AM - 3:30 PM"
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "<strong>Hours open:</strong> <br />Monday - Thursday: 7:00 AM - 4:30 PM<br />Friday: 7:00 AM - 3:30 PM",
+    "fr": "<strong>Heures d'ouverture:</strong> <br />Lundi - Jeudi: 7h00 - 16h30<br />Vendredi: 7h00 - 15h30",
+    "es": "<strong>Horario de apertura:</strong> <br />Lunes - Jueves: 7:00 AM - 4:30 PM<br />Viernes: 7:00 AM - 3:30 PM",
+    "ko": "<strong>운영 시간:</strong> <br />월요일 - 목요일: 오전 7:00 - 오후 4:30<br />금요일: 오전 7:00 - 오후 3:30",
+    "vi": "<strong>Giờ mở cửa:</strong> <br />Thứ Hai - Thứ Năm: 7:00 SA - 4:30 CH<br />Thứ Sáu: 7:00 SA - 3:30 CH",
+    "tl": "<strong>Oras ng pagbubukas:</strong> <br />Lunes - Huwebes: 7:00 AM - 4:30 PM<br />Biyernes: 7:00 AM - 3:30 PM",
+    "zh-hans": "<strong>开放时间:</strong> <br />周一至周四: 上午7:00 - 下午4:30<br />周五: 上午7:00 - 下午3:30",
+    "zh-hant": "<strong>開放時間:</strong> <br />週一至週四: 上午7:00 - 下午4:30<br />週五: 上午7:00 - 下午3:30",
+    "hy": "<strong>Աշխատանքային ժամեր:</strong> <br />Երկուշաբթի - Հինգշաբթի: 7:00 - 16:30<br />Ուրբաթ: 7:00 - 15:30"
   },
   "help_person_one_shop_center2": {
-    "status": "english_only",
-    "en": "Altadena One-Stop Permit Center"
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "Altadena One-Stop Permit Center",
+    "fr": "Centre de permis à guichet unique d'Altadena",
+    "es": "Centro de Permisos de Ventanilla Única de Altadena",
+    "ko": "알타데나 원스톱 허가 센터",
+    "vi": "Trung tâm Cấp phép Một cửa Altadena",
+    "tl": "Altadena One-Stop Permit Center",
+    "zh-hans": "阿尔塔迪纳一站式许可中心",
+    "zh-hant": "阿爾塔迪納一站式許可中心",
+    "hy": "Ալտադենա Մեկ կանգառով թույլտվության կենտրոն"
   },
   "help_person_one_shop_center2_address": {
-    "status": "english_only",
-    "en": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001"
+    "status": "do_not_translate",
+    "comment": "Machine translated",
+    "en": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001",
+    "fr": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001",
+    "es": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001",
+    "ko": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001",
+    "vi": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001",
+    "tl": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001",
+    "zh-hans": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001",
+    "zh-hant": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001",
+    "hy": "464 W Woodbury Rd. Suite 210 <br />Altadena, CA 91001"
   },
   "help_person_one_shop_center2_hours": {
-    "status": "english_only",
-    "en": "<strong>Hours open:</strong> <br />Monday - Friday: 9:30 AM - 6:00 PM <br />Saturday: 8:00 AM - 1:00 PM"
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "<strong>Hours open:</strong> <br />Monday - Friday: 9:30 AM - 6:00 PM <br />Saturday: 8:00 AM - 1:00 PM",
+    "fr": "<strong>Heures d'ouverture:</strong> <br />Lundi - Vendredi: 9h30 - 18h00 <br />Samedi: 8h00 - 13h00",
+    "es": "<strong>Horario de apertura:</strong> <br />Lunes - Viernes: 9:30 AM - 6:00 PM <br />Sábado: 8:00 AM - 1:00 PM",
+    "ko": "<strong>운영 시간:</strong> <br />월요일 - 금요일: 오전 9:30 - 오후 6:00 <br />토요일: 오전 8:00 - 오후 1:00",
+    "vi": "<strong>Giờ mở cửa:</strong> <br />Thứ Hai - Thứ Sáu: 9:30 SA - 6:00 CH <br />Thứ Bảy: 8:00 SA - 1:00 CH",
+    "tl": "<strong>Oras ng pagbubukas:</strong> <br />Lunes - Biyernes: 9:30 AM - 6:00 PM <br />Sabado: 8:00 AM - 1:00 PM",
+    "zh-hans": "<strong>开放时间:</strong> <br />周一至周五: 上午9:30 - 下午6:00 <br />周六: 上午8:00 - 下午1:00",
+    "zh-hant": "<strong>開放時間:</strong> <br />週一至週五: 上午9:30 - 下午6:00 <br />週六: 上午8:00 - 下午1:00",
+    "hy": "<strong>Աշխատանքային ժամեր:</strong> <br />Երկուշաբթի - Ուրբաթ: 9:30 - 18:00 <br />Շաբաթ: 8:00 - 13:00"
   },
   "help_person_one_shop_learn_more": {
-    "status": "english_only",
-    "en": "Learn more about <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a>. Walk-ins are welcome. You can also schedule an appointment."
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "Learn more about <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a>. Walk-ins are welcome. You can also schedule an appointment.",
+    "fr": "En savoir plus sur les <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">centres de permis à guichet unique</a>. Les visites sans rendez-vous sont les bienvenues. Vous pouvez également prendre rendez-vous.",
+    "es": "Obtenga más información sobre los <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Centros de Permisos de Ventanilla Única</a>. Se aceptan visitas sin cita previa. También puede programar una cita.",
+    "ko": "<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">원스톱 허가 센터</a>에 대해 자세히 알아보세요. 예약 없이 방문하셔도 됩니다. 예약도 가능합니다.",
+    "vi": "Tìm hiểu thêm về <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Trung tâm Cấp phép Một cửa</a>. Chào đón khách vãng lai. Bạn cũng có thể đặt lịch hẹn.",
+    "tl": "Matuto nang higit pa tungkol sa <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a>. Tinatanggap ang mga walk-in. Maaari ka ring mag-iskedyul ng appointment.",
+    "zh-hans": "了解更多关于<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式许可中心</a>的信息。欢迎直接前来。您也可以预约。",
+    "zh-hant": "了解更多關於<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式許可中心</a>的資訊。歡迎直接前來。您也可以預約。",
+    "hy": "Իմացեք ավելին <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Մեկ կանգառով թույլտվության կենտրոնների</a> մասին: Առանց նախնական գրանցման այցելությունները ողջունելի են: Դուք կարող եք նաև պայմանավորվել հանդիպման համար:"
   },
   "help_person_one_shop_service": {
-    "status": "english_only",
-    "en": "Services on site"
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "Services on site",
+    "fr": "Services sur place",
+    "es": "Servicios en el sitio",
+    "ko": "현장 서비스",
+    "vi": "Dịch vụ tại chỗ",
+    "tl": "Mga serbisyo sa site",
+    "zh-hans": "现场服务",
+    "zh-hant": "現場服務",
+    "hy": "Տեղում մատուցվող ծառայություններ"
   },
   "help_person_one_shop_service_description": {
-    "status": "english_only",
-    "en": "You can get help and advice about the rebuilding process, including these steps:"
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "You can get help and advice about the rebuilding process, including these steps:",
+    "fr": "Vous pouvez obtenir de l'aide et des conseils sur le processus de reconstruction, y compris ces étapes:",
+    "es": "Puede obtener ayuda y asesoramiento sobre el proceso de reconstrucción, incluidos estos pasos:",
+    "ko": "재건 과정에 대한 도움과 조언을 받을 수 있으며, 다음 단계가 포함됩니다:",
+    "vi": "Bạn có thể nhận được sự trợ giúp và lời khuyên về quy trình tái thiết, bao gồm các bước sau:",
+    "tl": "Maaari kang makakuha ng tulong at payo tungkol sa proseso ng muling pagtatayo, kabilang ang mga hakbang na ito:",
+    "zh-hans": "您可以获得有关重建过程的帮助和建议，包括以下步骤：",
+    "zh-hant": "您可以獲得有關重建過程的幫助和建議，包括以下步驟：",
+    "hy": "Դուք կարող եք ստանալ օգնություն և խորհրդատվություն վերակառուցման գործընթացի վերաբերյալ, ներառյալ հետևյալ քայլերը՝"
   },
   "help_person_one_shop_service_list_1": {
-    "status": "english_only",
-    "en": "Preparing building plans"
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "Preparing building plans",
+    "fr": "Préparation des plans de construction",
+    "es": "Preparación de planes de construcción",
+    "ko": "건축 계획 준비",
+    "vi": "Chuẩn bị kế hoạch xây dựng",
+    "tl": "Paghahanda ng mga plano ng gusali",
+    "zh-hans": "准备建筑计划",
+    "zh-hant": "準備建築計劃",
+    "hy": "Շինարարական պլանների պատրաստում"
   },
   "help_person_one_shop_service_list_2": {
-    "status": "english_only",
-    "en": "Getting permits"
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "Getting permits",
+    "fr": "Obtention de permis",
+    "es": "Obtención de permisos",
+    "ko": "허가 취득",
+    "vi": "Xin giấy phép",
+    "tl": "Pagkuha ng mga permit",
+    "zh-hans": "获取许可证",
+    "zh-hant": "獲取許可證",
+    "hy": "Թույլտվությունների ստացում"
   },
   "help_person_one_shop_service_list_3": {
-    "status": "english_only",
-    "en": "Scheduling inspections"
+    "status": "ap_review",
+    "comment": "Machine translated",
+    "en": "Scheduling inspections",
+    "fr": "Planification des inspections",
+    "es": "Programación de inspecciones",
+    "ko": "검사 일정 잡기",
+    "vi": "Lên lịch kiểm tra",
+    "tl": "Pag-iskedyul ng mga inspeksyon",
+    "zh-hans": "安排检查",
+    "zh-hant": "安排檢查",
+    "hy": "Ստուգումների պլանավորում"
   }
 }

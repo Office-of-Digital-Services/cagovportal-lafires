@@ -1,17 +1,15 @@
 {
   "on_this_page": {
-    "status": "ap_review",
-    "comment": "Machine translation",
-    "src_file": "several",
+    "status": "avantpage_delivery",
     "en": "On this page",
     "es": "En esta página",
-    "fr": "Sur cette page",
-    "tl": "Sa loob ng pahina",
-    "ko": "이 페이지에서",
-    "vi": "Trong trang này",
-    "zh-hans": "在此页面",
-    "zh-hant": "在此頁面",
-    "hy": "Այս էջում"
+    "ko": "이 페이지에서 확인할 사항",
+    "vi": "Trên trang này",
+    "tl": "Sa page na ito",
+    "zh-hans": "本页内容",
+    "zh-hant": "本頁內容",
+    "hy": "Այս էջում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "title_2025_los_angeles_fires": {
     "status": "avantpage_delivery",
@@ -470,29 +468,27 @@
     "hy": "Գլխավոր էջ"
   },
   "skip_to_main_content": {
-    "status": "ap_review",
-    "comment": "Machine translation",
-    "src_file": "src/_includes/layouts/base.html",
+    "status": "avantpage_delivery",
     "en": "Skip to Main Content",
-    "es": "Omitir el contenido principal",
-    "fr": "Passer au contenu principal",
-    "tl": "Magpasok sa Main Content",
+    "es": "Vaya al contenido principal",
     "ko": "주요 콘텐츠로 건너뛰기",
-    "vi": "Bỏ qua nội dung chính",
-    "zh-hans": "跳到主要内容",
-    "zh-hant": "跳到主要內容",
-    "hy": "Գլխավոր նյութերի վրա գրանցվել"
+    "vi": "Chuyển đến Nội Dung Chính",
+    "tl": "Lumaktaw sa Pangunahing Content",
+    "zh-hans": "跳至主要内容",
+    "zh-hant": "跳至主要內容",
+    "hy": "Անցնել Հիմնական բովանդակություն",
+    "comment": "Translation delivered 2025-04-10"
   },
   "lafires_site_title": {
-    "status": "ap_not_found_in_jbum",
-    "src_file": "pages/lafires/global_i18n-shared.html",
+    "status": "avantpage_delivery",
     "en": "2025 Los Angeles Fires",
     "es": "Incendios de Los Ángeles en 2025",
     "ko": "2025년 로스앤젤레스 화재",
     "vi": "Các Đám Cháy ở Los Angeles năm 2025",
     "tl": "Sunog sa Los Angeles Ngayong 2025",
-    "zh-hans": "2025年洛杉矶大火",
+    "zh-hans": "2025 年洛杉矶大火",
     "zh-hant": "2025 年洛杉磯大火",
-    "hy": "2025թ․ Լոս Անջելեսի հրդեհներ"
+    "hy": "2025թ․ Լոս Անջելեսի հրդեհներ",
+    "comment": "Translation delivered 2025-04-10"
   }
 }

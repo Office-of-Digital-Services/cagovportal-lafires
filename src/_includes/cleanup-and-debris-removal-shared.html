@@ -215,17 +215,20 @@
   }
 </style>
 
-
 <!-- SVG filter for rounding complex shapes. -->
 <svg class="visually-hidden" width="0" height="0">
   <defs>
     <filter id="round">
       <!-- stdDeviation of the blur defines the border-radius, in px. -->
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" /> 
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
       <!-- Red, blue, and green unmodified. Then maximize contrast of the alpha channel. -->
-      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="max-alpha" />
+      <feColorMatrix
+        in="blur"
+        mode="matrix"
+        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+        result="max-alpha" />
       <!-- Combine. -->
-      <feComposite in="SourceGraphic" in2="max-alpha" operator="atop"/>
+      <feComposite in="SourceGraphic" in2="max-alpha" operator="atop" />
     </filter>
   </defs>
 </svg>
@@ -239,7 +242,7 @@
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
         <span class="subtitle color-p2-darker bold m-b-md"
-        >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
         >
       </h1>
     </div>
@@ -252,6 +255,19 @@
 
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
+      <div class="p-a-md m-b-md brd-solid-4 brd-highlight rounded">
+        <div role="heading" aria-level="2" class="h3 m-t-0">
+          {{ 'cleanup_opt_in_title' | i18n}}
+        </div>
+        <p>{{ 'cleanup_opt_in_description' | i18n | safe }}</p>
+        <ul>
+          <li class="m-t">{{ 'cleanup_opt_in_list_1' | i18n | safe }}</li>
+          <li class="m-t">{{ 'cleanup_opt_in_list_2' | i18n | safe }}</li>
+          <li class="m-t">{{ 'cleanup_opt_in_list_3' | i18n | safe }}</li>
+        </ul>
+        <p>{{ 'cleanup_opt_in_description_2' | i18n | safe }}</p>
+      </div>
+
       <p class="m-b-md lead">
         {{ 'cleanup_cleanup_and_debris_removal_after_wildfires' | i18n}}
       </p>
@@ -272,9 +288,7 @@
             </div>
           </div>
         </div>
-        <p class="m-t-md">
-          {{ 'cleanup_debris_introduction' | i18n}}
-        </p>
+        <p class="m-t-md">{{ 'cleanup_debris_introduction' | i18n}}</p>
       </div>
 
       <hr />
@@ -287,60 +301,57 @@
           </div>
           <h2>{{ 'cleanup_hazardous_waste_cleanup' | i18n}}</h2>
         </div>
-        <p class="m-b-md">
-          {{ 'cleanup_phase_1_description' | i18n}}
-        </p>
+        <p class="m-b-md">{{ 'cleanup_phase_1_description' | i18n}}</p>
         <p>{{ 'cleanup_these_include' | i18n}}</p>
         <ul class="debris-list-grid phase-1-debris-list-grid">
           <li>{{ 'cleanup_batteries' | i18n}}</li>
           <li>{{ 'cleanup_cleaners_and_solvents' | i18n}}</li>
           <li>{{ 'cleanup_fertilizers_and_pesticides' | i18n}}</li>
           <li>{{ 'cleanup_paints_and_oils' | i18n}}</li>
-          <li>{{ 'cleanup_propane_tanks_and_other_pressurized_products' | i18n}}</li>
+          <li>
+            {{ 'cleanup_propane_tanks_and_other_pressurized_products' | i18n}}
+          </li>
         </ul>
 
-        <p>
-          {{ 'cleanup_phase_1_now_complete' | i18n}}
-        </p>
+        <p>{{ 'cleanup_phase_1_now_complete' | i18n}}</p>
         <p>{{ 'cleanup_no_cost_for_phase_1' | i18n}}</p>
       </div>
 
       <div class="debris-step">
         <h2>{{ 'cleanup_cleanup_statuses_explained' | i18n}}</h2>
         <p>{{ 'cleanup_after_the_epa_assessed_your_property' | i18n}}</p>
-        <p>{{ 'cleanup_they_posted_that_status_in_a_sign_on_your_property' | i18n}}</p>
         <p>
-          {{ 'cleanup_epa_map' | i18n | safe}}
+          {{ 'cleanup_they_posted_that_status_in_a_sign_on_your_property' |
+          i18n}}
         </p>
+        <p>{{ 'cleanup_epa_map' | i18n | safe}}</p>
 
         <div class="debris-removal-viz phase-1-debris-removal-viz">
           <div>
-            <h3 class="m-t-0 font-size-20">{{ 'cleanup_phase_1_complete' | i18n}}</h3>
+            <h3 class="m-t-0 font-size-20">
+              {{ 'cleanup_phase_1_complete' | i18n}}
+            </h3>
             <p>{{ 'cleanup_phase_1_complete_status' | i18n}}</p>
-            <p>
-              {{ 'cleanup_phase_1_complete_status_2' | i18n | safe}}
-            </p>
+            <p>{{ 'cleanup_phase_1_complete_status_2' | i18n | safe}}</p>
             <ul>
               <li>{{ 'cleanup_hazardous_waste_buried' | i18n}}</li>
-              <li>{{ 'cleanup_health_hazards_like_ash_and_asbestos' | i18n}}</li>
+              <li>
+                {{ 'cleanup_health_hazards_like_ash_and_asbestos' | i18n}}
+              </li>
             </ul>
           </div>
           <span>{{ 'cleanup_or_uppercase' | i18n}}</span>
           <div>
-            <h3 class="m-t-0 font-size-20">{{ 'cleanup_deferred_to_phase_2' | i18n}}</h3>
-            <p>
-              {{ 'cleanup_deferred_to_phase_2_status' | i18n | safe}}
-            </p>
-            <p>
-              {{ 'cleanup_it_will_be_cleaned_in_phase_2' | i18n | safe}}
-            </p>
+            <h3 class="m-t-0 font-size-20">
+              {{ 'cleanup_deferred_to_phase_2' | i18n}}
+            </h3>
+            <p>{{ 'cleanup_deferred_to_phase_2_status' | i18n | safe}}</p>
+            <p>{{ 'cleanup_it_will_be_cleaned_in_phase_2' | i18n | safe}}</p>
           </div>
         </div>
       </div>
 
-      <p class="m-b-lg">
-        {{ 'cleanup_see_phase_1_progress' | i18n | safe}}
-      </p>
+      <p class="m-b-lg">{{ 'cleanup_see_phase_1_progress' | i18n | safe}}</p>
 
       <hr />
 
@@ -366,18 +377,20 @@
           <li>{{ 'cleanup_ash' | i18n}}</li>
         </ul>
 
+        <p>{{ 'cleanup_what_to_expect_in_phase_2' | i18n | safe}}</p>
         <p>
-          {{ 'cleanup_what_to_expect_in_phase_2' | i18n | safe}}
-        </p>
-        <p>
-          {{ 'cleanup_see_the_progress_of_this_work_in_usace_s_debris_removal_map' | i18n | safe}}
+          {{
+          'cleanup_see_the_progress_of_this_work_in_usace_s_debris_removal_map'
+          | i18n | safe}}
         </p>
       </div>
 
       <div class="debris-step">
         <h2>{{ 'cleanup_about_removing_trees' | i18n}}</h2>
         <p>
-          {{ 'cleanup_during_debris_removal_the_usace_will_remove_trees_that_are_hazardous' | i18n}}
+          {{
+          'cleanup_during_debris_removal_the_usace_will_remove_trees_that_are_hazardous'
+          | i18n}}
         </p>
 
         <div class="debris-boxed-content phase-2-border-color">
@@ -394,9 +407,7 @@
                 >{{ 'cleanup_tree_markings_explained' | i18n}}</a
               >
             </li>
-            <li>
-              {{ 'cleanup_waiver_form_pdf' | i18n | safe}}
-            </li>
+            <li>{{ 'cleanup_waiver_form_pdf' | i18n | safe}}</li>
           </ul>
         </div>
       </div>
@@ -412,20 +423,14 @@
           <span>{{ 'cleanup_opt_out_self_removal' | i18n}}</span>
         </div>
 
-        <p>
-          {{ 'cleanup_no_out_of_pocket_costs' | i18n}}
-        </p>
-        <p>
-          {{ 'cleanup_phase_1_completion_required' | i18n}}
-        </p>
+        <p>{{ 'cleanup_no_out_of_pocket_costs' | i18n}}</p>
+        <p>{{ 'cleanup_phase_1_completion_required' | i18n}}</p>
       </div>
 
       <!-- Step 7 -->
       <div class="debris-step">
         <h2>{{ 'cleanup_opt_in_deadline_heading' | i18n}}</h2>
-        <p>
-          {{ 'cleanup_opt_in_deadline' | i18n | safe}}
-        </p>
+        <p>{{ 'cleanup_opt_in_deadline' | i18n | safe}}</p>
         <a
           class="btn btn-primary m-y-sm"
           href="https://recovery.lacounty.gov/debris-removal/roe/"
@@ -449,9 +454,7 @@
               </ul>
             </li>
             <li>{{ 'cleanup_opt_in_insurance' | i18n}}</li>
-            <li>
-              {{ 'cleanup_opt_in_vehicle_info' | i18n}}
-            </li>
+            <li>{{ 'cleanup_opt_in_vehicle_info' | i18n}}</li>
           </ul>
         </div>
       </div>
@@ -459,21 +462,15 @@
       <!-- Step 8 -->
       <div class="debris-step">
         <h2>{{ 'cleanup_opt_out_heading' | i18n}}</h2>
-        <p>
-          {{ 'cleanup_opt_out_explanation' | i18n}}
-        </p>
+        <p>{{ 'cleanup_opt_out_explanation' | i18n}}</p>
 
         <div class="debris-boxed-content phase-2-border-color">
           <p>{{ 'cleanup_opt_out_requirements_intro' | i18n}}</p>
           <ul>
             <li>{{ 'cleanup_opt_out_contractor' | i18n}}</li>
             <li>{{ 'cleanup_opt_out_permit' | i18n}}</li>
-            <li>
-              {{ 'cleanup_opt_out_asbestos' | i18n}}
-            </li>
-            <li>
-              {{ 'cleanup_opt_out_compliance' | i18n}}
-            </li>
+            <li>{{ 'cleanup_opt_out_asbestos' | i18n}}</li>
+            <li>{{ 'cleanup_opt_out_compliance' | i18n}}</li>
           </ul>
         </div>
       </div>
@@ -481,12 +478,8 @@
       <!-- Step 9 -->
       <div class="debris-step">
         <h2>{{ 'cleanup_how_to_opt_out_heading' | i18n}}</h2>
-        <p>
-          {{ 'cleanup_opt_out_submit_form' | i18n | safe}}
-        </p>
-        <p>
-          {{ 'cleanup_opt_out_importance' | i18n}}
-        </p>
+        <p>{{ 'cleanup_opt_out_submit_form' | i18n | safe}}</p>
+        <p>{{ 'cleanup_opt_out_importance' | i18n}}</p>
 
         <div class="debris-boxed-content phase-2-border-color">
           <p>{{ 'cleanup_opt_out_requirements_needed' | i18n}}</p>
@@ -514,29 +507,23 @@
       <div id="debris-step-10" class="debris-step">
         <h2 class="m-b-lg">{{ 'cleanup_help_heading' | i18n}}</h2>
         <div class="debris-boxed-content phase-1-border-color">
-          <h3 class="font-size-20">{{ 'cleanup_phase_1_questions_heading' | i18n}}</h3>
-          <p>
-            {{ 'cleanup_epa_contact' | i18n | safe}}
-          </p>
+          <h3 class="font-size-20">
+            {{ 'cleanup_phase_1_questions_heading' | i18n}}
+          </h3>
+          <p>{{ 'cleanup_epa_contact' | i18n | safe}}</p>
         </div>
         <div class="debris-boxed-content phase-2-border-color">
-          <h3 class="font-size-20">{{ 'cleanup_opt_in_help_heading' | i18n}}</h3>
+          <h3 class="font-size-20">
+            {{ 'cleanup_opt_in_help_heading' | i18n}}
+          </h3>
           <ul>
-            <li>
-              {{ 'cleanup_county_hotline' | i18n | safe}}
-            </li>
-            <li>
-              {{ 'cleanup_email_contact' | i18n | safe}}
-            </li>
-            <li>
-              {{ 'cleanup_in_person_help' | i18n | safe}}
-            </li>
+            <li>{{ 'cleanup_county_hotline' | i18n | safe}}</li>
+            <li>{{ 'cleanup_email_contact' | i18n | safe}}</li>
+            <li>{{ 'cleanup_in_person_help' | i18n | safe}}</li>
           </ul>
         </div>
         <div class="debris-boxed-content neutral-border-color">
-          <h3 class="font-size-20">
-            {{ 'cleanup_more_info_heading' | i18n}}
-          </h3>
+          <h3 class="font-size-20">{{ 'cleanup_more_info_heading' | i18n}}</h3>
           <p>
             <a href="https://recovery.lacounty.gov/debris-removal/"
               >{{ 'cleanup_la_county_recovers' | i18n}}</a
@@ -546,12 +533,8 @@
       </div>
 
       <h2 class="m-b-lg">{{ 'cleanup_where_debris_goes' | i18n}}</h2>
-      <p>
-        {{ 'cleanup_debris_disposal_explanation' | i18n}}
-      </p>
-      <p>
-        {{ 'cleanup_calepa_info' | i18n | safe}}
-      </p>
+      <p>{{ 'cleanup_debris_disposal_explanation' | i18n}}</p>
+      <p>{{ 'cleanup_calepa_info' | i18n | safe}}</p>
 
       <!--END MAIN COL CONTENT-->
     </div>
