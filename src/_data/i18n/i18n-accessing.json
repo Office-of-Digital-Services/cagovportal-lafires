@@ -85,30 +85,28 @@
     "hy": "Պալիսեյդսի հրդեհներ"
   },
   "return_palisades_fire_map_alt": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "Palisades fire map",
-    "fr": "Carte de l'incendie Palisades",
-    "es": "Mapa de incendio Palisades",
-    "ko": "팰리세이즈 화재 지도",
+    "es": "Mapa del incendio de Palisades",
+    "ko": "팰리세이즈 화재 지도 ",
     "vi": "Bản đồ đám cháy Palisades",
     "tl": "Mapa ng sunog sa Palisades",
-    "zh-hans": "帕利塞兹大火地图",
-    "zh-hant": "帕利塞茲大火地圖",
-    "hy": "Պալիսեյդսի հրդեհի քարտեզ"
+    "zh-hans": "帕利塞兹 (Palisades) 火灾地图",
+    "zh-hant": "帕利塞茲 (Palisades) 火災地圖",
+    "hy": "Պալիսեյդսի հրդեհների քարտեզ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "return_view_palisades_fire_damage_map": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "View <span class='sr-only'>the Palisades Fire</span> damage map",
-    "fr": "Voir la carte de dommage de l'incendie Palisades",
-    "es": "Ver el mapa de daños del incendio Palisades",
-    "ko": "팰리세이즈 화재 피해 지도 보기",
-    "vi": "Xem bản đồ thiệt hại của đám cháy Palisades",
-    "tl": "Tingnan ang mapa ng pinsala ng sunog sa Palisades",
-    "zh-hans": "查看帕利塞兹大火损害地图",
-    "zh-hant": "查看帕利塞茲大火損害地圖",
-    "hy": "Պալիսեյդսի հրդեհի վնասների քարտեզ դիտել"
+    "es": "Ver el mapa de daños del <span class='sr-only'>incendio de Palisades</span>",
+    "ko": "<span class='sr-only'>팰리세이즈 화재</span> 피해 지도 보기 ",
+    "vi": "Xem bản đồ tổn thất của <span class='sr-only'>đám cháy Palisades</span>",
+    "tl": "Tingnan ang mapa ng pinsala sa <span class='sr-only'>Sunog sa Palisades</span>",
+    "zh-hans": "查看<span class='sr-only'>帕利塞兹火灾</span>损失地图",
+    "zh-hant": "查看<span class='sr-only'>帕利塞茲火災</span>損失地圖",
+    "hy": "Դիտել <span class='sr-only'>Պալիսեյդսի հրդեհների</span> վնասի քարտեզը",
+    "comment": "Translation delivered 2025-04-10"
   },
   "return_eaton_fire_heading": {
     "status": "avantpage_delivery",
@@ -123,30 +121,28 @@
     "hy": "Իթոնի հրդեհներ"
   },
   "return_eaton_fire_map_alt": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "Eaton fire map",
-    "fr": "Carte de l'incendie Eaton",
-    "es": "Mapa de incendio Eaton",
+    "es": "Mapa del incendio de Eaton",
     "ko": "이튼 화재 지도",
     "vi": "Bản đồ đám cháy Eaton",
     "tl": "Mapa ng sunog sa Eaton",
-    "zh-hans": "Eaton 大火地图",
-    "zh-hant": "Eaton 大火地圖",
-    "hy": "Իթոնի հրդեհի քարտեզ"
+    "zh-hans": "伊顿 (Eaton) 火灾地图",
+    "zh-hant": "伊頓 (Eaton) 火災地圖",
+    "hy": "Իթոնի հրդեհների քարտեզ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "return_view_eaton_fire_damage_map": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "View <span class='sr-only'>the Eaton Fire</span> damage map",
-    "fr": "Voir la carte de dommage de l'incendie Eaton",
-    "es": "Ver el mapa de daños del incendio Eaton",
-    "ko": "이튼 화재 피해 지도 보기",
-    "vi": "Xem bản đồ thiệt hại của đám cháy Eaton",
-    "tl": "Tingnan ang mapa ng pinsala ng sunog sa Eaton",
-    "zh-hans": "查看伊顿大火损害地图",
-    "zh-hant": "查看伊頓大火損害地圖",
-    "hy": "Իթոնի հրդեհի վնասների քարտեզ դիտել"
+    "es": "Ver el mapa de daños del <span class='sr-only'>incendio de Eaton</span>",
+    "ko": "<span class='sr-only'>이튼 화재</span> 피해 지도 보기",
+    "vi": "Xem bản đồ tổn thất của <span class='sr-only'>đám cháy Eaton</span>",
+    "tl": "Tingnan ang mapa ng pinsala sa <span class='sr-only'>Sunog sa Eaton</span>",
+    "zh-hans": "查看<span class='sr-only'>伊顿火灾</span>损失地图",
+    "zh-hant": "查看<span class='sr-only'>伊頓火災</span>損失地圖",
+    "hy": "Դիտել <span class='sr-only'>Իթոնի հրդեհների</span> վնասի քարտեզը",
+    "comment": "Translation delivered 2025-04-10"
   },
   "return_inspection_status_intro": {
     "status": "ap_review",

@@ -73,28 +73,28 @@
     "hy": "West Hollywood-ի Առևտրի պալատ"
   },
   "help_business_west_hollywood_address_line_1": {
-    "status": "ap_review",
+    "status": "avantpage_delivery",
     "en": "8272 Santa Monica Blvd.",
-    "fr": "8272 Santa Monica Blvd.",
     "es": "8272 Santa Monica Blvd.",
     "ko": "8272 Santa Monica Blvd.",
     "vi": "8272 Santa Monica Blvd.",
     "tl": "8272 Santa Monica Blvd.",
-    "zh-hans": "8272 Santa Monica Blvd.",
+    "zh-hans": "28272 Santa Monica Blvd.",
     "zh-hant": "8272 Santa Monica Blvd.",
-    "hy": "8272 Santa Monica Blvd."
+    "hy": "8272 Santa Monica Blvd.",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_business_west_hollywood_address_line_2": {
-    "status": "ap_review",
+    "status": "avantpage_delivery",
     "en": "West Hollywood, CA 90046",
-    "fr": "West Hollywood, CA 90046",
     "es": "West Hollywood, CA 90046",
     "ko": "West Hollywood, CA 90046",
     "vi": "West Hollywood, CA 90046",
     "tl": "West Hollywood, CA 90046",
     "zh-hans": "West Hollywood, CA 90046",
     "zh-hant": "West Hollywood, CA 90046",
-    "hy": "West Hollywood, CA 90046"
+    "hy": "West Hollywood, CA 90046",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_business_directions_link_text": {
     "status": "avantpage_delivery",
@@ -109,18 +109,16 @@
     "hy": "Ուղղություններ"
   },
   "help_business_west_hollywood_hours": {
-    "status": "ap_review",
-    "comment": "original text was truncated, so I added the missing text",
+    "status": "avantpage_delivery",
     "en": "<strong>Hours open</strong>: Thursday - Saturday, 9 am to 5:30 pm",
-    "fr": "<strong>Heures ouvertes</strong>: Jeudi - Samedi, 9 h à 17 h 30",
-    "es": "<strong>Horarios de disponibilidad</strong>: Jueves - Sábado, 9 am a 5:30 pm",
-    "ko": "<strong>운영 시간</strong>: 목요일 - 토요일, 오전 9시부터 오후 5시 30분까지",
-    "vi": "<strong>Giờ làm việc</strong>: Thứ Năm - Thứ Bảy, 9 giờ sáng đến 5 giờ 30 chiều",
-    "tl": "<strong>Mga oras na bukas</strong>: Huwebes - Sabado, 9 am hanggang 5:30 pm",
-    "zh-hans": "<strong>开放时段</strong>: 周四至周六，上午9点至下午5点30分",
-    "zh-hant": "<strong>上班時間</strong>: 週四至週六，上午9點至下午5點30分",
-    "hy": "<strong>Աշխատանքային ժամեր</strong>: Հինգշաբթի - Շաբաթ, առավոտյան 9:00-ից մինչև երեկոյան 5:30",
-    "orig_en": "<strong>Hours open"
+    "es": "<strong>Horario de atención</strong>: jueves a sábado, de 9 a. m. a 5:30 p. m.",
+    "ko": "<strong>운영 시간</strong>: 목요일~토요일, 오전 9시~오후 5시 30분",
+    "vi": "<strong>Giờ mở cửa</strong>: Thứ Năm - Thứ Bảy, 9 giờ sáng đến 5 giờ 30 chiều",
+    "tl": "<strong>Mga oras ng pagbubukas</strong>: Huwebes - Sabado, 9 am hanggang 5:30 pm",
+    "zh-hans": "<strong>开放时间</strong>：周四至周六，上午 9 点至下午 5：30",
+    "zh-hant": "<strong>開放時間</strong>：週四至週六，上午 9 點至下午 5:30",
+    "hy": "<strong>Աշխատանքային ժամեր</strong>՝ հինգշաբթի - շաբաթ, 9 am-ից մինչև 5:30 pm-ը",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_business_wbc_title": {
     "status": "avantpage_delivery",
@@ -159,31 +157,28 @@
     "hy": "Reseda, CA 91335"
   },
   "help_business_wbc_hours": {
-    "status": "ap_review",
-    "comment": "original text was truncated, so I added the missing text",
+    "status": "avantpage_delivery",
     "en": "<strong>Hours open:</strong> Monday - Wednesday, 8:30 am to 5:30",
-    "fr": "<strong>Heures ouvertes</strong>: Lundi - Mercredi, 8 h 30 à 17 h 30",
-    "es": "<strong>Horarios de disponibilidad:</strong> Lunes - Miércoles, 8:30 am a 5:30 pm",
-    "ko": "<strong>운영 시간:</strong> 월요일 - 수요일, 오전 8시 30분부터 오후 5시 30분까지",
-    "vi": "<strong>Giờ làm việc:</strong> Thứ Hai - Thứ Tư, 8 giờ 30 sáng đến 5 giờ 30 chiều",
-    "tl": "<strong>Mga oras na bukas:</strong> Lunes - Miyerkules, 8:30 am hanggang 5:30 pm",
-    "zh-hans": "<strong>开放时段:</strong> 周一至周三，上午8点30分至下午5点30分",
-    "zh-hant": "<strong>上班時間:</strong> 週一至週三，上午8點30分至下午5點30分",
-    "hy": "<strong>Աշխատանքային ժամեր:</strong> Երկուշաբթի - Չորեքշաբթի, առավոտյան 8:30-ից մինչև երեկոյան 5:30"
+    "es": "<strong>Horario de atención:</strong> lunes a miércoles, de 8:30 a. m. a 5:30",
+    "ko": "<strong>운영 시간:</strong> 월요일~수요일, 오전 8시 30분~5시 30분",
+    "vi": "<strong>Giờ mở cửa:</strong> Thứ Hai - Thứ Tư, 8 giờ 30 sáng đến 5 giờ 30",
+    "tl": "<strong>Mga oras ng pagbubukas:</strong> Lunes - Miyerkules, 8:30 am hanggang 5:30",
+    "zh-hans": "<strong>开放时间：</strong> 周一至周三，上午 8：30 至下午 5：30",
+    "zh-hant": "<strong>開放時間：</strong> 週一至週三，上午 8:30 至下午 5:30",
+    "hy": "<strong>Աշխատանքային ժամեր՝</strong> երկուշաբթի - չորեքշաբթի, 8։30 am-ից մինչև 5:30",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_business_wbc_parking": {
-    "status": "ap_review",
-    "comment": "original text was truncated, so I added the missing text",
+    "status": "avantpage_delivery",
     "en": "<strong>Parking:</strong> Back of building on Yolanda Ave.",
-    "fr": "<strong>Stationnement:</strong> Arrière du bâtiment sur l'avenue Yolanda.",
-    "es": "<strong>Estacionamiento:</strong> Parte trasera del edificio en Yolanda Ave.",
-    "ko": "<strong>주차:</strong> Yolanda Ave.에 있는 건물 뒷편",
-    "vi": "<strong>Bãi đậu xe:</strong> Phía sau tòa nhà trên đại lộ Yolanda",
-    "tl": "<strong>Paradahan:</strong> Likuran ng gusali sa Yolanda Ave.",
-    "zh-hans": "<strong>停车地点:</strong> Yolanda 大道大楼后面",
-    "zh-hant": "<strong>停車:</strong> Yolanda 大道大樓後面",
-    "hy": "<strong>Կայանատեղի:</strong> Յոլանդա պողոտայի շենքի հետևում",
-    "orig_en": "<strong>Parking"
+    "es": "<strong>Estacionamiento:</strong> parte posterior del edificio en Yolanda Ave.",
+    "ko": "<strong>주차장:</strong> Yolanda Ave 건물 뒤편",
+    "vi": "<strong>Bãi đậu xe:</strong> Mặt sau của tòa nhà trên Yolanda Ave.",
+    "tl": "<strong>Parking:</strong> Likod ng gusali sa Yolanda Ave.",
+    "zh-hans": "<strong>停车点：</strong>Yolanda Ave 建筑物后面。",
+    "zh-hant": "<strong>停車點：</strong> Yolanda Ave 建築物後面。",
+    "hy": "<strong>Ավտոկայանատեղի՝</strong> Յոլանդա պողոտայում գտնվող շենքի ետևի մասում:",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_business_smcc_title": {
     "status": "avantpage_delivery",
@@ -222,18 +217,16 @@
     "hy": "Santa Monica, CA 90405"
   },
   "help_business_smcc_hours": {
-    "status": "ap_review",
-    "comment": "original text was truncated, so I added the missing text",
+    "status": "avantpage_delivery",
     "en": "<strong>Hours open:</strong> Monday - Friday, 9 am to 5 pm",
-    "fr": "<strong>Heures ouvertes</strong>: Lundi - Vendredi, 9 h à 17 h",
-    "es": "<strong>Horarios de disponibilidad:</strong> Lunes - Viernes, 9 am a 5 pm",
-    "ko": "<strong>운영 시간:</strong> 월요일 - 금요일, 오전 9시부터 오후 5시까지",
-    "vi": "<strong>Giờ làm việc:</strong> Thứ Hai - Thứ Sáu, 9 giờ sáng đến 5 giờ chiều",
-    "tl": "<strong>Mga oras na bukas:</strong> Lunes - Biyernes, 9 am hanggang 5 pm",
-    "zh-hans": "<strong>开放时段:</strong> 周一至周五，上午9点至下午5点",
-    "zh-hant": "<strong>上班時間:</strong> 週一至週五，上午9點至下午5點",
-    "hy": "<strong>Աշխատանքային ժամեր:</strong> Երկուշաբթի - Ուրբաթ, առավոտյան 9:00-ից մինչև երեկոյան 5:00",
-    "orig_en": "<strong>Hours open"
+    "es": "<strong>Horario de atención</strong>: de lunes a viernes, de 9 a. m. a 5 p. m.",
+    "ko": "<strong>운영 시간:</strong> 월요일 - 금요일, 오전 9시~오후 5시",
+    "vi": "<strong>Giờ mở cửa:</strong> Thứ Hai - Thứ Sáu, 9 giờ sáng đến 5 giờ chiều",
+    "tl": "<strong>Mga oras ng pagbubukas:</strong> Lunes - Biyernes, 9 am hanggang 5 pm",
+    "zh-hans": "<strong>开放时间：</strong>周一至周五，上午 9 点至下午 5 点",
+    "zh-hant": "<strong>開放時間：</strong> 週一至週五，上午 9 點至下午 5 點",
+    "hy": "<strong>Աշխատանքային ժամեր՝</strong> երկուշաբթի - ուրբաթ, 9 am-ից մինչև 5 pm-ը",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_business_support_businesses_heading": {
     "status": "avantpage_delivery",
@@ -369,7 +362,6 @@
     "zh-hant": "CalOSBA 為受野火影響的企業和工人提供資源和支援。這包括財務幫助、恢復計劃和勞動力支援。",
     "hy": "CalOSBA-ն առաջարկում է ռեսուրսներ և աջակցություն հրդեհներից տուժած բիզնեսներին և աշխատողներին: Այդ թվում՝ ֆինանսական օգնություն, վերականգնման ծրագրեր և աշխատուժի աջակցություն:"
   },
-
   "help_business_sba_title": {
     "status": "ap_delivery",
     "comment": "machine translated",
@@ -554,17 +546,16 @@
     "hy": "Աշխատողների զարգացման վարչության (Employment Development Department, EDD) կողմից"
   },
   "help_business_payroll_taxes_description": {
-    "status": "ap_review",
-    "comment": "machine translated",
+    "status": "avantpage_delivery",
     "en": "Employers in Los Angeles and Ventura Counties directly affected by the Palisades Fire may request up to a two-month extension. Businesses may have extensions to file their state payroll reports.",
-    "fr": "Les employeurs des comtés de Los Angeles et de Ventura directement touchés par le feu de la Palisades peuvent demander une extension de deux mois. Les entreprises peuvent avoir des extensions pour déposer leurs rapports de paie d'État.",
-    "es": "Los empleadores de los condados de Los Ángeles y Ventura afectados directamente por el incendio de Palisades pueden solicitar una extensión de hasta dos meses. Es posible que las empresas tengan extensión para presentar sus informes de nómina estatales.",
-    "ko": "팰리세이즈 화재로 직접 영향을 받은 로스앤젤레스와 벤투라 카운티의 고용주는 최대 2개월까지 연장을 요청할 수 있습니다. 기업은 주 정부 급여 보고서 제출 기한을 연장할 수 있습니다.",
-    "vi": "Chủ hãng ở các Quận Los Angeles và Ventura bị ảnh hưởng trực tiếp do Đám Cháy Palisades có thể yêu cầu gia hạn tối đa hai tháng. Doanh nghiệp có thể được gia hạn thời gian nộp báo cáo bảng lương cho tiểu bang.",
-    "tl": "Ang mga employer sa County ng Los Angeles at County ng Ventura na direktang naapektuhan ng Sunog sa Palisades ay puwedeng humiling ng hanggang dalawang buwang palugit. Ang mga negosyo ay puwedeng magkaroon ng mga palugit para maihain ang kanilang mga ulat ng payroll sa estado.",
-    "zh-hans": "受帕利塞兹大火影响的洛杉矶县和文图拉县的雇主可申请最长两个月的延期。企业可申请延期提交州级工资税报告。",
-    "zh-hant": "直接受帕利塞兹火災影響的洛杉磯縣和文圖拉縣的雇主可以要求最多延長兩個月。企業可以申請延期提交他們的州工資報告。",
-    "hy": "Լոս Անջելես և Վենտուրա վարչաշրջանների գործատուները, որոնք ուղղակիորեն տուժել են Պալիսեյդսի հրդեհից, կարող են պահանջել երկարաձգում մինչև երկու ամիս ժամկետով: Բիզնեսները կարող են ունենալ երկարաձգումներ՝ իրենց աշխատավարձի նահանգային հաշվետվությունները ներկայացնելու համար:"
+    "es": "Los empleadores de los condados de Los Ángeles y Ventura afectados directamente por el incendio de Palisades pueden solicitar una extensión de hasta dos meses. Es posible que las empresas tengan extensiones para presentar sus informes de nómina estatales.",
+    "ko": "팰리세이드 화재로 직접 영향을 받은 로스앤젤레스와 벤투라 카운티의 고용주는 최대 2개월까지 제출 기한 연장을 요청할 수 있습니다. 기업체는 주 정부 급여 보고서 제출 기한을 연장할 수 있습니다.",
+    "vi": "Chủ hãng ở các Quận Los Angeles và Ventura bị ảnh hưởng trực tiếp do Đám Cháy Palisades có thể yêu cầu gia hạn tối đa hai tháng. Các doanh nghiệp có thể có gia hạn để nộp báo cáo quỹ lương của tiểu bang.",
+    "tl": "Ang mga employer sa County ng Los Angeles at County ng Ventura na direktang naapektuhan ng Sunog sa Palisades ay puwedeng humiling ng hanggang dalawang buwang palugit. Puwedeng humingi ng mga palugit ang mga negosyo para ihain ang kanilang mga ulat sa payroll ng estado.",
+    "zh-hans": "受 Palisades（帕利塞兹）大火火灾影响的洛杉矶县和文图拉县的雇主可申请最长两个月的延期。企业可以延期提交其州工资报告。",
+    "zh-hant": "受 Palisades（帕利塞茲）大火火災影響的洛杉磯縣和文圖拉縣的雇主可申請最長兩個月的延期。企業可以延期提交其州工資報告。",
+    "hy": "Լոս Անջելես և Վենտուրա վարչաշրջանների գործատուները, որոնք ուղղակիորեն տուժել են Պալիսեյդսի հրդեհից, կարող են պահանջել երկարաձգում մինչև երկու ամիս ժամկետով: Բիզնեսները կարող են երկարաձգել իրենց պետական աշխատավարձի հաշվետվությունները ներկայացնելու համար։",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_business_file_payroll_reports_title": {
     "status": "avantpage_delivery",

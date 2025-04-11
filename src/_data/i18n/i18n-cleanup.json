@@ -615,17 +615,16 @@
     "hy": "Այս ծառայության համար հավելյալ ծախսեր չկան: Եթե Դուք ունեք ապահովագրություն, հաշիվ-ապրանքագիրը կուղարկվի Ձեր ապահովագրողին:"
   },
   "cleanup_phase_1_completion_required": {
-    "status": "ap_review",
-    "orig_en": "Debris removal can't start until Phase 1 cleanup is completed or deferred.",
+    "status": "avantpage_delivery",
     "en": "Debris removal can’t start on your property until Phase 1 is completed or deferred.",
-    "fr": "Le retrait de débris ne peut pas commencer sur votre propriété avant que la Phase 1 soit terminée ou reportée.",
-    "es": "La remoción de escombros no puede comenzar en su propiedad hasta que se complete o se difiera la fase 1.",
-    "ko": "귀하의 부동산에서 잔해 제거는 1단계 청소가 완료되거나 연기될 때까지는 시작할 수 없습니다.",
-    "vi": "Việc di dời đống đổ nát tại tài sản của quý vị chỉ có thể bắt đầu sau khi công tác dọn dẹp trong Giai Đoạn 1 được hoàn thành hoặc hoãn lại.",
-    "tl": "Hindi puwedeng simulan ang pag-aalis ng kalat sa iyong ari-arian hanggang sa makumpleto o maipagpaliban ang paglilinis sa Ika-1 Yugto.",
-    "zh-hans": "在您的房产上，第一阶段清理完成或推迟之前，无法开始残余物清除。",
-    "zh-hant": "在您的房產上，第 1 階段清理完成或推遲之前，無法開始清除雜物。",
-    "hy": "Ձեր անշարժ գույքում աղբի հեռացումը չի կարող սկսվել մինչև Փուլ 1-ի մաքրումը չավարտվի կամ հետաձգվի:"
+    "es": "La remoción de escombros en su propiedad no puede comenzar hasta que se complete o se difiera la fase 1.",
+    "ko": "1단계를 완료하거나 일정이 연기되어야 귀하 부동산에 있는 잔해 제거를 시작할 수 없습니다.",
+    "vi": "Việc di dời đống đổ nát chỉ có thể bắt đầu trên bất động sản của quý vị sau khi Giai Đoạn 1 được hoàn thành hoặc hoãn lại.",
+    "tl": "Hindi puwedeng simulan ang pag-aalis ng kalat sa iyong pag-aari hanggang sa matapos o maipagpaliban ang Phase 1.",
+    "zh-hans": "在第 1 阶段清理完成或推迟之前，无法开始清除房屋中的残余物。",
+    "zh-hant": "在第 1 階段清理完成或推遲之前，無法開始清除房屋中的殘餘物。",
+    "hy": "Աղբի հեռացումը Ձեր սեփականության տարածքում չի կարող սկսվել մինչև Փուլ 1-ի մաքրումը չավարտվի կամ հետաձգվի:",
+    "comment": "Translation delivered 2025-04-10"
   },
   "cleanup_opt_in_deadline_heading": {
     "status": "avantpage_delivery",
@@ -943,16 +942,16 @@
     "hy": "Հարցեր Փուլ 1-ի մաքրման վերաբերյալ"
   },
   "cleanup_epa_contact": {
-    "status": "ap_review",
+    "status": "avantpage_delivery",
     "en": "Call the EPA at <a href=\"tel:833-798-7372\">833-798-7372</a>  (TTY: 711)",
-    "fr": "Appeler l'EPA au <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711)",
-    "es": "Llame a la Agencia de Protección Ambiental al <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711)",
-    "ko": "EPA 전화: <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711)",
-    "vi": "Gọi cho EPA theo số <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711)",
-    "tl": "Tawagan ang EPA sa <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711)",
-    "zh-hans": "请致电 <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711) 联系 EPA",
-    "zh-hant": "請致電 <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711) 聯絡 EPA",
-    "hy": "Զանգահարեք EPA-ին <a href=\"tel:833-798-7372\">833-798-7372</a> հեռախոսահամարով (TTY: 711)"
+    "es": "Llame a la Agencia de Protección Ambiental al <a href=\"tel:833-798-7372\">833-798-7372</a> (línea TTY: 711)",
+    "ko": "환경보호국(Environmental Protection Agency, EPA)에 <a href=\"tel:833-798-7372\">833-798-7372</a>(TTY: 711)번으로 전화하십시오",
+    "vi": "Gọi cho Cơ Quan Bảo Vệ Môi Sinh (Environmental Protection Agency, EPA) theo số <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711)",
+    "tl": "Tawagan ang Ahensya ng Proteksyon sa Kapaligiran (Environmental Protection Agency, EPA) sa <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711)",
+    "zh-hans": "请致电 <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711) 联系环境保护署 (Environmental Protection Agency, EPA)",
+    "zh-hant": "請致電 <a href=\"tel:833-798-7372\">833-798-7372</a> (TTY: 711) 聯絡環境保護署 (Environmental Protection Agency, EPA)",
+    "hy": "Զանգահարեք Շրջակա միջավայրի պահպանության գործակալությանը (Environmental Protection Agency, EPA)<a href=\"tel:833-798-7372\">833-798-7372</a> հեռախոսահամարով (TTY՝ 711)",
+    "comment": "Translation delivered 2025-04-10"
   },
   "cleanup_opt_in_help_heading": {
     "status": "avantpage_delivery",

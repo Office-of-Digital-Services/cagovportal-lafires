@@ -48,17 +48,16 @@
     "hy": "Կիսվել"
   },
   "plan_visit_share_aria_label": {
-    "status": "ap_review",
-    "comment": "Machine translated aria label",
+    "status": "avantpage_delivery",
     "en": "Share checklist",
-    "fr": "Partager le formulaire",
-    "es": "Compartir el formulario",
+    "es": "Compartir la lista de verificación",
     "ko": "체크리스트 공유",
     "vi": "Chia sẻ danh sách kiểm tra",
-    "tl": "Ibahagi checklist",
+    "tl": "Ibahagi ang checklist",
     "zh-hans": "分享清单",
     "zh-hant": "分享清單",
-    "hy": "Կիսվել ստուգաթերթին"
+    "hy": "Տարածել ստուգաթերթը",
+    "comment": "Translation delivered 2025-04-10"
   },
   "plan_visit_english_pdf": {
     "status": "avantpage_delivery",
@@ -421,30 +420,28 @@
     "hy": "LA County 211"
   },
   "plan_visit_housing_temporary": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "Find temporary housing",
-    "fr": "Trouver un logement provisoire",
-    "es": "Encontrar alojamiento temporal",
-    "ko": "임시 주거 찾기",
+    "es": "Encuentre vivienda temporal",
+    "ko": "임시 주택 찾기",
     "vi": "Tìm kiếm nhà ở tạm thời",
-    "tl": "Maghanap ng pabahay na panlabas",
-    "zh-hans": "寻找临时住房",
-    "zh-hant": "尋找臨時住房",
-    "hy": "Հաշվետվություն անձամբ"
+    "tl": "Maghanap ng pansamantalang pabahay",
+    "zh-hans": "寻求临时住房安置",
+    "zh-hant": "尋求臨時住房安置",
+    "hy": "Գտնել ժամանակավոր կացարան",
+    "comment": "Translation delivered 2025-04-10"
   },
   "plan_visit_housing_temporary_agency": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "LA County Department of Public Social Services (DPSS)",
-    "fr": "Département des services sociaux de Los Angeles (DPSS)",
-    "es": "Departamento de Servicios Sociales Públicos (DPSS) del condado de Los Ángeles",
-    "ko": "LA 카운티 사회복지 서비스과(DPSS)",
-    "vi": "Sở Dịch Vụ Xã Hội Công Cộng Quận LA (LA County Department of Public Social Services, DPSS)",
-    "tl": "Department of Public Social Services (DPSS) ng County ng LA",
-    "zh-hans": "洛杉矶县公共社会服务部 (DPSS)",
-    "zh-hant": "洛杉磯縣公共社會服務部 （DPSS）",
-    "hy": "Լոս Անջելես վարչաշրջանի Հանրային սոցիալական ծառայությունների վարչություն (DPSS)"
+    "es": "Departamento de Servicios Sociales Públicos (Department of Public Social Services, DPSS) del condado de Los Ángeles",
+    "ko": "LA 카운티 사회 복지 서비스과(Department of Public Social Services, DPSS)",
+    "vi": "Sở Dịch Vụ Xã Hội Công Cộng (Department of Public Social Services, DPSS) Quận LA",
+    "tl": "LA County Department of Public Social Services (DPSS)",
+    "zh-hans": "洛杉矶县公共社会服务部 (Department of Public Social Services, DPSS)",
+    "zh-hant": "洛杉磯縣公共社會服務部 (Department of Public Social Services, DPSS)",
+    "hy": "Լոս Անջելես վարչաշրջանի Հանրային սոցիալական ծառայությունների վարչություն (Department of Public Social Services, DPSS)",
+    "comment": "Translation delivered 2025-04-10"
   },
   "plan_visit_housing_protections": {
     "status": "avantpage_delivery",
