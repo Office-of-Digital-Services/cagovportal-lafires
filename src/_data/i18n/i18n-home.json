@@ -144,17 +144,16 @@
     "hy": "Հիմնական կարիքները"
   },
   "home_hands_reaching_out_image_alt": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "Hands reaching out to help line art background image",
-    "fr": "Image de fond en ligne de mains qui atteignent pour aider",
-    "es": "Imagen de fondo de líneas de manos que se extienden para ayudar",
-    "ko": "손이 나와서 도움을 주는 선화 배경 이미지",
-    "vi": "Hình ảnh nền của tay nắm tay để giúp",
-    "tl": "Pangunahing pangangailangan",
-    "zh-hans": "手伸出来帮助的线画背景图片",
-    "zh-hant": "手伸出来幫助的線畫背景圖片",
-    "hy": "Մատները դուրս են գալիս օգնելու գծապատական հիմնական պահանջների համար"
+    "es": "Imagen de fondo con manos estirándose en un gesto de ayuda",
+    "ko": "도움을 주기 위해 뻗은 손들을 그린 선화 배경 이미지",
+    "vi": "Hình nền nghệ thuật bàn tay vươn đến đường dây trợ giúp",
+    "tl": "Larawan sa background ng line art ng mga nakaabot na kamay para tumulong",
+    "zh-hans": "伸出援手帮助画出艺术背景图片",
+    "zh-hant": "伸出援手 線稿背景圖片",
+    "hy": "Ձեռքերը ձգվում են օգնության․ ֆոնային գծապատկեր",
+    "comment": "Translation delivered 2025-04-10"
   },
   "home_stay_healthy": {
     "status": "avantpage_delivery",
@@ -205,7 +204,6 @@
     "zh-hant": "免費清除雜物：請在 2025 年 4 月 15 日之前選擇加入",
     "hy": "Անվճար աղբի հեռացում. գրանցվեք մինչև 2025թ․ ապրիլի 15-ը"
   },
-
   "home_apply_for_fema_individual_assistance": {
     "status": "ap_review",
     "comment": "Machine translated",
@@ -282,17 +280,16 @@
     "hy": "Ստացեք օգնություն անձամբ"
   },
   "home_help_in_person_description": {
-    "status": "ap_review",
-    "comment": "Edited for title consistency",
+    "status": "avantpage_delivery",
     "en": "Disaster Recovery Centers are open in Altadena and UCLA Research Park West.",
-    "fr": "Les Disaster Recovery Centers sont ouverts à Altadena et UCLA Research Park West.",
-    "es": "Los Disaster Recovery Centers están abiertos en Altadena y UCLA Research Park West.",
-    "ko": "Disaster Recovery Centers는 Altadena와 UCLA Research Park West에 마련되어 있습니다.",
-    "vi": "Các Disaster Recovery Centers mở cửa tại Altadena và UCLA Research Park West.",
-    "tl": "Bukas ang mga Disaster Recovery Center sa Altadena at UCLA Research Park West.",
-    "zh-hans": "Disaster Recovery Centers 已在 Altadena 与 UCLA Research Park West 开放。",
-    "zh-hant": "Disaster Recovery Centers 在 Altadena 和 UCLA Research Park West 開放。",
-    "hy": "Disaster Recovery Centers բաց են Altadena և UCLA Research Park West-ում:"
+    "es": "Los Centros de Recuperación por Desastres están abiertos en Altadena y UCLA Research Park West.",
+    "ko": "재난 복구 센터는 알타데나와 캘리포니아 대학교 로스엔젤레스(University of California Los Angeles, UCLA) 리서치 파크 서편에 마련되어 있습니다.",
+    "vi": "Các Trung Tâm Phục Hồi sau Thảm Họa mở cửa tại Altadena và Phía Tây Viện Nghiên Cứu của Đại Học California tại Los Angeles (University of California Los Angeles, UCLA).",
+    "tl": "Bukas ang mga Disaster Recovery Center sa Altadena at Research Park West sa Unibersidad ng California, Los Angeles (University of California, Los Angeles, UCLA).",
+    "zh-hans": "Altadena 与加州大学洛杉矶分校 (University of California Los Angeles, UCLA) 西研究园区的灾害恢复中心已开放。",
+    "zh-hant": "Altadena 與加州大學洛杉磯分校 (University of California Los Angeles, UCLA) 西研究園區的災後恢復中心現已開放。",
+    "hy": "Աղետների վերականգնման կենտրոնները բաց են Ալթադենայում և Լոս Անջելեսի կալիֆոռնյան համալսարանի (University of California Los Angeles, UCLA) արևմտյան հետազոտական պարկում:",
+    "comment": "Translation delivered 2025-04-10"
   },
   "home_see_real_time_info": {
     "status": "avantpage_delivery",
@@ -475,17 +472,16 @@
     "hy": "Նահանգային թարմացումներ"
   },
   "home_view_all_la_fires_news": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "View all LA fires news",
-    "fr": "Voir toutes les nouvelles des feux de Los Angeles",
-    "es": "Ver todas las noticias sobre los incendios de Los Ángeles",
-    "ko": "LA 화재 뉴스 모두 보기",
+    "es": "Ver todas las noticias sobre los incendios de LA",
+    "ko": "모든 LA 화재 뉴스 보기",
     "vi": "Xem tất cả tin tức về các đám cháy ở LA",
-    "tl": "Tingnan ang lahat ng balita tungkol sa sunog sa LA",
-    "zh-hans": "查看所有洛杉矶大火新闻",
-    "zh-hant": "查看所有洛杉磯大火新聞",
-    "hy": "Տեսնել Լոս Անջելեսի հրդեհների բոլոր նորությունները"
+    "tl": "Tingnan ang lahat ng balita sa sunog sa LA",
+    "zh-hans": "查看所有关于加州大火的新闻",
+    "zh-hant": "查看所有關於加州大火的新聞",
+    "hy": "Դիտել ԼԱ-ի հրդեհների բոլոր նորությունները",
+    "comment": "Translation delivered 2025-04-10"
   },
   "home_rebuild_faster_title": {
     "status": "avantpage_delivery",

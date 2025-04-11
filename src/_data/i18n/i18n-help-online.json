@@ -36,17 +36,16 @@
     "hy": "Դուք կարող եք առցանց օգնություն ստանալ սննդի, ծախսերի, ապաստանի և այլնի հետ կապված:"
   },
   "help_online_recovery_services_finder_icon_alt": {
-    "status": "ap_review",
-    "comment": "was machine translated",
+    "status": "avantpage_delivery",
     "en": "Recovery finder icon",
-    "fr": "Icône de recherche de récupération",
-    "es": "Icono de búsqueda de recuperación",
-    "ko": "복구 검색 아이콘",
-    "vi": "Biển tượng tìm kiếm khôi phục",
-    "tl": "Ikonong para sa paghahanap ng pagkabalik",
-    "zh-hans": "恢复查找图标",
-    "zh-hant": "恢復查找圖標",
-    "hy": "Վերականգնման որոնիչ անուն"
+    "es": "Icono del buscador de recursos de recuperación",
+    "ko": "복구 찾기 아이콘",
+    "vi": "Biểu tượng công cụ tìm kiếm khôi phục",
+    "tl": "Icon ng panghanap kaugnay ng muling pagbangon",
+    "zh-hans": "恢复查找器图标",
+    "zh-hant": "恢復查找器圖示",
+    "hy": "Վերականգնման որոնիչ պատկերակ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_online_recovery_services_finder_title": {
     "status": "avantpage_delivery",
@@ -346,82 +345,76 @@
     "hy": "Կալիֆորնիայի Առողջապահության և մարդկային ծառայությունների գործակալության (California Health and Human Services Agency, CalHHS) կողմից"
   },
   "help_online_wildfire_relief": {
-    "status": "ap_review",
-    "comment": "was machine translated",
+    "status": "avantpage_delivery",
     "en": "Wildfire relief",
-    "fr": "Relief pour les incendies de forêts",
-    "es": "Ayuda para incendios forestales",
-    "ko": "산불 구호",
-    "vi": "Hỗ trợ cháy rừng",
-    "tl": "Tulong para sa wildfire",
-    "zh-hans": "野火救援",
-    "zh-hant": "野火救援",
-    "hy": "Անտառային հրդեհներից ազատում"
+    "es": "Apoyo para incendios forestales",
+    "ko": "산불 구호 물자",
+    "vi": "Cứu trợ sau cháy rừng",
+    "tl": "Relief sa wildfire",
+    "zh-hans": "山火救助",
+    "zh-hant": "野火救助",
+    "hy": "Անտառային հրդեհների օգնություն",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_online_from_didi_hirsch_suicide_prevention_center": {
-    "status": "ap_review",
-    "comment": "was machine translated",
+    "status": "avantpage_delivery",
     "en": "from Didi Hirsch Suicide Prevention Center",
-    "fr": "de Didi Hirsch Suicide Prevention Center",
     "es": "del Centro de Prevención del Suicidio Didi Hirsch",
-    "ko": "디디 허쉬 자살 예방 센터 제공",
+    "ko": "출처: 디디 허쉬 자살 예방 센터",
     "vi": "từ Trung Tâm Phòng Chống Tự Tử Didi Hirsch",
     "tl": "mula sa Didi Hirsch Suicide Prevention Center",
-    "zh-hans": "来自迪迪·赫希自杀预防中心",
-    "zh-hant": "來自迪迪·赫希自殺預防中心",
-    "hy": "Դիդի Հիրշի ինքնասպանությունների կանխարգելման կենտրոնից"
+    "zh-hans": "信息来自 Didi Hirsch 自杀预防中心",
+    "zh-hant": "資訊來自 Didi Hirsch 自殺預防中心",
+    "hy": "Դիդի Հիրշի ինքնասպանությունների կանխարգելման կենտրոնի (Didi Hirsch Suicide Prevention Center) կողմից",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_online_disaster_mental_health_resources": {
-    "status": "ap_review",
-    "comment": "was machine translated",
+    "status": "avantpage_delivery",
     "en": "Disaster mental health resources",
-    "fr": "Ressources pour la santé mentale des catastrophes",
-    "es": "Recursos de salud mental para desastres",
+    "es": "Recursos para la salud mensual en situación de catástrofe",
     "ko": "재난 정신 건강 자원",
-    "vi": "Nguồn trợ giúp sức khỏe tâm thần trong thảm họa",
-    "tl": "Mga mapagkukunan para sa kalusugang pangkaisipan sa sakuna",
-    "zh-hans": "灾难心理健康资源",
-    "zh-hant": "災難心理健康資源",
-    "hy": "Աղետների հոգեկան առողջության ռեսուրսներ"
+    "vi": "Nguồn hỗ trợ về sức khỏe tâm thần sau thảm họa",
+    "tl": "Mga resource sa kalusugan ng pag-iisip sa panahon ng sakuna",
+    "zh-hans": "灾害心理健康资源",
+    "zh-hant": "災後心理健康資源",
+    "hy": "Աղետների ժամանակ հոգեկան առողջության ռեսուրսներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_online_from_los_angeles_county_department_of_mental_health": {
-    "status": "ap_review",
-    "comment": "was machine translated",
+    "status": "avantpage_delivery",
     "en": "from Los Angeles County Department of Mental Health",
-    "fr": "de Los Angeles County Department of Mental Health",
-    "es": "del Departamento de Salud Mental del Condado de Los Ángeles",
-    "ko": "로스앤젤레스 카운티 정신건강국 제공",
-    "vi": "từ Sở Y Tế Tâm Thần Quận Los Angeles",
-    "tl": "mula sa Departamento ng Kalusugan ng Pag-iisip ng County ng Los Angeles",
-    "zh-hans": "来自洛杉矶县心理健康部",
-    "zh-hant": "來自洛杉磯縣心理健康部",
-    "hy": "Լոս Անջելես շրջանի հոգեկան առողջության վարչությունից"
+    "es": "del Departamento de Salud Mental del condado de Los Ángeles",
+    "ko": "출처: 로스앤젤레스 카운티 정신건강국",
+    "vi": "từ Sở Sức Khỏe Tâm Thần Quận Los Angeles",
+    "tl": "mula sa Los Angeles County Department of Mental Health",
+    "zh-hans": "信息来自洛杉矶县心理健康部 (Los Angeles County Department of Mental Health, LACDMH)",
+    "zh-hant": "資訊來自洛杉磯縣心理健康部 (Los Angeles County Department of Mental Health, LACDMH)",
+    "hy": "Լոս Անջելեսի շրջանի հոգեկան առողջության դեպարտամենտի (Los Angeles County Department of Mental Health) կողմից",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_online_wildfires_and_mental_health": {
-    "status": "ap_review",
-    "comment": "was machine translated",
+    "status": "avantpage_delivery",
     "en": "Wildfires and mental health",
-    "fr": "Incendies de forêts et santé mentale",
     "es": "Incendios forestales y salud mental",
     "ko": "산불과 정신 건강",
     "vi": "Cháy rừng và sức khỏe tâm thần",
     "tl": "Mga wildfire at kalusugan ng pag-iisip",
-    "zh-hans": "野火与心理健康",
+    "zh-hans": "山火与心理健康",
     "zh-hant": "野火與心理健康",
-    "hy": "Անտառային հրդեհներ և հոգեկան առողջություն"
+    "hy": "Հրդեհներ և հոգեկան առողջություն",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_online_from_california_department_of_public_health": {
-    "status": "ap_review",
-    "comment": "was machine translated",
+    "status": "avantpage_delivery",
     "en": "from California Department of Public Health (CDPH)",
-    "fr": "de California Department of Public Health (CDPH)",
     "es": "del Departamento de Salud Pública de California (California Department of Public Health, CDPH)",
-    "ko": "캘리포니아 공중보건국(CDPH) 제공",
+    "ko": "출처: 캘리포니아 공중보건국(California Department of Public Health, CDPH)",
     "vi": "từ Sở Y Tế Công Cộng California (California Department of Public Health, CDPH)",
-    "tl": "mula sa Departamento ng Pampublikong Kalusugan ng California (CDPH)",
-    "zh-hans": "来自加州公共卫生部 (California Department of Public Health, CDPH)",
-    "zh-hant": "來自加州公共衛生部 (California Department of Public Health, CDPH)",
-    "hy": "Կալիֆորնիայի Հանրային առողջության դեպարտամենտից (California Department of Public Health, CDPH)"
+    "tl": "mula sa California Department of Public Health (CDPH)",
+    "zh-hans": "信息来自加州公共卫生部 (California Department of Public Health, CDPH)",
+    "zh-hant": "資訊來自加州公共衛生部 (California Department of Public Health, CDPH)",
+    "hy": "Կալիֆորնիայի Հանրային առողջության վարչության (California Department of Public Health, CDPH) կողմից",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_online_replacing_personal_documents_heading": {
     "status": "avantpage_delivery",
@@ -1011,18 +1004,16 @@
     "hy": "Լոս Անջելես վարչաշրջանի Վերահսկիչների խորհուրդը <a href=\"https://caanet.org/l-a-county-adopts-eviction-moratorium-rental-assistance-funding-remains-uncertain/#:~:text=The%20Los%20Angeles%20County%20Board,funding%20for%20unpaid%20landlords%20continue.\">արգելել է այն բնակիչների վտարումը, որոնք համապատասխանում են պահանջներին</a>։ Այս պաշտպանությունը գործում է մինչև 2025թ․ հուլիսի 31-ը: Տե՛ս <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/January-2025-Wildfire-and-Critical-Windstorm-Resolution-FAQ-ENG-2.28.25.pdf\">ՀՏՀ այս բանաձևի մասին (PDF)</a>։"
   },
   "help_online_renter_protection_city_description": {
-    "status": "ap_review",
-    "comment": "missing links added",
+    "status": "avantpage_delivery",
     "en": "The City of Los Angeles <a href=\"https://housing.lacity.gov/renter-protections-2\">protects eligible tenants from eviction</a>. The protection lasts through July 31, 2025. You are eligible if you lost wages because:",
-    "fr": "La ville de Los Angeles <a href=\"https://housing.lacity.gov/renter-protections-2\">protège les locataires éligibles contre les expulsions</a>. Cette protection dure jusqu'au 31 juillet 2025. Vous êtes éligible si vous avez perdu des revenus en raison de:",
-    "es": "La ciudad de Los Ángeles <a href=\"https://housing.lacity.gov/renter-protections-2\">protege los inquilinos elegibles del desalojo</a>. Esta protección dura hasta el 31 de julio de 2025. Usted es elegible si perdió ingresos porque:",
-    "ko": "로스앤젤레스시는 <a href=\"https://housing.lacity.gov/renter-protections-2\">유자격 임차인이 퇴거당하지 않도록 보호합니다</a>. 이 보호책은 2025년 7월 31일까지 지속됩니다. 다음과 같은 사유로 임금을 잃은 경우 자격이 주어집니다",
-    "vi": "Thành Phố Los Angeles <a href=\"https://housing.lacity.gov/renter-protections-2\">bảo vệ những người thuê nhà đủ điều kiện khỏi bị trục xuất</a>. Biện pháp bảo vệ này kéo dài đến hết ngày 31 tháng 7 năm 2025. Quý vị đủ điều kiện nếu bị mất tiền lương vì",
-    "tl": "Pinoprotektahan ng Lungsod ng Los Angeles <a href=\"https://housing.lacity.gov/renter-protections-2\">ang mga kwalipikadong nangungupahan laban sa pagpapaalis</a>. Aabot nang hanggang Hulyo 31, 2025 ang proteksyon. Kwalipikado ka kung nawalan ka ng mga kita dahil",
-    "zh-hans": "洛杉矶市<a href=\"https://housing.lacity.gov/renter-protections-2\">保护符合条件的租户免遭驱逐</a>。此保护将持续到 2025 年 7 月 31 日。如果您因以下原因遭受工资损失，您便符合资格",
-    "zh-hant": "洛杉磯市<a href=\"https://housing.lacity.gov/renter-protections-2\">保護符合條件的租戶免遭驅逐</a>。此保護持續至 2025 年 7 月 31 日。如果您因為以下原因而損失了工資，您就有資格",
+    "es": "La ciudad de Los Ángeles <a href=\"https://housing.lacity.gov/renter-protections-2\">protege del desalojo a los inquilinos elegibles</a>. Esta protección dura hasta el 31 de julio de 2025. Usted es elegible si perdió ingresos porque:",
+    "ko": "로스앤젤레스시는 <a href=\"https://housing.lacity.gov/renter-protections-2\">유자격 임차인이 퇴거당하지 않도록 보호합니다</a>. 이 보호책은 2025년 7월 31일까지 지속됩니다. 다음과 같은 사유로 임금을 잃은 경우 자격이 주어집니다.",
+    "vi": "Thành Phố Los Angeles <a href=\"https://housing.lacity.gov/renter-protections-2\">bảo vệ những người thuê nhà đủ điều kiện khỏi bị trục xuất</a>. Biện pháp bảo vệ này kéo dài đến hết ngày 31 tháng 7 năm 2025. Quý vị đủ điều kiện nếu bị mất tiền lương vì:",
+    "tl": "<a href=\"https://housing.lacity.gov/renter-protections-2\">Pinoprotektahan ng Lungsod ng Los Angeles ang mga kwalipikadong nangungupahan laban sa pagpapaalis</a>. Aabot nang hanggang Hulyo 31, 2025 ang proteksyon. Kwalipikado ka kung nawalan ka ng mga kita dahil:",
+    "zh-hans": "洛杉矶市<a href=\"https://housing.lacity.gov/renter-protections-2\">保护符合条件的租户免遭驱逐</a>。此保护将持续到 2025 年 7 月 31 日。如果您因以下原因遭受工资损失，您便符合资格：",
+    "zh-hant": "洛杉磯市<a href=\"https://housing.lacity.gov/renter-protections-2\">保護符合條件的租戶免遭驅逐</a>。此保護將持續到 2025 年 7 月 31 日。如果您因以下原因遭受工資損失，您便符合資格：",
     "hy": "Լոս Անջելես քաղաքը <a href=\"https://housing.lacity.gov/renter-protections-2\">պաշտպանում է համապատասխան վարձակալներին վտարումից</a>: Այս պաշտպանությունը գործում է մինչև 2025թ․ հուլիսի 31-ը: Դուք որակավորվում եք, եթե կորցրել եք աշխատավարձը հետևյալի պատճառով․",
-    "orig_en": "The City of Los Angeles protects eligible tenants from eviction. The protection lasts through July 31, 2025. You are eligible if you lost wages because"
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_online_renter_protection_eligibility_1": {
     "status": "avantpage_delivery",
@@ -1546,7 +1537,6 @@
     "zh-hant": "由聯邦住房管理局 (FHA) 承保。",
     "hy": "Ապահովագրված Դաշնային բնակարանային վարչության (FHA) կողմից:"
   },
-
   "help_online_foreclosure_protection_description_2": {
     "status": "ap_review",
     "comment": "machine translated",

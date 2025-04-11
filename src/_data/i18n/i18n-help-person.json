@@ -161,17 +161,16 @@
     "orig_en": "<strong>Hours open"
   },
   "help_person_wait_times_alt": {
-    "status": "ap_review",
-    "comment": "machine translation used",
+    "status": "avantpage_delivery",
     "en": "Bar chart showing the wait times for Los Angeles Disaster Recovery Centers. 12 pm to 3 pm are the busiest time with up to a 1 hour wait. 9 am, 5pm, and 6 pm are less busy. 7 pm to 8 pm tends not to have any wait.",
-    "fr": "Graphique à barres montrant les temps d'attente pour les centres de récupération des dommages de Los Angeles. De 12h à 15h sont les heures les plus chargées avec jusqu'à 1 heure d'attente. 9h, 17h et 18h sont moins chargées. De 19h à 20h, il n'y a généralement pas d'attente.",
-    "es": "Gráfico de barras que muestra los tiempos de espera en los centros de recuperación por catástrofes de Los Ángeles. De 12 p. m. a 3 p. m. es el horario más ocupado con hasta 1 hora de espera. A las 9 a. m., 5 p. m. y 6 p. m. hay menos gente. De 7 p. m. a 8 p. m. suele no haber espera.",
-    "ko": "로스앤젤레스 재난 복구 센터의 대기 시간을 보여주는 막대 그래프입니다. 오후 12시부터 오후 3시까지가 가장 붐비는 시간대로 최대 1시간 대기할 수 있습니다. 오전 9시, 오후 5시, 오후 6시는 덜 붐빕니다. 오후 7시부터 8시까지는 대기 시간이 거의 없습니다.",
-    "vi": "Biểu đồ cột thể hiện thời gian chờ đợi tại các Trung Tâm Phục Hồi sau Thảm Họa Los Angeles. Từ 12 giờ trưa đến 3 giờ chiều là thời gian bận rộn nhất với thời gian chờ đợi lên đến 1 giờ. 9 giờ sáng, 5 giờ chiều và 6 giờ chiều ít bận rộn hơn. Từ 7 giờ tối đến 8 giờ tối thường không có thời gian chờ đợi.",
-    "tl": "Graph na nagpapakita ng mga oras ng paghihintay para sa mga Disaster Recovery Center ng Los Angeles. Ang 12 pm hanggang 3 pm ay ang pinakamataong oras na may hanggang 1 oras na paghihintay. Ang 9 am, 5 pm, at 6 pm ay hindi gaanong matao. Ang 7 pm hanggang 8 pm ay karaniwang walang paghihintay.",
-    "zh-hans": "柱状图显示洛杉矶灾害恢复中心的等候时间。中午12点至下午3点是最繁忙时段，等候时间可达1小时。上午9点、下午5点和6点较不繁忙。晚上7点至8点通常无需等候。",
-    "zh-hant": "長條圖顯示洛杉磯災難復原中心的等候時間。中午12點至下午3點是最繁忙時段，等候時間可達1小時。上午9點、下午5點和6點較不繁忙。晚上7點至8點通常無需等候。",
-    "hy": "Գծապատկեր, որը ցույց է տալիս Լոս Անջելեսի աղետների վերականգնման կենտրոնների սպասման ժամանակը։ Ժամը 12-ից մինչև 15-ը ամենազբաղված ժամերն են՝ մինչև 1 ժամ սպասման ժամանակով։ Ժամը 9-ին, 17-ին և 18-ին ավելի քիչ զբաղված է։ Ժամը 19-ից 20-ը սովորաբար սպասման ժամանակ չի լինում։"
+    "es": "Gráfico de barras que muestra los tiempos de espera para los Centros de Recuperación por Desastres de Los Ángeles. De las 12 p. m. a las 3 p. m. es el horario de mayor actividad, con hasta 1 hora de espera. Las 9 a. m., las 5 p. m. y las 6 p. m. son horarios con menos concurrencia. De las 7 p. m. a las 8 p. m. la espera es mínima.",
+    "ko": "로스앤젤레스 재난 복구 센터의 대기 시간을 보여주는 막대 차트. 오후 12시부터 오후 3시까지가 가장 붐비는 시간대로, 최대 1시간까지 대기할 수 있습니다. 오전 9시, 오후 5시, 오후 6시는 덜 붐빕니다. 오후 7시부터 8시까지는 대기 시간이 거의 없습니다.",
+    "vi": "Biểu đồ cột thể hiện thời gian chờ tại các Trung Tâm Phục Hồi sau Thảm Họa của Los Angeles. 12 giờ trưa đến 3 giờ chiều là thời gian bận rộn nhất với thời gian chờ lên đến 1 giờ. 9 giờ sáng, 5 giờ chiều và 6 giờ chiều ít bận rộn hơn. 7 giờ tối đến 8 giờ tối thường không phải chờ.",
+    "tl": "Ipinapakita sa bar chart ang mga tagal ng paghihintay para sa Mga Los Angeles Disaster Recovery Center. 12 pm hanggang 3 pm ang pinaka-busy na oras na may hanggang 1 oras na paghihintay. 9 am, 5pm, at 6 pm ang hindi gaanong busy. Karaniwang walang pila nang 7 pm hanggang 8 pm.",
+    "zh-hans": "条形图显示洛杉矶灾害恢复中心的救助等待时间。中午 12 点到下午 3 点最繁忙，最多需要等待 1 小时。上午 9 点、下午 5 点和下午 6 点相对空闲。晚上 7 点到 8 点往往不需等待即可提供救助服务。",
+    "zh-hant": "橫條圖顯示洛杉磯災後恢復中心的救助等待時間。中午 12 點到下午 3 點最繁忙，最多需要等待 1 小時。上午 9 點、下午 5 點和下午 6 點相對空閒。晚上 7 點到 8 點往往不需等待即可提供救助服務。",
+    "hy": "Սյունակային դիագրամ՝ Լոս Անջելեսի աղետների վերականգնման կենտրոններում հերթերի վերաբերյալ։ 12 pm-ից 3 pm-ը ամենազբաղված ժամերն են, երբ ստիպված եք լինելու մինչև 1 ժամ սպասել։ 9 am-ը, 5 pm-ը և 6pm-ը ավելի քիչ զբաղված են։ 7pm-ից մինչև 8pm-ը հերթեր չեն լինում։",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_person_wait_time": {
     "status": "avantpage_delivery",
@@ -235,17 +234,16 @@
     "orig_en": "More about these centers"
   },
   "help_person_drcs_link_text": {
-    "status": "ap_review",
-    "comment": "machine translation used",
+    "status": "avantpage_delivery",
     "en": "Los Angeles County Disaster Recovery Centers",
-    "fr": "Centres de récupération des dommages de Los Angeles County",
-    "es": "Centros de recuperación de daños de Los Angeles County",
-    "ko": "Los Angeles County 재난 복구 센터",
-    "vi": "Trung tâm phục hồi sau thảm họa Los Angeles County",
-    "tl": "Mga center ng pagkukulang ng Los Angeles County",
+    "es": "Centros de Recuperación por Desastres del Condado de Los Ángeles",
+    "ko": "로스 앤젤레스 카운티 재난 복구 센터",
+    "vi": "Trung Tâm Phục Hồi sau Thảm Họa của Quận Los Angeles",
+    "tl": "Mga Los Angeles County Disaster Recovery Center",
     "zh-hans": "洛杉矶县灾害恢复中心",
-    "zh-hant": "洛杉磯縣災害恢復中心",
-    "hy": "Լոս Անջելեսի աղետների վերականգնման կենտրոններ"
+    "zh-hant": "洛杉磯縣災後恢復中心",
+    "hy": "Լոս Անջելեսի շրջանի աղետների վերականգնման կենտրոններ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_person_services_on_site": {
     "status": "avantpage_delivery",
@@ -310,17 +308,16 @@
     "hy": "Առողջապահական ծառայություններ և խորհրդատվություն"
   },
   "help_person_mental_health_services": {
-    "status": "ap_review",
-    "comment": "machine translation used",
+    "status": "avantpage_delivery",
     "en": "Mental health services",
-    "fr": "Services de santé mentale et conseils",
-    "es": "servicios y consejos de salud mental",
+    "es": "Servicios de salud mental",
     "ko": "정신 건강 서비스",
-    "vi": "Dịch vụ và tư vấn tâm lý",
-    "tl": "Mga serbisyo at payo sa tibay",
+    "vi": "Dịch vụ sức khỏe tâm thần",
+    "tl": "Mga serbisyo sa kalusugan ng pag-iisip",
     "zh-hans": "心理健康服务",
     "zh-hant": "心理健康服務",
-    "hy": "Առողջապահական ծառայություններ և խորհրդատվություն"
+    "hy": "Հոգեկան առողջության ծառայություններ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_person_unemployment": {
     "status": "avantpage_delivery",
@@ -382,7 +379,6 @@
     "zh-hant": "稅務幫助和減免",
     "hy": "Հարկային օգնություն և աջակցություն"
   },
-
   "help_person_before_you_arrive": {
     "status": "avantpage_delivery",
     "en": "Before you arrive",
@@ -421,17 +417,16 @@
     "hy": "Եթե կարող եք, Ձեզ հետ բերեք հետևյալը՝"
   },
   "help_person_items_address_damaged_home": {
-    "status": "ap_review",
-    "comment": "machine translation used",
+    "status": "avantpage_delivery",
     "en": "Address of the damaged primary home",
-    "fr": "Adresse de la maison principale endommagée",
-    "es": "Dirección de la casa principal dañada",
-    "ko": "손상된 주택의 주소",
-    "vi": "Địa chỉ của nhà chính bị hư hỏng",
-    "tl": "Address ng damaged primary home",
-    "zh-hans": "受损主房屋的地址",
-    "zh-hant": "損害主房屋的地址",
-    "hy": "Ապահովագրական ծածկույթի վերաբերյալ տեղեկատվություն"
+    "es": "Dirección de la casa principal que resultó dañada",
+    "ko": "손상된 주 거주지의 주소",
+    "vi": "Địa chỉ của ngôi nhà chính bị hư hỏng",
+    "tl": "Address ng nasirang pangunahing tahanan",
+    "zh-hans": "受损主居所地址",
+    "zh-hant": "受損主居所地址",
+    "hy": "Վնասված առաջնային տան հասցե",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_person_insurance_coverage_information": {
     "status": "avantpage_delivery",
@@ -482,17 +477,16 @@
     "hy": "Երբ ժամանեք"
   },
   "help_person_arrival_info_parking": {
-    "status": "ap_review",
-    "comment": "machine translation used",
+    "status": "avantpage_delivery",
     "en": "<strong>Parking: </strong>Free parking available. People may be there to direct you.",
-    "fr": "<strong>Parking: </strong>Parking gratuit disponible. Des personnes peuvent être là pour vous diriger.",
-    "es": "<strong>Parking: </strong>Parking gratuito disponible. Las personas pueden estar allí para guiarte.",
-    "ko": "<strong>주차: </strong>무료 주차 가능. 사람들이 거기에 있을 수 있어 당신을 지도합니다.",
-    "vi": "<strong>Parking: </strong>Parking miễn phí có sẵn. Một số người có thể ở đó để hướng dẫn bạn.",
-    "tl": "<strong>Parking: </strong>Free parking available. People may be there to direct you.",
-    "zh-hans": "<strong>停车: </strong>免费停车。人们可能会在那里引导您。",
-    "zh-hant": "<strong>停車: </strong>免費停車。人們可能會在那裡引導您。",
-    "hy": "<strong>Կայանատեղի: </strong>Անվճար կայանատեղի առկա է: Դուք կարող եք նրանց համար այցելել ու նրանց համար անհրաժեշտ է ձեզ հասցնել:"
+    "es": "<strong>Estacionamiento: </strong>estacionamiento gratuito disponible. Es posible que haya personas para señalarle el camino.",
+    "ko": "<strong>주차장: </strong>무료 주차 가능. 그곳에 있는 사람들이 귀하를 안내합니다.",
+    "vi": "<strong>Bãi đậu xe: </strong>Có bãi đậu xe miễn phí. Mọi người có thể ở đó để hướng dẫn quý vị.",
+    "tl": "<strong>Parking: </strong>Available ang libreng parking. Posibleng may mga tao roon para gabayan ka.",
+    "zh-hans": "<strong>停车：</strong>提供免费停车。工作人员可能会在那里为您提供指导。",
+    "zh-hant": "<strong>停車：</strong>提供免費停車場。工作人員可能會在那裡為您提供指導。",
+    "hy": "<strong>Ավտոկայանատեղի՝ </strong>Առկա է անվճար կայանատեղի: Տարածքում կարող են լինել օգնական մարդիկ՝ Ձեզ ուղղորդելու համար։",
+    "comment": "Translation delivered 2025-04-10"
   },
   "help_person_restrooms_and_beverages": {
     "status": "avantpage_delivery",
