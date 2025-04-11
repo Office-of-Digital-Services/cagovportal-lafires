@@ -210,13 +210,13 @@
   "steps_learn_more_about_debris_removal": {
     "status": "avantpage_delivery",
     "en": "Learn <a href=\"/lafires/cleanup-and-debris-removal/\">more about debris removal</a>.",
-    "es": "Obtenga más <a href=\"/lafires/cleanup-and-debris-removal/\">información sobre la remoción de escombros</a>.",
-    "ko": "<a href=\"/lafires/cleanup-and-debris-removal/\">잔해 제거에 대해 자세히 </a>알아보십시오.",
-    "vi": "Tìm hiểu <a href=\"/lafires/cleanup-and-debris-removal/\">thêm về di dời đống đổ nát</a>.",
-    "tl": "<a href=\"/lafires/cleanup-and-debris-removal/\">Matuto pa tungkol sa pag-aalis ng kalat</a>.",
-    "zh-hans": "了解<a href=\"/lafires/cleanup-and-debris-removal/\">更多残余物清除信息</a>。",
-    "zh-hant": "瞭解<a href=\"/lafires/cleanup-and-debris-removal/\">更多殘餘物清除資訊</a>。",
-    "hy": "Իմացեք <a href=\"/lafires/cleanup-and-debris-removal/\">ավելին աղբի հեռացման մասին</a>:",
+    "es": "Obtenga más <a href=\"/lafires/es/cleanup-and-debris-removal/\">información sobre la remoción de escombros</a>.",
+    "ko": "<a href=\"/lafires/ko/cleanup-and-debris-removal/\">잔해 제거에 대해 자세히 </a>알아보십시오.",
+    "vi": "Tìm hiểu <a href=\"/lafires/vi/cleanup-and-debris-removal/\">thêm về di dời đống đổ nát</a>.",
+    "tl": "<a href=\"/lafires/tl/cleanup-and-debris-removal/\">Matuto pa tungkol sa pag-aalis ng kalat</a>.",
+    "zh-hans": "了解<a href=\"/lafires/zh-hans/cleanup-and-debris-removal/\">更多残余物清除信息</a>。",
+    "zh-hant": "瞭解<a href=\"/lafires/zh-hant/cleanup-and-debris-removal/\">更多殘餘物清除資訊</a>。",
+    "hy": "Իմացեք <a href=\"/lafires/hy/cleanup-and-debris-removal/\">ավելին աղբի հեռացման մասին</a>:",
     "comment": "Translation delivered 2025-04-10"
   },
   "steps_hire_a_contractor": {
