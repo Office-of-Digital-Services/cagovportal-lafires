@@ -674,7 +674,10 @@
         </ul>
       </div>
 
-      <div class="row">
+  
+
+
+      <!-- <div class="row">
         <div class="col-lg-12 m-b-md">
           <div
             id="card-how-we-are-monitoring"
@@ -744,7 +747,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="row">
         <div class="col-lg-6 m-b-md">
@@ -768,13 +771,25 @@
                 {{ 'track_progress_mobile_air_monitoring_is_now_complete' | i18n
                 }}
               </p>
-              <p>
-                {{
-                'track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted'
-                | i18n }}
-              </p>
 
-              <h4 class="h6">Results</h4>
+              <div
+                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+                <span class="dashboard-stat"
+                  ><span id="air_mobile_survey_complete2"></span
+                ></span>
+                <span
+                  >{{
+                  'track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted'
+                  | i18n }}</span
+                >
+              </div>
+
+              <hr />
+
+
+              <h4 class="h6">
+                {{ 'track_progress_eaton_and_palisades_results' | i18n }}
+              </h4>
               <p>
                 {{
                 'track_progress_overall_survey_results_from_eaton_and_palisades_areas_were_within_background_levels'

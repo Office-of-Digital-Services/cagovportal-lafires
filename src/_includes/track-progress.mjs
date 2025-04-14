@@ -408,6 +408,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const air_mobile_survey_complete_Element = document.getElementById(
         "air_mobile_survey_complete"
       );
+      const air_mobile_survey_complete_Element2 = document.getElementById(
+        "air_mobile_survey_complete2"
+      );
 
       if (air_mobile_survey_complete_Element) {
         const air_mobile_survey_complete_Value = getMetricValue(
@@ -416,6 +419,16 @@ document.addEventListener("DOMContentLoaded", () => {
         air_mobile_survey_complete_Element.textContent =
           air_mobile_survey_complete_Value !== null
             ? air_mobile_survey_complete_Value.toLocaleString()
+            : "N/A";
+      }
+
+      if (air_mobile_survey_complete_Element2) {
+        const air_mobile_survey_complete_Value2 = getMetricValue(
+          "air_mobile_survey_complete"
+        );
+        air_mobile_survey_complete_Element2.textContent =
+          air_mobile_survey_complete_Value2 !== null
+            ? air_mobile_survey_complete_Value2.toLocaleString()
             : "N/A";
       }
 
