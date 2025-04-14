@@ -1023,6 +1023,20 @@
     "comment": "Translation delivered 2025-04-10"
   },
 
+
+  "track_progress_results": {
+    "status": "ap_review",
+    "en": "Results",
+    "es": "Resultados",
+    "ko": "결과",
+    "vi": "Kết quả",
+    "tl": "Mga resulta",
+    "zh-hans": "结果",
+    "zh-hant": "結果",
+    "hy": "Արդյունքներ",
+    "comment": "Machine translated"
+  },
+
   "track_progress_eaton_and_palisades_results": {
     "status": "ap_review",
     "en": "Eaton and Palisades results",
