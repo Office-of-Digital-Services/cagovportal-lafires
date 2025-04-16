@@ -255,19 +255,6 @@
 
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
-      <div class="p-a-md m-b-md brd-solid-4 brd-highlight rounded">
-        <div role="heading" aria-level="2" class="h3 m-t-0">
-          {{ 'cleanup_opt_in_title' | i18n}}
-        </div>
-        <p>{{ 'cleanup_opt_in_description' | i18n | safe }}</p>
-        <ul>
-          <li class="m-t">{{ 'cleanup_opt_in_list_1' | i18n | safe }}</li>
-          <li class="m-t">{{ 'cleanup_opt_in_list_2' | i18n | safe }}</li>
-          <li class="m-t">{{ 'cleanup_opt_in_list_3' | i18n | safe }}</li>
-        </ul>
-        <p>{{ 'cleanup_opt_in_description_2' | i18n | safe }}</p>
-      </div>
-
       <p class="m-b-md lead">
         {{ 'cleanup_cleanup_and_debris_removal_after_wildfires' | i18n}}
       </p>
@@ -318,7 +305,7 @@
       </div>
 
       <div class="debris-step">
-        <h2>{{ 'cleanup_cleanup_statuses_explained' | i18n}}</h2>
+        <h3>{{ 'cleanup_cleanup_statuses_explained' | i18n}}</h3>
         <p>{{ 'cleanup_after_the_epa_assessed_your_property' | i18n}}</p>
         <p>
           {{ 'cleanup_they_posted_that_status_in_a_sign_on_your_property' |
@@ -328,9 +315,9 @@
 
         <div class="debris-removal-viz phase-1-debris-removal-viz">
           <div>
-            <h3 class="m-t-0 font-size-20">
+            <h4 class="m-t-0 font-size-20">
               {{ 'cleanup_phase_1_complete' | i18n}}
-            </h3>
+            </h4>
             <p>{{ 'cleanup_phase_1_complete_status' | i18n}}</p>
             <p>{{ 'cleanup_phase_1_complete_status_2' | i18n | safe}}</p>
             <ul>
@@ -342,16 +329,14 @@
           </div>
           <span>{{ 'cleanup_or_uppercase' | i18n}}</span>
           <div>
-            <h3 class="m-t-0 font-size-20">
+            <h4 class="m-t-0 font-size-20">
               {{ 'cleanup_deferred_to_phase_2' | i18n}}
-            </h3>
+            </h4>
             <p>{{ 'cleanup_deferred_to_phase_2_status' | i18n | safe}}</p>
             <p>{{ 'cleanup_it_will_be_cleaned_in_phase_2' | i18n | safe}}</p>
           </div>
         </div>
       </div>
-
-      <p class="m-b-lg">{{ 'cleanup_see_phase_1_progress' | i18n | safe}}</p>
 
       <hr />
 
@@ -383,85 +368,43 @@
           'cleanup_see_the_progress_of_this_work_in_usace_s_debris_removal_map'
           | i18n | safe}}
         </p>
-      </div>
 
-      <div class="debris-step">
-        <h2>{{ 'cleanup_about_removing_trees' | i18n}}</h2>
-        <p>
-          {{
-          'cleanup_during_debris_removal_the_usace_will_remove_trees_that_are_hazardous'
-          | i18n}}
-        </p>
-
-        <div class="debris-boxed-content phase-2-border-color">
-          <ul>
-            <li>
-              <a
-                href="https://recovery.lacounty.gov/2025/03/06/u-s-army-corps-of-engineers-expands-hazardous-tree-marking-system-clarifies-waiver-process/"
-                >{{ 'cleanup_about_the_waiver_process' | i18n}}</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://recovery.lacounty.gov/wp-content/uploads/2025/03/hazardous-tree-markings-v2_original.png"
-                >{{ 'cleanup_tree_markings_explained' | i18n}}</a
-              >
-            </li>
-            <li>{{ 'cleanup_waiver_form_pdf' | i18n | safe}}</li>
-          </ul>
-        </div>
+        <h3>{{ 'cleanup_where_debris_goes' | i18n}}</h3>
+        <p>{{ 'cleanup_debris_disposal_explanation' | i18n}}</p>
+        <p>{{ 'cleanup_calepa_info' | i18n | safe}}</p>
       </div>
 
       <!-- Step 6 -->
       <div class="debris-step">
-        <h2>{{ 'cleanup_how_to_get_debris_removed' | i18n}}</h2>
-        <p>{{ 'cleanup_debris_removal_opt_in_or_out' | i18n}}</p>
+        <h3>{{ 'cleanup_how_to_get_debris_removed' | i18n}}</h3>
+        <p>{{ 'cleanup_debris_removal_opt_in_or_out' | i18n | safe }}</p>
 
         <div class="debris-removal-viz phase-2-debris-removal-viz">
           <span>{{ 'cleanup_opt_in_free_removal' | i18n}}</span>
           <span>{{ 'cleanup_or_uppercase' | i18n}}</span>
           <span>{{ 'cleanup_opt_out_self_removal' | i18n}}</span>
         </div>
-
-        <p>{{ 'cleanup_no_out_of_pocket_costs' | i18n}}</p>
-        <p>{{ 'cleanup_phase_1_completion_required' | i18n}}</p>
       </div>
 
       <!-- Step 7 -->
       <div class="debris-step">
-        <h2>{{ 'cleanup_opt_in_deadline_heading' | i18n}}</h2>
+        <h3>{{ 'cleanup_opt_in_deadline_heading' | i18n}}</h3>
         <p>{{ 'cleanup_opt_in_deadline' | i18n | safe}}</p>
-        <a
-          class="btn btn-primary m-y-sm"
-          href="https://recovery.lacounty.gov/debris-removal/roe/"
-          >{{ 'cleanup_opt_in_form_button_text' | i18n}}</a
-        >
 
         <div class="debris-boxed-content phase-2-border-color">
           <p>{{ 'cleanup_opt_in_requirements_intro' | i18n}}</p>
 
           <ul>
             <li>{{ 'cleanup_opt_in_owner_info' | i18n}}</li>
-            <li>
-              {{ 'cleanup_opt_in_ain' | i18n}}
-              <ul>
-                <li>
-                  <a
-                    href="https://assessor.lacounty.gov/homeowners/property-search"
-                    >{{ 'cleanup_opt_in_ain_heading' | i18n}}</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li>{{ 'cleanup_opt_in_insurance' | i18n}}</li>
-            <li>{{ 'cleanup_opt_in_vehicle_info' | i18n}}</li>
+            <li>{{ 'cleanup_opt_in_ain' | i18n}}</li>
+            <li>{{ 'cleanup_opt_in_insurance' | i18n | safe }}</li>
           </ul>
         </div>
       </div>
 
       <!-- Step 8 -->
       <div class="debris-step">
-        <h2>{{ 'cleanup_opt_out_heading' | i18n}}</h2>
+        <h3>{{ 'cleanup_opt_out_heading' | i18n}}</h3>
         <p>{{ 'cleanup_opt_out_explanation' | i18n}}</p>
 
         <div class="debris-boxed-content phase-2-border-color">
@@ -472,32 +415,19 @@
             <li>{{ 'cleanup_opt_out_asbestos' | i18n}}</li>
             <li>{{ 'cleanup_opt_out_compliance' | i18n}}</li>
           </ul>
+
+          <p>{{ 'cleanup_opt_out_process' | i18n | safe }}</p>
         </div>
       </div>
 
       <!-- Step 9 -->
       <div class="debris-step">
-        <h2>{{ 'cleanup_how_to_opt_out_heading' | i18n}}</h2>
-        <p>{{ 'cleanup_opt_out_submit_form' | i18n | safe}}</p>
+        <h3>{{ 'cleanup_how_to_opt_out_heading' | i18n}}</h3>
         <p>{{ 'cleanup_opt_out_importance' | i18n}}</p>
+        <p>{{ 'cleanup_opt_out_submit_form' | i18n | safe}}</p>
 
         <div class="debris-boxed-content phase-2-border-color">
-          <p>{{ 'cleanup_opt_out_requirements_needed' | i18n}}</p>
-          <ul>
-            <li>{{ 'cleanup_opt_out_contractor_info' | i18n}}</li>
-            <li>{{ 'cleanup_opt_out_debris_description' | i18n}}</li>
-            <li>
-              {{ 'cleanup_opt_out_ain' | i18n}}
-              <ul>
-                <li>
-                  <a
-                    href="https://assessor.lacounty.gov/homeowners/property-search"
-                    >{{ 'cleanup_opt_out_ain_heading' | i18n}}</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
+          <p>{{ 'cleanup_opt_out_requirements_needed' | i18n | safe }}</p>
         </div>
       </div>
 
@@ -519,7 +449,6 @@
           <ul>
             <li>{{ 'cleanup_county_hotline' | i18n | safe}}</li>
             <li>{{ 'cleanup_email_contact' | i18n | safe}}</li>
-            <li>{{ 'cleanup_in_person_help' | i18n | safe}}</li>
           </ul>
         </div>
         <div class="debris-boxed-content neutral-border-color">
@@ -531,10 +460,6 @@
           </p>
         </div>
       </div>
-
-      <h2 class="m-b-lg">{{ 'cleanup_where_debris_goes' | i18n}}</h2>
-      <p>{{ 'cleanup_debris_disposal_explanation' | i18n}}</p>
-      <p>{{ 'cleanup_calepa_info' | i18n | safe}}</p>
 
       <!--END MAIN COL CONTENT-->
     </div>
