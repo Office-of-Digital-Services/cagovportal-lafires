@@ -891,16 +891,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted": {
-    "status": "avantpage_delivery",
-    "en": "Four mobile surveys, two in each burn area, were conducted.",
-    "es": "Se realizaron cuatro encuestas móviles, dos en cada área de incendio.",
-    "ko": "각 화재 지역에서 2회씩, 총 4회의 이동식 조사가 실시되었습니다.",
-    "vi": "Bốn cuộc khảo sát di động đã được tiến hành, trong đó bao gồm hai cuộc khảo sát ở mỗi khu vực đám cháy.",
-    "tl": "Apat na mobile na pagsusuri, dalawa sa bawat lugar ng sunog, ang isinagawa.",
-    "zh-hans": "进行了四次移动调查，每个火灾区两次。",
-    "zh-hant": "進行了四次移動調查，每個火災區兩次。",
-    "hy": "Անցկացվել են չորս շարժական հետազոտություններ, երկուսը՝ յուրաքանչյուր հրդեհի տարածքում։",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "mobile surveys, two in each burn area, were conducted.",
+    "es": "encuestas móviles, dos en cada área de incendio.",
+    "ko": "이동식 조사, 각 화재 지역에서 2회씩 실시되었습니다.",
+    "vi": "cuộc khảo sát di động, hai cuộc khảo sát ở mỗi khu vực đám cháy, đã được tiến hành.",
+    "tl": "mobile na pagsusuri, dalawa sa bawat lugar ng sunog, ang isinagawa.",
+    "zh-hans": "移动调查, 每个火灾区两次, 已进行。",
+    "zh-hant": "移動調查, 每個火災區兩次, 已進行。",
+    "hy": "շարժական հետազոտություններ, երկուսը՝ յուրաքանչյուր հրդեհի տարածքում, անցկացվել են։"
   },
   "track_progress_overall_survey_results_from_eaton_and_palisades_areas_were_within_background_levels": {
     "status": "avantpage_delivery",
@@ -1022,6 +1022,35 @@
     "hy": "Իթոնի և Պալիսեյդսի տարածքներում տեղակայված օդի որակի մոնիթորինգի ստացիոնար կետեր",
     "comment": "Translation delivered 2025-04-10"
   },
+
+
+  "track_progress_results": {
+    "status": "ap_review",
+    "en": "Results",
+    "es": "Resultados",
+    "ko": "결과",
+    "vi": "Kết quả",
+    "tl": "Mga resulta",
+    "zh-hans": "结果",
+    "zh-hant": "結果",
+    "hy": "Արդյունքներ",
+    "comment": "Machine translated"
+  },
+
+  "track_progress_eaton_and_palisades_results": {
+    "status": "ap_review",
+    "en": "Eaton and Palisades results",
+    "es": "Resultados de Eaton y Palisades",
+    "ko": "이튼과 팔리세이즈 결과",
+    "vi": "Kết quả của Eaton và Palisades",
+    "tl": "Mga resulta ng Eaton at Palisades",
+    "zh-hans": "伊顿和帕利塞兹地区结果",
+    "zh-hant": "伊頓和帕利塞茲地區結果",
+    "hy": "Իթոնի և Պալիսեյդսի տվյալների արդյունքներ",
+    "comment": "Machine translated"
+  },
+
+
   "track_progress_eaton_data_results": {
     "status": "avantpage_delivery",
     "en": "Eaton data results",
