@@ -378,6 +378,12 @@ module.exports = function (
     currentPath = currentPath.replace('/index.html', '/');
     currentPath = currentPath.replace('/index/', '/');
     // console.log(chalk.green(`  [pagePath]  output *${currentPath}*`));
+
+    // For the English homepage only, use capitalized /LAfires/
+    if (currentPath === "/lafires/") {
+      currentPath = "/LAfires/";
+    }
+    
     return currentPath;
   });
 
