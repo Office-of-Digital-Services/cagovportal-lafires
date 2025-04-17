@@ -13,23 +13,26 @@ const chalk = require("chalk");
 // Utility function to load all translation files and combine them
 function loadAllTranslations() {
   const translationsDir = path.join(__dirname, "./src/_data/i18n");
-  
+
   // Find all files matching i18n*.json pattern
-  const translationFiles = fs.readdirSync(translationsDir)
+  const translationFiles = fs
+    .readdirSync(translationsDir)
     .filter(file => file.match(/^i18n.*\.json$/));
-  
+
   // Load and merge all translation files into a single object
   let allTranslations = {};
   let knownKeys = [];
   translationFiles.forEach(file => {
     const filePath = path.join(translationsDir, file);
     try {
-      const fileContent = fs.readFileSync(filePath, 'utf8');
+      const fileContent = fs.readFileSync(filePath, "utf8");
       const translations = JSON.parse(fileContent);
       // warn if any keys are duplicated
       Object.keys(translations).forEach(key => {
         if (knownKeys.includes(key)) {
-          console.warn(chalk.red(`[i18n] Duplicate key found in ${file}: ${key}`));
+          console.warn(
+            chalk.red(`[i18n] Duplicate key found in ${file}: ${key}`)
+          );
         } else {
           knownKeys.push(key);
         }
@@ -39,20 +42,20 @@ function loadAllTranslations() {
       console.error(`Error loading translation file ${file}:`, error);
     }
   });
-  
+
   return { translations: allTranslations };
 }
 
 let translationsModule = loadAllTranslations();
-
 
 // canonical domain
 const domain = "https://www.ca.gov";
 const metatitlepostfix = " | CA.gov";
 
 // use console.log to report complete list of process.env variables
-const is_development = process.env.MY_ENVIRONMENT ? process.env.MY_ENVIRONMENT === "local" : false;
-
+const is_development = process.env.MY_ENVIRONMENT
+  ? process.env.MY_ENVIRONMENT === "local"
+  : false;
 
 module.exports = function (
   /** @type {import("@11ty/eleventy").UserConfig} **/ eleventyConfig
@@ -77,7 +80,8 @@ module.exports = function (
 
   // Add watch target specifically for i18n file and clear require cache when it changes
   eleventyConfig.addWatchTarget("./src/_data/i18n/i18n*.json");
-  eleventyConfig.on("beforeWatch", changedFiles => { // support changing i18n.json during development without quitting the server
+  eleventyConfig.on("beforeWatch", changedFiles => {
+    // support changing i18n.json during development without quitting the server
     if (changedFiles.some(file => file.includes("i18n"))) {
       // JSON files don't use require cache, so we just need to reload translations
       translationsModule = loadAllTranslations();
@@ -219,13 +223,13 @@ module.exports = function (
     /**
      * @param {string | number | Date} dateString
      */
-    function(dateString) {
-      const locale = this.ctx.locale || this.ctx.lang || 'en';
+    function (dateString) {
+      const locale = this.ctx.locale || this.ctx.lang || "en";
       return new Date(dateString).toLocaleDateString(locale, {
         year: "numeric",
         month: "long",
         day: "numeric"
-      })
+      });
     }
   );
 
@@ -299,46 +303,50 @@ module.exports = function (
     })
   );
 
-  eleventyConfig.addFilter('fetchGuid', function(guidURL) {
-    return String(guidURL).split('=')[1];
+  eleventyConfig.addFilter("fetchGuid", function (guidURL) {
+    return String(guidURL).split("=")[1];
   });
 
-  eleventyConfig.addFilter('localizedPath', function(pathString, localeOverride) {
-    const locale = localeOverride || this.ctx.locale || this.ctx.lang || 'en';
+  eleventyConfig.addFilter(
+    "localizedPath",
+    function (pathString, localeOverride) {
+      const locale = localeOverride || this.ctx.locale || this.ctx.lang || "en";
 
-    // set locale to en if not provided
-    // locale = locale || 'en';
+      // set locale to en if not provided
+      // locale = locale || 'en';
 
-    // not /lafires in path, just return pathString
-    if (!pathString.includes('/lafires')) {
-      return pathString;
+      // not /lafires in path, just return pathString
+      if (!pathString.includes("/lafires")) {
+        return pathString;
+      }
+
+      // Remove /en prefix if present
+      if (pathString.startsWith("/lafires/en")) {
+        pathString = pathString.replace("/en/", "/");
+      }
+
+      // Construct localized path
+      let currentPath = pathString.replace("/lafires/", `/lafires/${locale}/`);
+
+      // Add trailing slash if needed
+      if (!currentPath.endsWith("/") && !currentPath.includes("#")) {
+        currentPath += "/";
+      }
+
+      // Clean up special paths
+      currentPath = currentPath.replace("/en/", "/");
+      // .replace('/homepage/', '/')
+
+      return currentPath;
     }
+  );
 
-    // Remove /en prefix if present
-    if (pathString.startsWith('/lafires/en')) {
-      pathString = pathString.replace('/en/', '/');
-    }
-
-    // Construct localized path
-    let currentPath = pathString.replace('/lafires/', `/lafires/${locale}/`);
-
-    // Add trailing slash if needed
-    if (!currentPath.endsWith('/') && !currentPath.includes('#')) {
-      currentPath += '/';
-    }
-
-    // Clean up special paths
-    currentPath = currentPath
-    .replace('/en/', '/')
-    // .replace('/homepage/', '/')
-    ;
-
-    return currentPath;
-  });
-
-  eleventyConfig.addFilter("unlocalizedPath", (cpage) => {
+  eleventyConfig.addFilter("unlocalizedPath", cpage => {
     if (cpage !== undefined) {
-      const page_str = cpage.replace(/\/lafires\/(en|es|ko|tl|vi|zh-hans|zh-hant|hy)\//, '/lafires/');
+      const page_str = cpage.replace(
+        /\/lafires\/(en|es|ko|tl|vi|zh-hans|zh-hant|hy)\//,
+        "/lafires/"
+      );
       return page_str;
     }
     return "";
@@ -356,36 +364,52 @@ module.exports = function (
     let currentPath = `${page.filePathStem}/`; // Relative to base dir, localized path, with folder + /index.html.
 
     // remove /lafires/ from currentPath
-    currentPath = currentPath.replace('/lafires/', '/');  
+    currentPath = currentPath.replace("/lafires/", "/");
     // remove /initiatives/ from currentPath
-    currentPath = currentPath.replace('/initiatives/', '/');  
+    currentPath = currentPath.replace("/initiatives/", "/");
 
-    let languages = ["/en/","/es/","/fr/","/ko/","/tl/","/vi/","/zh-hans/","/zh-hant/","/hy/"]; // Localized folder paths, '/es/', '/vi', etc.
-    
+    let languages = [
+      "/en/",
+      "/es/",
+      "/fr/",
+      "/ko/",
+      "/tl/",
+      "/vi/",
+      "/zh-hans/",
+      "/zh-hant/",
+      "/hy/"
+    ]; // Localized folder paths, '/es/', '/vi', etc.
+
     languages.map(language => {
       currentPath = currentPath.replace(language, "/"); // Remove existing localized paths to get root.
     });
 
     // Remove /home/ path slug from filePathStem variable
-    if (currentPath.startsWith('/')) {
+    if (currentPath.startsWith("/")) {
       currentPath = currentPath.slice(1);
     }
     currentPath = `${langPath}${currentPath}`;
     // Return a path with no localization and index.html
     // currentPath = currentPath.replace('/homepage/', '/');
-    currentPath = currentPath.replace('/en/', '/');
-    currentPath = currentPath.replace('/index/index', '/index');
-    currentPath = currentPath.replace('/index.html', '/');
-    currentPath = currentPath.replace('/index/', '/');
+    currentPath = currentPath.replace("/en/", "/");
+    currentPath = currentPath.replace("/index/index", "/index");
+    currentPath = currentPath.replace("/index.html", "/");
+    currentPath = currentPath.replace("/index/", "/");
     // console.log(chalk.green(`  [pagePath]  output *${currentPath}*`));
+
+    // For the English homepage only, use capitalized /LAfires/
+    if (currentPath === "/lafires/") {
+      currentPath = "/LAfires/";
+    }
+
     return currentPath;
   });
 
-  eleventyConfig.addFilter('i18n', function(key, localeOverride) {
+  eleventyConfig.addFilter("i18n", function (key, localeOverride) {
     const locale = localeOverride || this.ctx.locale || this.ctx.lang;
     const contentGroup = translationsModule.translations[key];
 
-    if (is_development && key === 'i18y_test_phrase') {
+    if (is_development && key === "i18y_test_phrase") {
       // console.log(chalk.green(`[i18n] Testing *${key}* in locale *${locale}*  page.locale *${page.locale}*`));
       // console.log(chalk.green(`[i18n] Testing *${key}* permalink *${page.permalink}*`));
       // console.log(chalk.green(`[i18n] Testing *${key}* ctx *${this.ctx.permalink}*`));
@@ -393,7 +417,11 @@ module.exports = function (
 
     // Check if the requested content key exists.
     if (!contentGroup) {
-      console.log(chalk.red(`[i18n] Could not find content group for *${key}* in translations table.`));
+      console.log(
+        chalk.red(
+          `[i18n] Could not find content group for *${key}* in translations table.`
+        )
+      );
       return "";
     }
 
@@ -408,7 +436,7 @@ module.exports = function (
 
     return idealContentString;
   });
-    //Start with default config, easier to configure 11ty later
+  //Start with default config, easier to configure 11ty later
   const config = defaultConfig(eleventyConfig);
 
   // allow nunjucks templating in .html files
