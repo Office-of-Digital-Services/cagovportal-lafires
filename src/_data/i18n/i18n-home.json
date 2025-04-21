@@ -144,23 +144,22 @@
     "hy": "Հիմնական կարիքները"
   },
   "home_hands_reaching_out_image_alt": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "Hands reaching out to help line art background image",
-    "fr": "Image de fond en ligne de mains qui atteignent pour aider",
-    "es": "Imagen de fondo de líneas de manos que se extienden para ayudar",
-    "ko": "손이 나와서 도움을 주는 선화 배경 이미지",
-    "vi": "Hình ảnh nền của tay nắm tay để giúp",
-    "tl": "Pangunahing pangangailangan",
-    "zh-hans": "手伸出来帮助的线画背景图片",
-    "zh-hant": "手伸出来幫助的線畫背景圖片",
-    "hy": "Մատները դուրս են գալիս օգնելու գծապատական հիմնական պահանջների համար"
+    "es": "Imagen de fondo con manos estirándose en un gesto de ayuda",
+    "ko": "도움을 주기 위해 뻗은 손들을 그린 선화 배경 이미지",
+    "vi": "Hình nền nghệ thuật bàn tay vươn đến đường dây trợ giúp",
+    "tl": "Larawan sa background ng line art ng mga nakaabot na kamay para tumulong",
+    "zh-hans": "伸出援手帮助画出艺术背景图片",
+    "zh-hant": "伸出援手 線稿背景圖片",
+    "hy": "Ձեռքերը ձգվում են օգնության․ ֆոնային գծապատկեր",
+    "comment": "Translation delivered 2025-04-10"
   },
   "home_stay_healthy": {
     "status": "avantpage_delivery",
     "en": "Stay healthy",
     "fr": "Restez en santé",
-    "es": "Mantenerse saludable",
+    "es": "Cómo cuidar su salud",
     "ko": "건강 유지",
     "vi": "Giữ gìn sức khỏe",
     "tl": "Manatiling malusog",
@@ -192,43 +191,7 @@
     "zh-hant": "如何清除雜物",
     "hy": "Ստացեք օգնություն աղբի հեռացման հարցում"
   },
-  "home_upcoming_deadlines": {
-    "status": "ap_review",
-    "comment": "Machine translated",
-    "en": "Deadlines",
-    "fr": "Délais",
-    "es": "Plazos",
-    "ko": "기한",
-    "vi": "Hạn cuối",
-    "tl": "Mga deadline",
-    "zh-hans": "截止日期",
-    "zh-hant": "截止日期",
-    "hy": "Վերջնաժամկետներ"
-  },
-  "home_march_31_2025": {
-    "status": "avantpage_delivery",
-    "en": "March 31, 2025",
-    "fr": "31 mars 2025",
-    "es": "31 de marzo de 2025",
-    "ko": "2025년 3월 31일",
-    "vi": "Ngày 31 tháng 3 năm 2025",
-    "tl": "Marso 31, 2025",
-    "zh-hans": "2025 年 3 月 31 日",
-    "zh-hant": "2025 年 3 月 31日",
-    "hy": "2025թ․ մարտի 31"
-  },
-  "home_april_15_2025": {
-    "status": "avantpage_delivery",
-    "en": "April 15, 2025",
-    "fr": "15 avril 2025",
-    "es": "15 de abril de 2025",
-    "ko": "2025년 4월 15일",
-    "vi": "Ngày 15 tháng 4 năm 2025",
-    "tl": "Abril 15, 2025",
-    "zh-hans": "2025 年 4 月 15 日",
-    "zh-hant": "2025 年 4 月 15日",
-    "hy": "2025թ․ ապրիլի 15"
-  },
+
   "home_apply_for_fema_individual_assistance": {
     "status": "ap_review",
     "comment": "Machine translated",
@@ -243,39 +206,11 @@
     "hy": "Որպեսզի դիմեք <a href=\"http://disasterassistance.gov\">FEMA-ի անհատական օգնության</a> համար",
     "orig_en": "Apply for <link>FEMA Individual Assistance</link>"
   },
-  "home_apply_for_sba_business_loan": {
-    "status": "ap_review",
-    "comment": "Machine translated",
-    "en": "To apply for an <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA business loan</a>",
-    "fr": "Pour appliquer pour un <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">prêt d'entreprise SBA</a>",
-    "es": "Para solicitar un <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">crédito comercial de la Agencia Federal de Pequeños Negocios (SBA)</a>",
-    "ko": "<a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA 기업 대출</a> 신청을 위해",
-    "vi": "Để đơn xin nhận <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">khoản vay kinh doanh của Cơ Quan Quản Lý Doanh Nghiệp Nhỏ (SBA)</a>",
-    "tl": "Para mag-apply para sa <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">loan para sa negosyo ng SBA</a>",
-    "zh-hans": "要申请 <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA 商业贷款</a>",
-    "zh-hant": "要申請 <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA 商業貸款</a>",
-    "hy": "Որպեսզի դիմեք <a href=\"https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires\">SBA-ի բիզնես վարկի</a> համար",
-    "orig_en": "Apply for an <link>SBA business loan</link>"
-  },
-  "home_opt_in_for_free_debris_removal": {
-    "status": "ap_review",
-    "comment": "Machine translated",
-    "en": "To opt in for <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">free debris removal</a>",
-    "fr": "Pour s'inscrire à <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">l'enlèvement gratuit des débris</a>",
-    "es": "Para optar por la <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">remoción gratuita</a>",
-    "ko": "<a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">무료 잔해 제거</a>에 동의하려면",
-    "vi": "Để tham gia <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">di dời miễn phí đống đổ nát</a>",
-    "tl": "Para mag-opt in para sa <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">libreng pag-aalis ng kalat</a>",
-    "zh-hans": "要加入<a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">免费残余物清除服务</a>",
-    "zh-hant": "要選擇加入<a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">免費清除雜物</a>",
-    "hy": "Անվճար <a href=\"https://recovery.lacounty.gov/debris-removal/roe/\">աղբի հեռացման</a> համար գրանցվելու համար",
-    "orig_en": "Opt in for <link>free debris removal</link>"
-  },
   "home_what_you_can_do": {
     "status": "avantpage_delivery",
     "en": "What you can do",
     "fr": "Ce que vous pouvez faire",
-    "es": "Lo que puede hacer",
+    "es": "Lo que usted puede hacer",
     "ko": "취할 수 있는 조치",
     "vi": "Quý vị có thể làm gì",
     "tl": "Ano ang magagawa mo",
@@ -320,17 +255,16 @@
     "hy": "Ստացեք օգնություն անձամբ"
   },
   "home_help_in_person_description": {
-    "status": "ap_review",
-    "comment": "Edited for title consistency",
+    "status": "avantpage_delivery",
     "en": "Disaster Recovery Centers are open in Altadena and UCLA Research Park West.",
-    "fr": "Les Disaster Recovery Centers sont ouverts à Altadena et UCLA Research Park West.",
-    "es": "Los Disaster Recovery Centers están abiertos en Altadena y UCLA Research Park West.",
-    "ko": "Disaster Recovery Centers는 Altadena와 UCLA Research Park West에 마련되어 있습니다.",
-    "vi": "Các Disaster Recovery Centers mở cửa tại Altadena và UCLA Research Park West.",
-    "tl": "Bukas ang mga Disaster Recovery Center sa Altadena at UCLA Research Park West.",
-    "zh-hans": "Disaster Recovery Centers 已在 Altadena 与 UCLA Research Park West 开放。",
-    "zh-hant": "Disaster Recovery Centers 在 Altadena 和 UCLA Research Park West 開放。",
-    "hy": "Disaster Recovery Centers բաց են Altadena և UCLA Research Park West-ում:"
+    "es": "Los Centros de Recuperación por Desastres están abiertos en Altadena y UCLA Research Park West.",
+    "ko": "재난 복구 센터는 알타데나와 캘리포니아 대학교 로스엔젤레스(University of California Los Angeles, UCLA) 리서치 파크 서편에 마련되어 있습니다.",
+    "vi": "Các Trung Tâm Phục Hồi sau Thảm Họa mở cửa tại Altadena và Phía Tây Viện Nghiên Cứu của Đại Học California tại Los Angeles (University of California Los Angeles, UCLA).",
+    "tl": "Bukas ang mga Disaster Recovery Center sa Altadena at Research Park West sa Unibersidad ng California, Los Angeles (University of California, Los Angeles, UCLA).",
+    "zh-hans": "Altadena 与加州大学洛杉矶分校 (University of California Los Angeles, UCLA) 西研究园区的灾害恢复中心已开放。",
+    "zh-hant": "Altadena 與加州大學洛杉磯分校 (University of California Los Angeles, UCLA) 西研究園區的災後恢復中心現已開放。",
+    "hy": "Աղետների վերականգնման կենտրոնները բաց են Ալթադենայում և Լոս Անջելեսի կալիֆոռնյան համալսարանի (University of California Los Angeles, UCLA) արևմտյան հետազոտական պարկում:",
+    "comment": "Translation delivered 2025-04-10"
   },
   "home_see_real_time_info": {
     "status": "avantpage_delivery",
@@ -372,7 +306,7 @@
     "status": "avantpage_delivery",
     "en": "Learn when you can return home and how to start recovering.",
     "fr": "Apprenez quand vous pouvez retourner à la maison et comment commencer à récupérer.",
-    "es": "Sepa cuándo puede regresar a casa y cómo empezar a recuperarse.",
+    "es": "Averigüe cuándo puede regresar a casa y cómo empezar a recuperarse.",
     "ko": "집으로 돌아갈 수 있는 시점과 복구 시작 방법에 대해 알아보십시오.",
     "vi": "Tìm hiểu khi nào quý vị có thể trở về nhà và cách bắt đầu phục hồi.",
     "tl": "Alamin kung kailan ka puwedeng bumalik sa tahanan at kung paano magsimula na makabangong muli.",
@@ -513,17 +447,16 @@
     "hy": "Նահանգային թարմացումներ"
   },
   "home_view_all_la_fires_news": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "View all LA fires news",
-    "fr": "Voir toutes les nouvelles des feux de Los Angeles",
-    "es": "Ver todas las noticias sobre los incendios de Los Ángeles",
-    "ko": "LA 화재 뉴스 모두 보기",
+    "es": "Ver todas las noticias sobre los incendios de LA",
+    "ko": "모든 LA 화재 뉴스 보기",
     "vi": "Xem tất cả tin tức về các đám cháy ở LA",
-    "tl": "Tingnan ang lahat ng balita tungkol sa sunog sa LA",
-    "zh-hans": "查看所有洛杉矶大火新闻",
-    "zh-hant": "查看所有洛杉磯大火新聞",
-    "hy": "Տեսնել Լոս Անջելեսի հրդեհների բոլոր նորությունները"
+    "tl": "Tingnan ang lahat ng balita sa sunog sa LA",
+    "zh-hans": "查看所有关于加州大火的新闻",
+    "zh-hant": "查看所有關於加州大火的新聞",
+    "hy": "Դիտել ԼԱ-ի հրդեհների բոլոր նորությունները",
+    "comment": "Translation delivered 2025-04-10"
   },
   "home_rebuild_faster_title": {
     "status": "avantpage_delivery",

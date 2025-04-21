@@ -247,44 +247,6 @@
         >
       </div>
 
-      <!-- Food Section -->
-      <hr class="m-y-md" />
-
-      <h2>{{ 'plan_visit_food_section' | i18n }}</h2>
-
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check8"
-          id="check8" />
-        <label class="form-check-label cursor-pointer" for="check8"
-          ><span class="bold d-block"
-            >{{ 'plan_visit_food_benefits' | i18n }}</span
-          >
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_food_benefits_agency' | i18n }}
-          </div></label
-        >
-      </div>
-
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check9"
-          id="check9" />
-        <label class="form-check-label cursor-pointer" for="check9"
-          ><span class="bold d-block">{{ 'plan_visit_food_wic' | i18n }}</span>
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_food_wic_agency' | i18n }}
-          </div></label
-        >
-      </div>
       <hr class="m-y-md" />
       <h2>{{ 'plan_visit_housing_section' | i18n }}</h2>
 
@@ -335,7 +297,7 @@
           ><span class="bold d-block"
             >{{ 'plan_visit_housing_protections' | i18n }}</span
           >
-          <ul class="m-b-0">
+          <ul class="m-b-0 font-weight-400">
             <li class="m-t">
               {{ 'plan_visit_housing_protections_gouging' | i18n }}
             </li>
@@ -551,9 +513,9 @@
         <label class="form-check-label cursor-pointer" for="check23"
           ><span class="bold">{{ 'plan_visit_insurance_claims' | i18n }}</span>
           <ul class="m-b-0 font-weight-400">
-            <li>{{ 'plan_visit_insurance_claims_delays' | i18n }}</li>
-            <li>{{ 'plan_visit_insurance_claims_expenses' | i18n }}</li>
-            <li>{{ 'plan_visit_insurance_claims_disputes' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_insurance_claims_delays' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_insurance_claims_expenses' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_insurance_claims_disputes' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
@@ -605,7 +567,7 @@
           id="check25" />
         <label class="form-check-label cursor-pointer" for="check25"
           ><span class="bold">{{ 'plan_visit_taxes_help' | i18n }}</span>
-          <ul class="m-b-0">
+          <ul class="m-b-0 font-weight-400">
             <li class="m-t">{{ 'plan_visit_taxes_help_relief' | i18n }}</li>
             <li class="m-t">{{ 'plan_visit_taxes_help_address' | i18n }}</li>
           </ul>
@@ -636,209 +598,7 @@
       <hr class="m-y-md" />
       <h2>{{ 'plan_visit_rebuilding_section' | i18n }}</h2>
 
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check27"
-          id="check27" />
-        <label class="form-check-label cursor-pointer" for="check27"
-          ><span class="bold"
-            >{{ 'plan_visit_rebuilding_clearing' | i18n }}</span
-          >
-          <ul class="m-b-0">
-            <li class="m-t">
-              {{ 'plan_visit_rebuilding_clearing_debris' | i18n }}
-            </li>
-            <li class="m-t">
-              {{ 'plan_visit_rebuilding_clearing_mud' | i18n }}
-            </li>
-          </ul>
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_rebuilding_clearing_agency' | i18n }}
-          </div>
-        </label>
-      </div>
-
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check28"
-          id="check28" />
-        <label class="form-check-label cursor-pointer" for="check28"
-          ><span class="bold"
-            >{{ 'plan_visit_rebuilding_process' | i18n }}</span
-          >
-          <ul class="m-b-0">
-            <li class="m-t">
-              {{ 'plan_visit_rebuilding_process_intake' | i18n }}
-            </li>
-            <li class="m-t">
-              {{ 'plan_visit_rebuilding_process_zoning' | i18n }}
-            </li>
-          </ul>
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_rebuilding_process_agency' | i18n }}
-          </div>
-        </label>
-      </div>
-
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check29"
-          id="check29" />
-        <label class="form-check-label cursor-pointer" for="check29"
-          ><span class="bold"
-            >{{ 'plan_visit_rebuilding_permits' | i18n }}</span
-          >
-          <br />
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_rebuilding_permits_agency_1' | i18n }}
-          </div>
-
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_rebuilding_permits_agency_2' | i18n }}
-          </div>
-        </label>
-      </div>
-
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check30"
-          id="check30" />
-        <label class="form-check-label  cursor-pointer" for="check30"
-          ><span class="bold"
-            >{{ 'plan_visit_rebuilding_contractors' | i18n }}</span
-          >
-          <ul class="m-b-0">
-            <li class="m-t">
-              {{ 'plan_visit_rebuilding_contractors_license' | i18n }}
-            </li>
-            <li class="m-t">
-              {{ 'plan_visit_rebuilding_contractors_hiring' | i18n }}
-            </li>
-            <li class="m-t">
-              {{ 'plan_visit_rebuilding_contractors_complaint' | i18n }}
-            </li>
-          </ul>
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_rebuilding_contractors_agency' | i18n }}
-          </div>
-        </label>
-      </div>
-
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check31"
-          id="check31" />
-        <label class="form-check-label cursor-pointer" for="check31"
-          ><span class="bold">{{ 'plan_visit_rebuilding_case' | i18n }}</span>
-          <br />
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_rebuilding_case_agency' | i18n }}
-          </div>
-        </label>
-      </div>
-
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check32"
-          id="check32" />
-        <label class="form-check-label cursor-pointer" for="check32"
-          ><span class="bold">{{ 'plan_visit_rebuilding_dcmp' | i18n }}</span>
-          <br />
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_rebuilding_dcmp_agency' | i18n }}
-          </div>
-        </label>
-      </div>
-
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check33"
-          id="check33" />
-        <label class="form-check-label cursor-pointer" for="check33"
-          ><span class="bold"
-            >{{ 'plan_visit_rebuilding_property' | i18n }}</span
-          >
-          <ul class="m-b-0">
-            <li class="m-t">
-              {{ 'plan_visit_rebuilding_property_items_applications' | i18n }}
-            </li>
-            <li class="m-t">
-              {{ 'plan_visit_rebuilding_property_items_property_value' | i18n }}
-            </li>
-          </ul>
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_rebuilding_property_agency' | i18n }}
-          </div>
-        </label>
-      </div>
-
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check34"
-          id="check34" />
-        <label class="form-check-label cursor-pointer" for="check34"
-          ><span class="bold">{{ 'plan_visit_rebuilding_calvet' | i18n }}</span
-          ><br />
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_rebuilding_calvet_agency' | i18n }}
-          </div>
-        </label>
-      </div>
-
-      <div class="form-check m-b">
-        <input
-          class="form-check-input brd-gray-700 brd-solid-2 rounded-3"
-          type="checkbox"
-          value=""
-          name="check35"
-          id="check35" />
-        <label class="form-check-label cursor-pointer" for="check35"
-          ><span class="bold">{{ 'plan_visit_rebuilding_mobile' | i18n }}</span
-          ><br />
-          <ul class="m-b-0">
-            <li class="m-t">
-              {{ 'plan_visit_rebuilding_mobile_items' | i18n }}
-            </li>
-          </ul>
-          <div
-            class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
-            {{ 'plan_visit_rebuilding_mobile_agency' | i18n }}
-          </div>
-        </label>
-      </div>
+      <p>{{ 'plan_visit_rebuilding_section_description' | i18n | safe }}</p>
 
       <hr class="m-y-md" />
       <h2>{{ 'plan_visit_business_section' | i18n }}</h2>
@@ -852,9 +612,9 @@
         <label class="form-check-label  cursor-pointer" for="check36"
           ><span class="bold">{{ 'plan_visit_business_taxes' | i18n }}</span>
           <ul class="m-b-0 font-weight-400">
-            <li>{{ 'plan_visit_business_taxes_items_1' | i18n }}</li>
-            <li>{{ 'plan_visit_business_taxes_items_2' | i18n }}</li>
-            <li>{{ 'plan_visit_business_taxes_items_3' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_business_taxes_items_1' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_business_taxes_items_2' | i18n }}</li>
+            <li class="m-t">{{ 'plan_visit_business_taxes_items_3' | i18n }}</li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
@@ -924,7 +684,7 @@
         <label class="form-check-label cursor-pointer" for="check40"
           ><span class="bold">{{ 'plan_visit_business_help' | i18n }}</span
           ><br />
-          <ul class="m-b-0">
+          <ul class="m-b-0 font-weight-400">
             <li class="m-t">{{ 'plan_visit_business_help_items_1' | i18n }}</li>
             <li class="m-t">{{ 'plan_visit_business_help_items_2' | i18n }}</li>
             <li class="m-t">{{ 'plan_visit_business_help_items_3' | i18n }}</li>

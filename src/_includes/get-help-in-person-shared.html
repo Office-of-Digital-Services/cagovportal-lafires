@@ -168,7 +168,7 @@
 
     <!-- Main Content Area -->
     <div class="col-lg-9 pt-lg-3">
-      <p class="m-b-md lead">{{description}}</p>
+      <p class="m-b-md lead">{{ 'help_person_lead_text' | i18n | safe }}</p>
       <a
         href="{{ '/lafires/plan-your-in-person-visit/' | localizedPath }}"
         class="btn btn-lg btn-primary rounded-5"
@@ -255,20 +255,16 @@
       <hr class="mt-5" />
 
       <!-- Services on Site Section -->
-      <h2>{{ 'help_person_services_on_site' | i18n }}</h2>
+      <h3>{{ 'help_person_services_on_site' | i18n }}</h3>
       <p>{{ 'help_person_services_description' | i18n | safe }}</p>
 
       <ul class="fw-bold fs-5">
-        <li class="m-t">{{ 'help_person_food' | i18n }}</li>
         <li class="m-t">{{ 'help_person_health_services' | i18n }}</li>
         <li class="m-t">{{ 'help_person_mental_health_services' | i18n }}</li>
         <li class="m-t">{{ 'help_person_unemployment' | i18n }}</li>
         <li class="m-t">{{ 'help_person_disability_benefits' | i18n }}</li>
         <li class="m-t">
           {{ 'help_person_replacing_personal_documents' | i18n }}
-        </li>
-        <li class="m-t">
-          {{ 'help_person_tips_for_hiring_contractors' | i18n }}
         </li>
         <li class="m-t">
           {{ 'help_person_help_with_insurance_claims' | i18n }}
@@ -278,15 +274,15 @@
 
       <p>
         {{ 'help_person_sign_in_services' | i18n }}
-        <a href="/lafires/plan-your-in-person-visit/"
-          >Plan your in-person visit.</a
+        <a href="{{ '/lafires/plan-your-in-person-visit/' | localizedPath }}"
+          >{{ 'help_person_plan_visit_button_text' | i18n }}</a
         >
       </p>
 
       <hr class="mt-5" />
 
       <!-- Before you arrive section -->
-      <h2>{{ 'help_person_before_you_arrive' | i18n }}</h2>
+      <h3>{{ 'help_person_before_you_arrive' | i18n }}</h3>
       <p>{{ 'help_person_before_you_arrive_description' | i18n | safe }}</p>
 
       <p>{{ 'help_person_bring_items' | i18n }}</p>
@@ -304,16 +300,64 @@
       </ul>
       <hr class="mt-5" />
       <!-- When you get here section -->
-      <h2>{{ 'help_person_when_you_get_here' | i18n }}</h2>
+      <h3>{{ 'help_person_when_you_get_here' | i18n }}</h3>
       <ul>
         <li class="m-t">
           {{ 'help_person_arrival_info_parking' | i18n | safe }}
         </li>
-        <li class="m-t">{{ 'help_person_sign_in_info' | i18n | safe }}</li>
         <li class="m-t">{{ 'help_person_restrooms_and_beverages' | i18n }}</li>
         <li class="m-t">
           {{ 'help_person_use_plan_your_visit' | i18n | safe }}
         </li>
+      </ul>
+
+      <hr class="mt-5" />
+      <div class="scroll-section" id="one-shop">
+        <h2>{{ 'help_person_one_shop_h2' | i18n }}</h2>
+        <p>{{ 'help_person_one_shop_description' | i18n }}</p>
+        <div class="row" id="recovery-center-cards">
+          <div class="col-md-6 m-t-md">
+            <div
+              class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+              <h3 class="h5 m-t-md">
+                {{ 'help_person_one_shop_center1' | i18n }}
+              </h3>
+              <p class="font-size-16">
+                {{ 'help_person_one_shop_center1_address' | i18n | safe }}
+              </p>
+
+              <p class="font-size-16">
+                {{ 'help_person_one_shop_center1_hours' | i18n | safe }}
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 m-t-md">
+            <div
+              class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+              <h3 class="h5 m-t-md">
+                {{ 'help_person_one_shop_center2' | i18n }}
+              </h3>
+              <p class="font-size-16">
+                {{ 'help_person_one_shop_center2_address' | i18n | safe }}
+              </p>
+
+              <p class="font-size-16">
+                {{ 'help_person_one_shop_center2_hours' | i18n | safe }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="mt-5">{{ 'help_person_one_shop_learn_more' | i18n | safe }}</p>
+      <hr class="mt-5" />
+      <h3>{{ 'help_person_one_shop_service' | i18n }}</h3>
+      <p>{{ 'help_person_one_shop_service_description' | i18n }}</p>
+      <ul>
+        <li class="m-t">{{ 'help_person_one_shop_service_list_1' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_one_shop_service_list_2' | i18n }}</li>
+        <li class="m-t">{{ 'help_person_one_shop_service_list_3' | i18n }}</li>
       </ul>
     </div>
   </div>

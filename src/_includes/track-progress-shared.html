@@ -674,7 +674,10 @@
         </ul>
       </div>
 
-      <div class="row">
+  
+
+
+      <!-- <div class="row">
         <div class="col-lg-12 m-b-md">
           <div
             id="card-how-we-are-monitoring"
@@ -744,13 +747,13 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="row">
         <div class="col-lg-6 m-b-md">
           <div
             id="card-eaton-fire-area"
-            class="dashboard-card rounded h-100 d-flex flex-column">
+            class="dashboard-card rounded d-flex flex-column">
             <h3
               class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary d-flex align-items-center">
               <img
@@ -764,17 +767,31 @@
             </h3>
 
             <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
+
               <p>
                 {{ 'track_progress_mobile_air_monitoring_is_now_complete' | i18n
                 }}
               </p>
-              <p>
-                {{
-                'track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted'
-                | i18n }}
-              </p>
 
-              <h4 class="h6">Results</h4>
+              <div
+                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+                <span class="dashboard-stat"
+                  ><span id="air_mobile_survey_complete2"></span
+                ></span>
+                <span
+                  >{{
+                  'track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted'
+                  | i18n }}</span
+                >
+              </div>
+
+
+              <!-- <hr /> -->
+
+
+              <h4 class="h6">
+                {{ 'track_progress_results' | i18n }}
+              </h4>
               <p>
                 {{
                 'track_progress_overall_survey_results_from_eaton_and_palisades_areas_were_within_background_levels'
@@ -787,8 +804,9 @@
                 >{{
                 'track_progress_reported_by_south_coast_air_quality_management_district'
                 | i18n }}<br />
-                <span id="air_mobile_survey_complete_date2"></span
-              ></em>
+                <!--<span id="air_mobile_survey_complete_date2"></span
+              >--></em
+              >Data as of 4/9/2025 at 5:00 PM
             </p>
           </div>
         </div>
@@ -871,7 +889,8 @@
                 >{{
                 'track_progress_reported_by_south_coast_air_quality_management_district'
                 | i18n }}</em
-              ><br /><span id="air_mobile_survey_complete_date3"></span>
+              ><br /><!--<span id="air_mobile_survey_complete_date3"></span>-->
+              Data as of 4/9/2025 at 5:00 PM
             </p>
           </div>
         </div>
