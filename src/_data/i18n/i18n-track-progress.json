@@ -157,16 +157,16 @@
     "hy": "Դպրոցների վերաբացում"
   },
   "track_progress_many_schools_in_fire_areas_damaged": {
-    "status": "avantpage_delivery",
-    "en": "Many public schools operating in fire affected areas were damaged or destroyed. Federal, state, and local government is coordinating to help schools resume instruction for students.",
-    "fr": "De nombreuses écoles publiques opérant dans les zones touchées par les incendies ont été endommagées ou détruites. Les gouvernements fédéral, étatique et local coordonnent leurs efforts pour aider les écoles à reprendre l'enseignement pour les élèves.",
-    "es": "Muchas escuelas públicas que operaban en áreas afectadas por el incendio se dañaron o se destruyeron. Los gobiernos federales, estatales y locales se están coordinando para ayudar a las escuelas a reanudar las clases para los estudiantes.",
-    "ko": "화재 피해 지역에서 운영되고 있는 많은 공립학교가 피해를 입거나 파괴되었습니다. 연방, 주 및 지방 정부는 학교가 학생들을 위한 수업을 재개할 수 있도록 협력하고 있습니다.",
-    "vi": "Nhiều trường công lập hoạt động trong những khu vực bị ảnh hưởng do các đám cháy đã bị hư hại hoặc phá hủy. Chính quyền liên bang, tiểu bang và địa phương đang phối hợp để giúp các trường học tiếp tục giảng dạy cho học sinh.",
-    "tl": "Maraming pampublikong paaralan na nagpapatakbo sa mga lugar na naapektuhan ng sunog ang napinsala o nasira. Ang pederal, pang-estado, at lokal na gobyerno ay nakikipagkoordina para matulungan ang mga paaralan na makapagturong muli sa mga estudyante.",
-    "zh-hans": "灾区多所公立学校受损或损毁。现联邦、州和地方政府正在协调帮助学校复课。",
-    "zh-hant": "許多在火災受災地區運營的公立學校遭到損壞或摧毀。聯邦、州和地方政府正在協調幫助學校恢復學生教學。",
-    "hy": "Հրդեհներից տուժած տարածքներում գործող հանրակրթական դպրոցներից շատերը վնասվել կամ ավերվել են: Դաշնային, նահանգային և տեղական իշխանությունները համակարգում են՝ օգնելու դպրոցներին վերսկսել ուսուցումը աշակերտների համար:"
+    "status": "ap_review",
+    "en": "Many public schools operating in fire affected areas were damaged or destroyed. Federal, state, and local government coordinated to help schools resume instruction for students.",
+    "fr": "De nombreuses écoles publiques situées dans des zones touchées par les incendies ont été endommagées ou détruites. Le gouvernement fédéral, l'État et le gouvernement local se sont coordonnés pour aider les écoles à reprendre l'enseignement pour les élèves.",
+    "es": "Muchas escuelas públicas que operan en áreas afectadas por incendios fueron dañadas o destruidas. El gobierno federal, estatal y local se coordinó para ayudar a las escuelas a reanudar la enseñanza para los estudiantes.",
+    "ko": "화재 피해 지역에서 운영되는 많은 공립학교가 파손되거나 파괴되었습니다. 연방, 주 및 지방 정부는 학생들이 수업을 재개할 수 있도록 협력했습니다.",
+    "vi": "Nhiều trường công lập hoạt động ở các khu vực bị ảnh hưởng bởi hỏa hoạn đã bị hư hại hoặc phá hủy. Chính phủ liên bang, tiểu bang và địa phương đã phối hợp để giúp các trường học tiếp tục giảng dạy cho học sinh.",
+    "tl": "Maraming pampublikong paaralan na tumatakbo sa mga apektadong lugar ng sunog ang nasira o nawasak. Nakipag-ugnayan ang pederal, estado, at lokal na pamahalaan upang matulungan ang mga paaralan na muling ipagpatuloy ang pagtuturo para sa mga mag-aaral.",
+    "zh-hans": "许多在火灾影响地区运营的公立学校遭到破坏或摧毁。联邦、州和地方政府协调合作，帮助学校恢复对学生的教学。",
+    "zh-hant": "許多在火災影響地區運營的公立學校遭到破壞或摧毀。聯邦、州和地方政府協調合作，幫助學校恢復對學生的教學。",
+    "hy": "Հրդեհից տուժած տարածքներում գործող բազմաթիվ հանրակրթական դպրոցներ վնասվել կամ ավերվել են: Դաշնային, նահանգային և տեղական կառավարությունները համակարգել են դպրոցներին ուսուցումը վերսկսելու համար:"
   },
   "track_progress_damaged_or_destroyed_public_schools": {
     "status": "avantpage_delivery",
@@ -216,19 +216,6 @@
     "zh-hant": "面授教學：",
     "hy": "Ուսուցում անձամբ՝",
     "orig_en": "Teaching in-person"
-  },
-  "track_progress_teaching_online": {
-    "status": "avantpage_delivery",
-    "en": "Teaching online:",
-    "fr": "Enseignement en ligne:",
-    "es": "Clases en línea:",
-    "ko": "온라인 수업:",
-    "vi": "Giảng dạy trực tuyến:",
-    "tl": "Pagtuturo online:",
-    "zh-hans": "线上教学：",
-    "zh-hant": "在線教學：",
-    "hy": "Ուսուցում առցանց՝",
-    "orig_en": "Teaching online"
   },
   "track_progress_reported_to_schools_task_force": {
     "status": "avantpage_delivery",
@@ -312,18 +299,6 @@
     "zh-hans": "美国陆军工程兵团清理结构残余物",
     "zh-hant": "美國陸軍工程兵團清理結構殘餘物",
     "hy": "ԱՄՆ բանակի ինժեներական կորպուսը զբաղվում է շինարարական փլատակների մաքրմամբ",
-    "comment": "Translation delivered 2025-04-10"
-  },
-  "track_progress_accepting_phase_2_entry_forms": {
-    "status": "avantpage_delivery",
-    "en": "Currently, LA County is <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">accepting Right of Entry forms</a> for Phase 2. Once validated by the county, the U.S. Army Corps of Engineers assesses properties and begins debris removal.",
-    "es": "Actualmente, el condado de Los Ángeles está <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">aceptando formularios de derecho de entrada (Right of Entry)</a> para la Fase 2. Una vez validados por el condado, el Cuerpo de Ingenieros del Ejército de los EE. UU. evalúa las propiedades y comienza la remoción de escombros.",
-    "ko": "현재 LA 카운티는 2단계 관련하여 <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">출입권 양식을 접수</a>하고 있습니다. 카운티의 검증이 완료되면 미국 육군 공병단이 부동산을 확인하고 잔해 제거를 시작합니다. ",
-    "vi": "Hiện tại, Quận LA đang <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">chấp nhận các biểu mẫu Quyền Tiếp Cận</a> cho Giai Đoạn 2. Sau khi được quận xác nhận, Công Binh Lục Quân Hoa Kỳ sẽ đánh giá bất động sản và bắt đầu di dời đống đổ nát.",
-    "tl": "Sa ngayon, ang County ng LA ay <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">tumatanggap ng mga form ng Karapatang Pumasok</a> para sa Phase 2. Kapag na-validate ito ng county, ia-assess ng U.S. Army Corps of Engineers ang mga pag-aari at magsisimula itong linisin ang mga guho.",
-    "zh-hans": "目前，洛杉矶县正在<a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">接受第 2 阶段的进入权限表</a> 。一旦得到该县的验证，美国陆军工程兵团就会评估房屋并开始清除残余物。",
-    "zh-hant": "目前，洛杉磯縣正在 <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">接受第 2 階段的進入許可權表</a> 。一旦得到該縣的驗證，美國陸軍工程兵團就會評估房屋並開始清除殘餘物。",
-    "hy": "Ներկայումս Լոս Անջելես շրջանը <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">ընդունում է մուտքի իրավունքի ձևաթղթերը</a> Փուլ 2-ի համար: Վարչաշրջանի կողմից վավերացվելուց հետո ԱՄՆ բանակի ինժեներների կորպուսը գնահատում է հատկությունները և սկսում բեկորների հեռացումը:",
     "comment": "Translation delivered 2025-04-10"
   },
   "track_progress_hazardous_household_waste_cleanup": {
