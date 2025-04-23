@@ -564,17 +564,16 @@
     "hy": "Կալիֆորնիայի վետերանների հարցերով վարչություն (CalVet)"
   },
   "plan_visit_fema_section": {
-    "status": "ap_review",
-    "comment": "machine translated",
+    "status": "avantpage_delivery",
     "en": "Individual assistance",
-    "fr": "Aide individuelle",
-    "es": "Ayuda individual",
-    "ko": "개인 도움",
+    "es": "Asistencia individual",
+    "ko": "개인 지원",
     "vi": "Hỗ trợ cá nhân",
-    "tl": "Pangkat ng Individuwal",
+    "tl": "Tulong sa Indibidwal",
     "zh-hans": "个人援助",
     "zh-hant": "個人援助",
-    "hy": "Անձնական օգնություն"
+    "hy": "Անհատական օժանդակություն",
+    "comment": "Translation delivered 2025-04-23"
   },
   "plan_visit_fema_grants": {
     "status": "avantpage_delivery",
@@ -1081,16 +1080,16 @@
     "hy": "Վերակառուցման օգնություն"
   },
   "plan_visit_rebuilding_section_description": {
-    "status": "ap_review",
+    "status": "avantpage_delivery",
     "en": "For help with rebuilding, go to a <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Center</a>.",
-    "fr": "Pour obtenir de l'aide pour la reconstruction, rendez-vous dans un <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Centre de permis unique</a>.",
-    "es": "Para obtener ayuda con la reconstrucción, dirígete a un <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Centro de permisos de una sola parada</a>.",
-    "ko": "재건에 대한 도움을 받으려면 <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">원스톱 허가 센터</a>로 가십시오.",
-    "vi": "Để được trợ giúp về việc xây dựng lại, hãy đến <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Trung Tâm Cấp Giấy Phép Một Cửa</a>.",
-    "tl": "Para sa tulong sa muling pagpapatayo, pumunta sa isang <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Center</a>.",
-    "zh-hans": "有关重建的帮助，请访问<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式许可中心</a>。",
-    "zh-hant": "有關重建的幫助，請訪問<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式許可中心</a>。",
-    "hy": "Վերակառուցման հարցերով օգնության համար այցելեք <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Միասնական թույլտվությունների կենտրոն</a>։"
+    "es": "Para obtener ayuda para la reconstrucción, acuda a un <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Centro Integral de Permisos (One-Stop Permit Center)</a>.",
+    "ko": "주거지 복구 관련하여 도움을 받으려면 <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">원스톱 허가 센터(One-Stop Permit Center)</a>로 가십시오.",
+    "vi": "Để được trợ giúp xây dựng lại, hãy đến <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Trung Tâm Cấp Giấy Phép Một Cửa</a>.",
+    "tl": "Para sa tulong sa rebuilding, pumunta sa isang <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Center</a>.",
+    "zh-hans": "如需获取重建方面的帮助，请前往<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式许可中心</a>。",
+    "zh-hant": "如需獲取重建方面的幫助，請前往<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式許可中心</a>。",
+    "hy": "Վերակառուցման օգնության համար, կարող եք այցելել <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Թույլտվությունների ունիվերսալ կենտրոն</a>։",
+    "comment": "Translation delivered 2025-04-23"
   },
   "plan_visit_business_section": {
     "status": "avantpage_delivery",
