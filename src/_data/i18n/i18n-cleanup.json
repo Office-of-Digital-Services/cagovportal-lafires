@@ -121,17 +121,16 @@
     "hy": "Փուլ 1-ում ԱՄՆ-ի EPA-ն մաքրել է ամենօրյա ապրանքները, որոնք գտնվում էին Ձեր տանը և կարող էին վտանգ ներկայացնել:"
   },
   "cleanup_these_include": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "These included:",
-    "fr": "Cela inclut:",
-    "es": "Incluye:",
-    "ko": "포함되는 것들:",
-    "vi": "Bao gồm:",
+    "es": "Se incluye:",
+    "ko": "여기에 포함되는 사항은 다음과 같습니다.",
+    "vi": "Trong đó bao gồm:",
     "tl": "Kabilang sa mga ito ang:",
-    "zh-hans": "包括：",
-    "zh-hant": "包括：",
-    "hy": "Այդ թվում՝"
+    "zh-hans": "方法包括：",
+    "zh-hant": "方法包括：",
+    "hy": "Այդ թվում՝",
+    "comment": "Translation delivered 2025-04-23"
   },
   "cleanup_batteries": {
     "status": "avantpage_delivery",
@@ -810,17 +809,16 @@
     "hy": "Էլ. նամակ ուղարկեք՝ <a href=\"mailto:PalisadesFire@dpw.lacounty.gov\">PalisadesFire@dpw.lacounty.gov</a> հասցեին կամ <a href=\"mailto:EatonFire@dpw.lacounty.gov\">EatonFire@dpw.lacounty.gov</a> հասցեին"
   },
   "cleanup_more_info_heading": {
-    "status": "ap_review",
-    "comment": "machine translated",
+    "status": "avantpage_delivery",
     "en": "More about cleanup and debris removal",
-    "fr": "Plus d'informations sur le nettoyage et le retrait des débris",
     "es": "Más información sobre la limpieza y remoción de escombros",
-    "ko": "청소 및 잔해 제거에 관한 자세한 정보",
+    "ko": "청소 및 잔해 제거에 관한 자세한 내용",
     "vi": "Thêm thông tin về dọn dẹp và di dời đống đổ nát",
     "tl": "Higit pang impormasyon tungkol sa paglilinis at pag-aalis ng kalat",
-    "zh-hans": "更多关于清理和残余物清除的信息",
-    "zh-hant": "更多關於清理和清除雜物的資訊",
-    "hy": "Լրացուցիչ տեղեկություններ մաքրման և աղբի հեռացման վերաբերյալ"
+    "zh-hans": "更多住宅清理及残余物清除的相关信息",
+    "zh-hant": "更多住宅清理及殘餘物清除的相關資訊",
+    "hy": "Լրացուցիչ տեղեկություններ մաքրման և աղբի հեռացման վերաբերյալ",
+    "comment": "Translation delivered 2025-04-23"
   },
   "cleanup_la_county_recovers": {
     "old_key": "cleanup_la_county_recovers_heading",

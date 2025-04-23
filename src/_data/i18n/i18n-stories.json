@@ -1,4 +1,28 @@
 {
+  "story_99762_title": {
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "Governor Newsom welcomes students, teachers and parents back as Palisades Charter High School is set to resume in person instruction",
+    "es": "El gobernador Newsom recibe de vuelta a estudiantes, maestros y padres como Palisades Charter High School se prepara para retomar la instrucción presencial",
+    "ko": "교사와 학부모들이 파리시데스 카롤 히이 스코어 하이 스쿨에서 오디션을 받아 오는 것을 환영합니다",
+    "vi": "Thống đốc Newsom chào đón lại học sinh, giáo viên và phụ huynh khi Palisades Charter High School sắp trở lại dạy học trực tiếp",
+    "tl": "Inihayag ni Gobernador Newsom na muling bubuksan ang Pacific Coast Highway sa oras para sa tag-init habang patuloy na nauuna sa iskedyul ang komprehensibong pagtugon sa sunog ng California",
+    "zh-hans": "州长欢迎学生、教师和家长回到帕利塞德斯特许高中，该校即将恢复面对面教学",
+    "zh-hant": "州長歡迎學生、教師和家長回到帕利塞德斯特許高中，該校即將恢復面對面教學",
+    "hy": "Նահանգապետ Նյուսոմը հայտարարում է, որ Լոս Անջելեսի հրդեհից հետո աղբահանության ծրագիրն ընդլայնելու Կալիֆոռնիայի խնդրանքին"
+  },
+  "story_99679_title": {
+    "status": "ap_review",
+    "comment": "machine translated",
+    "en": "100 days after the fires: California and Los Angeles rebuild, recover, and rise together",
+    "es": "100 días después de los incendios: California y Los Ángeles reconstruyen, recuperan y se levantan juntos",
+    "ko": "100일 후 화재: 캘리포니아와 로스앤젤레스가 함께 재건, 회복하고 올라갑니다",
+    "vi": "100 ngày sa sau của đám cháy: California và Los Angeles khôi phục, phục hồi và tăng trưởng cùng nhau",
+    "tl": "100 araw pagkatapos ng mga sunog: California at Los Angeles na bumuo, bumuo, at umalis nang magkasama",
+    "zh-hans": "100天后的火灾：加州和洛杉矶携手重建、恢复并共同崛起",
+    "zh-hant": "100天後的火災：加州和洛杉磯攜手重建、恢復並共同崛起",
+    "hy": "100 օր անց այսօր է վերջին օրը գրանցվել Լոս Անջելեսի հրդեհի աղբահանության համար"
+  },
   "story_99595_title": {
     "status": "ap_review",
     "comment": "machine translated",
@@ -24,27 +48,28 @@
     "hy": "Նահանգապետ Նյուսոմը հրամանագիր է ստորագրել Լոս Անջելեսի հրդեհի համար աղբահանության պաշտպանությունների ընդլայնման մասին"
   },
   "story_99503_title": {
-    "status": "ap_review",
-    "comment": "machine translated",
+    "status": "avantpage_delivery",
     "en": "Governor Newsom announces Pacific Coast Highway will reopen in time for summer as California’s all-in fire response continues ahead of schedule",
-    "es": "El gobernador Newsom anuncia que la autopista Pacific Coast reabrirá a tiempo para el verano mientras la respuesta integral de California a los incendios continúa adelantada al cronograma",
-    "ko": "Newsom 주지사는 캘리포니아의 화재 대응이 예정보다 앞서 진행됨에 따라 태평양 연안 고속도로가 여름에 맞춰 재개통될 것이라고 발표했습니다",
-    "vi": "Thống đốc Newsom thông báo Xa lộ Bờ biển Thái Bình Dương sẽ mở cửa trở lại kịp thời cho mùa hè khi công tác ứng phó với cháy rừng toàn diện của California tiếp tục vượt tiến độ",
-    "tl": "Inihayag ni Gobernador Newsom na muling bubuksan ang Pacific Coast Highway sa oras para sa tag-init habang patuloy na nauuna sa iskedyul ang komprehensibong pagtugon sa sunog ng California",
-    "zh-hans": "Newsom州长宣布太平洋海岸公路将在夏季前重新开放，加州全面火灾应对工作继续提前进行",
-    "zh-hant": "Newsom州長宣布太平洋海岸公路將在夏季前重新開放，加州全面火災應對工作繼續提前進行",
-    "hy": "Նահանգապետ Նյուսոմը հայտարարում է, որ Խաղաղ օվկիանոսի ափամերձ մայրուղին կվերաբացվի ամռանը, քանի որ Կալիֆոռնիայի հրդեհների դեմ պայքարի աշխատանքները շարունակվում են ժամանակացույցից առաջ"
+    "es": "El gobernador Newsom anuncia que la Pacific Coast Highway reabrirá a tiempo para el verano, mientras la respuesta integral a los incendios en California continúa haciendo avances antes de lo programado.",
+    "ko": "Newsom 주지사는 캘리포니아의 전면적인 화재 대응이 예정보다 앞당겨짐에 따라 태평양 연안 고속도로가 여름에 맞춰 재개통될 것이라고 발표",
+    "vi": "Thống Đốc Newsom thông báo Đường Cao Tốc Ven Biển Thái Bình Dương sẽ mở cửa trở lại kịp thời vào mùa hè khi công tác ứng phó hỏa hoạn toàn diện của California tiếp tục tiến triển trước thời hạn",
+    "tl": "Inanunsyo ni Gobernador Newsom na ang Pacific Coast Highway ay muling magbubukas nang mas maaga sa iskedyul para sa tag-araw habang nagpapatuloy ang all-in fire response ng California",
+    "zh-hans": "Newsom 州长宣布，随着加州全面应对山火的工作持续超前推进，太平洋海岸公路将赶在夏季前重新开放。",
+    "zh-hant": "Newsom 州長宣佈，隨著加州全面應對山火的工作持續超前推進，太平洋海岸公路將趕在夏季前重新開放。",
+    "hy": "Նահանգապետ Նյուսոմը հայտարարում է, որ Pacific Coast մայրուղին կվերաբացվի մինչև ամառ, քանի որ Կալիֆոռնիայում շարունակվում է հրդեհների դեմ լայնածավալ պայքարը ժամանակացույցից շուտ։",
+    "comment": "Translation delivered 2025-04-23"
   },
   "story_99498_title": {
-    "status": "ap_review",
+    "status": "avantpage_delivery",
     "en": "As LA Fire cleanup advances ahead of schedule, deadline nears for debris removal",
-    "es": "A medida que la limpieza de incendios de Los Ángeles avanza antes de lo previsto, se acerca la fecha límite para la remoción de escombros",
-    "ko": "LA 화재 정리가 예정보다 빨리 진행됨에 따라 잔해 제거 마감일이 다가오고 있습니다",
-    "vi": "Khi công tác dọn dẹp đám cháy ở LA tiến triển trước thời hạn, thời hạn dọn dẹp đống đổ nát đang đến gần",
-    "tl": "Habang umuusad ang paglilinis ng sunog sa LA nang mas maaga sa iskedyul, papalapit na ang deadline para sa pag-aalis ng kalat",
-    "zh-hans": "随着洛杉矶火灾清理工作提前进行，清除残骸的截止日期临近",
-    "zh-hant": "隨著洛杉磯火災清理工作提前進行，清除殘骸的截止日期臨近",
-    "hy": "Լոս Անջելեսի հրդեհի մաքրումը ընթանում է ժամանակացույցից առաջ, իսկ աղբահանության ժամկետը մոտենում է"
+    "es": "A medida que la limpieza del incendio de Los Ángeles avanza antes de lo previsto, se acerca la fecha límite para la remoción de escombros.",
+    "ko": "LA 소방대의 정화 작업이 예정보다 빠르게 진행되는 와중에 잔해 제거 신청 임박",
+    "vi": "Khi việc dọn dẹp các đám cháy ở LA tiến hành trước thời hạn, hạn cuối cho việc di dời đống đổ nát cũng đến gần",
+    "tl": "Habang nauuna sa iskedyul ang paglilinis ng LA Fire, malapit na ang deadline para sa pag-alis ng kalat",
+    "zh-hans": "随着洛杉矶消防局提前进行清理工作，清除残余物的最后期限即将到来",
+    "zh-hant": "隨著洛杉磯消防局提前進行清理工作，清除殘餘物的最後期限即將到來",
+    "hy": "Քանի որ Լոս Անջելեսի հրդեհաշիջման աշխատանքներն ընթանում են ժամանակացույցից շուտ, մոտենում է աղբահանության վերջնաժամկետը։",
+    "comment": "Translation delivered 2025-04-23"
   },
   "story_99085_title": {
     "status": "avantpage_delivery",
@@ -191,16 +216,15 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "story_98699_title": {
-    "status": "ap_review",
-    "comment": "machine_translated",
+    "status": "avantpage_delivery",
     "en": "Governor Newsom announces statewide plan for economic growth, $245 million for more jobs — with additional investment for LA&#8217;s recovery",
-    "fr": "Le gouverneur Newsom annonce un plan à l'échelle de l'État pour la croissance économique, 245 millions de dollars pour plus d'emplois — avec un investissement supplémentaire pour la reprise de LA",
-    "es": "El gobernador Newsom anuncia un plan estatal para el crecimiento económico, $245 millones para más empleos — con inversión adicional para la recuperación de LA",
-    "ko": "뉴섬 주지사, 경제 성장을 위한 주 전체 계획, 더 많은 일자리를 위한 2억 4500만 달러 발표 — LA 복구를 위한 추가 투자 포함",
-    "vi": "Thống đốc Newsom công bố kế hoạch toàn tiểu bang về tăng trưởng kinh tế, 245 triệu đô la cho nhiều việc làm hơn — với khoản đầu tư bổ sung cho việc phục hồi của LA",
-    "tl": "Inihayag ni Gobernador Newsom ang planong pambuong-estado para sa paglago ng ekonomiya, $245 milyon para sa mas maraming trabaho — na may karagdagang pamumuhunan para sa pagbangon ng LA",
-    "zh-hans": "纽森州长宣布全州经济增长计划，2.45亿美元用于创造更多就业机会 — 并为洛杉矶复苏提供额外投资",
-    "zh-hant": "紐森州長宣布全州經濟增長計劃，2.45億美元用於創造更多就業機會 — 並為洛杉磯復甦提供額外投資",
-    "hy": "Նահանգապետ Նյուսոմը հայտարարում է տնտեսական աճի նահանգային պլանի, 245 միլիոն դոլար՝ ավելի շատ աշխատատեղերի համար — LA-ի վերականգնման համար լրացուցիչ ներդրումներով"
+    "es": "El gobernador Newsom anuncia un plan estatal para el crecimiento económico, $245 millones para más empleos, con inversión adicional para la recuperación de Los Ángeles.",
+    "ko": "Newsom 주지사, 주 전역 경제 성장 계획 발표, 더 많은 일자리를 창출을 위해 2억 4500만 달러(LA 복구를 위한 추가 투자 포함)",
+    "vi": "Thống Đốc Newsom công bố kế hoạch tăng trưởng kinh tế trên toàn tiểu bang, $245 triệu để gia tăng số lượng việc làm — với khoản đầu tư bổ sung để phục hồi LA",
+    "tl": "Inanunsyo ni Gobernador Newsom ang pambuong estadong plano para sa ekonomikong paglago na $245 milyon para sa mas maraming trabaho — na may karagdagang investment para sa muling pagbangon ng LA",
+    "zh-hans": "Newsom 州长宣布全州经济增长计划，投入 $2.45 亿用于增加就业岗位 — 为洛杉矶的经济复苏提供额外投资",
+    "zh-hant": "Newsom 州長宣佈全州經濟增長計畫，投入 $2.45 億用於增加就業崗位 — 為洛杉磯的經濟復蘇提供額外投資",
+    "hy": "Նահանգապետ Նյուսոմը հայտարարում է ամբողջ նահանգի տնտեսական աճի ծրագրի մասին, որը նախատեսում է 245 միլիոն դոլարի աշխատատեղերի ավելացում և լրացուցիչ ներդրումներ Լոս Անջելեսի վերականգնման համար։",
+    "comment": "Translation delivered 2025-04-23"
   }
 }
