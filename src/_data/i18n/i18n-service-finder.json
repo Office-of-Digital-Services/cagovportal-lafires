@@ -1932,16 +1932,15 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_86_description": {
-    "status": "avantpage_delivery",
-    "en": "Opt in by April 15, 2025, to get free government debris removal. If you don't opt in, you'll need to pay for a private debris removal contractor instead.",
-    "es": "Puede inscribirse antes del 15 de abril de 2025 para que el gobierno retire los escombros sin cargo. Si opta por no participar, tendrá que pagar a un contratista privado para la remoción de los escombros.",
-    "ko": "2025년 4월 15일까지 신청하면 정부의 무료 잔해물 제거 서비스를 받을 수 있습니다. 본 재원을 신청하지 않는다면 민간 잔해물 제거 업체에 비용을 지불해야 합니다.",
-    "vi": "Chọn tham gia trước ngày 15 tháng 4 năm 2025 để được di dời miễn phí đống đổ nát từ chính phủ. Nếu không chọn tham gia, quý vị sẽ phải trả tiền cho dịch vụ di dời đống đổ nát tư nhân do nhà thầu thực hiện.",
-    "tl": "Mag-opt in hanggang Abril 15, 2025 para makatanggap ng libreng pag-aalis ng kalat mula sa gobyerno. Kung hindi ka mag-o-opt in, sa halip ay kakailanganin mong magbayad para sa contractor ng pribadong pag-aalis ng kalat.",
-    "zh-hans": "在 2025 年 4 月 15 日之前选择加入，即可享受政府提供的免费清除残余物服务。未选择加入，需自费雇佣承包商进行清理。",
-    "zh-hant": "在 2025 年 4 月 15 日之前選擇加入，即可享受政府提供的免費清除殘餘物服務。未選擇加入，需自費僱傭承包商進行清理。",
-    "hy": "Ընտրեք մինչև 2025թ․ ապրիլի 15-ը՝ անվճար հանրային աղբահանության ծառայություն ստանալու համար: Չգրանցվելու դեպքում ստիպված եք լինելու կապալառուի կողմից բեկորների հեռացման մասնավոր ծառայության համար վճարել։",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "ap_review",
+    "en": "The deadline to opt in for free debris removal was April 15, 2025. If you have questions about debris removal, call the LA County Public Works Debris Removal Hotline at 844-347-3332 (TTY: 711).",
+    "es": "La fecha límite para optar por la remoción gratuita de escombros era el 15 de abril de 2025. Si tiene preguntas sobre la remoción de escombros, llame a la Línea Directa de Remoción de Escombros del Departamento de Obras Públicas del Condado de Los Ángeles al 844-347-3332 (TTY: 711).",
+    "ko": "무료 잔해물 제거를 선택하는 마감일은 2025년 4월 15일이었습니다. 잔해물 제거에 대한 질문이 있는 경우 LA 카운티 공공사업부 잔해물 제거 핫라인으로 전화하십시오. 844-347-3332 (TTY: 711).",
+    "vi": "Hạn cuối để chọn dịch vụ dọn dẹp miễn phí là ngày 15 tháng 4 năm 2025. Nếu quý vị có câu hỏi về việc dọn dẹp, hãy gọi đến Đường dây nóng Dọn dẹp của Sở Công trình Công cộng Quận LA theo số 844-347-3332 (TTY: 711).",
+    "tl": "Ang huling araw para mag-opt in para sa libreng pag-aalis ng kalat ay noong Abril 15, 2025. Kung mayroon kang mga katanungan tungkol sa pag-aalis ng kalat, tumawag sa LA County Public Works Debris Removal Hotline sa 844-347-3332 (TTY: 711).",
+    "zh-hans": "选择免费清除服务的截止日期为 2025 年 4 月 15 日。如果您对清除服务有疑问，请拨打洛杉矶县公共工程部门的清除热线 844-347-3332 (TTY: 711)。",
+    "zh-hant": "選擇免費清除服務的截止日期為 2025 年 4 月 15 日。如果您對清除服務有疑問，請撥打洛杉磯縣公共工程部門的清除熱線 844-347-3332 (TTY: 711)。",
+    "hy": "Աղբի անվճար հեռացման համար գրանցվելու վերջնաժամկետը 2025 թվականի ապրիլի 15-ն էր: Եթե ​​ունեք հարցեր աղբի հեռացման մասին, զանգահարեք Լոս Անջելեսի շրջանի հանրային աշխատանքների աղբի հեռացման տաք գծին՝ 844-347-3332 (TTY: 711):"
   },
   "sf_88_service_name": {
     "status": "avantpage_delivery",
@@ -2049,42 +2048,6 @@
     "zh-hans": "清除残余物期间，美国陆军工程兵团 (Army Corps) 将移除他们认为高危的树木。但是您可以提交豁免书，要求他们不要移除您房产中的特定树木。",
     "zh-hant": "清除殘餘物期間，美國陸軍工程兵團 (Army Corps) 將移除他們認為高危的樹木。但是您可以提交豁免書，要求他們不要移除您房產中的特定樹木。",
     "hy": "Աղբի հեռացման ժամանակ Բանակային կորպուսը կհեռացնի վտանգ ներկայացնող ծառերը: Բայց Դուք կարող եք ներկայացնել մերժման դիմում և խնդրել նրանց չհանել Ձեր գույքի որոշակի ծառեր:",
-    "comment": "Translation delivered 2025-04-23"
-  },
-  "sf_91_service_name": {
-    "status": "avantpage_delivery",
-    "en": "Free debris removal for some commercial properties",
-    "es": "La remoción de escombros será gratuita para algunas propiedades comerciales",
-    "ko": "일부 상업용 부동산에서 무료 잔해 제거",
-    "vi": "Di dời đống đổ nát miễn phí cho một số bất động sản thương mại",
-    "tl": "Libreng pag-alis ng kalat para sa ilang pangkomersyal na ari-arian",
-    "zh-hans": "免费清除某些商业房产的残余物",
-    "zh-hant": "免費清除某些商業房產的殘餘物",
-    "hy": "Աղբի անվճար հեռացում որոշ կոմերցիոն սեփականությունների համար",
-    "comment": "Translation delivered 2025-04-23"
-  },
-  "sf_91_entity": {
-    "status": "avantpage_delivery",
-    "en": "U.S. Army Corps of Engineers",
-    "es": "Cuerpo de Ingenieros del Ejército de los Estados Unidos",
-    "ko": "미국 육군 공병단",
-    "vi": "Công Binh Lục Quân Hoa Kỳ",
-    "tl": "U.S. Army Corps of Engineers",
-    "zh-hans": "美国陆军工程兵团 (U.S. Army Corps of Engineers, USACE)",
-    "zh-hant": "美國陸軍工程兵團 (U.S. Army Corps of Engineers, USACE)",
-    "hy": "ԱՄՆ բանակի ինժեներների կորպուս",
-    "comment": "Translation delivered 2025-04-23"
-  },
-  "sf_91_description": {
-    "status": "avantpage_delivery",
-    "en": "Opt in by April 15, 2025, to find out if your business qualifies for free government debris removal. ",
-    "es": "Puede inscribirse antes del 15 de abril de 2025 para saber si su negocio califica para que el gobierno retire los escombros sin cargo. ",
-    "ko": "2025년 4월 15일까지 신청하면 귀하의 사업체가 무료 정부 잔해 제거 혜택을 받을 수 있는지 확인할 수 있습니다. ",
-    "vi": "Chọn tham gia trước ngày 15 tháng 4 năm 2025 để tìm hiểu xem doanh nghiệp của quý vị có đủ điều kiện được di dời miễn phí đống đổ nát từ chính phủ. ",
-    "tl": "Mag-opt in hanggang Abril 15, 2025 para malaman kung kwalipikado ang iyong negosyo sa libreng pag-aalis ng kalat mula sa gobyerno. ",
-    "zh-hans": "在 2025 年 4 月 15 日之前选择加入，即可了解您的企业是否有资格获得政府提供的免费残余物清除服务。 ",
-    "zh-hant": "在 2025 年 4 月 15 日之前選擇加入，即可瞭解您的企業是否有資格獲得政府提供的免費殘餘物清除服務。 ",
-    "hy": "Գրանցվե՛ք մինչև 2025թ․ ապրիլի 15-ը՝ տեսնելու, թե արդյոք Ձեր ձեռնարկությունն իրավասու է անվճար պետական աղբահանության համար: ",
     "comment": "Translation delivered 2025-04-23"
   },
   "sf_service_title_essential_help": {
