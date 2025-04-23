@@ -24,17 +24,16 @@
     "hy": "Շնորհակալություն Ձեր ժամանակը կամ գումարը նվիրաբերելու համար: Երբ որոշում եք, թե ինչպես օգնել, ապավինեք վստահելի աղբյուրներին և զգուշացեք խարդախություններից:"
   },
   "vol_keywords": {
-    "status": "ap_review",
-    "comment": "Machine translation",
+    "status": "avantpage_delivery",
     "en": "LA, Los Angeles, fires, wildfires",
-    "fr": "LA, Los Angeles, incendies, incendies de forêt",
-    "es": "LA, Los Angeles, incendios, incendios forestales",
-    "tl": "LA, Los Angeles, mga apoy, mga apoy ng mga apoy",
-    "ko": "LA, Los Angeles, 불, 숲불",
-    "vi": "LA, Los Angeles, lửa, lửa rừng",
-    "zh-hans": "LA, Los Angeles, 火灾, 森林火灾",
-    "zh-hant": "LA, Los Angeles, 火災, 森林火災",
-    "hy": "LA, Los Angeles, այլասերվություն, այլասերվություն այլասերվություն"
+    "es": "LA, Los Ángeles, incendios, incendios forestales",
+    "ko": "LA, 로스앤젤레스, 화재, 산불",
+    "vi": "LA, Los Angeles, hỏa hoạn, cháy rừng",
+    "tl": "LA, Los Angeles, sunog, wildfire",
+    "zh-hans": "LA, 洛杉矶, 大火, 山火",
+    "zh-hant": "LA, 洛杉磯, 火災, 野火",
+    "hy": "LA, Լոս Անջելես, հրդեհներ, անտառային հրդեհներ",
+    "comment": "Translation delivered 2025-04-23"
   },
   "vol_lead_text": {
     "status": "avantpage_delivery",

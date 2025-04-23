@@ -95,17 +95,16 @@
     "hy": "Սկսել վերականգնումը"
   },
   "sidenav_accessing_your_property": {
-    "status": "ap_review",
-    "comment": "machine translated",
+    "status": "avantpage_delivery",
     "en": "Accessing your property",
-    "fr": "Accéder à votre propriété",
     "es": "Acceder a su propiedad",
-    "ko": "소유 재산 접근",
-    "vi": "Truy cập vào tài sản của bạn",
-    "tl": "Pumunta sa iyong property",
-    "zh-hans": "访问您的财产",
-    "zh-hant": "訪問您的財產",
-    "hy": "Անձնական գույքի այլասերման միջոցներ"
+    "ko": "내 부동산 확인하기",
+    "vi": "Tiếp cận bất động sản của quý vị",
+    "tl": "Pagpasok sa iyong property",
+    "zh-hans": "进入您的房产",
+    "zh-hant": "進入您的房產",
+    "hy": "Վերադառնալով Ձեր սեփականություն",
+    "comment": "Translation delivered 2025-04-23"
   },
   "sidenav_cleanup_and_debris_removal": {
     "status": "avantpage_delivery",

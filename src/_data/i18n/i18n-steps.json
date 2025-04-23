@@ -135,30 +135,28 @@
     "hy": "Դուք կարող եք ֆինանսական աջակցություն ստանալ, որը կօգնի Ձեզ վերակառուցման հարցում։"
   },
   "steps_apply_for_fema_disaster_assistance": {
-    "status": "ap_review",
-    "comment": "machine translated",
+    "status": "avantpage_delivery",
     "en": "The deadline has passed to apply for <a href=\"https://disasterassistance.gov\">FEMA disaster assistance</a> (March 31, 2025).",
-    "fr": "La date limite pour demander l'<a href=\"https://disasterassistance.gov\">aide de FEMA en cas de catastrophe</a> a passé (31 mars 2025).",
-    "es": "La fecha límite para solicitar la <a href=\"https://disasterassistance.gov\">asistencia por desastre de FEMA</a> ha pasado (31 de marzo de 2025).",
-    "ko": "<a href=\"https://disasterassistance.gov\">FEMA 재해 지원</a> 신청 마감일이 지났습니다 (2025년 3월 31일).",
-    "vi": "Thời hạn nộp đơn xin <a href=\"https://disasterassistance.gov\">hỗ trợ thiên tai của FEMA</a> đã qua (31 tháng 3, 2025).",
-    "tl": "Ang deadline ay lumipas na para mag-apply para sa <a href=\"https://disasterassistance.gov\">FEMA disaster assistance</a> (Marso 31, 2025).",
-    "zh-hans": "申请<a href=\"https://disasterassistance.gov\">FEMA灾害援助</a>的截止日期已过（2025年3月31日）。",
-    "zh-hant": "申請<a href=\"https://disasterassistance.gov\">FEMA災害援助</a>的截止日期已過（2025年3月31日）。",
-    "hy": "<a href=\"https://disasterassistance.gov\">FEMA աղետի օգնության</a> դիմումի վերջնաժամկետն անցել է (2025թ. մարտի 31)։"
+    "es": "La fecha límite para presentar la solicitud para <a href=\"https://disasterassistance.gov\">asistencia para catástrofes de la Agencia Federal de Gestión de Emergencias (Federal Emergency Management Agency, FEMA)</a> era el 31 de marzo de 2025.",
+    "ko": "<a href=\"https://disasterassistance.gov\">연방재난관리청(Federal Emergency Management Agency, FEMA) 재난 지원</a> 신청 마감일(2025년 3월 31일)이 지났습니다.",
+    "vi": "Hạn cuối để nộp đơn xin <a href=\"https://disasterassistance.gov\">hỗ trợ thảm họa của Cơ Quan Quản Lý Tình Trạng Khẩn Cấp Liên Bang (Federal Emergency Management Agency, FEMA)</a> đã trôi qua (ngày 31 tháng 3 năm 2025).",
+    "tl": "Lumipas na ang huling araw ng pag-apply para sa <a href=\"https://disasterassistance.gov\">tulong sa sakuna ng FEMA</a> (Marso 31, 2025).",
+    "zh-hans": "<a href=\"https://disasterassistance.gov\">联邦紧急事务管理局 (Federal Emergency Management Agency, FEMA) 灾害救援</a>的申请截止日期已过（2025 年 3 月 31 日）。",
+    "zh-hant": "<a href=\"https://disasterassistance.gov\">聯邦緊急事務管理局 (Federal Emergency Management Agency, FEMA) 災害救援</a>的申請截止日期已過（2025 年 3 月 31 日）。",
+    "hy": "<a href=\"https://disasterassistance.gov\">FEMA-ի աղետների օգնության</a> համար դիմելու վերջնաժամկետն արդեն անցել է (2025 թվականի մարտի 31):",
+    "comment": "Translation delivered 2025-04-23"
   },
   "steps_apply_for_disaster_loan": {
-    "status": "ap_review",
-    "comment": "machine translated",
+    "status": "avantpage_delivery",
     "en": "The deadline has also passed to apply for a <a href=\"https://lending.sba.gov/search-disaster\">disaster loan</a> from the Small Business Administration (March 31, 2025).",
-    "fr": "La date limite pour demander un <a href=\"https://lending.sba.gov/search-disaster\">prêt en cas de catastrophe</a> de la Small Business Administration a passé (31 mars 2025).",
-    "es": "La fecha límite para solicitar un <a href=\"https://lending.sba.gov/search-disaster\">préstamo por desastre</a> de la Administración de Pequeñas Empresas ha pasado (31 de marzo de 2025).",
-    "ko": "<a href=\"https://lending.sba.gov/search-disaster\">재해 대출</a> 중소기업청(Small Business Administration) 신청 마감일이 지났습니다 (2025년 3월 31일).",
-    "vi": "Thời hạn nộp đơn xin <a href=\"https://lending.sba.gov/search-disaster\">khoản vay thiên tai</a> từ Cơ Quan Quản Lý Doanh Nghiệp Nhỏ đã qua (31 tháng 3, 2025).",
-    "tl": "Ang deadline ay lumipas na rin para mag-apply para sa <a href=\"https://lending.sba.gov/search-disaster\">disaster loan</a> mula sa Small Business Administration (Marso 31, 2025).",
-    "zh-hans": "申请小企业管理局的<a href=\"https://lending.sba.gov/search-disaster\">灾害贷款</a>的截止日期也已过（2025年3月31日）。",
-    "zh-hant": "申請小企業管理局的<a href=\"https://lending.sba.gov/search-disaster\">災害貸款</a>的截止日期也已過（2025年3月31日）。",
-    "hy": "Փոքր բիզնեսի վարչությունից <a href=\"https://lending.sba.gov/search-disaster\">աղետի վարկի</a> դիմումի վերջնաժամկետն նույնպես անցել է (2025թ. մարտի 31)։"
+    "es": "La fecha límite para presentar la solicitud para <a href=\"https://lending.sba.gov/search-disaster\">préstamo por catástrofe</a> a la Administración de Pequeñas Empresas (Small Business Administration, SBA) también ha pasado (31 de marzo de 2025).",
+    "ko": "중소기업청에 <a href=\"https://lending.sba.gov/search-disaster\">재난 대출</a>을 신청할 수 있는 마감일(2025년 3월 31일) 또한 지났습니다.",
+    "vi": "Hạn cuối để đăng ký <a href=\"https://lending.sba.gov/search-disaster\">khoản vay phục hồi sau thảm họa</a> từ Cơ Quan Quản Lý Doanh Nghiệp Nhỏ cũng đã trôi qua (ngày 31 tháng 3 năm 2025).",
+    "tl": "Lumipas na rin ang huling araw ng pag-apply para sa <a href=\"https://lending.sba.gov/search-disaster\">loan sa sakuna</a> mula sa Small Business Administration (Marso 31, 2025).",
+    "zh-hans": "小企业管理局 (Small Business Administration, SBA) <a href=\"https://lending.sba.gov/search-disaster\">救灾贷款</a>的申请截止日期已过（2025 年 3 月 31 日）。",
+    "zh-hant": "小企業管理局 (Small Business Administration, SBA) <a href=\"https://lending.sba.gov/search-disaster\">救災貸款</a>的申請截止日期已過（2025 年 3 月 31 日）。",
+    "hy": "Փոքր բիզնեսների ադմինիստրացիայի <a href=\"https://lending.sba.gov/search-disaster\">աղետների դեպքում վարկերի</a> համար դիմելու վերջնաժամկետը նույնպես անցել է (2025 թվականի մարտի 31)։",
+    "comment": "Translation delivered 2025-04-23"
   },
   "steps_contact_mortgage_lender": {
     "status": "avantpage_delivery",
@@ -183,17 +181,16 @@
     "hy": "Որոշեք, թե ինչպես հեռացնել աղբը"
   },
   "steps_opt_in_for_free_debris_removal": {
-    "status": "ap_review",
-    "comment": "machine translated",
+    "status": "avantpage_delivery",
     "en": "Opt in to <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">free debris removal</a> from the government by <strong>April 15, 2025</strong>.",
-    "fr": "Inscrivez-vous à l'<a href=\"https://recovery.lacounty.gov/debris-removal/roe\">enlèvement gratuit des débris</a> par le gouvernement avant le <strong>15 avril 2025</strong>.",
-    "es": "Opte por la <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">remoción gratuita de escombros</a> del gobierno antes del <strong>15 de abril de 2025</strong>.",
-    "ko": "<strong>2025년 4월 15일</strong>까지 정부의 <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">무료 잔해 제거</a>를 신청하십시오.",
-    "vi": "Đăng ký tham gia <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">dịch vụ di dời đống đổ nát miễn phí</a> từ chính phủ trước <strong>ngày 15 tháng 4, 2025</strong>.",
-    "tl": "Mag-opt in sa <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">libreng pag-aalis ng kalat</a> mula sa gobyerno bago ang <strong>Abril 15, 2025</strong>.",
-    "zh-hans": "在<strong>2025年4月15日</strong>前选择政府提供的<a href=\"https://recovery.lacounty.gov/debris-removal/roe\">免费残余物清理服务</a>。",
-    "zh-hant": "在<strong>2025年4月15日</strong>前選擇政府提供的<a href=\"https://recovery.lacounty.gov/debris-removal/roe\">免費碎屑清除服務</a>。",
-    "hy": "Մինչև <strong>2025թ. ապրիլի 15-ը</strong> գրանցվեք կառավարության կողմից տրամադրվող <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">անվճար աղբահանության</a> ծրագրին։"
+    "es": "Acepte el <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">servicio gratuito de recolección de escombros</a> por parte del gobierno antes del <strong>15 de abril de 2025</strong>.",
+    "ko": "<strong>2025년 4월 15일</strong>까지 정부에서 제공하는 <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">무료 잔해 제거 서비스</a>를 신청하십시오.",
+    "vi": "Chọn tham gia để được chính quyền <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">di dời miễn phí đống đổ nát</a> chậm nhất vào <strong>ngày 15 tháng 4 năm 2025</strong>.",
+    "tl": "Mag-opt in sa <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">libreng pag-aalis ng kalat</a> mula sa gobyerno hanggang <strong>Abril 15, 2025</strong>.",
+    "zh-hans": "在 <strong>2025 年 4 月 15 日</strong>前选择加入政府提供的<a href=\"https://recovery.lacounty.gov/debris-removal/roe\">免费残余物清除服务</a>。",
+    "zh-hant": "在 <strong>2025 年 4 月 15 日</strong>前選擇加入政府提供的<a href=\"https://recovery.lacounty.gov/debris-removal/roe\">免費殘餘物清除服務</a>。",
+    "hy": "Գրանցվեք <a href=\"https://recovery.lacounty.gov/debris-removal/roe\">աղբի անվճար հեռացման</a> կառավարության ծառայությանը մինչև <strong>2025թ․ ապրիլի 15-ը</strong>։",
+    "comment": "Translation delivered 2025-04-23"
   },
   "steps_pay_for_private_debris_removal": {
     "status": "avantpage_delivery",
