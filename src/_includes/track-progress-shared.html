@@ -570,6 +570,95 @@
         </div>
       </div>
 
+      <!--Permits to rebuild-->
+
+      <h2 class="m-b-md">{{ 'track_progress_permits_to_rebuild' | i18n }}</h2>
+      <p>{{ 'track_progress_permits_to_rebuild_description' | i18n }}</p>
+      <p>
+        {{ 'track_progress_permits_to_rebuild_description_2' | i18n | safe }}
+      </p>
+
+      <div class="row p-t-md">
+        <div class="col-lg-6 m-b-md">
+          <div
+            id="card-palisades-fire-area"
+            class="dashboard-card rounded h-100 d-flex flex-column">
+            <h3
+              class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary d-flex align-items-center">
+              <span class="m-l-sm"
+                >{{ 'track_progress_permits_to_la_county' | i18n }}</span
+              >
+            </h3>
+
+            <div class="bg-primary font-size-12 h-100 p-x-md p-t-sm">
+              <div
+                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+                <img
+                  src="/lafires/images/icon-permits.svg"
+                  width="40"
+                  height="40"
+                  aria-hidden="true" />
+                <span class="dashboard-stat"
+                  ><span id="county_housing_permit_applications_received"></span
+                ></span>
+                <span
+                  >{{ 'track_progress_permit_applications_received' | i18n
+                  }}</span
+                >
+              </div>
+            </div>
+
+            <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
+              <div
+                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+                <img
+                  src="/lafires/images/icon-permits-building.svg"
+                  width="40"
+                  height="40"
+                  aria-hidden="true" />
+                <span class="dashboard-stat"
+                  ><span id="county_housing_permits_issued"></span
+                ></span>
+                <span
+                  >{{ 'track_progress_building_permits_issued' | i18n }}</span
+                >
+              </div>
+            </div>
+
+            <p class="font-size-12 bg-s1 p-a">
+              <em
+                >{{ 'track_progress_building_permits_reported_by' | i18n | safe
+                }}</em
+              ><br /><span id="county_housing_permits_issued_date"></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-b-md">
+          <div
+            id="card-palisades-fire-area"
+            class="dashboard-card rounded h-100 d-flex flex-column">
+            <h3
+              class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary d-flex align-items-center">
+              <span>{{ 'track_progress_permits_to_la_city' | i18n }}</span>
+            </h3>
+
+            <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
+              <div
+                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+                <span>{{ 'track_progress_permits_no_data' | i18n }}</span>
+              </div>
+            </div>
+
+            <p class="font-size-12 bg-s1 p-a">
+              <em> &emsp; </em><br />
+              &emsp;
+              <!--<span id="air_mobile_survey_complete_date3"></span>-->
+            </p>
+          </div>
+        </div>
+      </div>
+
       <!--Water restored-->
       <div class="row m-b-lg">
         <h2 class="m-b-md">{{ 'track_progress_water_restored' | i18n }}</h2>
