@@ -1133,5 +1133,104 @@
     "zh-hant": "固定網站的所有結果均可在南海岸空氣品質管制區的 <a href=\"https://www.aqmd.gov/2025-wildfire-response\">2025 年山火回應頁面上</a>獲得。",
     "hy": "Ստացիոնար տեղամասերից ստացված բոլոր արդյունքները հասանելի են South Coast-i օդի որակի կառավարման շրջանի <a href=\"https://www.aqmd.gov/2025-wildfire-response\">2025 Անտառային հրդեհների արձագանք</a> էջում:",
     "comment": "Translation delivered 2025-04-10"
+  },
+  "track_progress_permits_to_rebuild": {
+    "status": "ap_review",
+    "en": "Permits to rebuild",
+    "es": "Permisos para reconstruir",
+    "ko": "재건 허가",
+    "vi": "Giấy phép xây dựng lại",
+    "tl": "Mga Pahintulot upang muling itayo",
+    "zh-hans": "重建许可证",
+    "zh-hant": "重建許可證",
+    "hy": "Վերակառուցման թույլտվություններ"
+  },
+  "track_progress_permits_to_rebuild_description": {
+    "status": "ap_review",
+    "en": "Survivors must apply for and receive permits to rebuild their homes.",
+    "es": "Los sobrevivientes deben solicitar y recibir permisos para reconstruir sus hogares.",
+    "ko": "생존자는 집을 재건하기 위해 허가를 신청하고 받아야 합니다.",
+    "vi": "Người sống sót phải nộp đơn xin và nhận giấy phép để xây dựng lại nhà của họ.",
+    "tl": "Dapat mag-apply at tumanggap ang mga nakaligtas ng mga pahintulot upang muling itayo ang kanilang mga tahanan.",
+    "zh-hans": "幸存者必须申请并获得重建房屋的许可证。",
+    "zh-hant": "倖存者必須申請並獲得重建房屋的許可證。",
+    "hy": "Կրկին կառուցելու համար վերապրողներն անհրաժեշտ է, որ դիմեն և ստանան թույլտվություններ։"
+  },
+  "track_progress_permits_to_rebuild_description_2": {
+    "status": "ap_review",
+    "en": "Review <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> to learn more about the rebuilding process.",
+    "es": "Revise <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> para obtener más información sobre el proceso de reconstrucción.",
+    "ko": "재건 프로세스에 대한 자세한 내용을 보려면 <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA 카운티 재건</a>을 검토하세요.",
+    "vi": "Xem <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> để tìm hiểu thêm về quy trình xây dựng lại.",
+    "tl": "Suriin ang <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> upang matuto nang higit pa tungkol sa proseso ng muling pagtatayo.",
+    "zh-hans": "查看 <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> 以了解有关重建过程的更多信息。",
+    "zh-hant": "查看 <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> 以了解有關重建過程的更多資訊。",
+    "hy": "Ստուգեք <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> կայքը, որպեսզի ավելին իմանաք վերակառուցման գործընթացի մասին։"
+  },
+  "track_progress_permits_to_la_county": {
+    "status": "ap_review",
+    "en": "Los Angeles County",
+    "es": "Condado de Los Ángeles",
+    "ko": "로스앤젤레스 카운티",
+    "vi": "Quận Los Angeles",
+    "tl": "Lungsod ng Los Angeles",
+    "zh-hans": "洛杉矶县",
+    "zh-hant": "洛杉磯縣",
+    "hy": "Լոս Անջելեսի շրջան"
+  },
+  "track_progress_permit_applications_received": {
+    "status": "ap_review",
+    "en": "permit applications received",
+    "es": "solicitudes de permiso recibidas",
+    "ko": "허가 신청 접수",
+    "vi": "đơn xin giấy phép đã nhận",
+    "tl": "mga aplikasyon ng pahintulot na natanggap",
+    "zh-hans": "已收到的许可证申请",
+    "zh-hant": "已收到的許可證申請",
+    "hy": "թույլտվության դիմումներ են ստացվել"
+  },
+  "track_progress_building_permits_issued": {
+    "status": "ap_review",
+    "en": "building permits issued",
+    "es": "permisos de construcción emitidos",
+    "ko": "발급된 건축 허가",
+    "vi": "giấy phép xây dựng đã cấp",
+    "tl": "mga pahintulot sa pagtatayo na ibinigay",
+    "zh-hans": "已发放建筑许可证",
+    "zh-hant": "已發放建築許可證",
+    "hy": "կառուցապատման թույլտվություններ են տրվել"
+  },
+  "track_progress_building_permits_reported_by": {
+    "status": "ap_review",
+    "en": "Reported by LA County: <a href=\"https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/\">Permitting Progress Dashboard</a>",
+    "es": "Informado por el condado de Los Ángeles: <a href=\"https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/\">Tablero de progreso de permisos</a>",
+    "ko": "LA 카운티에서 보고: <a href=\"https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/\">허가 진행 대시보드</a>",
+    "vi": "Báo cáo của Hạt LA: <a href=\"https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/\">Bảng điều khiển tiến độ cấp phép</a>",
+    "tl": "Iniulat ng LA County: <a href=\"https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/\">Dashboard ng Pag-unlad ng Pahintulot</a>",
+    "zh-hans": "洛杉矶县报告：<a href=\"https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/\">许可进度仪表板</a>",
+    "zh-hant": "洛杉磯縣報告：<a href=\"https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/\">許可進度儀表板</a>",
+    "hy": "Լոս Անջելեսի շրջանի կողմից հաղորդված՝ <a href=\"https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/\">Թույլտվության առաջընթացի վահանակ</a>"
+  },
+  "track_progress_permits_to_la_city": {
+    "status": "ap_review",
+    "en": "City of Los Angeles",
+    "es": "Ciudad de Los Ángeles",
+    "ko": "로스앤젤레스 시",
+    "vi": "Thành phố Los Angeles",
+    "tl": "Lungsod ng Los Angeles",
+    "zh-hans": "洛杉矶市",
+    "zh-hant": "洛杉磯市",
+    "hy": "Լոս Անջելեսի քաղաք"
+  },
+  "track_progress_permits_no_data": {
+    "status": "ap_review",
+    "en": "No public data reported",
+    "es": "No se informaron datos públicos",
+    "ko": "보고된 공개 데이터 없음",
+    "vi": "Không có dữ liệu công khai nào được báo cáo",
+    "tl": "Walang naiulat na pampublikong data",
+    "zh-hans": "未报告公共数据",
+    "zh-hant": "未報告公共數據",
+    "hy": "Հանրային տվյալներ չեն հաղորդվել"
   }
 }

@@ -491,6 +491,44 @@ document.addEventListener("DOMContentLoaded", () => {
             : "N/A";
       }
 
+      /* Permits to rebuild applications received */
+      const county_housing_permit_applications_received_Element =
+        document.getElementById("county_housing_permit_applications_received");
+
+      if (county_housing_permit_applications_received_Element) {
+        const county_housing_permit_applications_received_Value =
+          getMetricValue("county_housing_permit_applications_received");
+        county_housing_permit_applications_received_Element.textContent =
+          county_housing_permit_applications_received_Value !== null
+            ? county_housing_permit_applications_received_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* Permits to rebuild building permits issued */
+      const county_housing_permits_issued_Element = document.getElementById(
+        "county_housing_permits_issued"
+      );
+
+      if (county_housing_permits_issued_Element) {
+        const county_housing_permits_issued_Value = getMetricValue(
+          "county_housing_permits_issued"
+        );
+        county_housing_permits_issued_Element.textContent =
+          county_housing_permits_issued_Value !== null
+            ? county_housing_permits_issued_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* Permits to rebuild building permits issued DATE */
+      const county_housing_permits_issued_date = getLastUpdated(
+        "county_housing_permits_issued"
+      );
+      const county_housing_permits_issued_date_Element =
+        document.getElementById("county_housing_permits_issued_date");
+      if (county_housing_permits_issued_date_Element) {
+        county_housing_permits_issued_date_Element.textContent = `Data as of ${county_housing_permits_issued_date}`;
+      }
+
       /* Air chart */
       /* Calculate air percentages */
       const totalAirValue =
