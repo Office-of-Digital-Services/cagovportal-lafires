@@ -157,16 +157,16 @@
     "hy": "Դպրոցների վերաբացում"
   },
   "track_progress_many_schools_in_fire_areas_damaged": {
-    "status": "avantpage_delivery",
-    "en": "Many public schools operating in fire affected areas were damaged or destroyed. Federal, state, and local government is coordinating to help schools resume instruction for students.",
-    "fr": "De nombreuses écoles publiques opérant dans les zones touchées par les incendies ont été endommagées ou détruites. Les gouvernements fédéral, étatique et local coordonnent leurs efforts pour aider les écoles à reprendre l'enseignement pour les élèves.",
-    "es": "Muchas escuelas públicas que operaban en áreas afectadas por el incendio se dañaron o se destruyeron. Los gobiernos federales, estatales y locales se están coordinando para ayudar a las escuelas a reanudar las clases para los estudiantes.",
-    "ko": "화재 피해 지역에서 운영되고 있는 많은 공립학교가 피해를 입거나 파괴되었습니다. 연방, 주 및 지방 정부는 학교가 학생들을 위한 수업을 재개할 수 있도록 협력하고 있습니다.",
-    "vi": "Nhiều trường công lập hoạt động trong những khu vực bị ảnh hưởng do các đám cháy đã bị hư hại hoặc phá hủy. Chính quyền liên bang, tiểu bang và địa phương đang phối hợp để giúp các trường học tiếp tục giảng dạy cho học sinh.",
-    "tl": "Maraming pampublikong paaralan na nagpapatakbo sa mga lugar na naapektuhan ng sunog ang napinsala o nasira. Ang pederal, pang-estado, at lokal na gobyerno ay nakikipagkoordina para matulungan ang mga paaralan na makapagturong muli sa mga estudyante.",
-    "zh-hans": "灾区多所公立学校受损或损毁。现联邦、州和地方政府正在协调帮助学校复课。",
-    "zh-hant": "許多在火災受災地區運營的公立學校遭到損壞或摧毀。聯邦、州和地方政府正在協調幫助學校恢復學生教學。",
-    "hy": "Հրդեհներից տուժած տարածքներում գործող հանրակրթական դպրոցներից շատերը վնասվել կամ ավերվել են: Դաշնային, նահանգային և տեղական իշխանությունները համակարգում են՝ օգնելու դպրոցներին վերսկսել ուսուցումը աշակերտների համար:"
+    "status": "ap_review",
+    "en": "Many public schools operating in fire affected areas were damaged or destroyed. Federal, state, and local government coordinated to help schools resume instruction for students.",
+    "fr": "De nombreuses écoles publiques situées dans des zones touchées par les incendies ont été endommagées ou détruites. Le gouvernement fédéral, l'État et le gouvernement local se sont coordonnés pour aider les écoles à reprendre l'enseignement pour les élèves.",
+    "es": "Muchas escuelas públicas que operan en áreas afectadas por incendios fueron dañadas o destruidas. El gobierno federal, estatal y local se coordinó para ayudar a las escuelas a reanudar la enseñanza para los estudiantes.",
+    "ko": "화재 피해 지역에서 운영되는 많은 공립학교가 파손되거나 파괴되었습니다. 연방, 주 및 지방 정부는 학생들이 수업을 재개할 수 있도록 협력했습니다.",
+    "vi": "Nhiều trường công lập hoạt động ở các khu vực bị ảnh hưởng bởi hỏa hoạn đã bị hư hại hoặc phá hủy. Chính phủ liên bang, tiểu bang và địa phương đã phối hợp để giúp các trường học tiếp tục giảng dạy cho học sinh.",
+    "tl": "Maraming pampublikong paaralan na tumatakbo sa mga apektadong lugar ng sunog ang nasira o nawasak. Nakipag-ugnayan ang pederal, estado, at lokal na pamahalaan upang matulungan ang mga paaralan na muling ipagpatuloy ang pagtuturo para sa mga mag-aaral.",
+    "zh-hans": "许多在火灾影响地区运营的公立学校遭到破坏或摧毁。联邦、州和地方政府协调合作，帮助学校恢复对学生的教学。",
+    "zh-hant": "許多在火災影響地區運營的公立學校遭到破壞或摧毀。聯邦、州和地方政府協調合作，幫助學校恢復對學生的教學。",
+    "hy": "Հրդեհից տուժած տարածքներում գործող բազմաթիվ հանրակրթական դպրոցներ վնասվել կամ ավերվել են: Դաշնային, նահանգային և տեղական կառավարությունները համակարգել են դպրոցներին ուսուցումը վերսկսելու համար:"
   },
   "track_progress_damaged_or_destroyed_public_schools": {
     "status": "avantpage_delivery",
@@ -216,19 +216,6 @@
     "zh-hant": "面授教學：",
     "hy": "Ուսուցում անձամբ՝",
     "orig_en": "Teaching in-person"
-  },
-  "track_progress_teaching_online": {
-    "status": "avantpage_delivery",
-    "en": "Teaching online:",
-    "fr": "Enseignement en ligne:",
-    "es": "Clases en línea:",
-    "ko": "온라인 수업:",
-    "vi": "Giảng dạy trực tuyến:",
-    "tl": "Pagtuturo online:",
-    "zh-hans": "线上教学：",
-    "zh-hant": "在線教學：",
-    "hy": "Ուսուցում առցանց՝",
-    "orig_en": "Teaching online"
   },
   "track_progress_reported_to_schools_task_force": {
     "status": "avantpage_delivery",
@@ -312,18 +299,6 @@
     "zh-hans": "美国陆军工程兵团清理结构残余物",
     "zh-hant": "美國陸軍工程兵團清理結構殘餘物",
     "hy": "ԱՄՆ բանակի ինժեներական կորպուսը զբաղվում է շինարարական փլատակների մաքրմամբ",
-    "comment": "Translation delivered 2025-04-10"
-  },
-  "track_progress_accepting_phase_2_entry_forms": {
-    "status": "avantpage_delivery",
-    "en": "Currently, LA County is <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">accepting Right of Entry forms</a> for Phase 2. Once validated by the county, the U.S. Army Corps of Engineers assesses properties and begins debris removal.",
-    "es": "Actualmente, el condado de Los Ángeles está <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">aceptando formularios de derecho de entrada (Right of Entry)</a> para la Fase 2. Una vez validados por el condado, el Cuerpo de Ingenieros del Ejército de los EE. UU. evalúa las propiedades y comienza la remoción de escombros.",
-    "ko": "현재 LA 카운티는 2단계 관련하여 <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">출입권 양식을 접수</a>하고 있습니다. 카운티의 검증이 완료되면 미국 육군 공병단이 부동산을 확인하고 잔해 제거를 시작합니다. ",
-    "vi": "Hiện tại, Quận LA đang <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">chấp nhận các biểu mẫu Quyền Tiếp Cận</a> cho Giai Đoạn 2. Sau khi được quận xác nhận, Công Binh Lục Quân Hoa Kỳ sẽ đánh giá bất động sản và bắt đầu di dời đống đổ nát.",
-    "tl": "Sa ngayon, ang County ng LA ay <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">tumatanggap ng mga form ng Karapatang Pumasok</a> para sa Phase 2. Kapag na-validate ito ng county, ia-assess ng U.S. Army Corps of Engineers ang mga pag-aari at magsisimula itong linisin ang mga guho.",
-    "zh-hans": "目前，洛杉矶县正在<a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">接受第 2 阶段的进入权限表</a> 。一旦得到该县的验证，美国陆军工程兵团就会评估房屋并开始清除残余物。",
-    "zh-hant": "目前，洛杉磯縣正在 <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">接受第 2 階段的進入許可權表</a> 。一旦得到該縣的驗證，美國陸軍工程兵團就會評估房屋並開始清除殘餘物。",
-    "hy": "Ներկայումս Լոս Անջելես շրջանը <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329409-58c2a679-5f63\">ընդունում է մուտքի իրավունքի ձևաթղթերը</a> Փուլ 2-ի համար: Վարչաշրջանի կողմից վավերացվելուց հետո ԱՄՆ բանակի ինժեներների կորպուսը գնահատում է հատկությունները և սկսում բեկորների հեռացումը:",
     "comment": "Translation delivered 2025-04-10"
   },
   "track_progress_hazardous_household_waste_cleanup": {
@@ -891,16 +866,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted": {
-    "status": "ap_review",
-    "comment": "machine translated",
+    "status": "avantpage_delivery",
     "en": "mobile surveys, two in each burn area, were conducted.",
-    "es": "encuestas móviles, dos en cada área de incendio.",
-    "ko": "이동식 조사, 각 화재 지역에서 2회씩 실시되었습니다.",
-    "vi": "cuộc khảo sát di động, hai cuộc khảo sát ở mỗi khu vực đám cháy, đã được tiến hành.",
-    "tl": "mobile na pagsusuri, dalawa sa bawat lugar ng sunog, ang isinagawa.",
-    "zh-hans": "移动调查, 每个火灾区两次, 已进行。",
-    "zh-hant": "移動調查, 每個火災區兩次, 已進行。",
-    "hy": "շարժական հետազոտություններ, երկուսը՝ յուրաքանչյուր հրդեհի տարածքում, անցկացվել են։"
+    "es": "encuestas móviles que se realizaron, dos en cada área de incendio.",
+    "ko": "각 화재 지역에서 2회씩 이동식 조사가 실시되었습니다.",
+    "vi": "cuộc khảo sát di động đã được tiến hành, trong đó bao gồm hai cuộc khảo sát ở mỗi khu vực đám cháy.",
+    "tl": "May mga mobile na pagsusuri, dalawa sa bawat lugar ng sunog, na isinasagawa.",
+    "zh-hans": "展开了移动检测，每个火灾区两次。",
+    "zh-hant": "展開了移動監測，每個火災區兩次。",
+    "hy": "կատարվել են շարժական հետազոտություններ, երկուսը՝ յուրաքանչյուր հրդեհի տարածքում։",
+    "comment": "Translation delivered 2025-04-29"
   },
   "track_progress_overall_survey_results_from_eaton_and_palisades_areas_were_within_background_levels": {
     "status": "avantpage_delivery",
@@ -1022,35 +997,41 @@
     "hy": "Իթոնի և Պալիսեյդսի տարածքներում տեղակայված օդի որակի մոնիթորինգի ստացիոնար կետեր",
     "comment": "Translation delivered 2025-04-10"
   },
-
-
-  "track_progress_results": {
+  "track_progress_stationary_air_quality_monitoring_description": {
     "status": "ap_review",
+    "en": "Preliminary analysis of air monitoring samples shows no immediate risk to public health. Residents should continue following guidance from the Los Angeles County Department of Public Health.",
+    "es": "El análisis preliminar de las muestras de monitoreo del aire no muestra un riesgo inmediato para la salud pública. Los residentes deben continuar siguiendo las pautas del Departamento de Salud Pública del Condado de Los Ángeles.",
+    "ko": "대기 모니터링 샘플에 대한 초기 분석 결과 공중 보건에 즉각적인 위험이 없는 것으로 나타났습니다. 주민들은 로스앤젤레스 카운티 공중 보건국의 지침을 계속 따라야 합니다.",
+    "vi": "Phân tích sơ bộ các mẫu giám sát không khí cho thấy không có nguy cơ ngay lập tức đối với sức khỏe cộng đồng. Cư dân nên tiếp tục làm theo hướng dẫn của Sở Y Tế Công Cộng Quận Los Angeles.",
+    "tl": "Ang paunang pagsusuri ng mga sample ng pag-monitor sa hangin ay hindi nagpapakita ng agarang panganib sa kalusugan ng publiko. Dapat ipagpatuloy ng mga residente ang pagsunod sa mga alituntunin mula sa Los Angeles County Department of Public Health.",
+    "zh-hans": "空气监测样本的初步分析显示对公共健康没有直接风险。居民应继续遵循洛杉矶县公共卫生部门的指导。",
+    "zh-hant": "空氣監測樣本的初步分析顯示對公共健康沒有直接風險。居民應繼續遵循洛杉磯縣公共衛生部門的指導。",
+    "hy": "Օդի մոնիթորինգի նմուշների նախնական վերլուծությունը ցույց է տալիս, որ հանրային առողջության համար անմիջական վտանգ չկա: Բնակիչները պետք է շարունակեն հետևել Լոս Անջելեսի շրջանի հանրային առողջության վարչության ուղեցույցներին:"
+  },
+  "track_progress_results": {
+    "status": "avantpage_delivery",
     "en": "Results",
     "es": "Resultados",
     "ko": "결과",
     "vi": "Kết quả",
-    "tl": "Mga resulta",
+    "tl": "Mga Resulta",
     "zh-hans": "结果",
     "zh-hant": "結果",
     "hy": "Արդյունքներ",
-    "comment": "Machine translated"
+    "comment": "Translation delivered 2025-04-29"
   },
-
   "track_progress_eaton_and_palisades_results": {
-    "status": "ap_review",
+    "status": "avantpage_delivery",
     "en": "Eaton and Palisades results",
     "es": "Resultados de Eaton y Palisades",
-    "ko": "이튼과 팔리세이즈 결과",
+    "ko": "이턴 및 펠리세이즈 결과",
     "vi": "Kết quả của Eaton và Palisades",
-    "tl": "Mga resulta ng Eaton at Palisades",
-    "zh-hans": "伊顿和帕利塞兹地区结果",
-    "zh-hant": "伊頓和帕利塞茲地區結果",
-    "hy": "Իթոնի և Պալիսեյդսի տվյալների արդյունքներ",
-    "comment": "Machine translated"
+    "tl": "Mga resulta sa Eaton at Palisades",
+    "zh-hans": "Eaton 和 Palisades 结果",
+    "zh-hant": "Eaton 和 Palisades 結果",
+    "hy": "Իթոնի և Փալիսեյդսի արդյունքներ",
+    "comment": "Translation delivered 2025-04-29"
   },
-
-
   "track_progress_eaton_data_results": {
     "status": "avantpage_delivery",
     "en": "Eaton data results",
@@ -1063,57 +1044,38 @@
     "hy": "Իթոնի տվյալների արդյունքներ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "track_progress_altadena_golf_course_results_1": {
-    "status": "ap_review",
-    "comment": "machine translated",
-    "en": "While some samples are still being analyzed, analysis continues to show levels do not pose an immediate risk to public health. Residents are encouraged to continue following the safety precautions outlined by the Los Angeles County Department of Public Health.",
-    "fr": "Bien que certains échantillons soient encore en cours d'analyse, l'analyse continue de montrer que les niveaux ne présentent pas de risque immédiat pour la santé publique. Les résidents sont encouragés à continuer de suivre les précautions de sécurité décrites par le Département de la Santé Publique du Comté de Los Angeles.",
-    "es": "Aunque algunas muestras todavía están siendo analizadas, el análisis continúa mostrando que los niveles no representan un riesgo inmediato para la salud pública. Se anima a los residentes a seguir las precauciones de seguridad descritas por el Departamento de Salud Pública del Condado de Los Ángeles.",
-    "ko": "일부 샘플은 아직 분석 중이지만, 분석 결과는 계속해서 공중 보건에 즉각적인 위험을 초래하지 않는 수준임을 보여줍니다. 주민들은 로스앤젤레스 카운티 공중보건국이 제시한 안전 예방 조치를 계속 따르도록 권장됩니다.",
-    "vi": "Mặc dù một số mẫu vẫn đang được phân tích, kết quả phân tích tiếp tục cho thấy mức độ không gây ra nguy cơ tức thì đối với sức khỏe cộng đồng. Cư dân được khuyến khích tiếp tục tuân theo các biện pháp phòng ngừa an toàn được nêu ra bởi Sở Y Tế Công Cộng Quận Los Angeles.",
-    "tl": "Habang ang ilang mga sample ay patuloy na sinusuri, ang pagsusuri ay patuloy na nagpapakita na ang mga antas ay hindi nagdudulot ng agarang panganib sa kalusugan ng publiko. Ang mga residente ay hinihikayat na patuloy na sundin ang mga pag-iingat sa kaligtasan na nakabalangkas ng Kagawaran ng Pampublikong Kalusugan ng Los Angeles County.",
-    "zh-hans": "虽然一些样本仍在分析中，但分析结果继续表明水平不会对公共健康构成直接风险。鼓励居民继续遵循洛杉矶县公共卫生部概述的安全预防措施。",
-    "zh-hant": "雖然一些樣本仍在分析中，但分析結果繼續表明水平不會對公共健康構成直接風險。鼓勵居民繼續遵循洛杉磯縣公共衛生部概述的安全預防措施。",
-    "hy": "Մինչ որոշ նմուշներ դեռ վերլուծվում են, վերլուծությունը շարունակում է ցույց տալ, որ մակարդակները անմիջական վտանգ չեն ներկայացնում հանրային առողջության համար: Բնակիչներին խրախուսվում է շարունակել հետևել Լոս Անջելես շրջանի Հանրային առողջության վարչության կողմից նշված անվտանգության նախազգուշական միջոցներին:"
-  },
   "track_progress_altadena_golf_course_results_2": {
     "status": "ap_review",
-    "comment": "machine translated",
-    "en": "Samples from 3/20/25, 3/23/25, and 3/26/25 near Altadena Golf Course and at Christ the Shepherd Lutheran Church and Fire Station 11:",
-    "fr": "Échantillons du 20/03/25, 23/03/25 et 26/03/25 près du terrain de golf d'Altadena et à l'église luthérienne Christ the Shepherd et à la caserne de pompiers 11 :",
-    "es": "Muestras del 20/3/25, 23/3/25 y 26/3/25 cerca del campo de golf de Altadena y en la Iglesia Luterana Christ the Shepherd y la Estación de Bomberos 11:",
-    "ko": "3/20/25, 3/23/25 및 3/26/25에 Altadena 골프 코스와 Christ the Shepherd 루터교회 및 소방서 11 근처 샘플:",
-    "vi": "Mẫu từ 3/20/25, 3/23/25 và 3/26/25 gần Sân Golf Altadena và tại Nhà thờ Lutheran Christ the Shepherd và Trạm cứu hỏa 11:",
-    "tl": "Mga sample mula 3/20/25, 3/23/25, at 3/26/25 malapit sa Altadena Golf Course at sa Christ the Shepherd Lutheran Church at Fire Station 11:",
-    "zh-hans": "来自3/20/25、3/23/25和3/26/25的样本，位于Altadena高尔夫球场和基督牧羊人路德教堂以及11号消防站附近：",
-    "zh-hant": "來自3/20/25、3/23/25和3/26/25的樣本，位於Altadena高爾夫球場和基督牧羊人路德教堂以及11號消防站附近：",
-    "hy": "Նմուշներ 3/20/25, 3/23/25 և 3/26/25-ին՝ Ալտադենայի գոլֆի դաշտի և Քրիստոս Հովիվ լյութերական եկեղեցու և հրշեջ կայան 11-ի մոտ:"
+    "en": "Samples April 10, 13, and 16 near Altadena Golf Course and at Christ the Shepherd Lutheran Church and Fire Station 11:",
+    "es": "Muestras del 10, 13 y 16 de abril cerca del campo de golf de Altadena y en la iglesia luterana Christ the Shepherd y la estación de bomberos 11:",
+    "ko": "Altadena 골프장과 Christ the Shepherd 루터교회 및 소방서 11 근처의 샘플 4월 10일, 13일 및 16일:",
+    "vi": "Mẫu ngày 10, 13 và 16 tháng 4 gần sân golf Altadena và tại nhà thờ Lutheran Christ the Shepherd và Trạm cứu hỏa 11:",
+    "tl": "Mga sample noong Abril 10, 13, at 16 malapit sa Altadena Golf Course at sa Christ the Shepherd Lutheran Church at Fire Station 11:",
+    "zh-hans": "4月10日、13日和16日，位于Altadena高尔夫球场和基督牧羊路德教堂及消防站11附近的样本：",
+    "zh-hant": "4月10日、13日和16日，位於Altadena高爾夫球場和基督牧羊路德教堂及消防站11附近的樣本：",
+    "hy": "Ապրիլի 10, 13 և 16-ի նմուշներ՝ Ալտադենայի գոլֆի խաղադաշտի և Քրիստոս հովիվ լյութերանական եկեղեցու և հրշեջ կայան 11-ի մոտ:"
   },
   "track_progress_eaton_data_list_1": {
     "status": "ap_review",
-    "comment": "machine translated",
-    "en": "All air toxic metals are within background levels. Asbestos was not detected.",
-    "fr": "Tous les métaux toxiques de l'air sont dans les niveaux de fond. L'amiante n'a pas été détecté.",
-    "es": "Todos los metales tóxicos en el aire están dentro de los niveles de fondo. No se detectó asbesto.",
-    "ko": "모든 공기 중 유독 금속은 배경 수준 내에 있습니다. 석면이 검출되지 않았습니다.",
-    "vi": "Tất cả các kim loại độc hại trong không khí đều nằm trong mức nền. Không phát hiện thấy amiang.",
-    "tl": "Lahat ng nakakalason na metal sa hangin ay nasa loob ng mga antas ng background. Walang nakitang asbestos.",
-    "zh-hans": "所有空气有毒金属均在背景水平范围内。未检测到石棉。",
-    "zh-hant": "所有空氣有毒金屬均在背景水平範圍內。未檢測到石棉。",
-    "hy": "Բոլոր օդի թունավոր մետաղները գտնվում են ֆոնային մակարդակներում: Ասբեստը չի հայտնաբերվել."
+    "en": "Some air toxic metals were above background levels, but pose no health risk. No asbestos detected.",
+    "es": "Algunos metales tóxicos en el aire estaban por encima de los niveles normales, pero no representan un riesgo para la salud. No se detectó asbesto.",
+    "ko": "일부 공기 중 유독성 금속은 배경 수준보다 높았지만 건강 위험은 없습니다. 석면이 감지되지 않았습니다.",
+    "vi": "Một số kim loại độc hại trong không khí nằm trên mức nền, nhưng không gây ra rủi ro sức khỏe. Không phát hiện thấy amiăng.",
+    "tl": "May ilang air toxic metal na mas mataas sa mga background level, pero wala itong panganib sa kalusugan. Walang na-detect na asbestos.",
+    "zh-hans": "一些空气中的有毒金属高于背景水平，但不会对健康构成威胁。未检测到石棉。",
+    "zh-hant": "一些空氣中的有毒金屬高於背景水準，但不會對健康構成威脅。未檢測到石棉。",
+    "hy": "Օդի որոշ թունավոր մետաղների պարունակությունը գերազանցում էր ֆոնային մակարդակները, բայց առողջության համար վտանգ չէր ներկայացնում: Ասբեստ չի հայտնաբերվել։"
   },
   "track_progress_eaton_data_list_2": {
     "status": "ap_review",
-    "comment": "machine translated",
-    "en": "To date, continuous PM10 and PM2.5 hourly data were below federal standards.",
-    "fr": "À ce jour, les données horaires continues de PM10 et PM2,5 étaient inférieures aux normes fédérales.",
-    "es": "Hasta la fecha, los datos horarios continuos de PM10 y PM2.5 estaban por debajo de los estándares federales.",
-    "ko": "현재까지 연속적인 PM10 및 PM2.5 시간별 데이터는 연방 기준 이하였습니다.",
-    "vi": "Cho đến nay, dữ liệu hàng giờ liên tục về PM10 và PM2.5 đều thấp hơn tiêu chuẩn liên bang.",
-    "tl": "Hanggang sa kasalukuyan, ang tuluy-tuloy na PM10 at PM2.5 hourly data ay nasa ilalim ng mga federal standards.",
-    "zh-hans": "迄今为止，连续的PM10和PM2.5每小时数据均低于联邦标准。",
-    "zh-hant": "迄今為止，連續的PM10和PM2.5每小時數據均低於聯邦標準。",
-    "hy": "Մինչ օրս, շարունակական PM10 և PM2.5 ժամային տվյալները եղել են դաշնային ստանդարտներից ցածր:"
+    "en": "PM10 and PM2.5 levels remain below federal standards.",
+    "es": "Los niveles de PM10 y PM2.5 siguen por debajo de los estándares federales.",
+    "ko": "PM10 및 PM2.5 수치는 여전히 연방 기준 이하입니다.",
+    "vi": "Mức độ PM10 và PM2.5 vẫn dưới tiêu chuẩn liên bang.",
+    "tl": "Ang mga antas ng PM10 at PM2.5 ay nananatiling mas mababa sa mga pamantayan ng pederal.",
+    "zh-hans": "PM10 和 PM2.5 水平仍低于联邦标准。",
+    "zh-hant": "PM10 和 PM2.5 水準仍低於聯邦標準。",
+    "hy": "PM10 և PM2.5 մակարդակները մնում են դաշնային չափանիշներից ցածր։"
   },
   "track_progress_palisades_data_results": {
     "status": "avantpage_delivery",
@@ -1127,57 +1089,38 @@
     "hy": "Պալիսեյդսի տվյալների արդյունքներ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "track_progress_will_rogers_results_1": {
-    "status": "ap_review",
-    "comment": "machine translated",
-    "en": "While some samples are still being analyzed, analysis continues to show levels do not pose an immediate risk to public health. Residents are encouraged to continue following the safety precautions outlined by the Los Angeles County Department of Public Health. ",
-    "fr": "Bien que certains échantillons soient encore en cours d'analyse, l'analyse continue de montrer que les niveaux ne présentent pas de risque immédiat pour la santé publique. Les résidents sont encouragés à continuer de suivre les précautions de sécurité décrites par le Département de la Santé Publique du Comté de Los Angeles.",
-    "es": "Aunque algunas muestras todavía están siendo analizadas, el análisis continúa mostrando que los niveles no representan un riesgo inmediato para la salud pública. Se anima a los residentes a seguir las precauciones de seguridad descritas por el Departamento de Salud Pública del Condado de Los Ángeles.",
-    "ko": "일부 샘플은 아직 분석 중이지만, 분석 결과는 계속해서 수준이 공중 보건에 즉각적인 위험을 초래하지 않는다는 것을 보여줍니다. 주민들은 로스앤젤레스 카운티 공중보건부가 제시한 안전 예방 조치를 계속 따르도록 권장됩니다.",
-    "vi": "Mặc dù một số mẫu vẫn đang được phân tích, kết quả phân tích tiếp tục cho thấy mức độ không gây ra nguy cơ tức thì đối với sức khỏe cộng đồng. Cư dân được khuyến khích tiếp tục tuân theo các biện pháp phòng ngừa an toàn được nêu ra bởi Sở Y tế Công cộng Quận Los Angeles.",
-    "tl": "Habang ang ilang mga sample ay patuloy na sinusuri, ang pagsusuri ay patuloy na nagpapakita na ang mga antas ay hindi nagdudulot ng agarang panganib sa kalusugan ng publiko. Ang mga residente ay hinihikayat na patuloy na sundin ang mga pag-iingat sa kaligtasan na nakabalangkas ng Los Angeles County Department of Public Health.",
-    "zh-hans": "虽然一些样本仍在分析中，但分析结果继续表明水平不会对公共健康构成直接风险。鼓励居民继续遵循洛杉矶县公共卫生部概述的安全预防措施。",
-    "zh-hant": "雖然一些樣本仍在分析中，但分析結果繼續表明水平不會對公共健康構成直接風險。鼓勵居民繼續遵循洛杉磯縣公共衛生部概述的安全預防措施。",
-    "hy": "Մինչ որոշ նմուշներ դեռ վերլուծվում են, վերլուծությունը շարունակում է ցույց տալ, որ մակարդակները անմիջական վտանգ չեն ներկայացնում հանրային առողջության համար: Բնակիչներին խրախուսվում է շարունակել հետևել Լոս Անջելես շրջանի Հանրային առողջապահության վարչության կողմից նշված անվտանգության նախազգուշական միջոցներին:"
-  },
   "track_progress_will_rogers_results_2": {
     "status": "ap_review",
-    "comment": "machine translated",
-    "en": "Samples from 3/20/25, 3/23/25, and 3/26/25 near Will Rogers State Beach and at Fire Station 69:",
-    "fr": "Échantillons du 20/03/25, 23/03/25 et 26/03/25 près de la plage d'État de Will Rogers et à la caserne de pompiers 69 :",
-    "es": "Muestras del 20/3/25, 23/3/25 y 26/3/25 cerca de la playa estatal de Will Rogers y en la estación de bomberos 69:",
-    "ko": "Will Rogers 주 해변과 소방서 69 근처의 3/20/25, 3/23/25 및 3/26/25 샘플:",
-    "vi": "Mẫu từ 3/20/25, 3/23/25 và 3/26/25 gần Bãi biển Bang Will Rogers và Trạm cứu hỏa 69:",
-    "tl": "Mga sample mula 3/20/25, 3/23/25, at 3/26/25 malapit sa Will Rogers State Beach at Fire Station 69:",
-    "zh-hans": "来自3/20/25、3/23/25和3/26/25的样本，位于Will Rogers州立海滩和69号消防站附近：",
-    "zh-hant": "來自3/20/25、3/23/25和3/26/25的樣本，位於Will Rogers州立海灘和69號消防站附近：",
-    "hy": "Նմուշներ 3/20/25, 3/23/25 և 3/26/25-ին՝ Ուիլ Ռոջերսի նահանգային ծովափի և հրշեջ կայան 69-ի մոտ:"
+    "en": "Samples from April 10, 13, and 16 near Will Rogers State Beach and at Fire Station 69:",
+    "es": "Muestras del 10, 13 y 16 de abril cerca de Will Rogers State Beach y en la estación de bomberos 69:",
+    "ko": "윌 로저스 주립 해변과 소방서 69 근처의 샘플 4월 10일, 13일 및 16일:",
+    "vi": "Mẫu ngày 10, 13 và 16 tháng 4 gần Bãi biển Bang Will Rogers và Trạm cứu hỏa 69:",
+    "tl": "Mga sample noong Abril 10, 13, at 16 malapit sa Will Rogers State Beach at sa Fire Station 69:",
+    "zh-hans": "4月10日、13日和16日，位于威尔·罗杰斯州立海滩和69号消防站附近的样本：",
+    "zh-hant": "4月10日、13日和16日，位於威爾·羅傑斯州立海灘和69號消防站附近的樣本：",
+    "hy": "Ապրիլի 10, 13 և 16-ի նմուշներ՝ Ուիլ Ռոջերսի նահանգային ծովափի և 69 հրշեջ կայանի մոտ:"
   },
   "track_progress_pasisades_data_list_1": {
     "status": "ap_review",
-    "comment": "machine translated",
-    "en": "Some air toxic metals were above background levels, but do not pose an immediate health risk. Asbestos was detected on 3/26/25 at Fire Station 69.",
-    "fr": "Certains métaux toxiques de l'air étaient supérieurs aux niveaux de fond, mais ne présentent pas de risque immédiat pour la santé. L'amiante a été détecté le 26/03/25 à la caserne de pompiers 69.",
-    "es": "Algunos metales tóxicos en el aire estaban por encima de los niveles de fondo, pero no representan un riesgo inmediato para la salud. Se detectó asbesto el 26/03/25 en la estación de bomberos 69.",
-    "ko": "일부 공기 중 유독 금속은 배경 수준 이상이었지만 즉각적인 건강 위험을 초래하지는 않았습니다. 석면은 3/26/25에 소방서 69에서 검출되었습니다.",
-    "vi": "Một số kim loại độc hại trong không khí vượt mức nền, nhưng không gây nguy cơ sức khỏe tức thì. Amiăng được phát hiện vào ngày 26/03/25 tại Trạm cứu hỏa 69.",
-    "tl": "Ang ilang mga nakakalason na metal sa hangin ay nasa itaas ng mga antas ng background, ngunit hindi nagdudulot ng agarang panganib sa kalusugan. Ang asbestos ay natagpuan noong 3/26/25 sa Fire Station 69.",
-    "zh-hans": "一些空气有毒金属高于背景水平，但不会对健康构成直接威胁。2025年3月26日在69号消防站检测到石棉。",
-    "zh-hant": "一些空氣有毒金屬高於背景水平，但不會對健康構成直接威脅。2025年3月26日在69號消防站檢測到石棉。",
-    "hy": "Օդի որոշ թունավոր մետաղներ գերազանցում են ֆոնային մակարդակները, բայց անմիջական առողջական վտանգ չեն ներկայացնում: Ասբեստը հայտնաբերվել է 2025թ. մարտի 26-ին՝ հրշեջ կայան 69-ում:"
+    "en": "Some air toxic metals were above background levels, but pose nohealth risk. Asbestos was detected on April 13 at Fire Station 69.",
+    "es": "Algunos metales tóxicos en el aire estaban por encima de los niveles normales, pero no representan un riesgo para la salud. Se detectó asbesto el 13 de abril en la estación de bomberos 69.",
+    "ko": "일부 공기 중 유독성 금속은 배경 수준보다 높았지만 건강 위험은 없습니다. 4월 13일 소방서 69에서 석면이 감지되었습니다.",
+    "vi": "Một số kim loại độc hại trong không khí nằm trên mức nền, nhưng không gây ra rủi ro sức khỏe. Amiăng đã được phát hiện vào ngày 13 tháng 4 tại Trạm cứu hỏa 69.",
+    "tl": "May ilang air toxic metal na mas mataas sa mga background level, pero wala itong panganib sa kalusugan. Natukoy ang asbestos noong Abril 13 sa Fire Station 69.",
+    "zh-hans": "一些空气中的有毒金属高于背景水平，但不会对健康构成威胁。4月13日在69号消防站检测到石棉。",
+    "zh-hant": "一些空氣中的有毒金屬高於背景水準，但不會對健康構成威脅。4月13日在69號消防站檢測到石棉。",
+    "hy": "Օդի որոշ թունավոր մետաղների պարունակությունը գերազանցում էր ֆոնային մակարդակները, բայց առողջության համար վտանգ չէր ներկայացնում: Ապրիլի 13-ին 69 հրշեջ կայանում հայտնաբերվել է ասբեստ։"
   },
   "track_progress_pasisades_data_list_2": {
     "status": "ap_review",
-    "comment": "machine translated",
-    "en": "To date, continuous PM10 and PM2.5 hourly data were below federal standards.",
-    "fr": "À ce jour, les données horaires continues de PM10 et PM2,5 étaient inférieures aux normes fédérales.",
-    "es": "Hasta la fecha, los datos horarios continuos de PM10 y PM2.5 estaban por debajo de los estándares federales.",
-    "ko": "현재까지 연속적인 PM10 및 PM2.5 시간별 데이터는 연방 기준 이하였습니다.",
-    "vi": "Cho đến nay, dữ liệu hàng giờ liên tục về PM10 và PM2.5 đều thấp hơn tiêu chuẩn liên bang.",
-    "tl": "Hanggang sa kasalukuyan, ang tuluy-tuloy na PM10 at PM2.5 hourly data ay nasa ilalim ng mga federal standards.",
-    "zh-hans": "迄今为止，连续的PM10和PM2.5每小时数据均低于联邦标准。",
-    "zh-hant": "迄今為止，連續的PM10和PM2.5每小時數據均低於聯邦標準。",
-    "hy": "Մինչ օրս, շարունակական PM10 և PM2.5 ժամային տվյալները եղել են դաշնային ստանդարտներից ցածր:"
+    "en": "PM10 and PM2.5 levels remain below federal standards.",
+    "es": "Los niveles de PM10 y PM2.5 siguen por debajo de los estándares federales.",
+    "ko": "PM10 및 PM2.5 수치는 여전히 연방 기준 이하입니다.",
+    "vi": "Mức độ PM10 và PM2.5 vẫn dưới tiêu chuẩn liên bang.",
+    "tl": "Ang mga antas ng PM10 at PM2.5 ay nananatiling mas mababa sa mga pamantayan ng pederal.",
+    "zh-hans": "PM10 和 PM2.5 水平仍低于联邦标准。",
+    "zh-hant": "PM10 和 PM2.5 水準仍低於聯邦標準。",
+    "hy": "PM10 և PM2.5 մակարդակները մնում են դաշնային չափանիշներից ցածր։"
   },
   "track_progress_all_results_from_the_stationary_sites_are_available": {
     "status": "avantpage_delivery",

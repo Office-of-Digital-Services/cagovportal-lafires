@@ -191,20 +191,17 @@
     "zh-hant": "如何清除雜物",
     "hy": "Ստացեք օգնություն աղբի հեռացման հարցում"
   },
-
   "home_apply_for_fema_individual_assistance": {
-    "status": "ap_review",
-    "comment": "Machine translated",
+    "status": "avantpage_delivery",
     "en": "To apply for <a href=\"http://disasterassistance.gov\">FEMA Individual Assistance</a>",
-    "fr": "Pour appliquer pour <a href=\"http://disasterassistance.gov\">l'Aide individuelle FEMA</a>",
-    "es": "Para solicitar <a href=\"http://disasterassistance.gov\">asistencia individual de la Agencia Federal para el Manejo de Emergencias (FEMA)</a>",
-    "ko": "<a href=\"http://disasterassistance.gov\">FEMA 개인 지원</a> 신청을 위해",
-    "vi": "Để đơn xin nhận <a href=\"http://disasterassistance.gov\">Hỗ Trợ Cá Nhân của Cơ Quan Quản Lý Tình Trạng Khẩn Cấp Liên Bang (FEMA)</a>",
+    "es": "Para solicitar <a href=\"http://disasterassistance.gov\">asistencia individual de la Agencia Federal para el Manejo de Emergencias (Federal Emergency Management Agency, FEMA)</a>",
+    "ko": "<a href=\"http://disasterassistance.gov\">FEMA 개인 지원</a> 신청하기",
+    "vi": "Để nộp đơn xin nhận <a href=\"http://disasterassistance.gov\">Hỗ Trợ Cá Nhân của Cơ Quan Quản Lý Tình Trạng Khẩn Cấp Liên Bang (Federal Emergency Management Agency, FEMA)</a>",
     "tl": "Para mag-apply para sa <a href=\"http://disasterassistance.gov\">Tulong sa Indibidwal ng FEMA</a>",
-    "zh-hans": "要申请 <a href=\"http://disasterassistance.gov\">FEMA 个人援助计划</a>",
-    "zh-hant": "要申請 <a href=\"http://disasterassistance.gov\">FEMA 個人援助</a>",
-    "hy": "Որպեսզի դիմեք <a href=\"http://disasterassistance.gov\">FEMA-ի անհատական օգնության</a> համար",
-    "orig_en": "Apply for <link>FEMA Individual Assistance</link>"
+    "zh-hans": "申请<a href=\"http://disasterassistance.gov\">联邦紧急事务管理局 (Federal Emergency Management Agency, FEMA) 的个人援助</a>",
+    "zh-hant": "申請<a href=\"http://disasterassistance.gov\">聯邦緊急事務管理局 (Federal Emergency Management Agency, FEMA) 的個人援助</a>",
+    "hy": "Դիմեք <a href=\"http://disasterassistance.gov\">FEMA-ի անհատական օգնության</a> համար",
+    "comment": "Translation delivered 2025-04-23"
   },
   "home_what_you_can_do": {
     "status": "avantpage_delivery",

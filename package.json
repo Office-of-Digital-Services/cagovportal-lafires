@@ -1,6 +1,6 @@
 {
   "name": "www.lafires.ca.gov",
-  "version": "6.4.2",
+  "version": "6.5.1",
   "description": "www.ca.gov/lafires",
   "scripts": {
     "start": "cross-env MY_ENVIRONMENT=local npx @11ty/eleventy --serve",
