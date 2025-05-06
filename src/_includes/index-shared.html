@@ -41,19 +41,64 @@
   </div>
 </div>
 
+<div
+  class="bg p-b-lg"
+  style="background: url(/lafires/images/moutains.svg) no-repeat top / cover;">
+  <div class="container">
+    <h2>{{ 'home_highlights' | i18n }}</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="bg-white p-a-md">
+          <h3 class="h4 text-center color-p2 m-t-0">
+            <!-- Free debris removal - opt in by April 15, 2025 -->
+            {{ 'home_highlights_title_1' | i18n }}
+          </h3>
+          <p class="color-p2">
+            <!-- Homeowners can
+            <a href="https://recovery.lacounty.gov/debris-removal-2/roe/"
+              >opt in for free debris removal</a
+            >. Businesses are also encouraged to apply. -->
+            {{ 'home_highlights_description_1' | i18n | safe }}
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="bg-white p-a-md">
+          <h3 class="h4 text-center color-p2 m-t-0">
+            <!-- Understand temporary housing options -->
+            {{ 'home_highlights_title_2' | i18n }}
+          </h3>
+          <p class="color-p2">
+            <!-- This includes permits needed for an ADU on your property. Visit
+            <a href="#">Temporary housing</a>. -->
+            {{ 'home_highlights_description_2' | i18n | safe }}
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="bg-white p-a-md">
+          <h3 class="h4 text-center color-p2 m-t-0">
+            <!-- Disaster support for businesses -->
+            {{ 'home_highlights_title_3' | i18n }}
+          </h3>
+          <p class="color-p2">
+            <!-- EDD offers services including
+            <a href="#">disaster relief payments</a> and
+            <a href="#">extensions for payments</a>. -->
+            {{ 'home_highlights_description_3' | i18n | safe }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="section-understated">
   <div class="container p-t-lg p-b-lg">
     <h2 class="m-y-0 font-size-25">{{ 'home_top_needs' | i18n }}</h2>
     <div class="row">
-      <div class="col-lg-4 m-t-md">
-        <a
-          href="{{ '/lafires/stay-healthy/' | localizedPath }}"
-          class="link-grid bg-white bg-gray-50-hover no-icon"
-          ><h3 class="m-a-0 font-size-20 bold">
-            {{ 'home_stay_healthy' | i18n }}
-          </h3></a
-        >
-      </div>
       <div class="col-lg-4 m-t-md">
         <a
           href="{{ '/lafires/get-help-online/#Replacing-your-personal-documents' | localizedPath }}"
@@ -72,6 +117,15 @@
           </h3></a
         >
       </div>
+      <div class="col-lg-4 m-t-md">
+        <a
+          href="{{ '/lafires/help-for-you/get-help-in-person/plan-your-in-person-visit/' | localizedPath }}"
+          class="link-grid bg-white bg-gray-50-hover no-icon"
+          ><h3 class="m-a-0 font-size-20 bold">
+            {{ 'home_get_help_in_person' | i18n }}
+          </h3></a
+        >
+      </div>
     </div>
   </div>
 </div>
@@ -85,7 +139,7 @@
         class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
         <h3 class="m-t-md m-b">
           <a
-            href="{{ '/lafires/get-help-online/' | localizedPath }}"
+            href="{{ '/lafires/help-for-you/' | localizedPath }}"
             class="color-p2 link-before text-left no-underline d-block"
             >{{ 'home_help_online_title' | i18n }}</a
           >
@@ -101,15 +155,27 @@
           <a
             href="{{ '/lafires/get-help-in-person/' | localizedPath }}"
             class="color-p2 link-before text-left no-underline d-block"
-            >{{ 'home_help_in_person_title' | i18n }}</a
+            >{{ 'home_help_for_your_business_title' | i18n }}</a
           >
         </h3>
         <p class="m-b text-left">
-          {{ 'home_help_in_person_description' | i18n }}
+          {{ 'home_help_for_your_business_description' | i18n }}
         </p>
       </div>
     </div>
+  </div>
 
+  <div
+    class="bg-white p-x-md p-b-md pos-rel brd-solid-1 brd-gray-200 m-t-md m-b-lg rounded">
+    <h3 class="m-t-md m-b">
+      <span class="ca-gov-icon-search-right" aria-hidden="true"></span>
+      <span class="color-p2">{{ 'home_finder_title' | i18n }}</span>
+    </h3>
+    <p>{{ 'home_finder_description' | i18n | safe }}</p>
+  </div>
+
+  <h2 class="m-b-0">{{ 'home_stay_up_to_date' | i18n }}</h2>
+  <div class="row">
     <div class="col-lg-6 m-t-md">
       <div
         class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
@@ -131,66 +197,12 @@
         class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
         <h3 class="m-t-md m-b">
           <a
-            href="{{ '/lafires/start-your-recovery/' | localizedPath }}"
+            href="{{ '/lafires//track-progress/' | localizedPath }}"
             class="color-p2 link-before text-left no-underline d-block"
-            >{{ 'home_start_your_recovery' | i18n }}</a
+            >{{ 'home_tracker_title' | i18n }}</a
           >
         </h3>
-        <p class="m-b text-left">
-          {{ 'home_learn_when_you_can_return_home_and_how_to_start_recovering' |
-          i18n }}
-        </p>
-      </div>
-    </div>
-
-    <div class="col-lg-6 m-t-md">
-      <div
-        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
-        <h3 class="m-t-md m-b">
-          <a
-            href="{{ '/lafires/help-your-business/' | localizedPath }}"
-            class="color-p2 link-before text-left no-underline d-block"
-            >{{ 'home_help_business_title' | i18n }}</a
-          >
-        </h3>
-        <p class="m-b text-left">
-          {{
-          'home_businesses_affected_by_the_fires_can_get_tax_relief_and_extensions'
-          | i18n }}
-        </p>
-      </div>
-    </div>
-
-    <div class="col-lg-6 m-t-md">
-      <div
-        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
-        <h3 class="m-t-md m-b">
-          <a
-            href="{{ '/lafires/volunteer/' | localizedPath }}"
-            class="color-p2 link-before text-left no-underline d-block"
-            >{{ 'home_volunteer' | i18n }}</a
-          >
-        </h3>
-        <p class="m-b text-left">
-          {{ 'home_give_time_or_money_to_help_people_affected_by_the_fires' |
-          i18n }}
-        </p>
-      </div>
-    </div>
-
-    <div class="col-lg-6 m-t-md">
-      <div
-        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
-        <h3 class="m-t-md m-b">
-          <a
-            href="{{ '/lafires/recovery-services-finder/' | localizedPath }}"
-            class="color-p2 link-before text-left no-underline d-block"
-            >{{ 'home_services_finder_title' | i18n }}</a
-          >
-        </h3>
-        <p class="m-b text-left">
-          {{ 'home_services_finder_description' | i18n }}
-        </p>
+        <p class="m-b text-left">{{ 'home_tracker_description' | i18n }}</p>
       </div>
     </div>
   </div>
@@ -199,19 +211,23 @@
 <div class="section-understated">
   <div class="container p-t-lg p-b-lg">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-4">
         <h2 class="h3 m-t-0">{{ 'home_help_us_improve' | i18n }}</h2>
         <p>
           {{ 'home_tell_us_what_this_website_could_do_better' | i18n | safe }}
         </p>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-4">
         <h2 class="h3 m-t-0">{{ 'home_join_the_conversation' | i18n }}</h2>
         <p>
           {{
           'home_sign_up_to_tell_us_about_your_recovery_experience_and_hear_from_others'
           | i18n | safe }}
         </p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="h3 m-t-0">{{ 'home_volunteer_title' | i18n }}</h2>
+        <p>{{ 'home_volunteer_description' | i18n | safe }}</p>
       </div>
     </div>
   </div>
