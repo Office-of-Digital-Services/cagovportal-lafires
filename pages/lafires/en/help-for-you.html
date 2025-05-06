@@ -1,0 +1,67 @@
+---
+title: Help for you and your family
+description: Get help with your basic needs and start your recovery.
+keywords: LA, Los Angeles, fires, wildfires
+permalink: /lafires/help-for-you/
+---
+
+{#- include "src/_includes/get-help-online-shared.html" -#}
+
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/help-for-you-lineart.svg?v2') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">{{'help_online_lead_text' | i18n}}</p>
+
+      <nav class="page-navigation"></nav>
+
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-gray-50 p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-100 rounded">
+            <div class="h4 m-t-md" role="heading" aria-level="2">
+              Get help in person
+            </div>
+            <p>
+              Find help and advice in person at a
+              <a href="/lafires/get-help-in-person/">Disaster Recovery Center</a
+              >.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-gray-50 p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-100 rounded">
+            <div class="h4 m-t-md" role="heading" aria-level="2">
+              Find services you need
+            </div>
+            <p>
+              Not sure where to start? Use our to find help
+
+              <a href="/lafires/get-help-in-person/">service finder tool</a>
+              available to you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
