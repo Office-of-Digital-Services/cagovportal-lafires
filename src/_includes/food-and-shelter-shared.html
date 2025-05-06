@@ -1,0 +1,116 @@
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/help-for-you-lineart.svg?v2') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">
+        Find food banks, food benefits, emergency shelters, and temporary
+        housing options. {# {{ 'food_and_shelter_lead' | i18n }} #}
+      </p>
+
+      <nav class="page-navigation"></nav>
+
+      <h2>Food {# {{ 'food_and_shelter_food' | i18n }} #}</h2>
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="https://cdss.ca.gov/food-banks">
+                Food banks {# {{ 'food_and_shelter_card_1_title' | i18n }} #}
+              </a>
+            </h3>
+            <p>
+              Your local food bank can connect you with free food and groceries.
+              {# {{ 'food_and_shelter_card_1_description' | i18n }} #}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a
+                href="https://myfamily.wic.ca.gov/Home/HowCanIGetWIC#HowCanIGetWIC">
+                WIC food benefits {# {{ 'food_and_shelter_card_2_title' | i18n
+                }} #}
+              </a>
+            </h3>
+            <p>
+              The California Women, Infants and Children (WIC) program supports
+              growing families with low incomes. {# {{
+              'food_and_shelter_card_2_description' | i18n }} #}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="https://benefitscal.com/">
+                CalFresh food benefits {# {{ 'food_and_shelter_card_3_title' |
+                i18n }} #}
+              </a>
+            </h3>
+            <p>
+              CalFresh offers food benefits for people with low incomes. {# {{
+              'food_and_shelter_card_3_description' | i18n }} #}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Shelter {# {{ 'food_and_shelter_shelter' | i18n }} #}</h2>
+
+      <div class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded">
+        <h3 class="h4 m-t-md">
+          Emergency shelters {# {{ 'food_and_shelter_card_4_title' | i18n }} #}
+        </h3>
+        <p>
+          Emergency shelters for the LA fires are now closed. {# {{
+          'food_and_shelter_card_4_description' | i18n }} #}
+        </p>
+      </div>
+
+      <div
+        class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded m-t-md">
+        <h3 class="h4 m-t-md">
+          Temporary housing assistance {# {{ 'food_and_shelter_card_5_title' |
+          i18n }} #}
+        </h3>
+        <p>
+          FEMA disaster assistance includes support for temporary housing. The
+          deadline to apply was March 31, 2025. But you can submit a late
+          application for 60 days after the deadline. Go to
+          <a href="https://disasterassistance.gov">DisasterAssistance.gov</a> to
+          apply or check your application status. {# {{
+          'food_and_shelter_card_4_description_1' | i18n | safe }} #}
+        </p>
+        <p>
+          <strong>If FEMA denied your application</strong>, you have 60 days to
+          <a
+            href="https://www.fema.gov/assistance/individual/after-applying/appeals"
+            >appeal FEMA’s decision</a
+          >. {# {{ 'food_and_shelter_card_4_description_2' | i18n | safe }} #}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
