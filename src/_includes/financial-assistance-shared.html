@@ -1,0 +1,48 @@
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/financial-assistance-lineart.svg?v2') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">
+        Find
+        <a
+          href="https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html"
+          >animal shelters and other pet resources</a
+        >
+        in these situations: {# {{ 'financial_assistance_lead' | i18n | safe }}
+        #}
+      </p>
+
+      <ul>
+        <li class="m-t">
+          You lost a pet {# {{ 'financial_assistance_list_1' | i18n }} #}
+        </li>
+        <li class="m-t">
+          You had to leave a pet behind {# {{ 'financial_assistance_list_2' |
+          i18n }} #}
+        </li>
+        <li class="m-t">
+          You need shelter for your pet {# {{ 'financial_assistance_list_3' |
+          i18n }} #}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
