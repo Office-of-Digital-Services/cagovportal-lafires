@@ -6,6 +6,11 @@
       "key": "sidenav_2025_los_angeles_fires"
     },
     {
+      "href": "/lafires/see-real-time-info/",
+      "text": "Real-time info",
+      "key": "sidenav_see_real_time_info"
+    },
+    {
       "href": "/lafires/help-for-you/",
       "text": "Get help for you",
       "key": "sidenav_help_for_you"
@@ -35,16 +40,22 @@
       "key": "sidenav_financial_assistance"
     },
     {
+      "href": "/lafires/help-for-you/replace-personal-documents",
+      "text": "Replace documents",
+      "indent": true,
+      "key": "sidenav_documents"
+    },
+    {
       "href": "/lafires/help-for-you/rebuild-your-house/",
       "text": "Rebuild your house",
       "indent": true,
       "key": "sidenav_rebuild_your_house"
     },
     {
-      "href": "/lafires/help-for-you/replace-personal-documents",
-      "text": "Documents",
+      "href": "/lafires/help-for-you/get-help-in-person/",
+      "text": "Get help in person",
       "indent": true,
-      "key": "sidenav_documents"
+      "key": "sidenav_get_help_in_person"
     },
     {
       "href": "/lafires/help-your-business/",
@@ -52,21 +63,14 @@
       "key": "sidenav_help_your_business"
     },
     {
-      "href": "/lafires/recovery-services-finder/",
-      "text": "Recovery services finder",
-      "key": "sidenav_recovery_services_finder"
-    },
-
-    {
-      "href": "/lafires/see-real-time-info/",
-      "text": "Real-time info",
-      "key": "sidenav_see_real_time_info"
-    },
-
-    {
       "href": "/lafires/volunteer/",
       "text": "Volunteer",
       "key": "sidenav_volunteer"
+    },
+    {
+      "href": "/lafires/recovery-services-finder/",
+      "text": "Recovery services finder",
+      "key": "sidenav_recovery_services_finder"
     },
     {
       "href": "/lafires/track-progress/",
