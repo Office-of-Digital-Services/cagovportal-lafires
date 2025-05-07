@@ -1,0 +1,179 @@
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/help-for-you-lineart.svg?v2') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">
+        <!-- Get help with your basic needs and start your recovery. -->
+        {{ 'help_for_you_lead' | i18n }}
+      </p>
+
+      <nav class="page-navigation"></nav>
+
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-gray-50 p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-100 rounded">
+            <div class="h4 m-t-md" role="heading" aria-level="2">
+              <!-- Get help in person -->
+              {{ 'help_for_you_card_1_title' | i18n }}
+            </div>
+            <p>
+              <!-- Find help and advice in person at a
+              <a href="/lafires/help-for-you/get-help-in-person/"
+                >Disaster Recovery Center</a
+              >. -->
+              {{ 'help_for_you_card_1_description' | i18n | safe }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-gray-50 p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-100 rounded">
+            <div class="h4 m-t-md" role="heading" aria-level="2">
+              <!-- Find services you need -->
+              {{ 'help_for_you_card_2_title' | i18n }}
+            </div>
+            <p>
+              <!-- Not sure where to start? Use our to find help
+
+              <a href="/lafires/recovery-services-finder/"
+                >service finder tool</a
+              >
+              available to you. -->
+              {{ 'help_for_you_card_2_description' | i18n | safe }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2>
+        <!-- Basic needs  -->
+        {{ 'help_for_you_basic_needs' | i18n }}
+      </h2>
+      <p>
+        <!-- Get the help you need now. -->
+        {{ 'help_for_you_basic_needs_description' | i18n }}
+      </p>
+
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <a href="/lafires/help-for-you/food-and-shelter/" class="link-grid">
+            <!-- Food and shelter -->
+            {{ 'help_for_you_link_grid_1' | i18n }}
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <a href="/lafires/help-for-you/health-and-safety/" class="link-grid">
+            <!-- Health and safety -->
+            {{ 'help_for_you_link_grid_2' | i18n }}
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <a href="/lafires/help-for-you/pets/" class="link-grid">
+            <!-- Pets -->
+            {{ 'help_for_you_link_grid_3' | i18n }}
+          </a>
+        </div>
+      </div>
+
+      <h2>
+        <!-- Recovery needs -->
+        {{ 'help_for_you_recovery_needs' | i18n }}
+      </h2>
+      <p>
+        <!-- Start your long-term recovery. -->
+        {{ 'help_for_you_recovery_needs_description' | i18n }}
+      </p>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <a
+            href="/lafires/help-for-you/financial-assistance/"
+            class="link-grid">
+            <!-- Financial assistance -->
+            {{ 'help_for_you_link_grid_4' | i18n }}
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <a
+            href="/lafires/help-for-you/financial-assistance/"
+            class="link-grid">
+            <!-- Rebuilding your house -->
+            {{ 'help_for_you_link_grid_5' | i18n }}
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <a
+            href="/lafires/help-for-you/replace-personal-documents/"
+            class="link-grid">
+            <!-- Replacing documents -->
+            {{ 'help_for_you_link_grid_6' | i18n }}
+          </a>
+        </div>
+      </div>
+
+      <h2>
+        <!-- Preparing for emergencies -->
+        {{ 'help_for_you_preparing_for_emergencies' | i18n }}
+      </h2>
+      <ul>
+        <li class="m-t">
+          <a href="https://www.listoscalifornia.org/disaster-readiness/">
+            <!-- Find tips to prepare for emergencies -->
+            {{ 'help_for_you_preparing_for_emergencies_list_1' | i18n }}
+          </a>
+        </li>
+        <li class="m-t">
+          <a
+            href="https://www.cdph.ca.gov/Programs/EPO/Pages/PrepareanEmergencySupplyKit.aspx">
+            <!-- Prepare an emergency kit -->
+            {{ 'help_for_you_preparing_for_emergencies_list_2' | i18n }}
+          </a>
+        </li>
+        <li class="m-t">
+          <a
+            href="https://experience.arcgis.com/experience/5065c998b4b0462f9ec3c6c226c610a9/page/Compare-old-and-new-LRA-FHSZ#data_s=id%3Awidget_114_output_config_default_geocode_0_0%3A0">
+            <!-- Check if your home is in a fire hazard zone -->
+            {{ 'help_for_you_preparing_for_emergencies_list_3' | i18n }}
+          </a>
+        </li>
+      </ul>
+
+      <h2>
+        <!-- More resources for certain groups -->
+        {{ 'help_for_you_more_resources' | i18n }}
+      </h2>
+      <ul>
+        <li class="m-t">
+          <a href="https://cdss.ca.gov/disaster-help-center">
+            <!-- Disaster assistance guide for immigrants -->
+            {{ 'help_for_you_more_resources_list_1' | i18n }}
+          </a>
+        </li>
+        <li class="m-t">
+          <a href="https://www.calvet.ca.gov/Pages/cawildfires.aspx">
+            <!-- Disaster resources for veterans -->
+            {{ 'help_for_you_more_resources_list_2' | i18n }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
