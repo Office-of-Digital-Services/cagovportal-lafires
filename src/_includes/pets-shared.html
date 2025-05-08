@@ -21,22 +21,13 @@
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
       <p class="m-b-md lead">
-        Find
-        <a
-          href="https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html"
-          >animal shelters and other pet resources</a
-        >
-        in these situations: {# {{ 'pets_lead' | i18n | safe }} #}
+       {{ 'pets_lead' | i18n | safe }}
       </p>
 
       <ul>
-        <li class="m-t">You lost a pet {# {{ 'pets_list_1' | i18n }} #}</li>
-        <li class="m-t">
-          You had to leave a pet behind {# {{ 'pets_list_2' | i18n }} #}
-        </li>
-        <li class="m-t">
-          You need shelter for your pet {# {{ 'pets_list_3' | i18n }} #}
-        </li>
+        <li class="m-t">{{ 'pets_list_1' | i18n }}</li>
+        <li class="m-t">{{ 'pets_list_2' | i18n }}</li>
+        <li class="m-t">{{ 'pets_list_3' | i18n }}</li>
       </ul>
     </div>
   </div>
