@@ -1,0 +1,226 @@
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/vital-records-lineart.svg?v23fds') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">
+      <nav class="side-navigation sticky-6">
+        <a href="javascript:;" aria-hidden="true" class="d-none">{{title}}</a>
+        <ul class="list-navigation">
+          <li>
+            <a href="/lafires/" class="font-weight-700"
+              ><span class="color-p2"
+                >{{ 'sidenav_2025_los_angeles_fires'| i18n }}</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/" class="landing back"
+              >{{ 'sidenav_help_for_you'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires//help-for-you/food-and-shelter/"
+              >{{ 'sidenav_food_and_shelter'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/health-and-safety/"
+              >{{ 'sidenav_health_and_safety'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/pets/">{{ 'sidenav_pets'| i18n }}</a>
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/financial-assistance/"
+              >{{ 'sidenav_financial_assistance'| i18n }}</a
+            >
+          </li>
+
+          <li>
+            <a href="/lafires/help-for-you/replace-personal-documents/"
+              >{{ 'sidenav_documents'| i18n }}</a
+            >
+            <ul>
+              <li>
+                <a
+                  href="/lafires/help-for-you/replace-personal-documents/birth-death-marriage-certificates/"
+                  class="active"
+                  >{{ 'sidenav_birth_death_marriage_certificates'| i18n }}</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/rebuild-your-house/"
+              >{{ 'sidenav_rebuild_your_house'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/get-help-in-person/"
+              >{{ 'sidenav_get_help_in_person'| i18n }}</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">{{ 'vital_records_description_page' | i18n }}</p>
+
+      <nav class="page-navigation"></nav>
+
+      <h2>{{ 'vital_records_records_from_other_states' | i18n }}</h2>
+      <p>{{ 'vital_records_contact_county_recorder' | i18n | safe }}</p>
+
+      <h2>{{ 'vital_records_records_from_california' | i18n }}</h2>
+      <h3>{{ 'vital_records_apply_online' | i18n }}</h3>
+      <p>{{ 'vital_records_replace_certificates' | i18n }}</p>
+
+      <p>{{ 'vital_records_replacements_free' | i18n }}</p>
+
+      <ol class="cagov-step-list m-t-md">
+        <li>
+          <span class="font-weight-400 h5"
+            >{{ 'vital_records_click_link' | i18n }}</span
+          >
+          <br />
+          <span class="cagov-step-list-content">
+            <ul class="font-size-15">
+              <li style="list-style-type: disc;" class="m-b-sm">
+                {{ 'vital_records_fill_out_online' | i18n }}
+              </li>
+              <li style="list-style-type: disc;">
+                {{ 'vital_records_upload_documentation' | i18n }}
+              </li>
+            </ul>
+          </span>
+        </li>
+        <li>
+          <span class="font-weight-400 h5"
+            >{{ 'vital_records_sworn_statement' | i18n }}</span
+          >
+          <br />
+          <span class="cagov-step-list-content">
+            <ul class="font-size-15">
+              <li style="list-style-type: disc;" class="m-b-sm">
+                {{ 'vital_records_print_sign' | i18n | safe }}
+              </li>
+              <li style="list-style-type: disc;">
+                {{ 'vital_records_notary_presence' | i18n }}
+              </li>
+            </ul>
+          </span>
+        </li>
+        <li>
+          <span class="font-weight-400 h5"
+            >{{ 'vital_records_scan_photo' | i18n | safe }}</span
+          >
+          <br />
+          <span class="cagov-step-list-content">
+            <ul class="font-size-15">
+              <li style="list-style-type: disc;" class="m-b-sm">
+                {{ 'vital_records_more_than_one_record' | i18n }}
+              </li>
+            </ul>
+          </span>
+        </li>
+        <li>
+          <span class="font-weight-400 h5"
+            >{{ 'vital_records_upload_submit' | i18n }}</span
+          >
+          <br />
+          <span class="cagov-step-list-content">
+            <ul class="font-size-15">
+              <li style="list-style-type: disc;" class="m-b-sm">
+                {{ 'vital_records_fax_option' | i18n }}
+              </li>
+            </ul>
+          </span>
+        </li>
+      </ol>
+
+      <h4 class="m-t-0">{{ 'vital_records_online_forms' | i18n }}</h4>
+      <div class="row">
+        <div class="col-lg-4 m-t">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h5 class="m-t-md m-b h4">{{ 'vital_records_birth' | i18n }}</h5>
+            <ul class="p-l m-b-0">
+              <li class="m-t">
+                {{ 'vital_records_birth_record_english' | i18n | safe }}
+              </li>
+              <li class="m-t">
+                {{ 'vital_records_birth_record_spanish' | i18n | safe }}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 m-t">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h5 class="m-t-md m-b h4">{{ 'vital_records_marriage' | i18n }}</h5>
+            <ul class="p-l m-b-0">
+              <li class="m-t">
+                {{ 'vital_records_marriage_record_english' | i18n | safe }}
+              </li>
+              <li class="m-t">
+                {{ 'vital_records_marriage_record_spanish' | i18n | safe }}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 m-t">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h5 class="m-t-md m-b h4">{{ 'vital_records_death' | i18n }}</h5>
+            <ul class="p-l m-b-0">
+              <li class="m-t">
+                {{ 'vital_records_death_record_english' | i18n | safe }}
+              </li>
+              <li class="m-t">
+                {{ 'vital_records_death_record_spanish' | i18n | safe }}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3>{{ 'vital_records_apply_in_person' | i18n }}</h3>
+      <p>{{ 'vital_records_visit' | i18n }}</p>
+      <ul>
+        <li class="m-t">
+          {{ 'vital_records_disaster_recovery_center' | i18n | safe }}
+        </li>
+        <li class="m-t">{{ 'vital_records_county_recorder' | i18n | safe }}</li>
+      </ul>
+
+      <h3>{{ 'vital_records_apply_by_mail' | i18n }}</h3>
+      <ul>
+        <li class="m-t">
+          {{ 'vital_records_print_application' | i18n | safe }}
+          <ul>
+            <li class="m-t">
+              {{ 'vital_records_pdf_versions' | i18n | safe }}
+            </li>
+          </ul>
+        </li>
+        <li class="m-t">{{ 'vital_records_fill_notarize_mail' | i18n }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
