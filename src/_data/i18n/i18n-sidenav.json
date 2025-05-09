@@ -12,15 +12,15 @@
   },
   "sidenav_help_for_you": {
     "status": "ap_review",
-    "en": "Get help for you",
-    "fr": "Obtenez de l'aide pour vous",
-    "es": "Obtenga ayuda para usted",
-    "ko": "도움 받기",
-    "vi": "Nhận trợ giúp cho bạn",
-    "tl": "Kumuha ng tulong para sa iyo",
-    "zh-hans": "获取帮助",
-    "zh-hant": "獲取幫助",
-    "hy": "Ստացեք օգնություն ձեզ համար"
+    "en": "Help for you",
+    "fr": "Aide pour vous",
+    "es": "Ayuda para usted",
+    "ko": "당신을 위한 도움",
+    "vi": "Giúp đỡ cho bạn",
+    "tl": "Tulong para sa iyo",
+    "zh-hans": "为您提供帮助",
+    "zh-hant": "為您提供幫助",
+    "hy": "Օգնություն ձեզ համար"
   },
   "sidenav_food_and_shelter": {
     "status": "ap_review",
@@ -84,15 +84,15 @@
   },
   "sidenav_documents": {
     "status": "ap_review",
-    "en": "Documents",
-    "fr": "Documents",
-    "es": "Documentos",
-    "ko": "문서",
-    "vi": "Tài liệu",
-    "tl": "Mga dokumento",
-    "zh-hans": "文件",
-    "zh-hant": "文件",
-    "hy": "Փաստաթղթեր"
+    "en": "Replace documents",
+    "fr": "Remplacer les documents",
+    "es": "Reemplace documentos",
+    "ko": "문서 교체",
+    "vi": "Thay thế tài liệu",
+    "tl": "Palitan ang mga dokumento",
+    "zh-hans": "更换文件",
+    "zh-hant": "更換文件",
+    "hy": "Փոխարինել փաստաթղթերը"
   },
   "sidenav_recovery_services_finder": {
     "status": "avantpage_delivery",
