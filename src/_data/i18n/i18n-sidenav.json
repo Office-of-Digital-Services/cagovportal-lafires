@@ -94,6 +94,18 @@
     "zh-hant": "更換文件",
     "hy": "Փոխարինել փաստաթղթերը"
   },
+  "sidenav_birth_death_marriage_certificates": {
+    "status": "ap_review",
+    "en": "Birth, death, and marriage certificates",
+    "fr": "Certificats de naissance, de décès et de mariage",
+    "es": "Certificados de nacimiento, defunción y matrimonio",
+    "ko": "출생, 사망 및 결혼 증명서",
+    "vi": "Giấy khai sinh, giấy chứng tử và giấy chứng nhận kết hôn",
+    "tl": "Mga sertipiko ng kapanganakan, kamatayan, at kasal",
+    "zh-hans": "出生、死亡和结婚证明",
+    "zh-hant": "出生、死亡和結婚證明",
+    "hy": "Ծննդյան, մահվան և ամուսնության վկայականներ"
+  },
   "sidenav_recovery_services_finder": {
     "status": "avantpage_delivery",
     "en": "Recovery services finder",
