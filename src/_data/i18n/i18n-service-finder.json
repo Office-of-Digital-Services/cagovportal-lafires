@@ -2423,16 +2423,16 @@
     "hy": "Ձեզ հարմարեցված ծառայությունների պլաններ"
   },
   "sf_back_link": {
-    "status": "avantpage_delivery",
-    "en": "Back to Get help online",
-    "fr": "Retour à Obtenir de l'aide en ligne",
-    "es": "Volver a Obtenga ayuda en línea",
-    "ko": "온라인으로 도움받기로 돌아가기",
-    "vi": "Quay lại Nhận trợ giúp trực tuyến",
-    "tl": "Bumalik sa Makakuha ng tulong sa online",
-    "zh-hans": "返回“在线获取帮助”页面",
-    "zh-hant": "返回獲取線上幫助",
-    "hy": "Գնալ դեպի Ստանալ օգնություն առցանց"
+    "status": "ap_review",
+    "en": "Back to Help for you",
+    "fr": "Retour à l'aide pour vous",
+    "es": "Volver a Ayuda para usted",
+    "ko": "도움말로 돌아가기",
+    "vi": "Quay lại Trợ giúp cho quý vị",
+    "tl": "Bumalik sa Tulong para sa iyo",
+    "zh-hans": "返回帮助中心",
+    "zh-hant": "返回幫助中心",
+    "hy": "Վերադառնալ Ձեր օգնությանը"
   },
   "sf_lead_text": {
     "status": "avantpage_delivery",
