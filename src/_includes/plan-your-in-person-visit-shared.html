@@ -16,7 +16,68 @@
 
 <div class="container p-y-lg">
   <div class="row">
-    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+    <div class="col-lg-3">
+      <nav class="side-navigation sticky-6">
+        <a href="javascript:;" aria-hidden="true" class="d-none">{{title}}</a>
+        <ul class="list-navigation">
+          <li>
+            <a href="/lafires/" class="font-weight-700"
+              ><span class="color-p2"
+                >{{ 'sidenav_2025_los_angeles_fires'| i18n }}</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/" class="landing back"
+              >{{ 'sidenav_help_for_you'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires//help-for-you/food-and-shelter/"
+              >{{ 'sidenav_food_and_shelter'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/health-and-safety/"
+              >{{ 'sidenav_health_and_safety'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/pets/">{{ 'sidenav_pets'| i18n }}</a>
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/financial-assistance/"
+              >{{ 'sidenav_financial_assistance'| i18n }}</a
+            >
+          </li>
+
+          <li>
+            <a href="/lafires/help-for-you/replace-personal-documents/"
+              >{{ 'sidenav_documents'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/rebuild-your-house/"
+              >{{ 'sidenav_rebuild_your_house'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/get-help-in-person/"
+              >{{ 'sidenav_get_help_in_person'| i18n }}</a
+            >
+            <ul>
+              <li>
+                <a
+                  href="/lafires/help-for-you/get-help-in-person/plan-your-in-person-visit/"
+                  class="active"
+                  >{{ 'sidenav_plan_your_in_person_visit'| i18n }}</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
@@ -513,9 +574,15 @@
         <label class="form-check-label cursor-pointer" for="check23"
           ><span class="bold">{{ 'plan_visit_insurance_claims' | i18n }}</span>
           <ul class="m-b-0 font-weight-400">
-            <li class="m-t">{{ 'plan_visit_insurance_claims_delays' | i18n }}</li>
-            <li class="m-t">{{ 'plan_visit_insurance_claims_expenses' | i18n }}</li>
-            <li class="m-t">{{ 'plan_visit_insurance_claims_disputes' | i18n }}</li>
+            <li class="m-t">
+              {{ 'plan_visit_insurance_claims_delays' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'plan_visit_insurance_claims_expenses' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'plan_visit_insurance_claims_disputes' | i18n }}
+            </li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
@@ -612,9 +679,15 @@
         <label class="form-check-label  cursor-pointer" for="check36"
           ><span class="bold">{{ 'plan_visit_business_taxes' | i18n }}</span>
           <ul class="m-b-0 font-weight-400">
-            <li class="m-t">{{ 'plan_visit_business_taxes_items_1' | i18n }}</li>
-            <li class="m-t">{{ 'plan_visit_business_taxes_items_2' | i18n }}</li>
-            <li class="m-t">{{ 'plan_visit_business_taxes_items_3' | i18n }}</li>
+            <li class="m-t">
+              {{ 'plan_visit_business_taxes_items_1' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'plan_visit_business_taxes_items_2' | i18n }}
+            </li>
+            <li class="m-t">
+              {{ 'plan_visit_business_taxes_items_3' | i18n }}
+            </li>
           </ul>
           <div
             class="font-weight-400 italic section-understated brd-solid-1 brd-gray-200 p-x py-1 rounded-10 font-size-14 m-t d-inline-block">
