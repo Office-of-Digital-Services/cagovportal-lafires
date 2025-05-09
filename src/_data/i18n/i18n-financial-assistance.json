@@ -1,0 +1,762 @@
+{
+  "financial_assistance_lead": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Get help with insurance, taxes, employment, and other financial needs.",
+    "es": "Obtén ayuda con seguros, impuestos, empleo y otras necesidades financieras.",
+    "ko": "보험, 세금, 취업 및 기타 금융 필요에 도움을 받으세요.",
+    "vi": "Nhận sự giúp đỡ về bảo hiểm, thuế, việc làm và các nhu cầu tài chính khác.",
+    "tl": "Kumuha ng tulong sa insurance, mga buwis, trabaho, at iba pang mga pangangailangang pinansyal.",
+    "zh-hans": "获取保险、税收、就业和其他财务需求方面的帮助。",
+    "zh-hant": "獲取保險、稅收、就業和其他財務需求方面的幫助。",
+    "hy": "Ստացեք օգնություն ապահովագրության, հարկերի, աշխատանքի և այլ ֆինանսական կարիքների հարցում։"
+  },
+  "financial_assistance_insurance": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Insurance",
+    "es": "Seguro",
+    "ko": "보험",
+    "vi": "Bảo hiểm",
+    "tl": "Insurance",
+    "zh-hans": "保险",
+    "zh-hant": "保險",
+    "hy": "Ապահովագրություն"
+  },
+
+  "financial_assistance_card_1_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Insurance claims",
+    "es": "Reclamaciones de seguro",
+    "ko": "보험 청구",
+    "vi": "Yêu cầu bồi thường bảo hiểm",
+    "tl": "Mga claim sa insurance",
+    "zh-hans": "保险索赔",
+    "zh-hant": "保險索賠",
+    "hy": "Ապահովագրական հայցեր"
+  },
+
+  "financial_assistance_card_1_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If you have homeowners or renters insurance, file a claim as soon as possible. Keep a record of all your recovery expenses, including costs for temporary housing.",
+    "es": "Si tiene seguro de propietario de vivienda o de inquilino, presente un reclamo lo antes posible. Mantenga un registro de todos sus gastos de recuperación, incluidos los costos de vivienda temporal.",
+    "ko": "주택 소유자 또는 임차인 보험이 있는 경우 가능한 빨리 청구를 제출하세요. 임시 주택 비용을 포함한 모든 복구 비용의 기록을 보관하세요.",
+    "vi": "Nếu bạn có bảo hiểm chủ nhà hoặc người thuê nhà, hãy nộp đơn yêu cầu bồi thường càng sớm càng tốt. Giữ hồ sơ tất cả các chi phí phục hồi của bạn, bao gồm cả chi phí nhà ở tạm thời.",
+    "tl": "Kung mayroon kang insurance para sa may-ari ng bahay o umuupa, maghain ng claim sa lalong madaling panahon. Itago ang record ng lahat ng iyong mga gastos sa pagbawi, kabilang ang mga gastos para sa pansamantalang pabahay.",
+    "zh-hans": "如果您有房主或租户保险，请尽快提出索赔。保留所有恢复费用的记录，包括临时住房的费用。",
+    "zh-hant": "如果您有房主或租戶保險，請盡快提出索賠。保留所有恢復費用的記錄，包括臨時住房的費用。",
+    "hy": "Եթե ունեք տանտիրոջ կամ վարձակալի ապահովագրություն, հնարավորինս շուտ ներկայացրեք հայց: Պահպանեք ձեր բոլոր վերականգնման ծախսերի գրառումը, ներառյալ ժամանակավոր բնակարանի ծախսերը:"
+  },
+
+  "financial_assistance_card_1_description_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Get help with insurance claims:",
+    "es": "Obtenga ayuda con las reclamaciones de seguro:",
+    "ko": "보험 청구에 대한 도움 받기:",
+    "vi": "Nhận trợ giúp về yêu cầu bồi thường bảo hiểm:",
+    "tl": "Kumuha ng tulong sa mga claim sa insurance:",
+    "zh-hans": "获取保险索赔帮助：",
+    "zh-hant": "獲取保險索賠幫助：",
+    "hy": "Ստացեք օգնություն ապահովագրական հայցերի հետ կապված:"
+  },
+  "financial_assistance_card_1_list_1": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Call <a href=\"tel:800-927-4357\">800-927-4357</a>",
+    "es": "Llame al <a href=\"tel:800-927-4357\">800-927-4357</a>",
+    "ko": "<a href=\"tel:800-927-4357\">800-927-4357</a>로 전화하세요",
+    "vi": "Gọi <a href=\"tel:800-927-4357\">800-927-4357</a>",
+    "tl": "Tumawag sa <a href=\"tel:800-927-4357\">800-927-4357</a>",
+    "zh-hans": "致电 <a href=\"tel:800-927-4357\">800-927-4357</a>",
+    "zh-hant": "致電 <a href=\"tel:800-927-4357\">800-927-4357</a>",
+    "hy": "Զանգահարեք <a href=\"tel:800-927-4357\">800-927-4357</a>"
+  },
+
+  "financial_assistance_card_1_list_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "<a href=\"https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm\">Find tips and resources for wildfire claims</a>",
+    "es": "<a href=\"https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm\">Encuentre consejos y recursos para reclamaciones por incendios forestales</a>",
+    "ko": "<a href=\"https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm\">산불 청구에 대한 팁과 자원 찾기</a>",
+    "vi": "<a href=\"https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm\">Tìm lời khuyên và tài nguyên cho các yêu cầu bồi thường cháy rừng</a>",
+    "tl": "<a href=\"https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm\">Maghanap ng mga tip at resources para sa mga claim sa wildfire</a>",
+    "zh-hans": "<a href=\"https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm\">查找野火索赔的提示和资源</a>",
+    "zh-hant": "<a href=\"https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm\">查找野火索賠的提示和資源</a>",
+    "hy": "<a href=\"https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm\">Գտեք խորհուրդներ և ռեսուրսներ անտառային հրդեհների հայցերի համար</a>"
+  },
+
+  "financial_assistance_card_1_list_3": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "<a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">File an insurance complaint online</a>",
+    "es": "<a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">Presente una queja de seguro en línea</a>",
+    "ko": "<a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">온라인으로 보험 불만 제기하기</a>",
+    "vi": "<a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">Nộp đơn khiếu nại bảo hiểm trực tuyến</a>",
+    "tl": "<a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">Maghain ng reklamo sa insurance online</a>",
+    "zh-hans": "<a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">在线提交保险投诉</a>",
+    "zh-hant": "<a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">在線提交保險投訴</a>",
+    "hy": "<a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">Առցանց ներկայացրեք ապահովագրական բողոք</a>"
+  },
+  "financial_assistance_card_2_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Non-renewal protection",
+    "es": "Protección contra la no renovación",
+    "ko": "비갱신 보호",
+    "vi": "Bảo vệ không gia hạn",
+    "tl": "Proteksyon sa hindi pag-renew",
+    "zh-hans": "不续保保护",
+    "zh-hant": "不續保保護",
+    "hy": "Չվերականգնման պաշտպանություն"
+  },
+
+  "financial_assistance_card_2_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "After a wildfire disaster, your insurance company can't cancel your policy or decide not to renew it for 1 year. This applies to everyone in the affected area, even if your home wasn't damaged.",
+    "es": "Después de un desastre de incendio forestal, su compañía de seguros no puede cancelar su póliza o decidir no renovarla por 1 año. Esto se aplica a todos en el área afectada, incluso si su hogar no sufrió daños.",
+    "ko": "산불 재해 후, 보험 회사는 1년 동안 귀하의 보험 정책을 취소하거나 갱신하지 않기로 결정할 수 없습니다. 이는 집이 손상되지 않았더라도 영향을 받은 지역의 모든 사람에게 적용됩니다.",
+    "vi": "Sau thảm họa cháy rừng, công ty bảo hiểm của bạn không thể hủy hợp đồng của bạn hoặc quyết định không gia hạn trong 1 năm. Điều này áp dụng cho tất cả mọi người trong khu vực bị ảnh hưởng, ngay cả khi nhà của bạn không bị hư hại.",
+    "tl": "Pagkatapos ng sakuna sa wildfire, hindi maaaring kanselahin ng iyong kompanya ng insurance ang iyong polisiya o magpasya na hindi ito i-renew sa loob ng 1 taon. Ito ay naaangkop sa lahat ng tao sa apektadong lugar, kahit na hindi nasira ang iyong bahay.",
+    "zh-hans": "在野火灾害之后，您的保险公司不能取消您的保单或决定在1年内不续保。这适用于受影响地区的每个人，即使您的房屋没有受损。",
+    "zh-hant": "在野火災害之後，您的保險公司不能取消您的保單或決定在1年內不續保。這適用於受影響地區的每個人，即使您的房屋沒有受損。",
+    "hy": "Անտառային հրդեհի աղետից հետո ձեր ապահովագրական ընկերությունը չի կարող չեղարկել ձեր պայմանագիրը կամ որոշել չվերականգնել այն 1 տարվա ընթացքում: Սա վերաբերում է տուժած տարածքում գտնվող բոլոր մարդկանց, նույնիսկ եթե ձեր տունը չի վնասվել:"
+  },
+
+  "financial_assistance_card_2_description_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "<a href=\"https://interactive.web.insurance.ca.gov/apex_extprd/f?p=450:50\">Find out if your zip code is protected</a> from losing insurance. If your zip code is protected and your company doesn't renew your policy, you can <a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">file an insurance complaint</a>.",
+    "es": "<a href=\"https://interactive.web.insurance.ca.gov/apex_extprd/f?p=450:50\">Averigüe si su código postal está protegido</a> contra la pérdida de seguro. Si su código postal está protegido y su compañía no renueva su póliza, puede <a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">presentar una queja de seguro</a>.",
+    "ko": "<a href=\"https://interactive.web.insurance.ca.gov/apex_extprd/f?p=450:50\">귀하의 우편번호가 보험 손실로부터 보호되는지 확인하세요</a>. 귀하의 우편번호가 보호되고 회사가 귀하의 정책을 갱신하지 않는 경우, <a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">보험 불만을 제기할 수 있습니다</a>.",
+    "vi": "<a href=\"https://interactive.web.insurance.ca.gov/apex_extprd/f?p=450:50\">Tìm hiểu xem mã zip của bạn có được bảo vệ</a> khỏi việc mất bảo hiểm hay không. Nếu mã zip của bạn được bảo vệ và công ty của bạn không gia hạn hợp đồng của bạn, bạn có thể <a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">nộp đơn khiếu nại bảo hiểm</a>.",
+    "tl": "<a href=\"https://interactive.web.insurance.ca.gov/apex_extprd/f?p=450:50\">Alamin kung ang iyong zip code ay protektado</a> mula sa pagkawala ng insurance. Kung ang iyong zip code ay protektado at hindi nire-renew ng iyong kompanya ang iyong polisiya, maaari kang <a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">maghain ng reklamo sa insurance</a>.",
+    "zh-hans": "<a href=\"https://interactive.web.insurance.ca.gov/apex_extprd/f?p=450:50\">查看您的邮政编码是否受到保护</a>，免于失去保险。如果您的邮政编码受到保护，而您的公司不续保您的保单，您可以<a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">提交保险投诉</a>。",
+    "zh-hant": "<a href=\"https://interactive.web.insurance.ca.gov/apex_extprd/f?p=450:50\">查看您的郵政編碼是否受到保護</a>，免於失去保險。如果您的郵政編碼受到保護，而您的公司不續保您的保單，您可以<a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">提交保險投訴</a>。",
+    "hy": "<a href=\"https://interactive.web.insurance.ca.gov/apex_extprd/f?p=450:50\">Պարզեք, արդյոք ձեր փոստային կոդը պաշտպանված է</a> ապահովագրությունը կորցնելուց: Եթե ձեր փոստային կոդը պաշտպանված է, և ձեր ընկերությունը չի վերականգնում ձեր պայմանագիրը, դուք կարող եք <a href=\"https://cdiapps.insurance.ca.gov/CP/login/\">ապահովագրական բողոք ներկայացնել</a>:"
+  },
+
+  "financial_assistance_mortgage_protections": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Mortgage protections",
+    "es": "Protecciones hipotecarias",
+    "ko": "모기지 보호",
+    "vi": "Bảo vệ thế chấp",
+    "tl": "Mga proteksyon sa mortgage",
+    "zh-hans": "抵押贷款保护",
+    "zh-hant": "抵押貸款保護",
+    "hy": "Հիփոթեքային պաշտպանություն"
+  },
+
+  "financial_assistance_card_3_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Mortgage relief",
+    "es": "Alivio hipotecario",
+    "ko": "모기지 구제",
+    "vi": "Cứu trợ thế chấp",
+    "tl": "Kaluwagan sa mortgage",
+    "zh-hans": "抵押贷款减免",
+    "zh-hant": "抵押貸款減免",
+    "hy": "Հիփոթեքային օգնություն"
+  },
+
+  "financial_assistance_card_3_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "The state worked with major lenders to offer mortgage relief. Over 400 lenders committed to:",
+    "es": "El estado trabajó con los principales prestamistas para ofrecer alivio hipotecario. Más de 400 prestamistas se comprometieron a:",
+    "ko": "주정부는 주요 대출 기관과 협력하여 모기지 구제를 제공했습니다. 400개 이상의 대출 기관이 다음을 약속했습니다:",
+    "vi": "Tiểu bang đã làm việc với các bên cho vay lớn để cung cấp cứu trợ thế chấp. Hơn 400 bên cho vay đã cam kết:",
+    "tl": "Nagtrabaho ang estado kasama ang malalaking lenders para mag-alok ng mortgage relief. Higit sa 400 lenders ang nangako na:",
+    "zh-hans": "州政府与主要贷款机构合作提供抵押贷款减免。超过400家贷款机构承诺：",
+    "zh-hant": "州政府與主要貸款機構合作提供抵押貸款減免。超過400家貸款機構承諾：",
+    "hy": "Նահանգը համագործակցել է խոշոր վարկատուների հետ՝ հիփոթեքային օգնություն առաջարկելու համար: 400-ից ավելի վարկատուներ պարտավորվել են."
+  },
+
+  "financial_assistance_card_3_list_1": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Reduce or pause mortgage payments for 90 days",
+    "es": "Reducir o pausar los pagos hipotecarios durante 90 días",
+    "ko": "90일 동안 모기지 지불 감소 또는 일시 중지",
+    "vi": "Giảm hoặc tạm dừng các khoản thanh toán thế chấp trong 90 ngày",
+    "tl": "Bawasan o i-pause ang mga bayad sa mortgage sa loob ng 90 araw",
+    "zh-hans": "减少或暂停抵押贷款付款90天",
+    "zh-hant": "減少或暫停抵押貸款付款90天",
+    "hy": "Նվազեցնել կամ դադարեցնել հիփոթեքային վճարումները 90 օրով"
+  },
+
+  "financial_assistance_card_3_list_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Waive late fees for 90 days",
+    "es": "Renunciar a los cargos por pagos atrasados durante 90 días",
+    "ko": "90일 동안 연체료 면제",
+    "vi": "Miễn phí trả chậm trong 90 ngày",
+    "tl": "I-waive ang mga late fee sa loob ng 90 araw",
+    "zh-hans": "免除90天的滞纳金",
+    "zh-hant": "免除90天的滯納金",
+    "hy": "Չեղարկել ուշացման տույժերը 90 օրով"
+  },
+
+  "financial_assistance_card_3_list_3": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Protect owners from new foreclosures or evictions for 60 days",
+    "es": "Proteger a los propietarios de nuevas ejecuciones hipotecarias o desalojos durante 60 días",
+    "ko": "60일 동안 새로운 압류 또는 퇴거로부터 소유자 보호",
+    "vi": "Bảo vệ chủ sở hữu khỏi các vụ tịch thu hoặc trục xuất mới trong 60 ngày",
+    "tl": "Protektahan ang mga may-ari mula sa mga bagong foreclosure o eviction sa loob ng 60 araw",
+    "zh-hans": "保护业主免受60天内的新止赎或驱逐",
+    "zh-hant": "保護業主免受60天內的新止贖或驅逐",
+    "hy": "Պաշտպանել սեփականատերերին նոր բռնագրավումներից կամ վտարումներից 60 օրվա ընթացքում"
+  },
+  "financial_assistance_card_3_list_4": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Not report late payments to credit agencies",
+    "es": "No reportar pagos atrasados a las agencias de crédito",
+    "ko": "신용 기관에 연체 내역을 보고하지 않음",
+    "vi": "Không báo cáo các khoản thanh toán trễ cho các cơ quan tín dụng",
+    "tl": "Hindi mag-ulat ng mga late payment sa mga credit agency",
+    "zh-hans": "不向信用机构报告逾期付款",
+    "zh-hant": "不向信用機構報告逾期付款",
+    "hy": "Չհաղորդել ուշացած վճարումները վարկային գործակալություններին"
+  },
+
+  "financial_assistance_card_3_description_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "You must contact your mortgage lender to get relief. It does not happen automatically.",
+    "es": "Debe comunicarse con su prestamista hipotecario para obtener alivio. No sucede automáticamente.",
+    "ko": "구제를 받으려면 모기지 대출 기관에 연락해야 합니다. 자동으로 이루어지지 않습니다.",
+    "vi": "Bạn phải liên hệ với bên cho vay thế chấp của mình để được cứu trợ. Nó không xảy ra tự động.",
+    "tl": "Dapat kang makipag-ugnayan sa iyong mortgage lender para makakuha ng relief. Hindi ito nangyayari nang awtomatiko.",
+    "zh-hans": "您必须联系您的抵押贷款机构才能获得救济。这不会自动发生。",
+    "zh-hant": "您必須聯繫您的抵押貸款機構才能獲得救濟。這不會自動發生。",
+    "hy": "Դուք պետք է կապվեք ձեր հիփոթեքային վարկատուի հետ՝ օգնություն ստանալու համար: Դա ավտոմատ կերպով չի տեղի ունենում:"
+  },
+
+  "financial_assistance_card_3_description_3": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Learn about <a href=\"https://dfpi.ca.gov/lafires/relief/\">mortgage relief resources</a> and find a list of participating lenders.",
+    "es": "Obtenga información sobre <a href=\"https://dfpi.ca.gov/lafires/relief/\">recursos de alivio hipotecario</a> y encuentre una lista de prestamistas participantes.",
+    "ko": "<a href=\"https://dfpi.ca.gov/lafires/relief/\">모기지 구제 자원</a>에 대해 알아보고 참여 대출 기관 목록을 찾으세요.",
+    "vi": "Tìm hiểu về <a href=\"https://dfpi.ca.gov/lafires/relief/\">các nguồn trợ giúp thế chấp</a> và tìm danh sách các bên cho vay tham gia.",
+    "tl": "Alamin ang tungkol sa <a href=\"https://dfpi.ca.gov/lafires/relief/\">mga resources para sa mortgage relief</a> at humanap ng listahan ng mga participating lender.",
+    "zh-hans": "了解<a href=\"https://dfpi.ca.gov/lafires/relief/\">抵押贷款减免资源</a>并查找参与贷款机构的列表。",
+    "zh-hant": "了解<a href=\"https://dfpi.ca.gov/lafires/relief/\">抵押貸款減免資源</a>並查找參與貸款機構的列表。",
+    "hy": "Իմացեք <a href=\"https://dfpi.ca.gov/lafires/relief/\">հիփոթեքային օգնության ռեսուրսների</a> մասին և գտեք մասնակից վարկատուների ցանկը:"
+  },
+
+  "financial_assistance_card_4_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Foreclosure protection",
+    "es": "Protección contra ejecuciones hipotecarias",
+    "ko": "압류 보호",
+    "vi": "Bảo vệ tịch thu tài sản",
+    "tl": "Proteksyon sa foreclosure",
+    "zh-hans": "止赎保护",
+    "zh-hant": "止贖保護",
+    "hy": "Բռնագանձումից պաշտպանություն"
+  },
+  "financial_assistance_card_4_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "You're protected from foreclosure until <strong>July 7, 2025</strong> if:",
+    "es": "Está protegido contra la ejecución hipotecaria hasta el <strong>7 de julio de 2025</strong> si:",
+    "ko": "다음과 같은 경우 <strong>2025년 7월 7일</strong>까지 압류로부터 보호됩니다:",
+    "vi": "Bạn được bảo vệ khỏi bị tịch thu tài sản cho đến <strong>ngày 7 tháng 7 năm 2025</strong> nếu:",
+    "tl": "Protektado ka mula sa foreclosure hanggang <strong>Hulyo 7, 2025</strong> kung:",
+    "zh-hans": "如果符合以下条件，您将受到保护，免于被止赎，直到<strong>2025年7月7日</strong>:",
+    "zh-hant": "如果符合以下條件，您將受到保護，免於被止贖，直到<strong>2025年7月7日</strong>:",
+    "hy": "Դուք պաշտպանված եք բռնագանձումից մինչև <strong>2025 թվականի հուլիսի 7-ը</strong>, եթե՝"
+  },
+
+  "financial_assistance_card_4_list_1": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "You own a single-family home affected by the fires, and",
+    "es": "Es propietario de una vivienda unifamiliar afectada por los incendios, y",
+    "ko": "화재의 영향을 받은 단독 주택을 소유하고 있으며,",
+    "vi": "Bạn sở hữu một ngôi nhà gia đình đơn lẻ bị ảnh hưởng bởi các vụ cháy, và",
+    "tl": "May-ari ka ng single-family home na naapektuhan ng mga sunog, at",
+    "zh-hans": "您拥有受火灾影响的单户住宅，并且",
+    "zh-hant": "您擁有受火災影響的單戶住宅，並且",
+    "hy": "Դուք տիրապետում եք հրդեհներից տուժած միաընտանիք տան, և"
+  },
+
+  "financial_assistance_card_4_list_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Your mortgage is insured by the Federal Housing Administration (FHA)",
+    "es": "Su hipoteca está asegurada por la Administración Federal de Vivienda (FHA)",
+    "ko": "귀하의 모기지는 연방 주택 관리국(FHA)에 의해 보험이 적용됩니다",
+    "vi": "Khoản thế chấp của bạn được bảo hiểm bởi Cơ quan Quản lý Nhà ở Liên bang (FHA)",
+    "tl": "Ang iyong mortgage ay insured ng Federal Housing Administration (FHA)",
+    "zh-hans": "您的抵押贷款由联邦住房管理局(FHA)承保",
+    "zh-hant": "您的抵押貸款由聯邦住房管理局(FHA)承保",
+    "hy": "Ձեր հիփոթեքը ապահովագրված է Դաշնային բնակարանային վարչության (FHA) կողմից"
+  },
+
+  "financial_assistance_card_4_description_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If you're facing foreclosure, contact your mortgage company. Or call the FHA Resource Center at <a href=\"tel:800-225-5342\">800-225-5342</a>.",
+    "es": "Si se enfrenta a una ejecución hipotecaria, comuníquese con su compañía hipotecaria. O llame al Centro de Recursos de la FHA al <a href=\"tel:800-225-5342\">800-225-5342</a>.",
+    "ko": "압류에 직면한 경우 모기지 회사에 문의하세요. 또는 FHA 리소스 센터에 <a href=\"tel:800-225-5342\">800-225-5342</a>로 전화하세요.",
+    "vi": "Nếu bạn đang đối mặt với việc tịch thu tài sản, hãy liên hệ với công ty thế chấp của bạn. Hoặc gọi cho Trung tâm Tài nguyên FHA theo số <a href=\"tel:800-225-5342\">800-225-5342</a>.",
+    "tl": "Kung humaharap ka sa foreclosure, makipag-ugnayan sa iyong mortgage company. O tumawag sa FHA Resource Center sa <a href=\"tel:800-225-5342\">800-225-5342</a>.",
+    "zh-hans": "如果您面临止赎，请联系您的抵押贷款公司。或致电FHA资源中心，电话<a href=\"tel:800-225-5342\">800-225-5342</a>。",
+    "zh-hant": "如果您面臨止贖，請聯繫您的抵押貸款公司。或致電FHA資源中心，電話<a href=\"tel:800-225-5342\">800-225-5342</a>。",
+    "hy": "Եթե բռնագանձման եք բախվում, կապվեք ձեր հիփոթեքային ընկերության հետ: Կամ զանգահարեք FHA ռեսուրսների կենտրոն <a href=\"tel:800-225-5342\">800-225-5342</a> հեռախոսահամարով:"
+  },
+
+  "financial_assistance_renter_protections": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Renter protections",
+    "es": "Protecciones para inquilinos",
+    "ko": "임차인 보호",
+    "vi": "Bảo vệ người thuê nhà",
+    "tl": "Mga proteksyon sa nangungupahan",
+    "zh-hans": "租户保护",
+    "zh-hant": "租戶保護",
+    "hy": "Վարձակալների պաշտպանություն"
+  },
+
+  "financial_assistance_card_5_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Eviction protection",
+    "es": "Protección contra desalojos",
+    "ko": "퇴거 보호",
+    "vi": "Bảo vệ trục xuất",
+    "tl": "Proteksyon sa pagpapaalis",
+    "zh-hans": "驱逐保护",
+    "zh-hant": "驅逐保護",
+    "hy": "Վտարումից պաշտպանություն"
+  },
+  "financial_assistance_card_5_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If you lost at least 10% of your income due to the fires, you may be protected from eviction through <strong>July 31, 2025</strong>. Learn more about <a href=\"https://housing.lacity.gov/renter-protections-2\">eviction protection</a> and find out if you qualify.",
+    "es": "Si perdió al menos el 10% de sus ingresos debido a los incendios, puede estar protegido contra el desalojo hasta el <strong>31 de julio de 2025</strong>. Obtenga más información sobre la <a href=\"https://housing.lacity.gov/renter-protections-2\">protección contra el desalojo</a> y averigüe si califica.",
+    "ko": "화재로 인해 소득의 10% 이상을 잃은 경우, <strong>2025년 7월 31일</strong>까지 퇴거로부터 보호받을 수 있습니다. <a href=\"https://housing.lacity.gov/renter-protections-2\">퇴거 보호</a>에 대해 자세히 알아보고 자격이 있는지 확인하세요.",
+    "vi": "Nếu bạn mất ít nhất 10% thu nhập do hỏa hoạn, bạn có thể được bảo vệ khỏi việc trục xuất đến <strong>ngày 31 tháng 7 năm 2025</strong>. Tìm hiểu thêm về <a href=\"https://housing.lacity.gov/renter-protections-2\">bảo vệ trục xuất</a> và tìm hiểu xem bạn có đủ điều kiện không.",
+    "tl": "Kung nawalan ka ng hindi bababa sa 10% ng iyong kita dahil sa mga sunog, maaari kang protektado mula sa pagpapaalis hanggang <strong>Hulyo 31, 2025</strong>. Alamin ang higit pa tungkol sa <a href=\"https://housing.lacity.gov/renter-protections-2\">proteksyon sa pagpapaalis</a> at alamin kung kwalipikado ka.",
+    "zh-hans": "如果您因火灾损失了至少10%的收入，您可能会受到保护，免于被驱逐，直到<strong>2025年7月31日</strong>。了解更多关于<a href=\"https://housing.lacity.gov/renter-protections-2\">驱逐保护</a>的信息，并查看您是否符合条件。",
+    "zh-hant": "如果您因火災損失了至少10%的收入，您可能會受到保護，免於被驅逐，直到<strong>2025年7月31日</strong>。了解更多關於<a href=\"https://housing.lacity.gov/renter-protections-2\">驅逐保護</a>的信息，並查看您是否符合條件。",
+    "hy": "Եթե հրդեհների պատճառով կորցրել եք ձեր եկամտի առնվազն 10%-ը, ապա կարող եք պաշտպանված լինել վտարումից մինչև <strong>2025 թվականի հուլիսի 31-ը</strong>: Իմացեք ավելին <a href=\"https://housing.lacity.gov/renter-protections-2\">վտարումից պաշտպանության</a> մասին և պարզեք, արդյոք դուք համապատասխանում եք պահանջներին:"
+  },
+
+  "financial_assistance_card_5_description_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If you need eviction protection, you must notify your landlord <strong>each month</strong> within 7 days of rent being due. Send a <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">Notice to Landlord of Inability to Pay Rent</a> (PDF).",
+    "es": "Si necesita protección contra el desalojo, debe notificar a su arrendador <strong>cada mes</strong> dentro de los 7 días posteriores al vencimiento del alquiler. Envíe un <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">Aviso al arrendador de incapacidad para pagar el alquiler</a> (PDF).",
+    "ko": "퇴거 보호가 필요한 경우, 임대료 납부 기한으로부터 7일 이내에 <strong>매월</strong> 집주인에게 통지해야 합니다. <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">임대료 지불 불능에 대한 집주인 통지서</a>(PDF)를 보내세요.",
+    "vi": "Nếu bạn cần bảo vệ khỏi việc trục xuất, bạn phải thông báo cho chủ nhà <strong>hàng tháng</strong> trong vòng 7 ngày kể từ khi tiền thuê đến hạn. Gửi <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">Thông báo cho Chủ nhà về Không có khả năng Trả tiền thuê nhà</a> (PDF).",
+    "tl": "Kung kailangan mo ng proteksyon sa pagpapaalis, dapat mong abisuhan ang iyong landlord <strong>bawat buwan</strong> sa loob ng 7 araw mula sa takdang araw ng upa. Magpadala ng <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">Abiso sa Landlord ng Hindi Kakayahang Magbayad ng Upa</a> (PDF).",
+    "zh-hans": "如果您需要驱逐保护，您必须在租金到期后7天内<strong>每月</strong>通知您的房东。发送<a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">无法支付租金的房东通知</a>（PDF）。",
+    "zh-hant": "如果您需要驅逐保護，您必須在租金到期後7天內<strong>每月</strong>通知您的房東。發送<a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">無法支付租金的房東通知</a>（PDF）。",
+    "hy": "Եթե ձեզ անհրաժեշտ է վտարումից պաշտպանություն, դուք պետք է տեղեկացնեք ձեր տանտիրոջը <strong>յուրաքանչյուր ամիս</strong> վարձավճարի ժամկետից 7 օրվա ընթացքում: Ուղարկեք <a href=\"https://dcba.lacounty.gov/wp-content/uploads/2025/02/Notice-to-Landlord-of-Inability-to-Pay-Rent-January-2025-Windstorm-and-Critical-Wildfire-Events-2.28.25.pdf\">Տանտիրոջը ծանուցում վարձավճար վճարելու անկարողության մասին</a> (PDF):"
+  },
+
+  "financial_assistance_card_6_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Free mediation",
+    "es": "Mediación gratuita",
+    "ko": "무료 중재",
+    "vi": "Hòa giải miễn phí",
+    "tl": "Libreng pamamagitan",
+    "zh-hans": "免费调解",
+    "zh-hant": "免費調解",
+    "hy": "Անվճար միջնորդություն"
+  },
+
+  "financial_assistance_card_6_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Los Angeles County offers <a href=\"https://dcba.lacounty.gov/mediation/\">free mediation services</a> for tenants and landlords. They can help you work out a payment plan.",
+    "es": "El Condado de Los Ángeles ofrece <a href=\"https://dcba.lacounty.gov/mediation/\">servicios de mediación gratuitos</a> para inquilinos y propietarios. Pueden ayudarlo a elaborar un plan de pago.",
+    "ko": "로스앤젤레스 카운티는 세입자와 집주인을 위한 <a href=\"https://dcba.lacounty.gov/mediation/\">무료 중재 서비스</a>를 제공합니다. 그들은 귀하가 지불 계획을 세우는 데 도움을 줄 수 있습니다.",
+    "vi": "Quận Los Angeles cung cấp <a href=\"https://dcba.lacounty.gov/mediation/\">dịch vụ hòa giải miễn phí</a> cho người thuê nhà và chủ nhà. Họ có thể giúp bạn lập kế hoạch thanh toán.",
+    "tl": "Ang Los Angeles County ay nag-aalok ng <a href=\"https://dcba.lacounty.gov/mediation/\">mga libreng serbisyo ng pamamagitan</a> para sa mga nangungupahan at mga landlord. Matutulungan ka nilang gumawa ng plano sa pagbabayad.",
+    "zh-hans": "洛杉矶县为租户和房东提供<a href=\"https://dcba.lacounty.gov/mediation/\">免费调解服务</a>。他们可以帮助您制定付款计划。",
+    "zh-hant": "洛杉磯縣為租戶和房東提供<a href=\"https://dcba.lacounty.gov/mediation/\">免費調解服務</a>。他們可以幫助您制定付款計劃。",
+    "hy": "Լոս Անջելես շրջանն առաջարկում է <a href=\"https://dcba.lacounty.gov/mediation/\">անվճար միջնորդության ծառայություններ</a> վարձակալների և տանտերերի համար: Նրանք կարող են օգնել ձեզ մշակել վճարման պլան:"
+  },
+
+  "financial_assistance_card_6_description_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Call <a href=\"tel:8005938222\">800-593-8222</a> to learn more.",
+    "es": "Llame al <a href=\"tel:8005938222\">800-593-8222</a> para obtener más información.",
+    "ko": "자세한 내용은 <a href=\"tel:8005938222\">800-593-8222</a>로 전화하세요.",
+    "vi": "Gọi <a href=\"tel:8005938222\">800-593-8222</a> để tìm hiểu thêm.",
+    "tl": "Tumawag sa <a href=\"tel:8005938222\">800-593-8222</a> para malaman ang higit pa.",
+    "zh-hans": "致电<a href=\"tel:8005938222\">800-593-8222</a>了解更多信息。",
+    "zh-hant": "致電<a href=\"tel:8005938222\">800-593-8222</a>了解更多信息。",
+    "hy": "Զանգահարեք <a href=\"tel:8005938222\">800-593-8222</a>՝ ավելին իմանալու համար:"
+  },
+
+  "financial_assistance_taxes": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Taxes",
+    "es": "Impuestos",
+    "ko": "세금",
+    "vi": "Thuế",
+    "tl": "Mga buwis",
+    "zh-hans": "税收",
+    "zh-hant": "稅收",
+    "hy": "Հարկեր"
+  },
+
+  "financial_assistance_card_7_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Income tax",
+    "es": "Impuesto sobre la renta",
+    "ko": "소득세",
+    "vi": "Thuế thu nhập",
+    "tl": "Buwis sa kita",
+    "zh-hans": "所得税",
+    "zh-hant": "所得稅",
+    "hy": "Եկամտահարկ"
+  },
+
+  "financial_assistance_card_7_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If you live in Los Angeles County, you can postpone filing and paying your income tax until <strong>October 15, 2025</strong>. Learn about the <a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">income tax extension</a>.",
+    "es": "Si vive en el condado de Los Ángeles, puede posponer la presentación y el pago de su impuesto sobre la renta hasta el <strong>15 de octubre de 2025</strong>. Obtenga información sobre la <a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">extensión del impuesto sobre la renta</a>.",
+    "ko": "로스앤젤레스 카운티에 거주하는 경우, <strong>2025년 10월 15일</strong>까지 소득세 신고 및 납부를 연기할 수 있습니다. <a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">소득세 연장</a>에 대해 알아보세요.",
+    "vi": "Nếu bạn sống ở Quận Los Angeles, bạn có thể hoãn nộp và đóng thuế thu nhập của mình đến <strong>ngày 15 tháng 10 năm 2025</strong>. Tìm hiểu về <a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">gia hạn thuế thu nhập</a>.",
+    "tl": "Kung nakatira ka sa Los Angeles County, maaari mong ipagpaliban ang paghahain at pagbabayad ng iyong buwis sa kita hanggang <strong>Oktubre 15, 2025</strong>. Alamin ang tungkol sa <a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">extension ng buwis sa kita</a>.",
+    "zh-hans": "如果您居住在洛杉矶县，您可以将所得税申报和缴纳推迟至<strong>2025年10月15日</strong>。了解<a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">所得税延期</a>。",
+    "zh-hant": "如果您居住在洛杉磯縣，您可以將所得稅申報和繳納推遲至<strong>2025年10月15日</strong>。了解<a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">所得稅延期</a>。",
+    "hy": "Եթե դուք ապրում եք Լոս Անջելես շրջանում, կարող եք հետաձգել եկամտահարկի հայտարարագրումը և վճարումը մինչև <strong>2025 թվականի հոկտեմբերի 15-ը</strong>: Իմացեք <a href=\"https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html\">եկամտահարկի երկարաձգման</a> մասին:"
+  },
+
+  "financial_assistance_card_8_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Property tax",
+    "es": "Impuesto a la propiedad",
+    "ko": "재산세",
+    "vi": "Thuế tài sản",
+    "tl": "Buwis sa ari-arian",
+    "zh-hans": "财产税",
+    "zh-hant": "財產稅",
+    "hy": "Գույքահարկ"
+  },
+
+  "financial_assistance_card_8_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If your property was affected by the fires, you can:",
+    "es": "Si su propiedad se vio afectada por los incendios, puede:",
+    "ko": "화재로 인해 재산이 영향을 받은 경우 다음과 같은 조치를 취할 수 있습니다:",
+    "vi": "Nếu tài sản của bạn bị ảnh hưởng bởi các vụ cháy, bạn có thể:",
+    "tl": "Kung ang iyong ari-arian ay naapektuhan ng mga sunog, maaari kang:",
+    "zh-hans": "如果您的财产受到火灾影响，您可以：",
+    "zh-hant": "如果您的財產受到火災影響，您可以：",
+    "hy": "Եթե ձեր գույքը տուժել է հրդեհներից, դուք կարող եք՝"
+  },
+
+  "financial_assistance_card_8_list_1": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Postpone paying your property tax until <strong>April 10, 2026</strong>. Learn about the <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">property tax extension</a>.",
+    "es": "Posponer el pago de su impuesto a la propiedad hasta el <strong>10 de abril de 2026</strong>. Obtenga información sobre la <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">extensión del impuesto a la propiedad</a>.",
+    "ko": "<strong>2026년 4월 10일</strong>까지 재산세 납부를 연기하세요. <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">재산세 연장</a>에 대해 알아보세요.",
+    "vi": "Hoãn nộp thuế tài sản của bạn đến <strong>ngày 10 tháng 4 năm 2026</strong>. Tìm hiểu về <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">gia hạn thuế tài sản</a>.",
+    "tl": "Ipagpaliban ang pagbabayad ng iyong buwis sa ari-arian hanggang <strong>Abril 10, 2026</strong>. Alamin ang tungkol sa <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">extension ng buwis sa ari-arian</a>.",
+    "zh-hans": "将您的财产税缴纳推迟至<strong>2026年4月10日</strong>。了解<a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">财产税延期</a>。",
+    "zh-hant": "將您的財產稅繳納推遲至<strong>2026年4月10日</strong>。了解<a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">財產稅延期</a>。",
+    "hy": "Հետաձգեք ձեր գույքահարկի վճարումը մինչև <strong>2026 թվականի ապրիլի 10-ը</strong>: Իմացեք <a href=\"https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/\">գույքահարկի երկարաձգման</a> մասին:"
+  },
+
+  "financial_assistance_card_8_list_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Apply for <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">property tax relief</a> from Los Angeles County.",
+    "es": "Solicite <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">alivio del impuesto a la propiedad</a> del Condado de Los Ángeles.",
+    "ko": "로스앤젤레스 카운티에서 <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">재산세 감면</a>을 신청하세요.",
+    "vi": "Đăng ký <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">giảm thuế tài sản</a> từ Quận Los Angeles.",
+    "tl": "Mag-apply para sa <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">kaluwagan sa buwis sa ari-arian</a> mula sa Los Angeles County.",
+    "zh-hans": "申请洛杉矶县的<a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">财产税减免</a>。",
+    "zh-hant": "申請洛杉磯縣的<a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">財產稅減免</a>。",
+    "hy": "Դիմեք Լոս Անջելես շրջանի <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">գույքահարկի արտոնությունների</a> համար:"
+  }
+,
+
+  "financial_assistance_employment": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Employment",
+    "es": "Empleo",
+    "ko": "고용",
+    "vi": "Việc làm",
+    "tl": "Trabaho",
+    "zh-hans": "就业",
+    "zh-hant": "就業",
+    "hy": "Աշխատանք"
+  },
+
+  "financial_assistance_card_9_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Income replacement",
+    "es": "Reemplazo de ingresos",
+    "ko": "소득 대체",
+    "vi": "Thay thế thu nhập",
+    "tl": "Kapalit ng kita",
+    "zh-hans": "收入替代",
+    "zh-hant": "收入替代",
+    "hy": "Եկամտի փոխհատուցում"
+  },
+
+  "financial_assistance_card_9_list_1": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If you lost your job or lost wages, <a href=\"https://edd.ca.gov/en/unemployment/\">apply for unemployment benefits</a>",
+    "es": "Si perdió su trabajo o salarios, <a href=\"https://edd.ca.gov/en/unemployment/\">solicite beneficios de desempleo</a>",
+    "ko": "직장을 잃었거나 임금을 잃은 경우, <a href=\"https://edd.ca.gov/en/unemployment/\">실업 급여를 신청하세요</a>",
+    "vi": "Nếu bạn mất việc làm hoặc mất lương, <a href=\"https://edd.ca.gov/en/unemployment/\">hãy đăng ký nhận trợ cấp thất nghiệp</a>",
+    "tl": "Kung nawalan ka ng trabaho o nawalan ng sahod, <a href=\"https://edd.ca.gov/en/unemployment/\">mag-apply para sa mga benepisyo sa kawalan ng trabaho</a>",
+    "zh-hans": "如果您失业或失去工资，<a href=\"https://edd.ca.gov/en/unemployment/\">申请失业救济金</a>",
+    "zh-hant": "如果您失業或失去工資，<a href=\"https://edd.ca.gov/en/unemployment/\">申請失業救濟金</a>",
+    "hy": "Եթե կորցրել եք աշխատանքը կամ աշխատավարձը, <a href=\"https://edd.ca.gov/en/unemployment/\">դիմեք գործազրկության նպաստների համար</a>"
+  },
+
+  "financial_assistance_card_9_list_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If you're sick or injured and can't work, <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">apply for disability benefits</a>",
+    "es": "Si está enfermo o lesionado y no puede trabajar, <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">solicite beneficios por discapacidad</a>",
+    "ko": "아프거나 다쳐서 일할 수 없는 경우, <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">장애 급여를 신청하세요</a>",
+    "vi": "Nếu bạn bị bệnh hoặc bị thương và không thể làm việc, <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">hãy đăng ký nhận trợ cấp khuyết tật</a>",
+    "tl": "Kung ikaw ay may sakit o nasugatan at hindi makapagtrabaho, <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">mag-apply para sa mga benepisyo sa kapansanan</a>",
+    "zh-hans": "如果您生病或受伤无法工作，<a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">申请残疾福利</a>",
+    "zh-hant": "如果您生病或受傷無法工作，<a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">申請殘疾福利</a>",
+    "hy": "Եթե հիվանդ եք կամ վնասվածք եք ստացել և չեք կարող աշխատել, <a href=\"https://edd.ca.gov/en/disability/disability_insurance/\">դիմեք հաշմանդամության նպաստների համար</a>"
+  },
+
+  "financial_assistance_card_9_list_3": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If you need time off to care for your family, <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">apply for paid family leave</a>",
+    "es": "Si necesita tiempo libre para cuidar a su familia, <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">solicite permiso familiar pagado</a>",
+    "ko": "가족을 돌보기 위해 휴가가 필요한 경우, <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">유급 가족 휴가를 신청하세요</a>",
+    "vi": "Nếu bạn cần thời gian nghỉ để chăm sóc gia đình, <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">hãy đăng ký nghỉ phép gia đình có lương</a>",
+    "tl": "Kung kailangan mo ng panahon para alagaan ang iyong pamilya, <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">mag-apply para sa bayad na family leave</a>",
+    "zh-hans": "如果您需要休假照顾家人，<a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">申请带薪家庭假</a>",
+    "zh-hant": "如果您需要休假照顧家人，<a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">申請帶薪家庭假</a>",
+    "hy": "Եթե ձեզ ժամանակ է հարկավոր ձեր ընտանիքին խնամելու համար, <a href=\"https://edd.ca.gov/en/disability/paid-family-leave/\">դիմեք վճարովի ընտանեկան արձակուրդի համար</a>"
+  },
+
+  "financial_assistance_card_10_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Job search support",
+    "es": "Apoyo para la búsqueda de empleo",
+    "ko": "구직 지원",
+    "vi": "Hỗ trợ tìm việc làm",
+    "tl": "Suporta sa paghahanap ng trabaho",
+    "zh-hans": "求职支持",
+    "zh-hant": "求職支持",
+    "hy": "Աշխատանքի որոնման աջակցություն"
+  },
+
+  "financial_assistance_card_10_list_1": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Get help <a href=\"https://edd.ca.gov/en/jobs/\">finding a job</a>",
+    "es": "Obtenga ayuda <a href=\"https://edd.ca.gov/en/jobs/\">para encontrar un trabajo</a>",
+    "ko": "<a href=\"https://edd.ca.gov/en/jobs/\">일자리 찾기</a>에 도움을 받으세요",
+    "vi": "Nhận trợ giúp <a href=\"https://edd.ca.gov/en/jobs/\">tìm việc làm</a>",
+    "tl": "Kumuha ng tulong <a href=\"https://edd.ca.gov/en/jobs/\">sa paghahanap ng trabaho</a>",
+    "zh-hans": "获取<a href=\"https://edd.ca.gov/en/jobs/\">找工作</a>的帮助",
+    "zh-hant": "獲取<a href=\"https://edd.ca.gov/en/jobs/\">找工作</a>的幫助",
+    "hy": "Ստացեք օգնություն <a href=\"https://edd.ca.gov/en/jobs/\">աշխատանք գտնելու</a> հարցում"
+  },
+
+  "financial_assistance_card_10_list_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Find <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">job training</a>",
+    "es": "Encuentre <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">capacitación laboral</a>",
+    "ko": "<a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">직업 훈련</a>을 찾으세요",
+    "vi": "Tìm <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">đào tạo việc làm</a>",
+    "tl": "Maghanap ng <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">pagsasanay sa trabaho</a>",
+    "zh-hans": "寻找<a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">职业培训</a>",
+    "zh-hant": "尋找<a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">職業培訓</a>",
+    "hy": "Գտեք <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">աշխատանքային վերապատրաստում</a>"
+  },
+
+  "financial_assistance_student_loan": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Student loan protections",
+    "es": "Protecciones para préstamos estudiantiles",
+    "ko": "학자금 대출 보호",
+    "vi": "Bảo vệ khoản vay sinh viên",
+    "tl": "Mga proteksyon sa pautang ng estudyante",
+    "zh-hans": "学生贷款保护",
+    "zh-hant": "學生貸款保護",
+    "hy": "Ուսանողական վարկերի պաշտպանություն"
+  },
+
+  "financial_assistance_card_11_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Student loan relief",
+    "es": "Alivio de préstamos estudiantiles",
+    "ko": "학자금 대출 구제",
+    "vi": "Cứu trợ khoản vay sinh viên",
+    "tl": "Kaluwagan sa pautang ng estudyante",
+    "zh-hans": "学生贷款减免",
+    "zh-hant": "學生貸款減免",
+    "hy": "Ուսանողական վարկերի օգնություն"
+  },
+
+  "financial_assistance_card_11_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If you live in an area affected by the fires, you may qualify for disaster forbearance on your student loans. Learn about <a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">student loan relief options</a>.",
+    "es": "Si vive en un área afectada por los incendios, puede calificar para una indulgencia por desastre en sus préstamos estudiantiles. Obtenga información sobre las <a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">opciones de alivio de préstamos estudiantiles</a>.",
+    "ko": "화재 피해 지역에 거주하는 경우, 학자금 대출에 대한 재난 유예 자격을 얻을 수 있습니다. <a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">학자금 대출 구제 옵션</a>에 대해 알아보세요.",
+    "vi": "Nếu bạn sống trong khu vực bị ảnh hưởng bởi các vụ cháy, bạn có thể đủ điều kiện để được hoãn trả khoản vay sinh viên do thảm họa. Tìm hiểu về <a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">các lựa chọn giảm nhẹ khoản vay sinh viên</a>.",
+    "tl": "Kung nakatira ka sa isang lugar na naapektuhan ng mga sunog, maaari kang maging kwalipikado para sa disaster forbearance sa iyong mga pautang ng estudyante. Alamin ang tungkol sa <a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">mga opsyon sa kaluwagan sa pautang ng estudyante</a>.",
+    "zh-hans": "如果您居住在受火灾影响的地区，您可能有资格获得学生贷款的灾难宽限期。了解<a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">学生贷款减免选项</a>。",
+    "zh-hant": "如果您居住在受火災影響的地區，您可能有資格獲得學生貸款的災難寬限期。了解<a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">學生貸款減免選項</a>。",
+    "hy": "Եթե դուք ապրում եք հրդեհներից տուժած տարածքում, դուք կարող եք որակավորվել ուսանողական վարկերի աղետի համար: Իմացեք <a href=\"https://dfpi.ca.gov/lafires/federal-and-private-student-loan-relief-faq/\">ուսանողական վարկերի մեղմացման տարբերակների</a> մասին:"
+  },
+  "financial_assistance_cash": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Cash assistance and loans",
+    "es": "Asistencia en efectivo y préstamos",
+    "ko": "현금 지원 및 대출",
+    "vi": "Hỗ trợ tiền mặt và khoản vay",
+    "tl": "Tulong na pera at mga pautang",
+    "zh-hans": "现金援助和贷款",
+    "zh-hant": "現金援助和貸款",
+    "hy": "Դրամական օգնություն և վարկեր"
+  },
+
+  "financial_assistance_card_12_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "FEMA disaster assistance",
+    "es": "Asistencia por desastre de FEMA",
+    "ko": "FEMA 재난 지원",
+    "vi": "Hỗ trợ thảm họa FEMA",
+    "tl": "Tulong sa sakuna ng FEMA",
+    "zh-hans": "FEMA灾难援助",
+    "zh-hant": "FEMA災難援助",
+    "hy": "FEMA-ի աղետների օգնություն"
+  },
+
+  "financial_assistance_card_12_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "FEMA disaster assistance includes funds for temporary housing, repairs, and rebuilding. Homeowners and renters can apply.",
+    "es": "La asistencia por desastre de FEMA incluye fondos para vivienda temporal, reparaciones y reconstrucción. Los propietarios e inquilinos pueden aplicar.",
+    "ko": "FEMA 재난 지원에는 임시 주택, 수리 및 재건을 위한 자금이 포함됩니다. 주택 소유자와 임차인 모두 신청할 수 있습니다.",
+    "vi": "Hỗ trợ thảm họa FEMA bao gồm quỹ cho nhà ở tạm thời, sửa chữa và xây dựng lại. Chủ nhà và người thuê nhà có thể đăng ký.",
+    "tl": "Ang tulong sa sakuna ng FEMA ay kinabibilangan ng mga pondo para sa pansamantalang pabahay, mga pagkukumpuni, at muling pagtatayo. Ang mga may-ari ng bahay at nangungupahan ay maaaring mag-apply.",
+    "zh-hans": "FEMA灾难援助包括临时住房、维修和重建的资金。房主和租户都可以申请。",
+    "zh-hant": "FEMA災難援助包括臨時住房、維修和重建的資金。房主和租戶都可以申請。",
+    "hy": "FEMA-ի աղետների օգնությունը ներառում է ժամանակավոր բնակարանային, վերանորոգման և վերակառուցման միջոցներ: Տանտերերը և վարձակալները կարող են դիմել:"
+  },
+
+  "financial_assistance_card_12_description_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "The deadline to apply was <strong>March 31, 2025</strong>. But you can submit a late application for 60 days after the deadline. Go to <a href=\"https://DisasterAssistance.gov\">DisasterAssistance.gov</a> to apply or check your application status.",
+    "es": "La fecha límite para presentar la solicitud fue el <strong>31 de marzo de 2025</strong>. Pero puede enviar una solicitud tardía durante 60 días después de la fecha límite. Vaya a <a href=\"https://DisasterAssistance.gov\">DisasterAssistance.gov</a> para solicitar o verificar el estado de su solicitud.",
+    "ko": "신청 마감일은 <strong>2025년 3월 31일</strong>이었습니다. 그러나 마감일 이후 60일 동안 늦은 신청서를 제출할 수 있습니다. <a href=\"https://DisasterAssistance.gov\">DisasterAssistance.gov</a>에서 신청하거나 신청 상태를 확인하세요.",
+    "vi": "Hạn chót để đăng ký là <strong>ngày 31 tháng 3 năm 2025</strong>. Nhưng bạn có thể nộp đơn muộn trong vòng 60 ngày sau hạn chót. Truy cập <a href=\"https://DisasterAssistance.gov\">DisasterAssistance.gov</a> để đăng ký hoặc kiểm tra trạng thái đơn đăng ký của bạn.",
+    "tl": "Ang huling araw para mag-apply ay <strong>Marso 31, 2025</strong>. Ngunit maaari kang magsumite ng late na aplikasyon sa loob ng 60 araw pagkatapos ng deadline. Pumunta sa <a href=\"https://DisasterAssistance.gov\">DisasterAssistance.gov</a> upang mag-apply o suriin ang katayuan ng iyong aplikasyon.",
+    "zh-hans": "申请截止日期为<strong>2025年3月31日</strong>。但您可以在截止日期后60天内提交逾期申请。前往<a href=\"https://DisasterAssistance.gov\">DisasterAssistance.gov</a>申请或查看您的申请状态。",
+    "zh-hant": "申請截止日期為<strong>2025年3月31日</strong>。但您可以在截止日期後60天內提交逾期申請。前往<a href=\"https://DisasterAssistance.gov\">DisasterAssistance.gov</a>申請或查看您的申請狀態。",
+    "hy": "Դիմելու վերջնաժամկետը <strong>2025 թվականի մարտի 31-ն</strong> էր: Բայց դուք կարող եք ուշացած դիմում ներկայացնել վերջնաժամկետից հետո 60 օրվա ընթացքում: Այցելեք <a href=\"https://DisasterAssistance.gov\">DisasterAssistance.gov</a>՝ դիմելու կամ ձեր դիմումի կարգավիճակը ստուգելու համար:"
+  },
+
+  "financial_assistance_card_12_description_3": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "<strong>If FEMA denied your application</strong>, you have 60 days to <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">appeal FEMA's decision</a>.",
+    "es": "<strong>Si FEMA rechazó su solicitud</strong>, tiene 60 días para <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">apelar la decisión de FEMA</a>.",
+    "ko": "<strong>FEMA가 귀하의 신청을 거부한 경우</strong>, <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">FEMA의 결정에 이의를 제기</a>할 수 있는 기간은 60일입니다.",
+    "vi": "<strong>Nếu FEMA từ chối đơn đăng ký của bạn</strong>, bạn có 60 ngày để <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">kháng cáo quyết định của FEMA</a>.",
+    "tl": "<strong>Kung tinanggihan ng FEMA ang iyong aplikasyon</strong>, mayroon kang 60 araw upang <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">iapela ang desisyon ng FEMA</a>.",
+    "zh-hans": "<strong>如果FEMA拒绝了您的申请</strong>，您有60天的时间<a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">对FEMA的决定提出上诉</a>。",
+    "zh-hant": "<strong>如果FEMA拒絕了您的申請</strong>，您有60天的時間<a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">對FEMA的決定提出上訴</a>。",
+    "hy": "<strong>Եթե FEMA-ն մերժել է ձեր դիմումը</strong>, դուք ունեք 60 օր <a href=\"https://www.fema.gov/assistance/individual/after-applying/appeals\">բողոքարկելու FEMA-ի որոշումը</a>:"
+  },
+
+  "financial_assistance_card_12_description_4": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Learn more on <a href=\"https://www.fema.gov/disaster/4856\">FEMA's LA Fires page</a>.",
+    "es": "Obtenga más información en la <a href=\"https://www.fema.gov/disaster/4856\">página de incendios de Los Ángeles de FEMA</a>.",
+    "ko": "<a href=\"https://www.fema.gov/disaster/4856\">FEMA의 LA 화재 페이지</a>에서 자세히 알아보세요.",
+    "vi": "Tìm hiểu thêm trên <a href=\"https://www.fema.gov/disaster/4856\">trang Cháy LA của FEMA</a>.",
+    "tl": "Matuto nang higit pa sa <a href=\"https://www.fema.gov/disaster/4856\">FEMA's LA Fires page</a>.",
+    "zh-hans": "在<a href=\"https://www.fema.gov/disaster/4856\">FEMA的洛杉矶火灾页面</a>上了解更多信息。",
+    "zh-hant": "在<a href=\"https://www.fema.gov/disaster/4856\">FEMA的洛杉磯火災頁面</a>上了解更多信息。",
+    "hy": "Իմացեք ավելին <a href=\"https://www.fema.gov/disaster/4856\">FEMA-ի LA հրդեհների էջում</a>:"
+  },
+
+  "financial_assistance_card_13_title": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "Disaster loans",
+    "es": "Préstamos por desastre",
+    "ko": "재난 대출",
+    "vi": "Khoản vay thảm họa",
+    "tl": "Mga pautang sa sakuna",
+    "zh-hans": "灾难贷款",
+    "zh-hant": "災難貸款",
+    "hy": "Աղետների վարկեր"
+  },
+
+  "financial_assistance_card_13_description": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "The Small Business Administration (SBA) offers disaster loans to homeowners and renters. You can use these loans to repair your home or replace personal property damaged in the fires.",
+    "es": "La Administración de Pequeñas Empresas (SBA) ofrece préstamos por desastre a propietarios e inquilinos. Puede usar estos préstamos para reparar su hogar o reemplazar propiedad personal dañada en los incendios.",
+    "ko": "중소기업청(SBA)은 주택 소유자와 임차인에게 재난 대출을 제공합니다. 이러한 대출을 사용하여 화재로 손상된 주택을 수리하거나 개인 재산을 교체할 수 있습니다.",
+    "vi": "Cơ quan Quản lý Doanh nghiệp Nhỏ (SBA) cung cấp các khoản vay thảm họa cho chủ nhà và người thuê nhà. Bạn có thể sử dụng các khoản vay này để sửa chữa nhà hoặc thay thế tài sản cá nhân bị hư hại trong các vụ cháy.",
+    "tl": "Ang Small Business Administration (SBA) ay nag-aalok ng mga pautang sa sakuna sa mga may-ari ng bahay at nangungupahan. Maaari mong gamitin ang mga pautang na ito upang ayusin ang iyong bahay o palitan ang personal na ari-arian na nasira sa mga sunog.",
+    "zh-hans": "小企业管理局(SBA)向房主和租户提供灾难贷款。您可以使用这些贷款修复您的房屋或更换在火灾中损坏的个人财产。",
+    "zh-hant": "小企業管理局(SBA)向房主和租戶提供災難貸款。您可以使用這些貸款修復您的房屋或更換在火災中損壞的個人財產。",
+    "hy": "Փոքր բիզնեսի վարչակազմը (SBA) առաջարկում է աղետների վարկեր տանտերերին և վարձակալներին: Դուք կարող եք օգտագործել այս վարկերը ձեր տունը վերանորոգելու կամ հրդեհներից վնասված անձնական գույքը փոխարինելու համար:"
+  },
+  "financial_assistance_card_13_description_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "The deadline to apply for these loans was <strong>March 31, 2025</strong>. If you already applied, you can sign in to the <a href=\"http://lending.sba.gov\">SBA loan portal</a> to check the status of your application.",
+    "es": "La fecha límite para solicitar estos préstamos fue el <strong>31 de marzo de 2025</strong>. Si ya ha solicitado, puede iniciar sesión en el <a href=\"http://lending.sba.gov\">portal de préstamos de la SBA</a> para verificar el estado de su solicitud.",
+    "ko": "이러한 대출을 신청하는 마감일은 <strong>2025년 3월 31일</strong>이었습니다. 이미 신청하셨다면, <a href=\"http://lending.sba.gov\">SBA 대출 포털</a>에 로그인하여 신청 상태를 확인할 수 있습니다.",
+    "vi": "Hạn chót để đăng ký các khoản vay này là <strong>ngày 31 tháng 3 năm 2025</strong>. Nếu bạn đã đăng ký, bạn có thể đăng nhập vào <a href=\"http://lending.sba.gov\">cổng thông tin khoản vay SBA</a> để kiểm tra trạng thái đơn đăng ký của bạn.",
+    "tl": "Ang huling araw para mag-apply para sa mga pautang na ito ay <strong>Marso 31, 2025</strong>. Kung nag-apply ka na, maaari kang mag-sign in sa <a href=\"http://lending.sba.gov\">portal ng pautang ng SBA</a> upang suriin ang katayuan ng iyong aplikasyon.",
+    "zh-hans": "申请这些贷款的截止日期是<strong>2025年3月31日</strong>。如果您已经申请，可以登录<a href=\"http://lending.sba.gov\">SBA贷款门户网站</a>查看申请状态。",
+    "zh-hant": "申請這些貸款的截止日期是<strong>2025年3月31日</strong>。如果您已經申請，可以登錄<a href=\"http://lending.sba.gov\">SBA貸款門戶網站</a>查看申請狀態。",
+    "hy": "Այս վարկերի դիմելու վերջնաժամկետը <strong>2025 թվականի մարտի 31-ն</strong> էր: Եթե դուք արդեն դիմել եք, կարող եք մուտք գործել <a href=\"http://lending.sba.gov\">SBA-ի վարկային պորտալ</a>՝ ձեր դիմումի կարգավիճակը ստուգելու համար:"
+  }
+
+}
