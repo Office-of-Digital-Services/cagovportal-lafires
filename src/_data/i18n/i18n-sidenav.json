@@ -213,15 +213,16 @@
     "hy": "Վերակառուցման քայլեր"
   },
   "sidenav_help_your_business": {
-    "status": "avantpage_delivery",
-    "en": "Help your business",
+    "status": "ap_review",
+    "en": "Help for your business",
+    "fr": "Aide pour votre entreprise",
     "es": "Ayuda para su negocio",
     "ko": "비즈니스 지원",
-    "vi": "Giúp doanh nghiệp của quý vị",
-    "tl": "Tulungan ang iyong negosyo",
+    "vi": "Giúp đỡ cho doanh nghiệp của bạn",
+    "tl": "Tulong para sa iyong negosyo",
     "zh-hans": "企业援助",
-    "zh-hant": "幫助您的業務",
-    "hy": "Օգնություն Ձեր բիզնեսի համար"
+    "zh-hant": "企業援助",
+    "hy": "Օգնություն ձեր բիզնեսի համար"
   },
   "sidenav_volunteer": {
     "status": "avantpage_delivery",

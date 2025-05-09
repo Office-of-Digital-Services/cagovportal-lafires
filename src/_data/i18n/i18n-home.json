@@ -108,16 +108,16 @@
     "hy": "Օգնություն և տեղեկատվություն անտառային հրդեհներից տուժած մարդկանց համար"
   },
   "home_find_help_available_title": {
-    "status": "avantpage_delivery",
-    "en": "Find help available to you",
-    "fr": "Trouvez l'aide disponible pour vous",
-    "es": "Encuentre ayuda disponible para usted",
-    "ko": "이용 가능한 도움 찾기",
-    "vi": "Tìm trợ giúp có sẵn dành cho quý vị",
-    "tl": "Maghanap ng tulong na available sa iyo",
-    "zh-hans": "查找可用援助",
-    "zh-hant": "查找可用的幫助",
-    "hy": "Գտեք Ձեզ հասանելի օգնությունը"
+    "status": "ap_review",
+    "en": "Find services you need",
+    "fr": "Trouvez les services dont vous avez besoin",
+    "es": "Encuentre los servicios que necesita",
+    "ko": "필요한 서비스를 찾으십시오",
+    "vi": "Tìm dịch vụ bạn cần",
+    "tl": "Maghanap ng mga serbisyong kailangan mo",
+    "zh-hans": "查找所需服务",
+    "zh-hant": "尋找所需的服務",
+    "hy": "Գտեք անհրաժեշտ ծառայություններ"
   },
   "home_track_la_progress_title": {
     "status": "avantpage_delivery",
