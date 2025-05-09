@@ -84,11 +84,17 @@
 
       <nav class="page-navigation"></nav>
 
-      <h2>{{ 'vital_records_records_from_other_states' | i18n }}</h2>
-      <p>{{ 'vital_records_contact_county_recorder' | i18n | safe }}</p>
+      <div
+        class="bg-p2 section-primary p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="color-white m-b-0">
+          {{ 'vital_records_contact_county_recorder' | i18n | safe }}
+        </p>
+      </div>
 
-      <h2>{{ 'vital_records_records_from_california' | i18n }}</h2>
-      <h3>{{ 'vital_records_apply_online' | i18n }}</h3>
+      <h2>{{ 'vital_records_apply_online' | i18n }}</h2>
       <p>{{ 'vital_records_replace_certificates' | i18n }}</p>
 
       <p>{{ 'vital_records_replacements_free' | i18n }}</p>
@@ -200,16 +206,7 @@
         </div>
       </div>
 
-      <h3>{{ 'vital_records_apply_in_person' | i18n }}</h3>
-      <p>{{ 'vital_records_visit' | i18n }}</p>
-      <ul>
-        <li class="m-t">
-          {{ 'vital_records_disaster_recovery_center' | i18n | safe }}
-        </li>
-        <li class="m-t">{{ 'vital_records_county_recorder' | i18n | safe }}</li>
-      </ul>
-
-      <h3>{{ 'vital_records_apply_by_mail' | i18n }}</h3>
+      <h2>{{ 'vital_records_apply_by_mail' | i18n }}</h2>
       <ul>
         <li class="m-t">
           {{ 'vital_records_print_application' | i18n | safe }}
@@ -221,6 +218,9 @@
         </li>
         <li class="m-t">{{ 'vital_records_fill_notarize_mail' | i18n }}</li>
       </ul>
+
+      <h2>{{ 'vital_records_apply_in_person' | i18n }}</h2>
+      <p>{{ 'vital_records_visit' | i18n | safe }}</p>
     </div>
   </div>
 </div>
