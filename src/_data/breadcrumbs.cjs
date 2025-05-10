@@ -11,7 +11,7 @@ const data = [
         href: "/LAfires/",
         children: [
           {
-            key: "Help for you and your family",
+            key: "Help for you",
             href: "/lafires/help-for-you/"
           }
         ]
