@@ -351,10 +351,17 @@ module.exports = function (
     return true;
   });
 
-  eleventyConfig.addFilter("pagePath", (page, langPath) => {
-    // console.log(chalk.green(`[pagePath] Testing *${page.filePathStem}* page: ${page.url} langPath: ${langPath}`));
+  eleventyConfig.addFilter("pagePath", (page, langPath, permalink) => {
+    // console.log(chalk.green(`page: ${page.url} permalink: ${permalink}`));
     let currentPath = `${page.filePathStem}/`; // Relative to base dir, localized path, with folder + /index.html.
-
+    // If permalink is provided and not empty, use that instead of filePathStem
+    if (permalink && permalink.trim() !== '') {
+      currentPath = permalink;
+      // Ensure trailing slash for consistency
+      if (!currentPath.endsWith('/') && !currentPath.includes('#')) {
+        currentPath += '/';
+      }
+    }
     // remove /lafires/ from currentPath
     currentPath = currentPath.replace('/lafires/', '/');  
     // remove /initiatives/ from currentPath
