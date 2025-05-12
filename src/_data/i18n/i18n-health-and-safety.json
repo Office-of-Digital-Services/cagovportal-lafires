@@ -86,14 +86,14 @@
   "health_and_safety_indoor_air_quality_description": {
     "status": "ap_review",
     "comment": "added 5-8-2025",
-    "en": "There may be toxins still in your home from smoke and ash. Learn how to stay safe around <a href=\"#Ash,-dust,-and-debris-\">ash, dust, and debris</a>.",
-    "es": "Puede haber toxinas todavía en su casa de humo y ceniza. Aprenda cómo permanecer seguro alrededor de <a href=\"#Ash,-dust,-and-debris-\">ceniza, polvo y desechos</a>.",
-    "ko": "화재 후에도 화학물질이 아직 집에 남아 있을 수 있습니다. <a href=\"#Ash,-dust,-and-debris-\">재산, 먼지, 재산</a> 주위에서 안전하게 유지하는 방법을 배우세요.",
-    "vi": "Có thể vẫn còn chất độc trong nhà bạn từ khói và tro. Tìm hiểu cách bảo vệ bản thân an toàn xung quanh <a href=\"#Ash,-dust,-and-debris-\">tro, bụi và rác</a>.",
+    "en": "There may be toxins still in your home from smoke and ash. Learn how to stay safe around <a href=\"#Ash,-dust,-and-debris\">ash, dust, and debris</a>.",
+    "es": "Puede haber toxinas todavía en su casa de humo y ceniza. Aprenda cómo permanecer seguro alrededor de <a href=\"#Ash,-dust,-and-debris\">ceniza, polvo y desechos</a>.",
+    "ko": "화재 후에도 화학물질이 아직 집에 남아 있을 수 있습니다. <a href=\"#Ash,-dust,-and-debris\">재산, 먼지, 재산</a> 주위에서 안전하게 유지하는 방법을 배우세요.",
+    "vi": "Có thể vẫn còn chất độc trong nhà bạn từ khói và tro. Tìm hiểu cách bảo vệ bản thân an toàn xung quanh <a href=\"#Ash,-dust,-and-debris\">tro, bụi và rác</a>.",
     "tl": "May mga lason pa rin sa bahay mo mula sa apoy at aso. Alamin kung paano bumuo ng kalusugan at maging ligtas sa pagkatapos ng wildfire.",
-    "zh-hans": "您的家中可能仍残留烟雾和灰烬中的毒素。了解如何安全地保护自己免受<a href=\"#Ash,-dust,-and-debris-\">灰烬、灰尘和碎片</a>的影响。",
-    "zh-hant": "您的家中可能仍殘留煙霧和灰燼中的毒素。了解如何安全地保護自己免受<a href=\"#Ash,-dust,-and-debris-\">灰燼、灰塵和碎片</a>的影響。",
-    "hy": "Ձեր տանը դեռ կարող են մնացած լինել թունավոր նյութեր ծխից և մոխիրից։ Իմացեք, թե ինչպես անվտանգ մնալ <a href=\"#Ash,-dust,-and-debris-\">մոխրի, փոշու և բեկորների</a> շրջակայքում։"
+    "zh-hans": "您的家中可能仍残留烟雾和灰烬中的毒素。了解如何安全地保护自己免受<a href=\"#Ash,-dust,-and-debris\">灰烬、灰尘和碎片</a>的影响。",
+    "zh-hant": "您的家中可能仍殘留煙霧和灰燼中的毒素。了解如何安全地保護自己免受<a href=\"#Ash,-dust,-and-debris\">灰燼、灰塵和碎片</a>的影響。",
+    "hy": "Ձեր տանը դեռ կարող են մնացած լինել թունավոր նյութեր ծխից և մոխիրից։ Իմացեք, թե ինչպես անվտանգ մնալ <a href=\"#Ash,-dust,-and-debris\">մոխրի, փոշու և բեկորների</a> շրջակայքում։"
   },
   "health_and_safety_water_safety": {
     "status": "ap_review",
@@ -214,18 +214,6 @@
     "zh-hans": "喂养宠物",
     "zh-hant": "餵養寵物",
     "hy": "Ընտանի կենդանիներին կերակրելու"
-  },
-  "health_and_safety_water_safety_description_2": {
-    "status": "ap_review",
-    "comment": "added 5-8-2025",
-    "en": "If your water provider lifted the water notice in your area, you can use tap water again. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Flush your water pipes</a> to clear the contaminated water from your home. Keep in mind that home water testing kits aren't reliable.",
-    "es": "Si su proveedor de agua levantó el aviso de agua en su área, puede usar agua del grifo nuevamente. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Enjuague sus tuberías de agua</a> para eliminar el agua contaminada de su hogar. Tenga en cuenta que los kits de prueba de agua para el hogar no son confiables.",
-    "ko": "수도 공급업체가 해당 지역의 수도 공지를 해제한 경우 수돗물을 다시 사용할 수 있습니다. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">수도관을 세척하여</a> 집에서 오염된 물을 제거하세요. 가정용 수질 검사 키트는 신뢰할 수 없다는 점을 유의하세요.",
-    "vi": "Nếu nhà cung cấp nước đã dỡ bỏ thông báo về nước trong khu vực của bạn, bạn có thể sử dụng nước máy trở lại. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Xả đường ống nước</a> để loại bỏ nước bị ô nhiễm khỏi nhà bạn. Hãy nhớ rằng bộ dụng cụ kiểm tra nước tại nhà không đáng tin cậy.",
-    "tl": "Kung inalis na ng iyong provider ng tubig ang abiso tungkol sa tubig sa iyong lugar, maaari mo nang gamitin muli ang tubig sa gripo. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">I-flush ang iyong mga tubo ng tubig</a> upang alisin ang kontaminadong tubig mula sa iyong tahanan. Tandaan na hindi maaasahan ang mga home water testing kit.",
-    "zh-hans": "如果您所在地区的供水商已经解除了用水通知，您可以再次使用自来水。<a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">冲洗您的水管</a>以清除家中的污染水。请记住，家用水质测试套件并不可靠。",
-    "zh-hant": "如果您所在地區的供水商已經解除了用水通知，您可以再次使用自來水。<a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">沖洗您的水管</a>以清除家中的污染水。請記住，家用水質測試套件並不可靠。",
-    "hy": "Եթե ձեր ջրամատակարարը վերացրել է ջրի ծանուցումը ձեր տարածքում, դուք կարող եք կրկին օգտագործել ծորակի ջուրը: <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Լվացեք ձեր ջրատար խողովակները</a>՝ ձեր տնից աղտոտված ջուրը մաքրելու համար: Հիշեք, որ տնային ջրի թեստավորման հավաքածուները հուսալի չեն:"
   },
   "health_and_safety_water_safety_description_3": {
     "status": "ap_review",
@@ -720,9 +708,3 @@
     "hy": "Ստուգեք, արդյոք ձեր աշխատավայրն ունի Աշխատակիցների օգնության ծրագիր գաղտնի խորհրդատվությամբ"
   }
 }
-
-
-
-
-
-

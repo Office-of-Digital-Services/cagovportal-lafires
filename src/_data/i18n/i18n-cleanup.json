@@ -480,16 +480,16 @@
     "hy": "Տեսեք այս աշխատանքի առաջընթացը <a href=\"https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806\">USACE-ի աղբի հեռացման քարտեզում</a>:"
   },
   "cleanup_how_to_get_debris_removed": {
-    "status": "avantpage_delivery",
-    "en": "Free removal deadline was April 15",
-    "es": "La fecha límite para retirarla era el 15 de abril.",
-    "ko": "무료 제거 신청은 4월 15일에 마감되었습니다",
-    "vi": "Hạn chót di dời miễn phí là ngày 15 tháng 4",
-    "tl": "Abril 15 ang deadline ng libreng pag-aalis",
-    "zh-hans": "免费清除服务的截止日期为 4 月 15 日",
-    "zh-hant": "免費清除服務的截止日期為 4 月 15 日",
-    "hy": "Անվճար հեռացման վերջնաժամկետը ապրիլի 15-ն էր։",
-    "comment": "Translation delivered 2025-04-29"
+    "status": "ap_review",
+    "en": "What you need to do",
+    "fr": "Ce que vous devez faire",
+    "es": "Lo que necesita hacer",
+    "ko": "해야 할 일",
+    "vi": "Những gì bạn cần làm",
+    "tl": "Ang kailangan mong gawin",
+    "zh-hans": "您需要做的事情",
+    "zh-hant": "您需要做的事情",
+    "hy": "Ինչ պետք է անեք"
   },
   "cleanup_debris_removal_opt_in_or_out": {
     "status": "avantpage_delivery",
@@ -600,28 +600,28 @@
     "comment": "Translation delivered 2025-04-29"
   },
   "cleanup_opt_out_heading": {
-    "status": "avantpage_delivery",
-    "en": "If you opted out",
-    "es": "Si optó por no participar",
-    "ko": "잔해 제거를 선택하지 않은 경우",
-    "vi": "Nếu quý vị chọn không tham gia",
-    "tl": "Kung nag-opt out ka",
-    "zh-hans": "如果您选择退出",
-    "zh-hant": "如果您選擇退出 ",
-    "hy": "Եթե Դուք հրաժարվել եք",
-    "comment": "Translation delivered 2025-04-29"
+    "status": "ap_review",
+    "en": "If you opted out or missed the deadline",
+    "fr": "Si vous avez choisi de ne pas participer ou si vous avez manqué la date limite",
+    "es": "Si optó por no participar o se perdió la fecha límite",
+    "ko": "잔해 제거를 거부했거나 기한을 놓친 경우",
+    "vi": "Nếu quý vị không tham gia hoặc bỏ lỡ thời hạn",
+    "tl": "Kung nag-opt out ka o na-miss ang deadline",
+    "zh-hans": "如果您选择退出或错过了截止日期",
+    "zh-hant": "如果您選擇退出或錯過了截止日期",
+    "hy": "Եթե Դուք հրաժարվել եք կամ բաց թողել եք վերջնաժամկետը"
   },
   "cleanup_opt_out_explanation": {
-    "status": "avantpage_delivery",
-    "en": "You’ll need to arrange for and pay for debris removal yourself.",
-    "es": "Usted deberá organizar y pagar la remoción de escombros por su cuenta.",
-    "ko": "이런 경우에는 산불 잔해를 제거할 수 있도록 스스로 준비하고 비용도 지불해야 합니다.",
-    "vi": "Quý vị sẽ phải tự sắp xếp và trả tiền cho việc di dời đống đổ nát.",
-    "tl": "Kakailanganin mong magsaayos at magbayad para sa pag-aalis ng kalat.",
-    "zh-hans": "您将需要自己安排残余物清除服务并支付服务的费用。",
-    "zh-hant": "您將需要自己安排殘餘物清除服務並支付服務的費用。 ",
-    "hy": "Դուք ստիպված կլինեք ինքնուրույն կազմակերպել և վճարել բեկորների հեռացման համար։",
-    "comment": "Translation delivered 2025-04-29"
+    "status": "ap_review",
+    "en": "You’ll need to arrange for and pay for debris removal yourself. You must:",
+    "fr": "Vous devrez organiser et payer vous-même le retrait des débris. Vous devez :",
+    "es": "Deberá organizar y pagar la remoción de escombros usted mismo. Usted debe:",
+    "ko": "잔해 제거를 스스로 준비하고 비용을 지불해야 합니다. 해야 하는 일:",
+    "vi": "Quý vị sẽ phải tự sắp xếp và thanh toán cho việc di dời đống đổ nát. Quý vị phải:",
+    "tl": "Kailangan mong ayusin at bayaran ang pag-aalis ng kalat. Dapat mong:",
+    "zh-hans": "您需要自行安排并支付清除费用。您必须：",
+    "zh-hant": "您需要自行安排並支付清除費用。您必須：",
+    "hy": "Դուք պետք է ինքնուրույն կազմակերպեք և վճարեք աղբի հեռացման համար։ Դուք պետք է․"
   },
   "cleanup_opt_out_requirements_intro": {
     "status": "avantpage_delivery",
@@ -648,19 +648,7 @@
     "hy": "Վարձել լիցենզավորված, մասնագիտացված կապալառու"
   },
   "cleanup_opt_out_permit": {
-    "status": "avantpage_delivery",
-    "en": "Get approval and a permit from LA County",
-    "fr": "Obtenir l'approbation et une autorisation de la part du comté de Los Angeles",
-    "es": "obtener aprobación y una autorización por parte del condado de Los Ángeles",
-    "ko": "LA 카운티의 승인 및 허가 취득",
-    "vi": "Xin phê duyệt và giấy phép từ Quận LA",
-    "tl": "Makakuha ng pag-apruba at pahintulot mula sa County ng LA",
-    "zh-hans": "获取洛杉矶县审批许可",
-    "zh-hant": "獲得洛杉磯縣的批准和許可證",
-    "hy": "Ստանալ հաստատում և թույլտվություն Լոս Անջելես վարչաշրջանի կողմից"
-  },
-  "cleanup_opt_out_asbestos": {
-    "status": "avantpage_delivery",
+    "status": "ap_review",
     "en": "Hire a certified consultant to check your property for asbestos",
     "fr": "Engager un consultant certifié pour vérifier votre propriété pour l'amiante",
     "es": "contratar a un consultor certificado para que revise su propiedad en busca de asbesto",
@@ -670,6 +658,18 @@
     "zh-hans": "聘请认证机构检测房产内的石棉",
     "zh-hant": "聘請經過認證的顧問檢查您的房產是否有石棉",
     "hy": "Վարձել հավաստագրված խորհրդատու՝ ստուգելու Ձեր անշարժ գույքի տարածքում ասբեստի առկայությունը"
+  },
+  "cleanup_opt_out_asbestos": {
+    "status": "ap_review",
+    "en": "<a href=\"https://recovery.lacounty.gov/debris-removal-2/roe/#1738023329423-9c1c25a7-71e8\">Get a fire debris removal permit</a> from LA County by <strong>June 1, 2025</strong>",
+    "fr": "<a href=\"https://recovery.lacounty.gov/debris-removal-2/roe/#1738023329423-9c1c25a7-71e8\">Obtenez un permis de retrait de débris d'incendie</a> du comté de Los Angeles d'ici le <strong>1er juin 2025</strong>",
+    "es": "<a href=\"https://recovery.lacounty.gov/debris-removal-2/roe/#1738023329423-9c1c25a7-71e8\">Obtenga un permiso de remoción de escombros por incendio</a> del condado de Los Ángeles antes del <strong>1 de junio de 2025</strong>",
+    "ko": "<a href=\"https://recovery.lacounty.gov/debris-removal-2/roe/#1738023329423-9c1c25a7-71e8\">LA 카운티에서 화재 잔해 제거 허가증을 받으세요</a> <strong>2025년 6월 1일</strong>까지",
+    "vi": "<a href=\"https://recovery.lacounty.gov/debris-removal-2/roe/#1738023329423-9c1c25a7-71e8\">Nhận giấy phép di dời đống đổ nát do hỏa hoạn</a> từ Hạt LA trước <strong>ngày 1 tháng 6 năm 2025</strong>",
+    "tl": "<a href=\"https://recovery.lacounty.gov/debris-removal-2/roe/#1738023329423-9c1c25a7-71e8\">Kumuha ng fire debris removal permit</a> mula sa LA County bago ang <strong>Hunyo 1, 2025</strong>",
+    "zh-hans": "<a href=\"https://recovery.lacounty.gov/debris-removal-2/roe/#1738023329423-9c1c25a7-71e8\">在洛杉矶县申请火灾残余物清除许可证</a>，截止日期为<strong>2025 年 6 月 1 日</strong>",
+    "zh-hant": "<a href=\"https://recovery.lacounty.gov/debris-removal-2/roe/#1738023329423-9c1c25a7-71e8\">在洛杉磯縣申請火災殘餘物清除許可證</a>，截止日期為<strong>2025 年 6 月 1 日</strong>",
+    "hy": "<a href=\"https://recovery.lacounty.gov/debris-removal-2/roe/#1738023329423-9c1c25a7-71e8\">Ստացեք հրդեհի բեկորների հեռացման թույլտվություն</a> Լոս Անջելեսի շրջանից մինչև <strong>2025 թվականի հունիսի 1-ը</strong>"
   },
   "cleanup_opt_out_compliance": {
     "status": "avantpage_delivery",
@@ -684,16 +684,16 @@
     "hy": "Համոզվել, որ Ձեր կապալառուն հետևում է բեկորների անվտանգ հեռացման կառավարության բոլոր կանոններին"
   },
   "cleanup_opt_out_process": {
-    "status": "avantpage_delivery",
-    "en": "Learn more about the <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">opt-out process</a> and what to do next.",
-    "es": "Obtener más información sobre el <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">proceso de exclusión voluntaria</a> y qué hacer a continuación.",
-    "ko": "<a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">미참여 프로세스</a> 및 다음에 수행할 작업에 대해 자세히 알아보십시오.",
-    "vi": "Tìm hiểu thêm về <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">quy trình chọn không tham gia</a> và những việc cần làm tiếp theo.",
-    "tl": "Matutuhan pa ang tungkol sa <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">proseso sa pag-opt out</a> at kung ano ang susunod na gagawin.",
-    "zh-hans": "了解更多关于<a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">退出流程</a>的信息以及后续操作步骤。",
-    "zh-hant": "瞭解更多關於<a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">退出流程</a>的資訊以及後續操作步驟。 ",
-    "hy": "Իմացեք ավելին <a href=\"https://recovery.lacounty.gov/debris-removal/roe/#1738023329423-9c1c25a7-71e8\">հրաժարման գործընթացի</a> և հետագա քայլերի մասին։",
-    "comment": "Translation delivered 2025-04-29"
+    "status": "ap_review",
+    "en": "Complete the debris removal process by <strong>June 30, 2025</strong>",
+    "fr": "Complétez le processus de retrait des débris d'ici le <strong>30 juin 2025</strong>",
+    "es": "Complete el proceso de remoción de escombros antes del <strong>30 de junio de 2025</strong>",
+    "ko": "잔해 제거 프로세스를 <strong>2025년 6월 30일</strong>까지 완료하세요",
+    "vi": "Hoàn tất quy trình di dời đống đổ nát trước <strong>ngày 30 tháng 6 năm 2025</strong>",
+    "tl": "Kumpletuhin ang proseso ng pag-aalis ng kalat bago ang <strong>Hunyo 30, 2025</strong>",
+    "zh-hans": "在<strong>2025 年 6 月 30 日</strong>之前完成残余物清除流程",
+    "zh-hant": "在<strong>2025 年 6 月 30 日</strong>之前完成殘餘物清除流程",
+    "hy": "Աղբի հեռացման գործընթացը ավարտել մինչև <strong>2025 թվականի հունիսի 30-ը</strong>"
   },
   "cleanup_how_to_opt_out_heading": {
     "status": "avantpage_delivery",

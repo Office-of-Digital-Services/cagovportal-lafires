@@ -80,8 +80,7 @@
     "zh-hans": "社会保障卡",
     "zh-hant": "社會保障卡",
     "hy": "Սոցիալական անվտանգության քարտ"
-  }
-,
+  },
   "replace_documents_licenses_and_ids_list_3": {
     "status": "ap_review",
     "comment": "Added 5/9/2025",
@@ -117,8 +116,7 @@
     "zh-hans": "出生、死亡和结婚证明书（生命记录）",
     "zh-hant": "出生、死亡和結婚證明書（生命記錄）",
     "hy": "Ծննդյան, մահվան և ամուսնության վկայականներ (կյանքի գրառումներ)"
-  }
-,
+  },
   "replace_documents_vital_records_list_1": {
     "status": "ap_review",
     "comment": "Added 5/9/2025",
@@ -178,8 +176,7 @@
     "zh-hans": "绿卡（永久居民卡）",
     "zh-hant": "綠卡（永久居民卡）",
     "hy": "Գրին Քարտ (Մշտական բնակության քարտ)"
-  }
-,
+  },
   "replace_documents_vehicle": {
     "status": "ap_review",
     "comment": "Added 5/10/2025",
@@ -231,14 +228,14 @@
   "replace_documents_vehicle_description": {
     "status": "ap_review",
     "comment": "Added 5/10/2025",
-    "en": "To replace license plates and other vehicle documents, go to",
-    "es": "Para reemplazar las placas de matrícula y otros documentos del vehículo, vaya a",
-    "ko": "번호판 및 기타 차량 서류를 교체하려면 다음으로 이동하세요",
-    "vi": "Để thay thế biển số xe và các giấy tờ xe khác, hãy đến",
-    "tl": "Para palitan ang mga plaka ng lisensya at iba pang dokumento ng sasakyan, pumunta sa",
-    "zh-hans": "要更换车牌和其他车辆文件，请前往",
-    "zh-hant": "要更換車牌和其他車輛文件，請前往",
-    "hy": "Համարանիշերը և տրանսպորտային միջոցների այլ փաստաթղթերը փոխարինելու համար այցելեք"
+    "en": "To replace license plates and other vehicle documents, go to <a href=\"https://www.dmv.ca.gov/portal/dmv-online/\"> DMV online services</a>.",
+    "es": "Para reemplazar las placas de matrícula y otros documentos del vehículo, vaya a <a href=\"https://www.dmv.ca.gov/portal/dmv-online/\">Servicios en línea del DMV</a>.",
+    "ko": "면허증과 기타 차량 서류를 교체하려면 <a href=\"https://www.dmv.ca.gov/portal/dmv-online/\">DMV 온라인 서비스</a>로 가십시오.",
+    "vi": "Để thay thế biển số và các giấy tờ xe khác, hãy truy cập <a href=\"https://www.dmv.ca.gov/portal/dmv-online/\">dịch vụ trực tuyến của DMV</a>.",
+    "tl": "Upang palitan ang mga plaka ng lisensya at iba pang mga dokumento ng sasakyan, pumunta sa <a href=\"https://www.dmv.ca.gov/portal/dmv-online/\">mga serbisyo ng DMV online</a>.",
+    "zh-hans": "要更换车牌和其他车辆文件，请访问<a href=\"https://www.dmv.ca.gov/portal/dmv-online/\">DMV在线服务</a>。",
+    "zh-hant": "要更換車牌和其他車輛文件，請訪問<a href=\"https://www.dmv.ca.gov/portal/dmv-online/\">DMV在線服務</a>。",
+    "hy": "Վարորդական իրավունքների և այլ տրանսպորտային միջոցների փաստաթղթերը փոխարինելու համար այցելեք <a href=\"https://www.dmv.ca.gov/portal/dmv-online/\">DMV առցանց ծառայություններ</a>:"
   },
   "replace_documents_related": {
     "status": "ap_review",
@@ -276,5 +273,4 @@
     "zh-hant": "保險",
     "hy": "Ապահովագրություն"
   }
-  
 }

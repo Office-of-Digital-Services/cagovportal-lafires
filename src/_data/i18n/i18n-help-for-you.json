@@ -45,14 +45,14 @@
   },
   "help_for_you_card_2_description": {
     "status": "ap_rewiew",
-    "en": "Not sure where to start? Use our to find help <a href=\"/lafires/recovery-services-finder/\">service finder tool</a> available to you.",
-    "es": "¿No estás seguro por dónde empezar? Utiliza nuestra herramienta de <a href=\"/lafires/recovery-services-finder/\">buscador de servicios</a> disponible para ti.",
-    "ko": "어디서부터 시작해야 할지 모르겠습니까? <a href=\"/lafires/recovery-services-finder/\">서비스 찾기 도구</a>를 사용하세요.",
-    "vi": "Không chắc bắt đầu từ đâu? Sử dụng <a href=\"/lafires/recovery-services-finder/\">công cụ tìm dịch vụ</a> của chúng tôi có sẵn cho bạn.",
-    "tl": "Hindi sigurado kung saan magsisimula? Gamitin ang aming <a href=\"/lafires/recovery-services-finder/\">service finder tool</a> na available sa iyo.",
-    "zh-hans": "不确定从哪里开始？使用我们的<a href=\"/lafires/recovery-services-finder/\">服务查找工具</a>。",
-    "zh-hant": "不確定從哪裡開始？使用我們的<a href=\"/lafires/recovery-services-finder/\">服務查找工具</a>。",
-    "hy": "Չգիտեք, թե որտեղից սկսել: Օգտագործեք մեր <a href=\"/lafires/recovery-services-finder/\">ծառայությունների որոնման գործիքը</a>, որը հասանելի է ձեզ համար։"
+    "en": "Not sure where to start? Use our <a href=\"/lafires/recovery-services-finder/\">service finder tool</a> to find help available to you.",
+    "es": "¿No estás seguro por dónde empezar? Utiliza nuestra <a href=\"/lafires/recovery-services-finder/\">herramienta de búsqueda de servicios</a> para encontrar ayuda disponible para ti.",
+    "ko": "어디서부터 시작해야 할지 모르겠습니까? <a href=\"/lafires/recovery-services-finder/\">서비스 찾기 도구</a>를 사용하여 귀하에게 제공되는 도움을 찾으십시오.",
+    "vi": "Không chắc bắt đầu từ đâu? Sử dụng <a href=\"/lafires/recovery-services-finder/\">công cụ tìm dịch vụ</a> của chúng tôi để tìm sự trợ giúp có sẵn cho bạn.",
+    "tl": "Hindi sigurado kung saan magsisimula? Gamitin ang aming <a href=\"/lafires/recovery-services-finder/\">service finder tool</a> upang makahanap ng tulong na magagamit sa iyo.",
+    "zh-hans": "不确定从哪里开始？ 使用我们的<a href=\"/lafires/recovery-services-finder/\">服务查找工具</a>来查找可用的帮助。",
+    "zh-hant": "不確定從哪裡開始？ 使用我們的<a href=\"/lafires/recovery-services-finder/\">服務查找工具</a>來查找可用的幫助。",
+    "hy": "Չգիտեք, թե որտեղից սկսել: Օգտագործեք մեր <a href=\"/lafires/recovery-services-finder/\">ծառայությունների որոնման գործիքը</a>, որպեսզի գտնեք ձեզ հասանելի օգնությունը։"
   },
   "help_for_you_basic_needs": {
     "status": "ap_rewiew",
@@ -122,25 +122,25 @@
   },
   "help_for_you_link_grid_5": {
     "status": "ap_rewiew",
-    "en": "Rebuilding your house",
-    "es": "Reconstruyendo tu casa",
-    "ko": "집 재건",
+    "en": "Rebuild your house",
+    "es": "Reconstruir tu casa",
+    "ko": "집을 재건하다",
     "vi": "Xây dựng lại ngôi nhà của bạn",
-    "tl": "Muling pagtatayo ng iyong bahay",
-    "zh-hans": "重建您的房屋",
-    "zh-hant": "重建您的房屋",
-    "hy": "Վերակառուցելով ձեր տունը"
+    "tl": "Muling itayo ang iyong bahay",
+    "zh-hans": "重建你的房子",
+    "zh-hant": "重建你的房子",
+    "hy": "Վերակառուցել ձեր տունը"
   },
   "help_for_you_link_grid_6": {
     "status": "ap_rewiew",
-    "en": "Replacing documents",
-    "es": "Reemplazando documentos",
+    "en": "Replace documents",
+    "es": "Reemplazar documentos",
     "ko": "문서 교체",
     "vi": "Thay thế tài liệu",
-    "tl": "Pagpapalit ng mga dokumento",
+    "tl": "Palitan ang mga dokumento",
     "zh-hans": "更换文件",
     "zh-hant": "更換文件",
-    "hy": "Փոխարինելով փաստաթղթերը"
+    "hy": "Փոխարինել փաստաթղթերը"
   },
   "help_for_you_recovery_needs": {
     "status": "ap_rewiew",
