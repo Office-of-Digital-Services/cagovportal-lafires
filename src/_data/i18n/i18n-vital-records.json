@@ -368,16 +368,17 @@
     "orig_en": "<link>Registro de defunción</link> (Español)"
   },
   "vital_records_apply_in_person": {
-    "status": "avantpage_delivery",
-    "en": "To apply in person",
-    "fr": "Pour postuler en personne",
-    "es": "Hacer la solicitud en persona",
-    "ko": "직접 신청",
-    "vi": "Để đăng ký trực tiếp",
-    "tl": "Para mag-apply sa personal",
-    "zh-hans": "现场申请",
-    "zh-hant": "親身申請",
-    "hy": "Անձամբ դիմելու համար"
+    "status": "ap_review",
+    "en": "Apply in person",
+    "fr": "Demander en personne",
+    "es": "Solicitar en persona",
+    "ko": "직접 신청하기",
+    "vi": "Đăng ký trực tiếp",
+    "tl": "Mag-apply nang personal",
+    "zh-hans": "亲自申请",
+    "zh-hant": "親自申請",
+    "hy": "Դիմել անձամբ",
+    "orig_en": "<link>Apply in person</link>"
   },
   "vital_records_visit": {
     "status": "ap_review",
