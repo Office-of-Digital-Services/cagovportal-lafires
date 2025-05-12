@@ -217,27 +217,27 @@
   },
   "home_help_online_title": {
     "status": "ap_review",
-    "en": "Help for you",
+    "en": "Help for you and your family",
     "fr": "Aide pour vous et votre famille",
     "es": "Ayuda para usted y su familia",
     "ko": "당신과 당신의 가족을 위한 도움",
-    "vi": "Giúp đỡ cho quý vị và gia đình",
+    "vi": "Giúp đỡ cho bạn và gia đình bạn",
     "tl": "Tulong para sa iyo at sa iyong pamilya",
     "zh-hans": "为您和您的家人提供帮助",
     "zh-hant": "為您和您的家人提供幫助",
-    "hy": "Օգնություն Ձեզ և Ձեր ընտանիքին"
+    "hy": "Օգնություն ձեզ և ձեր ընտանիքի համար"
   },
   "home_help_online_description": {
     "status": "ap_review",
-    "en": "Get help with food, shelter, finances, rebuilding, and more.",
-    "fr": "Obtenez de l'aide pour la nourriture, le logement, les finances, la reconstruction et plus encore.",
-    "es": "Obtenga ayuda con alimentos, refugio, finanzas, reconstrucción y más.",
-    "ko": "식량, 주거, 재정, 재건 등 다양한 도움을 받을 수 있습니다.",
-    "vi": "Nhận trợ giúp về thực phẩm, nơi ở, tài chính, tái thiết và nhiều hơn nữa.",
-    "tl": "Kumuha ng tulong sa pagkain, tirahan, pananalapi, muling pagtatayo, at iba pa.",
-    "zh-hans": "获取食品、住所、财务、重建等方面的帮助。",
-    "zh-hant": "獲取食品、住所、財務、重建等方面的幫助。",
-    "hy": "Ստացեք օգնություն սննդի, ապաստանի, ֆինանսների, վերակառուցման և այլ հարցերում:"
+    "en": "Get help with food, shelter, financial assistance, rebuilding, and more.",
+    "fr": "Obtenez de l'aide pour la nourriture, le logement, l'aide financière, la reconstruction et plus encore.",
+    "es": "Obtenga ayuda con alimentos, refugio, asistencia financiera, reconstrucción y más.",
+    "ko": "음식, 주거, 재정 지원, 재건 등과 관련된 도움을 받으십시오.",
+    "vi": "Nhận trợ giúp về thực phẩm, nơi trú ẩn, hỗ trợ tài chính, tái thiết và nhiều hơn nữa.",
+    "tl": "Kumuha ng tulong sa pagkain, kanlungan, tulong pinansyal, muling pagtatayo, at iba pa.",
+    "zh-hans": "获取有关食品、住所、财政援助、重建等方面的帮助。",
+    "zh-hant": "獲取有關食品、住所、財政援助、重建等方面的幫助。",
+    "hy": "Ստացեք օգնություն սննդի, ապաստանի, ֆինանսական օգնության, վերակառուցման և այլնի համար:"
   },
   "home_help_for_your_business_title": {
     "status": "ap_review",
