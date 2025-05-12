@@ -18,16 +18,6 @@ const data = [
       },
       // Once translations are completed, we will need to duplicate this for each language
       {
-        key: "Incendies de Los Angeles 2025",
-        href: "/lafires/fr/",
-        children: [
-          {
-            key: "Aide pour vous et votre famille",
-            href: "/lafires/fr/help-for-you/"
-          }
-        ]
-      },
-      {
         key: "Incendios de Los Ángeles en 2025",
         href: "/lafires/es/",
         children: [
