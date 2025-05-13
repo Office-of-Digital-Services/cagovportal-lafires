@@ -217,17 +217,16 @@
     "hy": "Կենտրոններն առավել զբաղված են օրվա կեսին: Եկեք ավելի շուտ կամ ուշ՝ երկար սպասելուց խուսափելու համար։"
   },
   "help_person_more_about_drcs": {
-    "status": "avantpage_delivery",
-    "en": "More about these centers:",
-    "fr": "Plus d'informations sur ces centres:",
-    "es": "Más información sobre estos centros:",
-    "ko": "재난 복구 센터에 대한 추가 정보:",
-    "vi": "Thông tin thêm về các trung tâm này:",
-    "tl": "Higit pang impormasyon tungkol sa mga center na ito:",
-    "zh-hans": "更多中心信息：",
-    "zh-hant": "有關這些中心的更多資訊：",
-    "hy": "Այս կենտրոնների մասին ավելին՝",
-    "orig_en": "More about these centers"
+    "status": "ap_review",
+    "en": "Learn more about <a href=\"https://recovery.lacounty.gov/recovery-centers/\">Disaster Recovery Centers</a> and find opening hours.",
+    "fr": "En savoir plus sur les <a href=\"https://recovery.lacounty.gov/recovery-centers/\">centres de récupération des dommages</a> et trouver les heures d'ouverture.",
+    "es": "Obtenga más información sobre los <a href=\"https://recovery.lacounty.gov/recovery-centers/\">centros de recuperación por catástrofes</a> y encuentre los horarios de atención.",
+    "ko": "<a href=\"https://recovery.lacounty.gov/recovery-centers/\">재난 복구 센터</a>에 대해 자세히 알아보고 운영 시간을 확인하세요.",
+    "vi": "Tìm hiểu thêm về <a href=\"https://recovery.lacounty.gov/recovery-centers/\">Trung Tâm Phục Hồi sau Thảm Họa</a> và tìm giờ mở cửa.",
+    "tl": "Alamin ang higit pa tungkol sa <a href=\"https://recovery.lacounty.gov/recovery-centers/\">Disaster Recovery Centers</a> at hanapin ang mga oras ng pagbubukas.",
+    "zh-hans": "了解更多关于<a href=\"https://recovery.lacounty.gov/recovery-centers/\">灾害恢复中心</a>的信息，并查看开放时间。",
+    "zh-hant": "了解更多關於<a href=\"https://recovery.lacounty.gov/recovery-centers/\">災難恢復中心</a>的信息，並查看開放時間。",
+    "hy": "Իմանացեք ավելին <a href=\"https://recovery.lacounty.gov/recovery-centers/\">Աղետների վերականգնման կենտրոնների</a> մասին և գտեք աշխատանքային ժամերը։"
   },
   "help_person_drcs_link_text": {
     "status": "avantpage_delivery",
@@ -604,16 +603,15 @@
     "comment": "Translation delivered 2025-04-23"
   },
   "help_person_one_shop_learn_more": {
-    "status": "avantpage_delivery",
-    "en": "Learn more about <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a>. Walk-ins are welcome. You can also schedule an appointment.",
-    "es": "Obtenga más información sobre los <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Centros Integrales de Permisos</a>. Se aceptan visitas sin cita previa. También puede programar una cita.",
-    "ko": "<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">원스톱 허가 센터</a>에 대해 자세히 알아보기 예약하지 않고 방문하셔도 이용이 가능합니다. 또한 일정을 예약하고 이용하실 수도 있습니다.",
-    "vi": "Tìm hiểu thêm về <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Trung Tâm Cấp Giấy Phép Một Cửa</a>. Trung tâm cũng phục vụ những người không hẹn trước. Quý vị cũng có thể đặt lịch hẹn.",
-    "tl": "Matuto pa tungkol sa <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a>. Pinapayagan ang mga walk-in. Maaari ka ring magpa-appointment.",
-    "zh-hans": "了解有关<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式许可中心</a>的更多信息。欢迎随时来访。您还可以安排预约。",
-    "zh-hant": "瞭解有關<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式許可中心</a>的更多資訊。歡迎隨時來訪。您還可以安排預約。",
-    "hy": "Իմացեք ավելին <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Թույլտվությունների ունիվերսալ կենտրոնների մասին</a>: Կարող եք մոտենալ առանց գրանցման։ Դուք նաև կարող եք հանդիպում գրանցել։",
-    "comment": "Translation delivered 2025-04-23"
+    "status": "ap_review",
+    "en": "Learn more about <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a> and find opening hours. Walk-ins are welcome. You can also schedule an appointment.",
+    "es": "Obtenga más información sobre <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">los Centros de Permisos de Ventanilla Única</a> y encuentre horarios de atención. Se aceptan visitas sin cita previa. También puede programar una cita.",
+    "ko": "<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">원스톱 허가 센터</a>에 대한 자세한 내용을 확인하고 운영 시간을 확인하세요. 사전 예약 없이 방문 가능합니다. 약속도 잡을 수 있습니다.",
+    "vi": "Tìm hiểu thêm về <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Trung Tâm Cấp Giấy Phép Một Cửa</a> và tìm giờ mở cửa. Khách hàng không cần hẹn trước. Quý vị cũng có thể đặt lịch hẹn.",
+    "tl": "Alamin ang higit pa tungkol sa <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a> at hanapin ang mga oras ng pagbubukas. Malugod na tinatanggap ang mga walk-in. Maaari ka ring mag-iskedyul ng appointment.",
+    "zh-hans": "了解有关<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式许可中心</a>的更多信息并查找开放时间。欢迎随时光临。您也可以预约。",
+    "zh-hant": "了解有關<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式許可中心</a>的更多信息並查找開放時間。歡迎隨時光臨。您也可以預約。",
+    "hy": "Տեղեկացեք <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Թույլտվությունների ունիվերսալ կենտրոնների</a> մասին և գտեք աշխատանքային ժամերը: Բարի գալուստ առանց նախնական գրանցման: Կարող եք նաև նախապես գրանցվել:"
   },
   "help_person_one_shop_service": {
     "status": "avantpage_delivery",
