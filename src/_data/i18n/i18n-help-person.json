@@ -288,6 +288,18 @@
     "hy": "Տես ամբողջական ցուցակը այստեղ․",
     "comment": "Translation delivered 2025-04-23"
   },
+  "help_person_food_benefits": {
+    "status": "ap_review",
+    "en": "Food benefits",
+    "fr": "Avantages alimentaires",
+    "es": "beneficios alimentarios",
+    "ko": "식품 혜택",
+    "vi": "Trợ cấp thực phẩm",
+    "tl": "Mga benepisyo sa pagkain",
+    "zh-hans": "食品补助",
+    "zh-hant": "食品福利",
+    "hy": "Սննդի նպաստներ"
+  },
   "help_person_health_services": {
     "status": "avantpage_delivery",
     "en": "Health services and advice",
@@ -347,6 +359,18 @@
     "zh-hans": "个人文件补办",
     "zh-hant": "替換個人文件",
     "hy": "Անձնական փաստաթղթերի փոխարինում"
+  },
+  "help_person_contractors": {
+    "status": "ap_review",
+    "en": "Tips for hiring contractors",
+    "fr": "Conseils pour embaucher des entrepreneurs",
+    "es": "Consejos para contratar contratistas",
+    "ko": "계약자 고용 요령",
+    "vi": "Mẹo thuê nhà thầu",
+    "tl": "Mga tip para sa pagkuha ng mga kontratista",
+    "zh-hans": "雇佣承包商的提示",
+    "zh-hant": "聘請承包商的提示",
+    "hy": "Խորհուրդներ՝ պայմանագրային աշխատողներ վարձելու համար"
   },
   "help_person_help_with_insurance_claims": {
     "status": "avantpage_delivery",
