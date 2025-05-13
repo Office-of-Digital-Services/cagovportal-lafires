@@ -650,16 +650,15 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "track_progress_reported_by_state_water_resources_control_board": {
-    "status": "avantpage_delivery",
-    "en": "Reported by State Water Resources Control Board",
-    "es": "Informado por la Junta Estatal de Control de los Recursos Hídricos",
-    "ko": "주 수자원관리위원회에서 보고됨",
-    "vi": "Báo cáo của Hội Đồng Kiểm Soát Tài Nguyên Nước của Tiểu Bang",
-    "tl": "Iniulat ng State Water Resources Control Board",
-    "zh-hans": "报告方：州水资源控制委员会",
-    "zh-hant": "報告方：州水資源控制委員會",
-    "hy": "Զեկուցվել է ջրային ռեսուրսների վերահսկողության նահանգային խորհրդի կողմից",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "ap_review",
+    "en": "9 total systems affected. Reported by State Water Resources Control Board",
+    "es": "9 sistemas afectados en total. Informado por la Junta de Control de Recursos Hídricos del Estado",
+    "ko": "총 9개 시스템에 영향을 미쳤습니다. 주 수자원 관리 위원회 보고",
+    "vi": "Tổng cộng 9 hệ thống bị ảnh hưởng. Báo cáo của Hội Đồng Kiểm Soát Tài Nguyên Nước Tiểu Bang",
+    "tl": "9 kabuuang system ang naapektuhan. Iniulat ng State Water Resources Control Board",
+    "zh-hans": "总共 9 个系统受到影响。报告方：州水资源控制委员会",
+    "zh-hant": "總共 9 個系統受到影響。報告方：州水資源控制委員會",
+    "hy": "9 ընդհանուր համակարգեր են տուժել: Զեկուցվել է Կալիֆոռնիայի ջրային ռեսուրսների վերահսկման խորհրդի կողմից"
   },
   "track_progress_air_quality": {
     "status": "avantpage_delivery",
@@ -1274,5 +1273,16 @@
     "zh-hans": "未报告公共数据",
     "zh-hant": "未報告公共數據",
     "hy": "Հանրային տվյալներ չեն հաղորդվել"
+  },
+  "track_progress_water_complete": {
+    "status": "ap_review",
+    "en": "Water restoration complete",
+    "es": "Restauración del agua completa",
+    "ko": "수리 복원 완료",
+    "vi": "Khôi phục nước hoàn tất",
+    "tl": "Kumpletong pagpapanumbalik ng tubig",
+    "zh-hans": "水恢复完成",
+    "zh-hant": "水恢復完成",
+    "hy": "Ջրի վերականգնումը ավարտված է"
   }
 }
