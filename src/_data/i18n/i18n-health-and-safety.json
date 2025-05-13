@@ -119,7 +119,7 @@
     "zh-hant": "火災污染了一些水系統。從您的供水商那裡獲取<a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">有關水安全的最新資訊</a>。查看您的水費賬單以找到您的供應商。如果您是租戶，請詢問您的房東。",
     "hy": "Հրդեհները աղտոտել են որոշ ջրային համակարգեր: Գտեք <a href=\"https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/\">ջրի անվտանգության վերաբերյալ վերջին տեղեկությունները</a> ձեր ջրամատակարարից: Ստուգեք ձեր ջրի հաշիվը՝ ձեր մատակարարին գտնելու համար: Եթե դուք վարձակալ եք, հարցրեք ձեր տանտիրոջը:"
   },
-  "health_and_safety_water_safety_description_2": {
+  "health_and_safety_water_safety_description_1": {
     "status": "ap_review",
     "comment": "added 5-8-2025",
     "en": "If your water provider sent a notice, your water may not be safe to use, drink, or boil. If you got a notice like that, use bottled water for:",
@@ -130,6 +130,18 @@
     "zh-hans": "如果您的供水商发出通知，您的水可能不安全使用、饮用或煮沸。如果您收到这样的通知，请使用瓶装水用于：",
     "zh-hant": "如果您的供水商發出通知，您的水可能不安全使用、飲用或煮沸。如果您收到這樣的通知，請使用瓶裝水用於：",
     "hy": "Եթե ձեր ջրամատակարարը ծանուցում է ուղարկել, ձեր ջուրը կարող է անվտանգ չլինել օգտագործման, խմելու կամ եռացնելու համար: Եթե դուք նման ծանուցում եք ստացել, օգտագործեք շշալցված ջուր հետևյալի համար:"
+  },
+  "health_and_safety_water_safety_description_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "If your water provider lifted the water notice in your area, you can use tap water again. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Flush your water pipes</a> to clear the contaminated water from your home. Keep in mind that home water testing kits aren’t reliable.",
+    "es": "Si su proveedor de agua levantó el aviso de agua en su área, puede usar agua del grifo nuevamente. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Lave sus tuberías de agua</a> para limpiar el agua contaminada de su hogar. Tenga en cuenta que los kits de prueba de agua para el hogar no son confiables.",
+    "ko": "수도 공급업체가 귀하의 지역에서 수도 통지를 해제한 경우 수도를 다시 사용할 수 있습니다. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">수도관을 세척하세요</a> 오염된 물을 집에서 제거합니다. 가정용 수질 검사 키트는 신뢰할 수 없다는 점에 유의하세요.",
+    "vi": "Nếu nhà cung cấp nước của bạn đã dỡ bỏ thông báo nước trong khu vực của bạn, bạn có thể sử dụng nước máy một lần nữa. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Xả nước ống dẫn nước</a> để làm sạch nước ô nhiễm trong nhà bạn. Hãy nhớ rằng bộ thử nghiệm nước gia đình không đáng tin cậy.",
+    "tl": "Kung ang iyong provider ng tubig ay nag-angat ng abiso sa tubig sa iyong lugar, maaari mong gamitin muli ang tubig mula sa gripo. <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">I-flush ang iyong mga tubo ng tubig</a> upang linisin ang kontaminadong tubig mula sa iyong tahanan. Tandaan na ang mga kit sa pagsubok ng tubig sa bahay ay hindi maaasahan.",
+    "zh-hans": "如果您的供水商在您所在地区解除水通知，您可以再次使用自来水。<a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">冲洗水管</a>以清除家中的污染水。请记住，家庭水质测试工具包并不可靠。",
+    "zh-hant": "如果您的供水商在您所在區域解除水通知，您可以再次使用自來水。<a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">沖洗水管</a>以清除家中的污染水。請記住，家庭水質測試工具包並不可靠。",
+    "hy": "Եթե ձեր ջրամատակարարը վերացրել է ջրի ծանուցումը ձեր տարածքում, ապա դուք կարող եք կրկին օգտագործել ջուրը: <a href=\"https://www.ladwp.com/publications/newsletters/articles/guide-flushing-water-pipes\">Լվացեք ձեր ջրագծերը</a>՝ ձեր տանից աղտոտված ջուրը մաքրելու համար: Հիշեք, որ տնային ջրի փորձարկման հավաքածուները չեն կարող վստահելի լինել:"
   },
   "health_and_safety_water_safety_list_1": {
     "status": "ap_review",
@@ -614,50 +626,98 @@
   "health_and_safety_mental_health_support_list_1": {
     "status": "ap_review",
     "comment": "added 5-8-2025",
-    "en": "<a href=\"https://www.calhope.org/\">CalHOPE peer-run crisis warm line</a>: 833-317-4673",
-    "es": "<a href=\"https://www.calhope.org/\">Línea de ayuda para crisis de CalHOPE atendida por compañeros</a>: 833-317-4673",
-    "ko": "<a href=\"https://www.calhope.org/\">CalHOPE 동료 운영 위기 상담 전화</a>: 833-317-4673",
-    "vi": "<a href=\"https://www.calhope.org/\">Đường dây hỗ trợ khủng hoảng CalHOPE do đồng đẳng điều hành</a>: 833-317-4673",
-    "tl": "<a href=\"https://www.calhope.org/\">CalHOPE peer-run crisis warm line</a>: 833-317-4673",
-    "zh-hans": "<a href=\"https://www.calhope.org/\">CalHOPE 同伴运营危机热线</a>：833-317-4673",
-    "zh-hant": "<a href=\"https://www.calhope.org/\">CalHOPE 同伴運營危機熱線</a>：833-317-4673",
-    "hy": "<a href=\"https://www.calhope.org/\">CalHOPE հասակակիցների կողմից վարվող ճգնաժամային թեժ գիծ</a>՝ 833-317-4673"
+    "en": "<a href=\"https://www.calhope.org/\">CalHOPE peer-run crisis warm line</a>",
+    "es": "<a href=\"https://www.calhope.org/\">Línea de ayuda para crisis de CalHOPE atendida por compañeros</a>",
+    "ko": "<a href=\"https://www.calhope.org/\">CalHOPE 동료 운영 위기 상담 전화</a>",
+    "vi": "<a href=\"https://www.calhope.org/\">Đường dây hỗ trợ khủng hoảng CalHOPE do đồng đẳng điều hành</a>",
+    "tl": "<a href=\"https://www.calhope.org/\">CalHOPE peer-run crisis warm line</a>",
+    "zh-hans": "<a href=\"https://www.calhope.org/\">CalHOPE 同伴运营危机热线</a>",
+    "zh-hant": "<a href=\"https://www.calhope.org/\">CalHOPE 同伴運營危機熱線</a>",
+    "hy": "<a href=\"https://www.calhope.org/\">CalHOPE հասակակիցների կողմից վարվող ճգնաժամային թեժ գիծ</a>"
+  },
+  "health_and_safety_mental_health_support_list_1_1": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "<a href=\"tel:833-317-4673\">833-317-4673</a>",
+    "es": "<a href=\"tel:833-317-4673\">833-317-4673</a>",
+    "ko": "<a href=\"tel:833-317-4673\">833-317-4673</a>",
+    "vi": "<a href=\"tel:833-317-4673\">833-317-4673</a>",
+    "tl": "<a href=\"tel:833-317-4673\">833-317-4673</a>",
+    "zh-hans": "<a href=\"tel:833-317-4673\">833-317-4673</a>",
+    "zh-hant": "<a href=\"tel:833-317-4673\">833-317-4673</a>",
+    "hy": "<a href=\"tel:833-317-4673\">833-317-4673</a>"
   },
   "health_and_safety_mental_health_support_list_2": {
     "status": "ap_review",
     "comment": "added 5-8-2025",
-    "en": "<a href=\"https://988lifeline.org/\">988 Suicide & Crisis Lifeline</a>: 988",
-    "es": "<a href=\"https://988lifeline.org/\">Línea de vida para crisis y suicidio 988</a>: 988",
-    "ko": "<a href=\"https://988lifeline.org/\">988 자살 및 위기 생명의 전화</a>: 988",
-    "vi": "<a href=\"https://988lifeline.org/\">Đường dây cứu sinh khủng hoảng & tự tử 988</a>: 988",
-    "tl": "<a href=\"https://988lifeline.org/\">988 Suicide & Crisis Lifeline</a>: 988",
-    "zh-hans": "<a href=\"https://988lifeline.org/\">988 自杀与危机生命热线</a>：988",
-    "zh-hant": "<a href=\"https://988lifeline.org/\">988 自殺與危機生命熱線</a>：988",
-    "hy": "<a href=\"https://988lifeline.org/\">988 ինքնասպանության և ճգնաժամային օգնության գիծ</a>՝ 988"
+    "en": "<a href=\"https://988lifeline.org/\">988 Suicide & Crisis Lifeline</a>",
+    "es": "<a href=\"https://988lifeline.org/\">Línea de vida para crisis y suicidio 988</a>",
+    "ko": "<a href=\"https://988lifeline.org/\">988 자살 및 위기 생명의 전화</a>",
+    "vi": "<a href=\"https://988lifeline.org/\">Đường dây cứu sinh khủng hoảng & tự tử 988</a>",
+    "tl": "<a href=\"https://988lifeline.org/\">988 Suicide & Crisis Lifeline</a>",
+    "zh-hans": "<a href=\"https://988lifeline.org/\">988 自杀与危机生命热线</a>",
+    "zh-hant": "<a href=\"https://988lifeline.org/\">988 自殺與危機生命熱線</a>",
+    "hy": "<a href=\"https://988lifeline.org/\">988 ինքնասպանության և ճգնաժամային օգնության գիծ</a>"
+  },
+  "health_and_safety_mental_health_support_list_1_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "<a href=\"tel:988\">988</a>",
+    "es": "<a href=\"tel:988\">988</a>",
+    "ko": "<a href=\"tel:988\">988</a>",
+    "vi": "<a href=\"tel:988\">988</a>",
+    "tl": "<a href=\"tel:988\">988</a>",
+    "zh-hans": "<a href=\"tel:988\">988</a>",
+    "zh-hant": "<a href=\"tel:988\">988</a>",
+    "hy": "<a href=\"tel:988\">988</a>"
   },
   "health_and_safety_mental_health_support_list_3": {
     "status": "ap_review",
     "comment": "added 5-8-2025",
-    "en": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">Disaster Distress Helpline</a>: 800-985-5990",
-    "es": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">Línea de ayuda para angustia por desastres</a>: 800-985-5990",
-    "ko": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">재난 스트레스 헬프라인</a>: 800-985-5990",
-    "vi": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">Đường dây trợ giúp khủng hoảng thảm họa</a>: 800-985-5990",
-    "tl": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">Disaster Distress Helpline</a>: 800-985-5990",
-    "zh-hans": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">灾难困扰求助热线</a>：800-985-5990",
-    "zh-hant": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">災難困擾求助熱線</a>：800-985-5990",
-    "hy": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">Աղետների սթրեսի օգնության գիծ</a>՝ 800-985-5990"
+    "en": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">Disaster Distress Helpline</a>",
+    "es": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">Línea de ayuda para angustia por desastres</a>",
+    "ko": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">재난 스트레스 헬프라인</a>",
+    "vi": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">Đường dây trợ giúp khủng hoảng thảm họa</a>",
+    "tl": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">Disaster Distress Helpline</a>",
+    "zh-hans": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">灾难困扰求助热线</a>",
+    "zh-hant": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">災難困擾求助熱線</a>",
+    "hy": "<a href=\"https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline\">Աղետների սթրեսի օգնության գիծ</a>"
+  },
+  "health_and_safety_mental_health_support_list_1_3": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "<a href=\"tel:800-985-5990\">800-985-5990</a>",
+    "es": "<a href=\"tel:800-985-5990\">800-985-5990</a>",
+    "ko": "<a href=\"tel:800-985-5990\">800-985-5990</a>",
+    "vi": "<a href=\"tel:800-985-5990\">800-985-5990</a>",
+    "tl": "<a href=\"tel:800-985-5990\">800-985-5990</a>",
+    "zh-hans": "<a href=\"tel:800-985-5990\">800-985-5990</a>",
+    "zh-hant": "<a href=\"tel:800-985-5990\">98800-985-59908</a>",
+    "hy": "<a href=\"tel:800-985-5990\">800-985-5990</a>"
   },
   "health_and_safety_mental_health_support_list_4": {
     "status": "ap_review",
     "comment": "added 5-8-2025",
-    "en": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">LA County Mental Health Helpline</a>: 800-854-7771",
-    "es": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">Línea de ayuda de salud mental del condado de LA</a>: 800-854-7771",
-    "ko": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">LA 카운티 정신 건강 헬프라인</a>: 800-854-7771",
-    "vi": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">Đường dây trợ giúp sức khỏe tâm thần Quận LA</a>: 800-854-7771",
-    "tl": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">LA County Mental Health Helpline</a>: 800-854-7771",
-    "zh-hans": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">洛杉矶县心理健康求助热线</a>：800-854-7771",
-    "zh-hant": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">洛杉磯縣心理健康求助熱線</a>：800-854-7771",
-    "hy": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">LA վարչաշրջանի հոգեկան առողջության օգնության գիծ</a>՝ 800-854-7771"
+    "en": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">LA County Mental Health Helpline</a>",
+    "es": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">Línea de ayuda de salud mental del condado de LA</a>",
+    "ko": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">LA 카운티 정신 건강 헬프라인</a>",
+    "vi": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">Đường dây trợ giúp sức khỏe tâm thần Quận LA</a>",
+    "tl": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">LA County Mental Health Helpline</a>",
+    "zh-hans": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">洛杉矶县心理健康求助热线</a>",
+    "zh-hant": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">洛杉磯縣心理健康求助熱線</a>",
+    "hy": "<a href=\"https://dmh.lacounty.gov/our-services/disaster-services/disaster-mh-resources/\">LA վարչաշրջանի հոգեկան առողջության օգնության գիծ</a>"
+  },
+  "health_and_safety_mental_health_support_list_1_4": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "<a href=\"tel:800-854-7771\">800-854-7771</a>",
+    "es": "<a href=\"tel:800-854-7771\">800-854-7771</a>",
+    "ko": "<a href=\"tel:800-854-7771\">800-854-7771</a>",
+    "vi": "<a href=\"tel:800-854-7771\">800-854-7771</a>",
+    "tl": "<a href=\"tel:800-854-7771\">800-854-7771</a>",
+    "zh-hans": "<a href=\"tel:800-854-7771\">800-854-7771</a>",
+    "zh-hant": "<a href=\"tel:800-854-7771\">800-854-7771</a>",
+    "hy": "<a href=\"tel:800-854-7771\">800-854-7771</a>"
   },
   "health_and_safety_mental_health_support_description_3": {
     "status": "ap_review",
