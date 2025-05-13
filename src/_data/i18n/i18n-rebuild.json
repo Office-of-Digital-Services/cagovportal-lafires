@@ -134,14 +134,14 @@
   },
   "rebuild_apply_for_fema_disaster_assistance": {
     "status": "ap_review",
-    "en": "Learn about <a href=\"/lafires/help-for-you/financial-assistance/#-Cash-assistance-and-loans-\">cash assistance and loans</a> you can use for rebuilding.",
-    "es": "Infórmese sobre <a href=\"/lafires/help-for-you/financial-assistance/#-Cash-assistance-and-loans-\">asistencia en efectivo y préstamos</a> que puede utilizar para la reconstrucción.",
-    "ko": "<a href=\"/lafires/help-for-you/financial-assistance/#-Cash-assistance-and-loans-\">재건에 사용할 수 있는 현금 지원 및 대출</a>에 대해 알아보십시오.",
-    "vi": "Tìm hiểu về <a href=\"/lafires/help-for-you/financial-assistance/#-Cash-assistance-and-loans-\">trợ cấp tiền mặt và khoản vay</a> mà quý vị có thể sử dụng để xây dựng lại.",
-    "tl": "Alamin ang tungkol sa <a href=\"/lafires/help-for-you/financial-assistance/#-Cash-assistance-and-loans-\">tulong pinansyal at mga pautang</a> na maaari mong gamitin para sa muling pagtatayo.",
-    "zh-hans": "了解您可以用于重建的<a href=\"/lafires/help-for-you/financial-assistance/#-Cash-assistance-and-loans-\">现金援助和贷款</a>。",
-    "zh-hant": "了解您可以用於重建的<a href=\"/lafires/help-for-you/financial-assistance/#-Cash-assistance-and-loans-\">現金援助和貸款</a>。",
-    "hy": "Իմանացեք <a href=\"/lafires/help-for-you/financial-assistance/#-Cash-assistance-and-loans-\">կանխիկ օգնության և վարկերի</a> մասին, որոնք կարող եք օգտագործել վերակառուցման համար:"
+    "en": "Learn about <a href=\"/lafires/help-for-you/financial-assistance/#Cash-assistance-and-loans\">cash assistance and loans</a> you can use for rebuilding.",
+    "es": "Infórmese sobre <a href=\"/lafires/help-for-you/financial-assistance/#Cash-assistance-and-loans\">asistencia en efectivo y préstamos</a> que puede utilizar para la reconstrucción.",
+    "ko": "<a href=\"/lafires/help-for-you/financial-assistance/#Cash-assistance-and-loans\">재건에 사용할 수 있는 현금 지원 및 대출</a>에 대해 알아보십시오.",
+    "vi": "Tìm hiểu về <a href=\"/lafires/help-for-you/financial-assistance/#Cash-assistance-and-loans-\">trợ cấp tiền mặt và khoản vay</a> mà quý vị có thể sử dụng để xây dựng lại.",
+    "tl": "Alamin ang tungkol sa <a href=\"/lafires/help-for-you/financial-assistance/#Cash-assistance-and-loans\">tulong pinansyal at mga pautang</a> na maaari mong gamitin para sa muling pagtatayo.",
+    "zh-hans": "了解您可以用于重建的<a href=\"/lafires/help-for-you/financial-assistance/#Cash-assistance-and-loans\">现金援助和贷款</a>。",
+    "zh-hant": "了解您可以用於重建的<a href=\"/lafires/help-for-you/financial-assistance/#Cash-assistance-and-loans\">現金援助和貸款</a>。",
+    "hy": "Իմանացեք <a href=\"/lafires/help-for-you/financial-assistance/#Cash-assistance-and-loans\">կանխիկ օգնության և վարկերի</a> մասին, որոնք կարող եք օգտագործել վերակառուցման համար:"
   },
   "rebuild_apply_for_disaster_loan": {
     "status": "ap_review",
@@ -368,14 +368,14 @@
   },
   "rebuild_contractor_guidance": {
     "status": "ap_review",
-    "en": "Learn more about <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a>. Walk-ins are welcome. You can also schedule an appointment.",
-    "es": "Obtenga más información sobre <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a>. Se aceptan visitas sin cita previa. También puede programar una cita.",
-    "ko": "<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">원스톱 허가 센터</a>에 대한 자세한 내용을 알아보십시오. 방문은 환영합니다. 약속을 잡을 수도 있습니다.",
-    "vi": "Tìm hiểu thêm về <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Trung tâm cấp phép một cửa</a>. Khách hàng không cần hẹn trước đều được chào đón. Quý vị cũng có thể đặt lịch hẹn.",
-    "tl": "Alamin ang higit pa tungkol sa <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a>. Malugod na tinatanggap ang mga walk-in. Maaari ka ring mag-iskedyul ng appointment.",
-    "zh-hans": "了解有关<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式许可中心</a>的更多信息。欢迎随时光临。您也可以预约。",
-    "zh-hant": "了解有關<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式許可中心</a>的更多資訊。歡迎隨時光臨。您也可以預約。",
-    "hy": "Իմանացեք <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Միանգամյա թույլտվությունների կենտրոնների</a> մասին: Բարի գալուստ այցելուներին: Կարող եք նաև նախապես գրանցվել:"
+    "en": "Learn more about <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a> and find opening hours. Walk-ins are welcome. You can also schedule an appointment.",
+    "es": "Obtenga más información sobre <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a> y encuentre horarios de apertura. Se aceptan visitas sin cita previa. También puede programar una cita.",
+    "ko": "<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">원스톱 허가 센터</a>에 대한 자세한 내용을 알아보고 운영 시간을 확인하세요. 방문은 환영합니다. 약속을 잡을 수도 있습니다.",
+    "vi": "Tìm hiểu thêm về <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">Trung tâm cấp phép một cửa</a> và tìm giờ mở cửa. Khách hàng không cần hẹn trước. Quý vị cũng có thể đặt lịch hẹn.",
+    "tl": "Alamin ang higit pa tungkol sa <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a> at hanapin ang mga oras ng pagbubukas. Malugod na tinatanggap ang mga walk-in. Maaari ka ring mag-iskedyul ng appointment.",
+    "zh-hans": "了解有关<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式许可中心</a>的更多信息并查找开放时间。欢迎随时光临。您也可以预约。",
+    "zh-hant": "了解有關<a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">一站式許可中心</a>的更多信息並查找開放時間。歡迎隨時光臨。您也可以預約。",
+    "hy": "Իմանացեք <a href=\"https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/\">One-Stop Permit Centers</a>-ի մասին և գտեք բացման ժամերը: Բարի գալուստ: Դուք կարող եք նաև նախապես գրանցվել:"
   },
   "rebuild_check_on_your_house_heading": {
     "status": "ap_review",
