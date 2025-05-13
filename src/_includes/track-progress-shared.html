@@ -666,7 +666,7 @@
           {{ 'track_progress_california_state_water_resources_control_board' |
           i18n }}
         </p>
-        <div class="col-lg-12 m-t-md">
+        <div class="col-lg-6 m-t-md">
           <div
             id="card-water-systems-status"
             class="dashboard-card rounded h-100 d-flex flex-column">
@@ -684,28 +684,31 @@
 
             <div
               class="bg-primary h-100 p-x-md p-b-md p-t-sm dashboard-water-container">
-              <div class="dashboard-progress">
-                <span data-fill="white" id="water_safe_to_drink_PERCENT"></span>
-                <span data-fill="light" id="water_restoration_PERCENT"></span>
+              <div
+                class="d-flex flex-row m-t font-size-12 justify-content-between">
+                <div class="d-flex align-items-center gap-2">
+                  <img
+                    src="/lafires/images/dashboard-opt-in.svg"
+                    width="23"
+                    height="23"
+                    aria-hidden="true" />
+                  <span>{{ 'track_progress_water_complete' | i18n }}</span>
+                </div>
+                <span>100%</span>
               </div>
+
+              <div class="dashboard-progress m-t-sm">
+                <span data-fill="white" style="width: 100%"></span>
+                <!-- <span data-fill="dark" style="width: 0%"></span> -->
+              </div>
+
               <div class="d-flex flex-wrap w-auto dashboard-water">
                 <div
-                  class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2"
-                  style="width:55%">
-                  <span class="dashboard-stat"
-                    ><span id="water_safe_to_drink"></span
-                  ></span>
+                  class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2">
+                  <span class="dashboard-stat"><span>9 of 9</span></span>
                   <span
                     >{{ 'track_progress_systems_safe_to_drink' | i18n }}</span
                   >
-                </div>
-                <div
-                  class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2"
-                  style="width:45%">
-                  <span class="dashboard-stat"
-                    ><span id="water_restoration"></span
-                  ></span>
-                  <span>{{ 'track_progress_systems_in_progress' | i18n }}</span>
                 </div>
               </div>
             </div>
