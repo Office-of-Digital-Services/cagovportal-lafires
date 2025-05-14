@@ -182,8 +182,7 @@
                 src="/lafires/images/dashboard-house.svg"
                 width="48"
                 height="49"
-                aria-hidden="true"
-                alt="" />
+                aria-hidden="true" />
               <div class="dashboard-row font-size-12 d-flex">
                 <span class="dashboard-stat" id="people_helped_drc"></span>
                 <span>{{ 'track_progress_visits' | i18n }}</span>
@@ -214,8 +213,7 @@
                 src="/lafires/images/dashboard-crowd.svg"
                 width="48"
                 height="49"
-                aria-hidden="true"
-                alt="" />
+                aria-hidden="true" />
               <div class="dashboard-row font-size-12 d-flex">
                 <span
                   class="dashboard-stat"
@@ -229,8 +227,7 @@
                 src="/lafires/images/dashboard-money.svg"
                 width="48"
                 height="49"
-                aria-hidden="true"
-                alt="" />
+                aria-hidden="true" />
               <div class="dashboard-row font-size-12 d-flex">
                 <span class="dashboard-stat"
                   >$<span id="people_helped_fema_funds"></span>M</span
@@ -272,7 +269,6 @@
                   width="49"
                   height="49"
                   aria-hidden="true"
-                  alt=""
                   style="grid-row: 1 / 4;" />
                 <div class="dashboard-row font-size-12 d-flex">
                   <div class="d-flex gap-1 align-items-center">
@@ -292,8 +288,7 @@
                     src="/lafires/images/dashboard-opt-in.svg"
                     width="23"
                     height="23"
-                    aria-hidden="true"
-                    alt="" />
+                    aria-hidden="true" />
                   <p class="m-0 font-size-12">
                     {{ 'track_progress_teaching_in_person' | i18n }}
                     <span id="schools_resumed"></span>
@@ -348,8 +343,7 @@
               src="/lafires/images/dashboard-biohazard.svg"
               width="49"
               height="48"
-              aria-hidden="true"
-              alt="" />
+              aria-hidden="true" />
             <span
               >{{ 'track_progress_hazardous_household_waste_cleanup_progress' |
               i18n }}</span
@@ -364,8 +358,7 @@
                   src="/lafires/images/dashboard-opt-in.svg"
                   width="23"
                   height="23"
-                  aria-hidden="true"
-                  alt="" />
+                  aria-hidden="true" />
                 <span>{{ 'track_progress_phase_1_complete' | i18n }}</span>
               </div>
               <span>100%</span>
@@ -386,10 +379,7 @@
             </div>
             <details class="font-size-12 m-t">
               <summary class="d-flex gap-2 align-items-center">
-                <span
-                  class="ca-gov-icon-arrow-next"
-                  aria-hidden="true"
-                  alt=""></span>
+                <span class="ca-gov-icon-arrow-next" aria-hidden="true"></span>
                 <span>{{ 'track_progress_data_notes' | i18n }}</span>
               </summary>
               <div class="p-l-sm">
@@ -437,8 +427,7 @@
               src="/lafires/images/dashboard-file-check.svg"
               width="48"
               height="49"
-              aria-hidden="true"
-              alt="" />
+              aria-hidden="true" />
 
             <span>{{ 'track_progress_right_of_entry_forms' | i18n }}</span>
           </h4>
@@ -462,8 +451,7 @@
                   src="/lafires/images/dashboard-opt-in.svg"
                   width="23"
                   height="23"
-                  aria-hidden="true"
-                  alt="" />
+                  aria-hidden="true" />
                 <span class="font-size-12"
                   >{{ 'track_progress_opt_in' | i18n }}
                   <span id="cleanup_phase2_optin"></span
@@ -474,8 +462,7 @@
                   src="/lafires/images/dashboard-opt-out.svg"
                   width="23"
                   height="23"
-                  aria-hidden="true"
-                  alt="" />
+                  aria-hidden="true" />
                 <span class="font-size-12"
                   >{{ 'track_progress_opt_out' | i18n }}
                   <span id="cleanup_phase2_optout"></span
@@ -500,8 +487,7 @@
               src="/lafires/images/dashboard-shovel.svg"
               width="47"
               height="46"
-              aria-hidden="true"
-              alt="" />
+              aria-hidden="true" />
 
             <span
               >{{ 'track_progress_structural_debris_removal_progress' | i18n
@@ -546,10 +532,7 @@
             </div>
             <details class="font-size-12 m-t">
               <summary class="d-flex gap-2 align-items-center">
-                <span
-                  class="ca-gov-icon-arrow-next"
-                  aria-hidden="true"
-                  alt=""></span>
+                <span class="ca-gov-icon-arrow-next" aria-hidden="true"></span>
                 <span>{{ 'track_progress_data_notes' | i18n }}</span>
               </summary>
               <div class="p-l-sm">
@@ -587,6 +570,95 @@
         </div>
       </div>
 
+      <!--Permits to rebuild-->
+
+      <!-- <h2 class="m-b-md">{{ 'track_progress_permits_to_rebuild' | i18n }}</h2>
+      <p>{{ 'track_progress_permits_to_rebuild_description' | i18n }}</p>
+      <p>
+        {{ 'track_progress_permits_to_rebuild_description_2' | i18n | safe }}
+      </p>
+
+      <div class="row p-t-md">
+        <div class="col-lg-6 m-b-md">
+          <div
+            id="card-palisades-fire-area"
+            class="dashboard-card rounded h-100 d-flex flex-column">
+            <h3
+              class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary d-flex align-items-center">
+              <span class="m-l-sm"
+                >{{ 'track_progress_permits_to_la_county' | i18n }}</span
+              >
+            </h3>
+
+            <div class="bg-primary font-size-12 h-100 p-x-md p-t-sm">
+              <div
+                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+                <img
+                  src="/lafires/images/icon-permits.svg"
+                  width="40"
+                  height="40"
+                  aria-hidden="true" />
+                <span class="dashboard-stat"
+                  ><span id="county_housing_permit_applications_received"></span
+                ></span>
+                <span
+                  >{{ 'track_progress_permit_applications_received' | i18n
+                  }}</span
+                >
+              </div>
+            </div>
+
+            <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
+              <div
+                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+                <img
+                  src="/lafires/images/icon-permits-building.svg"
+                  width="40"
+                  height="40"
+                  aria-hidden="true" />
+                <span class="dashboard-stat"
+                  ><span id="county_housing_permits_issued"></span
+                ></span>
+                <span
+                  >{{ 'track_progress_building_permits_issued' | i18n }}</span
+                >
+              </div>
+            </div>
+
+            <p class="font-size-12 bg-s1 p-a">
+              <em
+                >{{ 'track_progress_building_permits_reported_by' | i18n | safe
+                }}</em
+              ><br /><span id="county_housing_permits_issued_date"></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-b-md">
+          <div
+            id="card-palisades-fire-area"
+            class="dashboard-card rounded h-100 d-flex flex-column">
+            <h3
+              class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary d-flex align-items-center">
+              <span>{{ 'track_progress_permits_to_la_city' | i18n }}</span>
+            </h3>
+
+            <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
+              <div
+                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+                <span>{{ 'track_progress_permits_no_data' | i18n }}</span>
+              </div>
+            </div>
+
+            <p class="font-size-12 bg-s1 p-a">
+              <em> &emsp; </em><br />
+              &emsp;
+              <span id="air_mobile_survey_complete_date3"></span>
+            </p>
+          </div>
+        </div>
+      </div> -->
+
       <!--Water restored-->
       <div class="row m-b-lg">
         <h2 class="m-b-md">{{ 'track_progress_water_restored' | i18n }}</h2>
@@ -594,7 +666,7 @@
           {{ 'track_progress_california_state_water_resources_control_board' |
           i18n }}
         </p>
-        <div class="col-lg-12 m-t-md">
+        <div class="col-lg-6 m-t-md">
           <div
             id="card-water-systems-status"
             class="dashboard-card rounded h-100 d-flex flex-column">
@@ -604,8 +676,7 @@
                 src="/lafires/images/dashboard-droplet.svg"
                 width="48"
                 height="48"
-                aria-hidden="true"
-                alt="" />
+                aria-hidden="true" />
               <span class="m-l-sm"
                 >{{ 'track_progress_water_systems_status' | i18n }}</span
               >
@@ -613,28 +684,31 @@
 
             <div
               class="bg-primary h-100 p-x-md p-b-md p-t-sm dashboard-water-container">
-              <div class="dashboard-progress">
-                <span data-fill="white" id="water_safe_to_drink_PERCENT"></span>
-                <span data-fill="light" id="water_restoration_PERCENT"></span>
+              <div
+                class="d-flex flex-row m-t font-size-12 justify-content-between">
+                <div class="d-flex align-items-center gap-2">
+                  <img
+                    src="/lafires/images/dashboard-opt-in.svg"
+                    width="23"
+                    height="23"
+                    aria-hidden="true" />
+                  <span>{{ 'track_progress_water_complete' | i18n }}</span>
+                </div>
+                <span>100%</span>
               </div>
+
+              <div class="dashboard-progress m-t-sm">
+                <span data-fill="white" style="width: 100%"></span>
+                <!-- <span data-fill="dark" style="width: 0%"></span> -->
+              </div>
+
               <div class="d-flex flex-wrap w-auto dashboard-water">
                 <div
-                  class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2"
-                  style="width:55%">
-                  <span class="dashboard-stat"
-                    ><span id="water_safe_to_drink"></span
-                  ></span>
+                  class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2">
+                  <span class="dashboard-stat"><span>9 of 9</span></span>
                   <span
                     >{{ 'track_progress_systems_safe_to_drink' | i18n }}</span
                   >
-                </div>
-                <div
-                  class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2"
-                  style="width:45%">
-                  <span class="dashboard-stat"
-                    ><span id="water_restoration"></span
-                  ></span>
-                  <span>{{ 'track_progress_systems_in_progress' | i18n }}</span>
                 </div>
               </div>
             </div>
@@ -691,7 +765,7 @@
                 src="/lafires/images/dashboard-wind-gust.svg"
                 width="48"
                 height="49"
-                aria-hidden="true" alt="" />
+                aria-hidden="true" />
               <span class="m-l-sm"
                 >{{ 'track_progress_how_we_are_monitoring' | i18n }}</span
               >
@@ -763,8 +837,7 @@
                 src="/lafires/images/icon-air-monitoring.svg"
                 width="48"
                 height="48"
-                aria-hidden="true"
-                alt="" />
+                aria-hidden="true" />
               <span class="m-l-sm"
                 >{{ 'track_progress_mobile_air_monitoring' | i18n }}</span
               >
@@ -805,7 +878,7 @@
                 | i18n }}<br />
                 <!--<span id="air_mobile_survey_complete_date2"></span
               >--></em
-              >Data as of 5/1/2025 at 12:00 PM
+              >Data as of 5/14/2025 at 1:30 PM
             </p>
           </div>
         </div>
@@ -860,6 +933,9 @@
                     <li class="m-b-sm">
                       {{ 'track_progress_eaton_data_list_2' | i18n }}
                     </li>
+                    <li class="m-b-sm">
+                      {{ 'track_progress_eaton_data_list_3' | i18n }}
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -877,6 +953,9 @@
                     <li class="m-b-sm">
                       {{ 'track_progress_pasisades_data_list_2' | i18n }}
                     </li>
+                    <li class="m-b-sm">
+                      {{ 'track_progress_pasisades_data_list_3' | i18n }}
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -888,7 +967,7 @@
                 'track_progress_reported_by_south_coast_air_quality_management_district'
                 | i18n }}</em
               ><br /><!--<span id="air_mobile_survey_complete_date3"></span>-->
-              Data as of 5/1/2025 at 12:00 PM
+              Data as of 5/14/2025 at 1:30 PM
             </p>
           </div>
         </div>
