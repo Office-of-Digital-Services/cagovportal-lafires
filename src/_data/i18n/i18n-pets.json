@@ -1,0 +1,54 @@
+{
+  "pets_lead": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": " Find <a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">animal shelters and other pet resources</a> in these situations:",
+    "es": "Encuentre <a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">refugios para animales y otros recursos para mascotas</a> en estas situaciones:",
+    "ko": "<a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">동물 보호소 및 기타 반려동물 자원</a>을 다음과 같은 상황에서 찾아보세요:",
+    "vi": "Tìm <a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">nơi trú ẩn cho động vật và các nguồn lực khác cho thú cưng</a> trong những tình huống này:",
+    "tl": "Maghanap ng <a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">mga shelter para sa hayop at iba pang resources para sa alagang hayop</a> sa mga sitwasyong ito:",
+    "zh-hans": "在以下情况下查找<a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">动物收容所和其他宠物资源</a>：",
+    "zh-hant": "在以下情況下查找<a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">動物收容所和其他寵物資源</a>：",
+    "hy": "Գտեք <a href=\"https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html\">կենդանիների ապաստարաններ և ընտանի կենդանիների այլ ռեսուրսներ</a> այս իրավիճակներում․"
+  },
+
+  "pets_list_1": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "You lost a pet",
+    "es": "Perdiste a tu mascota",
+    "ko": "반려동물을 잃어버렸습니다.",
+    "vi": "Bạn đã mất con thú cưng",
+    "tl": "Nawala ka ng alagang hayop",
+    "zh-hans": "你丢失了宠物",
+    "zh-hant": "你遺失了寵物",
+    "hy": "Դուք կորցրել եք ձեր ընտանի կենդանուն"
+  },
+
+  "pets_list_2": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "You had to leave a pet behind",
+    "es": "Debiste dejar a tu mascota atrás",
+    "ko": "반려동물을 놓치고 갔습니다.",
+    "vi": "Bạn phải để lại con thú cưng sau",
+    "tl": "Kailangan mo na iwanan ang alagang hayop",
+    "zh-hans": "你必须留下你的宠物",
+    "zh-hant": "你必須留下你的寵物",
+    "hy": "Դուք ստիպված եք եղել թողնել ձեր ընտանի կենդանուն"
+  },
+
+  "pets_list_3": {
+    "status": "ap_review",
+    "comment": "added 5-8-2025",
+    "en": "You need shelter for your pet",
+    "es": "Necesitas un refugio para tu mascota", 
+    "ko": "반려동물을 위한 보호소가 필요합니다.",
+    "vi": "Bạn cần một nơi trú ẩn cho thú cưng của bạn",
+    "tl": "Kailangan mo ng shelter para sa alagang hayop mo",
+    "zh-hans": "你需要一个宠物避难所",
+    "zh-hant": "你需要一個寵物避難所",
+    "hy": "Ձեր ընտանի կենդանու համար ապաստարան է անհրաժեշտ"
+  }
+
+}

@@ -72,16 +72,16 @@
     "hy": "Որտեղ կամավորագրվել"
   },
   "vol_aid_in_wildfire_recovery": {
-    "status": "avantpage_delivery",
-    "en": "Aid in wildfire recovery",
-    "fr": "Aider à la récupération des incendies de forêt",
-    "es": "Ayuda en la recuperación de incendios forestales",
-    "tl": "Tumulong sa muling pagbangon mula sa wildfire",
-    "ko": "산불 복구 지원",
-    "vi": "Hỗ trợ phục hồi sau cháy rừng",
-    "zh-hans": "山火灾后重建",
-    "zh-hant": "幫助從野火中復原",
-    "hy": "Օգնություն հրդեհների վերականգնման ժամանակ"
+    "status": "ap_review",
+    "en": "Volunteer for wildfire recovery",
+    "fr": "Bénévolat pour la récupération après un incendie de forêt",
+    "es": "Voluntario para la recuperación de incendios forestales",
+    "tl": "Magboluntaryo para sa muling pagbangon mula sa sunog",
+    "ko": "산불 복구 자원봉사",
+    "vi": "Tình nguyện phục hồi sau cháy rừng",
+    "zh-hans": "志愿参与山火恢复工作",
+    "zh-hant": "志願參加山火恢復工作",
+    "hy": "Կամավորություն անտառային հրդեհների վերականգնման համար"
   },
   "vol_by_california_volunteers": {
     "status": "avantpage_delivery",
@@ -96,28 +96,28 @@
     "hy": "Կալիֆորնիայի կամավորների կողմից"
   },
   "vol_find_ways_to_get_involved": {
-    "status": "avantpage_delivery",
-    "en": "Find ways to get involved — in Los Angeles and throughout the state.",
-    "fr": "Trouvez des façons de participer — à Los Angeles et dans tout l'état.",
-    "es": "Encuentre maneras de involucrarse en Los Ángeles y en todo el estado.",
-    "tl": "Maghanap ng mga paraan para makibahagi — sa Los Angeles at sa buong estado.",
-    "ko": "로스앤젤레스와 주 전역에서 참여할 수 있는 방법을 찾아 보십시오.",
-    "vi": "Tìm cách tham gia — ở Los Angeles và trên toàn tiểu bang.",
-    "zh-hans": "参与洛杉矶及全州范围的灾后恢复行动",
-    "zh-hant": "尋找參與的方法 — 在洛杉磯和全州。",
-    "hy": "Գտեք միջոցներ ներգրավվելու համար՝ Լոս Անջելեսում և ողջ նահանգում:"
+    "status": "ap_review",
+    "en": "Visit California Volunteers to find ways to get involved — in Los Angeles and throughout the state.",
+    "fr": "Visitez California Volunteers pour trouver des moyens de vous impliquer - à Los Angeles et dans tout l'État.",
+    "es": "Visite California Volunteers para encontrar formas de involucrarse, en Los Ángeles y en todo el estado.",
+    "tl": "Bisitahin ang California Volunteers upang makahanap ng mga paraan upang makilahok - sa Los Angeles at sa buong estado.",
+    "ko": "로스앤젤레스와 주 전역에서 참여할 수 있는 방법을 찾으려면 California Volunteers를 방문하세요.",
+    "vi": "Truy cập California Volunteers để tìm cách tham gia — tại Los Angeles và trên toàn tiểu bang.",
+    "zh-hans": "访问加州志愿者网站，了解如何参与——在洛杉矶和全州范围内。",
+    "zh-hant": "訪問加州志願者網站，了解如何參與——在洛杉磯和全州範圍內。",
+    "hy": "Այցելեք Կալիֆորնիայի կամավորներին, որպեսզի գտնեք ներգրավվելու եղանակներ՝ Լոս Անջելեսում և ամբողջ նահանգում:"
   },
   "vol_help_animals": {
-    "status": "avantpage_delivery",
-    "en": "Help animals",
-    "fr": "Aider aux animaux",
-    "es": "Ayuda de animales",
-    "tl": "Tumulong sa mga hayop",
-    "ko": "동물 구조",
-    "vi": "Giúp đỡ động vật",
-    "zh-hans": "动物救助",
-    "zh-hant": "幫助動物",
-    "hy": "Օգնել կենդանիներին"
+    "status": "ap_review",
+    "en": "Donate for wildfire recovery",
+    "fr": "Faire un don pour la récupération après un incendie de forêt",
+    "es": "Donar para la recuperación de incendios forestales",
+    "tl": "Magbigay ng donasyon para sa muling pagbangon mula sa sunog",
+    "ko": "산불 복구를 위한 기부",
+    "vi": "Quyên góp cho việc phục hồi sau cháy rừng",
+    "zh-hans": "为山火恢复工作捐款",
+    "zh-hant": "為山火恢復工作捐款",
+    "hy": "Նվիրաբերեք անտառային հրդեհների վերականգնման համար"
   },
   "vol_by_california_animal_response_emergency_support": {
     "status": "avantpage_delivery",
@@ -132,16 +132,16 @@
     "hy": "Կալիֆորնիայի կենդանիների արձագանքման շտապ օգնության կողմից"
   },
   "vol_foster_or_adopt_a_pet": {
-    "status": "avantpage_delivery",
-    "en": "Foster or adopt a pet, volunteer, or donate pet food.",
-    "fr": "Foster ou adopter un animal de compagnie, un volontaire ou faire un don de nourriture pour animaux.",
-    "es": "Adopte una mascota, sea voluntario o done comida para mascotas.",
-    "tl": "Mag-alaga o kumupkop ng alagang hayop, magboluntaryo, o magbigay ng pagkain ng alagang hayop bilang donasyon.",
-    "ko": "반려동물을 맡아 기르거나 입양하십시오. 자원 봉사나 사료 기부도 가능합니다.",
-    "vi": "Nuôi dưỡng tạm thời hoặc nhận nuôi thú cưng, tham gia hoạt động tình nguyện hoặc quyên góp thức ăn cho thú cưng.",
-    "zh-hans": "宠物临时寄养或领养、志愿者报名、捐赠宠物食品。",
-    "zh-hant": "寄養或收養寵物、志願者或捐贈寵物食品。",
-    "hy": "Գրանցվեք որպես ժամանակավոր խնամակալ կամ որդեգրեք ընտանի կենդանուն, կամավորագրվեք կամ նվիրաբերեք ընտանի կենդանիների կեր:"
+    "status": "ap_review",
+    "en": "Visit Philanthropy California to find trusted funds for the 2025 disaster relief and recovery. They focus on helping marginalized or under-resourced communities.",
+    "fr": "Visitez Philanthropy California pour trouver des fonds de confiance pour la récupération après le désastre de 2025. Ils se concentrent sur l'aide aux communautés marginalisées ou sous-régionales.",
+    "es": "Visite Philanthropy California para encontrar fondos de confianza para la recuperación de desastres de 2025. Se enfocan en ayudar a las comunidades sin recursos o de bajos recursos.",
+    "tl": "Bisitahin ang Philanthropy California upang makahanap ng mga pinagkakatiwalaang pondo para sa pagtulong at muling pagbangon sa sakuna ngayong 2025. Nakatuon sila sa pagtulong sa mga komunidad na nasa laylayan o kulang sa resource.",
+    "ko": "2025년 재난 구제 및 복구를 위한 신뢰할 수 있는 기금을 찾으려면 Philanthropy California를 방문하세요. 그들은 소외되거나 자원이 부족한 지역 사회를 돕는 데 중점을 두고 활동합니다.",
+    "vi": "Truy cập Philanthropy California để tìm các quỹ đáng tin cậy cho việc cứu trợ và phục hồi sau thảm họa năm 2025. Họ tập trung vào việc giúp đỡ các cộng đồng chịu thiệt thòi hoặc thiếu nguồn lực.",
+    "zh-hans": "访问 Philanthropy California，了解 2025 年灾后恢复的可信资金。他们专注于帮助边缘化或资源匮乏的社区。",
+    "zh-hant": "訪問 Philanthropy California，了解 2025 年災後恢復的可信資金。他們專注於幫助邊緣化或資源匱乏的社區。",
+    "hy": "Այցելեք Philanthropy California-ին, որպեսզի գտնեք 2025 թվականի աղետների օգնության և վերականգնման համար վստահելի միջոցներ: Նրանք կենտրոնանում են մարգինալացված կամ ռեսուրսներով անբավարար համայնքների օգնության վրա:"
   },
   "vol_ways_to_donate_heading": {
     "status": "avantpage_delivery",
@@ -192,27 +192,27 @@
     "hy": "Այս խումբը 2025 թվականին հավաքել է աղետների օգնության և վերականգնման հավատարմագրային միջոցներ: Նրանք կենտրոնանում են մարգինալացված համայնքներին կամ ռեսուրսների պակաս ունեցող համայնքներին օգնելու վրա:"
   },
   "vol_give_for_animals": {
-    "status": "avantpage_delivery",
-    "en": "Give for animals",
-    "fr": "Donner pour les animaux",
-    "es": "Donar para animales",
-    "tl": "Magbigay para sa mga hayop",
-    "ko": "동물을 위한 기부",
-    "vi": "Tặng quà cho động vật",
-    "zh-hans": "动物救助资金",
-    "zh-hant": "為動物而付出",
-    "hy": "Նվիրաբերում կենդանիների համար"
+    "status": "ap_review",
+    "en": "Help animals",
+    "fr": "Aider les animaux",
+    "es": "Ayudar a los animales",
+    "tl": "Tulungan ang mga hayop",
+    "ko": "동물 돕기",
+    "vi": "Giúp đỡ động vật",
+    "zh-hans": "帮助动物",
+    "zh-hant": "幫助動物",
+    "hy": "Օգնեք կենդանիներին"
   },
   "vol_donate_money_to_support_emergency_services_animals_need": {
-    "status": "avantpage_delivery",
-    "en": "Donate money to support emergency services animals need.",
-    "fr": "Faire un don pour soutenir les animaux nécessitant des services d'urgence.",
-    "es": "Donar dinero para apoyar los servicios de emergencia que los animales necesitan.",
-    "tl": "Magbigay ng pera bilang donasyon para suportahan ang mga serbisyong pang-emergency na kinakailangan ng mga hayop.",
-    "ko": "동물이 필요로 하는 응급 서비스를 지원하기 위해 자금을 기부해 주십시오.",
-    "vi": "Quyên góp tiền để hỗ trợ các dịch vụ khẩn cấp cần thiết cho động vật.",
-    "zh-hans": "捐款将用于动物急救服务。",
-    "zh-hant": "捐款以支持動物所需的緊急服務。",
-    "hy": "Նվիրաբերեք գումար կենդանիներին անհրաժեշտ շտապ օգնության ծառայություններին աջակցելու համար:"
+    "status": "ap_review",
+    "en": "Foster or adopt a pet, volunteer at a shelter, or donate money or pet food.",
+    "fr": "Foster ou adopter un animal de compagnie, faire du bénévolat dans un refuge ou donner de l'argent ou de la nourriture pour animaux.",
+    "es": "Acoger o adoptar una mascota, hacer trabajo voluntario en un refugio o donar dinero o comida para mascotas.",
+    "tl": "Mag-ampon o mag-ampon ng alaga, magboluntaryo sa isang kanlungan, o magbigay ng donasyon ng pera o pagkain para sa mga alaga.",
+    "ko": "애완동물을 입양하거나 입양하고, 보호소에서 자원봉사하거나, 돈이나 애완동물 사료를 기부하세요.",
+    "vi": "Nhận nuôi hoặc nhận nuôi một con vật cưng, tình nguyện tại một nơi trú ẩn, hoặc quyên góp tiền hoặc thức ăn cho thú cưng.",
+    "zh-hans": "收养或领养宠物，在收容所做志愿者，或捐赠金钱或宠物食品。",
+    "zh-hant": "收養或收養寵物，在收容所做志願者，或捐贈金錢或寵物食品。",
+    "hy": "Հովանավորեք կամ որդեգրեք կենդանու, կամավոր եղեք ապաստարանում կամ նվիրաբերեք գումար կամ կենդանու սնունդ:"
   }
 }

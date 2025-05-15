@@ -625,6 +625,13 @@ div.search-container > form#Search > button.gsc-search-button {
 }
 
 /* Side nav second level active styles */
+@media (width >= 992px) {
+  /* stylelint-disable-next-line selector-combinator-allowed-list */
+  nav.side-navigation > ul.list-navigation > li:first-child > a {
+    font-weight: 700;
+    color: var(--color-p2);
+  }
+}
 
 @media (width <= 991px) {
   /* stylelint-disable-next-line selector-combinator-allowed-list */

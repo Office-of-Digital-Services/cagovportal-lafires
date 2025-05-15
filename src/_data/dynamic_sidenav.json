@@ -6,64 +6,60 @@
       "key": "sidenav_2025_los_angeles_fires"
     },
     {
-      "href": "/lafires/get-help-online/",
-      "text": "Get help online",
-      "key": "sidenav_get_help_online"
-    },
-    {
-      "href": "/lafires/recovery-services-finder/",
-      "text": "Recovery services finder",
-      "indent": true,
-      "key": "sidenav_recovery_services_finder"
-    },
-    {
-      "href": "/lafires/vital-records/",
-      "text": "Vital records",
-      "indent": true,
-      "key": "sidenav_vital_records"
-    },
-    {
-      "href": "/lafires/get-help-in-person/",
-      "text": "Get help in person",
-      "key": "sidenav_get_help_in_person"
-    },
-    {
-      "href": "/lafires/plan-your-in-person-visit/",
-      "text": "Plan your in-person visit",
-      "indent": true,
-      "key": "sidenav_plan_your_in_person_visit"
-    },
-    {
       "href": "/lafires/see-real-time-info/",
-      "text": "See real-time info",
+      "text": "Real-time info",
       "key": "sidenav_see_real_time_info"
     },
     {
-      "href": "/lafires/start-your-recovery/",
-      "text": "Start your recovery",
-      "key": "sidenav_start_your_recovery"
+      "href": "/lafires/help-for-you/",
+      "text": "Get help for you",
+      "key": "sidenav_help_for_you"
     },
     {
-      "href": "/lafires/accessing-your-property/",
-      "text": "Accessing your property",
+      "href": "/lafires/help-for-you/food-and-shelter/",
+      "text": "Food and shelter",
       "indent": true,
-      "key": "sidenav_accessing_your_property"
+      "key": "sidenav_food_and_shelter"
     },
     {
-      "href": "/lafires/cleanup-and-debris-removal/",
-      "text": "Cleanup and debris removal",
+      "href": "/lafires/help-for-you/health-and-safety/",
+      "text": "Health and safety",
       "indent": true,
-      "key": "sidenav_cleanup_and_debris_removal"
+      "key": "sidenav_health_and_safety"
     },
     {
-      "href": "/lafires/steps-to-rebuilding/",
-      "text": "Steps to rebuilding",
+      "href": "/lafires/help-for-you/pets/",
+      "text": "Pets",
       "indent": true,
-      "key": "sidenav_steps_to_rebuilding"
+      "key": "sidenav_pets"
     },
     {
-      "href": "/lafires/help-your-business/",
-      "text": "Help your business",
+      "href": "/lafires/help-for-you/financial-assistance/",
+      "text": "Financial assistance",
+      "indent": true,
+      "key": "sidenav_financial_assistance"
+    },
+    {
+      "href": "/lafires/help-for-you/replace-personal-documents",
+      "text": "Replace documents",
+      "indent": true,
+      "key": "sidenav_documents"
+    },
+    {
+      "href": "/lafires/help-for-you/rebuild-your-house/",
+      "text": "Rebuild your house",
+      "indent": true,
+      "key": "sidenav_rebuild_your_house"
+    },
+    {
+      "href": "/lafires/help-for-you/get-help-in-person/",
+      "text": "Get help in person",
+      "indent": true,
+      "key": "sidenav_get_help_in_person"
+    },
+    {
+      "href": "/lafires/help-for-your-business/",
+      "text": "Help for your business",
       "key": "sidenav_help_your_business"
     },
     {
@@ -72,9 +68,9 @@
       "key": "sidenav_volunteer"
     },
     {
-      "href": "/lafires/stay-healthy/",
-      "text": "Stay healthy",
-      "key": "sidenav_stay_healthy"
+      "href": "/lafires/recovery-services-finder/",
+      "text": "Recovery services finder",
+      "key": "sidenav_recovery_services_finder"
     },
     {
       "href": "/lafires/track-progress/",

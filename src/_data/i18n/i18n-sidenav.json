@@ -10,17 +10,101 @@
     "zh-hant": "2025 年洛杉磯大火",
     "hy": "2025թ․ Լոս Անջելեսի հրդեհներ"
   },
-  "sidenav_get_help_online": {
-    "status": "avantpage_delivery",
-    "en": "Get help online",
-    "fr": "Obtenir de l'aide en ligne",
-    "es": "Obtenga ayuda en línea",
-    "ko": "온라인으로 도움받기",
-    "vi": "Nhận trợ giúp trực tuyến",
-    "tl": "Makakuha ng tulong online",
-    "zh-hans": "在线获取帮助",
-    "zh-hant": "在線獲取幫助",
-    "hy": "Ստացեք օգնություն առցանց"
+  "sidenav_help_for_you": {
+    "status": "ap_review",
+    "en": "Help for you",
+    "fr": "Aide pour vous",
+    "es": "Ayuda para usted",
+    "ko": "당신을 위한 도움",
+    "vi": "Giúp đỡ cho bạn",
+    "tl": "Tulong para sa iyo",
+    "zh-hans": "为您提供帮助",
+    "zh-hant": "為您提供幫助",
+    "hy": "Օգնություն ձեզ համար"
+  },
+  "sidenav_food_and_shelter": {
+    "status": "ap_review",
+    "en": "Food and shelter",
+    "fr": "Nourriture et abri",
+    "es": "Comida y refugio",
+    "ko": "음식과 피난처",
+    "vi": "Thức ăn và nơi trú ẩn",
+    "tl": "Pagkain at kanlungan",
+    "zh-hans": "食物和住所",
+    "zh-hant": "食物和住所",
+    "hy": "Սնունդ և ապաստան"
+  },
+  "sidenav_health_and_safety": {
+    "status": "ap_review",
+    "en": "Health and safety",
+    "fr": "Santé et sécurité",
+    "es": "Salud y seguridad",
+    "ko": "건강과 안전",
+    "vi": "Sức khỏe và an toàn",
+    "tl": "Kalusugan at kaligtasan",
+    "zh-hans": "健康与安全",
+    "zh-hant": "健康與安全",
+    "hy": "Առողջություն և անվտանգություն"
+  },
+  "sidenav_pets": {
+    "status": "ap_review",
+    "en": "Pets",
+    "fr": "Animaux de compagnie",
+    "es": "Mascotas",
+    "ko": "애완동물",
+    "vi": "Thú cưng",
+    "tl": "Mga alagang hayop",
+    "zh-hans": "宠物",
+    "zh-hant": "寵物",
+    "hy": "Տնային կենդանիներ"
+  },
+  "sidenav_financial_assistance": {
+    "status": "ap_review",
+    "en": "Financial assistance",
+    "fr": "Aide financière",
+    "es": "Asistencia financiera",
+    "ko": "재정 지원",
+    "vi": "Hỗ trợ tài chính",
+    "tl": "Tulong pinansyal",
+    "zh-hans": "财政援助",
+    "zh-hant": "財政援助",
+    "hy": "Ֆինանսական օգնություն"
+  },
+  "sidenav_rebuild_your_house": {
+    "status": "ap_review",
+    "en": "Rebuild your house",
+    "fr": "Reconstruisez votre maison",
+    "es": "Reconstruya su casa",
+    "ko": "집 재건",
+    "vi": "Xây dựng lại ngôi nhà của bạn",
+    "tl": "Muling pagtatayo ng iyong bahay",
+    "zh-hans": "重建您的房屋",
+    "zh-hant": "重建您的房屋",
+    "hy": "Վերակառուցելով ձեր տունը"
+  },
+  "sidenav_documents": {
+    "status": "ap_review",
+    "en": "Replace documents",
+    "fr": "Remplacer les documents",
+    "es": "Reemplace documentos",
+    "ko": "문서 교체",
+    "vi": "Thay thế tài liệu",
+    "tl": "Palitan ang mga dokumento",
+    "zh-hans": "更换文件",
+    "zh-hant": "更換文件",
+    "hy": "Փոխարինել փաստաթղթերը"
+  },
+  "sidenav_birth_death_marriage_certificates": {
+    "status": "ap_review",
+    "en": "Birth, death, and marriage certificates",
+    "fr": "Certificats de naissance, de décès et de mariage",
+    "es": "Certificados de nacimiento, defunción y matrimonio",
+    "ko": "출생, 사망 및 결혼 증명서",
+    "vi": "Giấy khai sinh, giấy chứng tử và giấy chứng nhận kết hôn",
+    "tl": "Mga sertipiko ng kapanganakan, kamatayan, at kasal",
+    "zh-hans": "出生、死亡和结婚证明",
+    "zh-hant": "出生、死亡和結婚證明",
+    "hy": "Ծննդյան, մահվան և ամուսնության վկայականներ"
   },
   "sidenav_recovery_services_finder": {
     "status": "avantpage_delivery",
@@ -71,16 +155,16 @@
     "hy": "Պլանավորեք Ձեր այցը"
   },
   "sidenav_see_real_time_info": {
-    "status": "avantpage_delivery",
-    "en": "See real-time info",
-    "fr": "Voir les informations en temps réel",
-    "es": "Vea información en tiempo real",
-    "ko": "실시간 정보 보기",
-    "vi": "Xem thông tin theo thời gian thực",
-    "tl": "Makakita ng real-time na impormasyon",
-    "zh-hans": "查看实时信息",
-    "zh-hant": "查看實時資訊",
-    "hy": "Ստուգեք տեղեկատվությունը իրական ժամանակում"
+    "status": "ap_review",
+    "en": "Real-time info",
+    "fr": "Informations en temps réel",
+    "es": "Información en tiempo real",
+    "ko": "실시간 정보",
+    "vi": "Thông tin theo thời gian thực",
+    "tl": "Impormasyon sa real-time",
+    "zh-hans": "实时信息",
+    "zh-hant": "實時信息",
+    "hy": "Իրական ժամանակի տեղեկատվություն"
   },
   "sidenav_start_your_recovery": {
     "status": "avantpage_delivery",
@@ -129,15 +213,16 @@
     "hy": "Վերակառուցման քայլեր"
   },
   "sidenav_help_your_business": {
-    "status": "avantpage_delivery",
-    "en": "Help your business",
+    "status": "ap_review",
+    "en": "Help for your business",
+    "fr": "Aide pour votre entreprise",
     "es": "Ayuda para su negocio",
     "ko": "비즈니스 지원",
-    "vi": "Giúp doanh nghiệp của quý vị",
-    "tl": "Tulungan ang iyong negosyo",
+    "vi": "Giúp đỡ cho doanh nghiệp của bạn",
+    "tl": "Tulong para sa iyong negosyo",
     "zh-hans": "企业援助",
-    "zh-hant": "幫助您的業務",
-    "hy": "Օգնություն Ձեր բիզնեսի համար"
+    "zh-hant": "企業援助",
+    "hy": "Օգնություն ձեր բիզնեսի համար"
   },
   "sidenav_volunteer": {
     "status": "avantpage_delivery",
