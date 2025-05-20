@@ -184,57 +184,42 @@
         </div>
       </div>
 
-      <h2 class="m-t-md">{{ 'realtime_getting_prepared_heading' | i18n }}</h2>
+      <h2 class="m-t-md">{{ 'realtime_price_gouching_heading' | i18n }}</h2>
 
-      <div class="row">
-        <div class="col-lg-6 m-t">
-          <div
-            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">
-              <a
-                href="https://www.listoscalifornia.org/disaster-readiness/"
-                class="color-p2 text-left d-block"
-                >{{ 'realtime_prepare_for_emergencies_heading' | i18n }}</a
-              >
-            </h3>
-            <p class="text-sm font-size-15 text-left gray-600">
-              {{ 'realtime_prepare_for_emergencies_description' | i18n }}
-            </p>
-          </div>
-        </div>
+      <p>
+        <!-- If businesses raise
+        prices more than 10% during or after an emergency, it may be illegal
+        price gouging. This also applies to rent prices. -->
+        {{ 'realtime_price_gouching_description_1' | i18n }}
+      </p>
 
-        <div class="col-lg-6 m-t">
-          <div
-            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">
-              <a
-                href="http://www.bepreparedcalifornia.ca.gov/"
-                class="color-p2 text-left d-block"
-                >{{ 'realtime_be_prepared_california_heading' | i18n }}</a
-              >
-            </h3>
-            <p class="text-sm font-size-15 text-left gray-600">
-              {{ 'realtime_be_prepared_california_description' | i18n }}
-            </p>
-          </div>
-        </div>
+      <p>
+        <!-- <a href="https://dcba.lacounty.gov/portfolio/price-gouging/">
+          Learn more about price gouging</a
+        >
+        from Los Angeles County.  -->
+        {{ 'realtime_price_gouching_description_2' | i18n | safe }}
+      </p>
 
-        <div class="col-lg-6 m-t">
-          <div
-            class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md m-b">
-              <a
-                href="https://experience.arcgis.com/experience/5065c998b4b0462f9ec3c6c226c610a9/page/Compare-old-and-new-LRA-FHSZ#data_s=id%3Awidget_114_output_config_default_geocode_0_0%3A0"
-                class="color-p2 text-left d-block"
-                >{{ 'realtime_review_fire_hazard_heading' | i18n }}
-              </a>
-            </h3>
-            <p class="text-sm font-size-15 text-left gray-600">
-              {{ 'realtime_review_fire_hazard_description' | i18n }}
-            </p>
-          </div>
-        </div>
-      </div>
+      <p>
+        <!-- If you suspect a business is price gouging: -->
+        {{ 'realtime_price_gouching_description_3' | i18n }}
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://dcba.3diengage.com/FrontPortal/Page/RenderPage?tabId=27&searchParameter=srTypeId%3D17">
+            <!-- File a complaint with Los Angeles County -->
+            {{ 'realtime_price_gouching_list_1' | i18n }}
+          </a>
+        </li>
+        <li>
+          <a href="https://cityoflaprod.service-now.com/pgc">
+            <!-- File a complaint with the City of Los Angeles -->
+            {{ 'realtime_price_gouching_list_2' | i18n }}
+          </a>
+        </li>
+      </ul>
 
       <!--END MAIN COL CONTENT-->
     </div>

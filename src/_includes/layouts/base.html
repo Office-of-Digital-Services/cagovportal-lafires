@@ -14,7 +14,6 @@
     <meta name="robots" content="index, follow" />
     {%- endif %}{% set alturl %}{% canonical %}{% endset %}
     <link rel="alternate" hreflang="es-US" href="{{ alturl | unlocalizedPath }}" />
-    <xhtml:link rel="alternate" hreflang="en" href="{{ alturl | unlocalizedPath }}" />
     <meta property="og:locale" content="{{ locale | default('en-US')}}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="HandheldFriendly" content="True" />

@@ -361,18 +361,6 @@
     "zh-hant": "來自 CAL FIRE",
     "hy": "CAL FIRE-ի կողմից"
   },
-  "realtime_getting_prepared_heading": {
-    "status": "avantpage_delivery",
-    "en": "How to prepare",
-    "es": "Cómo prepararse",
-    "ko": "대비 방법",
-    "vi": "Cách chuẩn bị",
-    "tl": "Paano maghanda",
-    "zh-hans": "如何准备",
-    "zh-hant": "如何準備",
-    "hy": "Ինչպե՞ս պատրաստվել",
-    "comment": "Translation delivered 2025-04-23"
-  },
   "realtime_prepare_for_emergencies_heading": {
     "status": "avantpage_delivery",
     "en": "Prepare for emergencies",
@@ -588,5 +576,77 @@
     "zh-hant": "資訊來自加州森林與防火局 (California Department of Forestry and Fire Protection, CAL FIRE)",
     "hy": "CAL FIRE-ի կողմից",
     "comment": "Translation delivered 2025-04-23"
+  },
+  "realtime_price_gouching_heading": {
+    "status": "ap_review",
+    "en": "Price gouging",
+    "fr": "Augmentation des prix",
+    "es": "Aumento de precios",
+    "ko": "가격 폭등",
+    "vi": "Tăng giá",
+    "tl": "Pagtaas ng presyo",
+    "zh-hans": "价格上涨",
+    "zh-hant": "價格上漲",
+    "hy": "Գիների բարձրացում"
+  },
+  "realtime_price_gouching_description_1": {
+    "status": "ap_review",
+    "en": "If businesses raise prices more than 10% during or after an emergency, it may be illegal price gouging. This also applies to rent prices.",
+    "fr": "Si les entreprises augmentent les prix de plus de 10 % pendant ou après une urgence, cela peut être considéré comme une augmentation illégale des prix. Cela s'applique également aux loyers.",
+    "es": "Si las empresas aumentan los precios más del 10% durante o después de una emergencia, puede ser un aumento ilegal de precios. Esto también se aplica a los precios de alquiler.",
+    "ko": "비즈니스가 비상 사태 중 또는 비상 사태 이후에 가격을 10% 이상 인상하면 불법 가격 인상이 될 수 있습니다. 여기에는 임대료도 포함됩니다.",
+    "vi": "Nếu các doanh nghiệp tăng giá hơn 10% trong hoặc sau một trường hợp khẩn cấp, điều đó có thể là tăng giá bất hợp pháp. Điều này cũng áp dụng cho giá thuê.",
+    "tl": "Kung ang mga negosyo ay nagtaas ng mga presyo ng higit sa 10% sa panahon o pagkatapos ng isang emergency, maaaring ito ay ilegal na pagtaas ng presyo. Nalalapat din ito sa mga presyo ng renta.",
+    "zh-hans": "如果企业在紧急情况下或紧急情况后将价格提高超过10%，则可能是非法的价格上涨。这也适用于租金价格。",
+    "zh-hant": "如果企業在緊急情況下或緊急情況後將價格提高超過10%，則可能是非法的價格上漲。這也適用於租金價格。",
+    "hy": "Եթե բիզնեսները արտակարգ իրավիճակի ընթացքում կամ դրանից հետո բարձրացնում են գները 10%-ից ավելի, դա կարող է լինել ապօրինի գների բարձրացում: Սա վերաբերում է նաև վարձակալության գներին։"
+  },
+  "realtime_price_gouching_description_2": {
+    "status": "ap_review",
+    "en": "<a href=\"https://dcba.lacounty.gov/portfolio/price-gouging/\">Learn more about price gouging</a> from Los Angeles County.",
+    "fr": "<a href=\"https://dcba.lacounty.gov/portfolio/price-gouging/\">En savoir plus sur l'augmentation des prix</a> du comté de Los Angeles.",
+    "es": "<a href=\"https://dcba.lacounty.gov/portfolio/price-gouging/\">Obtenga más información sobre el aumento de precios</a> del condado de Los Ángeles.",
+    "ko": "<a href=\"https://dcba.lacounty.gov/portfolio/price-gouging/\">로스앤젤레스 카운티의 가격 폭등에 대해 자세히 알아보세요</a>.",
+    "vi": "<a href=\"https://dcba.lacounty.gov/portfolio/price-gouging/\">Tìm hiểu thêm về việc tăng giá</a> từ Quận Los Angeles.",
+    "tl": "<a href=\"https://dcba.lacounty.gov/portfolio/price-gouging/\">Alamin ang higit pa tungkol sa pagtaas ng presyo</a> mula sa Los Angeles County.",
+    "zh-hans": "<a href=\"https://dcba.lacounty.gov/portfolio/price-gouging/\">了解更多关于价格上涨的信息</a>来自洛杉矶县.",
+    "zh-hant": "<a href=\"https://dcba.lacounty.gov/portfolio/price-gouging/\">了解更多關於價格上漲的信息</a>來自洛杉磯縣.",
+    "hy": "<a href=\"https://dcba.lacounty.gov/portfolio/price-gouging/\">Իմանալ ավելին գների բարձրացման մասին</a> Լոս Անջելեսի շրջանից."
+  },
+  "realtime_price_gouching_description_3": {
+    "status": "ap_review",
+    "en": "If you suspect a business is price gouging:",
+    "fr": "Si vous soupçonnez qu'une entreprise augmente les prix :",
+    "es": "Si sospecha que una empresa está aumentando los precios:",
+    "ko": "비즈니스가 가격을 올리고 있다고 의심되는 경우:",
+    "vi": "Nếu bạn nghi ngờ một doanh nghiệp đang tăng giá:",
+    "tl": "Kung sa tingin mo ay nagtaas ng presyo ang isang negosyo:",
+    "zh-hans": "如果您怀疑某家企业在抬高价格：",
+    "zh-hant": "如果您懷疑某家企業在抬高價格：",
+    "hy": "Եթե դուք կասկածում եք, որ բիզնեսը գների բարձրացում է անում՝"
+  },
+  "realtime_price_gouching_list_1": {
+    "status": "ap_review",
+    "en": "File a complaint with Los Angeles County",
+    "fr": "Déposez une plainte auprès du comté de Los Angeles",
+    "es": "Presente una queja ante el condado de Los Ángeles",
+    "ko": "로스앤젤레스 카운티에 불만 제기",
+    "vi": "Nộp đơn khiếu nại lên Quận Los Angeles",
+    "tl": "Maghain ng reklamo sa Los Angeles County",
+    "zh-hans": "向洛杉矶县提交投诉",
+    "zh-hant": "向洛杉磯縣提交投訴",
+    "hy": "Հայտարարեք Լոս Անջելեսի շրջանի վարչությանը"
+  },
+  "realtime_price_gouching_list_2": {
+    "status": "ap_review",
+    "en": "File a complaint with the City of Los Angeles",
+    "fr": "Déposez une plainte auprès de la ville de Los Angeles",
+    "es": "Presente una queja ante la ciudad de Los Ángeles",
+    "ko": "로스앤젤레스 시에 불만 제기",
+    "vi": "Nộp đơn khiếu nại lên Thành phố Los Angeles",
+    "tl": "Maghain ng reklamo sa Lungsod ng Los Angeles",
+    "zh-hans": "向洛杉矶市提交投诉",
+    "zh-hant": "向洛杉磯市提交投訴",
+    "hy": "Հայտարարեք Լոս Անջելես քաղաքի վարչությանը"
   }
 }

@@ -11,8 +11,8 @@ const data = [
         href: "/LAfires/",
         children: [
           {
-            key: "Get help in person",
-            href: "/lafires/get-help-in-person/"
+            key: "Help for you",
+            href: "/lafires/help-for-you/"
           }
         ]
       },
@@ -22,8 +22,8 @@ const data = [
         href: "/lafires/es/",
         children: [
           {
-            key: "Obtener ayuda en persona",
-            href: "/lafires/es/get-help-in-person/"
+            key: "Ayuda para usted y su familia",
+            href: "/lafires/es/help-for-you/"
           }
         ]
       },
@@ -32,8 +32,8 @@ const data = [
         href: "/lafires/ko/",
         children: [
           {
-            key: "로스앤젤레스 화재 도움 받기",
-            href: "/lafires/ko/get-help-in-person/"
+            key: "당신과 당신의 가족을 위한 도움",
+            href: "/lafires/ko/help-for-you/"
           }
         ]
       },
@@ -42,8 +42,8 @@ const data = [
         href: "/lafires/vi/",
         children: [
           {
-            key: "Nhận sự giúp đỡ trực tiếp",
-            href: "/lafires/vi/get-help-in-person/"
+            key: "Giúp đỡ cho bạn và gia đình của bạn",
+            href: "/lafires/vi/help-for-you/"
           }
         ]
       },
@@ -52,8 +52,8 @@ const data = [
         href: "/lafires/tl/",
         children: [
           {
-            key: "Nakuha ang tulong sa loob",
-            href: "/lafires/tl/get-help-in-person/"
+            key: "Tulong para sa iyo at sa iyong pamilya",
+            href: "/lafires/tl/help-for-you/"
           }
         ]
       },
@@ -62,8 +62,8 @@ const data = [
         href: "/lafires/hy/",
         children: [
           {
-            key: "Նախաճաշի հրդեհներ",
-            href: "/lafires/hy/get-help-in-person/"
+            key: "Օգնություն ձեզ և ձեր ընտանիքին",
+            href: "/lafires/hy/help-for-you/"
           }
         ]
       },
@@ -72,8 +72,8 @@ const data = [
         href: "/lafires/zh-hans/",
         children: [
           {
-            key: "洛杉矶大火帮助",
-            href: "/lafires/zh-hans/get-help-in-person/"
+            key: "为您和您的家人提供帮助",
+            href: "/lafires/zh-hans/help-for-you/"
           }
         ]
       },
@@ -82,15 +82,14 @@ const data = [
         href: "/lafires/zh-hant/",
         children: [
           {
-            key: "洛杉磯大火幫助",
-            href: "/lafires/zh-hant/get-help-in-person/"
+            key: "為您和您的家人提供幫助",
+            href: "/lafires/zh-hant/help-for-you/"
           }
         ]
       }
     ]
   }
 ];
-
 
 /**
  * @typedef {object} breadcrumbnode

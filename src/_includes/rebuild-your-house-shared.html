@@ -1,0 +1,294 @@
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/rebuilding-lineart.svg?v3grhb') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">
+      <nav class="side-navigation sticky-6">
+        <a href="javascript:;" aria-hidden="true" class="d-none">{{title}}</a>
+        <ul class="list-navigation">
+          <li>
+            <a href="/lafires/" class="font-weight-700"
+              ><span class="color-p2"
+                >{{ 'sidenav_2025_los_angeles_fires'| i18n }}</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/" class="landing back"
+              >{{ 'sidenav_help_for_you'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires//help-for-you/food-and-shelter/"
+              >{{ 'sidenav_food_and_shelter'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/health-and-safety/"
+              >{{ 'sidenav_health_and_safety'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/pets/">{{ 'sidenav_pets'| i18n }}</a>
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/financial-assistance/"
+              >{{ 'sidenav_financial_assistance'| i18n }}</a
+            >
+          </li>
+
+          <li>
+            <a href="/lafires/help-for-you/replace-personal-documents/"
+              >{{ 'sidenav_documents'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/rebuild-your-house/" class="active"
+              >{{ 'sidenav_rebuild_your_house'| i18n }}</a
+            >
+            <ul>
+              <li>
+                <a
+                  href="/lafires/help-for-you/rebuild-your-house/cleanup-debris-removal/"
+                  >{{ 'sidenav_cleanup_and_debris_removal'| i18n }}</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/get-help-in-person/"
+              >{{ 'sidenav_get_help_in_person'| i18n }}</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">{{description}}</p>
+
+      <nav class="page-navigation"></nav>
+
+      <h2 class="m-b-0">
+        <!-- Check on your house -->
+        {{ 'rebuild_check_on_your_house_heading' | i18n }}
+      </h2>
+      <h3>
+        <!-- Fire damage maps -->
+        {{ 'rebuild_fire_damage_maps_heading' | i18n }}
+      </h3>
+      <p>
+        <!-- Use damage maps from the Palisades and Eaton fires to check the status of your property. -->
+        {{ 'rebuild_fire_damage_maps_description' | i18n }}
+      </p>
+
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <!-- Palisades fire  -->
+              {{ 'rebuild_card_1_title' | i18n }}
+            </h4>
+            <a class="btn btn-primary m-t-sm" href="https://arcg.is/1vnjra1"
+              >{{ 'rebuild_card_1_button' | i18n | safe }}
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <!-- Eaton fire  -->
+              {{ 'rebuild_card_2_title' | i18n }}
+            </h4>
+            <a class="btn btn-primary m-t-sm" href="https://arcg.is/nqWXD0"
+              >{{ 'rebuild_card_2_button' | i18n | safe }}
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="m-t-lg">
+        <!-- Government inspectors have assessed all homes in the fire areas. On each home, you’ll see a photo and an icon with one of these statuses: -->
+        {{ 'rebuild_fire_damage_maps_description_2' | i18n }}
+      </p>
+      <ul>
+        <li class="m-t">
+          <!-- No damage -->
+          {{ 'rebuild_fire_damage_maps_list_1' | i18n }}
+        </li>
+        <li class="m-t">
+          <!-- Affected -->
+          {{ 'rebuild_fire_damage_maps_list_2' | i18n }}
+        </li>
+        <li class="m-t">
+          <!-- Minor damage -->
+          {{ 'rebuild_fire_damage_maps_list_3' | i18n }}
+        </li>
+        <li class="m-t">
+          <!-- Major damage -->
+          {{ 'rebuild_fire_damage_maps_list_4' | i18n }}
+        </li>
+        <li class="m-t">
+          <!-- Destroyed -->
+          {{ 'rebuild_fire_damage_maps_list_5' | i18n }}
+        </li>
+        <li class="m-t">
+          <!-- Inaccessible (inspectors couldn’t access the property to check for damage) -->
+          {{ 'rebuild_fire_damage_maps_list_6' | i18n }}
+        </li>
+      </ul>
+
+      <p>
+        <!-- If your home was damaged, save a copy of the photo from the damage map. You may be able to use it when you file an insurance claim. -->
+        {{ 'rebuild_fire_damage_maps_description_3' | i18n }}
+      </p>
+      <h3>
+        <!-- Access passes -->
+        {{ 'rebuild_access_passes_heading' | i18n }}
+      </h3>
+      <p>
+        <!-- All areas are cleared for residents-only access. You may need an access pass to enter your neighborhood. You can get one in person at a Disaster Recovery Center. -->
+        {{ 'rebuild_access_passes_description' | i18n | safe }}
+      </p>
+
+      <h2 class="m-b-0">
+        {{ 'rebuild_file_insurance_claims_heading' | i18n }}
+      </h2>
+
+      <div class="bg-gray-100 p-a-md m-t-md d-flex align-items-top">
+        <div>
+          <span
+            class="ca-gov-icon-info-line m-r color-p2-darker"
+            aria-hidden="true"></span>
+        </div>
+        <p class="color-p2-darker m-b-0">
+          {{ 'rebuild_file_insurance_claims_description' | i18n | safe }}
+        </p>
+      </div>
+
+      <p class="m-t-md">
+        {{ 'rebuild_document_and_track_recovery_expenses' | i18n }}
+      </p>
+      <p class="m-t-md">{{ 'rebuild_temporary_housing_coverage' | i18n }}</p>
+      <ul>
+        <li class="m-t">
+          {{ 'rebuild_insurance_claims_help_call_number' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          <a
+            href="https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm"
+            >{{ 'rebuild_insurance_claims_help' | i18n }}</a
+          >
+        </li>
+
+        <li class="m-t">
+          <a href="https://cdiapps.insurance.ca.gov/CP/login/">
+            {{ 'rebuild_insurance_claims_help_department_of_insurance' | i18n
+            }}</a
+          >
+        </li>
+      </ul>
+
+      <h2>{{ 'rebuild_get_money_to_rebuild' | i18n }}</h2>
+      <p>{{ 'rebuild_financial_support_to_rebuild' | i18n }}</p>
+
+      <ul>
+        <li class="m-t">
+          <!-- Learn about cash assistance and loans you can use for rebuilding. -->
+          {{ 'rebuild_apply_for_fema_disaster_assistance' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          <!-- Contact your mortgage lender for mortgage relief. Learn about mortgage relief resources  -->
+          {{ 'rebuild_apply_for_disaster_loan' | i18n | safe }}
+        </li>
+      </ul>
+
+      <!-- Get debris removed -->
+      <h2>{{ 'rebuild_decide_how_to_remove_debris' | i18n }}</h2>
+      <ul>
+        <li class="m-t">
+          {{ 'rebuild_pay_for_private_debris_removal' | i18n }}
+        </li>
+        <li class="m-t">
+          {{ 'rebuild_learn_more_about_debris_removal' | i18n | safe }}
+        </li>
+      </ul>
+
+      <h2>{{ 'rebuild_hire_a_contractor' | i18n }}</h2>
+      <ul>
+        <li class="m-t">
+          {{ 'rebuild_use_state_licensed_contractor' | i18n | safe }}
+        </li>
+        <li class="m-t">{{ 'rebuild_get_written_contract' | i18n | safe }}</li>
+        <li class="m-t">{{ 'rebuild_construction_process' | i18n }}</li>
+      </ul>
+
+      <h2>{{ 'rebuild_apply_for_permits' | i18n }}</h2>
+      <ul>
+        <!-- You can submit your plans and apply for building permits now. You don’t need to wait until debris removal is complete. -->
+        <li class="m-t">
+          {{ 'rebuild_submit_plans_and_apply_for_building_permits' | i18n | safe
+          }}
+        </li>
+        <li class="m-t">
+          <!-- You can also apply to put temporary housing on your property. But you’ll need to wait until debris removal is complete.  -->
+          {{ 'rebuild_apply_for_permits_in_person' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          <!-- Learn more about permits, including information on like-for-like rebuilds and permit fees. -->
+          {{ 'rebuild_apply_for_temporary_housing_permit' | i18n | safe }}
+        </li>
+      </ul>
+
+      <h3>
+        <!-- Find a One-Stop Permit Center -->
+        {{ 'rebuild_find_permit_center' | i18n }}
+      </h3>
+
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <!-- Calabasas One-Stop Permit Center -->
+              {{ 'rebuild_card_3_title' | i18n }}
+            </h4>
+            <!-- 26600 Agoura Rd. <br>#110 Calabasas, CA 91302 -->
+
+            <p>{{ 'rebuild_card_3_description_1' | i18n | safe }}</p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <!-- Altadena One-Stop Permit Center -->
+              {{ 'rebuild_card_4_title' | i18n }}
+            </h4>
+            <!-- 464 W Woodbury Rd. Suite 210<br>Altadena, CA 91001 -->
+
+            <p>{{ 'rebuild_card_4_description_1' | i18n | safe }}</p>
+          </div>
+        </div>
+      </div>
+      <p class="m-t-lg">{{ 'rebuild_contractor_guidance' | i18n | safe }}</p>
+    </div>
+    <!--END MAIN COL CONTENT-->
+  </div>
+</div>

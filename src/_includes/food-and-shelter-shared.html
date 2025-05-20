@@ -1,0 +1,97 @@
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/food-and-shelter-lineart.svg?v2') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">
+        {{ 'food_and_shelter_lead' | i18n | safe }}
+      </p>
+      <nav class="page-navigation"></nav>
+
+      <h2>{{ 'food_and_shelter_food' | i18n }}</h2>
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="https://cdss.ca.gov/food-banks">
+                {{ 'food_and_shelter_card_1_title' | i18n }}
+              </a>
+            </h3>
+            <p>
+              {{ 'food_and_shelter_card_1_description' | i18n | safe }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a
+                href="https://myfamily.wic.ca.gov/Home/HowCanIGetWIC#HowCanIGetWIC">
+                {{ 'food_and_shelter_card_2_title' | i18n }}
+              </a>
+            </h3>
+            <p>
+              {{ 'food_and_shelter_card_2_description' | i18n | safe }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="https://benefitscal.com/">
+                {{ 'food_and_shelter_card_3_title' | i18n }}
+              </a>
+            </h3>
+            <p>
+              {{ 'food_and_shelter_card_3_description' | i18n | safe }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2>{{ 'food_and_shelter_shelter' | i18n }}</h2>
+
+      <div class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded">
+        <h3 class="h4 m-t-md">
+          {{ 'food_and_shelter_card_4_title' | i18n }}
+        </h3>
+        <p>
+          {{ 'food_and_shelter_card_4_description' | i18n }}
+        </p>
+      </div>
+
+      <div
+        class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded m-t-md">
+        <h3 class="h4 m-t-md">
+          {{ 'food_and_shelter_card_5_title' | i18n }}
+        </h3>
+        <p>
+          {{ 'food_and_shelter_card_5_description' | i18n | safe }}
+        </p>
+        <p>
+          {{ 'food_and_shelter_card_5_description_2' | i18n | safe }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
