@@ -2,6 +2,12 @@
 /* stylelint-disable selector-class-pattern */
 
 /* THIS IS CUSTOM CSS */
+#skip-to-content {
+  > a {
+    width: 0;
+    height: 0;
+  }
+}
 
 /* -- Site header * -- */
 header {
