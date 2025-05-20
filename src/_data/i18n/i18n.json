@@ -246,17 +246,17 @@
     "hy": "Տեխնիկական օգնություն"
   },
   "contact": {
-    "status": "avantpage_delivery",
+    "status": "ap_review",
     "src_file": "src/_includes/site-footer.html",
-    "en": "Contact",
-    "es": "Contacto",
-    "fr": "Contact",
-    "tl": "Makipag-ugnayan",
-    "ko": "연락처",
-    "vi": "Liên lạc",
-    "zh-hans": "联系我们",
-    "zh-hant": "聯絡",
-    "hy": "Կապ"
+    "en": "Contact<span class=\"sr-only\"> information</span>",
+    "es": "Contacto<span class=\"sr-only\"> información</span>",
+    "fr": "Contact<span class=\"sr-only\"> information</span>",
+    "tl": "Makipag-ugnayan<span class=\"sr-only\"> impormasyon</span>",
+    "ko": "연락처<span class=\"sr-only\"> 정보</span>",
+    "vi": "Liên hệ<span class=\"sr-only\"> thông tin</span>",
+    "zh-hans": "联系<span class=\"sr-only\"> 信息</span>",
+    "zh-hant": "聯絡<span class=\"sr-only\"> 資訊</span>",
+    "hy": "Կապ<span class=\"sr-only\"> տեղեկատվություն</span>"
   },
   "campaigns": {
     "status": "avantpage_delivery",
