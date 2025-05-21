@@ -32,7 +32,9 @@
       const anyChecked = checkboxes.some(cb => cb.checked);
       if (anyChecked) {
         redirectButton.classList.remove("disabled");
+        redirectButton.removeAttribute("aria-disabled");
       } else {
+        redirectButton.setAttribute("aria-disabled", "true");
         redirectButton.classList.add("disabled");
       }
     }
