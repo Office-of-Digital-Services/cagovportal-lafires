@@ -7,3 +7,12 @@
     max-width: 64%;
   }
 }
+
+.form-check-input:focus {
+  outline: 2px solid var(--outline-default-color);
+  box-shadow: none;
+}
+
+.btn-primary.disabled {
+  color: #000;
+}
