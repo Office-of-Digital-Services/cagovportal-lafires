@@ -363,7 +363,7 @@ module.exports = function (
       }
     }
     // remove /lafires/ from currentPath
-    currentPath = currentPath.replace('/lafires/', '/');  
+    currentPath = currentPath.replace(/\/lafires\//i, '/');
     // remove /initiatives/ from currentPath
     currentPath = currentPath.replace('/initiatives/', '/');  
 
