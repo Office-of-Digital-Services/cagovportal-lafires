@@ -363,11 +363,11 @@ module.exports = function (
       }
     }
     // remove /lafires/ from currentPath
-    currentPath = currentPath.replace('/lafires/', '/');  
+    currentPath = currentPath.replace(/\/lafires\//i, '/');
     // remove /initiatives/ from currentPath
     currentPath = currentPath.replace('/initiatives/', '/');  
 
-    let languages = ["/en/","/es/","/fr/","/ko/","/tl/","/vi/","/zh-hans/","/zh-hant/","/hy/"]; // Localized folder paths, '/es/', '/vi', etc.
+    let languages = ["/en/","/es/","/ko/","/tl/","/vi/","/zh-hans/","/zh-hant/","/hy/"]; // Localized folder paths, '/es/', '/vi', etc.
     
     languages.map(language => {
       currentPath = currentPath.replace(language, "/"); // Remove existing localized paths to get root.
