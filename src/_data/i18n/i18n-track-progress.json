@@ -1282,5 +1282,49 @@
     "zh-hans": "水恢复完成",
     "zh-hant": "水恢復完成",
     "hy": "Ջրի վերականգնումը ավարտված է"
+  },
+  "track_progress_permints_to_rebuild_zooning_1": {
+    "status": "ap_review",
+    "en": "zoning reviews received",
+    "es": "revisiones de zonificación recibidas",
+    "ko": "지구 계획 검토 접수",
+    "vi": "đánh giá quy hoạch nhận được",
+    "tl": "mga pagsusuri sa zoning na natanggap",
+    "zh-hans": "已收到的分区审查",
+    "zh-hant": "已收到的分區審查",
+    "hy": "զոնավորման վերանայումներ են ստացվել"
+  },
+  "track_progress_permints_to_rebuild_zooning_2": {
+    "status": "ap_review",
+    "en": "zoning reviews cleared",
+    "es": "revisiones de zonificación aprobadas",
+    "ko": "지구 계획 검토 완료",
+    "vi": "đánh giá quy hoạch đã được giải quyết",
+    "tl": "mga pagsusuri sa zoning na nalinis",
+    "zh-hans": "已清除的分区审查",
+    "zh-hant": "已清除的分區審查",
+    "hy": "զոնավորման վերանայումները մաքրվել են"
+  },
+  "track_progress_permints_plans_reviews": {
+    "status": "ap_review",
+    "en": "building plan reviews in progress",
+    "es": "revisiones de planes de construcción en curso",
+    "ko": "건축 계획 검토 진행 중",
+    "vi": "đánh giá kế hoạch xây dựng đang tiến hành",
+    "tl": "mga pagsusuri sa plano ng gusali na isinasagawa",
+    "zh-hans": "正在进行建筑计划审查",
+    "zh-hant": "正在進行建築計劃審查",
+    "hy": "կառուցապատման պլանների վերանայումները ընթացքի մեջ են"
+  },
+  "track_progress_permints_issued": {
+    "status": "ap_review",
+    "en": "building permits issued",
+    "es": "permisos de construcción emitidos",
+    "ko": "발급된 건축 허가",
+    "vi": "giấy phép xây dựng đã cấp",
+    "tl": "mga pahintulot sa pagtatayo na ibinigay",
+    "zh-hans": "已发放建筑许可证",
+    "zh-hant": "已發放建築許可證",
+    "hy": "կառուցապատման թույլտվություններ են տրվել"
   }
 }

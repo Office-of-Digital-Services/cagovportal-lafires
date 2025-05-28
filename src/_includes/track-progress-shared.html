@@ -572,7 +572,7 @@
 
       <!--Permits to rebuild-->
 
-      <!-- <h2 class="m-b-md">{{ 'track_progress_permits_to_rebuild' | i18n }}</h2>
+      <h2 class="m-b-md">{{ 'track_progress_permits_to_rebuild' | i18n }}</h2>
       <p>{{ 'track_progress_permits_to_rebuild_description' | i18n }}</p>
       <p>
         {{ 'track_progress_permits_to_rebuild_description_2' | i18n | safe }}
@@ -590,38 +590,75 @@
               >
             </h3>
 
-            <div class="bg-primary font-size-12 h-100 p-x-md p-t-sm">
+            <div class="bg-primary font-size-12 h-100 p-x-md p-b-0 p-t-sm">
               <div
                 class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
                 <img
-                  src="/lafires/images/icon-permits.svg"
+                  src="/lafires/images/icon-location.svg"
                   width="40"
                   height="40"
-                  aria-hidden="true" />
+                  aria-hidden="true"
+                  alt="" />
                 <span class="dashboard-stat"
-                  ><span id="county_housing_permit_applications_received"></span
+                  ><span id="county_rebuild_applications_received"></span
                 ></span>
                 <span
-                  >{{ 'track_progress_permit_applications_received' | i18n
+                  >{{ 'track_progress_permints_to_rebuild_zooning_1' | i18n
                   }}</span
                 >
               </div>
             </div>
 
-            <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
+            <div class="bg-primary font-size-12 h-100 p-x-md p-b-0 p-t-sm">
               <div
                 class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
                 <img
                   src="/lafires/images/icon-permits-building.svg"
                   width="40"
                   height="40"
-                  aria-hidden="true" />
+                  aria-hidden="true"
+                  alt="" />
                 <span class="dashboard-stat"
-                  ><span id="county_housing_permits_issued"></span
+                  ><span id="county_zoning_reviews_cleared"></span
                 ></span>
                 <span
-                  >{{ 'track_progress_building_permits_issued' | i18n }}</span
+                  >{{ 'track_progress_permints_to_rebuild_zooning_2' | i18n
+                  }}</span
                 >
+              </div>
+            </div>
+
+            <div class="bg-primary font-size-12 h-100 p-x-md p-b-0 p-t-sm">
+              <div
+                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+                <img
+                  src="/lafires/images/icon-tool.svg"
+                  width="40"
+                  height="40"
+                  aria-hidden="true"
+                  alt="" />
+                <span class="dashboard-stat"
+                  ><span id="county_building_plan_reviews_in_process"></span
+                ></span>
+                <span
+                  >{{ 'track_progress_permints_plans_reviews' | i18n }}</span
+                >
+              </div>
+            </div>
+
+            <div class="bg-primary font-size-12 h-100 p-x-md p-t-sm p-b-md">
+              <div
+                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+                <img
+                  src="/lafires/images/icon-house-check.svg"
+                  width="40"
+                  height="40"
+                  aria-hidden="true"
+                  alt="" />
+                <span class="dashboard-stat"
+                  ><span id="county_building_permits_issued"></span
+                ></span>
+                <span>{{ 'track_progress_permints_issued' | i18n }}</span>
               </div>
             </div>
 
@@ -653,11 +690,11 @@
             <p class="font-size-12 bg-s1 p-a">
               <em> &emsp; </em><br />
               &emsp;
-              <span id="air_mobile_survey_complete_date3"></span>
+              <!-- <span id="air_mobile_survey_complete_date3"></span> -->
             </p>
           </div>
         </div>
-      </div> -->
+      </div>
 
       <!--Water restored-->
       <div class="row m-b-lg">
@@ -753,78 +790,6 @@
           </li>
         </ul>
       </div>
-
-      <!-- <div class="row">
-        <div class="col-lg-12 m-b-md">
-          <div
-            id="card-how-we-are-monitoring"
-            class="dashboard-card rounded h-100 d-flex flex-column">
-            <h3
-              class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary d-flex align-items-center">
-              <img
-                src="/lafires/images/dashboard-wind-gust.svg"
-                width="48"
-                height="49"
-                aria-hidden="true" />
-              <span class="m-l-sm"
-                >{{ 'track_progress_how_we_are_monitoring' | i18n }}</span
-              >
-            </h3>
-
-            <div class="bg-primary h-100 p-x-md p-b-md p-t-sm">
-              <div class="dashboard-progress m-b-sm">
-                <span
-                  data-fill="white"
-                  style="width: calc(100% * 4/9)"
-                  id="air_mobile_survey_complete_PERCENT"></span>
-                <span
-                  data-fill="light"
-                  style="width: calc(100% * 2/9)"
-                  id="air_stationary_deployed_PERCENT"></span>
-                <span
-                  data-fill="dark"
-                  style="width: calc(100% * 3/9)"
-                  id="air_stationary_planned_PERCENT"></span>
-              </div>
-
-              <div class="d-flex flex-wrap w-auto">
-                <div
-                  class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r"
-                  style="width: 45%;">
-                  <span class="dashboard-stat"
-                    ><span id="air_mobile_survey_complete"></span
-                  ></span>
-                  <span
-                    >{{
-                    'track_progress_mobile_monitoring_surveys_completed_in_eaton_and_palisades_areas'
-                    | i18n }}</span
-                  >
-                </div>
-                <div
-                  class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r"
-                  style="width: 55%;">
-                  <span class="dashboard-stat"
-                    ><span id="air_stationary_deployed"></span
-                  ></span>
-                  <span
-                    >{{
-                    'track_progress_stationary_air_quality_monitoring_sites_deployed'
-                    | i18n }}</span
-                  >
-                </div>
-              </div>
-            </div>
-
-            <p class="font-size-12 bg-s1 p-a">
-              <em
-                >{{
-                'track_progress_reported_by_south_coast_air_quality_management_district'
-                | i18n }}<br /><span id="air_mobile_survey_complete_date"></span
-              ></em>
-            </p>
-          </div>
-        </div>
-      </div> -->
 
       <div class="row">
         <div class="col-lg-6 m-b-md">
