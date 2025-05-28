@@ -250,6 +250,14 @@
       </div>
 
       <!-- Disaster Recovery Center Cards -->
+      <div class="bg-gray-100 p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="color-p2-darker m-b-0">
+          {{'help_person_notice' | i18n | safe }}
+        </p>
+      </div>
 
       <div class="row" id="recovery-center-cards">
         <div class="col-md-6 m-t-md">
@@ -350,6 +358,49 @@
           {{ 'help_person_use_plan_your_visit' | i18n | safe }}
         </li>
       </ul>
+
+      <hr class="mt-5" />
+      <div class="scroll-section" id="federal-resources">
+        <h2>{{ 'help_person_federal_resources_h2' | i18n }}</h2>
+        <p>{{ 'help_person_federal_resources_description' | i18n }}</p>
+        <p>{{ 'help_person_federal_resources_hours' | i18n | safe }}</p>
+
+        <div class="bg-gray-100 p-a-md m-t-md m-b-0 d-flex align-items-top">
+          <div>
+            <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+          </div>
+          <p class="color-p2-darker m-b-0">
+            {{ 'help_person_federal_resources_note' | i18n }}
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 m-t-md">
+            <div
+              class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+              <h3 class="h5 m-t-md">
+                {{ 'help_person_federal_resources_card_1_heading' | i18n }}
+              </h3>
+              <p class="font-size-16">
+                {{ 'help_person_federal_resources_card_1_description' | i18n |
+                safe }}
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 m-t-md">
+            <div
+              class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+              <h3 class="h5 m-t-md">
+                {{ 'help_person_federal_resources_card_2_heading' | i18n }}
+              </h3>
+              <p class="font-size-16">
+                {{ 'help_person_federal_resources_card_2_description' | i18n |
+                safe }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <hr class="mt-5" />
       <div class="scroll-section" id="one-shop">

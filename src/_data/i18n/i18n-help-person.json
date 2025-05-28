@@ -24,16 +24,16 @@
     "comment": "Translation delivered 2025-04-23"
   },
   "help_person_lead_text": {
-    "status": "avantpage_delivery",
-    "en": "You can get help and advice in person at a Disaster Recovery Center. For help rebuilding your home, you can go to a <a href=\"#one-shop\">One-Stop Permit Center</a>.",
-    "es": "Puede obtener ayuda y asesoramiento en persona en un centro de recuperación por catástrofes. Para obtener ayuda para reconstruir su hogar, puede acudir a un <a href=\"#one-shop\">Centro Integral de Permisos (One-Stop Permit Center)</a>.",
-    "ko": "재난 복구 센터를 직접 방문하여 도움과 조언을 받을 수 있습니다. 집을 재건하는 데 도움이 필요하다면 <a href=\"#one-shop\">원스톱 허가 센터</a>를 방문하십시오.",
-    "vi": "Quý vị có thể nhận trợ giúp và tư vấn trực tiếp tại Trung Tâm Phục Hồi sau Thảm Họa. Để được trợ giúp xây dựng lại ngôi nhà, quý vị có thể đến <a href=\"#one-shop\">Trung Tâm Cấp Giấy Phép Một Cửa</a>.",
-    "tl": "Puwede kang makakuha ng tulong at payo sa personal sa isang Disaster Recovery Center. Para sa tulong sa rebuilding sa iyong tahanan, pumunta sa isang <a href=\"#one-shop\">One-Stop Permit Center</a>.",
-    "zh-hans": "您可亲临灾害恢复中心获取帮助与建议。如需获取重建房屋的帮助，请前往<a href=\"#one-shop\">一站式许可中心</a>。",
-    "zh-hant": "您可親臨災害恢復中心獲取幫助與建議。如需獲取重建房屋的幫助，請前往<a href=\"#one-shop\">一站式許可中心</a>。",
-    "hy": "Դուք կարող եք անձամբ օգնություն և խորհուրդ ստանալ Աղետների վերականգնման կենտրոնում։ Տան վերակառուցման օգնության համար, կարող եք այցելել <a href=\"#one-shop\">Թույլտվությունների ունիվերսալ կենտրոն</a>։",
-    "comment": "Translation delivered 2025-04-23"
+    "status": "ap_review",
+    "en": "You can get help and advice in person. For help rebuilding your home, you can go to a <a href=\"#one-shop\">One-Stop Permit Center</a>.",
+    "fr": "Vous pouvez obtenir de l'aide et des conseils en personne. Pour obtenir de l'aide pour reconstruire votre maison, vous pouvez vous rendre dans un <a href=\"#one-shop\">centre de permis universel</a>.",
+    "es": "Puede obtener ayuda y asesoramiento en persona. Para obtener ayuda para reconstruir su hogar, puede acudir a un <a href=\"#one-shop\">Centro Integral de Permisos</a>.",
+    "ko": "직접 도움과 조언을 받을 수 있습니다. 주거지를 복구하기 위해 도움이 필요하다면 <a href=\"#one-shop\">원스톱 허가 센터</a>를 방문하십시오.",
+    "vi": "Quý vị có thể nhận trợ giúp và tư vấn trực tiếp. Để được trợ giúp xây dựng lại ngôi nhà, quý vị có thể đến <a href=\"#one-shop\">Trung Tâm Cấp Giấy Phép Một Cửa</a>.",
+    "tl": "Puwede kang makakuha ng tulong at payo sa personal. Para sa tulong sa rebuilding sa iyong tahanan, pumunta sa <a href=\"#one-shop\">One-Stop Permit Center</a>.",
+    "zh-hans": "您可以亲自获取帮助与建议。如需获取重建房屋的帮助，您可以前往<a href=\"#one-shop\">一站式许可中心</a>。",
+    "zh-hant": "您可以親自獲取幫助與建議。如需獲取重建房屋的幫助，您可以前往<a href=\"#one-shop\">一站式許可中心</a>。",
+    "hy": "Դուք կարող եք անձամբ օգնություն և խորհուրդ ստանալ։ Տան վերակառուցման օգնության համար, կարող եք այցելել <a href=\"#one-shop\">Թույլտվությունների ունիվերսալ կենտրոն</a>։"
   },
   "help_person_plan_visit_button_text": {
     "status": "avantpage_delivery",
@@ -696,5 +696,104 @@
     "zh-hant": "安排檢查",
     "hy": "Ստուգումների պլանավորում",
     "comment": "Translation delivered 2025-04-23"
+  },
+  "help_person_notice": {
+    "status": "ap_review",
+    "en": "Disaster Recovery Centers will permanently close at 4 pm on Saturday, May 31, 2025. <a href=\"#federal-resources\">Federal resources</a> will be available at new locations on Monday, June 2, 2025.",
+    "es": "Los Centros de Recuperación de Desastres cerrarán permanentemente a las 4 p. m. del sábado 31 de mayo de 2025. Los <a href=\"#federal-resources\">recursos federales</a> estarán disponibles en nuevas ubicaciones el lunes 2 de junio de 2025.",
+    "ko": "재난 복구 센터는 2025년 5월 31일 토요일 오후 4시에 영구적으로 폐쇄됩니다. <a href=\"#federal-resources\">연방 자원</a>은 2025년 6월 2일 월요일부터 새로운 장소에서 이용할 수 있습니다.",
+    "vi": "Các Trung Tâm Phục Hồi Thiên Tai sẽ đóng cửa vĩnh viễn vào lúc 4 giờ chiều thứ Bảy, ngày 31 tháng 5 năm 2025. <a href=\"#federal-resources\">Tài nguyên liên bang</a> sẽ có tại các địa điểm mới vào thứ Hai, ngày 2 tháng 6 năm 2025.",
+    "tl": "Permanent na magsasara ang Disaster Recovery Centers sa 4 pm sa Sabado, Mayo 31, 2025. Ang mga <a href=\"#federal-resources\">pederal na mapagkukunan</a> ay magiging available sa mga bagong lokasyon sa Lunes, Hunyo 2, 2025.",
+    "zh-hans": "灾后恢复中心将于2025年5月31日星期六下午4点永久关闭。<a href=\"#federal-resources\">联邦资源</a>将于2025年6月2日星期一在新地点提供。",
+    "zh-hant": "災後恢復中心將於2025年5月31日星期六下午4點永久關閉。<a href=\"#federal-resources\">聯邦資源</a>將於2025年6月2日星期一在新地點提供。",
+    "hy": "Արտակարգ իրավիճակների վերականգնման կենտրոնները մշտապես կփակվեն 2025 թվականի մայիսի 31-ին՝ շաբաթ օրը՝ ժամը 16:00-ին։ <a href=\"#federal-resources\">Ֆեդերալ ռեսուրսները</a> կլինեն հասանելի նոր վայրերում 2025 թվականի հունիսի 2-ից՝ երկուշաբթի օրը։"
+  },
+  "help_person_federal_resources_h2": {
+    "status": "ap_review",
+    "en": "Find a federal resources center",
+    "es": "Encuentre un centro de recursos federales",
+    "ko": "연방 자원 센터 찾기",
+    "vi": "Tìm một trung tâm tài nguyên liên bang",
+    "tl": "Humanap ng sentro ng mga pederal na mapagkukunan",
+    "zh-hans": "查找联邦资源中心",
+    "zh-hant": "查找聯邦資源中心",
+    "hy": "Գտեք ֆեդերալ ռեսուրսների կենտրոն"
+  },
+  "help_person_federal_resources_description": {
+    "status": "ap_review",
+    "en": "Go to these centers for help with federal resources. FEMA and the Small Business Administration will be there.",
+    "es": "Vaya a estos centros para obtener ayuda con los recursos federales. FEMA y la Administración de Pequeñas Empresas estarán allí.",
+    "ko": "연방 자원에 대한 도움을 받으려면 해당 센터로를 방문하십시오. FEMA와 중소기업청이 있습니다.",
+    "vi": "Hãy đến các trung tâm này để được trợ giúp về các nguồn lực liên bang. FEMA và Cơ quan Quản lý Doanh nghiệp Nhỏ sẽ có mặt.",
+    "tl": "Pumunta sa mga sentro na ito para sa tulong sa mga pederal na mapagkukunan. Nandoon ang FEMA at ang Small Business Administration.",
+    "zh-hans": "请前往这些中心，获取有关联邦资源的帮助。FEMA 和小企业管理局将会在场。",
+    "zh-hant": "請前往這些中心，獲取有關聯邦資源的幫助。FEMA 和小企業管理局將會在場。",
+    "hy": "Ֆեդերալ ռեսուրսների հետ կապված օգնության համար դիմեք այս կենտրոններին։ Այստեղ կլինեն FEMA-ն և Փոքր բիզնեսի վարչությունը։"
+  },
+  "help_person_federal_resources_hours": {
+    "status": "ap_review",
+    "en": "<strong>Hours:</strong> Monday - Friday, 9 AM to 5 PM",
+    "es": "<strong>Horario:</strong> de lunes a viernes, de 9:00 a. m. a 5:00 p. m.",
+    "ko": "<strong>운영 시간:</strong> 월요일~금요일: 오전 9시~오후 5시",
+    "vi": "<strong>Giờ làm việc:</strong> Thứ Hai - Thứ Sáu, 9 giờ sáng đến 5 giờ chiều",
+    "tl": "<strong>Mga oras:</strong> Lunes - Biyernes, 9 AM hanggang 5 PM",
+    "zh-hans": "<strong>开放时间：</strong> 周一至周五，上午 9 点至下午 5 点",
+    "zh-hant": "<strong>開放時間：</strong> 週一至週五，上午 9 點至下午 5 點",
+    "hy": "<strong>Աշխատանքային ժամեր՝</strong> երկուշաբթի - ուրբաթ, 9:00 AM-ից 5:00 PM-ը"
+  },
+  "help_person_federal_resources_note": {
+    "status": "ap_review",
+    "en": "These centers open on Monday, June 2, 2025. Do not go to the centers before June 2.",
+    "es": "Estos centros abren el lunes 2 de junio de 2025. No vaya a los centros antes del 2 de junio.",
+    "ko": "이 센터는 2025년 6월 2일 월요일에 개장합니다. 6월 2일 이전에는 센터에 가지 마십시오.",
+    "vi": "Các trung tâm này sẽ mở cửa vào thứ Hai, ngày 2 tháng 6 năm 2025. Đừng đến các trung tâm trước ngày 2 tháng 6.",
+    "tl": "Bubuksan ang mga sentro na ito sa Lunes, Hunyo 2, 2025. Huwag pumunta sa mga sentro bago ang Hunyo 2.",
+    "zh-hans": "这些中心将于2025年6月2日星期一开放。请勿在6月2日之前前往这些中心。",
+    "zh-hant": "這些中心將於2025年6月2日星期一開放。請勿在6月2日之前前往這些中心。",
+    "hy": "Այս կենտրոնները կբացվեն 2025 թվականի հունիսի 2-ին՝ երկուշաբթի օրը։ Մի գնացեք կենտրոններ մինչև հունիսի 2-ը։"
+  },
+  "help_person_federal_resources_card_1_heading": {
+    "status": "ap_review",
+    "en": "One Stop Rebuilding Center",
+    "es": "Centro de Reconstrucción One Stop",
+    "ko": "원스톱 재건 센터",
+    "vi": "Trung Tâm Xây Dựng Lại Một Cửa",
+    "tl": "One Stop Rebuilding Center",
+    "zh-hans": "一站式重建中心",
+    "zh-hant": "一站式重建中心",
+    "hy": "Միասնական վերակառուցման կենտրոն"
+  },
+  "help_person_federal_resources_card_1_description": {
+    "status": "ap_review",
+    "en": "1828 Sawtelle Blvd. <br />Los Angeles, CA 90025",
+    "es": "1828 Sawtelle Blvd. <br />Los Ángeles, CA 90025",
+    "ko": "1828 Sawtelle Blvd. <br />로스앤젤레스, CA 90025",
+    "vi": "1828 Sawtelle Blvd. <br />Los Angeles, CA 90025",
+    "tl": "1828 Sawtelle Blvd. <br />Los Angeles, CA 90025",
+    "zh-hans": "1828 Sawtelle Blvd. <br />洛杉矶, CA 90025",
+    "zh-hant": "1828 Sawtelle Blvd. <br />洛杉磯, CA 90025",
+    "hy": "1828 Sawtelle Blvd. <br />Լոս Անջելես, CA 90025"
+  },
+  "help_person_federal_resources_card_2_heading": {
+    "status": "ap_review",
+    "en": "Altadena Community Center",
+    "es": "Centro Comunitario de Altadena",
+    "ko": "알타데나 커뮤니티 센터",
+    "vi": "Trung Tâm Cộng Đồng Altadena",
+    "tl": "Altadena Community Center",
+    "zh-hans": "Altadena 社区中心",
+    "zh-hant": "Altadena 社區中心",
+    "hy": "Ալթադենայի համայնքային կենտրոն"
+  },
+  "help_person_federal_resources_card_2_description": {
+    "status": "ap_review",
+    "en": "730 E. Altadena Dr. <br />Altadena, CA 91001",
+    "es": "730 E. Altadena Dr. <br />Altadena, CA 91001",
+    "ko": "730 E. Altadena Dr. <br />알타데나, CA 91001",
+    "vi": "730 E. Altadena Dr. <br />Altadena, CA 91001",
+    "tl": "730 E. Altadena Dr. <br />Altadena, CA 91001",
+    "zh-hans": "730 E. Altadena Dr. <br />Altadena, CA 91001",
+    "zh-hant": "730 E. Altadena Dr. <br />Altadena, CA 91001",
+    "hy": "730 E. Altadena Dr. <br />Altadena, CA 91001"
   }
 }
