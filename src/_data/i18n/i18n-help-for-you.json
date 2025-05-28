@@ -23,14 +23,14 @@
   },
   "help_for_you_card_1_description": {
     "status": "ap_rewiew",
-    "en": "Find help and advice in person at a <a href=\"/lafires/help-for-you/get-help-in-person/\">Disaster Recovery Center</a>.",
-    "es": "Encuentra ayuda y asesoramiento en persona en un <a href=\"/lafires/help-for-you/get-help-in-person/\">Centro de Recuperación de Desastres</a>.",
-    "ko": "재난 복구 센터에서 직접 도움과 조언을 받으세요. <a href=\"/lafires/help-for-you/get-help-in-person/\">재난 복구 센터</a>.",
-    "vi": "Tìm kiếm sự giúp đỡ và lời khuyên trực tiếp tại <a href=\"/lafires/help-for-you/get-help-in-person/\">Trung tâm Khôi phục Thảm họa</a>.",
-    "tl": "Maghanap ng tulong at payo nang personal sa isang <a href=\"/lafires/help-for-you/get-help-in-person/\">Disaster Recovery Center</a>.",
-    "zh-hans": "在<a href=\"/lafires/help-for-you/get-help-in-person/\">灾后恢复中心</a>亲自寻找帮助和建议。",
-    "zh-hant": "在<a href=\"/lafires/help-for-you/get-help-in-person/\">災後恢復中心</a>親自尋找幫助和建議。",
-    "hy": "Գտեք օգնություն և խորհուրդ անձամբ <a href=\"/lafires/help-for-you/get-help-in-person/\">Անհրաժեշտության վերականգնման կենտրոնում</a>։"
+    "en": "<a href=\"/lafires/help-for-you/get-help-in-person/\">Find help and advice in person</a> at a local resource center.",
+    "es": "<a href=\"/lafires/help-for-you/get-help-in-person/\">Encuentra ayuda y asesoramiento en persona</a> en un centro de recursos local.",
+    "ko": "<a href=\"/lafires/help-for-you/get-help-in-person/\">지역 자원 센터에서 직접 도움과 조언을 받으세요</a>.",
+    "vi": "<a href=\"/lafires/help-for-you/get-help-in-person/\">Tìm sự trợ giúp và tư vấn trực tiếp</a> tại trung tâm tài nguyên địa phương.",
+    "tl": "<a href=\"/lafires/help-for-you/get-help-in-person/\">Maghanap ng tulong at payo nang personal</a> sa isang lokal na sentro ng mapagkukunan.",
+    "zh-hans": "<a href=\"/lafires/help-for-you/get-help-in-person/\">在当地资源中心</a>亲自寻找帮助和建议。",
+    "zh-hant": "<a href=\"/lafires/help-for-you/get-help-in-person/\">在當地資源中心</a>親自尋找幫助和建議。",
+    "hy": "<a href=\"/lafires/help-for-you/get-help-in-person/\">Գտեք օգնություն և խորհրդատվություն անձամբ</a> տեղական ռեսուրսների կենտրոնում։"
   },
   "help_for_you_card_2_title": {
     "status": "ap_rewiew",
