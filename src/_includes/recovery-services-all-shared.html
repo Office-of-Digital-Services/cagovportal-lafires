@@ -199,10 +199,25 @@
       <p class="lead d-print-none">{{ 'sf_lead_text' | i18n }}</p>
 
       <p class="mb-5 d-flex gap-4 align-items-center d-print-none">
+        <button class="btn btn-primary rounded-4 p-r-md ps-3">
+          <img
+            src="/lafires/images/icon-share-plan.svg"
+            alt=""
+            class="img-fluid 
+            height-30 d-print-none"
+            aria-hidden="true" />
+          {{ 'sf_share_button' | i18n }}
+        </button>
         <a
           class="d-print-none btn btn-outline-primary rounded-4 brd-solid-2 p-x-md m-r"
-          onclick="window.print(); return false;"
-          >{{ 'sf_print_button' | i18n }}</a
+          onclick="window.print(); return false;">
+          <img
+            src="/lafires/images/icon-print.svg"
+            alt=""
+            class="img-fluid 
+          height-20 d-print-none"
+            aria-hidden="true" />
+          {{ 'sf_print_button' | i18n }}</a
         >
 
         <a

@@ -2446,6 +2446,18 @@
     "zh-hant": "以下是滿足您需求的服務。我們提供有關如何獲得這些服務的直接連結或資訊。",
     "hy": "Ահա այն ծառայությունները, որոնք համապատասխանում են Ձեր կարիքներին: Մենք տրամադրում ենք ուղիղ հղումներ կամ տեղեկություններ, թե ինչպես ստանալ այդ ծառայությունները:"
   },
+  "sf_share_button": {
+    "status": "ap_review",
+    "en": "Share your plan",
+    "fr": "Partager votre plan",
+    "es": "Comparta su plan",
+    "ko": "계획 공유하기",
+    "vi": "Chia sẻ kế hoạch của quý vị",
+    "tl": "Ibahagi ang iyong plano",
+    "zh-hans": "分享方案",
+    "zh-hant": "分享您的計劃",
+    "hy": "Կիսվել Ձեր պլանով"
+  },
   "sf_print_button": {
     "status": "avantpage_delivery",
     "en": "Print your plan",
