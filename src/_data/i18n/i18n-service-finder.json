@@ -2638,5 +2638,65 @@
     "zh-hant": "如何獲得此服務",
     "hy": "Ինչպե՞ս ստանալ այս ծառայությունը",
     "comment": "Translation delivered 2025-04-23"
+  },
+  "sf_modal-title": {
+    "status": "ap_review",
+    "en": "Share your customized plan",
+    "fr": "Partager votre plan personnalisé",
+    "es": "Comparta su plan personalizado",
+    "ko": "맞춤형 계획 공유하기",
+    "vi": "Chia sẻ kế hoạch tùy chỉnh của quý vị",
+    "tl": "Ibahagi ang iyong naka-customize na plano",
+    "zh-hans": "分享您的个性化方案",
+    "zh-hant": "分享您的個性化計劃",
+    "hy": "Կիսվել Ձեր հարմարեցված պլանով"
+  },
+  "sf_copy_link_text": {
+    "status": "ap_review",
+    "en": "Copy link",
+    "fr": "Copier le lien",
+    "es": "Copiar enlace",
+    "ko": "링크 복사하기",
+    "vi": "Sao chép liên kết",
+    "tl": "Kopyahin ang link",
+    "zh-hans": "复制链接",
+    "zh-hant": "複製連結",
+    "hy": "Պատճենել հղումը"
+  },
+  "sf_link_copied": {
+    "status": "ap_review",
+    "en": "Link copied",
+    "fr": "Lien copié",
+    "es": "Enlace copiado",
+    "ko": "링크가 복사되었습니다",
+    "vi": "Liên kết đã được sao chép",
+    "tl": "Nakopya ang link",
+    "zh-hans": "链接已复制",
+    "zh-hant": "連結已複製",
+    "hy": "Հղումը պատճենվել է"
+  },
+  "sf_close_modal": {
+    "status": "ap_review",
+    "en": "Close modal",
+    "fr": "Fermer la fenêtre modale",
+    "es": "Cerrar modal",
+    "ko": "모달 닫기",
+    "vi": "Đóng cửa sổ",
+    "tl": "Isara ang modal",
+    "zh-hans": "关闭弹窗",
+    "zh-hant": "關閉彈出視窗",
+    "hy": "Փակել մոդալը"
+  },
+  "sf_email_plan": {
+    "status": "ap_review",
+    "en": "Email",
+    "fr": "Envoyer votre plan par e-mail",
+    "es": "Enviar su plan por correo electrónico",
+    "ko": "계획 이메일로 보내기",
+    "vi": "Gửi kế hoạch của quý vị qua email",
+    "tl": "I-email ang iyong plano",
+    "zh-hans": "通过电子邮件发送您的方案",
+    "zh-hant": "通過電子郵件發送您的計劃",
+    "hy": "Էլ․ փոստով ուղարկել Ձեր պլանը"
   }
 }

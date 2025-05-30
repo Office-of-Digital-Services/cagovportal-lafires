@@ -199,7 +199,10 @@
       <p class="lead d-print-none">{{ 'sf_lead_text' | i18n }}</p>
 
       <p class="mb-5 d-flex gap-4 align-items-center d-print-none">
-        <button class="btn btn-primary rounded-4 p-r-md ps-3">
+        <button
+          class="btn btn-primary rounded-4 p-r-md ps-3"
+          data-bs-toggle="modal"
+          data-bs-target="#share-plan">
           <img
             src="/lafires/images/icon-share-plan.svg"
             alt=""
@@ -356,4 +359,67 @@
 "./recovery-services-all.html.js" -%}{%- endset -%}
 <script>
   {{- js | jsmin | safe }}
+</script>
+
+<div class="modal fade" id="share-plan" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content p-b-md">
+      <div class="modal-header p-t-0">
+        <h3 class="modal-title color-p2">{{'sf_modal-title' | i18n }}</h3>
+        <button
+          type="button"
+          class="close btn btn-secondary border-0 rounded-pill bg-white bg-gray-100-hover pos-rel top-minus-5 right-minus-sm shadow-none p-t-0 p-b-0 p-l-sm p-r-sm"
+          data-bs-dismiss="modal">
+          <span class="sr-only">{{'sf_close_modal' | i18n }}</span>
+          <span
+            class="ca-gov-icon-close-mark font-size-30"
+            aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="brd-solid-2 brd-primary d-flex rounded-5">
+          <input
+            type="text"
+            id="url-copy"
+            class="bg-transparent border-0 m-y-0 p-x-0 p-l p-r-sm overflow-hidden w-100"
+            value="here is some data here is some data here is some data here is some data" />
+
+          <button
+            class="btn btn-primary rounded-0 p-x m-t-0 ms-auto d-flex text-nowrap"
+            onClick="copyToClipboard()">
+            <span
+              class="ca-gov-icon-copy"
+              aria-hidden="true"
+              id="copy-url-icon"></span>
+            <div class="m-l-sm" id="copy-url-text">
+              {{'sf_copy_link_text' | i18n }}
+            </div>
+          </button>
+        </div>
+
+        <button
+          type="submit"
+          class="btn btn-outline-primary brd-solid-2 rounded-5 m-t d-flex align-items-center p-r-md">
+          <img
+            src="/lafires/images/icon-email.svg"
+            alt=""
+            class="img-fluid 
+            height-30 d-print-none m-r"
+            aria-hidden="true" />
+          {{'sf_email_plan' | i18n }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    function copyToClipboard() {
+      const inputElement = document.getElementById('url-copy');
+      inputElement.select();
+      document.execCommand('copy');
+      document.getElementById('copy-url-text').textContent = "{{'sf_link_copied' | i18n }}";
+      document.getElementById('copy-url-icon').className = "ca-gov-icon-check-mark";
+
+  }
 </script>
