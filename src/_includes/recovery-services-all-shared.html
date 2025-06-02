@@ -244,7 +244,7 @@
 
         <div
           data-service-type="{{service_type.Section}}"
-          data-service-cetegory-id="{{service_category.ID}}">
+          data-service-category-id="{{service_category.ID}}">
           <h3>{{('sf_cat_label_' + service_category.Key) | i18n}}</h3>
 
           <div class="row">
@@ -253,7 +253,7 @@
             | sortBy("Entity") -%}
             <div
               class="col-lg-6 alert"
-              data-service-cetegory-id="{{service_category.ID}}"
+              data-service-category-id="{{service_category.ID}}"
               data-service-id="{{item.ID}}">
               <div
                 class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">

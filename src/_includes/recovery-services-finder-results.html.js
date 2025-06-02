@@ -1,6 +1,33 @@
 //@ts-check
 
 document.addEventListener("DOMContentLoaded", () => {
+  // hide unselected services
+  // Get the query string parameters
+  const params = new URLSearchParams(window.location.search);
+  const selectedIds = params.get("selected")?.split(",") || [];
+
+  // Loop through all divs with a "data-service-id" attribute
+  /** @type {NodeListOf<HTMLElement>} */ (
+    document.querySelectorAll("div[data-service-id]")
+  ).forEach(div => {
+    if (!selectedIds.includes(div.dataset.serviceId || "")) {
+      div.remove(); // Remove the div from the DOM
+    }
+  });
+
+  // Select all divs that have both "data-service-category" and "data-service-type"
+  /** @type {NodeListOf<HTMLElement>} */
+  const categoryTypeDivs = document.querySelectorAll("div[data-service-type]");
+
+  categoryTypeDivs.forEach(div => {
+    // Check if it contains any descendant divs with "data-service-id"
+    const hasServiceIdChild = div.querySelector("div[data-service-id]");
+
+    if (!hasServiceIdChild) {
+      div.remove(); // Remove the div from the DOM
+    }
+  });
+
   // Begin share plan functionality
 
   const sharePlanModal = document.getElementById("share-plan");
