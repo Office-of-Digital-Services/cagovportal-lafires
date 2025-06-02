@@ -2,13 +2,19 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   // Begin share plan functionality
+
+  const sharePlanModal = document.getElementById("share-plan");
   const copyBtn = document.getElementById("share-plan-copy");
   const copiedMsg = document.getElementById("share-plan-copied");
   const urlInput = /** @type {HTMLInputElement | null} */ (
     document.getElementById("url-copy")
   );
 
-  if (copyBtn && copiedMsg && urlInput) {
+  if (sharePlanModal && copyBtn && copiedMsg && urlInput) {
+    sharePlanModal.addEventListener("show.bs.modal", () => {
+      urlInput.value = window.location.href;
+    });
+
     const copyUrl = () => {
       urlInput.select();
       navigator.clipboard
