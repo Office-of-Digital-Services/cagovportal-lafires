@@ -109,7 +109,7 @@
   </div>
 </div>
 
-{%- set js -%}{%- include "./recovery-services-shared.mjs" -%}{%- endset -%}
+{%- set js -%}{%- include "./recovery-services-finder.mjs" -%}{%- endset -%}
 <script type="module">
   {{- js | jsmin | safe }}
 </script>
