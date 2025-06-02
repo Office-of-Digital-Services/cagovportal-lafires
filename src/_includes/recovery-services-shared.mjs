@@ -2,6 +2,8 @@
 
 // Recovery Services Finder Functionality
 window.addEventListener("load", () => {
+  // "load" to support back browsing
+
   const redirectButton = document.getElementById("redirect");
   const redirectTarget = /** @type {HTMLAnchorElement | null} */ (
     document.getElementById("hidden-href-target")
