@@ -260,7 +260,10 @@
             {%- for item in airTable |
             pluck("Category",service_category.Category) | sortBy("Service_name")
             | sortBy("Entity") -%}
-            <div class="col-lg-6 alert" data-id="{{item.ID}}">
+            <div
+              class="col-lg-6 alert"
+              data-service-cetegory-id="{{service_category.ID}}"
+              data-service-id="{{item.ID}}">
               <div
                 class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
                 <div class="d-flex">
