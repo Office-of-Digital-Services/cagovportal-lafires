@@ -385,15 +385,19 @@
             value="here is some data here is some data here is some data here is some data" />
 
           <button
-            class="btn btn-primary rounded-0 p-x m-t-0 ms-auto d-flex text-nowrap"
-            onClick="copyToClipboard()">
-            <span
-              class="ca-gov-icon-copy"
-              aria-hidden="true"
-              id="copy-url-icon"></span>
-            <div class="m-l-sm" id="copy-url-text">
-              {{'sf_copy_link_text' | i18n }}
-            </div>
+            id="share-plan-copy"
+            class="btn btn-primary rounded-0 p-x m-t-0 ms-auto d-flex text-nowrap">
+            <span class="ca-gov-icon-copy" aria-hidden="true"></span>
+            <div class="m-l-sm">{{'sf_copy_link_text' | i18n }}</div>
+          </button>
+
+          <button
+            hidden
+            aria-hidden="true"
+            id="share-plan-copied"
+            class="btn btn-primary rounded-0 p-x m-t-0 ms-auto d-flex text-nowrap d-none">
+            <span class="ca-gov-icon-check-mark" aria-hidden="true"></span>
+            <div class="m-l-sm">{{'sf_link_copied' | i18n }}</div>
           </button>
         </div>
 
@@ -412,14 +416,3 @@
     </div>
   </div>
 </div>
-
-<script>
-    function copyToClipboard() {
-      const inputElement = document.getElementById('url-copy');
-      inputElement.select();
-      document.execCommand('copy');
-      document.getElementById('copy-url-text').textContent = "{{'sf_link_copied' | i18n }}";
-      document.getElementById('copy-url-icon').className = "ca-gov-icon-check-mark";
-
-  }
-</script>
