@@ -1,39 +1,37 @@
 //@ts-check
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Begin Share Plan
-  const sharePlanCopy = document.getElementById("share-plan-copy");
-  const sharePlanCopied = document.getElementById("share-plan-copied");
-  const inputElement = /** @type {HTMLInputElement | null} */ (
+  // Begin share plan functionality
+  const copyBtn = document.getElementById("share-plan-copy");
+  const copiedMsg = document.getElementById("share-plan-copied");
+  const urlInput = /** @type {HTMLInputElement | null} */ (
     document.getElementById("url-copy")
   );
-  if (!inputElement || !sharePlanCopy || !sharePlanCopied) {
+
+  if (copyBtn && copiedMsg && urlInput) {
+    const copyUrl = () => {
+      urlInput.select();
+      navigator.clipboard
+        .writeText(urlInput.value)
+        .then(() => {
+          copiedMsg.classList.remove("d-none");
+          copiedMsg.hidden = false;
+          copiedMsg.ariaHidden = null;
+          copiedMsg.focus();
+          copyBtn.classList.add("d-none");
+          copyBtn.hidden = true;
+          copyBtn.ariaHidden = "true";
+        })
+        .catch(err => {
+          console.error("Failed to copy: ", err);
+        });
+    };
+    copyBtn.addEventListener("click", copyUrl);
+    copiedMsg.addEventListener("click", copyUrl);
+  } else {
     console.error("Share plan elements not found.");
-    return;
   }
-
-  const shareCopyText = () => {
-    inputElement.select();
-    navigator.clipboard
-      .writeText(inputElement.value)
-      .catch(err => {
-        console.error("Failed to copy: ", err);
-      })
-      .then(() => {
-        sharePlanCopied.classList.remove("d-none");
-        sharePlanCopied.hidden = false;
-        sharePlanCopied.ariaHidden = null;
-        sharePlanCopied.focus();
-        sharePlanCopy.classList.add("d-none");
-        sharePlanCopy.hidden = true;
-        sharePlanCopy.ariaHidden = "true";
-      });
-  };
-
-  [sharePlanCopy, sharePlanCopied].forEach(btn =>
-    btn.addEventListener("click", shareCopyText)
-  );
-  // End Share Plan
+  // End share plan functionality
 
   const clearVarsButton = document.querySelector(".clearVars");
   if (clearVarsButton) {
@@ -53,11 +51,13 @@ document.addEventListener("DOMContentLoaded", () => {
     .map(x => `.${x}`)
     .join(",");
 
-  /** @type {HTMLElement[]} */ ([
-    ...document.querySelectorAll(classes)
-  ]).forEach(el => {
-    el.classList.remove("d-none");
-    el.ariaHidden = null;
-    el.hidden = false;
-  });
+  if (classes.length > 0) {
+    /** @type {HTMLElement[]} */ ([
+      ...document.querySelectorAll(classes)
+    ]).forEach(el => {
+      el.classList.remove("d-none");
+      el.ariaHidden = null;
+      el.hidden = false;
+    });
+  }
 });
