@@ -35,7 +35,17 @@ window.addEventListener("load", () => {
     redirectButton.addEventListener("click", () => {
       const selectedCheckboxes = checkboxes
         .filter(cb => cb.checked)
-        .map(cb => cb.value);
+        .flatMap(
+          cb =>
+            cb.value
+              .split(",")
+              .map(num => num.trim()) // Remove spaces
+              .filter(num => num !== "") // Remove empty entries (trailing commas)
+              .map(Number) // Convert to numbers
+        );
+
+      selectedCheckboxes.sort();
+
       if (selectedCheckboxes.length > 0) {
         const url = `${redirectTarget.href}?selected=${selectedCheckboxes.join(",")}`;
         window.location.href = url;
