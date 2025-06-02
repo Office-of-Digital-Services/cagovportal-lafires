@@ -260,7 +260,7 @@
             {%- for item in airTable |
             pluck("Category",service_category.Category) | sortBy("Service_name")
             | sortBy("Entity") -%}
-            <div class="col-lg-6 alert">
+            <div class="col-lg-6 alert" data-id="{{item.ID}}">
               <div
                 class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
                 <div class="d-flex">
@@ -400,8 +400,8 @@
           </button>
         </div>
 
-        <button
-          type="submit"
+        <a
+          href="mailto:?subject=My+Plan&body=Test"
           class="btn btn-outline-primary brd-solid-2 rounded-5 m-t d-flex align-items-center p-r-md">
           <img
             src="/lafires/images/icon-email.svg"
@@ -410,7 +410,7 @@
             height-30 d-print-none m-r"
             aria-hidden="true" />
           {{'sf_email_plan' | i18n }}
-        </button>
+        </a>
       </div>
     </div>
   </div>
