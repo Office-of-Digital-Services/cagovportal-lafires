@@ -38,32 +38,4 @@ document.addEventListener("DOMContentLoaded", () => {
     console.error("Share plan elements not found.");
   }
   // End share plan functionality
-
-  const clearVarsButton = document.querySelector(".clearVars");
-  if (clearVarsButton) {
-    clearVarsButton.addEventListener("click", event => {
-      event.preventDefault();
-      sessionStorage.clear();
-      window.location.href = "/lafires/recovery-services-finder/";
-    });
-  }
-
-  const checks = /** @type {string[]} */ (window["getCheckboxStates"]());
-
-  const categories = ["business", "long", "short"];
-
-  const classes = checks
-    .filter(item => categories.some(cat => item.startsWith(`category_${cat}`)))
-    .map(x => `.${x}`)
-    .join(",");
-
-  if (classes.length > 0) {
-    /** @type {HTMLElement[]} */ ([
-      ...document.querySelectorAll(classes)
-    ]).forEach(el => {
-      el.classList.remove("d-none");
-      el.ariaHidden = null;
-      el.hidden = false;
-    });
-  }
 });

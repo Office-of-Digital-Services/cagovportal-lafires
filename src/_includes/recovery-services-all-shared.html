@@ -234,16 +234,8 @@
       {%- set categories = lafires.recovery_services_categories |
       pluck("Type_of_Service",service_type.Type_of_Service) -%}
       <!---->
-      {%- set classlist = "" -%}
-      <!---->
-      {%- for service_category in categories -%}
-      <!---->
-      {%-set classlist = classlist + " category_" + service_type.Section + "_" +
-      service_category.ID -%}
-      <!---->
-      {%- endfor -%}
 
-      <div class="d-none{{classlist}}" aria-hidden="true" hidden>
+      <div data-service-type="{{service_type.Section}}">
         <h2 class="color-p2-darker">
           {{('sf_service_title_' + service_type.Key) | i18n}}
         </h2>
@@ -251,9 +243,8 @@
         {%- for service_category in categories -%}
 
         <div
-          class="d-none category_{{service_type.Section}}_{{service_category.ID}}"
-          aria-hidden="true"
-          hidden>
+          data-service-type="{{service_type.Section}}"
+          data-service-cetegory-id="{{service_category.ID}}">
           <h3>{{('sf_cat_label_' + service_category.Key) | i18n}}</h3>
 
           <div class="row">
@@ -358,12 +349,6 @@
   </div>
 </div>
 
-{%- set js -%}{%- include "./recovery-services-shared.mjs" -%}{%- include
-"./recovery-services-all.html.js" -%}{%- endset -%}
-<script>
-  {{- js | jsmin | safe }}
-</script>
-
 <div class="modal fade" id="share-plan" role="dialog" tabindex="-1">
   <div class="modal-dialog modal-lg">
     <div class="modal-content p-b-md">
@@ -418,3 +403,8 @@
     </div>
   </div>
 </div>
+
+{%- set js -%}{%- include "./recovery-services-all.html.js" -%}{%- endset -%}
+<script>
+  {{- js | jsmin | safe }}
+</script>
