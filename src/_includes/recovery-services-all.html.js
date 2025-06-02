@@ -1,14 +1,9 @@
 //@ts-check
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Share Plan events
-
-  const sharePlanCopy = /** @type {HTMLButtonElement | null} */ (
-    document.getElementById("share-plan-copy")
-  );
-  const sharePlanCopied = /** @type {HTMLButtonElement | null} */ (
-    document.getElementById("share-plan-copied")
-  );
+  // Begin Share Plan
+  const sharePlanCopy = document.getElementById("share-plan-copy");
+  const sharePlanCopied = document.getElementById("share-plan-copied");
   const inputElement = /** @type {HTMLInputElement | null} */ (
     document.getElementById("url-copy")
   );
@@ -17,25 +12,28 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  const copyFunction = () => {
+  const shareCopyText = () => {
     inputElement.select();
-    console.log("Copying the URL: ", inputElement.value);
-    navigator.clipboard.writeText(inputElement.value).catch(err => {
-      console.error("Failed to copy: ", err);
-    });
-
-    sharePlanCopied.classList.remove("d-none");
-    sharePlanCopied.hidden = false;
-    sharePlanCopied.ariaHidden = null;
-    sharePlanCopied.focus();
-    sharePlanCopy.classList.add("d-none");
-    sharePlanCopy.hidden = true;
-    sharePlanCopy.ariaHidden = "true";
+    navigator.clipboard
+      .writeText(inputElement.value)
+      .catch(err => {
+        console.error("Failed to copy: ", err);
+      })
+      .then(() => {
+        sharePlanCopied.classList.remove("d-none");
+        sharePlanCopied.hidden = false;
+        sharePlanCopied.ariaHidden = null;
+        sharePlanCopied.focus();
+        sharePlanCopy.classList.add("d-none");
+        sharePlanCopy.hidden = true;
+        sharePlanCopy.ariaHidden = "true";
+      });
   };
 
   [sharePlanCopy, sharePlanCopied].forEach(btn =>
-    btn.addEventListener("click", copyFunction)
+    btn.addEventListener("click", shareCopyText)
   );
+  // End Share Plan
 
   const clearVarsButton = document.querySelector(".clearVars");
   if (clearVarsButton) {
