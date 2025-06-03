@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   allServiceDivs.forEach(div => {
     // Add click event listener to each service div's close button
-    const closeButton = div.querySelector("button[data-bs-dismiss]");
+    const closeButton = div.querySelector("button[data-service-id]");
 
     if (closeButton && div.dataset.serviceId) {
       closeButton.addEventListener("click", () => {

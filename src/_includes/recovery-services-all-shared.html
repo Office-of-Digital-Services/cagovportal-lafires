@@ -264,7 +264,6 @@
                   <button
                     type="button"
                     class="btn-close ms-auto m-t-md bg-gray-100 rounded-circle p-a-sm pos-rel top-minus-5 right-minus-sm"
-                    data-bs-dismiss="alert"
                     data-service-id="{{item.ID}}"
                     aria-label="Close"></button>
                 </div>
@@ -391,8 +390,8 @@
 
         <a
           id="share-plan-mailto"
-          data-mail-subject="Share from the California Recovery Services Finder"
-          data-mail-body="Here is my plan from the California Recovery Services Finder:"
+          data-mail-subject="{{'sf_email_plan_subject' | i18n }}"
+          data-mail-body="{{'sf_email_plan_body' | i18n }}"
           class="btn btn-outline-primary brd-solid-2 rounded-5 m-t d-flex align-items-center p-r-md">
           <img
             src="/lafires/images/icon-email.svg"
