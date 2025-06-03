@@ -1871,6 +1871,42 @@
     "hy": "Գտեք թվային ծրագրեր երիտասարդների, մեծահասակների և ընտանիքների հոգեկան առողջության և աջակցության համար:",
     "comment": "Translation delivered 2025-04-10"
   },
+  "sf_82_service_name": {
+    "status": "english_only",
+    "en": "Mental health support",
+    "es": "Apoyo de salud mental",
+    "ko": "정신 건강 지원",
+    "vi": "Hỗ trợ sức khỏe tâm thần",
+    "tl": "Suporta sa kalusugan ng pag-iisip",
+    "zh-hans": "心理健康支持",
+    "zh-hant": "心理健康支援",
+    "hy": "Հոգեկան առողջության աջակցություն",
+    "comment": ""
+  },
+  "sf_82_entity": {
+    "status": "english_only",
+    "en": "California Department of Social Services",
+    "es": "Departamento de Servicios Sociales de California",
+    "ko": "캘리포니아 사회복지부",
+    "vi": "Sở Dịch Vụ Xã Hội California",
+    "tl": "California Department of Social Services",
+    "zh-hans": "加州社会服务部",
+    "zh-hant": "加州社會服務部",
+    "hy": "Կալիֆոռնիայի Մարդկային ծառայությունների վարչություն",
+    "comment": ""
+  },
+  "sf_82_description": {
+    "status": "english_only",
+    "en": "If you've been impacted by the recent LA fires, you can get no-cost counseling and other mental health resources.",
+    "es": "Si ha sido afectado por los recientes incendios de LA, puede obtener asesoramiento sin costo y otros recursos de salud mental.",
+    "ko": "최근 LA 화재로 피해를 입은 경우 무료 상담 및 기타 정신 건강 리소스를 이용할 수 있습니다.",
+    "vi": "Nếu quý vị bị ảnh hưởng bởi các đám cháy ở LA gần đây, quý vị có thể nhận được tư vấn miễn phí và các nguồn hỗ trợ sức khỏe tâm thần khác.",
+    "tl": "Kung naapektuhan ka ng mga kamakailang sunog sa LA, maaari kang makakuha ng walang gastos na pagpapayo at iba pang mga resource sa kalusugan ng pag-iisip.",
+    "zh-hans": "如果您受到最近洛杉矶大火的影响，您可以获得免费的咨询和其他心理健康资源。",
+    "zh-hant": "如果您受到最近洛杉磯大火的影響，您可以獲得免費的諮詢和其他心理健康資源。",
+    "hy": "Եթե Դուք տուժել եք վերջին ԼԱ-ի հրդեհներից, կարող եք ստանալ անվճար խորհրդատվություն և այլ հոգեկան առողջության ռեսուրսներ:",
+    "comment": ""
+  },
   "sf_84_service_name": {
     "status": "avantpage_delivery",
     "en": "Safety information for fire cleanup workers ",
