@@ -27,23 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
-  /**
-   *
-   * @param {string} paramName
-   * @param {*} valueToRemove
-   */
-  const removeFromQueryString = (paramName, valueToRemove) => {
-    const urlObj = new URL(window.location.href);
-    const params = urlObj.searchParams;
-    const ids = (params.get(paramName) || "")
-      .split(/[^0-9]+/)
-      .filter(id => id && id != valueToRemove);
-    ids.length
-      ? params.set(paramName, ids.join("."))
-      : params.delete(paramName);
-    window.history.replaceState(null, "", urlObj);
-  };
-
   allServices.forEach(div => {
     // Add click event listener to each service div
     /** @type {HTMLButtonElement | null} */
@@ -51,7 +34,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (closeButton && div.dataset.serviceId !== undefined) {
       closeButton.addEventListener("click", () => {
-        removeFromQueryString("selected", div.dataset.serviceId);
+        const paramName = "selected";
+        const urlObj = new URL(window.location.href);
+        const params = urlObj.searchParams;
+        const ids = (params.get(paramName) || "")
+          .split(/[^0-9]+/)
+          .filter(id => id && id != div.dataset.serviceId);
+        ids.length
+          ? params.set(paramName, ids.join("."))
+          : params.delete(paramName);
+        window.history.replaceState(null, "", urlObj);
+
         hideUnselectedServices();
       });
     }
