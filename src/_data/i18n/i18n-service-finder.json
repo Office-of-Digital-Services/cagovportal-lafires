@@ -2050,6 +2050,42 @@
     "hy": "Աղբի հեռացման ժամանակ Բանակային կորպուսը կհեռացնի վտանգ ներկայացնող ծառերը: Բայց Դուք կարող եք ներկայացնել մերժման դիմում և խնդրել նրանց չհանել Ձեր գույքի որոշակի ծառեր:",
     "comment": "Translation delivered 2025-04-23"
   },
+  "sf_91_service_name": {
+    "status": "english_only",
+    "en": "Free debris removal for some commercial properties",
+    "es": "Remoción gratuita de escombros para algunas propiedades comerciales",
+    "ko": "일부 상업용 부동산에 대한 무료 잔해물 제거",
+    "vi": "Di dời miễn phí đống đổ nát cho một số tài sản thương mại",
+    "tl": "Libreng pag-aalis ng kalat para sa ilang komersyal na ari-arian",
+    "zh-hans": "部分商业地产的免费残余物清除服务",
+    "zh-hant": "部分商業地產的免費殘餘物清除服務",
+    "hy": "Աղբի անվճար հեռացում որոշ առևտրային գույքի համար",
+    "comment": ""
+  },
+  "sf_91_entity": {
+    "status": "english_only",
+    "en": "U.S. Army Corps of Engineers",
+    "es": "Cuerpo de Ingenieros del Ejército de los Estados Unidos",
+    "ko": "미국 육군 공병단",
+    "vi": "Công Binh Lục Quân Hoa Kỳ",
+    "tl": "U.S. Army Corps of Engineers",
+    "zh-hans": "美国陆军工程兵团 (U.S. Army Corps of Engineers, USACE)",
+    "zh-hant": "美國陸軍工程兵團 (U.S. Army Corps of Engineers, USACE)",
+    "hy": "ԱՄՆ բանակի ինժեներների կորպուս",
+    "comment": ""
+  },
+  "sf_91_description": {
+    "status": "english_only",
+    "en": "Opt in by April 15, 2025, to find out if your business qualifies for free government debris removal.",
+    "es": "Regístrese antes del 15 de abril de 2025 para averiguar si su negocio califica para la remoción gratuita de escombros por parte del gobierno.",
+    "ko": "2025년 4월 15일까지 등록하여 귀하의 사업체가 정부의 무료 잔해물 제거 대상인지 확인하십시오.",
+    "vi": "Hãy đăng ký trước ngày 15 tháng 4 năm 2025 để tìm hiểu xem doanh nghiệp của quý vị có đủ điều kiện nhận dịch vụ dọn dẹp miễn phí của chính phủ hay không.",
+    "tl": "Mag-opt in bago ang Abril 15, 2025, upang malaman kung kwalipikado ang iyong negosyo para sa libreng pag-aalis ng kalat ng gobyerno.",
+    "zh-hans": "请在 2025 年 4 月 15 日之前注册，以了解您的企业是否符合政府免费清除服务的资格。",
+    "zh-hant": "請在 2025 年 4 月 15 日之前註冊，以瞭解您的企業是否符合政府免費清除服務的資格。",
+    "hy": "Գրանցվեք մինչև 2025 թվականի ապրիլի 15-ը՝ պարզելու համար, արդյոք Ձեր բիզնեսը համապատասխանում է կառավարության կողմից անվճար աղբի հեռացման պահանջներին:",
+    "comment": ""
+  },
   "sf_service_title_essential_help": {
     "status": "avantpage_delivery",
     "en": "Essential help for individuals",
