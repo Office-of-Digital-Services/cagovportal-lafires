@@ -38,7 +38,7 @@ window.addEventListener("load", () => {
         .flatMap(
           cb =>
             cb.value
-              .split(",")
+              .split(".")
               .map(num => num.trim()) // Remove spaces
               .filter(num => num !== "") // Remove empty entries (trailing commas)
               .map(Number) // Convert to numbers
@@ -47,7 +47,7 @@ window.addEventListener("load", () => {
       selectedCheckboxes.sort();
 
       if (selectedCheckboxes.length > 0) {
-        const url = `${redirectTarget.href}?selected=${selectedCheckboxes.join(",")}`;
+        const url = `${redirectTarget.href}?selected=${selectedCheckboxes.join(".")}`;
         window.location.href = url;
       } else {
         console.warn("No checkboxes selected.");

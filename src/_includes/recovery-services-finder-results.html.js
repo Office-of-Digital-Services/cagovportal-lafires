@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // hide unselected services
     // Get the query string parameters
     const params = new URLSearchParams(window.location.search);
-    const selectedIds = params.get("selected")?.split(",") || [];
+    const selectedIds = params.get("selected")?.split(/[^0-9]+/) || [];
 
     // Loop through all divs with a "data-service-id" attribute
     allServices.forEach(div => {
@@ -27,19 +27,21 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
+  /**
+   *
+   * @param {string} paramName
+   * @param {*} valueToRemove
+   */
   const removeFromQueryString = (paramName, valueToRemove) => {
-    const params = new URLSearchParams(window.location.search);
+    const urlObj = new URL(window.location.href);
+    const params = urlObj.searchParams;
     const ids = (params.get(paramName) || "")
-      .split(",")
-      .filter(id => id && id !== valueToRemove);
+      .split(/[^0-9]+/)
+      .filter(id => id && id != valueToRemove);
     ids.length
-      ? params.set(paramName, ids.join(","))
+      ? params.set(paramName, ids.join("."))
       : params.delete(paramName);
-    window.history.replaceState(
-      null,
-      "",
-      `${window.location.pathname}?${params.toString().replace(/%2C/g, ",")}`
-    );
+    window.history.replaceState(null, "", urlObj);
   };
 
   allServices.forEach(div => {
@@ -47,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     /** @type {HTMLButtonElement | null} */
     const closeButton = div.querySelector("button[data-bs-dismiss]");
 
-    if (closeButton) {
+    if (closeButton && div.dataset.serviceId !== undefined) {
       closeButton.addEventListener("click", () => {
         removeFromQueryString("selected", div.dataset.serviceId);
         hideUnselectedServices();

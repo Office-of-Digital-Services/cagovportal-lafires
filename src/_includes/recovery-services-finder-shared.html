@@ -53,7 +53,7 @@
             {%- for service in airTable | pluck("Category",category.Category) |
             sortBy("ID") -%}
             <!---->
-            {%- set value = value + service.ID + "," -%}
+            {%- set value = value + service.ID + "." -%}
             <!---->
             {%- endfor -%}
             <!---->
