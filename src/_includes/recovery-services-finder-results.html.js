@@ -31,6 +31,11 @@ document.addEventListener("DOMContentLoaded", () => {
       .split(/[^0-9]+/)
       .filter(id => id !== "");
 
+  const updateMailButton = () => {
+    // Update the mailto link with the current URL
+    mailBtn.href = `mailto:?subject=${mailBtn.dataset.mailSubject}&body=${mailBtn.dataset.mailBody}%0A%0A${getURL().toString()}`;
+  };
+
   // Hide all service divs that are not selected
   // and remove their parent divs if they contain no selected services
   const hideUnselectedServices = () => {
@@ -49,9 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
         div.remove(); // Remove the div from the DOM
       }
     });
-
-    // Update the mailto link with the current URL
-    mailBtn.href = `mailto:?subject=${mailBtn.dataset.mailSubject}&body=${mailBtn.dataset.mailBody}%0A%0A${getURL().toString()}`;
   };
 
   allServiceDivs.forEach(div => {
@@ -73,11 +75,13 @@ document.addEventListener("DOMContentLoaded", () => {
         window.history.replaceState(null, "", url);
 
         hideUnselectedServices();
+        updateMailButton();
       });
     }
   });
 
   hideUnselectedServices();
+  updateMailButton();
 
   // Bootstrap Modal Show Event
   // Set the URL input value to the current page URL when the modal is shown
