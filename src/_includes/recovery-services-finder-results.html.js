@@ -58,12 +58,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   allServiceDivs.forEach(div => {
     // Add click event listener to each service div's close button
-    const closeButton = div.querySelector("button[data-bs-dismiss]");
 
-    if (closeButton && div.dataset.serviceId) {
+    /** @type {HTMLElement | null} */
+    const closeButton = div.querySelector("button[data-service-id]");
+
+    if (closeButton?.dataset.serviceId) {
       closeButton.addEventListener("click", () => {
         const url = getURL();
-        const ids = getSelectedIDs().filter(id => id !== div.dataset.serviceId);
+        const ids = getSelectedIDs().filter(
+          id => id !== closeButton.dataset.serviceId
+        );
 
         if (ids.length) {
           url.searchParams.set(paramName, ids.join("."));

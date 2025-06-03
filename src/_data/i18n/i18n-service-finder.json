@@ -2734,5 +2734,29 @@
     "zh-hans": "通过电子邮件发送您的方案",
     "zh-hant": "通過電子郵件發送您的計劃",
     "hy": "Էլ․ փոստով ուղարկել Ձեր պլանը"
+  },
+  "sf_email_plan_subject": {
+    "status": "ap_review",
+    "en": "Share from the California Recovery Services Finder",
+    "fr": "Partager depuis le Recherche de services de récupération de Californie",
+    "es": "Compartir desde el Buscador de Servicios de Recuperación de California",
+    "ko": "California Recovery Services Finder에서 공유",
+    "vi": "Chia sẻ từ Công Cụ Tìm Dịch Vụ Phục Hồi California",
+    "tl": "Ibahagi mula sa California Recovery Services Finder",
+    "zh-hans": "来自加州灾后服务匹配工具的分享",
+    "zh-hant": "來自加州復原服務查找器的分享",
+    "hy": "Կիսվել Լոս Անջելեսի Վերականգնման ծառայությունների որոնիչից"
+  },
+  "sf_email_plan_body": {
+    "status": "ap_review",
+    "en": "Here is my plan from the California Recovery Services Finder:",
+    "fr": "Voici mon plan du California Recovery Services Finder :",
+    "es": "Aquí está mi plan del Buscador de Servicios de Recuperación de California:",
+    "ko": "다음은 California Recovery Services Finder에서 작성한 계획입니다:",
+    "vi": "Đây là kế hoạch của tôi từ Công Cụ Tìm Dịch Vụ Phục Hồi California:",
+    "tl": "Narito ang aking plano mula sa California Recovery Services Finder:",
+    "zh-hans": "这是我在加州灾后服务匹配工具中的方案：",
+    "zh-hant": "這是我在加州復原服務查找器中的計劃：",
+    "hy": "Ահա իմ պլանը Լոս Անջելեսի Վերականգնման ծառայությունների որոնիչից:"
   }
 }
