@@ -3,6 +3,7 @@
 // Recovery Services Finder Functionality
 window.addEventListener("load", () => {
   // "load" to support back browsing
+  const paramName = "selected";
 
   const redirectButton = document.getElementById("redirect");
   const redirectTarget = /** @type {HTMLAnchorElement | null} */ (
@@ -47,7 +48,7 @@ window.addEventListener("load", () => {
       selectedCheckboxes.sort();
 
       if (selectedCheckboxes.length > 0) {
-        const url = `${redirectTarget.href}?selected=${selectedCheckboxes.join(".")}`;
+        const url = `${redirectTarget.href}?${paramName}=${selectedCheckboxes.join(".")}`;
         window.location.href = url;
       } else {
         console.warn("No checkboxes selected.");

@@ -1,20 +1,23 @@
 //@ts-check
 
 document.addEventListener("DOMContentLoaded", () => {
+  const paramName = "selected";
+
   const allServiceDivs = [
     .../** @type {NodeListOf<HTMLElement>} */ (
       document.querySelectorAll("div[data-service-id]")
     )
   ];
-  const paramName = "selected";
-
   const getURL = () => new URL(window.location.href);
 
+  // Get an array of selected IDs from the URL
   const getSelectedIDs = () =>
     (getURL().searchParams.get(paramName) || "")
       .split(/[^0-9]+/)
       .filter(id => id !== "");
 
+  // Hide all service divs that are not selected
+  // and remove their parent divs if they contain no selected services
   const hideUnselectedServices = () => {
     const selectedIds = getSelectedIDs();
     // Remove all service divs that are not selected
@@ -48,6 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
           url.searchParams.delete(paramName);
         }
 
+        // Update the URL without reloading the page
         window.history.replaceState(null, "", url);
 
         hideUnselectedServices();
@@ -58,28 +62,30 @@ document.addEventListener("DOMContentLoaded", () => {
   hideUnselectedServices();
 
   // Begin share plan functionality
-
   const sharePlanModal = document.getElementById("share-plan");
   const copyBtn = document.getElementById("share-plan-copy");
-  const copiedMsg = document.getElementById("share-plan-copied");
+  const copiedBtn = document.getElementById("share-plan-copied");
   const urlInput = /** @type {HTMLInputElement | null} */ (
     document.getElementById("url-copy")
   );
 
-  if (sharePlanModal && copyBtn && copiedMsg && urlInput) {
+  if (sharePlanModal && copyBtn && copiedBtn && urlInput) {
+    // Bootstrap Modal Show Event
+    // Set the URL input value to the current page URL when the modal is shown
     sharePlanModal.addEventListener("show.bs.modal", () => {
       urlInput.value = window.location.href;
     });
 
-    const copyUrl = () => {
+    const copyButtonClick = () => {
       urlInput.select();
       navigator.clipboard
         .writeText(urlInput.value)
         .then(() => {
-          copiedMsg.classList.remove("d-none");
-          copiedMsg.hidden = false;
-          copiedMsg.ariaHidden = null;
-          copiedMsg.focus();
+          // Show the copied button and hide the copy button
+          copiedBtn.classList.remove("d-none");
+          copiedBtn.hidden = false;
+          copiedBtn.ariaHidden = null;
+          copiedBtn.focus();
           copyBtn.classList.add("d-none");
           copyBtn.hidden = true;
           copyBtn.ariaHidden = "true";
@@ -88,8 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
           console.error("Failed to copy: ", err);
         });
     };
-    copyBtn.addEventListener("click", copyUrl);
-    copiedMsg.addEventListener("click", copyUrl);
+    copyBtn.addEventListener("click", copyButtonClick);
+    copiedBtn.addEventListener("click", copyButtonClick);
   } else {
     console.error("Share plan elements not found.");
   }
