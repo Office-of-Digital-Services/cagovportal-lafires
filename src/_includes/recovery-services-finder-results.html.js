@@ -28,23 +28,25 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   allServices.forEach(div => {
-    // Add click event listener to each service div
-    /** @type {HTMLButtonElement | null} */
+    // Add click event listener to each service div's close button
     const closeButton = div.querySelector("button[data-bs-dismiss]");
 
-    if (closeButton && div.dataset.serviceId !== undefined) {
+    if (closeButton && div.dataset.serviceId) {
       closeButton.addEventListener("click", () => {
         const paramName = "selected";
-        const urlObj = new URL(window.location.href);
-        const params = urlObj.searchParams;
-        const ids = (params.get(paramName) || "")
-          .split(/[^0-9]+/)
-          .filter(id => id && id != div.dataset.serviceId);
-        ids.length
-          ? params.set(paramName, ids.join("."))
-          : params.delete(paramName);
-        window.history.replaceState(null, "", urlObj);
+        const url = new URL(window.location.href);
 
+        const ids = (url.searchParams.get(paramName) || "")
+          .split(/[^0-9]+/)
+          .filter(id => id && id !== div.dataset.serviceId);
+
+        if (ids.length) {
+          url.searchParams.set(paramName, ids.join("."));
+        } else {
+          url.searchParams.delete(paramName);
+        }
+
+        window.history.replaceState(null, "", url);
         hideUnselectedServices();
       });
     }
