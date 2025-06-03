@@ -4,13 +4,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const allServices = /** @type {NodeListOf<HTMLElement>} */ (
     document.querySelectorAll("div[data-service-id]")
   );
+  const paramName = "selected";
+
+  const getURL = () => new URL(window.location.href);
+
+  const getSelectedIDs = () =>
+    (getURL().searchParams.get(paramName) || "")
+      .split(/[^0-9]+/)
+      .filter(id => id !== "");
 
   const hideUnselectedServices = () => {
     // hide unselected services
     // Get the query string parameters
-    const params = new URLSearchParams(window.location.search);
-    const selectedIds = params.get("selected")?.split(/[^0-9]+/) || [];
-
+    const selectedIds = getSelectedIDs();
     // Loop through all divs with a "data-service-id" attribute
     allServices.forEach(div => {
       if (!selectedIds.includes(div.dataset.serviceId || "")) {
@@ -33,12 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (closeButton && div.dataset.serviceId) {
       closeButton.addEventListener("click", () => {
-        const paramName = "selected";
-        const url = new URL(window.location.href);
-
-        const ids = (url.searchParams.get(paramName) || "")
-          .split(/[^0-9]+/)
-          .filter(id => id && id !== div.dataset.serviceId);
+        const url = getURL();
+        const ids = getSelectedIDs().filter(id => id !== div.dataset.serviceId);
 
         if (ids.length) {
           url.searchParams.set(paramName, ids.join("."));
@@ -47,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         window.history.replaceState(null, "", url);
+
         hideUnselectedServices();
       });
     }
