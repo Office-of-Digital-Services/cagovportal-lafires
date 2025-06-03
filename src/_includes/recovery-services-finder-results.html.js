@@ -1,32 +1,42 @@
 //@ts-check
 
 document.addEventListener("DOMContentLoaded", () => {
-  // hide unselected services
-  // Get the query string parameters
-  const params = new URLSearchParams(window.location.search);
-  const selectedIds = params.get("selected")?.split(",") || [];
-
-  // Loop through all divs with a "data-service-id" attribute
-  /** @type {NodeListOf<HTMLElement>} */ (
+  const allServices = /** @type {NodeListOf<HTMLElement>} */ (
     document.querySelectorAll("div[data-service-id]")
-  ).forEach(div => {
-    if (!selectedIds.includes(div.dataset.serviceId || "")) {
-      div.remove(); // Remove the div from the DOM
+  );
+
+  const hideUnselectedServices = () => {
+    // hide unselected services
+    // Get the query string parameters
+    const params = new URLSearchParams(window.location.search);
+    const selectedIds = params.get("selected")?.split(",") || [];
+
+    // Loop through all divs with a "data-service-id" attribute
+    allServices.forEach(div => {
+      if (!selectedIds.includes(div.dataset.serviceId || "")) {
+        div.remove(); // Remove the div from the DOM
+      }
+    });
+
+    // Select all parent divs for services
+    document.querySelectorAll("div[data-service-type]").forEach(div => {
+      // Check if it contains any descendant divs with "data-service-id"
+      if (!div.querySelector("div[data-service-id]")) {
+        div.remove(); // Remove the div from the DOM
+      }
+    });
+  };
+
+  allServices.forEach(div => {
+    // Add click event listener to each service div
+    const closeButton = div.querySelector("button[data-bs-dismiss]");
+
+    if (closeButton) {
+      closeButton.addEventListener("click", hideUnselectedServices);
     }
   });
 
-  // Select all divs that have both "data-service-category" and "data-service-type"
-  /** @type {NodeListOf<HTMLElement>} */
-  const categoryTypeDivs = document.querySelectorAll("div[data-service-type]");
-
-  categoryTypeDivs.forEach(div => {
-    // Check if it contains any descendant divs with "data-service-id"
-    const hasServiceIdChild = div.querySelector("div[data-service-id]");
-
-    if (!hasServiceIdChild) {
-      div.remove(); // Remove the div from the DOM
-    }
-  });
+  hideUnselectedServices();
 
   // Begin share plan functionality
 
