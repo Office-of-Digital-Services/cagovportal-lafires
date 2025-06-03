@@ -27,12 +27,37 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
+  const removeFromQueryString = (paramName, valueToRemove) => {
+    const params = new URLSearchParams(window.location.search);
+
+    // Convert existing values into an array
+    const selectedIds = params.get(paramName)?.split(",") || [];
+
+    // Remove the specified value
+    const updatedIds = selectedIds.filter(id => id !== valueToRemove);
+
+    // Construct the new query string
+    if (updatedIds.length > 0) {
+      params.set(paramName, updatedIds.join(",")); // Preserve commas
+    } else {
+      params.delete(paramName); // Remove parameter if empty
+    }
+
+    // Update the URL without encoding commas
+    const newUrl = `${window.location.pathname}?${params.toString().replace(/%2C/g, ",")}`;
+    window.history.replaceState(null, "", newUrl);
+  };
+
   allServices.forEach(div => {
     // Add click event listener to each service div
+    /** @type {HTMLButtonElement | null} */
     const closeButton = div.querySelector("button[data-bs-dismiss]");
 
     if (closeButton) {
-      closeButton.addEventListener("click", hideUnselectedServices);
+      closeButton.addEventListener("click", () => {
+        removeFromQueryString("selected", div.dataset.serviceId);
+        hideUnselectedServices();
+      });
     }
   });
 
