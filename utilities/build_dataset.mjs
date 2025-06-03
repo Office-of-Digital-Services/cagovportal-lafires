@@ -14,8 +14,8 @@ const OUTPUT_JSON_PATH = path.resolve(process.cwd(), "src/_data/airTable.json");
 
 if (!API_KEY) {
   console.error(
-    `❌ ERROR: Missing API Key. 
-    Retrieve key from https://airtable.com/create/tokens. 
+    `❌ ERROR: Missing API Key.
+    Retrieve key from https://airtable.com/create/tokens.
     Ensure you have .env in root with format...
     AIRTABLE_API_KEY="your_key"`
   );
@@ -35,6 +35,14 @@ const fetchAirtableData = async () => {
     });
 
     if (!response.ok) {
+      if (response.status === 401) {
+        throw new Error(
+          `HTTP Error: ${response.status} - Unauthorized.
+          Likely cause: Your Airtable Personal Access Token (PAT) is invalid, in the old Airtable PAT format, expired, or lacks the necessary permissions.
+          Try generating a new AIRTABLE_API_KEY and replacing the previous one in your .env file.`
+        );
+      }
+
       throw new Error(
         `HTTP Error: ${response.status} - ${response.statusText}`
       );
