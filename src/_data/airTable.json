@@ -25,6 +25,9 @@
     "Service_link": "https://www.disasterassistance.gov/ ",
     "Service_name": "Temporary housing",
     "Source": "Website / Checklist",
+    "Specific disaster": [
+      "January 2025 LA Fires"
+    ],
     "Status": "3 Approved",
     "Type_of_Service": "Essential help"
   },
@@ -46,6 +49,21 @@
     "Type_of_Service": "Essential help"
   },
   {
+    "Audience": "Individual",
+    "Category": "Individual help",
+    "Description": "Help for individuals and families after a disaster. You can apply for disaster assistance and help with losses not already covered by insurance.",
+    "Entity": "Federal Emergency Management Agency",
+    "Entity_acronym": "FEMA",
+    "Entity_type": "Federal",
+    "ID": 24,
+    "Info_link": "https://www.fema.gov/disaster/4856",
+    "Other_Notes": "Problems: There's no linked URL for this result in the user-facing result in the finder tool, so it doesn't tell people how to get these resources. The press release linked in this row in the \"Electronic PDF Submission\" column doesn't appear in the user-facing content. That press release links to altercareline.com as the way to access \"free in-person crisis counseling.\" The AlterCareLine site offers scheduled phone counseling appointments first, then mentions in-person option at 2 DRCs and 2 shelters.\n\nSuggestion: I changed the service name and description to reflect how the resource is described in the press release, as \"in-person crisis counseling.\" This also helps differentiate from \"crisis counseling\" in ID 76. I've also added this URL cited in the press release as the Info_link: https://www.altercareline.com/ But we should confirm all of this with SMEs. Also suggest confirming whether this in-person counseling will continue after the DRCs close — if not, we should plan to change or remove this result at that time.",
+    "Service_name": "Federal assistance for LA wildfires 2025",
+    "Source": "Website / Checklist",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Essential help"
+  },
+  {
     "Audience": "Business",
     "Category": "Support",
     "Description": "The deadline to apply for loans to repair physical damage to your business was March 31, 2025. You can still apply by October 25, 2025, for a loan to cover economic losses.",
@@ -56,6 +74,9 @@
     "Info_link": "https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires  ",
     "Service_name": "Disaster loans for businesses",
     "Source": "Website / Checklist",
+    "Specific disaster": [
+      "January 2025 LA Fires"
+    ],
     "Status": "3 Approved",
     "Type_of_Service": "Business help"
   },
@@ -88,6 +109,9 @@
     "Phone": "1-888-825-9868",
     "Service_name": "Business income tax extension",
     "Source": "Website / Checklist",
+    "Specific disaster": [
+      "January 2025 LA Fires"
+    ],
     "Status": "3 Approved",
     "Type_of_Service": "Business help"
   },
@@ -119,6 +143,9 @@
     "Info_link": "https://outsmartdisaster.calosba.ca.gov/support-and-resources-for-los-angeles-area-wildfire-recovery/",
     "Service_name": "Business recovery resources",
     "Source": "Website / Checklist",
+    "Specific disaster": [
+      "January 2025 LA Fires"
+    ],
     "Status": "3 Approved",
     "Type_of_Service": "Business help"
   },
@@ -266,6 +293,22 @@
   {
     "Audience": "Individual",
     "Category": "Health",
+    "Description": " CalVet has compiled esources to help veterans and their families stay informed and recover.​",
+    "Email": "LALINC@calvet.ca.gov",
+    "Entity": "California Department of Veterans Affairs",
+    "Entity_acronym": "CalVet",
+    "Entity_type": "State",
+    "ID": 40,
+    "Info_link": "https://www.calvet.ca.gov/Pages/cawildfires.aspx",
+    "Other_Notes": "Problem: This is a duplicate of row 18, ID 63, but the 2 results use different content. This resource also doesn't really fit perfectly in either the Health or Individual help categories, but seems to fit better in \"Individual help\" than \"Health.\"\n\nSuggestion: Remove this result (ID 40). If we do keep both results in both categories, use the same service name and description as in ID 63, so people who see both results understand it's a duplicate.",
+    "Service_name": "Southern California wildfire information for veterans",
+    "Source": "Website / Checklist",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Essential help"
+  },
+  {
+    "Audience": "Individual",
+    "Category": "Health",
     "Description": "Find resources and tips to take care of your mental health after a wildfire.",
     "Entity": "California Department of Public Health",
     "Entity_acronym": "CDPH",
@@ -281,6 +324,20 @@
   {
     "Audience": "Individual",
     "Category": "Housing",
+    "Description": "Find a current list of open shelters available for communities impacted by the fires.",
+    "Entity": "California Governor's Office of Emergency Services",
+    "Entity_acronym": "CalOES",
+    "Entity_type": "State",
+    "ID": 42,
+    "Info_link": "https://news.caloes.ca.gov/shelters-available-for-communities-impacted-by-wildfires-in-southern-california-5/",
+    "Service_name": "Open shelters",
+    "Source": "Website / Checklist",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Essential help"
+  },
+  {
+    "Audience": "Individual",
+    "Category": "Housing",
     "Description": "Get mortgage relief for structures damaged or destroyed by the LA fires. Temporarily reduce or pause mortgage payments, waive late fees, and more. ",
     "Entity": "California Department of Financial Protection & Innovation",
     "Entity_acronym": "DFPI",
@@ -289,6 +346,9 @@
     "Info_link": "https://dfpi.ca.gov/lafires/relief/",
     "Service_name": "Mortgage relief",
     "Source": "Website / Checklist",
+    "Specific disaster": [
+      "January 2025 LA Fires"
+    ],
     "Status": "3 Approved",
     "Type_of_Service": "Essential help"
   },
@@ -341,6 +401,21 @@
   },
   {
     "Audience": "Individual",
+    "Category": "Individual help",
+    "Description": "This guide provides information about the types of federal, state, and local disaster assistance services available in California. (Esta guía proporciona información sobre los tipos de servicios de asistencia en caso de desastre federales, estatales y locales disponibles en California.)",
+    "Entity": "California Department of Social Services",
+    "Entity_acronym": "CDSS",
+    "Entity_type": "State",
+    "ID": 47,
+    "Info_link": "https://cdss.ca.gov/Portals/13/DisasterAssistanceGuideforImmigrantCaliforniansSpanishFinal.pdf",
+    "Other_Notes": "Problem: After spending 10 minutes reading the linked page and the PDF forms on that page, I don't understand what this result is asking people to do or who the audience is. Is this for homeowners who need to get rid of destroyed cars on their property? It seems like the person using the forms is not the owner of the cars, so I'm confused about the use case for this. (I also consulted this LA Times article about disposing of destroyed vehicles, and it doesn't mention this resource/these forms. Instead, it says that destroyed vehicle disposal is included in free government debris removal for people who opt in.)\n\nSuggestion: Ask an SME how we can better describe this resource and how a survivor would use it. If we can't get this information, remove this result.",
+    "Service_name": "Help for immigrants (Ayuda para inmigrantes)",
+    "Source": "Website / Checklist",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Essential help"
+  },
+  {
+    "Audience": "Individual",
     "Category": "Insurance",
     "Description": "Find tips and resources to help you with insurance claims and issues.",
     "Entity": "California Department of Insurance",
@@ -382,6 +457,21 @@
     "Service_name": "Help with insurance claims",
     "Source": "Website / Checklist",
     "Status": "3 Approved",
+    "Type_of_Service": "Start recovering"
+  },
+  {
+    "Audience": "Individual",
+    "Category": "Insurance",
+    "Description": "Top ten tips for managing insurance claims in the event of a disaster.",
+    "Entity": "California Department of Insurance",
+    "Entity_acronym": "CDI",
+    "Entity_type": "State",
+    "ID": 51,
+    "Info_link": "https://www.insurance.ca.gov/01-consumers/140-catastrophes/TopTenTips_WildfireClaimants.cfm",
+    "Phone": "1-800-927-4357",
+    "Service_name": "Top ten insurance tips for wildfire claims",
+    "Source": "Website / Checklist",
+    "Status": "5 Do not display",
     "Type_of_Service": "Start recovering"
   },
   {
@@ -471,6 +561,23 @@
   },
   {
     "Audience": "Individual",
+    "Category": "Personal documents",
+    "Description": "Get free certified replacement copies of birth, death, and marriage records. Spanish forms also available.",
+    "Email": "SOEVitalRecords@cdph.ca.gov",
+    "Entity": "California Department of Public Health",
+    "Entity_acronym": "CDPH",
+    "Entity_type": "State",
+    "ID": 57,
+    "Info_link": "https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx",
+    "Phone": "1-800-735-2929",
+    "Required_Form": "https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/VS111.pdf",
+    "Service_name": "Birth, death, and marriage records",
+    "Source": "Website / Checklist",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Essential help"
+  },
+  {
+    "Audience": "Individual",
     "Category": "Rebuilding",
     "Description": "Unlicensed contractors often prey on survivors of disasters. To protect yourself, find a licensed contractor near you.",
     "Entity": "California Contractors State Licensing Board",
@@ -546,6 +653,20 @@
     "Source": "Website / Checklist",
     "Status": "3 Approved",
     "Type_of_Service": "Essential help"
+  },
+  {
+    "Audience": "Individual",
+    "Category": "Taxes",
+    "Description": "Find answers to questions about 2024-2025 Los Angeles County fire victim income tax relief.",
+    "Entity": "California Franchise Tax Board",
+    "Entity_acronym": "FTB",
+    "Entity_type": "State",
+    "ID": 64,
+    "Info_link": "https://www.ftb.ca.gov/file/when-to-file/help-los-angeles-county-fire-relief.html",
+    "Service_name": "Help with LA County fire income tax relief",
+    "Source": "Website / Checklist",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Start recovering"
   },
   {
     "Audience": "Individual",
@@ -682,6 +803,22 @@
   {
     "Audience": "Individual",
     "Category": "Rebuilding",
+    "Description": "Dispose of a vehicle destroyed by the wildfires.",
+    "Entity": "California Department of Motor Vehicles",
+    "Entity_acronym": "DMV",
+    "Entity_type": "State",
+    "ID": 74,
+    "Info_link": "https://www.dmv.ca.gov/portal/how-to-dispose-of-a-vehicle-valued-at-500-or-less-removed-by-a-public-agency-htvr-6/",
+    "Other_Notes": "Problem: After spending 10 minutes reading the linked page and the PDF forms on that page, I don't understand what this result is asking people to do or who the audience is. Is this for homeowners who need to get rid of destroyed cars on their property? It seems like the person using the forms is not the owner of the cars, so I'm confused about the use case for this. (I also consulted this LA Times article about disposing of destroyed vehicles, and it doesn't mention this resource/these forms. Instead, it says that destroyed vehicle disposal is included in free government debris removal for people who opt in.)\n\nSuggestion: Ask an SME how we can better describe this resource and how a survivor would use it. If we can't get this information, remove this result.",
+    "Service_link": "https://www.dmv.ca.gov/portal/how-to-dispose-of-a-vehicle-valued-at-500-or-less-removed-by-a-public-agency-htvr-6/",
+    "Service_name": "Vehicle disposal transactions",
+    "Source": "Survey",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Start recovering"
+  },
+  {
+    "Audience": "Individual",
+    "Category": "Rebuilding",
     "Description": "Learn about disaster relief protections to help with your energy, natural gas, water, landline, and mobile phone bills. ",
     "Entity": "California Public Utilities Commission",
     "Entity_acronym": "CPUC",
@@ -706,6 +843,48 @@
     "Service_name": "Crisis counseling",
     "Source": "Survey",
     "Status": "3 Approved",
+    "Type_of_Service": "Essential help"
+  },
+  {
+    "Audience": "Individual",
+    "Category": "Personal documents",
+    "Description": "New online service to get a certified copy of a birth record. This process is free for people affected by the LA fires. Must use a notary.",
+    "Entity": "California Department of Public Health",
+    "Entity_acronym": "CDPH",
+    "Entity_type": "State",
+    "ID": 77,
+    "Info_link": "https://www.ca.gov/lafires/help-for-you/replace-personal-documents/birth-death-marriage-certificates/",
+    "Service_link": "https://na2.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=84a5be6e-d309-4d4e-81d8-82548bfeb3ac&env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&v=2",
+    "Service_name": "Replace a birth record",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Essential help"
+  },
+  {
+    "Audience": "Individual",
+    "Category": "Personal documents",
+    "Description": "New online service to get a certified copy of a death record. This process is free for people affected by the LA fires. Must use a notary.",
+    "Entity": "California Department of Public Health",
+    "Entity_acronym": "CDPH",
+    "Entity_type": "State",
+    "ID": 78,
+    "Info_link": "https://www.ca.gov/lafires/help-for-you/replace-personal-documents/birth-death-marriage-certificates/",
+    "Service_link": "https://na2.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=5f055c18-61e5-473a-a527-3e6aad8bfe8c&env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&v=2",
+    "Service_name": "Replace a death record",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Essential help"
+  },
+  {
+    "Audience": "Individual",
+    "Category": "Personal documents",
+    "Description": "New online service to get a certified copy of a marriage record. This process is free for people affected by the LA fires. Must use a notary.",
+    "Entity": "California Department of Public Health",
+    "Entity_acronym": "CDPH",
+    "Entity_type": "State",
+    "ID": 79,
+    "Info_link": "https://www.ca.gov/lafires/help-for-you/replace-personal-documents/birth-death-marriage-certificates/",
+    "Service_link": "https://na2.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=b2ee3fed-7754-4d1d-b79d-62ccbbac9724&env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&v=2",
+    "Service_name": "Replace a marriage record",
+    "Status": "5 Do not display",
     "Type_of_Service": "Essential help"
   },
   {
@@ -741,6 +920,34 @@
   },
   {
     "Audience": "Individual",
+    "Category": "Health",
+    "Description": "If you've been impacted by the recent LA fires, you can get no-cost counseling and other mental health resources.",
+    "Entity": "California Department of Social Services",
+    "Entity_acronym": "CDSS",
+    "Entity_type": "State",
+    "ID": 82,
+    "Other_Notes": "Problems: There's no linked URL for this result in the user-facing result in the finder tool, so it doesn't tell people how to get these resources. The press release linked in this row in the \"Electronic PDF Submission\" column doesn't appear in the user-facing content. That press release links to altercareline.com as the way to access \"free in-person crisis counseling.\" The AlterCareLine site offers scheduled phone counseling appointments first, then mentions in-person option at 2 DRCs and 2 shelters.\n\nSuggestion: I changed the service name and description to reflect how the resource is described in the press release, as \"in-person crisis counseling.\" This also helps differentiate from \"crisis counseling\" in ID 76. I've also added this URL cited in the press release as the Info_link: https://www.altercareline.com/ But we should confirm all of this with SMEs. Also suggest confirming whether this in-person counseling will continue after the DRCs close — if not, we should plan to change or remove this result at that time.",
+    "PDF": "https://www.cdss.ca.gov/Portals/13/Press%20Releases/2025/CDSS_News_Release-Crisis_Counseling.pdf",
+    "Service_name": "Mental health support",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Essential help"
+  },
+  {
+    "Audience": "Individual",
+    "Category": "Individual help",
+    "Description": "Find safety tips for you and your wildfire cleanup crew.",
+    "Entity": "California Department of Industrial Relations",
+    "Entity_acronym": "DIR",
+    "Entity_type": "State",
+    "ID": 83,
+    "Info_link": "https://www.dir.ca.gov/wildfire-faq.html",
+    "Other_Notes": "Problem: This isn't a resource for individuals or business owners who survived the wildfire — it's a resource for employees working in wildfire cleanup and debris removal. So it doesn't seem to fit the stated audiences of this tool.\n\nSuggestion:\n- If the finder tool wants to offer resources for employees working in cleanup, add categories and logic to support that user group.\n- If the finder tool doesn't want to intentionally support employees working in cleanup as a user group, remove this result and consider finding a better place for this information on the /lafires webpages.\n- If we actually intended this information to speak to residents who are cleaning up their own homes, rephrase the description to make it clear how individual residents should use this information (since much of it talks about employer responsibilities to their employees). ",
+    "Service_name": "Worker safety tips for wildfire cleanup",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Essential help"
+  },
+  {
+    "Audience": "Individual",
     "Category": "Individual help",
     "Description": "If you work in fire cleanup or debris removal, learn about safety gear and employee protections.",
     "Entity": "California Labor & Workforce Development Agency",
@@ -760,7 +967,7 @@
     "Entity_acronym": "CDT",
     "Entity_type": "State",
     "ID": 85,
-    "Info_link": "https://www.ca.gov/lafires//help-for-you/rebuild-your-house/",
+    "Info_link": "https://www.ca.gov/lafires/help-for-you/rebuild-your-house/",
     "Service_name": "Steps to rebuilding",
     "Source": "Website / Checklist",
     "Status": "3 Approved",
@@ -769,15 +976,30 @@
   {
     "Audience": "Individual",
     "Category": "Rebuilding",
-    "Description": "The deadline to opt in for free debris removal was April 15, 2025. If you have questions about debris removal, call the LA County Public Works Debris Removal Hotline at 844-347-3332 (TTY: 711).",
+    "Description": "Opt in by April 15, 2025, to get free government debris removal. If you don't opt in, you'll need to pay for a private debris removal contractor instead.",
     "Entity": "Los Angeles County",
     "Entity_acronym": "LA County",
     "Entity_type": "County",
     "ID": 86,
     "Info_link": "https://recovery.lacounty.gov/debris-removal/roe/",
+    "Service_link": "https://app.smartsheet.com/b/form/ca0e6e24c8db4598b5c49642b2ff4615",
     "Service_name": "Free debris removal",
     "Status": "3 Approved",
     "Type_of_Service": "Start recovering"
+  },
+  {
+    "Audience": "Business",
+    "Category": "Support",
+    "Description": "Apply by March 12, 2025, for cash assistance grants for small businesses and nonprofits.",
+    "Entity": "Los Angeles County",
+    "Entity_acronym": "LA County",
+    "Entity_type": "County",
+    "ID": 87,
+    "Info_link": "https://opportunity.lacounty.gov/small-business-fund/",
+    "Other_Notes": "Deadline passed - should be included the next time there is a disaster.",
+    "Service_name": "Cash assistance grants",
+    "Status": "5 Do not display",
+    "Type_of_Service": "Business help"
   },
   {
     "Audience": "Individual",
@@ -822,5 +1044,19 @@
     "Source": "Website / Checklist",
     "Status": "3 Approved",
     "Type_of_Service": "Start recovering"
+  },
+  {
+    "Audience": "Business",
+    "Category": "Support",
+    "Description": "Opt in by April 15, 2025, to find out if your business qualifies for free government debris removal. ",
+    "Entity": "U.S. Army Corps of Engineers",
+    "Entity_acronym": "USACE",
+    "Entity_type": "Federal",
+    "ID": 91,
+    "Info_link": "https://recovery.lacounty.gov/debris-removal/roe/ ",
+    "Service_link": "https://app.smartsheet.com/b/form/ca0e6e24c8db4598b5c49642b2ff4615",
+    "Service_name": "Free debris removal for some commercial properties",
+    "Status": "3 Approved",
+    "Type_of_Service": "Business help"
   }
 ]
