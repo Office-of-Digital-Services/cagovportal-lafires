@@ -25,9 +25,7 @@
     "Service_link": "https://www.disasterassistance.gov/ ",
     "Service_name": "Temporary housing",
     "Source": "Website / Checklist",
-    "Specific disaster": [
-      "January 2025 LA Fires"
-    ],
+    "Specific disaster": ["January 2025 LA Fires"],
     "Status": "3 Approved",
     "Type_of_Service": "Essential help"
   },
@@ -59,9 +57,7 @@
     "Info_link": "https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires  ",
     "Service_name": "Disaster loans for businesses",
     "Source": "Website / Checklist",
-    "Specific disaster": [
-      "January 2025 LA Fires"
-    ],
+    "Specific disaster": ["January 2025 LA Fires"],
     "Status": "3 Approved",
     "Type_of_Service": "Business help"
   },
@@ -94,9 +90,7 @@
     "Phone": "1-888-825-9868",
     "Service_name": "Business income tax extension",
     "Source": "Website / Checklist",
-    "Specific disaster": [
-      "January 2025 LA Fires"
-    ],
+    "Specific disaster": ["January 2025 LA Fires"],
     "Status": "3 Approved",
     "Type_of_Service": "Business help"
   },
@@ -128,9 +122,7 @@
     "Info_link": "https://outsmartdisaster.calosba.ca.gov/support-and-resources-for-los-angeles-area-wildfire-recovery/",
     "Service_name": "Business recovery resources",
     "Source": "Website / Checklist",
-    "Specific disaster": [
-      "January 2025 LA Fires"
-    ],
+    "Specific disaster": ["January 2025 LA Fires"],
     "Status": "3 Approved",
     "Type_of_Service": "Business help"
   },
@@ -301,9 +293,7 @@
     "Info_link": "https://dfpi.ca.gov/lafires/relief/",
     "Service_name": "Mortgage relief",
     "Source": "Website / Checklist",
-    "Specific disaster": [
-      "January 2025 LA Fires"
-    ],
+    "Specific disaster": ["January 2025 LA Fires"],
     "Status": "3 Approved",
     "Type_of_Service": "Essential help"
   },
