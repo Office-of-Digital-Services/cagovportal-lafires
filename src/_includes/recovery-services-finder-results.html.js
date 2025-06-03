@@ -29,23 +29,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const removeFromQueryString = (paramName, valueToRemove) => {
     const params = new URLSearchParams(window.location.search);
-
-    // Convert existing values into an array
-    const selectedIds = params.get(paramName)?.split(",") || [];
-
-    // Remove the specified value
-    const updatedIds = selectedIds.filter(id => id !== valueToRemove);
-
-    // Construct the new query string
-    if (updatedIds.length > 0) {
-      params.set(paramName, updatedIds.join(",")); // Preserve commas
-    } else {
-      params.delete(paramName); // Remove parameter if empty
-    }
-
-    // Update the URL without encoding commas
-    const newUrl = `${window.location.pathname}?${params.toString().replace(/%2C/g, ",")}`;
-    window.history.replaceState(null, "", newUrl);
+    const ids = (params.get(paramName) || "")
+      .split(",")
+      .filter(id => id && id !== valueToRemove);
+    ids.length
+      ? params.set(paramName, ids.join(","))
+      : params.delete(paramName);
+    window.history.replaceState(
+      null,
+      "",
+      `${window.location.pathname}?${params.toString().replace(/%2C/g, ",")}`
+    );
   };
 
   allServices.forEach(div => {
