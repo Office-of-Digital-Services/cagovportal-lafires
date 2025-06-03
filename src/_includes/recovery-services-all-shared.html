@@ -211,7 +211,7 @@
             aria-hidden="true" />
           {{ 'sf_share_button' | i18n }}
         </button>
-        <a
+        <button
           class="d-print-none btn btn-outline-primary rounded-4 brd-solid-2 p-x-md m-r"
           onclick="window.print(); return false;">
           <img
@@ -220,8 +220,8 @@
             class="img-fluid 
           height-20 d-print-none"
             aria-hidden="true" />
-          {{ 'sf_print_button' | i18n }}</a
-        >
+          {{ 'sf_print_button' | i18n }}
+        </button>
 
         <a
           href="{{ '/lafires/recovery-services-finder/' | localizedPath }}"
@@ -393,7 +393,7 @@
           id="share-plan-mailto"
           data-mail-subject="Share from the California Recovery Services Finder"
           data-mail-body="Here is my plan from the California Recovery Services Finder:"
-          class="btn btn-outline-primary brd-solid-2 rounded-5 m-t d-flex align-items-center p-r-md">
+          class="btn btn-outline-primary brd-solid-2 rounded-5 m-t d-flex align-items-center fit-content p-r-md">
           <img
             src="/lafires/images/icon-email.svg"
             alt=""
