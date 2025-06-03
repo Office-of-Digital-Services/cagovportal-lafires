@@ -1,9 +1,11 @@
 //@ts-check
 
 document.addEventListener("DOMContentLoaded", () => {
-  const allServices = /** @type {NodeListOf<HTMLElement>} */ (
-    document.querySelectorAll("div[data-service-id]")
-  );
+  const allServiceDivs = [
+    .../** @type {NodeListOf<HTMLElement>} */ (
+      document.querySelectorAll("div[data-service-id]")
+    )
+  ];
   const paramName = "selected";
 
   const getURL = () => new URL(window.location.href);
@@ -14,15 +16,13 @@ document.addEventListener("DOMContentLoaded", () => {
       .filter(id => id !== "");
 
   const hideUnselectedServices = () => {
-    // hide unselected services
-    // Get the query string parameters
     const selectedIds = getSelectedIDs();
-    // Loop through all divs with a "data-service-id" attribute
-    allServices.forEach(div => {
-      if (!selectedIds.includes(div.dataset.serviceId || "")) {
-        div.remove(); // Remove the div from the DOM
-      }
-    });
+    // Remove all service divs that are not selected
+    allServiceDivs
+      .filter(div => !selectedIds.includes(div.dataset.serviceId || ""))
+      .forEach(
+        div => div.remove() // Remove the div from the DOM
+      );
 
     // Select all parent divs for services
     document.querySelectorAll("div[data-service-type]").forEach(div => {
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
-  allServices.forEach(div => {
+  allServiceDivs.forEach(div => {
     // Add click event listener to each service div's close button
     const closeButton = div.querySelector("button[data-bs-dismiss]");
 
