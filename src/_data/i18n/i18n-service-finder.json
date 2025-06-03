@@ -647,6 +647,42 @@
     "hy": "Գտեք ռեսուրսներ և խորհուրդներ՝ հրդեհներից հետո հոգեկան առողջության մասին հոգ տանելու համար։",
     "comment": "Translation delivered 2025-04-10"
   },
+  "sf_42_service_name": {
+    "status": "english_only",
+    "en": "Open shelters",
+    "es": "Abrir refugios",
+    "ko": "대피소 개방",
+    "vi": "Mở nơi trú ẩn",
+    "tl": "Magbukas ng mga silungan",
+    "zh-hans": "开放避难所",
+    "zh-hant": "開放避難所",
+    "hy": "Բացել ապաստարաններ",
+    "comment": ""
+  },
+  "sf_42_entity": {
+    "status": "english_only",
+    "en": "California Governor's Office of Emergency Services",
+    "es": "Oficina de Servicios de Emergencia de la Oficina del Gobernador de California",
+    "ko": "캘리포니아 주지사 비상 서비스 사무실",
+    "vi": "Văn Phòng Dịch Vụ Khẩn Cấp của Thống Đốc California",
+    "tl": "California Governor's Office of Emergency Services",
+    "zh-hans": "加州州长应急服务办公室 (California Governor's Office of Emergency Services, Cal OES)",
+    "zh-hant": "加州州長應急服務辦公室 (California Governor's Office of Emergency Services, Cal OES)",
+    "hy": "Կալիֆոռնիայի նահանգապետի արտակարգ իրավիճակների ծառայությունների գրասենյակ",
+    "comment": ""
+  },
+  "sf_42_description": {
+    "status": "english_only",
+    "en": "Find a current list of open shelters available for communities impacted by the fires.",
+    "es": "Encuentre una lista actual de refugios abiertos disponibles para las comunidades afectadas por los incendios.",
+    "ko": "화재로 인해 영향을 받은 지역 사회에서 이용할 수 있는 현재 개방된 대피소 목록을 찾아보십시오.",
+    "vi": "Tìm danh sách hiện tại các nơi trú ẩn đang mở cửa cho các cộng đồng bị ảnh hưởng bởi các vụ cháy.",
+    "tl": "Maghanap ng kasalukuyang listahan ng mga bukas na silungan na available para sa mga komunidad na naapektuhan ng mga sunog.",
+    "zh-hans": "查找受火灾影响的社区可用的开放避难所的最新列表。",
+    "zh-hant": "查找受火災影響的社區可用的開放避難所的最新列表。",
+    "hy": "Գտեք հրդեհներից տուժած համայնքների համար հասանելի բաց ապաստարանների ընթացիկ ցանկը։",
+    "comment": ""
+  },
   "sf_43_service_name": {
     "status": "avantpage_delivery",
     "en": "Mortgage relief",
