@@ -406,7 +406,9 @@ module.exports = function (
 
     // Check if the requested content key exists.
     if (!contentGroup) {
-      console.log(chalk.red(`[i18n] Could not find content group for *${key}* in translations table.`));
+      console.error(
+        `[i18n] Could not find content group for *${key}* in translations table.`
+      );
       return "";
     }
 
