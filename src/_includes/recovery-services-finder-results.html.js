@@ -32,8 +32,26 @@ document.addEventListener("DOMContentLoaded", () => {
       .filter(id => id !== "");
 
   const updateMailButton = () => {
-    // Update the mailto link with the current URL
-    mailBtn.href = `mailto:?subject=${mailBtn.dataset.mailSubject}&body=${mailBtn.dataset.mailBody}%0A%0A${getURL().toString()}`;
+    const shareData = {
+      title: mailBtn.dataset.mailSubject || document.title,
+      text: mailBtn.dataset.mailBody || "",
+      url: getURL().toString()
+    };
+
+    // If Web Share API is supported, use it for mobile sharing
+    if (navigator.share) {
+      mailBtn.innerHTML =
+        '<span class="ca-gov-icon-share m-r" aria-hidden="true"></span> Share';
+      mailBtn.href = "#";
+      mailBtn.onclick = e => {
+        e.preventDefault();
+        navigator.share(shareData).catch(() => {});
+      };
+    } else {
+      // Fallback to mailto
+      mailBtn.href = `mailto:?subject=${encodeURIComponent(shareData.title)}&body=${encodeURIComponent(shareData.text)}%0A%0A${encodeURIComponent(shareData.url)}`;
+      mailBtn.onclick = null;
+    }
   };
 
   // Hide all service divs that are not selected
