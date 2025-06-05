@@ -491,7 +491,7 @@ document.addEventListener("DOMContentLoaded", () => {
             : "N/A";
       }
 
-      /* Permits to rebuild applications received */
+      /* Permits: housing permit applications received */
       const county_housing_permit_applications_received_Element =
         document.getElementById("county_housing_permit_applications_received");
 
@@ -504,14 +504,28 @@ document.addEventListener("DOMContentLoaded", () => {
             : "N/A";
       }
 
+      /* Permits to rebuild applications received */
+      const county_rebuild_applications_received_Element =
+        document.getElementById("county_rebuild_applications_received");
+
+      if (county_rebuild_applications_received_Element) {
+        const county_rebuild_applications_received_Value = getMetricValue(
+          "county_rebuild_applications_received"
+        );
+        county_rebuild_applications_received_Element.textContent =
+          county_rebuild_applications_received_Value !== null
+            ? county_rebuild_applications_received_Value.toLocaleString()
+            : "N/A";
+      }
+
       /* Permits to rebuild building permits issued */
       const county_housing_permits_issued_Element = document.getElementById(
-        "county_housing_permits_issued"
+        "county_building_permits_issued"
       );
 
       if (county_housing_permits_issued_Element) {
         const county_housing_permits_issued_Value = getMetricValue(
-          "county_housing_permits_issued"
+          "county_building_permits_issued"
         );
         county_housing_permits_issued_Element.textContent =
           county_housing_permits_issued_Value !== null
@@ -527,6 +541,35 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("county_housing_permits_issued_date");
       if (county_housing_permits_issued_date_Element) {
         county_housing_permits_issued_date_Element.textContent = `Data as of ${county_housing_permits_issued_date}`;
+      }
+
+      /* Permits building plan reviews in-process */
+      const county_building_plan_reviews_in_process_Element =
+        document.getElementById("county_building_plan_reviews_in_process");
+
+      if (county_building_plan_reviews_in_process_Element) {
+        const county_building_plan_reviews_in_process_Value = getMetricValue(
+          "county_building_plan_reviews_in_process"
+        );
+        county_building_plan_reviews_in_process_Element.textContent =
+          county_building_plan_reviews_in_process_Value !== null
+            ? county_building_plan_reviews_in_process_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* Permits zoning reviews cleared */
+      const county_zoning_reviews_cleared_Element = document.getElementById(
+        "county_zoning_reviews_cleared"
+      );
+
+      if (county_zoning_reviews_cleared_Element) {
+        const county_zoning_reviews_cleared_Value = getMetricValue(
+          "county_zoning_reviews_cleared"
+        );
+        county_zoning_reviews_cleared_Element.textContent =
+          county_zoning_reviews_cleared_Value !== null
+            ? county_zoning_reviews_cleared_Value.toLocaleString()
+            : "N/A";
       }
 
       /* Air chart */
