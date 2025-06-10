@@ -824,13 +824,13 @@
   },
   "financial_assistance_card_14_list_3": {
     "status": "ap_review",
-    "en": "Your home was destroyed or is uninhabitable due to a qualified disaster",
-    "es": "Su hogar fue destruido o es inhabitable debido a un desastre calificado",
-    "ko": "귀하의 집은 자격을 갖춘 재난으로 인해 파괴되었거나 거주할 수 없습니다",
-    "vi": "Nhà của bạn đã bị phá hủy hoặc không thể ở được do thảm họa đủ điều kiện",
-    "tl": "Ang iyong tahanan ay nawasak o hindi matitirahan dahil sa isang kwalipikadong sakuna",
-    "zh-hans": "您的房屋因合格的灾难而被毁或无法居住",
-    "zh-hant": "您的房屋因合格的災難而被毀或無法居住",
-    "hy": "Ձեր տունը ավերվել է կամ անբնակելի է դարձել որակավորված աղետի պատճառով"
+    "en": "Your home was destroyed or is not safe to live in due to a qualified disaster",
+    "es": "Su hogar fue destruido o no es seguro vivir en él debido a un desastre calificado",
+    "ko": "자격이 있는 재난으로 인해 주택이 파괴되었거나 거주하기에 안전하지 않습니다",
+    "vi": "Ngôi nhà của bạn đã bị phá hủy hoặc không an toàn để ở do thảm họa đủ điều kiện",
+    "tl": "Ang iyong bahay ay nawasak o hindi ligtas na tirahan dahil sa isang kwalipikadong sakuna",
+    "zh-hans": "由于符合条件的灾难，您的房屋被毁或不安全居住",
+    "zh-hant": "由於符合條件的災難，您的房屋被毀或不安全居住",
+    "hy": "Ձեր տունը ավերվել է կամ անվտանգ չէ ապրել համապատասխան աղետի պատճառով"
   }
 }
