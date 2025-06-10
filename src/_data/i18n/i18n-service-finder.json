@@ -2050,6 +2050,42 @@
     "hy": "Աղբի հեռացման ժամանակ Բանակային կորպուսը կհեռացնի վտանգ ներկայացնող ծառերը: Բայց Դուք կարող եք ներկայացնել մերժման դիմում և խնդրել նրանց չհանել Ձեր գույքի որոշակի ծառեր:",
     "comment": "Translation delivered 2025-04-23"
   },
+  "sf_91_service_name": {
+    "status": "english_only",
+    "en": "Free debris removal for some commercial properties",
+    "es": "Remoción gratuita de escombros para algunas propiedades comerciales",
+    "ko": "일부 상업용 부동산에 대한 무료 잔해물 제거",
+    "vi": "Di dời miễn phí đống đổ nát cho một số tài sản thương mại",
+    "tl": "Libreng pag-aalis ng kalat para sa ilang komersyal na ari-arian",
+    "zh-hans": "部分商业地产的免费残余物清除服务",
+    "zh-hant": "部分商業地產的免費殘餘物清除服務",
+    "hy": "Աղբի անվճար հեռացում որոշ առևտրային գույքի համար",
+    "comment": ""
+  },
+  "sf_91_entity": {
+    "status": "english_only",
+    "en": "U.S. Army Corps of Engineers",
+    "es": "Cuerpo de Ingenieros del Ejército de los Estados Unidos",
+    "ko": "미국 육군 공병단",
+    "vi": "Công Binh Lục Quân Hoa Kỳ",
+    "tl": "U.S. Army Corps of Engineers",
+    "zh-hans": "美国陆军工程兵团 (U.S. Army Corps of Engineers, USACE)",
+    "zh-hant": "美國陸軍工程兵團 (U.S. Army Corps of Engineers, USACE)",
+    "hy": "ԱՄՆ բանակի ինժեներների կորպուս",
+    "comment": ""
+  },
+  "sf_91_description": {
+    "status": "english_only",
+    "en": "Opt in by April 15, 2025, to find out if your business qualifies for free government debris removal.",
+    "es": "Regístrese antes del 15 de abril de 2025 para averiguar si su negocio califica para la remoción gratuita de escombros por parte del gobierno.",
+    "ko": "2025년 4월 15일까지 등록하여 귀하의 사업체가 정부의 무료 잔해물 제거 대상인지 확인하십시오.",
+    "vi": "Hãy đăng ký trước ngày 15 tháng 4 năm 2025 để tìm hiểu xem doanh nghiệp của quý vị có đủ điều kiện nhận dịch vụ dọn dẹp miễn phí của chính phủ hay không.",
+    "tl": "Mag-opt in bago ang Abril 15, 2025, upang malaman kung kwalipikado ang iyong negosyo para sa libreng pag-aalis ng kalat ng gobyerno.",
+    "zh-hans": "请在 2025 年 4 月 15 日之前注册，以了解您的企业是否符合政府免费清除服务的资格。",
+    "zh-hant": "請在 2025 年 4 月 15 日之前註冊，以瞭解您的企業是否符合政府免費清除服務的資格。",
+    "hy": "Գրանցվեք մինչև 2025 թվականի ապրիլի 15-ը՝ պարզելու համար, արդյոք Ձեր բիզնեսը համապատասխանում է կառավարության կողմից անվճար աղբի հեռացման պահանջներին:",
+    "comment": ""
+  },
   "sf_service_title_essential_help": {
     "status": "avantpage_delivery",
     "en": "Essential help for individuals",
@@ -2446,6 +2482,18 @@
     "zh-hant": "以下是滿足您需求的服務。我們提供有關如何獲得這些服務的直接連結或資訊。",
     "hy": "Ահա այն ծառայությունները, որոնք համապատասխանում են Ձեր կարիքներին: Մենք տրամադրում ենք ուղիղ հղումներ կամ տեղեկություններ, թե ինչպես ստանալ այդ ծառայությունները:"
   },
+  "sf_share_button": {
+    "status": "ap_review",
+    "en": "Share your plan",
+    "fr": "Partager votre plan",
+    "es": "Comparta su plan",
+    "ko": "계획 공유하기",
+    "vi": "Chia sẻ kế hoạch của quý vị",
+    "tl": "Ibahagi ang iyong plano",
+    "zh-hans": "分享方案",
+    "zh-hant": "分享您的計劃",
+    "hy": "Կիսվել Ձեր պլանով"
+  },
   "sf_print_button": {
     "status": "avantpage_delivery",
     "en": "Print your plan",
@@ -2626,5 +2674,89 @@
     "zh-hant": "如何獲得此服務",
     "hy": "Ինչպե՞ս ստանալ այս ծառայությունը",
     "comment": "Translation delivered 2025-04-23"
+  },
+  "sf_modal-title": {
+    "status": "ap_review",
+    "en": "Share your customized plan",
+    "fr": "Partager votre plan personnalisé",
+    "es": "Comparta su plan personalizado",
+    "ko": "맞춤형 계획 공유하기",
+    "vi": "Chia sẻ kế hoạch tùy chỉnh của quý vị",
+    "tl": "Ibahagi ang iyong naka-customize na plano",
+    "zh-hans": "分享您的个性化方案",
+    "zh-hant": "分享您的個性化計劃",
+    "hy": "Կիսվել Ձեր հարմարեցված պլանով"
+  },
+  "sf_copy_link_text": {
+    "status": "ap_review",
+    "en": "Copy link",
+    "fr": "Copier le lien",
+    "es": "Copiar enlace",
+    "ko": "링크 복사하기",
+    "vi": "Sao chép liên kết",
+    "tl": "Kopyahin ang link",
+    "zh-hans": "复制链接",
+    "zh-hant": "複製連結",
+    "hy": "Պատճենել հղումը"
+  },
+  "sf_link_copied": {
+    "status": "ap_review",
+    "en": "Link copied",
+    "fr": "Lien copié",
+    "es": "Enlace copiado",
+    "ko": "링크가 복사되었습니다",
+    "vi": "Liên kết đã được sao chép",
+    "tl": "Nakopya ang link",
+    "zh-hans": "链接已复制",
+    "zh-hant": "連結已複製",
+    "hy": "Հղումը պատճենվել է"
+  },
+  "sf_close_modal": {
+    "status": "ap_review",
+    "en": "Close modal",
+    "fr": "Fermer la fenêtre modale",
+    "es": "Cerrar modal",
+    "ko": "모달 닫기",
+    "vi": "Đóng cửa sổ",
+    "tl": "Isara ang modal",
+    "zh-hans": "关闭弹窗",
+    "zh-hant": "關閉彈出視窗",
+    "hy": "Փակել մոդալը"
+  },
+  "sf_email_plan": {
+    "status": "ap_review",
+    "en": "Email",
+    "fr": "Envoyer votre plan par e-mail",
+    "es": "Enviar su plan por correo electrónico",
+    "ko": "계획 이메일로 보내기",
+    "vi": "Gửi kế hoạch của quý vị qua email",
+    "tl": "I-email ang iyong plano",
+    "zh-hans": "通过电子邮件发送您的方案",
+    "zh-hant": "通過電子郵件發送您的計劃",
+    "hy": "Էլ․ փոստով ուղարկել Ձեր պլանը"
+  },
+  "sf_email_plan_subject": {
+    "status": "ap_review",
+    "en": "Share from the California Recovery Services Finder",
+    "fr": "Partager depuis le Recherche de services de récupération de Californie",
+    "es": "Compartir desde el Buscador de Servicios de Recuperación de California",
+    "ko": "California Recovery Services Finder에서 공유",
+    "vi": "Chia sẻ từ Công Cụ Tìm Dịch Vụ Phục Hồi California",
+    "tl": "Ibahagi mula sa California Recovery Services Finder",
+    "zh-hans": "来自加州灾后服务匹配工具的分享",
+    "zh-hant": "來自加州復原服務查找器的分享",
+    "hy": "Կիսվել Լոս Անջելեսի Վերականգնման ծառայությունների որոնիչից"
+  },
+  "sf_email_plan_body": {
+    "status": "ap_review",
+    "en": "Here is my plan from the California Recovery Services Finder:",
+    "fr": "Voici mon plan du California Recovery Services Finder :",
+    "es": "Aquí está mi plan del Buscador de Servicios de Recuperación de California:",
+    "ko": "다음은 California Recovery Services Finder에서 작성한 계획입니다:",
+    "vi": "Đây là kế hoạch của tôi từ Công Cụ Tìm Dịch Vụ Phục Hồi California:",
+    "tl": "Narito ang aking plano mula sa California Recovery Services Finder:",
+    "zh-hans": "这是我在加州灾后服务匹配工具中的方案：",
+    "zh-hant": "這是我在加州復原服務查找器中的計劃：",
+    "hy": "Ահա իմ պլանը Լոս Անջելեսի Վերականգնման ծառայությունների որոնիչից:"
   }
 }

@@ -25,6 +25,7 @@
     "Service_link": "https://www.disasterassistance.gov/ ",
     "Service_name": "Temporary housing",
     "Source": "Website / Checklist",
+    "Specific disaster": ["January 2025 LA Fires"],
     "Status": "3 Approved",
     "Type_of_Service": "Essential help"
   },
@@ -56,6 +57,7 @@
     "Info_link": "https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires  ",
     "Service_name": "Disaster loans for businesses",
     "Source": "Website / Checklist",
+    "Specific disaster": ["January 2025 LA Fires"],
     "Status": "3 Approved",
     "Type_of_Service": "Business help"
   },
@@ -88,6 +90,7 @@
     "Phone": "1-888-825-9868",
     "Service_name": "Business income tax extension",
     "Source": "Website / Checklist",
+    "Specific disaster": ["January 2025 LA Fires"],
     "Status": "3 Approved",
     "Type_of_Service": "Business help"
   },
@@ -119,6 +122,7 @@
     "Info_link": "https://outsmartdisaster.calosba.ca.gov/support-and-resources-for-los-angeles-area-wildfire-recovery/",
     "Service_name": "Business recovery resources",
     "Source": "Website / Checklist",
+    "Specific disaster": ["January 2025 LA Fires"],
     "Status": "3 Approved",
     "Type_of_Service": "Business help"
   },
@@ -289,6 +293,7 @@
     "Info_link": "https://dfpi.ca.gov/lafires/relief/",
     "Service_name": "Mortgage relief",
     "Source": "Website / Checklist",
+    "Specific disaster": ["January 2025 LA Fires"],
     "Status": "3 Approved",
     "Type_of_Service": "Essential help"
   },
@@ -599,7 +604,7 @@
     "Entity_acronym": "GovOps",
     "Entity_type": "State",
     "ID": 68,
-    "Info_link": "https://www.ca.gov/lafires/return-to-your-home-safely/",
+    "Info_link": "https://www.ca.gov/lafires/help-for-you/rebuild-your-house/",
     "Service_name": "Return to your home safely",
     "Source": "Website / Checklist",
     "Status": "3 Approved",
@@ -769,7 +774,7 @@
   {
     "Audience": "Individual",
     "Category": "Rebuilding",
-    "Description": "The deadline to opt in for free debris removal was April 15, 2025. If you have questions about debris removal, call the LA County Public Works Debris Removal Hotline at 844-347-3332 (TTY: 711).",
+    "Description": "Opt in by April 15, 2025, to get free government debris removal. If you don't opt in, you'll need to pay for a private debris removal contractor instead.",
     "Entity": "Los Angeles County",
     "Entity_acronym": "LA County",
     "Entity_type": "County",
@@ -822,5 +827,19 @@
     "Source": "Website / Checklist",
     "Status": "3 Approved",
     "Type_of_Service": "Start recovering"
+  },
+  {
+    "Audience": "Business",
+    "Category": "Support",
+    "Description": "Opt in by April 15, 2025, to find out if your business qualifies for free government debris removal. ",
+    "Entity": "U.S. Army Corps of Engineers",
+    "Entity_acronym": "USACE",
+    "Entity_type": "Federal",
+    "ID": 91,
+    "Info_link": "https://recovery.lacounty.gov/debris-removal/roe/ ",
+    "Service_link": "https://app.smartsheet.com/b/form/ca0e6e24c8db4598b5c49642b2ff4615",
+    "Service_name": "Free debris removal for some commercial properties",
+    "Status": "3 Approved",
+    "Type_of_Service": "Business help"
   }
 ]
