@@ -498,9 +498,7 @@
     "zh-hans": "申请洛杉矶县的<a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">财产税减免</a>。",
     "zh-hant": "申請洛杉磯縣的<a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">財產稅減免</a>。",
     "hy": "Դիմեք Լոս Անջելես շրջանի <a href=\"https://assessor.lacounty.gov/tax-relief/disaster-relief\">գույքահարկի արտոնությունների</a> համար:"
-  }
-,
-
+  },
   "financial_assistance_employment": {
     "status": "ap_review",
     "comment": "added 5-8-2025",
@@ -757,6 +755,82 @@
     "zh-hans": "申请这些贷款的截止日期是<strong>2025年3月31日</strong>。如果您已经申请，可以登录<a href=\"http://lending.sba.gov\">SBA贷款门户网站</a>查看申请状态。",
     "zh-hant": "申請這些貸款的截止日期是<strong>2025年3月31日</strong>。如果您已經申請，可以登錄<a href=\"http://lending.sba.gov\">SBA貸款門戶網站</a>查看申請狀態。",
     "hy": "Այս վարկերի դիմելու վերջնաժամկետը <strong>2025 թվականի մարտի 31-ն</strong> էր: Եթե դուք արդեն դիմել եք, կարող եք մուտք գործել <a href=\"http://lending.sba.gov\">SBA-ի վարկային պորտալ</a>՝ ձեր դիմումի կարգավիճակը ստուգելու համար:"
+  },
+  "financial_assistance_card_14_heading": {
+    "status": "ap_review",
+    "en": "Mortgage assistance",
+    "es": "Asistencia hipotecaria",
+    "ko": "주택담보대출 지원",
+    "vi": "Hỗ trợ thế chấp",
+    "tl": "Tulong sa mortgage",
+    "zh-hans": "抵押贷款援助",
+    "zh-hant": "抵押貸款援助",
+    "hy": "Վարկային օգնություն"
+  },
+  "financial_assistance_card_14_description_1": {
+    "status": "ap_review",
+    "en": "Homeowners could get 3 months of mortgage payments, up to $20,000. This fund is for homes destroyed in recent disasters, including the LA fires.",
+    "es": "Los propietarios de viviendas podrían obtener 3 meses de pagos hipotecarios, hasta $20,000. Este fondo es para casas destruidas en desastres recientes, incluidos los incendios de Los Ángeles.",
+    "ko": "주택 소유자는 최대 $20,000의 3개월 주택 담보 대출 상환금을 받을 수 있습니다. 이 기금은 최근 재난, LA 화재를 포함하여 파괴된 주택을 위한 것입니다.",
+    "vi": "Chủ nhà có thể nhận được 3 tháng thanh toán thế chấp, tối đa là $20,000. Quỹ này dành cho những ngôi nhà bị phá hủy trong các thảm họa gần đây, bao gồm cả các vụ cháy ở LA.",
+    "tl": "Maaaring makakuha ang mga may-ari ng bahay ng 3 buwan ng mga bayad sa mortgage, hanggang sa $20,000. Ang pondong ito ay para sa mga bahay na nawasak sa mga kamakailang sakuna, kabilang ang mga sunog sa LA.",
+    "zh-hans": "房主可以获得3个月的抵押贷款支付，最高可达20,000美元。该基金用于最近灾难中被毁坏的房屋，包括洛杉矶火灾。",
+    "zh-hant": "房主可以獲得3個月的抵押貸款支付，最高可達20,000美元。該基金用於最近災難中被毀壞的房屋，包括洛杉磯火災。",
+    "hy": "Տանտերերը կարող են ստանալ 3 ամսվա վարկային վճարումներ՝ մինչև $20,000: Այս ֆոնդը նախատեսված է վերջին աղետների, այդ թվում՝ Լոս Անջելեսի հրդեհների ժամանակ ավերված տների համար:"
+  },
+  "financial_assistance_card_14_description_3": {
+    "status": "ap_review",
+    "en": "You may be eligible for a grant if:",
+    "es": "Puede ser elegible para una subvención si:",
+    "ko": "다음과 같은 경우 보조금을 받을 수 있습니다:",
+    "vi": "Bạn có thể đủ điều kiện nhận trợ cấp nếu:",
+    "tl": "Maaaring kwalipikado ka para sa isang grant kung:",
+    "zh-hans": "如果您符合以下条件，您可能有资格获得补助金：",
+    "zh-hant": "如果您符合以下條件，您可能有資格獲得補助金：",
+    "hy": "Դուք կարող եք արժանանալ դրամաշնորհի, եթե՝"
+  },
+  "financial_assistance_card_14_description_2": {
+    "status": "ap_review",
+    "en": "Apply through the <a href=\"https://www.calassistmortgagefund.org/\">CalAssist Mortgage Fund</a>.",
+    "es": "Solicite asistencia a través del <a href=\"https://www.calassistmortgagefund.org/\">CalAssist Mortgage Fund</a>.",
+    "ko": "지원은 <a href=\"https://www.calassistmortgagefund.org/\">CalAssist Mortgage Fund</a>를 통해 신청하세요.",
+    "vi": "Đăng ký hỗ trợ thông qua <a href=\"https://www.calassistmortgagefund.org/\">Quỹ Thế chấp CalAssist</a>.",
+    "tl": "Mag-apply para sa tulong sa pamamagitan ng <a href=\"https://www.calassistmortgagefund.org/\">CalAssist Mortgage Fund</a>.",
+    "zh-hans": "通过<a href=\"https://www.calassistmortgagefund.org/\">CalAssist抵押贷款基金</a>申请援助。",
+    "zh-hant": "通過<a href=\"https://www.calassistmortgagefund.org/\">CalAssist抵押貸款基金</a>申請援助。",
+    "hy": "Դիմեք օգնության համար <a href=\"https://www.calassistmortgagefund.org/\">CalAssist Mortgage Fund</a>-ի միջոցով:"
+  },
+  "financial_assistance_card_14_list_1": {
+    "status": "ap_review",
+    "en": "You own a single-family home, condo or manufactured home on a permanent foundation",
+    "es": "Usted es propietario de una casa unifamiliar, condominio o casa móvil sobre una base permanente",
+    "ko": "영구 기초 위에 있는 단독 주택, 콘도 또는 제조된 주택을 소유하고 있습니다",
+    "vi": "Bạn sở hữu một ngôi nhà đơn lập, căn hộ chung cư hoặc nhà sản xuất trên nền móng cố định",
+    "tl": "May-ari ka ng isang single-family home, condo o manufactured home sa isang permanenteng pundasyon",
+    "zh-hans": "您拥有一栋单户住宅、公寓或永久基础上的制造房屋",
+    "zh-hant": "您擁有一棟單戶住宅、公寓或永久基礎上的製造房屋",
+    "hy": "Դուք ունեք մեկ ընտանիքի տուն, կոնդո կամ մշտական հիմքի վրա կառուցված արտադրական տուն"
+  },
+  "financial_assistance_card_14_list_2": {
+    "status": "ap_review",
+    "en": "You have a mortgage or reverse mortgage",
+    "es": "Tiene una hipoteca o hipoteca inversa",
+    "ko": "주택 담보 대출 또는 역모기지를 보유하고 있습니다",
+    "vi": "Bạn có một khoản thế chấp hoặc thế chấp ngược",
+    "tl": "Mayroon kang mortgage o reverse mortgage",
+    "zh-hans": "您有抵押贷款或反向抵押贷款",
+    "zh-hant": "您有抵押貸款或反向抵押貸款",
+    "hy": "Դուք ունեք վարկ կամ հակառակ վարկ"
+  },
+  "financial_assistance_card_14_list_3": {
+    "status": "ap_review",
+    "en": "Your home was destroyed or is not safe to live in due to a qualified disaster",
+    "es": "Su hogar fue destruido o no es seguro vivir en él debido a un desastre calificado",
+    "ko": "자격이 있는 재난으로 인해 주택이 파괴되었거나 거주하기에 안전하지 않습니다",
+    "vi": "Ngôi nhà của bạn đã bị phá hủy hoặc không an toàn để ở do thảm họa đủ điều kiện",
+    "tl": "Ang iyong bahay ay nawasak o hindi ligtas na tirahan dahil sa isang kwalipikadong sakuna",
+    "zh-hans": "由于符合条件的灾难，您的房屋被毁或不安全居住",
+    "zh-hant": "由於符合條件的災難，您的房屋被毀或不安全居住",
+    "hy": "Ձեր տունը ավերվել է կամ անվտանգ չէ ապրել համապատասխան աղետի պատճառով"
   }
-
 }
