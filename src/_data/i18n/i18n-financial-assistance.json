@@ -769,18 +769,29 @@
   },
   "financial_assistance_card_14_description_1": {
     "status": "ap_review",
-    "en": "The state is offering up to $20,000 to homeowners whose homes were destroyed in recent disasters, including the Los Angeles firestorms. You may be eligible for a grant if:",
-    "es": "El estado está ofreciendo hasta $20,000 a los propietarios de viviendas cuyas casas fueron destruidas en desastres recientes, incluidos los incendios forestales de Los Ángeles. Puede ser elegible para una subvención si:",
-    "ko": "주 정부는 최근 재난, 특히 로스앤젤레스 화재로 집이 파괴된 주택 소유자에게 최대 $20,000를 제공합니다. 다음과 같은 경우 보조금을 받을 수 있습니다:",
-    "vi": "Bang California đang cung cấp tới $20,000 cho những chủ nhà có nhà bị phá hủy trong các thảm họa gần đây, bao gồm cả các vụ cháy rừng ở Los Angeles. Bạn có thể đủ điều kiện nhận trợ cấp nếu:",
-    "tl": "Nag-aalok ang estado ng hanggang $20,000 sa mga may-ari ng bahay na ang mga tahanan ay nawasak sa mga kamakailang sakuna, kabilang ang mga sunog sa kagubatan sa Los Angeles. Maaaring kwalipikado ka para sa isang grant kung:",
-    "zh-hans": "州政府为在最近的灾难中（包括洛杉矶火灾）房屋被毁的房主提供最高$20,000的援助。如果您符合以下条件，您可能有资格获得补助金：",
-    "zh-hant": "州政府為在最近的災難中（包括洛杉磯火災）房屋被毀的房主提供最高$20,000的援助。如果您符合以下條件，您可能有資格獲得補助金：",
-    "hy": "Պետությունը առաջարկում է մինչև $20,000 այն տանտերերին, որոնց տները վերջերս տեղի ունեցած աղետների, այդ թվում՝ Լոս Անջելեսի հրդեհների հետևանքով ավերվել են: Դուք կարող եք արժանանալ դրամաշնորհի, եթե՝"
+    "en": "Homeowners could get 3 months of mortgage payments, up to $20,000. This fund is for homes destroyed in recent disasters, including the LA fires.",
+    "es": "Los propietarios de viviendas podrían obtener 3 meses de pagos hipotecarios, hasta $20,000. Este fondo es para casas destruidas en desastres recientes, incluidos los incendios de Los Ángeles.",
+    "ko": "주택 소유자는 최대 $20,000의 3개월 주택 담보 대출 상환금을 받을 수 있습니다. 이 기금은 최근 재난, LA 화재를 포함하여 파괴된 주택을 위한 것입니다.",
+    "vi": "Chủ nhà có thể nhận được 3 tháng thanh toán thế chấp, tối đa là $20,000. Quỹ này dành cho những ngôi nhà bị phá hủy trong các thảm họa gần đây, bao gồm cả các vụ cháy ở LA.",
+    "tl": "Maaaring makakuha ang mga may-ari ng bahay ng 3 buwan ng mga bayad sa mortgage, hanggang sa $20,000. Ang pondong ito ay para sa mga bahay na nawasak sa mga kamakailang sakuna, kabilang ang mga sunog sa LA.",
+    "zh-hans": "房主可以获得3个月的抵押贷款支付，最高可达20,000美元。该基金用于最近灾难中被毁坏的房屋，包括洛杉矶火灾。",
+    "zh-hant": "房主可以獲得3個月的抵押貸款支付，最高可達20,000美元。該基金用於最近災難中被毀壞的房屋，包括洛杉磯火災。",
+    "hy": "Տանտերերը կարող են ստանալ 3 ամսվա վարկային վճարումներ՝ մինչև $20,000: Այս ֆոնդը նախատեսված է վերջին աղետների, այդ թվում՝ Լոս Անջելեսի հրդեհների ժամանակ ավերված տների համար:"
+  },
+  "financial_assistance_card_14_description_3": {
+    "status": "ap_review",
+    "en": "You may be eligible for a grant if:",
+    "es": "Puede ser elegible para una subvención si:",
+    "ko": "다음과 같은 경우 보조금을 받을 수 있습니다:",
+    "vi": "Bạn có thể đủ điều kiện nhận trợ cấp nếu:",
+    "tl": "Maaaring kwalipikado ka para sa isang grant kung:",
+    "zh-hans": "如果您符合以下条件，您可能有资格获得补助金：",
+    "zh-hant": "如果您符合以下條件，您可能有資格獲得補助金：",
+    "hy": "Դուք կարող եք արժանանալ դրամաշնորհի, եթե՝"
   },
   "financial_assistance_card_14_description_2": {
     "status": "ap_review",
-    "en": "Apply for assistance through the <a href=\"https://www.calassistmortgagefund.org/\">CalAssist Mortgage Fund</a>.",
+    "en": "Apply through the <a href=\"https://www.calassistmortgagefund.org/\">CalAssist Mortgage Fund</a>.",
     "es": "Solicite asistencia a través del <a href=\"https://www.calassistmortgagefund.org/\">CalAssist Mortgage Fund</a>.",
     "ko": "지원은 <a href=\"https://www.calassistmortgagefund.org/\">CalAssist Mortgage Fund</a>를 통해 신청하세요.",
     "vi": "Đăng ký hỗ trợ thông qua <a href=\"https://www.calassistmortgagefund.org/\">Quỹ Thế chấp CalAssist</a>.",
@@ -791,14 +802,14 @@
   },
   "financial_assistance_card_14_list_1": {
     "status": "ap_review",
-    "en": "You own a single-family home, condo or permanently affixed manufactured home",
-    "es": "Usted es propietario de una casa unifamiliar, condominio o casa móvil permanentemente fijada",
-    "ko": "단독 주택, 콘도 또는 영구적으로 고정된 제조 주택을 소유하고 있습니다",
-    "vi": "Bạn sở hữu một ngôi nhà đơn lập, căn hộ chung cư hoặc nhà sản xuất cố định vĩnh viễn",
-    "tl": "May-ari ka ng isang single-family home, condo o permanently affixed manufactured home",
-    "zh-hans": "您拥有单户住宅、公寓或永久固定的制造房屋",
-    "zh-hant": "您擁有單戶住宅、公寓或永久固定的製造房屋",
-    "hy": "Դուք տիրապետում եք միակ ընտանիքի տանը, կոնդոմինիոն կամ մշտապես ամրացված արտադրական տանը"
+    "en": "You own a single-family home, condo or manufactured home on a permanent foundation",
+    "es": "Usted es propietario de una casa unifamiliar, condominio o casa móvil sobre una base permanente",
+    "ko": "영구 기초 위에 있는 단독 주택, 콘도 또는 제조된 주택을 소유하고 있습니다",
+    "vi": "Bạn sở hữu một ngôi nhà đơn lập, căn hộ chung cư hoặc nhà sản xuất trên nền móng cố định",
+    "tl": "May-ari ka ng isang single-family home, condo o manufactured home sa isang permanenteng pundasyon",
+    "zh-hans": "您拥有一栋单户住宅、公寓或永久基础上的制造房屋",
+    "zh-hant": "您擁有一棟單戶住宅、公寓或永久基礎上的製造房屋",
+    "hy": "Դուք ունեք մեկ ընտանիքի տուն, կոնդո կամ մշտական հիմքի վրա կառուցված արտադրական տուն"
   },
   "financial_assistance_card_14_list_2": {
     "status": "ap_review",
