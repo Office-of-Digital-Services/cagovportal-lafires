@@ -1078,17 +1078,6 @@
     "zh-hant": "PM10 和 PM2.5 水準仍低於聯邦標準。",
     "hy": "PM10 և PM2.5 մակարդակները մնում են դաշնային չափանիշներից ցածր։"
   },
-  "track_progress_eaton_data_list_3": {
-    "status": "ap_review",
-    "en": "May 1 samples collected at all three sites are being analyzed.",
-    "es": "Las muestras del 1 de mayo recolectadas en los tres sitios están siendo analizadas.",
-    "ko": "세 곳 모두에서 수집된 5월 1일 샘플이 분석되고 있습니다.",
-    "vi": "Các mẫu được thu thập vào ngày 1 tháng 5 tại cả ba địa điểm đang được phân tích.",
-    "tl": "Ang mga sample na nakolekta noong Mayo 1 sa lahat ng tatlong site ay kasalukuyang sinusuri.",
-    "zh-hans": "在所有三个地点收集的 5 月 1日样本正在分析中。",
-    "zh-hant": "在所有三個地點收集的 5 月 1日樣本正在分析中。",
-    "hy": "Մայիսի 1-ի նմուշները, որոնք հավաքվել են երեք կայաններում, այժմ վերլուծվում են։"
-  },
   "track_progress_palisades_data_results": {
     "status": "avantpage_delivery",
     "en": "Palisades data results",
@@ -1135,19 +1124,6 @@
     "zh-hant": "PM10 和 PM2.5 水準仍低於聯邦標準。",
     "hy": "PM10 և PM2.5 մակարդակները մնում են դաշնային չափանիշներից ցածր։"
   },
-  "track_progress_pasisades_data_list_3": {
-    "status": "ap_review",
-    "comment": "updated 2025-05-07",
-    "en": "May 1 samples collected at both sites are being analyzed.",
-    "es": "Las muestras del 1 de mayo recolectadas en ambos sitios están siendo analizadas.",
-    "ko": "두 곳 모두에서 수집된 5월 1일 샘플이 분석되고 있습니다.",
-    "vi": "Các mẫu được thu thập vào ngày 1 tháng 5 tại cả hai địa điểm đang được phân tích.",
-    "tl": "Ang mga sample na nakolekta noong Mayo 1 sa parehong site ay kasalukuyang sinusuri.",
-    "zh-hans": "在两个地点收集的 5 月 1日样本正在分析中。",
-    "zh-hant": "在兩個地點收集的 5 月 1日樣本正在分析中。",
-    "hy": "Մայիսի 1-ի նմուշները, որոնք հավաքվել են երկու կայաններում, այժմ վերլուծվում են։"
-  },
-
   "track_progress_air_quality_report_date": {
     "status": "ap_review",
     "comment": "updated 2025-05-07",
