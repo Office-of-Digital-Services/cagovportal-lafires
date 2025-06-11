@@ -828,6 +828,17 @@
     "hy": "Զեկուցվել է South Coast-ի օդի որակի կառավարման շրջանի կողմից",
     "comment": "Translation delivered 2025-04-10"
   },
+  "track_air_quality_management_progress_data_as_of": {
+    "status": "ap_review",
+    "en": "Data as of 06/11/2025 at 4:30 PM",
+    "es": "Datos al 11/06/2025 a las 4:30 p. m.",
+    "ko": "2025년 6월 11일 오후 4시 30분 기준 데이터",
+    "vi": "Dữ liệu tính đến ngày 11/06/2025 lúc 4:30 PM",
+    "tl": "Data as of 06/11/2025 at 4:30 PM",
+    "zh-hans": "截至 2025 年 6 月 11 日下午 4:30 的数据",
+    "zh-hant": "截至 2025 年 6 月 11 日下午 4:30 的數據",
+    "hy": "Տվյալներ՝ 2025 թվականի հունիսի 11-ի ժամը 16:30-ի դրությամբ"
+  },
   "track_progress_palisades_fire_area": {
     "status": "avantpage_delivery",
     "en": "Palisades fire area",
@@ -1126,15 +1137,15 @@
   },
   "track_progress_air_quality_report_date": {
     "status": "ap_review",
-    "comment": "updated 2025-05-07",
-    "en": "Data as of 5/7/2025 at 2:30 PM",
-    "es": "Datos del 7 de mayo de 2025 a las 2:30 PM",
-    "ko": "2025년 5월 7일 오후 2:30 기준 데이터",
-    "vi": "Dữ liệu từ ngày 7 tháng 5 năm 2025 lúc 2:30 PM",
-    "tl": "Data as of 5/7/2025 at 2:30 PM",
-    "zh-hans": "数据截至2025年5月7日14:30",
-    "zh-hant": "數據截至2025年5月7日14:30",
-    "hy": "Նշումը կատարվել է 2025 թվականի 5 ամիսի 7-ին օրը 14:30-ին։"
+    "comment": "updated 2025-06-11",
+    "en": "Data as of 6/11/2025 at 2:30 PM",
+    "es": "Datos al 11/06/2025 a las 2:30 PM",
+    "ko": "2025년 6월 11일 오후 2시 30분 기준 데이터",
+    "vi": "Dữ liệu tính đến ngày 11/6/2025 lúc 2:30 chiều",
+    "tl": "Data as of 6/11/2025 at 2:30 PM",
+    "zh-hans": "截至2025年6月11日下午2:30的数据",
+    "zh-hant": "截至2025年6月11日下午2:30的數據",
+    "hy": "Տվյալներ՝ 2025թ․ հունիսի 11-ի ժամը 14:30-ի դրությամբ"
   },
 
   "track_progress_all_results_from_the_stationary_sites_are_available": {
