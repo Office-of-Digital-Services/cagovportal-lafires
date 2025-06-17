@@ -274,6 +274,10 @@ h2,
   background-color: var(--color-p2-darker) !important;
 }
 
+.fit-content {
+  width: fit-content;
+}
+
 .no-icon {
   > span.external-link-icon {
     display: none;

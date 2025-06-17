@@ -198,12 +198,30 @@
     <div class="col-lg-10 pt-lg-3">
       <p class="lead d-print-none">{{ 'sf_lead_text' | i18n }}</p>
 
-      <p class="mb-5 d-flex gap-4 align-items-center d-print-none">
-        <a
-          class="d-print-none btn btn-outline-primary rounded-4 brd-solid-2 p-x-md m-r"
-          onclick="window.print(); return false;"
-          >{{ 'sf_print_button' | i18n }}</a
-        >
+      <p class="mb-5 d-flex gap-2 gap-md-4 align-items-center d-print-none">
+        <button
+          class="btn btn-primary rounded-4 pe-1 pe-sm-4 ps-1 ps-sm-3"
+          data-bs-toggle="modal"
+          data-bs-target="#share-plan">
+          <img
+            src="/lafires/images/icon-share-plan.svg"
+            alt=""
+            class="img-fluid 
+            height-20 d-print-none"
+            aria-hidden="true" />
+          {{ 'sf_share_button' | i18n }}
+        </button>
+        <button
+          class="d-print-none btn btn-outline-primary rounded-4 brd-solid-2 pe-1 pe-sm-4 ps-1 ps-sm-3"
+          onclick="window.print(); return false;">
+          <img
+            src="/lafires/images/icon-print.svg"
+            alt=""
+            class="img-fluid 
+          height-20 d-print-none"
+            aria-hidden="true" />
+          {{ 'sf_print_button' | i18n }}
+        </button>
 
         <a
           href="{{ '/lafires/recovery-services-finder/' | localizedPath }}"
@@ -216,16 +234,8 @@
       {%- set categories = lafires.recovery_services_categories |
       pluck("Type_of_Service",service_type.Type_of_Service) -%}
       <!---->
-      {%- set classlist = "" -%}
-      <!---->
-      {%- for service_category in categories -%}
-      <!---->
-      {%-set classlist = classlist + " category_" + service_type.Section + "_" +
-      service_category.ID -%}
-      <!---->
-      {%- endfor -%}
 
-      <div class="d-none{{classlist}}" aria-hidden="true" hidden>
+      <div data-service-type="{{service_type.Section}}">
         <h2 class="color-p2-darker">
           {{('sf_service_title_' + service_type.Key) | i18n}}
         </h2>
@@ -233,16 +243,18 @@
         {%- for service_category in categories -%}
 
         <div
-          class="d-none category_{{service_type.Section}}_{{service_category.ID}}"
-          aria-hidden="true"
-          hidden>
+          data-service-type="{{service_type.Section}}"
+          data-service-category-id="{{service_category.ID}}">
           <h3>{{('sf_cat_label_' + service_category.Key) | i18n}}</h3>
 
           <div class="row">
             {%- for item in airTable |
             pluck("Category",service_category.Category) | sortBy("Service_name")
             | sortBy("Entity") -%}
-            <div class="col-lg-6 alert">
+            <div
+              class="col-lg-6 alert"
+              data-service-category-id="{{service_category.ID}}"
+              data-service-id="{{item.ID}}">
               <div
                 class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
                 <div class="d-flex">
@@ -252,7 +264,7 @@
                   <button
                     type="button"
                     class="btn-close ms-auto m-t-md bg-gray-100 rounded-circle p-a-sm pos-rel top-minus-5 right-minus-sm"
-                    data-bs-dismiss="alert"
+                    data-service-id="{{item.ID}}"
                     aria-label="Close"></button>
                 </div>
 
@@ -337,8 +349,72 @@
   </div>
 </div>
 
-{%- set js -%}{%- include "./recovery-services-shared.mjs" -%}{%- include
-"./recovery-services-all.html.js" -%}{%- endset -%}
+<div
+  class="modal fade"
+  id="share-plan"
+  role="dialog"
+  tabindex="-1"
+  aria-labelledby="sharePlanTitle">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content p-b-md">
+      <div class="modal-header p-t-0">
+        <h3 id="sharePlanTitle" class="modal-title color-p2">
+          {{'sf_modal-title' | i18n }}
+        </h3>
+        <button
+          type="button"
+          class="close btn btn-secondary border-0 rounded-pill bg-white bg-gray-100-hover pos-rel top-minus-5 right-minus-sm shadow-none p-t-0 p-b-0 p-l-sm p-r-sm"
+          data-bs-dismiss="modal">
+          <span class="sr-only">{{'sf_close_modal' | i18n }}</span>
+          <span
+            class="ca-gov-icon-close-mark font-size-30"
+            aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="brd-solid-2 brd-primary d-flex rounded-5">
+          <input
+            type="text"
+            id="url-copy"
+            class="bg-transparent border-0 m-y-0 p-x-0 p-l p-r-sm overflow-hidden w-100" />
+
+          <button
+            id="share-plan-copy"
+            class="btn btn-primary rounded-0 p-x m-t-0 ms-auto d-flex text-nowrap">
+            <span class="ca-gov-icon-copy" aria-hidden="true"></span>
+            <div class="m-l-sm">{{'sf_copy_link_text' | i18n }}</div>
+          </button>
+
+          <button
+            hidden
+            aria-hidden="true"
+            id="share-plan-copied"
+            class="btn btn-primary rounded-0 p-x m-t-0 ms-auto d-flex text-nowrap d-none">
+            <span class="ca-gov-icon-check-mark" aria-hidden="true"></span>
+            <div class="m-l-sm">{{'sf_link_copied' | i18n }}</div>
+          </button>
+        </div>
+
+        <a
+          id="share-plan-mailto"
+          data-mail-subject="{{'sf_email_plan_subject' | i18n }}"
+          data-mail-body="{{'sf_email_plan_body' | i18n }}"
+          class="btn btn-outline-primary brd-solid-2 rounded-5 m-t d-flex align-items-center fit-content p-r-md">
+          <img
+            src="/lafires/images/icon-email.svg"
+            alt=""
+            class="img-fluid 
+            height-30 d-print-none m-r"
+            aria-hidden="true" />
+          {{'sf_email_plan' | i18n }}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- set js -%}{%- include "./recovery-services-finder-results.html.js" -%}{%-
+endset -%}
 <script>
   {{- js | jsmin | safe }}
 </script>

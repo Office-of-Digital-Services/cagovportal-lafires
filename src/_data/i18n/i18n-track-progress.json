@@ -828,6 +828,17 @@
     "hy": "Զեկուցվել է South Coast-ի օդի որակի կառավարման շրջանի կողմից",
     "comment": "Translation delivered 2025-04-10"
   },
+  "track_air_quality_management_progress_data_as_of": {
+    "status": "ap_review",
+    "en": "Data as of 06/11/2025 at 4:30 PM",
+    "es": "Datos al 11/06/2025 a las 4:30 p. m.",
+    "ko": "2025년 6월 11일 오후 4시 30분 기준 데이터",
+    "vi": "Dữ liệu tính đến ngày 11/06/2025 lúc 4:30 PM",
+    "tl": "Data as of 06/11/2025 at 4:30 PM",
+    "zh-hans": "截至 2025 年 6 月 11 日下午 4:30 的数据",
+    "zh-hant": "截至 2025 年 6 月 11 日下午 4:30 的數據",
+    "hy": "Տվյալներ՝ 2025 թվականի հունիսի 11-ի ժամը 16:30-ի դրությամբ"
+  },
   "track_progress_palisades_fire_area": {
     "status": "avantpage_delivery",
     "en": "Palisades fire area",
@@ -1046,26 +1057,26 @@
   "track_progress_altadena_golf_course_results_2": {
     "status": "ap_review",
     "comment": "updated 2025-05-07",
-    "en": "Samples from April 25 and 28 near Altadena Golf Course and at Christ the Shepherd Lutheran Church and Fire Station 11:",
-    "es": "Muestras del 25 y 28 de abril cerca del campo de golf de Altadena y en la iglesia luterana Christ the Shepherd y la estación de bomberos 11:",
-    "ko": "Altadena 골프장과 Christ the Shepherd 루터교회 및 소방서 11 근처의 4월 25일 및 28일 샘플:",
-    "vi": "Mẫu ngày 25 và 28 tháng 4 gần sân golf Altadena và tại Nhà thờ Lutheran Christ the Shepherd và Trạm cứu hỏa 11:",
-    "tl": "Mga sample mula Abril 25 at 28 malapit sa Altadena Golf Course at sa Christ the Shepherd Lutheran Church at Fire Station 11:",
-    "zh-hans": "4月25日和28日来自Altadena高尔夫球场、基督牧羊路德教堂和11号消防站附近的样本：",
-    "zh-hant": "4月25日和28日來自Altadena高爾夫球場、基督牧羊路德教堂和11號消防站附近的樣本：",
-    "hy": "Ապրիլի 25-ի և 28-ի նմուշները՝ Ալտադենայի գոլֆի խաղահրապարակից և Քրիստոս հովիվ լյութերանական եկեղեցուց և հրշեջ կայան 11-ից մոտակայքում։"
+    "en": "Samples from May 22, 25, and 28 near Altadena Golf Course and at Christ the Shepherd Lutheran Church and Fire Station 11:",
+    "es": "Muestras del 22, 25 y 28 de mayo cerca del campo de golf de Altadena y en la iglesia luterana Christ the Shepherd y la estación de bomberos 11:",
+    "ko": "Altadena 골프장과 Christ the Shepherd 루터교회 및 소방서 11 근처에서 5월 22일, 25일, 28일에 수집된 샘플:",
+    "vi": "Các mẫu được thu thập vào ngày 22, 25 và 28 tháng 5 gần Sân golf Altadena và tại Nhà thờ Tin Lành Christ the Shepherd và Đội cứu hỏa 11:",
+    "tl": "Mga sample mula Mayo 22, 25, at 28 malapit sa Altadena Golf Course at sa Christ the Shepherd Lutheran Church at Fire Station 11:",
+    "zh-hans": "在Altadena高尔夫球场和Christ the Shepherd路德教堂及11号消防站附近收集的5月22日、25日和28日样本：",
+    "zh-hant": "在Altadena高爾夫球場和Christ the Shepherd路德教堂及11號消防站附近收集的5月22日、25日和28日樣本：",
+    "hy": "Ալտադենայի գոլֆի խաղահրապարակից և Քրիստոս հովիվ լյութերական եկեղեցուց և հրշեջ կայան 11-ից մոտակայքում՝ մայիսի 22-ի, 25-ի և 28-ի նմուշները՝"
   },
   "track_progress_eaton_data_list_1": {
     "status": "ap_review",
     "comment": "updated 2025-05-07",
-    "en": "All air toxic metals were within background levels. Asbestos was detected on April 28 at Fire Station 11.",
-    "es": "Todos los metales tóxicos en el aire estaban dentro de los niveles normales. Se detectó asbesto el 28 de abril en la estación de bomberos 11.",
-    "ko": "모든 공기 중 유독 금속은 배경 수준 내에 있었습니다. 4월 28일 소방서 11에서 석면이 검출되었습니다.",
-    "vi": "Tất cả các kim loại độc hại trong không khí đều nằm trong mức nền. Amiang đã được phát hiện vào ngày 28 tháng 4 tại Trạm cứu hỏa 11.",
-    "tl": "Lahat ng mga air toxic metal ay nasa background level. Ang asbestos ay natukoy noong Abril 28 sa Fire Station 11.",
-    "zh-hans": "所有空气中有毒金属均在背景水平范围内。4月28日在11号消防站检测到石棉。",
-    "zh-hant": "所有空氣中有毒金屬均在背景水準範圍內。4月28日在11號消防站檢測到石棉。",
-    "hy": "Օդում պարունակվող բոլոր թունավոր մետաղները գտնվում էին ֆոնային մակարդակներում։ Ապրիլի 28-ին հրշեջ կայան 11-ում հայտնաբերվել է ասբեստ։"
+    "en": "Some air toxic metals were above background levels but pose no health risk. Asbestos was detected on May 22 near Altadena Golf Course and at Fire Station 11.",
+    "es": "Algunos metales tóxicos en el aire estaban por encima de los niveles normales, pero no representan un riesgo para la salud. Se detectó asbesto el 22 de mayo cerca del campo de golf de Altadena y en la estación de bomberos 11.",
+    "ko": "일부 공기 중 유독성 금속은 배경 수준보다 높았지만 건강 위험은 없습니다. 5월 22일 Altadena 골프장과 소방서 11 근처에서 석면이 감지되었습니다.",
+    "vi": "Một số kim loại độc hại trong không khí cao hơn mức nền nhưng không gây nguy cơ cho sức khỏe. Amiăng được phát hiện vào ngày 22 tháng 5 gần Sân golf Altadena và tại Đội cứu hỏa 11.",
+    "tl": "May ilang air toxic metal na mas mataas sa mga background level, pero wala itong panganib sa kalusugan. May na-detect na asbestos noong Mayo 22 malapit sa Altadena Golf Course at sa Fire Station 11.",
+    "zh-hans": "一些空气中的有毒金属高于背景水平，但不会对健康构成威胁。5月22日在Altadena高尔夫球场和11号消防站附近检测到石棉。",
+    "zh-hant": "一些空氣中的有毒金屬高於背景水準，但不會對健康構成威脅。5月22日在Altadena高爾夫球場和11號消防站附近檢測到石棉。",
+    "hy": "Օդում պարունակվող թունավոր մետաղների որոշ բարձրացված մակարդակներ, սակայն առողջության համար վտանգ չեն ներկայացնում: Ասբեստը հայտնաբերվել է մայիսի 22-ին՝ Ալտադենայի գոլֆի խաղահրապարակից և հրշեջ կայան 11-ից մոտակայքում։"
   },
   "track_progress_eaton_data_list_2": {
     "status": "ap_review",
@@ -1077,17 +1088,6 @@
     "zh-hans": "PM10 和 PM2.5 水平仍低于联邦标准。",
     "zh-hant": "PM10 和 PM2.5 水準仍低於聯邦標準。",
     "hy": "PM10 և PM2.5 մակարդակները մնում են դաշնային չափանիշներից ցածր։"
-  },
-  "track_progress_eaton_data_list_3": {
-    "status": "ap_review",
-    "en": "May 1 samples collected at all three sites are being analyzed.",
-    "es": "Las muestras del 1 de mayo recolectadas en los tres sitios están siendo analizadas.",
-    "ko": "세 곳 모두에서 수집된 5월 1일 샘플이 분석되고 있습니다.",
-    "vi": "Các mẫu được thu thập vào ngày 1 tháng 5 tại cả ba địa điểm đang được phân tích.",
-    "tl": "Ang mga sample na nakolekta noong Mayo 1 sa lahat ng tatlong site ay kasalukuyang sinusuri.",
-    "zh-hans": "在所有三个地点收集的 5 月 1日样本正在分析中。",
-    "zh-hant": "在所有三個地點收集的 5 月 1日樣本正在分析中。",
-    "hy": "Մայիսի 1-ի նմուշները, որոնք հավաքվել են երեք կայաններում, այժմ վերլուծվում են։"
   },
   "track_progress_palisades_data_results": {
     "status": "avantpage_delivery",
@@ -1103,14 +1103,14 @@
   },
   "track_progress_will_rogers_results_2": {
     "status": "ap_review",
-    "en": "Samples from April 25 and 28 near Will Rogers State Beach and at Fire Station 69:",
-    "es": "Muestras del 25 y 28 de abril cerca de Will Rogers State Beach y en la estación de bomberos 69:",
-    "ko": "윌 로저스 주립 해변과 소방서 69 근처의 4월 25일 및 28일 샘플:",
-    "vi": "Mẫu ngày 25 và 28 tháng 4 gần Bãi biển Bang Will Rogers và tại Trạm cứu hỏa 69:",
-    "tl": "Mga sample mula Abril 25 at 28 malapit sa Will Rogers State Beach at sa Fire Station 69:",
-    "zh-hans": "4月25日和28日来自Will Rogers州立海滩和69号消防站附近的样本：",
-    "zh-hant": "4月25日和28日來自Will Rogers州立海灘和69號消防站附近的樣本：",
-    "hy": "Ապրիլի 25-ի և 28-ի նմուշները՝ Ուիլ Ռոջերսի նահանգային ծովափից և հրշեջ կայան 69-ից մոտակայքում։"
+    "en": "Samples from May 22, 25, and 28 near Will Rogers State Beach and at Fire Station 69:",
+    "es": "Muestras del 22, 25 y 28 de mayo cerca de Will Rogers State Beach y en la estación de bomberos 69:",
+    "ko": "윌 로저스 주립 해변과 소방서 69 근처에서 5월 22일, 25일, 28일에 수집된 샘플:",
+    "vi": "Các mẫu được thu thập vào ngày 22, 25 và 28 tháng 5 gần Bãi biển Bang Will Rogers và tại Đội cứu hỏa 69:",
+    "tl": "Mga sample mula Mayo 22, 25, at 28 malapit sa Will Rogers State Beach at sa Fire Station 69:",
+    "zh-hans": "在Will Rogers州立海滩和69号消防站附近收集的5月22日、25日和28日样本：",
+    "zh-hant": "在Will Rogers州立海灘和69號消防站附近收集的5月22日、25日和28日樣本：",
+    "hy": "Ուիլ Ռոջերսի նահանգային ափին և հրշեջ կայան 69-ի մոտակայքում՝ մայիսի 22-ի, 25-ի և 28-ի նմուշները՝"
   },
   "track_progress_pasisades_data_list_1": {
     "status": "ap_review",
@@ -1135,30 +1135,17 @@
     "zh-hant": "PM10 和 PM2.5 水準仍低於聯邦標準。",
     "hy": "PM10 և PM2.5 մակարդակները մնում են դաշնային չափանիշներից ցածր։"
   },
-  "track_progress_pasisades_data_list_3": {
-    "status": "ap_review",
-    "comment": "updated 2025-05-07",
-    "en": "May 1 samples collected at both sites are being analyzed.",
-    "es": "Las muestras del 1 de mayo recolectadas en ambos sitios están siendo analizadas.",
-    "ko": "두 곳 모두에서 수집된 5월 1일 샘플이 분석되고 있습니다.",
-    "vi": "Các mẫu được thu thập vào ngày 1 tháng 5 tại cả hai địa điểm đang được phân tích.",
-    "tl": "Ang mga sample na nakolekta noong Mayo 1 sa parehong site ay kasalukuyang sinusuri.",
-    "zh-hans": "在两个地点收集的 5 月 1日样本正在分析中。",
-    "zh-hant": "在兩個地點收集的 5 月 1日樣本正在分析中。",
-    "hy": "Մայիսի 1-ի նմուշները, որոնք հավաքվել են երկու կայաններում, այժմ վերլուծվում են։"
-  },
-
   "track_progress_air_quality_report_date": {
     "status": "ap_review",
-    "comment": "updated 2025-05-07",
-    "en": "Data as of 5/7/2025 at 2:30 PM",
-    "es": "Datos del 7 de mayo de 2025 a las 2:30 PM",
-    "ko": "2025년 5월 7일 오후 2:30 기준 데이터",
-    "vi": "Dữ liệu từ ngày 7 tháng 5 năm 2025 lúc 2:30 PM",
-    "tl": "Data as of 5/7/2025 at 2:30 PM",
-    "zh-hans": "数据截至2025年5月7日14:30",
-    "zh-hant": "數據截至2025年5月7日14:30",
-    "hy": "Նշումը կատարվել է 2025 թվականի 5 ամիսի 7-ին օրը 14:30-ին։"
+    "comment": "updated 2025-06-11",
+    "en": "Data as of 6/11/2025 at 2:30 PM",
+    "es": "Datos al 11/06/2025 a las 2:30 PM",
+    "ko": "2025년 6월 11일 오후 2시 30분 기준 데이터",
+    "vi": "Dữ liệu tính đến ngày 11/6/2025 lúc 2:30 chiều",
+    "tl": "Data as of 6/11/2025 at 2:30 PM",
+    "zh-hans": "截至2025年6月11日下午2:30的数据",
+    "zh-hant": "截至2025年6月11日下午2:30的數據",
+    "hy": "Տվյալներ՝ 2025թ․ հունիսի 11-ի ժամը 14:30-ի դրությամբ"
   },
 
   "track_progress_all_results_from_the_stationary_sites_are_available": {
