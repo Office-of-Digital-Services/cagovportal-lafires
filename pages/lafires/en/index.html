@@ -10,3 +10,16 @@ permalink: /LAfires/
 ---
 {%- include "src/_includes/index-shared.html" -%}
 
+<script>
+  // English la fires homepage only
+  // Redirect varients of /lafires/ to /LAfires/
+  (function () {
+    const goodPath = "/LAfires/";
+
+    // If the URL is not correctly cased, update it
+    if (window.location.pathname !== goodPath || window.location.search) {
+      console.info("Redirecting to correct path: " + goodPath);
+      window.history.replaceState(null, "", goodPath);
+    }
+  })();
+</script>
