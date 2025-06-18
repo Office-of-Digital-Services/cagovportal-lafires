@@ -116,79 +116,273 @@
 
       <p>{{ 'health_and_safety_medical_help_description_3' | i18n | safe }}</p>
 
+      <!--UPDATED MENTAL HEALTH-->
+
       <h2>{{ 'health_and_safety_mental_health_support' | i18n }}</h2>
-      <p>{{ 'health_and_safety_mental_health_support_description' | i18n }}</p>
-
       <p>
-        {{ 'health_and_safety_mental_health_support_description_2' | i18n }}
+        <!-- Navigating disaster recovery is stressful and overwhelming. Get mental
+        and emotional support for yourself and your loved ones. -->
+        {{ 'health_and_safety_mental_health_support_description' | i18n }}
       </p>
 
-      <ul>
-        <li class="m-t">
-          {{ 'health_and_safety_mental_health_support_list_1' | i18n | safe }}
-          <ul>
-            <li class="m-b m-t">
-              {{ 'health_and_safety_mental_health_support_list_1_1' | i18n |
-              safe }}
-            </li>
-          </ul>
-        </li>
-        <li class="m-t">
-          {{ 'health_and_safety_mental_health_support_list_2' | i18n | safe }}
-          <ul>
-            <li class="m-b m-t">
-              {{ 'health_and_safety_mental_health_support_list_1_2' | i18n |
-              safe }}
-            </li>
-          </ul>
-        </li>
-        <li class="m-t">
-          {{ 'health_and_safety_mental_health_support_list_3' | i18n | safe }}
-          <ul>
-            <li class="m-b m-t">
-              {{ 'health_and_safety_mental_health_support_list_1_3' | i18n |
-              safe }}
-            </li>
-          </ul>
-        </li>
-        <li class="m-t">
-          {{ 'health_and_safety_mental_health_support_list_4' | i18n | safe }}
-          <ul>
-            <li class="m-b m-t">
-              {{ 'health_and_safety_mental_health_support_list_1_4' | i18n |
-              safe }}
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <h3 class="lead">
+        <!-- Connect to free confidential emotional support via call, text, and chat -->
+        {{ 'health_and_safety_mh_description_2' | i18n }}
+      </h3>
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a
+                href="https://dmh.lacounty.gov/our-services/disaster-services/access-hotline/"
+                >{{ 'health_and_safety_mh_card_1_header' | i18n }}
+                <!-- Los Angeles County Mental Health Help Line -->
+              </a>
+            </h4>
+            <p>
+              {{ 'health_and_safety_mh_card_1_description' | i18n }}
+              <!-- This hotline provides disaster victims with screening, assessment,
+              referrals, and crisis counseling over the phone. Available 24
+              hours a day and in multiple languages. -->
+            </p>
+            <ul>
+              <li>
+                {{ 'health_and_safety_mh_card_1_list_1' | i18n | safe }}
+                <!-- Call: 800-854-7771 -->
+              </li>
+              <li>
+                {{ 'health_and_safety_mh_card_1_list_2' | i18n }}
+                <!--  Text “LA” to 741741 -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://www.calhope.org/">
+                {{ 'health_and_safety_mh_card_2_header' | i18n }}
+                <!-- CalHOPE --></a
+              >
+            </h4>
+            <p>
+              {{ 'health_and_safety_mh_card_2_description' | i18n }}
+              <!-- Peer-run crisis warm line offers confidential emotional support.
+              Available 24 hours a day. -->
+            </p>
+            <ul>
+              <li>
+                {{ 'health_and_safety_mh_card_2_list_1' | i18n | safe }}
+                <!-- Call or text: 833-317-4673 for English and 833-642-7696 for
+                Spanish -->
+              </li>
+              <li>
+                Connect via <a href="https://calhopeconnect.org/">chat</a>
+                <!-- {{ 'health_and_safety_mh_card_2_list_2' | i18n | safe }} -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a
+                href="https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline"
+                >{{ 'health_and_safety_mh_card_3_header' | i18n }}</a
+              >
+              <!-- Disaster Distress Helpline -->
+            </h4>
+            <p>
+              {{ 'health_and_safety_mh_card_3_description' | i18n }}
+              <!-- This helpline provides counseling and support for people that are
+              upset by disasters. Available 24 hours a day and in multiple
+              languages. -->
+            </p>
+            <ul>
+              <li>
+                {{ 'health_and_safety_mh_card_3_list_1' | i18n | safe }}
+                <!-- Call: 800-985-5990 -->
+              </li>
+            </ul>
+          </div>
+        </div>
 
-      <p>
-        {{ 'health_and_safety_mental_health_support_description_3' | i18n }}
-      </p>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://www.ioaging.org/friendship-line-california/"
+                >{{ 'health_and_safety_mh_card_4_header' | i18n }}</a
+              >
+              <!-- Friendship Line -->
+            </h4>
+            <p>
+              {{ 'health_and_safety_mh_card_4_description' | i18n }}
+              <!-- Connects Californians ages 60+ with someone ready to provide
+              emotional support and a listening ear. -->
+            </p>
+            <ul>
+              <li>
+                {{ 'health_and_safety_mh_card_4_list_1' | i18n | safe }}
+                <!-- Call: 888-670-1360 -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://988lifeline.org/"
+                >{{ 'health_and_safety_mh_card_5_header' | i18n }}</a
+              >
+              <!-- 988 Suicide & Crisis Lifeline -->
+            </h4>
+            <p>
+              {{ 'health_and_safety_mh_card_5_description' | i18n }}
+              <!-- Free and confidential emotional support for people in suicidal
+              crisis or emotional distress. Available 24 hours a day in English
+              and Spanish.  -->
+            </p>
+            <ul>
+              <li>
+                {{ 'health_and_safety_mh_card_5_list_1' | i18n | safe }}
+                <!-- Call or text: 988 -->
+              </li>
+              <li>
+                {{ 'health_and_safety_mh_card_5_list_2' | i18n | safe }}
+                <!-- Connect via <a href="https://chat.988lifeline.org/">chat</a>  -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-      <ul>
-        <li class="m-t">
-          Find
-          <a href="https://www.chhs.ca.gov/youthresources/"
-            >mental health resources for youth</a
-          >
-          {# {{ 'health_and_safety_mental_health_support_list_5' | i18n | safe
-          }} #}
-        </li>
-        <li class="m-t">
-          Get
-          <a href="https://altercareline.com/"
-            >in-person or phone counseling from AlterCareLine</a
-          >
-          {# {{ 'health_and_safety_mental_health_support_list_6' | i18n | safe
-          }} #}
-        </li>
-        <li class="m-t">
-          Check if your workplace has an Employee Assistance Program with
-          confidential counseling {# {{
-          'health_and_safety_mental_health_support_list_7' | i18n }} #}
-        </li>
-      </ul>
+      <h3 class="lead">
+        {{ 'health_and_safety_mh_lead_2' | i18n }}
+        <!-- Connect to a counselor for free, compassionate emotional support -->
+      </h3>
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              {{ 'health_and_safety_mh_card_9_header' | i18n | safe }}
+              <!-- <a href="https://altercareline.com/about/">AlterCareLine</a> (<a
+                href="https://www.fema.gov/fact-sheet/crisis-counseling-assistance-training-program"
+                >Crisis Counseling Program</a
+              >) -->
+            </h4>
+            <p>
+              {{ 'health_and_safety_mh_card_9_description' | i18n }}
+              <!-- Offers a safe, supportive space for individuals and families
+              impacted by the wildfires. -->
+            </p>
+            <ul>
+              <li>
+                {{ 'health_and_safety_mh_card_9_list_1' | i18n }}
+                <!-- Services include 1-on-1 counseling, community support groups,
+                in-person support, and stress and anxiety relief tools. -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://www.hellobrightline.com/brightlifekids/"
+                >{{ 'health_and_safety_mh_card_7_header' | i18n }}</a
+              >
+              <!-- BrightLife Kids -->
+            </h4>
+            <p>
+              {{ 'health_and_safety_mh_card_7_description' | i18n }}
+
+              <!-- Free personalized support for California families. -->
+            </p>
+            <ul>
+              <li>
+                {{ 'health_and_safety_mh_card_7_list_1' | i18n }}
+
+                <!-- For parents/caregivers and children ages 0-12. Available in
+                multiple languages. -->
+              </li>
+              <li>
+                {{ 'health_and_safety_mh_card_7_list_2' | i18n }}
+                <!-- Services include live, 1-on-1 video sessions, secure chat,
+                on-demand content, and more. -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://solunaapp.com/"
+                >{{ 'health_and_safety_mh_card_6_header' | i18n }}</a
+              >
+              <!-- Soluna -->
+            </h4>
+            <p>
+              {{ 'health_and_safety_mh_card_6_description' | i18n }}
+              <!-- This app provides access to mental health and wellness coaches for
+              teens and older adults ages 13-25. Available in multiple
+              languages. -->
+            </p>
+            <ul>
+              <li>
+                {{ 'health_and_safety_mh_card_6_list_1' | i18n }}
+
+                <!-- Online resources are available 24 hours a day. Drop-in coaching
+                is available from 10am - 9pm. -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="lead">
+        {{ 'health_and_safety_mh_lead_3' | i18n }}
+        <!-- Or find more resources -->
+      </h3>
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://www.mirrorjournal.com/"
+                >{{ 'health_and_safety_mh_card_8_header' | i18n }}</a
+              >
+              <!-- Mirror -->
+            </h4>
+            <p>
+              {{ 'health_and_safety_mh_card_8_description' | i18n }}
+              <!-- A clinician-developed journaling app for ages 13+ that provides a
+              private space with adaptive, personalized features to deepen
+              self-reflection. -->
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              {{ 'health_and_safety_mh_card_10_header' | i18n }}
+              <!-- Employee Assistance Programs -->
+            </h4>
+            <p>
+              {{ 'health_and_safety_mh_card_10_description' | i18n }}
+              <!-- Check if your workplace has an Employee Assistance Program with
+              confidential counseling. -->
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
