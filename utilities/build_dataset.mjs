@@ -23,67 +23,60 @@ if (!API_KEY) {
 }
 
 const fetchAirtableData = async () => {
-  try {
-    console.log("🔹 Fetching Airtable data...");
+  console.log("🔹 Fetching Airtable data...");
 
-    const response = await fetch(API_URL, {
-      method: "GET",
-      headers: {
-        Authorization: `Bearer ${API_KEY}`,
-        "Content-Type": "application/json"
-      }
-    });
+  const response = await fetch(API_URL, {
+    method: "GET",
+    headers: {
+      Authorization: `Bearer ${API_KEY}`,
+      "Content-Type": "application/json"
+    }
+  });
 
-    if (!response.ok) {
-      if (response.status === 401) {
-        throw new Error(
-          `HTTP Error: ${response.status} - Unauthorized.
+  if (!response.ok) {
+    if (response.status === 401) {
+      throw new Error(
+        `HTTP Error: ${response.status} - Unauthorized.
           Likely cause: Your Airtable Personal Access Token (PAT) is invalid, in the old Airtable PAT format, expired, or lacks the necessary permissions.
           Try generating a new AIRTABLE_API_KEY and replacing the previous one in your .env file.`
-        );
-      }
-
-      throw new Error(
-        `HTTP Error: ${response.status} - ${response.statusText}`
       );
     }
 
-    /** @typedef {{ id: string, fields: Record<string, any> }} AirtableRecord */
-    /** @typedef {{ records: AirtableRecord[] }} AirtableResponse */
+    throw new Error(`HTTP Error: ${response.status} - ${response.statusText}`);
+  }
 
-    /** @type {any} */
-    const responseJson = await response.json();
+  /** @typedef {{ id: string, fields: Record<string, any> }} AirtableRecord */
+  /** @typedef {{ records: AirtableRecord[] }} AirtableResponse */
 
-    if (!responseJson.records || responseJson.records.length === 0) {
-      console.warn("⚠️ WARNING: No records found in Airtable.");
-      return [];
-    }
+  /** @type {any} */
+  const responseJson = await response.json();
 
-    // ✅ Extract fields from each record
-    const records = responseJson.records.map(record => record.fields);
-
-    console.log(`✅ Successfully retrieved ${records.length} records.`);
-    const sorted = sortFieldsInObjects(records);
-
-    // Remove empty columns from sorted object
-    sorted.forEach(record => {
-      Object.keys(record).forEach(key => {
-        if (
-          record[key]
-            ?.toString()
-            .replace(/\u00A0/g, " ")
-            .trim().length === 0
-        ) {
-          delete record[key];
-        }
-      });
-    });
-
-    return sorted;
-  } catch (error) {
-    console.error("❌ ERROR Fetching Airtable Data:", error);
+  if (!responseJson.records || responseJson.records.length === 0) {
+    console.warn("⚠️ WARNING: No records found in Airtable.");
     return [];
   }
+
+  // ✅ Extract fields from each record
+  const records = responseJson.records.map(record => record.fields);
+
+  console.log(`✅ Successfully retrieved ${records.length} records.`);
+  const sorted = sortFieldsInObjects(records);
+
+  // Remove empty columns from sorted object
+  sorted.forEach(record => {
+    Object.keys(record).forEach(key => {
+      if (
+        record[key]
+          ?.toString()
+          .replace(/\u00A0/g, " ")
+          .trim().length === 0
+      ) {
+        delete record[key];
+      }
+    });
+  });
+
+  return sorted;
 };
 
 // Function to sort fields in an object recursively
