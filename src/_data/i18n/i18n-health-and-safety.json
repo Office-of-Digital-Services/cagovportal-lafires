@@ -1099,14 +1099,14 @@
   },
   "health_and_safety_mh_lead_3": {
     "status": "ap_review",
-    "en": "Connect to a counselor for free, compassionate emotional support",
-    "es": "Conéctese con un consejero para obtener apoyo emocional gratuito y compasivo",
-    "ko": "무료로 동정 어린 감정 지원을 제공하는 상담사와 연결하세요",
-    "vi": "Kết nối với một cố vấn để được hỗ trợ cảm xúc miễn phí và đầy lòng trắc ẩn",
-    "tl": "Kumonekta sa isang tagapayo para sa libreng, mahabagin na suporta sa emosyon",
-    "zh-hans": "连接到一位提供免费、富有同情心的情感支持的顾问",
-    "zh-hant": "連接到一位提供免費、富有同情心的情感支持的顧問",
-    "hy": "Կապվեք խորհրդատուի հետ՝ անվճար, կարեկցող հուզական աջակցություն ստանալու համար"
+    "en": "Or find more resources",
+    "es": "O encuentre más recursos",
+    "ko": "또는 더 많은 리소스 찾기",
+    "vi": "Hoặc tìm thêm tài nguyên",
+    "tl": "O maghanap ng higit pang mga mapagkukunan",
+    "zh-hans": "或查找更多资源",
+    "zh-hant": "或查找更多資源",
+    "hy": "Կամ գտեք ավելի շատ ռեսուրսներ"
   },
   "health_and_safety_mh_card_8_header": {
     "status": "ap_review",
