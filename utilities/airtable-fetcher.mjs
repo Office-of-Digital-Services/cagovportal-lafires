@@ -65,16 +65,20 @@ async function fetchAirtableRecords(apiPath) {
 
   // Remove empty columns from sorted object
   body.forEach(record => {
+    //trim all string fields
     Object.keys(record.fields).forEach(key => {
-      if (
-        record.fields[key]
-          ?.toString()
-          .replace(/\u00A0/g, " ")
-          .trim().length === 0
-      ) {
-        delete record.fields[key];
+      if (typeof record.fields[key] === "string") {
+        record.fields[key] = record.fields[key]
+          .replace(/\u00A0/g, " ") // replace non-breaking spaces with regular spaces
+          .trim();
       }
     });
+
+    for (const key in record.fields) {
+      if (!record.fields[key]?.toString().length) {
+        delete record.fields[key];
+      }
+    }
 
     // convert any fields that are arrays of length 1 to just the first item
     Object.keys(record.fields).forEach(key => {

@@ -236,8 +236,11 @@
 
       <div data-service-type="{{service_type.fields.ID}}">
         <h2 class="color-p2-darker">
-          {{ audience_type.fields.Audience + " - " +
-          service_type.fields["Service type"] }}
+          {{ ("sf_audience_type_" + audience_type.fields["Audience ID"] +
+          "_label") | i18n }} -
+          <!---->
+          {{ ("sf_service_type_" + service_type.fields["Service Type ID"] +
+          "_label") | i18n }}
         </h2>
 
         {%- for category in service_type.children_categories %}
@@ -245,7 +248,9 @@
         <div
           data-service-type="{{service_type.fields.ID}}"
           data-service-category-id="{{category.fields.ID}}">
-          <h3>{{ category.fields.Category }}</h3>
+          <h3>
+            {{ ("sf_cat_" + category.fields["Category ID"] + "_label") | i18n }}
+          </h3>
 
           <div class="row">
             {%- for service in category.children_services -%}
@@ -258,7 +263,9 @@
               <div
                 class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
                 <div class="d-flex">
-                  <h4 class="m-b-sm">{{ item.Service_name }}</h4>
+                  <h4 class="m-b-sm">
+                    {{ ("sf_" + item.ID + "_service_name") | i18n }}
+                  </h4>
                   <button
                     type="button"
                     class="btn-close ms-auto m-t-md bg-gray-100 rounded-circle p-a-sm pos-rel top-minus-5 right-minus-sm"
@@ -267,9 +274,11 @@
                 </div>
 
                 <p class="department font-size-14 color-p2 font-weight-600">
-                  {{ item.Entity }}
+                  {{ ("sf_" + item.ID + "_entity") | i18n }}
                 </p>
-                <p class="small">{{ item.Description }}</p>
+                <p class="small">
+                  {{ ("sf_" + item.ID + "_description") | i18n }}
+                </p>
 
                 <h5 class="m-t-0">{{ 'sf_how_to_get_this_service' | i18n }}</h5>
 

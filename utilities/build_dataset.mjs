@@ -6,6 +6,8 @@ import fs from "node:fs";
 
 const service_finder_base = "app6t1QEuuPs8NUhg/";
 const service_finder_data_path = "./src/_data/service_finder_data.json";
+const service_finder_translations_path =
+  "./src/_data/i18n/i18n-service-finder-dynamic.json";
 
 /** @type {import("./airtable-fetcher.mjs").FetchJob[]} */
 const JOBS = [
@@ -84,4 +86,103 @@ const JOBS = [
   );
 
   console.log(`✅ Wrote service finder data to ${service_finder_data_path}`);
+
+  writeTranslations(all_audience);
 })();
+
+function writeTranslations(alldata) {
+  const translations = JSON.parse(
+    fs.readFileSync(service_finder_translations_path, "utf8")
+  );
+
+  const freshTranslations = {};
+
+  let updatedCount = 0;
+
+  /**
+   *
+   * @param {string} key
+   * @param {string} en
+   */
+  const updateTranslation = (key, en) => {
+    const blank = {
+      status: "english_only",
+      en
+    };
+
+    const value = translations[key];
+
+    if (value?.en != blank.en) {
+      freshTranslations[key] = blank;
+      updatedCount++;
+    } else {
+      freshTranslations[key] = value;
+    }
+  };
+
+  alldata.forEach(audience => {
+    updateTranslation(
+      `sf_audience_type_${audience.fields["Audience ID"]}_label`,
+      audience.fields["Audience"]
+    );
+
+    audience.children_service_types.forEach(service_type => {
+      updateTranslation(
+        `sf_service_type_${service_type.fields["Service Type ID"]}_label`,
+        service_type.fields["Service type"]
+      );
+
+      service_type.children_categories.forEach(category => {
+        const category_fields = category.fields;
+        const category_id = category_fields["Category ID"];
+
+        updateTranslation(
+          `sf_cat_${category_id}_label`,
+          category_fields.Category
+        );
+        updateTranslation(
+          `sf_cat_${category_id}_description`,
+          category_fields["Category description"]
+        );
+
+        category.children_services.forEach(
+          (
+            /** @type {{ fields: { ID: string; Service_name: string; Description: string; Entity: string; }; }} */ service
+          ) => {
+            const service_fields = service.fields;
+            const service_id = service_fields.ID;
+
+            updateTranslation(
+              `sf_${service_id}_service_name`,
+              service_fields.Service_name
+            );
+            updateTranslation(
+              `sf_${service_id}_description`,
+              service_fields.Description
+            );
+            updateTranslation(`sf_${service_id}_entity`, service_fields.Entity);
+          }
+        );
+      });
+    });
+  });
+
+  if (updatedCount) {
+    // Sort all the keys in the translations object
+    const sortedTranslations = Object.keys(freshTranslations)
+      .sort()
+      .reduce((obj, key) => {
+        obj[key] = freshTranslations[key];
+        return obj;
+      }, {});
+
+    // Write the updated translations back to the file
+    fs.writeFileSync(
+      service_finder_translations_path,
+      JSON.stringify(sortedTranslations, null, 2)
+    );
+    console.log(
+      `✅ Wrote ${updatedCount} service finder translations to ${service_finder_translations_path}`
+    );
+  }
+}
