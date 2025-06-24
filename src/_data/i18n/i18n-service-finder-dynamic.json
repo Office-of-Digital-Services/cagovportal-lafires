@@ -23,7 +23,7 @@
     "hy": "ԱՄՆ առողջապահության և մարդկային ծառայությունների վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_21_name": {
+  "sf_21_service_name": {
     "status": "english_only",
     "en": "Prescription medicine help"
   },
@@ -51,7 +51,7 @@
     "hy": "Արտակարգ իրավիճակների կառավարման դաշնային գործակալություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_22_name": {
+  "sf_22_service_name": {
     "status": "english_only",
     "en": "Temporary housing"
   },
@@ -79,7 +79,7 @@
     "hy": "Արտակարգ իրավիճակների կառավարման դաշնային գործակալություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_23_name": {
+  "sf_23_service_name": {
     "status": "english_only",
     "en": "FEMA disaster assistance"
   },
@@ -99,7 +99,7 @@
     "hy": "Փոքր բիզնեսների ադմինիստրացիա",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_25_name": {
+  "sf_25_service_name": {
     "status": "english_only",
     "en": "Disaster loans for businesses"
   },
@@ -127,7 +127,7 @@
     "hy": "Կալիֆոռնիայի Հարկերի և տուրքերի վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_26_name": {
+  "sf_26_service_name": {
     "status": "english_only",
     "en": "Business use tax or fee extension and relief"
   },
@@ -155,7 +155,7 @@
     "hy": "Ֆրանչայզինգի հարկային մարմին",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_27_name": {
+  "sf_27_service_name": {
     "status": "english_only",
     "en": "Business income tax extension"
   },
@@ -183,7 +183,7 @@
     "hy": "Կալիֆոռնիայի Զբաղվածության զարգացման վարչություն ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_28_name": {
+  "sf_28_service_name": {
     "status": "english_only",
     "en": "Employer payroll tax and reporting extension"
   },
@@ -203,7 +203,7 @@
     "hy": "Կալիֆոռնիայի Փոքր բիզնեսների փաստաբանի գրասենյակ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_30_name": {
+  "sf_30_service_name": {
     "status": "english_only",
     "en": "Business recovery resources"
   },
@@ -231,7 +231,7 @@
     "hy": "Կալիֆոռնիայի Զբաղվածության զարգացման վարչություն ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_31_name": {
+  "sf_31_service_name": {
     "status": "english_only",
     "en": "Unemployment benefits"
   },
@@ -259,7 +259,7 @@
     "hy": "Կալիֆոռնիայի Զբաղվածության զարգացման վարչություն ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_32_name": {
+  "sf_32_service_name": {
     "status": "english_only",
     "en": "Disability benefits"
   },
@@ -287,7 +287,7 @@
     "hy": "Կալիֆոռնիայի Զբաղվածության զարգացման վարչություն ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_33_name": {
+  "sf_33_service_name": {
     "status": "english_only",
     "en": "Paid Family Leave"
   },
@@ -315,7 +315,7 @@
     "hy": "Կալիֆոռնիայի Զբաղվածության զարգացման վարչություն ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_34_name": {
+  "sf_34_service_name": {
     "status": "english_only",
     "en": "Job search resources"
   },
@@ -343,7 +343,7 @@
     "hy": "Կալիֆոռնիայի Զբաղվածության զարգացման վարչություն ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_35_name": {
+  "sf_35_service_name": {
     "status": "english_only",
     "en": "Job training"
   },
@@ -371,7 +371,7 @@
     "hy": "Կալիֆոռնիայի Զբաղվածության զարգացման վարչություն ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_36_name": {
+  "sf_36_service_name": {
     "status": "english_only",
     "en": "CalJOBS job search system"
   },
@@ -399,7 +399,7 @@
     "hy": "Կալիֆոռնիայի Հանրային առողջության վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_37_name": {
+  "sf_37_service_name": {
     "status": "english_only",
     "en": "WIC food benefits for women and children"
   },
@@ -427,7 +427,7 @@
     "hy": "Կալիֆոռնիայի Մարդկային ծառայությունների վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_38_name": {
+  "sf_38_service_name": {
     "status": "english_only",
     "en": "CalFresh food benefits"
   },
@@ -455,7 +455,7 @@
     "hy": "Կալիֆոռնիայի Մարդկային ծառայությունների վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_39_name": {
+  "sf_39_service_name": {
     "status": "english_only",
     "en": "Food banks and food pantries"
   },
@@ -475,7 +475,7 @@
     "hy": "Կալիֆոռնիայի ֆինանսական պաշտպանության և նորարարության դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_43_name": {
+  "sf_43_service_name": {
     "status": "english_only",
     "en": "Mortgage relief"
   },
@@ -503,7 +503,7 @@
     "hy": "Կալիֆոռնիայի Մարդկային ծառայությունների վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_44_name": {
+  "sf_44_service_name": {
     "status": "english_only",
     "en": "State disaster grants"
   },
@@ -531,7 +531,7 @@
     "hy": "Կալիֆոռնիայի պարենի և գյուղատնտեսության դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_45_name": {
+  "sf_45_service_name": {
     "status": "english_only",
     "en": "Pet assistance"
   },
@@ -559,7 +559,7 @@
     "hy": "Կալիֆոռնիայի Մարդկային ծառայությունների վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_46_name": {
+  "sf_46_service_name": {
     "status": "english_only",
     "en": "Help for immigrants"
   },
@@ -579,7 +579,7 @@
     "hy": "Կալիֆոռնիայի ապահովագրության վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_48_name": {
+  "sf_48_service_name": {
     "status": "english_only",
     "en": "Insurance tips and resources for wildfire claims"
   },
@@ -607,7 +607,7 @@
     "hy": "Կալիֆոռնիայի ապահովագրության վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_49_name": {
+  "sf_49_service_name": {
     "status": "english_only",
     "en": "Insurance protections"
   },
@@ -635,7 +635,7 @@
     "hy": "Կալիֆոռնիայի ապահովագրության վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_50_name": {
+  "sf_50_service_name": {
     "status": "english_only",
     "en": "Help with insurance claims"
   },
@@ -663,7 +663,7 @@
     "hy": "Կալիֆոռնիայի ավտոտրանսպորտային միջոցների դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_52_name": {
+  "sf_52_service_name": {
     "status": "english_only",
     "en": "Driver's license or ID cards"
   },
@@ -691,7 +691,7 @@
     "hy": "Կալիֆոռնիայի ավտոտրանսպորտային միջոցների դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_53_name": {
+  "sf_53_service_name": {
     "status": "english_only",
     "en": "Vehicle titles"
   },
@@ -719,7 +719,7 @@
     "hy": "Կալիֆորնիայի Բնակարանաշինության և համայնքային զարգացման վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_54_name": {
+  "sf_54_service_name": {
     "status": "english_only",
     "en": "Manufactured and mobile home documents"
   },
@@ -747,7 +747,7 @@
     "hy": "Ֆրանչայզինգի հարկային մարմին",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_55_name": {
+  "sf_55_service_name": {
     "status": "english_only",
     "en": "Personal income tax documents and info"
   },
@@ -775,7 +775,7 @@
     "hy": "Կալիֆոռնիայի վետերանների գործերի դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_56_name": {
+  "sf_56_service_name": {
     "status": "english_only",
     "en": "Military service records"
   },
@@ -795,7 +795,7 @@
     "hy": "Կալիֆոռնիայի կապալառուների լիցենզավորման նահանգային խորհուրդ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_58_name": {
+  "sf_58_service_name": {
     "status": "english_only",
     "en": "Verify a contractor license"
   },
@@ -815,7 +815,7 @@
     "hy": "Կալիֆոռնիայի սպառողների գործերի դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_59_name": {
+  "sf_59_service_name": {
     "status": "english_only",
     "en": "Find a licensed contractor"
   },
@@ -843,7 +843,7 @@
     "hy": "Կալիֆոռնիայի Մարդկային ծառայությունների վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_60_name": {
+  "sf_60_service_name": {
     "status": "english_only",
     "en": "Disaster case management"
   },
@@ -871,7 +871,7 @@
     "hy": "Կալիֆոռնիայի վետերանների գործերի դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_61_name": {
+  "sf_61_service_name": {
     "status": "english_only",
     "en": "CalVet home insurance claims"
   },
@@ -899,7 +899,7 @@
     "hy": "Կալիֆոռնիայի վետերանների գործերի դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_63_name": {
+  "sf_63_service_name": {
     "status": "english_only",
     "en": "Help for veterans"
   },
@@ -927,7 +927,7 @@
     "hy": "Ֆրանչայզինգի հարկային մարմին",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_65_name": {
+  "sf_65_service_name": {
     "status": "english_only",
     "en": "2025 income tax extension"
   },
@@ -955,7 +955,7 @@
     "hy": "Կալիֆոռնիայի նահանգապետի գրասենյակ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_66_name": {
+  "sf_66_service_name": {
     "status": "english_only",
     "en": "2025 property tax extension"
   },
@@ -983,7 +983,7 @@
     "hy": "Կալիֆոռնիայի նահանգի հավասարեցման խորհուրդ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_67_name": {
+  "sf_67_service_name": {
     "status": "english_only",
     "en": "Property tax relief"
   },
@@ -1011,7 +1011,7 @@
     "hy": "South Coast-ի Օդի որակի մշտադիտարկման շրջան",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_69_name": {
+  "sf_69_service_name": {
     "status": "english_only",
     "en": "Air safety"
   },
@@ -1039,7 +1039,7 @@
     "hy": "Կալիֆոռնիայի ավտոտրանսպորտային միջոցների դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_70_name": {
+  "sf_70_service_name": {
     "status": "english_only",
     "en": "Disabled parking placards"
   },
@@ -1067,7 +1067,7 @@
     "hy": "Կալիֆոռնիայի ավտոտրանսպորտային միջոցների դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_71_name": {
+  "sf_71_service_name": {
     "status": "english_only",
     "en": "License plates and registration stickers"
   },
@@ -1095,7 +1095,7 @@
     "hy": "Կալիֆոռնիայի ավտոտրանսպորտային միջոցների դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_72_name": {
+  "sf_72_service_name": {
     "status": "english_only",
     "en": "Address changes"
   },
@@ -1123,7 +1123,7 @@
     "hy": "Կալիֆոռնիայի ավտոտրանսպորտային միջոցների դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_73_name": {
+  "sf_73_service_name": {
     "status": "english_only",
     "en": "Vehicle or driver's records"
   },
@@ -1151,7 +1151,7 @@
     "hy": "Կալիֆոռնիայի հանրային ծառայությունների հանձնաժողով",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_75_name": {
+  "sf_75_service_name": {
     "status": "english_only",
     "en": "Consumer protections"
   },
@@ -1179,7 +1179,7 @@
     "hy": "Կալիֆոռնիայի Մարդկային ծառայությունների վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_76_name": {
+  "sf_76_service_name": {
     "status": "english_only",
     "en": "Crisis counseling"
   },
@@ -1207,7 +1207,7 @@
     "hy": "Կալիֆոռնիայի Հանրային առողջության վարչություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_80_name": {
+  "sf_80_service_name": {
     "status": "english_only",
     "en": "Birth, death, and marriage records"
   },
@@ -1235,7 +1235,7 @@
     "hy": "Կալիֆոռնիայի Առողջապահության և մարդկային ծառայությունների գործակալություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_81_name": {
+  "sf_81_service_name": {
     "status": "english_only",
     "en": "Mental health resources for youth"
   },
@@ -1263,7 +1263,7 @@
     "hy": "Կալիֆոռնիայի աշխատանքի և աշխատուժի զարգացման գործակալություն",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_84_name": {
+  "sf_84_service_name": {
     "status": "english_only",
     "en": "Safety information for fire cleanup workers "
   },
@@ -1291,7 +1291,7 @@
     "hy": "Կալիֆոռնիայի նահանգ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_85_name": {
+  "sf_85_service_name": {
     "status": "english_only",
     "en": "Steps to rebuilding"
   },
@@ -1311,7 +1311,7 @@
     "hy": "Լոս Անջելես վարչաշրջան",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_86_name": {
+  "sf_86_service_name": {
     "status": "english_only",
     "en": "2025 wildfire debris removal"
   },
@@ -1339,7 +1339,7 @@
     "hy": "Փոքր բիզնեսների ադմինիստրացիա",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_88_name": {
+  "sf_88_service_name": {
     "status": "english_only",
     "en": "SBA disaster loans for homeowners and renters"
   },
@@ -1359,7 +1359,7 @@
     "hy": "Արդյունաբերական կապերի դեպարտամենտ",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_89_name": {
+  "sf_89_service_name": {
     "status": "english_only",
     "en": "Worker safety laws for cleanup and rebuilding"
   },
@@ -1387,7 +1387,7 @@
     "hy": "ԱՄՆ բանակի ինժեներների կորպուս",
     "comment": "Translation delivered 2025-04-10"
   },
-  "sf_90_name": {
+  "sf_90_service_name": {
     "status": "english_only",
     "en": "Tree removal"
   },
@@ -1407,7 +1407,7 @@
     "hy": "ԱՄՆ բանակի ինժեներների կորպուս",
     "comment": ""
   },
-  "sf_91_name": {
+  "sf_91_service_name": {
     "status": "english_only",
     "en": "2025 wildfire debris removal for commercial properties"
   },
@@ -1419,7 +1419,7 @@
     "status": "english_only",
     "en": "U.S. Department of Homeland Security"
   },
-  "sf_92_name": {
+  "sf_92_service_name": {
     "status": "english_only",
     "en": "Emergency shelter"
   }

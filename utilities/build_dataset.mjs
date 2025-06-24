@@ -126,7 +126,11 @@ function writeTranslations(alldata) {
             }
           };
 
-          updateValue(service.fields.ID, service.fields.Service_name, "name");
+          updateValue(
+            service.fields.ID,
+            service.fields.Service_name,
+            "service_name"
+          );
 
           updateValue(
             service.fields.ID,

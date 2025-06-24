@@ -258,7 +258,9 @@
               <div
                 class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
                 <div class="d-flex">
-                  <h4 class="m-b-sm">{{ item.Service_name }}</h4>
+                  <h4 class="m-b-sm">
+                    {{ ("sf_" + item.ID + "_service_name") | i18n }}
+                  </h4>
                   <button
                     type="button"
                     class="btn-close ms-auto m-t-md bg-gray-100 rounded-circle p-a-sm pos-rel top-minus-5 right-minus-sm"
@@ -267,10 +269,10 @@
                 </div>
 
                 <p class="department font-size-14 color-p2 font-weight-600">
-                  {{ item.Entity }}
+                  {{ ("sf_" + item.ID + "_entity") | i18n }}
                 </p>
                 <p class="small">
-                  {{ "sf_" + item.ID + "_description" | i18n }}
+                  {{ ("sf_" + item.ID + "_description") | i18n }}
                 </p>
 
                 <h5 class="m-t-0">{{ 'sf_how_to_get_this_service' | i18n }}</h5>
