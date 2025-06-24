@@ -44,7 +44,6 @@ const BASE_URL = "https://api.airtable.com/v0";
  * @typedef {object} AirtableRecord
  * @property {string} id
  * @property {string} createdTime
- * @property {AirtableRecord[]} [children]
  * @property {AirtableFields} fields
  */
 

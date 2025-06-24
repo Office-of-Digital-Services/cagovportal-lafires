@@ -34,16 +34,22 @@ const JOBS = [
    * @param {import("./airtable-fetcher.mjs").AirtableRecord[]} childrows
    * @param {import("./airtable-fetcher.mjs").AirtableRecord[]} parentrows
    * @param {string} parentField
+   * @param {string} childrenColumnName
    */
-  const fillChildren = (childrows, parentrows, parentField) => {
+  const fillChildren = (
+    childrows,
+    parentrows,
+    parentField,
+    childrenColumnName = "children"
+  ) => {
     childrows.forEach(row => {
       const myparentid = row.fields[parentField];
 
       const parent = parentrows.find(p => p.id === myparentid);
       if (!parent)
         throw new Error(`Parent not found for ${row.id} in ${parentField}`);
-      parent.children = parent.children || [];
-      parent.children.push(row);
+      parent[childrenColumnName] = parent[childrenColumnName] || [];
+      parent[childrenColumnName].push(row);
     });
   };
 
@@ -53,9 +59,24 @@ const JOBS = [
   const [all_services, all_audience, all_service_types, all_categories] =
     alldata;
 
-  fillChildren(all_services, all_categories, "Category Linked");
-  fillChildren(all_categories, all_service_types, "Service type");
-  fillChildren(all_service_types, all_audience, "Audience");
+  fillChildren(
+    all_services,
+    all_categories,
+    "Category Linked",
+    "children_services"
+  );
+  fillChildren(
+    all_categories,
+    all_service_types,
+    "Service type",
+    "children_categories"
+  );
+  fillChildren(
+    all_service_types,
+    all_audience,
+    "Audience",
+    "children_service_types"
+  );
 
   fs.mkdirSync(path.dirname(service_finder_data_path), { recursive: true });
   fs.writeFileSync(
