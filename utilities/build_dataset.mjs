@@ -98,48 +98,58 @@ function writeTranslations(alldata) {
   const freshTranslations = {};
 
   let updatedCount = 0;
+
+  /**
+   *
+   * @param {string} key
+   * @param {string} en
+   */
+  const updateValue = (key, en) => {
+    const blank = {
+      status: "english_only",
+      en
+    };
+
+    const value = translations[key];
+
+    if (value?.en != blank.en) {
+      freshTranslations[key] = blank;
+      updatedCount++;
+    } else {
+      freshTranslations[key] = value;
+    }
+  };
+
   alldata.forEach(audience => {
     audience.children_service_types.forEach(service_type => {
       service_type.children_categories.forEach(category => {
-        category.children_services.forEach(service => {
-          /**
-           *
-           * @param {string} ID
-           * @param {string} en
-           * @param {string} postfix
-           */
-          const updateValue = (ID, en, postfix) => {
-            const key = `sf_${ID}_${[postfix]}`;
+        const category_fields = category.fields;
+        const category_id = category_fields["Category ID"];
 
-            const blank = {
-              status: "english_only",
-              en
-            };
+        updateValue(`sf_cat_${category_id}_label`, category_fields.Category);
+        updateValue(
+          `sf_cat_${category_id}_description`,
+          category_fields["Category description"]
+        );
 
-            const value = translations[key];
+        category.children_services.forEach(
+          (
+            /** @type {{ fields: { ID: string; Service_name: string; Description: string; Entity: string; }; }} */ service
+          ) => {
+            const service_fields = service.fields;
+            const service_id = service_fields.ID;
 
-            if (value?.en != blank.en) {
-              freshTranslations[key] = blank;
-              updatedCount++;
-            } else {
-              freshTranslations[key] = value;
-            }
-          };
-
-          updateValue(
-            service.fields.ID,
-            service.fields.Service_name,
-            "service_name"
-          );
-
-          updateValue(
-            service.fields.ID,
-            service.fields.Description,
-            "description"
-          );
-
-          updateValue(service.fields.ID, service.fields.Entity, "entity");
-        });
+            updateValue(
+              `sf_${service_id}_service_name`,
+              service_fields.Service_name
+            );
+            updateValue(
+              `sf_${service_id}_description`,
+              service_fields.Description
+            );
+            updateValue(`sf_${service_id}_entity`, service_fields.Entity);
+          }
+        );
       });
     });
   });

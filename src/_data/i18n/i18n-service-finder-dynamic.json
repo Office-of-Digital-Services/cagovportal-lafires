@@ -1774,5 +1774,101 @@
   "sf_92_service_name": {
     "status": "english_only",
     "en": "Emergency shelter"
+  },
+  "sf_cat_10_description": {
+    "status": "english_only",
+    "en": "Unemployment, disability, job search tools"
+  },
+  "sf_cat_10_label": {
+    "status": "english_only",
+    "en": "Employment"
+  },
+  "sf_cat_11_description": {
+    "status": "english_only",
+    "en": "Financial help, disaster relief payments"
+  },
+  "sf_cat_11_label": {
+    "status": "english_only",
+    "en": "Financial assistance"
+  },
+  "sf_cat_12_description": {
+    "status": "english_only",
+    "en": "Worker safety, debris removal"
+  },
+  "sf_cat_12_label": {
+    "status": "english_only",
+    "en": "Rebuild your business"
+  },
+  "sf_cat_1_description": {
+    "status": "english_only",
+    "en": "Temporary housing and emergency shelter"
+  },
+  "sf_cat_1_label": {
+    "status": "english_only",
+    "en": "Housing"
+  },
+  "sf_cat_2_description": {
+    "status": "english_only",
+    "en": "Food banks, food benefits"
+  },
+  "sf_cat_2_label": {
+    "status": "english_only",
+    "en": "Food"
+  },
+  "sf_cat_3_description": {
+    "status": "english_only",
+    "en": "Animal shelters, resources for lost pets "
+  },
+  "sf_cat_3_label": {
+    "status": "english_only",
+    "en": "Pets"
+  },
+  "sf_cat_4_description": {
+    "status": "english_only",
+    "en": "Mental health, prescription, air and water safety, cleanup safety"
+  },
+  "sf_cat_4_label": {
+    "status": "english_only",
+    "en": "Health and safety"
+  },
+  "sf_cat_5_description": {
+    "status": "english_only",
+    "en": "Case management, and help for specific groups"
+  },
+  "sf_cat_5_label": {
+    "status": "english_only",
+    "en": "Resources for certain groups"
+  },
+  "sf_cat_6_description": {
+    "status": "english_only",
+    "en": "FEMA, disaster loans, mortgage, renter, and loan protections, and taxes"
+  },
+  "sf_cat_6_label": {
+    "status": "english_only",
+    "en": "Financial assistance"
+  },
+  "sf_cat_7_description": {
+    "status": "english_only",
+    "en": "Driver's licenses, IDs, and birth, death, marriage records and property records."
+  },
+  "sf_cat_7_label": {
+    "status": "english_only",
+    "en": "Replace documents"
+  },
+  "sf_cat_8_description": {
+    "status": "english_only",
+    "en": "Home insurance, insurance claims"
+  },
+  "sf_cat_8_label": {
+    "status": "english_only",
+    "en": "Insurance"
+  },
+  "sf_cat_9_description": {
+    "status": "english_only",
+    "en": "Contractor search tools, debris removal, tree removal"
+  },
+  "sf_cat_9_label": {
+    "status": "english_only",
+    "en": "Rebuilding your house"
   }
 }
