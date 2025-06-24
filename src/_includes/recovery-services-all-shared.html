@@ -229,38 +229,35 @@
           >{{ 'sf_create_link_text' | i18n }}</a
         >
       </p>
-      {%- for service_type in lafires.recovery_services_types -%}
+      {%- for audience_type in lafires.service_finder.alldata %}
+      <h2>{{ audience_type.fields.Audience }}</h2>
       <!---->
-      {%- set categories = lafires.recovery_services_categories |
-      pluck("Type_of_Service",service_type.Type_of_Service) -%}
-      <!---->
+      {%- for service_type in audience_type.children_service_types %}
 
-      <div data-service-type="{{service_type.Section}}">
+      <div data-service-type="{{service_type.fields.ID}}">
         <h2 class="color-p2-darker">
-          {{('sf_service_title_' + service_type.Key) | i18n}}
+          {{ service_type.fields["Service type"] }}
         </h2>
 
-        {%- for service_category in categories -%}
+        {%- for category in service_type.children_categories %}
 
         <div
-          data-service-type="{{service_type.Section}}"
-          data-service-category-id="{{service_category.ID}}">
-          <h3>{{('sf_cat_label_' + service_category.Key) | i18n}}</h3>
+          data-service-type="{{service_type.fields.ID}}"
+          data-service-category-id="{{category.fields.ID}}">
+          <h3>{{ category.fields.Category }}</h3>
 
           <div class="row">
-            {%- for item in airTable |
-            pluck("Category",service_category.Category) | sortBy("Service_name")
-            | sortBy("Entity") -%}
+            {%- for service in category.children_services -%}
+            <!---->
+            {%- set item = service.fields -%}
             <div
               class="col-lg-6 alert"
-              data-service-category-id="{{service_category.ID}}"
+              data-service-category-id="{{category.fields.ID}}"
               data-service-id="{{item.ID}}">
               <div
                 class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
                 <div class="d-flex">
-                  <h4 class="m-b-sm">
-                    {{ ('sf_' + item.ID + '_service_name') | i18n }}
-                  </h4>
+                  <h4 class="m-b-sm">{{ item.Service_name }}</h4>
                   <button
                     type="button"
                     class="btn-close ms-auto m-t-md bg-gray-100 rounded-circle p-a-sm pos-rel top-minus-5 right-minus-sm"
@@ -269,11 +266,9 @@
                 </div>
 
                 <p class="department font-size-14 color-p2 font-weight-600">
-                  {{ ('sf_' + item.ID + '_entity') | i18n }}
+                  {{ item.Entity }}
                 </p>
-                <p class="small">
-                  {{ ('sf_' + item.ID + '_description') | i18n }}
-                </p>
+                <p class="small">{{ item.Description }}</p>
 
                 <h5 class="m-t-0">{{ 'sf_how_to_get_this_service' | i18n }}</h5>
 
@@ -297,7 +292,7 @@
                       >{{ 'sf_learn_more' | i18n }}</a
                     >
                   </li>
-                  {%- endif -%} {%- if item.In_person_kiosk_ -%}
+                  {%- endif -%} {%- if item.In_person_kiosk -%}
                   <li
                     class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
                     <a
@@ -338,6 +333,9 @@
         </div>
         {%- endfor -%}
       </div>
+      {%- endfor -%}
+
+      <!---->
       {%- endfor -%}
 
       <div class="bg-gray-100 mt-5 px-4 p-b brd-solid-1 brd-gray-200 p-t-md">
