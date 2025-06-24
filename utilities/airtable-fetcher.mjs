@@ -73,8 +73,24 @@ async function fetchAirtableRecords(apiPath) {
     );
   }
 
-  const body = /** @type {{ records: AirtableRecord[] }} */ (await res.json());
-  return body.records;
+  const body = /** @type {{ records: AirtableRecord[] }} */ (await res.json())
+    .records;
+
+  // Remove empty columns from sorted object
+  body.forEach(record => {
+    Object.keys(record.fields).forEach(key => {
+      if (
+        record.fields[key]
+          ?.toString()
+          .replace(/\u00A0/g, " ")
+          .trim().length === 0
+      ) {
+        delete record.fields[key];
+      }
+    });
+  });
+
+  return body;
 }
 
 /**
