@@ -7,6 +7,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // Airtable API URL with the dev view
+// API Documentation: https://airtable.com/developers/web/api/list-records
 const API_URL =
   "https://api.airtable.com/v0/app6t1QEuuPs8NUhg/tblMX0nRW5yTbr5Y6?view=viwInn4NqAYYmXTox"; // Airtable API URL with the correct table/view
 const API_KEY = process.env.AIRTABLE_API_KEY; // 🔹 Ensure .env has AIRTABLE_API_KEY= from https://airtable.com/create/tokens
@@ -57,7 +58,9 @@ const fetchAirtableData = async () => {
   }
 
   // ✅ Extract fields from each record
-  const records = responseJson.records.map(record => record.fields);
+  const records = responseJson.records.map(
+    (/** @type {{ fields: any; }} */ record) => record.fields
+  );
 
   console.log(`✅ Successfully retrieved ${records.length} records.`);
   const sorted = sortFieldsInObjects(records);
@@ -107,7 +110,10 @@ function sortFieldsInObjects(arr) {
 }
 
 // ✅ Function to save data to a JSON file
-const saveDataToFile = (data, filePath) => {
+const saveDataToFile = (
+  /** @type {{}[]} */ data,
+  /** @type {fs.PathOrFileDescriptor} */ filePath
+) => {
   try {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
     console.log(`✅ Data saved to ${filePath}`);
