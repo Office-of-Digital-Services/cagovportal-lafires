@@ -6,6 +6,8 @@ import fs from "node:fs";
 
 const service_finder_base = "app6t1QEuuPs8NUhg/";
 const service_finder_data_path = "./src/_data/service_finder_data.json";
+const service_finder_translations_path =
+  "./src/_data/i18n/i18n-service-finder-dynamic.json";
 
 /** @type {import("./airtable-fetcher.mjs").FetchJob[]} */
 const JOBS = [
@@ -84,4 +86,76 @@ const JOBS = [
   );
 
   console.log(`✅ Wrote service finder data to ${service_finder_data_path}`);
+
+  writeTranslations(all_audience);
 })();
+
+function writeTranslations(alldata) {
+  const translations = JSON.parse(
+    fs.readFileSync(service_finder_translations_path, "utf8")
+  );
+
+  const freshTranslations = {};
+
+  let updatedCount = 0;
+  alldata.forEach(audience => {
+    audience.children_service_types.forEach(service_type => {
+      service_type.children_categories.forEach(category => {
+        category.children_services.forEach(service => {
+          /**
+           *
+           * @param {string} ID
+           * @param {string} en
+           * @param {string} postfix
+           */
+          const updateValue = (ID, en, postfix) => {
+            const key = `sf_${ID}_${[postfix]}`;
+
+            const blank = {
+              status: "english_only",
+              en
+            };
+
+            const value = translations[key];
+
+            if (value?.en != blank.en) {
+              freshTranslations[key] = blank;
+              updatedCount++;
+            } else {
+              freshTranslations[key] = value;
+            }
+          };
+
+          updateValue(service.fields.ID, service.fields.Service_name, "name");
+
+          updateValue(
+            service.fields.ID,
+            service.fields.Description,
+            "description"
+          );
+
+          updateValue(service.fields.ID, service.fields.Entity, "entity");
+        });
+      });
+    });
+  });
+
+  if (updatedCount) {
+    // Sort all the keys in the translations object
+    const sortedTranslations = Object.keys(freshTranslations)
+      .sort()
+      .reduce((obj, key) => {
+        obj[key] = freshTranslations[key];
+        return obj;
+      }, {});
+
+    // Write the updated translations back to the file
+    fs.writeFileSync(
+      service_finder_translations_path,
+      JSON.stringify(sortedTranslations, null, 2)
+    );
+    console.log(
+      `✅ Wrote ${updatedCount} service finder translations to ${service_finder_translations_path}`
+    );
+  }
+}
