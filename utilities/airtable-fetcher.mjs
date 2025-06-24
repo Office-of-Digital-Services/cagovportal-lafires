@@ -1,16 +1,4 @@
 //@ts-check
-// airtable-fetcher.js
-// ———————————————————————————————————————————————
-// Re-usable module for pulling multiple Airtable views.
-// Usage:
-//   import { fetchAndSaveAll } from "./airtable-fetcher.js";
-//   /** @type {FetchJob[]} */
-//   const jobs = [
-//     { apiPath: "appId/tblFoo?view=viw123", outputPath: "./data/foo.json" },
-//     { apiPath: "appId/tblBar?view=viw456", outputPath: "./data/bar.json" },
-//   ];
-//   await fetchAndSaveAll(jobs);
-// ———————————————————————————————————————————————
 
 // API Documentation: https://airtable.com/developers/web/api/list-records
 
