@@ -88,7 +88,28 @@ async function fetchAirtableRecords(apiPath) {
         delete record.fields[key];
       }
     });
+
+    record.fields = sortFieldsRecursively(record.fields);
   });
+
+  // Function to sort fields in an object recursively
+  /**
+   * @param {{ [x: string]: any; }} obj
+   */
+  function sortFieldsRecursively(obj) {
+    const sortedKeys = Object.keys(obj).sort();
+    const sortedObj = {};
+
+    sortedKeys.forEach(
+      key =>
+        (sortedObj[key] =
+          typeof obj[key] === "object" && !Array.isArray(obj[key])
+            ? sortFieldsRecursively(obj[key])
+            : obj[key])
+    );
+
+    return sortedObj;
+  }
 
   return body;
 }
