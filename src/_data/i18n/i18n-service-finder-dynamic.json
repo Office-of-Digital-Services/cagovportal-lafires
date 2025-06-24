@@ -1776,12 +1776,28 @@
     "en": "Emergency shelter"
   },
   "sf_cat_10_description": {
-    "status": "english_only",
-    "en": "Unemployment, disability, job search tools"
+    "status": "avantpage_delivery",
+    "en": "Unemployment, disability, job search tools",
+    "es": "Desempleo, discapacidad, herramientas de búsqueda de trabajo",
+    "ko": "실업, 장애, 구직 도구",
+    "vi": "Thất nghiệp, khuyết tật, công cụ tìm kiếm việc làm",
+    "tl": "Kawalan ng trabaho, kapansanan, mga tool sa paghahanap ng trabaho",
+    "zh-hans": "失业、残疾、求职工具",
+    "zh-hant": "失業、殘疾、求職工具",
+    "hy": "Գործազրկություն, հաշմանդամություն, աշխատանքի որոնման գործիքներ",
+    "comment": "Translation delivered 2025-04-23"
   },
   "sf_cat_10_label": {
-    "status": "english_only",
-    "en": "Employment"
+    "status": "avantpage_delivery",
+    "en": "Employment",
+    "es": "Empleo",
+    "ko": "고용",
+    "vi": "Việc làm",
+    "tl": "Trabaho",
+    "zh-hans": "就业支持",
+    "zh-hant": "就業",
+    "hy": "Աշխատանք",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_cat_11_description": {
     "status": "english_only",
@@ -1804,20 +1820,52 @@
     "en": "Temporary housing and emergency shelter"
   },
   "sf_cat_1_label": {
-    "status": "english_only",
-    "en": "Housing"
+    "status": "avantpage_delivery",
+    "en": "Housing",
+    "es": "Vivienda",
+    "ko": "주택",
+    "vi": "Nhà ở",
+    "tl": "Pabahay",
+    "zh-hans": "住房安置",
+    "zh-hant": "住房安置",
+    "hy": "Բնակարանային ապահովում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_cat_2_description": {
-    "status": "english_only",
-    "en": "Food banks, food benefits"
+    "status": "avantpage_delivery",
+    "en": "Food banks, food benefits",
+    "es": "Bancos de alimentos, beneficios de alimentos",
+    "ko": "푸드 뱅크, 식품 혜택",
+    "vi": "Ngân hàng thực phẩm, phúc lợi về thực phẩm",
+    "tl": "Mga food bank, mga benepisyo sa pagkain",
+    "zh-hans": "食品银行、食品补助",
+    "zh-hant": "食品銀行、食品補助",
+    "hy": "Սննդի բանկեր, սննդային նպաստներ",
+    "comment": "Translation delivered 2025-04-23"
   },
   "sf_cat_2_label": {
-    "status": "english_only",
-    "en": "Food"
+    "status": "avantpage_delivery",
+    "en": "Food",
+    "es": "Alimentos",
+    "ko": "식품",
+    "vi": "Thực phẩm",
+    "tl": "Pagkain",
+    "zh-hans": "食品援助",
+    "zh-hant": "食品",
+    "hy": "Սննդամթերք",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_cat_3_description": {
-    "status": "english_only",
-    "en": "Animal shelters, resources for lost pets"
+    "status": "avantpage_delivery",
+    "en": "Animal shelters, resources for lost pets",
+    "es": "Refugios para animales, recursos para mascotas perdidas",
+    "ko": "동물 보호소, 잃어버린 애완동물을 위한 자원",
+    "vi": "Nơi trú ẩn cho động vật, nguồn hỗ trợ cho thú cưng bị lạc",
+    "tl": "Mga shelter ng hayop, mga madudulugan para sa nawawalang alagang hayop",
+    "zh-hans": "动物收容所，为走失宠物提供资源",
+    "zh-hant": "動物收容所，為走失寵物提供資源",
+    "hy": "Կենդանիների ապաստարաններ, կորած կենդանիների համար ռեսուրսներ",
+    "comment": "Translation delivered 2025-04-23"
   },
   "sf_cat_3_label": {
     "status": "avantpage_delivery",
@@ -1864,16 +1912,40 @@
     "en": "Replace documents"
   },
   "sf_cat_8_description": {
-    "status": "english_only",
-    "en": "Home insurance, insurance claims"
+    "status": "avantpage_delivery",
+    "en": "Home insurance, insurance claims",
+    "es": "Seguro de hogar, reclamaciones de seguros",
+    "ko": "주택 보험, 보험금 청구",
+    "vi": "Bảo hiểm nhà ở, yêu cầu bồi thường bảo hiểm",
+    "tl": "Insurance sa tahanan, at mga claim sa insurance",
+    "zh-hans": "房屋保险、保险理赔",
+    "zh-hant": "房屋保險、保險理賠",
+    "hy": "Տան ապահովագրություն, ապահովագրության հայտեր",
+    "comment": "Translation delivered 2025-04-23"
   },
   "sf_cat_8_label": {
-    "status": "english_only",
-    "en": "Insurance"
+    "status": "avantpage_delivery",
+    "en": "Insurance",
+    "es": "Seguro",
+    "ko": "보험",
+    "vi": "Bảo hiểm",
+    "tl": "Insurance",
+    "zh-hans": "保险服务",
+    "zh-hant": "保險",
+    "hy": "Ապահովագրություն",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_cat_9_description": {
-    "status": "english_only",
-    "en": "Contractor search tools, debris removal, tree removal"
+    "status": "avantpage_delivery",
+    "en": "Contractor search tools, debris removal, tree removal",
+    "es": "Herramientas de búsqueda de contratistas, remoción de escombros, tala de árboles",
+    "ko": "계약자 검색 도구, 잔해 제거, 위험 수목 제거",
+    "vi": "Công cụ tìm kiếm nhà thầu, di dời đống đổ nát, cắt bỏ cây",
+    "tl": "Mga tool sa paghahanap ng contractor, pag-aalis ng kalat, pagputol ng puno",
+    "zh-hans": "承包商搜索工具、残余物清除、树木清除",
+    "zh-hant": "承包商搜尋工具、殘餘物清除、樹木清除",
+    "hy": "Կապալառուի որոնման գործիքներ, բեկորների հեռացում, ծառերի հեռացում",
+    "comment": "Translation delivered 2025-04-23"
   },
   "sf_cat_9_label": {
     "status": "english_only",
