@@ -5,8 +5,7 @@ import path from "node:path";
 import fs from "node:fs";
 
 const service_finder_base = "app6t1QEuuPs8NUhg/";
-const service_finder_data_path =
-  "./src/_data/lafires/service_finder/alldata.json";
+const service_finder_data_path = "./src/_data/service_finder_data.json";
 
 /** @type {import("./airtable-fetcher.mjs").FetchJob[]} */
 const JOBS = [
