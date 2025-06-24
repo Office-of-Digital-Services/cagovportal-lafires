@@ -1,40 +1,4 @@
 {
-  "sf_service_title_essential_help": {
-    "status": "avantpage_delivery",
-    "en": "Essential help for individuals",
-    "es": "Ayuda esencial para las personas",
-    "ko": "개인을 위한 필수 지원",
-    "vi": "Trợ giúp cần thiết cho các cá nhân",
-    "tl": "Mahalagang tulong para sa mga indibidwal",
-    "zh-hans": "为个人提供基本帮助",
-    "zh-hant": "為個人提供基本幫助",
-    "hy": "Անհրաժեշտ օգնություն անհատների համար",
-    "comment": "Translation delivered 2025-04-10"
-  },
-  "sf_service_title_start_recovering": {
-    "status": "avantpage_delivery",
-    "en": "Start recovering for individuals",
-    "es": "Comenzar la recuperación para individuos",
-    "ko": "개인을 위한 복구 시작",
-    "vi": "Bắt đầu phục hồi cho các cá nhân",
-    "tl": "Pagsisimula ng muling pagbangon para sa mga indibidwal",
-    "zh-hans": "开始为个人提供恢复服务",
-    "zh-hant": "開始為個人提供恢復服務",
-    "hy": "Վերականգնման քայլեր՝ անհատների համար",
-    "comment": "Translation delivered 2025-04-10"
-  },
-  "sf_service_title_business_help": {
-    "status": "avantpage_delivery",
-    "en": "Business help",
-    "es": "Ayuda para empresas",
-    "ko": "사업체 지원",
-    "vi": "Trợ giúp về kinh doanh",
-    "tl": "Tulong sa negosyo",
-    "zh-hans": "企业援助",
-    "zh-hant": "企業援助",
-    "hy": "Օգնություն բիզնեսների համար",
-    "comment": "Translation delivered 2025-04-10"
-  },
   "sf_title": {
     "status": "avantpage_delivery",
     "en": "Recovery services finder",

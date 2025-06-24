@@ -236,8 +236,8 @@
 
       <div data-service-type="{{service_type.fields.ID}}">
         <h2 class="color-p2-darker">
-          {{ audience_type.fields.Audience + " - " +
-          service_type.fields["Service type"] }}
+          {{ audience_type.fields.Audience + " - " }} {{ ("sf_service_type_" +
+          service_type.fields["Service Type ID"] + "_label") | i18n }}
         </h2>
 
         {%- for category in service_type.children_categories %}
@@ -245,7 +245,9 @@
         <div
           data-service-type="{{service_type.fields.ID}}"
           data-service-category-id="{{category.fields.ID}}">
-          <h3>{{ category.fields.Category }}</h3>
+          <h3>
+            {{ ("sf_cat_" + category.fields["Category ID"] + "_label") | i18n }}
+          </h3>
 
           <div class="row">
             {%- for service in category.children_services -%}

@@ -1950,5 +1950,38 @@
   "sf_cat_9_label": {
     "status": "english_only",
     "en": "Rebuilding your house"
+  },
+  "sf_service_type_1_label": {
+    "status": "english_only",
+    "en": "Basic needs",
+    "es": "Necesidades básicas",
+    "ko": "기본 필요",
+    "vi": "Nhu cầu cơ bản",
+    "tl": "Mga pangunahing pangangailangan",
+    "zh-hans": "基本需求",
+    "zh-hant": "基本需求",
+    "hy": "Հիմնական կարիքներ"
+  },
+  "sf_service_type_2_label": {
+    "status": "english_only",
+    "en": "Recovery needs",
+    "es": "Necesidades de recuperación",
+    "ko": "복구 필요",
+    "vi": "Nhu cầu phục hồi",
+    "tl": "Mga pangangailangan sa pagbawi",
+    "zh-hans": "恢复需求",
+    "zh-hant": "恢復需求",
+    "hy": "Վերականգնման կարիքներ"
+  },
+  "sf_service_type_4_label": {
+    "status": "english_only",
+    "en": "Recovery needs",
+    "es": "Necesidades de recuperación",
+    "ko": "복구 필요",
+    "vi": "Nhu cầu phục hồi",
+    "tl": "Mga pangangailangan sa pagbawi",
+    "zh-hans": "恢复需求",
+    "zh-hant": "恢復需求",
+    "hy": "Վերականգնման կարիքներ"
   }
 }

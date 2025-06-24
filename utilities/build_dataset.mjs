@@ -104,7 +104,7 @@ function writeTranslations(alldata) {
    * @param {string} key
    * @param {string} en
    */
-  const updateValue = (key, en) => {
+  const updateTranslation = (key, en) => {
     const blank = {
       status: "english_only",
       en
@@ -122,12 +122,20 @@ function writeTranslations(alldata) {
 
   alldata.forEach(audience => {
     audience.children_service_types.forEach(service_type => {
+      updateTranslation(
+        `sf_service_type_${service_type.fields["Service Type ID"]}_label`,
+        service_type.fields["Service type"]
+      );
+
       service_type.children_categories.forEach(category => {
         const category_fields = category.fields;
         const category_id = category_fields["Category ID"];
 
-        updateValue(`sf_cat_${category_id}_label`, category_fields.Category);
-        updateValue(
+        updateTranslation(
+          `sf_cat_${category_id}_label`,
+          category_fields.Category
+        );
+        updateTranslation(
           `sf_cat_${category_id}_description`,
           category_fields["Category description"]
         );
@@ -139,15 +147,15 @@ function writeTranslations(alldata) {
             const service_fields = service.fields;
             const service_id = service_fields.ID;
 
-            updateValue(
+            updateTranslation(
               `sf_${service_id}_service_name`,
               service_fields.Service_name
             );
-            updateValue(
+            updateTranslation(
               `sf_${service_id}_description`,
               service_fields.Description
             );
-            updateValue(`sf_${service_id}_entity`, service_fields.Entity);
+            updateTranslation(`sf_${service_id}_entity`, service_fields.Entity);
           }
         );
       });

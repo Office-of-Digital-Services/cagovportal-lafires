@@ -34,7 +34,8 @@
             {%- for service_type in audience_type.children_service_types %}
 
             <h2 class="h3 color-p2-darker mt-4 mb-0">
-              {{ service_type.fields["Service type"] }}
+              {{ ("sf_service_type_" + service_type.fields["Service Type ID"] +
+              "_label") | i18n }}
             </h2>
 
             {%- for category in service_type.children_categories %}
