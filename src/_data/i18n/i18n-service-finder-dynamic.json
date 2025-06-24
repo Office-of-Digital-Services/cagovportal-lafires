@@ -24,8 +24,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_21_service_name": {
-    "status": "english_only",
-    "en": "Prescription medicine help"
+    "status": "avantpage_delivery",
+    "en": "Prescription medicine help",
+    "es": "Ayuda con medicamentos recetados",
+    "ko": "처방약 지원",
+    "vi": "Trợ giúp thuốc theo toa",
+    "tl": "Tulong sa inireresetang gamot",
+    "zh-hans": "处方药帮助",
+    "zh-hant": "處方藥幫助",
+    "hy": "Օգնություն դեղատոմսով դեղեր ստանալու հարցում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_22_description": {
     "status": "avantpage_delivery",
@@ -52,8 +60,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_22_service_name": {
-    "status": "english_only",
-    "en": "Temporary housing"
+    "status": "avantpage_delivery",
+    "en": "Temporary housing",
+    "es": "Vivienda temporal",
+    "ko": "임시 주택",
+    "vi": "Nhà ở tạm thời",
+    "tl": "Pansamantalang pabahay",
+    "zh-hans": "临时住房安置",
+    "zh-hant": "臨時住房安置",
+    "hy": "Ժամանակավոր կացարան",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_23_description": {
     "status": "avantpage_delivery",
@@ -80,8 +96,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_23_service_name": {
-    "status": "english_only",
-    "en": "FEMA disaster assistance"
+    "status": "avantpage_delivery",
+    "en": "FEMA disaster assistance",
+    "es": "Asistencia para catástrofes de FEMA",
+    "ko": "FEMA 재난 지원",
+    "vi": "Hỗ trợ thảm họa của FEMA",
+    "tl": "Tulong sa sakuna mula sa FEMA",
+    "zh-hans": "FEMA 救灾援助",
+    "zh-hant": "FEMA 救災援助",
+    "hy": "Արտակարգ իրավիճակների կառավարման դաշնային գործակալության (Federal Emergency Management Agency, FEMA) աղետների օգնություն",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_25_description": {
     "status": "english_only",
@@ -100,8 +124,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_25_service_name": {
-    "status": "english_only",
-    "en": "Disaster loans for businesses"
+    "status": "avantpage_delivery",
+    "en": "Disaster loans for businesses",
+    "es": "Préstamos para empresas por catástrofes",
+    "ko": "소상공인을 위한 재난 대출",
+    "vi": "Khoản vay phục hồi sau thảm họa cho doanh nghiệp",
+    "tl": "Mga loan para sa mga negosyo sa panahon ng sakuna",
+    "zh-hans": "企业救灾贷款",
+    "zh-hant": "企業救災貸款",
+    "hy": "Աղետների հետևանքով վարկեր բիզնեսների համար",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_26_description": {
     "status": "avantpage_delivery",
@@ -128,8 +160,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_26_service_name": {
-    "status": "english_only",
-    "en": "Business use tax or fee extension and relief"
+    "status": "avantpage_delivery",
+    "en": "Business use tax or fee extension and relief",
+    "es": "Extensión y asistencia de impuestos o cuotas por uso comercial",
+    "ko": "사업용 사업세 또는 수수료 연장 및 감면",
+    "vi": "Gia hạn và giảm thuế sử dụng hoặc phí sử dụng kinh doanh",
+    "tl": "Palugit at relief sa use tax o fee ng negosyo",
+    "zh-hans": "商业使用税或费用延期和减免",
+    "zh-hant": "商業使用稅或費用延期和減免",
+    "hy": "Բիզնեսի օգտագործման ժամկետի երկարաձգում և հարկերից և վճարներից ազատում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_27_description": {
     "status": "avantpage_delivery",
@@ -156,8 +196,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_27_service_name": {
-    "status": "english_only",
-    "en": "Business income tax extension"
+    "status": "avantpage_delivery",
+    "en": "Business income tax extension",
+    "es": "Extensión del impuestos sobre ingresos comerciales",
+    "ko": "사업소득세 연장",
+    "vi": "Gia hạn thuế thu nhập doanh nghiệp",
+    "tl": "Palugit sa buwis sa kita ng negosyo",
+    "zh-hans": "企业所得税延期征收",
+    "zh-hant": "企業所得稅延期徵收",
+    "hy": "Բիզնեսի եկամտահարկի ժամկետի երկարացում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_28_description": {
     "status": "avantpage_delivery",
@@ -184,8 +232,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_28_service_name": {
-    "status": "english_only",
-    "en": "Employer payroll tax and reporting extension"
+    "status": "avantpage_delivery",
+    "en": "Employer payroll tax and reporting extension",
+    "es": "Extensión de informes e impuestos sobre la nómina del empleador",
+    "ko": "고용주 급여세 및 신고 연장",
+    "vi": "Gia hạn thuế quỹ lương cho chủ hãng và gia hạn báo cáo",
+    "tl": "Palugit sa buwis at pag-uulat sa payroll ng employer",
+    "zh-hans": "雇主工资税和报告延期",
+    "zh-hant": "雇主工資稅和報告延期",
+    "hy": "Աշխատավարձի հարկի և գործատուի հաշվետվության ժամկետի երկարացում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_30_description": {
     "status": "english_only",
@@ -204,8 +260,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_30_service_name": {
-    "status": "english_only",
-    "en": "Business recovery resources"
+    "status": "avantpage_delivery",
+    "en": "Business recovery resources",
+    "es": "Recursos de recuperación para las empresas",
+    "ko": "사업체 복구 자원",
+    "vi": "Nguồn hỗ trợ phục hồi doanh nghiệp",
+    "tl": "Mga resource sa muling pagbangon ng negosyo",
+    "zh-hans": "企业恢复资源",
+    "zh-hant": "企業恢復資源",
+    "hy": "Բիզնեսի վերականգնման ռեսուրսներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_31_description": {
     "status": "avantpage_delivery",
@@ -232,8 +296,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_31_service_name": {
-    "status": "english_only",
-    "en": "Unemployment benefits"
+    "status": "avantpage_delivery",
+    "en": "Unemployment benefits",
+    "es": "Beneficios de desempleo",
+    "ko": "실업 수당",
+    "vi": "Trợ cấp thất nghiệp",
+    "tl": "Mga benepisyo sa kawalan ng trabaho",
+    "zh-hans": "失业补助",
+    "zh-hant": "失業補助",
+    "hy": "Գործազրկության նպաստներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_32_description": {
     "status": "avantpage_delivery",
@@ -260,8 +332,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_32_service_name": {
-    "status": "english_only",
-    "en": "Disability benefits"
+    "status": "avantpage_delivery",
+    "en": "Disability benefits",
+    "es": "Beneficios por discapacidad",
+    "ko": "장애 수당",
+    "vi": "Trợ cấp khuyết tật",
+    "tl": "Mga benepisyo sa pagkakaroon ng kapansanan",
+    "zh-hans": "残疾补助",
+    "zh-hant": "殘疾補助",
+    "hy": "Հաշմանդամության նպաստներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_33_description": {
     "status": "avantpage_delivery",
@@ -288,8 +368,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_33_service_name": {
-    "status": "english_only",
-    "en": "Paid Family Leave"
+    "status": "avantpage_delivery",
+    "en": "Paid Family Leave",
+    "es": "Permiso de ausencia remunerada por motivos familiares",
+    "ko": "유급 가족 휴가",
+    "vi": "Nghỉ Phép Vì Việc Gia Đình Có Lương",
+    "tl": "May Bayad na Leave para sa Pamilya",
+    "zh-hans": "带薪家庭休假",
+    "zh-hant": "帶薪家庭休假",
+    "hy": "Վճարովի ընտանեկան արձակուրդ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_34_description": {
     "status": "avantpage_delivery",
@@ -316,8 +404,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_34_service_name": {
-    "status": "english_only",
-    "en": "Job search resources"
+    "status": "avantpage_delivery",
+    "en": "Job search resources",
+    "es": "Recursos de búsqueda de trabajo",
+    "ko": "구직 자원",
+    "vi": "Nguồn hỗ trợ tìm kiếm việc làm",
+    "tl": "Mga resource sa paghahanap ng trabaho",
+    "zh-hans": "求职资源",
+    "zh-hant": "求職資源",
+    "hy": "Աշխատանքի որոնման ռեսուրսներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_35_description": {
     "status": "avantpage_delivery",
@@ -344,8 +440,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_35_service_name": {
-    "status": "english_only",
-    "en": "Job training"
+    "status": "avantpage_delivery",
+    "en": "Job training",
+    "es": "Capacitación para el trabajo",
+    "ko": "직업 훈련",
+    "vi": "Đào tạo nghề",
+    "tl": "Pagsasanay sa trabaho",
+    "zh-hans": "岗位培训",
+    "zh-hant": "崗位培訓",
+    "hy": "Աշխատանքի ուսուցում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_36_description": {
     "status": "avantpage_delivery",
@@ -372,8 +476,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_36_service_name": {
-    "status": "english_only",
-    "en": "CalJOBS job search system"
+    "status": "avantpage_delivery",
+    "en": "CalJOBS job search system",
+    "es": "Sistema de búsqueda de trabajo CalJOBS",
+    "ko": "CalJOBS 구직 시스템",
+    "vi": "Hệ thống tìm kiếm việc làm CalJOBS",
+    "tl": "System sa paghahanap ng trabaho ng CalJOBS",
+    "zh-hans": "CalJOBS 求职系统",
+    "zh-hant": "CalJOBS 求職系統",
+    "hy": "CalJOBS աշխատանքի որոնման համակարգ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_37_description": {
     "status": "avantpage_delivery",
@@ -400,8 +512,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_37_service_name": {
-    "status": "english_only",
-    "en": "WIC food benefits for women and children"
+    "status": "avantpage_delivery",
+    "en": "WIC food benefits for women and children",
+    "es": "Beneficios del Programa de Nutrición Suplementaria Especial para Mujeres, Bebés y Niños (Women, Infants, and Children, WIC)",
+    "ko": "여성과 아동을 위한 WIC 식품 혜택",
+    "vi": "Phúc lợi thực phẩm cho phụ nữ và trẻ em của WIC",
+    "tl": "Mga benepisyo sa pagkain ng WIC para sa mga babae at bata",
+    "zh-hans": "为妇女和儿童提供的 WIC 食品补助",
+    "zh-hant": "為婦女和兒童提供的 WIC 食品補助",
+    "hy": "WIC սննդային նմաստներ կանանց և երեխաների համար",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_38_description": {
     "status": "avantpage_delivery",
@@ -428,8 +548,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_38_service_name": {
-    "status": "english_only",
-    "en": "CalFresh food benefits"
+    "status": "avantpage_delivery",
+    "en": "CalFresh food benefits",
+    "es": "Beneficios de alimentos de CalFresh",
+    "ko": "CalFresh 식품 혜택",
+    "vi": "Trợ cấp thực phẩm CalFresh",
+    "tl": "Mga benepisyo sa pagkain ng CalFresh",
+    "zh-hans": "CalFresh 食品补助",
+    "zh-hant": "CalFresh 食品補助",
+    "hy": "CalFresh սննդային նպաստներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_39_description": {
     "status": "avantpage_delivery",
@@ -456,8 +584,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_39_service_name": {
-    "status": "english_only",
-    "en": "Food banks and food pantries"
+    "status": "avantpage_delivery",
+    "en": "Food banks and food pantries",
+    "es": "Bancos de alimentos y despensas de alimentos",
+    "ko": "푸드 뱅크 및 푸드 팬트리",
+    "vi": "Ngân hàng thực phẩm và kho thực phẩm",
+    "tl": "Mga food bank at food pantry",
+    "zh-hans": "食品银行和食品储藏室",
+    "zh-hant": "食品銀行和食品儲藏室",
+    "hy": "Սննդի բանկեր և սննդի պահեստներ",
+    "comment": "Translation delivered 2025-04-23"
   },
   "sf_43_description": {
     "status": "english_only",
@@ -476,8 +612,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_43_service_name": {
-    "status": "english_only",
-    "en": "Mortgage relief"
+    "status": "avantpage_delivery",
+    "en": "Mortgage relief",
+    "es": "Asistencia hipotecaria",
+    "ko": "모기지 구제",
+    "vi": "Cứu trợ khoản vay thế chấp",
+    "tl": "Relief sa mortgage",
+    "zh-hans": "房屋贷款减免",
+    "zh-hant": "房屋貸款減免",
+    "hy": "Հիփոթեքային արտոնություններ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_44_description": {
     "status": "avantpage_delivery",
@@ -504,8 +648,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_44_service_name": {
-    "status": "english_only",
-    "en": "State disaster grants"
+    "status": "avantpage_delivery",
+    "en": "State disaster grants",
+    "es": "Subsidios estatales por catástrofes",
+    "ko": "주 재난 보조금",
+    "vi": "Trợ cấp thảm họa của tiểu bang",
+    "tl": "Mga grant ng estado sa panahon ng sakuna",
+    "zh-hans": "州救灾补助金",
+    "zh-hant": "州救災補助金",
+    "hy": "Աղետների դեպքում պետական դրամաշնորհներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_45_description": {
     "status": "avantpage_delivery",
@@ -532,8 +684,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_45_service_name": {
-    "status": "english_only",
-    "en": "Pet assistance"
+    "status": "avantpage_delivery",
+    "en": "Pet assistance",
+    "es": "Asistencia para las mascotas",
+    "ko": "반려동물 지원",
+    "vi": "Hỗ trợ thú cưng",
+    "tl": "Tulong sa alagang hayop",
+    "zh-hans": "宠物救助",
+    "zh-hant": "寵物協助",
+    "hy": "Ընտանի կենդանիների համար օգնություն",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_46_description": {
     "status": "avantpage_delivery",
@@ -560,8 +720,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_46_service_name": {
-    "status": "english_only",
-    "en": "Help for immigrants"
+    "status": "avantpage_delivery",
+    "en": "Help for immigrants",
+    "es": "Ayuda para inmigrantes",
+    "ko": "이민자 지원",
+    "vi": "Trợ giúp cho người nhập cư",
+    "tl": "Tulong para sa mga imigrante",
+    "zh-hans": "移民帮助",
+    "zh-hant": "移民幫助",
+    "hy": "Օգնություն ներգաղթյալների համար",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_48_description": {
     "status": "english_only",
@@ -608,8 +776,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_49_service_name": {
-    "status": "english_only",
-    "en": "Insurance protections"
+    "status": "avantpage_delivery",
+    "en": "Insurance protections",
+    "es": "Protección del seguro",
+    "ko": "보험 보호",
+    "vi": "Bảo vệ bảo hiểm",
+    "tl": "Mga proteksyon ng insurance",
+    "zh-hans": "保险保障",
+    "zh-hant": "保險保障",
+    "hy": "Ապահովագրական պաշտպանություն",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_50_description": {
     "status": "avantpage_delivery",
@@ -636,8 +812,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_50_service_name": {
-    "status": "english_only",
-    "en": "Help with insurance claims"
+    "status": "avantpage_delivery",
+    "en": "Help with insurance claims",
+    "es": "Ayuda con las reclamaciones del seguro",
+    "ko": "보험 청구 지원",
+    "vi": "Trợ giúp về yêu cầu bồi thường bảo hiểm",
+    "tl": "Tulong sa mga claim sa insurance",
+    "zh-hans": "保险理赔协助",
+    "zh-hant": "保險理賠協助",
+    "hy": "Աջակցություն ապահովագրական հայցերը վերանայելու հարցում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_52_description": {
     "status": "avantpage_delivery",
@@ -664,8 +848,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_52_service_name": {
-    "status": "english_only",
-    "en": "Driver's license or ID cards"
+    "status": "avantpage_delivery",
+    "en": "Driver's license or ID cards",
+    "es": "Licencias de conducir o tarjetas de identificación",
+    "ko": "운전면허증 또는 신분증",
+    "vi": "Giấy phép lái xe hoặc thẻ căn cước",
+    "tl": "Lisensya sa pagmamaneho o mga ID card",
+    "zh-hans": "驾照及身份证",
+    "zh-hant": "駕照及身分證",
+    "hy": "Վարորդական իրավունք կամ նույնականացման քարտեր",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_53_description": {
     "status": "avantpage_delivery",
@@ -692,8 +884,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_53_service_name": {
-    "status": "english_only",
-    "en": "Vehicle titles"
+    "status": "avantpage_delivery",
+    "en": "Vehicle titles",
+    "es": "Títulos de vehículos",
+    "ko": "차량 등록증",
+    "vi": "Giấy tờ sở hữu xe",
+    "tl": "Mga titulo ng sasakyan",
+    "zh-hans": "车辆所有权证书",
+    "zh-hant": "汽車所有權證書",
+    "hy": "Ավտոմեքենայի սեփականության վկայականներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_54_description": {
     "status": "avantpage_delivery",
@@ -720,8 +920,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_54_service_name": {
-    "status": "english_only",
-    "en": "Manufactured and mobile home documents"
+    "status": "avantpage_delivery",
+    "en": "Manufactured and mobile home documents",
+    "es": "Documentos de casas móviles o prefabricadas",
+    "ko": "조립식 주택 및 이동식 주택 문서",
+    "vi": "Giấy tờ nhà tiền chế và nhà di động",
+    "tl": "Mga dokumento ng ipinatayo at mobile na bahay",
+    "zh-hans": "活动房屋文件",
+    "zh-hant": "活動房屋和移動房屋文件",
+    "hy": "Արտադրված և շարժական տների սեփականության փաստաթղթեր",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_55_description": {
     "status": "avantpage_delivery",
@@ -748,8 +956,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_55_service_name": {
-    "status": "english_only",
-    "en": "Personal income tax documents and info"
+    "status": "avantpage_delivery",
+    "en": "Personal income tax documents and info",
+    "es": "Documentos e información de impuestos sobre los ingresos",
+    "ko": "개인 소득세 문서 및 정보",
+    "vi": "Hồ sơ và thông tin thuế thu nhập cá nhân",
+    "tl": "Mga dokumento at impormasyon ng personal na buwis sa kita",
+    "zh-hans": "个人所得税文件和信息",
+    "zh-hant": "個人所得稅文件和資訊",
+    "hy": "Անձնական եկամտահարկի փաստաթղթեր և տեղեկություններ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_56_description": {
     "status": "avantpage_delivery",
@@ -776,8 +992,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_56_service_name": {
-    "status": "english_only",
-    "en": "Military service records"
+    "status": "avantpage_delivery",
+    "en": "Military service records",
+    "es": "Registros de servicio militar estadounidense",
+    "ko": "군 복무 기록",
+    "vi": "Hồ sơ nghĩa vụ quân sự",
+    "tl": "Mga record ng serbisyo sa militar",
+    "zh-hans": "服役记录",
+    "zh-hant": "服役記錄",
+    "hy": "Զինվորական ծառայության արձանագրություններ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_58_description": {
     "status": "english_only",
@@ -844,8 +1068,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_60_service_name": {
-    "status": "english_only",
-    "en": "Disaster case management"
+    "status": "avantpage_delivery",
+    "en": "Disaster case management",
+    "es": "Administración de casos de catástrofes",
+    "ko": "재난 사례 관리",
+    "vi": "Quản lý hồ sơ thảm họa",
+    "tl": "Pamamahala ng kaso sa sakuna",
+    "zh-hans": "灾害案例管理",
+    "zh-hant": "災害案例管理",
+    "hy": "Աղետների դեպքերի կառավարում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_61_description": {
     "status": "avantpage_delivery",
@@ -872,8 +1104,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_61_service_name": {
-    "status": "english_only",
-    "en": "CalVet home insurance claims"
+    "status": "avantpage_delivery",
+    "en": "CalVet home insurance claims",
+    "es": "Reclamos del seguro para el hogar de CalVet",
+    "ko": "CalVet 주택 보험 청구",
+    "vi": "Yêu cầu bồi thường bảo hiểm nhà CalVet",
+    "tl": "Mga claim sa insurance ng tahanan ng CalVet",
+    "zh-hans": "CalVet 家庭保险索赔",
+    "zh-hant": "CalVet 家庭保險索賠",
+    "hy": "CalVet տան ապահովագրության պահանջներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_63_description": {
     "status": "avantpage_delivery",
@@ -900,8 +1140,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_63_service_name": {
-    "status": "english_only",
-    "en": "Help for veterans"
+    "status": "avantpage_delivery",
+    "en": "Help for veterans",
+    "es": "Ayuda para veteranos",
+    "ko": "재향 군인 지원",
+    "vi": "Trợ giúp cho cựu chiến binh",
+    "tl": "Tulong para sa mga beterano",
+    "zh-hans": "为退伍军人提供帮助",
+    "zh-hant": "為退伍軍人提供幫助",
+    "hy": "Օգնություն վետերաններին",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_65_description": {
     "status": "avantpage_delivery",
@@ -984,8 +1232,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_67_service_name": {
-    "status": "english_only",
-    "en": "Property tax relief"
+    "status": "avantpage_delivery",
+    "en": "Property tax relief",
+    "es": "Asistencia para el impuesto sobre la propiedad",
+    "ko": "재산세 감면",
+    "vi": "Giảm thuế bất động sản",
+    "tl": "Relief sa buwis sa pag-aari",
+    "zh-hans": "财产税减免",
+    "zh-hant": "財產稅減免",
+    "hy": "Գույքահարկի արտոնություններ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_69_description": {
     "status": "avantpage_delivery",
@@ -1040,8 +1296,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_70_service_name": {
-    "status": "english_only",
-    "en": "Disabled parking placards"
+    "status": "avantpage_delivery",
+    "en": "Disabled parking placards",
+    "es": "Letreros de estacionamiento para discapacitados",
+    "ko": "장애인 주차 플래카드",
+    "vi": "Biển hiệu đỗ xe cho người khuyết tật",
+    "tl": "Mga placard ng disabled parking",
+    "zh-hans": "残疾人士停车标牌",
+    "zh-hant": "殘疾人士停車標牌",
+    "hy": "Հաշմանդամների ավտոկայանատեղի պլակատներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_71_description": {
     "status": "avantpage_delivery",
@@ -1068,8 +1332,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_71_service_name": {
-    "status": "english_only",
-    "en": "License plates and registration stickers"
+    "status": "avantpage_delivery",
+    "en": "License plates and registration stickers",
+    "es": "Placas de matrícula y calcomanías de registro",
+    "ko": "번호판 및 등록 스티커",
+    "vi": "Biển số xe và nhãn dán đăng ký",
+    "tl": "Mga plaka ng lisensya at sticker ng pagpaparehistro",
+    "zh-hans": "车牌和登记贴纸",
+    "zh-hant": "車牌和登記貼紙",
+    "hy": "Համարանիշեր և գրանցման կպչուն պիտակներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_72_description": {
     "status": "avantpage_delivery",
@@ -1096,8 +1368,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_72_service_name": {
-    "status": "english_only",
-    "en": "Address changes"
+    "status": "avantpage_delivery",
+    "en": "Address changes",
+    "es": "Cambios de dirección",
+    "ko": "주소 변경",
+    "vi": "Thay đổi địa chỉ",
+    "tl": "Mga pagbabago sa address",
+    "zh-hans": "地址更改",
+    "zh-hant": "地址更改",
+    "hy": "Հասցեի փոփոխություններ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_73_description": {
     "status": "avantpage_delivery",
@@ -1124,8 +1404,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_73_service_name": {
-    "status": "english_only",
-    "en": "Vehicle or driver's records"
+    "status": "avantpage_delivery",
+    "en": "Vehicle or driver's records",
+    "es": "Registros de vehículos y conductores",
+    "ko": "차량 또는 운전자의 기록",
+    "vi": "Hồ sơ xe hoặc hồ sơ tài xế",
+    "tl": "Mga record ng sasakyan o driver",
+    "zh-hans": "车辆或驾驶员记录",
+    "zh-hant": "車輛或駕駛員記錄",
+    "hy": "Տրանսպորտային միջոցի կամ վարորդի վկայականներ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_75_description": {
     "status": "avantpage_delivery",
@@ -1152,8 +1440,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_75_service_name": {
-    "status": "english_only",
-    "en": "Consumer protections"
+    "status": "avantpage_delivery",
+    "en": "Consumer protections",
+    "es": "Protección del consumidor",
+    "ko": "소비자 보호",
+    "vi": "Bảo vệ người tiêu dùng",
+    "tl": "Mga proteksyon ng consumer",
+    "zh-hans": "消费者保护措施",
+    "zh-hant": "消費者保護措施",
+    "hy": "Սպառողների իրավունքների պաշտպանություն",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_76_description": {
     "status": "avantpage_delivery",
@@ -1180,8 +1476,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_76_service_name": {
-    "status": "english_only",
-    "en": "Crisis counseling"
+    "status": "avantpage_delivery",
+    "en": "Crisis counseling",
+    "es": "Asesoramiento para crisis",
+    "ko": "재난 관련 상담",
+    "vi": "Tư vấn giải tỏa khủng hoảng",
+    "tl": "Pagpapayo sa panahon ng krisis",
+    "zh-hans": "危机咨询",
+    "zh-hant": "危機諮詢",
+    "hy": "Խորհրդատվություն ճգնաժամային իրավիճակներում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_80_description": {
     "status": "avantpage_delivery",
@@ -1208,8 +1512,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_80_service_name": {
-    "status": "english_only",
-    "en": "Birth, death, and marriage records"
+    "status": "avantpage_delivery",
+    "en": "Birth, death, and marriage records",
+    "es": "Certificados de nacimiento, muerte o matrimonio",
+    "ko": "출생, 사망 및 혼인 기록",
+    "vi": "Giấy khai sinh, giấy chứng tử và giấy chứng nhận kết hôn",
+    "tl": "Mga record ng kapanganakan, pagkamatay, at kasal",
+    "zh-hans": "出生、死亡和婚姻记录",
+    "zh-hant": "出生、死亡和婚姻記錄",
+    "hy": "Ծննդյան, մահվան և ամուսնության վկայականներ",
+    "comment": "Translation delivered 2025-04-23"
   },
   "sf_81_description": {
     "status": "avantpage_delivery",
@@ -1236,8 +1548,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_81_service_name": {
-    "status": "english_only",
-    "en": "Mental health resources for youth"
+    "status": "avantpage_delivery",
+    "en": "Mental health resources for youth",
+    "es": "Recursos de salud mental para jóvenes",
+    "ko": "청소년을 위한 정신 건강 리소스",
+    "vi": "Nguồn hỗ trợ về sức khỏe tâm thần cho thanh thiếu niên",
+    "tl": "Mga resource sa kalusugan ng pag-iisip para sa kabataan",
+    "zh-hans": "青少年心理健康资源",
+    "zh-hant": "青少年心理健康資源",
+    "hy": "Հոգեկան առողջության ռեսուրսներ երիտասարդների համար",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_84_description": {
     "status": "avantpage_delivery",
@@ -1264,8 +1584,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_84_service_name": {
-    "status": "english_only",
-    "en": "Safety information for fire cleanup workers "
+    "status": "avantpage_delivery",
+    "en": "Safety information for fire cleanup workers ",
+    "es": "Información de seguridad para trabajadores de limpieza de incendios ",
+    "ko": "화재 정화 작업자를 위한 안전 정보 ",
+    "vi": "Thông tin an toàn cho nhân viên dọn dẹp đám cháy ",
+    "tl": "Impormasyon sa kaligtasan para sa mga manggagawang maglilinis pagkatapos ng sunog ",
+    "zh-hans": "消防清理工人的安全信息 ",
+    "zh-hant": "消防清理工人的安全資訊 ",
+    "hy": "Հրդեհների մաքրման աշխատողների անվտանգության վերաբերյալ տեղեկատվություն ",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_85_description": {
     "status": "avantpage_delivery",
@@ -1292,8 +1620,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_85_service_name": {
-    "status": "english_only",
-    "en": "Steps to rebuilding"
+    "status": "avantpage_delivery",
+    "en": "Steps to rebuilding",
+    "es": "Pasos para la reconstrucción",
+    "ko": "재건 단계",
+    "vi": "Các bước để xây dựng lại",
+    "tl": "Mga hakbang sa muling pagpapatayo",
+    "zh-hans": "重建步骤",
+    "zh-hant": "重建步驟",
+    "hy": "Վերակառուցման քայլերը",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_86_description": {
     "status": "english_only",
@@ -1360,8 +1696,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_89_service_name": {
-    "status": "english_only",
-    "en": "Worker safety laws for cleanup and rebuilding"
+    "status": "avantpage_delivery",
+    "en": "Worker safety laws for cleanup and rebuilding",
+    "es": "Leyes de seguridad laboral para la limpieza y reconstrucción",
+    "ko": "오염물질 처리 및 현장 복구를 위한 근로자 안전 법률",
+    "vi": "Luật an toàn cho người lao động trong công tác dọn dẹp và xây dựng lại",
+    "tl": "Mga batas sa kaligtasan ng manggagawa sa paglilinis at muling pagpapatayo",
+    "zh-hans": "针对清理和重建工作的工人安全法",
+    "zh-hant": "針對清理和重建工作的工人安全法",
+    "hy": "Անտառային հրդեհների մաքրման և վերակառուցման աշխատողների անվտանգության կանոններ",
+    "comment": "Translation delivered 2025-04-23"
   },
   "sf_90_description": {
     "status": "avantpage_delivery",
@@ -1388,8 +1732,16 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_90_service_name": {
-    "status": "english_only",
-    "en": "Tree removal"
+    "status": "avantpage_delivery",
+    "en": "Tree removal",
+    "es": "Retiro de árboles",
+    "ko": "위험 수목 제거",
+    "vi": "Cắt bỏ cây",
+    "tl": "Pag-aalis ng puno",
+    "zh-hans": "树木移除",
+    "zh-hant": "樹木移除",
+    "hy": "Ծառերի հեռացում",
+    "comment": "Translation delivered 2025-04-10"
   },
   "sf_91_description": {
     "status": "english_only",
