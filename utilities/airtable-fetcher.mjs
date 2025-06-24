@@ -89,6 +89,17 @@ async function fetchAirtableRecords(apiPath) {
       }
     });
 
+    // convert any fields that are arrays of length 1 to just the first item
+    Object.keys(record.fields).forEach(key => {
+      if (
+        Array.isArray(record.fields[key]) &&
+        record.fields[key].length === 1
+      ) {
+        record.fields[key] = record.fields[key][0];
+      }
+    });
+
+    // sort fields alphabetically
     record.fields = sortFieldsRecursively(record.fields);
   });
 

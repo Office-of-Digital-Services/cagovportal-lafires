@@ -37,7 +37,7 @@ const JOBS = [
    */
   const fillChildren = (childrows, parentrows, parentField) => {
     childrows.forEach(row => {
-      const myparentid = row.fields[parentField][0];
+      const myparentid = row.fields[parentField];
 
       const parent = parentrows.find(p => p.id === myparentid);
       if (!parent)
