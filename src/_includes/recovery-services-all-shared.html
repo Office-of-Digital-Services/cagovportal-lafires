@@ -230,13 +230,14 @@
         >
       </p>
       {%- for audience_type in lafires.service_finder.alldata %}
-      <h2>{{ audience_type.fields.Audience }}</h2>
+
       <!---->
       {%- for service_type in audience_type.children_service_types %}
 
       <div data-service-type="{{service_type.fields.ID}}">
         <h2 class="color-p2-darker">
-          {{ service_type.fields["Service type"] }}
+          {{ audience_type.fields.Audience + " - " +
+          service_type.fields["Service type"] }}
         </h2>
 
         {%- for category in service_type.children_categories %}
