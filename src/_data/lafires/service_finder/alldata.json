@@ -1,0 +1,3097 @@
+[
+  {
+    "id": "recEP9eO9yJvwUzhk",
+    "createdTime": "2025-06-19T18:31:24.000Z",
+    "fields": {
+      "Audience": "For you and your family",
+      "Audience ID": 1,
+      "Categories": "Housing, Food, Pets, Health and safety, Resources for certain groups, Financial assistance, Replace documents, Insurance, Rebuilding your house, Employment",
+      "Service types": [
+        "recD1BzZ6rtGT1O6h",
+        "recHmpjjj4li4w2AI"
+      ]
+    },
+    "children": [
+      {
+        "id": "recD1BzZ6rtGT1O6h",
+        "createdTime": "2025-06-19T18:34:02.000Z",
+        "fields": {
+          "Service type": "Basic needs",
+          "Service Type ID": 1,
+          "Categories": [
+            "recOcax30WK5MzD4l",
+            "recaqdTj2x2Q2mFjG",
+            "recleVzNiYeYxEhLP",
+            "rec8wNanCuxQYbH1j",
+            "recg0feExYSNWPk9D",
+            "rec9zRtxGU5XtKZoR"
+          ],
+          "Audience": [
+            "recEP9eO9yJvwUzhk"
+          ],
+          "Audience ID": [
+            1
+          ]
+        },
+        "children": [
+          {
+            "id": "rec8wNanCuxQYbH1j",
+            "createdTime": "2025-06-19T18:53:18.000Z",
+            "fields": {
+              "Category": "Financial assistance",
+              "Category description": "FEMA, disaster loans, mortgage, renter, and loan protections, and taxes",
+              "Category ID": 6,
+              "Audience": [
+                "recEP9eO9yJvwUzhk"
+              ],
+              "Service type": [
+                "recD1BzZ6rtGT1O6h"
+              ],
+              "Service Type ID": [
+                1
+              ],
+              "Audience ID": [
+                1
+              ],
+              "Services": [
+                "recRH0TS9QKA9KE1i",
+                "recIIIpjuAmAzy7OJ",
+                "recZ5LWGUvUBcXnLq",
+                "reclX5YsqVPBWkM3A",
+                "recJkL9Y1KK3T2989",
+                "recwnhEq2okXeLzkJ",
+                "rec4GfCFZTXKuMNzh",
+                "recwzVVRS7lrzdpWR",
+                "recPCWiEVjf8tvo0o"
+              ]
+            },
+            "children": [
+              {
+                "id": "recRH0TS9QKA9KE1i",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 23,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "FEMA disaster assistance",
+                  "Entity_type": "Federal",
+                  "Entity": "Federal Emergency Management Agency",
+                  "Entity_acronym": "FEMA",
+                  "Description": "The deadline to apply for FEMA disaster assistance was March 31, 2025. You can sign in to DisasterAssistance.gov to check the status of your application. FEMA can help with losses not covered by insurance — including temporary housing, repairs, and rebuilding.",
+                  "Info_link": "https://www.fema.gov/assistance/individual",
+                  "Service_link": "https://www.disasterassistance.gov/DAC-RI/",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-621-3362",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "New: FEMA can help support your recovery from a major disaster. You can apply at DisasterAssistance.gov and check your status anytime. Each disaster has its own deadline to apply, so check the website to see if you can still apply for help.",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "rec8wNanCuxQYbH1j"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    6
+                  ]
+                }
+              },
+              {
+                "id": "recZ5LWGUvUBcXnLq",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 43,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "Mortgage relief",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Financial Protection & Innovation",
+                  "Entity_acronym": "DFPI",
+                  "Description": "Get mortgage relief for structures damaged or destroyed by the LA fires. Temporarily reduce or pause mortgage payments, waive late fees, and more. ",
+                  "Info_link": "https://dfpi.ca.gov/lafires/relief/",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "discuss: Should add the new information shared in standup Jun 10 <airtable:mention id=\"mennPN44eOv0W88Cx\">@christina florente</airtable:mention>. If we do update with the new link that is emergency agnostic, this item is now not emergency specific. If the programs are different, you'll want to add the new item here and update Mortgage relief to something like \"2025 LA fire mortgage relief\"\n\n<airtable:mention id=\"men7LRWgxaPLuF9Yz\">@Laura Cochran</airtable:mention>  ",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "Drafting",
+                  "Category Linked": [
+                    "rec8wNanCuxQYbH1j"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    6
+                  ]
+                }
+              },
+              {
+                "id": "reclX5YsqVPBWkM3A",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 44,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "State disaster grants",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Social Services",
+                  "Entity_acronym": "CDSS",
+                  "Description": "If you've already received the maximum amount of FEMA disaster assistance, you may be eligible for a grant from California's State Supplemental Grant Program (SSGP). FEMA will automatically apply on your behalf. You don't need to apply directly for these state disaster grants.",
+                  "Info_link": "https://www.cdss.ca.gov/inforesources/disaster-services-branch/disaster-grant-assistance",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-759-6807",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": "SSGP@dss.ca.gov",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "rec8wNanCuxQYbH1j"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    6
+                  ]
+                }
+              },
+              {
+                "id": "recJkL9Y1KK3T2989",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 65,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "2025 income tax extension",
+                  "Entity_type": "State",
+                  "Entity": "California Franchise Tax Board",
+                  "Entity_acronym": "FTB",
+                  "Description": "Learn about the extended deadline to file and pay income tax in Los Angeles County. The new deadline is October 15, 2025.",
+                  "Info_link": "https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-888-825-9868",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": "FTBLACountyDisasterRelief@ftb.ca.gov",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "rec8wNanCuxQYbH1j"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    6
+                  ]
+                }
+              },
+              {
+                "id": "recwnhEq2okXeLzkJ",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 66,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "2025 property tax extension",
+                  "Entity_type": "State",
+                  "Entity": "California Governor's Office",
+                  "Entity_acronym": "GO",
+                  "Description": "Learn about the extended deadline to file and pay property taxes. The state property tax deadline is also extended. The new deadline is April 10, 2026. For those impacted by the LA fires, Governor Newsom has suspended penalties and interest on late property tax payments. ",
+                  "Info_link": "https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "rec8wNanCuxQYbH1j"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    6
+                  ]
+                }
+              },
+              {
+                "id": "rec4GfCFZTXKuMNzh",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 67,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "Property tax relief",
+                  "Entity_type": "State",
+                  "Entity": "California State Board of Equalization",
+                  "Entity_acronym": "BOE",
+                  "Description": "Get property tax relief if your home was damaged or destroyed.",
+                  "Info_link": "https://www.boe.ca.gov/proptaxes/disaster-relief.htm",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no updates",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "rec8wNanCuxQYbH1j"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    6
+                  ]
+                }
+              },
+              {
+                "id": "recwzVVRS7lrzdpWR",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 75,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "Consumer protections",
+                  "Entity_type": "State",
+                  "Entity": "California Public Utilities Commission",
+                  "Entity_acronym": "CPUC",
+                  "Description": "Learn about disaster relief protections to help with your energy, natural gas, water, landline, and mobile phone bills. ",
+                  "Info_link": "https://www.cpuc.ca.gov/consumer-support/psps/consumer-protections-and-resources-for-wildfire-victims",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Survey",
+                  "Status": "3 Approved",
+                  "Specific disaster": [
+                    "January 2025 LA Fires",
+                    "Fire State of Emergency"
+                  ],
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "rec8wNanCuxQYbH1j"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    6
+                  ]
+                }
+              },
+              {
+                "id": "recPCWiEVjf8tvo0o",
+                "createdTime": "2025-03-06T20:57:36.000Z",
+                "fields": {
+                  "ID": 88,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "SBA disaster loans for homeowners and renters",
+                  "Entity_type": "Federal",
+                  "Entity": "U.S. Small Business Administration",
+                  "Entity_acronym": "US SBA",
+                  "Description": "The deadline to apply for these loans was March 31, 2025. You can sign in to lending.sba.gov to check the status of your application. You can use these loans to repair your home or replace personal property damaged in the fires.",
+                  "Info_link": "https://www.sba.gov/funding-programs/disaster-assistance/physical-damage-loans#home-and-personal-property-loans",
+                  "Service_link": "https://lending.sba.gov/",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "New: If a disaster has damaged your home or personal property, you might be able to get financial assistance from the Small Business Administration. You do not need to own a business to apply.",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "rec8wNanCuxQYbH1j"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    6
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "rec9zRtxGU5XtKZoR",
+            "createdTime": "2025-06-19T18:20:44.000Z",
+            "fields": {
+              "Category": "Food",
+              "Category description": "Food banks, food benefits",
+              "Category ID": 2,
+              "Audience": [
+                "recEP9eO9yJvwUzhk"
+              ],
+              "Service type": [
+                "recD1BzZ6rtGT1O6h"
+              ],
+              "Service Type ID": [
+                1
+              ],
+              "Audience ID": [
+                1
+              ],
+              "Services": [
+                "recs7Llbxg11z0Qst",
+                "recJ1bOu7yYacNOgi",
+                "recs8phDk1DLnnHNu"
+              ]
+            },
+            "children": [
+              {
+                "id": "recs7Llbxg11z0Qst",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 37,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Food"
+                  ],
+                  "Service_name": "WIC food benefits for women and children",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Public Health",
+                  "Entity_acronym": "CDPH",
+                  "Description": "Get monthly benefits from the California Women, Infants and Children (WIC) program. Use these benefits to buy food for yourself and your children. You can also get nutrition and breastfeeding support.",
+                  "Info_link": "https://myfamily.wic.ca.gov/Home/HowCanIGetWIC#HowCanIGetWIC",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-852-5770",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "rec9zRtxGU5XtKZoR"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    2
+                  ]
+                }
+              },
+              {
+                "id": "recJ1bOu7yYacNOgi",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 38,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Food"
+                  ],
+                  "Service_name": "CalFresh food benefits",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Social Services",
+                  "Entity_acronym": "CDSS",
+                  "Description": "CalFresh can help your family get access to healthy food. You can use monthly CalFresh benefits at most grocery stores and even farmers markets.",
+                  "Info_link": "https://benefitscal.com/Help/program/calfresh/HCPDE?lang=en ",
+                  "Service_link": "https://benefitscal.com/ApplyForBenefits/begin/ABOVR?lang=en",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-866-488-8482",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "rec9zRtxGU5XtKZoR"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    2
+                  ]
+                }
+              },
+              {
+                "id": "recs8phDk1DLnnHNu",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 39,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Food"
+                  ],
+                  "Service_name": "Food banks and food pantries",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Social Services",
+                  "Entity_acronym": "CDSS",
+                  "Description": "Find locations near you where you can get free food and groceries.",
+                  "Info_link": "https://cdss.ca.gov/food-banks",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "rec9zRtxGU5XtKZoR"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    2
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "recOcax30WK5MzD4l",
+            "createdTime": "2025-06-19T18:20:44.000Z",
+            "fields": {
+              "Category": "Pets",
+              "Category description": "Animal shelters, resources for lost pets ",
+              "Category ID": 3,
+              "Audience": [
+                "recEP9eO9yJvwUzhk"
+              ],
+              "Service type": [
+                "recD1BzZ6rtGT1O6h"
+              ],
+              "Service Type ID": [
+                1
+              ],
+              "Audience ID": [
+                1
+              ],
+              "Services": [
+                "recWXPa7zOEX2niJ5"
+              ]
+            },
+            "children": [
+              {
+                "id": "recWXPa7zOEX2niJ5",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 45,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Pets"
+                  ],
+                  "Service_name": "Pet assistance",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Food and Agriculture",
+                  "Entity_acronym": "CDFA",
+                  "Description": "Get help if you lost a pet, had to leave a pet behind, or need shelter for your pet.",
+                  "Info_link": "https://www.cdfa.ca.gov/AHFSS/Animal_Health/eprs/cares/animal_shelter.html",
+                  "Service_link": "https://www.laanimalservices.com/search/lost-pets",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-213-270-8155",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recOcax30WK5MzD4l"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    3
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "recaqdTj2x2Q2mFjG",
+            "createdTime": "2025-06-19T18:53:17.000Z",
+            "fields": {
+              "Category": "Health and safety",
+              "Category description": "Mental health, prescription, air and water safety, cleanup safety",
+              "Category ID": 4,
+              "Audience": [
+                "recEP9eO9yJvwUzhk"
+              ],
+              "Service type": [
+                "recD1BzZ6rtGT1O6h"
+              ],
+              "Service Type ID": [
+                1
+              ],
+              "Audience ID": [
+                1
+              ],
+              "Services": [
+                "recQYIFrhOos35dXM",
+                "rechjk197BQ8zcgpP",
+                "recqbe6Z5JdNyPKCn",
+                "reclMeULrfc0407RZ",
+                "recQnyCoGtBeFGmMj",
+                "rec1XhCANXLooybvk",
+                "recaBGrnMPGrEm5Dt",
+                "recwDctHuqegK40Wm"
+              ]
+            },
+            "children": [
+              {
+                "id": "recQYIFrhOos35dXM",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 21,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Health and safety"
+                  ],
+                  "Service_name": "Prescription medicine help",
+                  "Entity_type": "Federal",
+                  "Entity": "U.S. Department of Health and Human Services",
+                  "Entity_acronym": "US HHS",
+                  "Description": "Get the prescriptions you need through the Emergency Prescription Assistance Program.",
+                  "Info_link": "https://aspr.hhs.gov/epap/Pages/default.aspx",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recaqdTj2x2Q2mFjG"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    4
+                  ]
+                }
+              },
+              {
+                "id": "reclMeULrfc0407RZ",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 69,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Health and safety"
+                  ],
+                  "Service_name": "Air safety",
+                  "Entity_type": "State",
+                  "Entity": "South Coast Air Quality Monitoring District",
+                  "Entity_acronym": "SCAQMD",
+                  "Description": "Check your air quality through the South Coast Air Quality Monitoring District.",
+                  "Info_link": "https://www.aqmd.gov/",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recaqdTj2x2Q2mFjG"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    4
+                  ]
+                }
+              },
+              {
+                "id": "recQnyCoGtBeFGmMj",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 76,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Health and safety"
+                  ],
+                  "Service_name": "Crisis counseling",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Social Services",
+                  "Entity_acronym": "CDSS",
+                  "Description": "Contact crisis hotlines to get immediate mental health support. ",
+                  "Info_link": "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/SACB/Pages/Crisis-Hotlines--Resources.aspx",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Survey",
+                  "Status": "3 Approved",
+                  "June 2025 status": "Drafting",
+                  "Category Linked": [
+                    "recaqdTj2x2Q2mFjG"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    4
+                  ]
+                }
+              },
+              {
+                "id": "rec1XhCANXLooybvk",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 81,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Health and safety"
+                  ],
+                  "Service_name": "Mental health resources for youth",
+                  "Entity_type": "State",
+                  "Entity": "California Health and Human Services Agency",
+                  "Entity_acronym": "CalHHS",
+                  "Description": "Find digital mental health programs and support for youth, young adults, and families.",
+                  "Info_link": "https://www.chhs.ca.gov/youthresources/",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": "chhsmail@chhs.ca.gov",
+                  "Mail": " ",
+                  "Status": "3 Approved",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recaqdTj2x2Q2mFjG"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    4
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "recg0feExYSNWPk9D",
+            "createdTime": "2025-06-19T18:20:44.000Z",
+            "fields": {
+              "Category": "Housing",
+              "Category description": "Temporary housing and emergency shelter",
+              "Category ID": 1,
+              "Audience": [
+                "recEP9eO9yJvwUzhk"
+              ],
+              "Service type": [
+                "recD1BzZ6rtGT1O6h"
+              ],
+              "Service Type ID": [
+                1
+              ],
+              "Audience ID": [
+                1
+              ],
+              "Services": [
+                "recFmkqajD1Hs0uNO",
+                "recZ4xkzkOUiuLmrF",
+                "rec0XYIpgZW5B2Kbi"
+              ]
+            },
+            "children": [
+              {
+                "id": "recFmkqajD1Hs0uNO",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 22,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Housing"
+                  ],
+                  "Service_name": "Temporary housing",
+                  "Entity_type": "Federal",
+                  "Entity": "Federal Emergency Management Agency",
+                  "Entity_acronym": "FEMA",
+                  "Description": "The deadline to apply for FEMA housing assistance was March 31, 2025. You can sign in to DisasterAssistance.gov to check the status of your application. FEMA housing assistance can include rental assistance and hotel or other short-term lodging reimbursement.",
+                  "Info_link": "https://www.fema.gov/assistance/individual/sheltering-housing-options",
+                  "Service_link": "https://www.disasterassistance.gov/ ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "New: FEMA housing assistance can include rental assistance and hotel or other short-term lodging reimbursement. You can apply at DisasterAssistance.gov and check your status anytime. Each disaster has its own deadline to apply, so check the website to see if you can still apply for help.",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recg0feExYSNWPk9D"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    1
+                  ]
+                }
+              },
+              {
+                "id": "rec0XYIpgZW5B2Kbi",
+                "createdTime": "2025-06-17T19:02:01.000Z",
+                "fields": {
+                  "ID": 92,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Housing"
+                  ],
+                  "Service_name": "Emergency shelter",
+                  "Entity_type": "Federal",
+                  "Entity": "U.S. Department of Homeland Security",
+                  "Description": "Resources that can help you find emergency shelter.",
+                  "Info_link": "https://www.disasterassistance.gov/information/immediate-needs/emergency-shelter",
+                  "Status": "3 Approved",
+                  "June 2025 status": "Ready to go",
+                  "Category Linked": [
+                    "recg0feExYSNWPk9D"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    1
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "recleVzNiYeYxEhLP",
+            "createdTime": "2025-06-19T18:53:17.000Z",
+            "fields": {
+              "Category": "Resources for certain groups",
+              "Category description": "Case management, and help for specific groups",
+              "Category ID": 5,
+              "Audience": [
+                "recEP9eO9yJvwUzhk"
+              ],
+              "Service type": [
+                "recD1BzZ6rtGT1O6h"
+              ],
+              "Service Type ID": [
+                1
+              ],
+              "Audience ID": [
+                1
+              ],
+              "Services": [
+                "recZ0eKboo0mYLMpY",
+                "recWWqIgfHKqYcqJC",
+                "reco71BRFmZX9SgWP",
+                "recK5lbNHTVRedfAy"
+              ]
+            },
+            "children": [
+              {
+                "id": "recZ0eKboo0mYLMpY",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 46,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Resources for certain groups"
+                  ],
+                  "Service_name": "Help for immigrants",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Social Services",
+                  "Entity_acronym": "CDSS",
+                  "Description": "Find information and guides to disaster assistance for immigrant Californians. Available in Spanish, simplified Chinese, traditional Chinese, and Armenian.",
+                  "Info_link": "https://cdss.ca.gov/disaster-help-center",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recleVzNiYeYxEhLP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    5
+                  ]
+                }
+              },
+              {
+                "id": "reco71BRFmZX9SgWP",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 60,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Resources for certain groups"
+                  ],
+                  "Service_name": "Disaster case management",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Social Services",
+                  "Entity_acronym": "CDSS",
+                  "Description": "Work with a case manager from Catholic Charities of California who can guide you through the recovery process.",
+                  "Info_link": "https://www.cdss.ca.gov/inforesources/disaster-services-branch/disaster-grant-assistance",
+                  "Service_link": "https://catholiccharitiesca.org/our-programs/disaster-case-management-program/",
+                  "In_person_kiosk": " ",
+                  "Phone": "833-775-3267",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recleVzNiYeYxEhLP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    5
+                  ]
+                }
+              },
+              {
+                "id": "recK5lbNHTVRedfAy",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 63,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Essential help",
+                  "Category": [
+                    "Resources for certain groups"
+                  ],
+                  "Service_name": "Help for veterans",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Veterans Affairs",
+                  "Entity_acronym": "CalVet",
+                  "Description": "Find CalVet information and resources for veterans and their families affected by the Los Angeles wildfires.",
+                  "Info_link": "https://www.calvet.ca.gov/Pages/cawildfires.aspx",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recleVzNiYeYxEhLP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recD1BzZ6rtGT1O6h"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    1
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    5
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "recHmpjjj4li4w2AI",
+        "createdTime": "2025-06-19T18:34:13.000Z",
+        "fields": {
+          "Service type": "Recovery needs",
+          "Service Type ID": 2,
+          "Categories": [
+            "reclvIMOPBIX62bUP",
+            "recT4iQQupjaKqRWE",
+            "recbnBZyXXaJ8bOdg",
+            "recuuI2kgBV08yYpl"
+          ],
+          "Audience": [
+            "recEP9eO9yJvwUzhk"
+          ],
+          "Audience ID": [
+            1
+          ]
+        },
+        "children": [
+          {
+            "id": "recT4iQQupjaKqRWE",
+            "createdTime": "2025-06-19T18:53:19.000Z",
+            "fields": {
+              "Category": "Insurance",
+              "Category description": "Home insurance, insurance claims",
+              "Category ID": 8,
+              "Audience": [
+                "recEP9eO9yJvwUzhk"
+              ],
+              "Service type": [
+                "recHmpjjj4li4w2AI"
+              ],
+              "Service Type ID": [
+                2
+              ],
+              "Audience ID": [
+                1
+              ],
+              "Services": [
+                "rec9mOV3W37smkS2f",
+                "recvPP83BXTLuoL0O",
+                "recxb0BE9VwrTJwGp",
+                "recMVeQWZtHcmzOzW",
+                "recktCSMBd5q2WkKV"
+              ]
+            },
+            "children": [
+              {
+                "id": "rec9mOV3W37smkS2f",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 48,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Insurance"
+                  ],
+                  "Service_name": "Insurance tips and resources for wildfire claims",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Insurance",
+                  "Entity_acronym": "CDI",
+                  "Description": "Find tips and resources to help you with wildfire insurance claims and issues.",
+                  "Info_link": "https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-927-4357",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: there may be a better resource",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recT4iQQupjaKqRWE"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    8
+                  ]
+                }
+              },
+              {
+                "id": "recvPP83BXTLuoL0O",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 49,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Insurance"
+                  ],
+                  "Service_name": "Insurance protections",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Insurance",
+                  "Entity_acronym": "CDI",
+                  "Description": "Learn about the state law that prevents insurance companies from canceling or not renewing home insurance policies for one year after a wildfire. And find out if your zip code is protected.",
+                  "Info_link": "https://www.insurance.ca.gov/01-consumers/140-catastrophes/MandatoryOneYearMoratoriumNonRenewals.cfm",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-927-4357",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "Specific disaster": [
+                    "Fire State of Emergency",
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recT4iQQupjaKqRWE"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    8
+                  ]
+                }
+              },
+              {
+                "id": "recxb0BE9VwrTJwGp",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 50,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Insurance"
+                  ],
+                  "Service_name": "Help with insurance claims",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Insurance",
+                  "Entity_acronym": "CDI",
+                  "Description": "Get help filing an insurance claim or resolving an issue with a claim you already filed.",
+                  "Info_link": "https://www.insurance.ca.gov/01-consumers/101-help/",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-927-4357",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recT4iQQupjaKqRWE"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    8
+                  ]
+                }
+              },
+              {
+                "id": "recktCSMBd5q2WkKV",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 61,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Insurance",
+                    "Resources for certain groups"
+                  ],
+                  "Service_name": "CalVet home insurance claims",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Veterans Affairs",
+                  "Entity_acronym": "CalVet",
+                  "Description": "If you have CalVet home insurance, learn how to file a claim.",
+                  "Info_link": "https://www.calvet.ca.gov/HomeLoans/Pages/How-to-submit-a-claim.aspx",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-626-1613",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": "HomeProtection@calvet.ca.gov",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recT4iQQupjaKqRWE"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    8
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "recbnBZyXXaJ8bOdg",
+            "createdTime": "2025-06-19T18:53:20.000Z",
+            "fields": {
+              "Category": "Rebuilding your house",
+              "Category description": "Contractor search tools, debris removal, tree removal",
+              "Category ID": 9,
+              "Audience": [
+                "recEP9eO9yJvwUzhk"
+              ],
+              "Service type": [
+                "recHmpjjj4li4w2AI"
+              ],
+              "Service Type ID": [
+                2
+              ],
+              "Audience ID": [
+                1
+              ],
+              "Services": [
+                "recgpyBWSeAeKI6vP",
+                "recveMdgtVn4pKjxi",
+                "recyBcb7OJTnkBqGD",
+                "recuxpgoqcUAsgRGE",
+                "recKz8uU78j6vbmxO",
+                "recpz9XdJeM11ReH0",
+                "rec6bJWYqfzCPH0tl",
+                "reckFF7TfGxa8xjpy",
+                "recyrwRKKzSUoKuA7",
+                "recImWD837NGdRJ9D"
+              ]
+            },
+            "children": [
+              {
+                "id": "recgpyBWSeAeKI6vP",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 58,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Rebuild your house"
+                  ],
+                  "Service_name": "Verify a contractor license",
+                  "Entity_type": "State",
+                  "Entity": "California Contractors State Licensing Board",
+                  "Entity_acronym": "CSLB",
+                  "Description": "Unlicensed contractors often prey on survivors of disasters. To protect yourself, request the contractor's license number and verify the status.",
+                  "Info_link": "https://www.cslb.ca.gov/Media_Room/Disaster_Help_Center/#Consumers",
+                  "Service_link": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/ZipCodeSearch.aspx",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-962-1125",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recbnBZyXXaJ8bOdg"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    9
+                  ]
+                }
+              },
+              {
+                "id": "recveMdgtVn4pKjxi",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 59,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Rebuild your house"
+                  ],
+                  "Service_name": "Find a licensed contractor",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Consumer Affairs",
+                  "Entity_acronym": "DCA",
+                  "Description": "Find a professional licensed contractor. Each record lists the business name, address, a license status as expired, suspended, or revoked.",
+                  "Info_link": " ",
+                  "Service_link": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/ZipCodeSearch.aspx",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recbnBZyXXaJ8bOdg"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    9
+                  ]
+                }
+              },
+              {
+                "id": "recuxpgoqcUAsgRGE",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 72,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Rebuild your house",
+                    "Housing"
+                  ],
+                  "Service_name": "Address changes",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Motor Vehicles",
+                  "Entity_acronym": "DMV",
+                  "Description": "File a change of address.",
+                  "Info_link": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/updating-information-on-your-driver-license-or-identification-dl-id-card/",
+                  "Service_link": "https://www.dmv.ca.gov/portal/online-change-of-address-coa-system/ ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Survey",
+                  "Status": "3 Approved",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recbnBZyXXaJ8bOdg"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    9
+                  ]
+                }
+              },
+              {
+                "id": "rec6bJWYqfzCPH0tl",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 84,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Rebuild your house",
+                    "Health and safety"
+                  ],
+                  "Service_name": "Safety information for fire cleanup workers ",
+                  "Entity_type": "State",
+                  "Entity": "California Labor & Workforce Development Agency",
+                  "Entity_acronym": "LWDA",
+                  "Description": "If you work in fire cleanup or debris removal, learn about safety gear and employee protections.",
+                  "Info_link": "https://www.labor.ca.gov/2025/02/06/know-your-rights-keep-yourself-safe-working-on-fire-cleanup/",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recbnBZyXXaJ8bOdg"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    9
+                  ]
+                }
+              },
+              {
+                "id": "reckFF7TfGxa8xjpy",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 85,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Rebuild your house"
+                  ],
+                  "Service_name": "Steps to rebuilding",
+                  "Entity_type": "State",
+                  "Entity": "State of California",
+                  "Entity_acronym": "CDT",
+                  "Description": "See the major steps to take when rebuilding your home. This includes insurance claims, permits, and more.",
+                  "Info_link": "https://www.ca.gov/lafires/help-for-you/rebuild-your-house/",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "New: See the major steps to take when rebuilding your home. This includes insurance claims, permits, hiring contractors and more.",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recbnBZyXXaJ8bOdg"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    9
+                  ]
+                }
+              },
+              {
+                "id": "recyrwRKKzSUoKuA7",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 86,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Rebuild your house"
+                  ],
+                  "Service_name": "2025 wildfire debris removal",
+                  "Entity_type": "County",
+                  "Entity": "Los Angeles County",
+                  "Entity_acronym": "LA County",
+                  "Description": "Opt in by April 15, 2025, to get free government debris removal. If you don't opt in, you'll need to pay for a private debris removal contractor instead.",
+                  "Info_link": "https://recovery.lacounty.gov/debris-removal/roe/",
+                  "Service_link": " ",
+                  "Status": "3 Approved",
+                  "New Description": "New: All property owners who did not opt in for free government debris removal needed to obtain a Fire Debris Removal (FDR) permit and hire a licensed contractor by June 1, 2025. Fire debris must be removed by June 30, 2025.",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recbnBZyXXaJ8bOdg"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    9
+                  ]
+                }
+              },
+              {
+                "id": "recImWD837NGdRJ9D",
+                "createdTime": "2025-03-11T23:19:25.000Z",
+                "fields": {
+                  "ID": 90,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Rebuild your house"
+                  ],
+                  "Service_name": "Tree removal",
+                  "Entity_type": "Federal",
+                  "Entity": "U.S. Army Corps of Engineers",
+                  "Entity_acronym": "USACE",
+                  "Description": "During debris removal, the Army Corps will remove trees they decide are hazardous. But you can submit a waiver to ask them not to remove specific trees on your property.",
+                  "Info_link": "https://www.ca.gov/lafires/help-for-you/rebuild-your-house/cleanup-debris-removal/",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "discuss: the link does not take people to information that is about the waiver. This may be a better link: https://recovery.lacounty.gov/debris-removal-2/phase-2/#1741114841068-ad25e7fc-fe3e",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "Drafting",
+                  "Category Linked": [
+                    "recbnBZyXXaJ8bOdg"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    9
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "reclvIMOPBIX62bUP",
+            "createdTime": "2025-06-19T18:53:19.000Z",
+            "fields": {
+              "Category": "Replace documents",
+              "Category description": "Driver's licenses, IDs, and birth, death, marriage records and property records.",
+              "Category ID": 7,
+              "Audience": [
+                "recEP9eO9yJvwUzhk"
+              ],
+              "Service type": [
+                "recHmpjjj4li4w2AI"
+              ],
+              "Service Type ID": [
+                2
+              ],
+              "Audience ID": [
+                1
+              ],
+              "Services": [
+                "rec63jzqh9d1HxRC8",
+                "recFsywEGbvOxyKNY",
+                "recx13O58ig56nKU1",
+                "recMYe7jsApHDTsng",
+                "recU6w8n8sshRr2RB",
+                "reccFwgumu6sS7J0R",
+                "recQI55NZ3vaNdNvz",
+                "recVAqg7iuk83TdS1",
+                "recWIn9F6osYxAfoW",
+                "recVKcCDycjFBMdTr",
+                "recXS6UH5zve5UkeM",
+                "rechQMSdSdP1A60ra",
+                "recghNp0oG7nrFjCX"
+              ]
+            },
+            "children": [
+              {
+                "id": "rec63jzqh9d1HxRC8",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 52,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Replace documents"
+                  ],
+                  "Service_name": "Driver's license or ID cards",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Motor Vehicles",
+                  "Entity_acronym": "DMV",
+                  "Description": "Replace California driver's licenses or IDs. Fees are waived for licenses or IDs lost in the fires.",
+                  "Info_link": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/replace-your-driver-license-or-identification-dl-id-card/",
+                  "Service_link": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/replace-your-driver-license-or-identification-dl-id-card/online-duplicate-driver-license-request/",
+                  "In_person_kiosk": "https://www.dmv.ca.gov/portal/locations/kiosks/",
+                  "Phone": "1-800-777-0133",
+                  "Fax": " ",
+                  "In_Person_Office": "https://www.dmv.ca.gov/portal/locations/",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "New: Replace California driver's licenses or ID Cards. ",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "reclvIMOPBIX62bUP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    7
+                  ]
+                }
+              },
+              {
+                "id": "recFsywEGbvOxyKNY",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 53,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Replace documents"
+                  ],
+                  "Service_name": "Vehicle titles",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Motor Vehicles",
+                  "Entity_acronym": "DMV",
+                  "Description": "Replace titles for vehicles registered in California. Fees are waived for titles lost in the fires.",
+                  "Info_link": "https://www.dmv.ca.gov/portal/htvr-10/",
+                  "Service_link": "https://www.dmv.ca.gov/portal/dmv-virtual-office/replacement-title/",
+                  "In_person_kiosk": "https://www.dmv.ca.gov/portal/locations/kiosks/",
+                  "Phone": "1-800-777-0133",
+                  "Fax": " ",
+                  "In_Person_Office": "https://www.dmv.ca.gov/portal/locations/",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "New: Replace titles for vehicles registered in California. ",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "reclvIMOPBIX62bUP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    7
+                  ]
+                }
+              },
+              {
+                "id": "recx13O58ig56nKU1",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 54,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Replace documents"
+                  ],
+                  "Service_name": "Manufactured and mobile home documents",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Housing and Community Development",
+                  "Entity_acronym": "HCD",
+                  "Description": "Replace manufactured and mobile home registration and titling documents. Fees may be waived for documents lost in the fires.",
+                  "Info_link": "https://www.hcd.ca.gov/manufactured-and-mobilehomes/registration-and-titling",
+                  "Service_link": "https://cahcd.my.site.com/s/",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-952-8356",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": "ContactRT@hcd.ca.gov",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "New: Replace manufactured and mobile home registration and titling documents. ",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "reclvIMOPBIX62bUP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    7
+                  ]
+                }
+              },
+              {
+                "id": "recMYe7jsApHDTsng",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 55,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Replace documents",
+                    "Financial assistance"
+                  ],
+                  "Service_name": "Personal income tax documents and info",
+                  "Entity_type": "State",
+                  "Entity": "California Franchise Tax Board",
+                  "Entity_acronym": "FTB",
+                  "Description": "Replace personal tax documents. File critical changes of information such as change of address and power of attorney.",
+                  "Info_link": "https://www.ftb.ca.gov/file/when-to-file/help-los-angeles-county-fire-relief.html#collapse2",
+                  "Service_link": "https://www.ftb.ca.gov/myftb/index.asp",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": "FTBLACountyDisasterRelief@ftb.ca.gov",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: lets review together <airtable:mention id=\"menYIdVoJ2H1NfGLC\">@christina florente</airtable:mention> . The link has nothing to do with replacing tax documents.",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "Drafting",
+                  "Category Linked": [
+                    "reclvIMOPBIX62bUP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    7
+                  ]
+                }
+              },
+              {
+                "id": "recU6w8n8sshRr2RB",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 56,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Replace documents"
+                  ],
+                  "Service_name": "Military service records",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Veterans Affairs",
+                  "Entity_acronym": "CalVet",
+                  "Description": "Learn how to replace service records (DD 214), awards, and medals.",
+                  "Info_link": "https://www.calvet.ca.gov/VetServices/Pages/Military-Records.aspx",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "reclvIMOPBIX62bUP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    7
+                  ]
+                }
+              },
+              {
+                "id": "recQI55NZ3vaNdNvz",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 70,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Replace documents"
+                  ],
+                  "Service_name": "Disabled parking placards",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Motor Vehicles",
+                  "Entity_acronym": "DMV",
+                  "Description": "Replace Disabled Person Parking Placard.",
+                  "Info_link": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/disabled-person-parking-placards-plates/ ",
+                  "Service_link": "https://www.dmv.ca.gov/portal/dmv-virtual-office/dppp-replacement/ ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Survey",
+                  "Status": "3 Approved",
+                  "New Description": "note: no updates",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "reclvIMOPBIX62bUP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    7
+                  ]
+                }
+              },
+              {
+                "id": "recVAqg7iuk83TdS1",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 71,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Replace documents"
+                  ],
+                  "Service_name": "License plates and registration stickers",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Motor Vehicles",
+                  "Entity_acronym": "DMV",
+                  "Description": "Replace license plates and registration stickers.",
+                  "Info_link": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/replacement-license-plates-and-stickers/",
+                  "Service_link": "https://www.dmv.ca.gov/portal/dmv-virtual-office/replacement-license-plates/",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Survey",
+                  "Status": "3 Approved",
+                  "New Description": "note: no updates",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "reclvIMOPBIX62bUP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    7
+                  ]
+                }
+              },
+              {
+                "id": "recWIn9F6osYxAfoW",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 73,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Replace documents"
+                  ],
+                  "Service_name": "Vehicle or driver's records",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Motor Vehicles",
+                  "Entity_acronym": "DMV",
+                  "Description": "Replace vehicle or driver's records.",
+                  "Info_link": "https://www.dmv.ca.gov/portal/customer-service/request-vehicle-or-driver-records/",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Survey",
+                  "Status": "3 Approved",
+                  "New Description": "Request vehicle or driver's records.",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "reclvIMOPBIX62bUP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    7
+                  ]
+                }
+              },
+              {
+                "id": "recghNp0oG7nrFjCX",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 80,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Replace documents"
+                  ],
+                  "Service_name": "Birth, death, and marriage records",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Public Health",
+                  "Entity_acronym": "CDPH",
+                  "Description": "Learn how to get replacements of these vital records. The replacements are free, but you’ll need to go in person to a notary and pay a notary fee. Find forms in English and Spanish.",
+                  "Info_link": "https://www.ca.gov/lafires/help-for-you/replace-personal-documents/birth-death-marriage-certificates/",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-735-2929",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": "https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/VS111.pdf",
+                  "Email": "SOEVitalRecords@cdph.ca.gov",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: changes dependent on new process",
+                  "June 2025 status": "Drafting",
+                  "Category Linked": [
+                    "reclvIMOPBIX62bUP"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    7
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "recuuI2kgBV08yYpl",
+            "createdTime": "2025-06-19T18:53:21.000Z",
+            "fields": {
+              "Category": "Employment",
+              "Category description": "Unemployment, disability, job search tools",
+              "Category ID": 10,
+              "Audience": [
+                "recEP9eO9yJvwUzhk"
+              ],
+              "Service type": [
+                "recHmpjjj4li4w2AI"
+              ],
+              "Service Type ID": [
+                2
+              ],
+              "Audience ID": [
+                1
+              ],
+              "Services": [
+                "recr3wEf4I4X9KPZq",
+                "recC6HuAiNjEzQ5tm",
+                "recH0eczLwZOO7nSB",
+                "recnMBk1IsETVPF8y",
+                "reclm0QD1enc7DZ6h",
+                "recIt5Lg7VIlRItVQ"
+              ]
+            },
+            "children": [
+              {
+                "id": "recr3wEf4I4X9KPZq",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 31,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Employment"
+                  ],
+                  "Service_name": "Unemployment benefits",
+                  "Entity_type": "State",
+                  "Entity": "California Employment Development Department",
+                  "Entity_acronym": "EDD",
+                  "Description": "If you lost your job, apply for unemployment benefits.",
+                  "Info_link": "https://edd.ca.gov/en/unemployment/",
+                  "Service_link": "https://edd.ca.gov/en/unemployment/ui_online/",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-833-998-2284",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recuuI2kgBV08yYpl"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    10
+                  ]
+                }
+              },
+              {
+                "id": "recC6HuAiNjEzQ5tm",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 32,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Employment"
+                  ],
+                  "Service_name": "Disability benefits",
+                  "Entity_type": "State",
+                  "Entity": "California Employment Development Department",
+                  "Entity_acronym": "EDD",
+                  "Description": "If you are sick or injured from the fires, apply for disability benefits.",
+                  "Info_link": "https://edd.ca.gov/en/disability/disability_insurance/",
+                  "Service_link": "https://edd.ca.gov/en/myedd/",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-833-998-2284",
+                  "Fax": " ",
+                  "In_Person_Office": "https://edd.ca.gov/en/Office_Locator/",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "New: If you are sick or injured as a result of a disaster, you may be eligible for disability benefits.",
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recuuI2kgBV08yYpl"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    10
+                  ]
+                }
+              },
+              {
+                "id": "recH0eczLwZOO7nSB",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 33,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Employment"
+                  ],
+                  "Service_name": "Paid Family Leave",
+                  "Entity_type": "State",
+                  "Entity": "California Employment Development Department",
+                  "Entity_acronym": "EDD",
+                  "Description": "If you need time off work to care for your family, apply for Paid Family Leave.",
+                  "Info_link": "https://edd.ca.gov/en/disability/paid-family-leave/",
+                  "Service_link": "https://edd.ca.gov/en/myedd/",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-833-998-2284",
+                  "Fax": " ",
+                  "In_Person_Office": "https://edd.ca.gov/en/Office_Locator/",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recuuI2kgBV08yYpl"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    10
+                  ]
+                }
+              },
+              {
+                "id": "recnMBk1IsETVPF8y",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 34,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Employment"
+                  ],
+                  "Service_name": "Job search resources",
+                  "Entity_type": "State",
+                  "Entity": "California Employment Development Department",
+                  "Entity_acronym": "EDD",
+                  "Description": "Find job search tools like CalJOBS and other resources to help you find employment.",
+                  "Info_link": "https://edd.ca.gov/en/jobs/",
+                  "Service_link": "https://www.caljobs.ca.gov/vosnet/default.aspx",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": "https://edd.ca.gov/en/Office_Locator/",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recuuI2kgBV08yYpl"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    10
+                  ]
+                }
+              },
+              {
+                "id": "reclm0QD1enc7DZ6h",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 35,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Employment"
+                  ],
+                  "Service_name": "Job training",
+                  "Entity_type": "State",
+                  "Entity": "California Employment Development Department",
+                  "Entity_acronym": "EDD",
+                  "Description": "General support, referrals, and training to find a new job in California.",
+                  "Info_link": "https://edd.ca.gov/en/jobs_and_training/Training_Information/",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recuuI2kgBV08yYpl"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    10
+                  ]
+                }
+              },
+              {
+                "id": "recIt5Lg7VIlRItVQ",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 36,
+                  "Audience": "For your and your family",
+                  "Type_of_Service": "Start recovering",
+                  "Category": [
+                    "Employment"
+                  ],
+                  "Service_name": "CalJOBS job search system",
+                  "Entity_type": "State",
+                  "Entity": "California Employment Development Department",
+                  "Entity_acronym": "EDD",
+                  "Description": "Apply for a new job on CalJOBS, California’s online job exchange system.",
+                  "Info_link": "https://www.caljobs.ca.gov/vosnet/default.aspx",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recuuI2kgBV08yYpl"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recHmpjjj4li4w2AI"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recEP9eO9yJvwUzhk"
+                  ],
+                  "Service Type ID": [
+                    2
+                  ],
+                  "Audience ID": [
+                    1
+                  ],
+                  "Category ID": [
+                    10
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "recsw2qIHU9m1kIXh",
+    "createdTime": "2025-06-19T18:36:02.000Z",
+    "fields": {
+      "Audience": "For your business",
+      "Audience ID": 2,
+      "Categories": "Financial assistance, Rebuild your business",
+      "Service types": [
+        "recKqvV5kRkj7YYxO"
+      ]
+    },
+    "children": [
+      {
+        "id": "recKqvV5kRkj7YYxO",
+        "createdTime": "2025-06-19T18:34:37.000Z",
+        "fields": {
+          "Service type": "Recovery needs",
+          "Service Type ID": 4,
+          "Categories": [
+            "recYr55ShNVT6CbOx",
+            "recTK6BEJCa2f6LaO"
+          ],
+          "Audience": [
+            "recsw2qIHU9m1kIXh"
+          ],
+          "Audience ID": [
+            2
+          ]
+        },
+        "children": [
+          {
+            "id": "recTK6BEJCa2f6LaO",
+            "createdTime": "2025-06-19T18:53:25.000Z",
+            "fields": {
+              "Category": "Rebuild your business",
+              "Category description": "Worker safety, debris removal",
+              "Category ID": 12,
+              "Audience": [
+                "recsw2qIHU9m1kIXh"
+              ],
+              "Service type": [
+                "recKqvV5kRkj7YYxO"
+              ],
+              "Service Type ID": [
+                4
+              ],
+              "Audience ID": [
+                2
+              ],
+              "Services": [
+                "recFIr5hOTdYiS4nS",
+                "recjQQQtE04QgIfC1"
+              ]
+            },
+            "children": [
+              {
+                "id": "recFIr5hOTdYiS4nS",
+                "createdTime": "2025-03-11T21:21:33.000Z",
+                "fields": {
+                  "ID": 89,
+                  "Audience": "For your business",
+                  "Type_of_Service": "Business help",
+                  "Category": [
+                    "Rebuild your business"
+                  ],
+                  "Service_name": "Worker safety laws for cleanup and rebuilding",
+                  "Entity_type": "State",
+                  "Entity": "Department of Industrial Relations",
+                  "Entity_acronym": "DIR",
+                  "Description": "If you own a cleanup, debris removal, or rebuilding business, learn about worker safety laws and regulations. Find out how to protect your employees and keep your workplace safe. ",
+                  "Info_link": "https://www.dir.ca.gov/Wildfire-Cleanup-Rebuild.html",
+                  "Source": "From department",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recTK6BEJCa2f6LaO"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recKqvV5kRkj7YYxO"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recsw2qIHU9m1kIXh"
+                  ],
+                  "Service Type ID": [
+                    4
+                  ],
+                  "Audience ID": [
+                    2
+                  ],
+                  "Category ID": [
+                    12
+                  ]
+                }
+              },
+              {
+                "id": "recjQQQtE04QgIfC1",
+                "createdTime": "2025-04-02T18:01:57.000Z",
+                "fields": {
+                  "ID": 91,
+                  "Audience": "For your business",
+                  "Type_of_Service": "Business help",
+                  "Category": [
+                    "Rebuild your business"
+                  ],
+                  "Service_name": "2025 wildfire debris removal for commercial properties",
+                  "Entity_type": "Federal",
+                  "Entity": "U.S. Army Corps of Engineers",
+                  "Entity_acronym": "USACE",
+                  "Description": "Opt in by April 15, 2025, to find out if your business qualifies for free government debris removal. ",
+                  "Info_link": "https://recovery.lacounty.gov/debris-removal/roe/ ",
+                  "Service_link": "https://app.smartsheet.com/b/form/ca0e6e24c8db4598b5c49642b2ff4615",
+                  "Status": "3 Approved",
+                  "New Description": "New: If your property was damaged in the January 2025 wildfires, you had until April 15, 2025 to sign up for free debris cleanup from the government. If you did not sign up or said no, you must get a Fire Debris Removal (FDR) permit and hire a licensed contractor to clean up your property by June 30, 2025.",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recTK6BEJCa2f6LaO"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recKqvV5kRkj7YYxO"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recsw2qIHU9m1kIXh"
+                  ],
+                  "Service Type ID": [
+                    4
+                  ],
+                  "Audience ID": [
+                    2
+                  ],
+                  "Category ID": [
+                    12
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "recYr55ShNVT6CbOx",
+            "createdTime": "2025-06-19T18:53:23.000Z",
+            "fields": {
+              "Category": "Financial assistance",
+              "Category description": "Financial help, disaster relief payments",
+              "Category ID": 11,
+              "Audience": [
+                "recsw2qIHU9m1kIXh"
+              ],
+              "Service type": [
+                "recKqvV5kRkj7YYxO"
+              ],
+              "Service Type ID": [
+                4
+              ],
+              "Audience ID": [
+                2
+              ],
+              "Services": [
+                "recQhviB6bpRLsQ3R",
+                "rec4tqELoWKsRDj5v",
+                "recmCOlxWqCph8gDO",
+                "recmWhNEvFg4IAHAY",
+                "reca2OVWXxEVl8PxC",
+                "recLAKXiHrSGD1Tvi"
+              ]
+            },
+            "children": [
+              {
+                "id": "recQhviB6bpRLsQ3R",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 25,
+                  "Audience": "For your business",
+                  "Type_of_Service": "Business help",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "Disaster loans for businesses",
+                  "Entity_type": "Federal",
+                  "Entity": "U.S. Small Business Administration",
+                  "Entity_acronym": "US SBA",
+                  "Description": "The deadline to apply for loans to repair physical damage to your business was March 31, 2025. You can still apply by October 15, 2025, for a loan to cover economic losses.",
+                  "Info_link": "https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires  ",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recYr55ShNVT6CbOx"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recKqvV5kRkj7YYxO"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recsw2qIHU9m1kIXh"
+                  ],
+                  "Service Type ID": [
+                    4
+                  ],
+                  "Audience ID": [
+                    2
+                  ],
+                  "Category ID": [
+                    11
+                  ]
+                }
+              },
+              {
+                "id": "rec4tqELoWKsRDj5v",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 26,
+                  "Audience": "For your business",
+                  "Type_of_Service": "Business help",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "Business use tax or fee extension and relief",
+                  "Entity_type": "State",
+                  "Entity": "California Department of Tax and Fee Administration",
+                  "Entity_acronym": "CDTFA",
+                  "Description": "Get relief from penalties, collection costs, and interest. You can also get up to a 3-month filing extension on your tax returns.",
+                  "Info_link": "https://www.cdtfa.ca.gov/services/state-of-emergency-tax-relief.htm",
+                  "Service_link": "https://onlineservices.cdtfa.ca.gov/_/",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-800-400-7115",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "New: Get relief from penalties, collection costs, and interest if you have been directly affected by disasters declared as state of emergencies, both within California and nationally. You can also get up to a 3-month filing extension on your tax returns.",
+                  "Specific disaster": [
+                    "January 2025 LA Fires",
+                    "Applies to general aid to"
+                  ],
+                  "June 2025 status": "Needs review",
+                  "Category Linked": [
+                    "recYr55ShNVT6CbOx"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recKqvV5kRkj7YYxO"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recsw2qIHU9m1kIXh"
+                  ],
+                  "Service Type ID": [
+                    4
+                  ],
+                  "Audience ID": [
+                    2
+                  ],
+                  "Category ID": [
+                    11
+                  ]
+                }
+              },
+              {
+                "id": "recmCOlxWqCph8gDO",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 27,
+                  "Audience": "For your business",
+                  "Type_of_Service": "Business help",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "Business income tax extension",
+                  "Entity_type": "State",
+                  "Entity": "California Franchise Tax Board",
+                  "Entity_acronym": "FTB",
+                  "Description": "Learn about the extended deadline to file and pay business income tax in Los Angeles County. The new deadline is October 15, 2025.",
+                  "Info_link": "https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-888-825-9868",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": "FTBLACountyDisasterRelief@ftb.ca.gov",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recYr55ShNVT6CbOx"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recKqvV5kRkj7YYxO"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recsw2qIHU9m1kIXh"
+                  ],
+                  "Service Type ID": [
+                    4
+                  ],
+                  "Audience ID": [
+                    2
+                  ],
+                  "Category ID": [
+                    11
+                  ]
+                }
+              },
+              {
+                "id": "recmWhNEvFg4IAHAY",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 28,
+                  "Audience": "For your business",
+                  "Type_of_Service": "Business help",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "Employer payroll tax and reporting extension",
+                  "Entity_type": "State",
+                  "Entity": "California Employment Development Department",
+                  "Entity_acronym": "EDD",
+                  "Description": "Get an extension of up to two months to file state payroll reports and deposit state payroll taxes, without penalty or interest. ",
+                  "Info_link": "https://edd.ca.gov/en/payroll_taxes/Emergency_and_Disaster_Assistance_for_Employers/",
+                  "Service_link": "https://edd.ca.gov/en/Payroll_Taxes/e-Services_for_Business",
+                  "In_person_kiosk": " ",
+                  "Phone": "1-888-745-3886",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": "Employment Development Department\nPO Box 826880\nSacramento, CA 94280-0001",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recYr55ShNVT6CbOx"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recKqvV5kRkj7YYxO"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recsw2qIHU9m1kIXh"
+                  ],
+                  "Service Type ID": [
+                    4
+                  ],
+                  "Audience ID": [
+                    2
+                  ],
+                  "Category ID": [
+                    11
+                  ]
+                }
+              },
+              {
+                "id": "reca2OVWXxEVl8PxC",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "ID": 30,
+                  "Audience": "For your business",
+                  "Type_of_Service": "Business help",
+                  "Category": [
+                    "Financial assistance"
+                  ],
+                  "Service_name": "Business recovery resources",
+                  "Entity_type": "State",
+                  "Entity": "California Office of the Small Business Advocate",
+                  "Entity_acronym": "CalOSBA",
+                  "Description": "Find resources and support for businesses and workers impacted by the LA wildfires. This includes financial help, recovery programs, and workforce support.",
+                  "Info_link": "https://outsmartdisaster.calosba.ca.gov/support-and-resources-for-los-angeles-area-wildfire-recovery/",
+                  "Service_link": " ",
+                  "In_person_kiosk": " ",
+                  "Phone": " ",
+                  "Fax": " ",
+                  "In_Person_Office": " ",
+                  "PDF": " ",
+                  "Required_Form": " ",
+                  "Email": " ",
+                  "Mail": " ",
+                  "Source": "Website / Checklist",
+                  "Status": "3 Approved",
+                  "New Description": "note: no changes",
+                  "Specific disaster": [
+                    "January 2025 LA Fires"
+                  ],
+                  "June 2025 status": "No change",
+                  "Category Linked": [
+                    "recYr55ShNVT6CbOx"
+                  ],
+                  "Service type (from Category Linked)": [
+                    "recKqvV5kRkj7YYxO"
+                  ],
+                  "Audience (from Category Linked)": [
+                    "recsw2qIHU9m1kIXh"
+                  ],
+                  "Service Type ID": [
+                    4
+                  ],
+                  "Audience ID": [
+                    2
+                  ],
+                  "Category ID": [
+                    11
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

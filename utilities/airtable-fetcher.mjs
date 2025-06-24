@@ -14,8 +14,6 @@
 
 // API Documentation: https://airtable.com/developers/web/api/list-records
 
-import fs from "node:fs/promises";
-import path from "node:path";
 import fetch from "node-fetch";
 import dotenv from "dotenv";
 dotenv.config();
@@ -35,7 +33,7 @@ const BASE_URL = "https://api.airtable.com/v0";
 /**
  * @typedef {object} FetchJob
  * @property {string} apiPath    Path suffix for Airtable API (e.g. "appId/tblId?view=viwXYZ")
- * @property {string} outputPath Local file path where the JSON will be written
+ * @property {string} label    name of the job, used for logging
  */
 
 /**
@@ -46,40 +44,14 @@ const BASE_URL = "https://api.airtable.com/v0";
  * @typedef {object} AirtableRecord
  * @property {string} id
  * @property {string} createdTime
+ * @property {AirtableRecord[]} [children]
  * @property {AirtableFields} fields
  */
 
 /**
- * Deep‐sorts an object’s keys (non‐array) and returns a fresh clone.
- * @param {{ [key: string]: any }} obj
- * @returns {{ [key: string]: any }}
- */
-function sortFieldsRecursively(obj) {
-  return Object.keys(obj)
-    .sort()
-    .reduce((acc, key) => {
-      const val = obj[key];
-      acc[key] =
-        val && typeof val === "object" && !Array.isArray(val)
-          ? sortFieldsRecursively(val)
-          : val;
-      return acc;
-    }, /** @type {{ [key:string]: any }} */ ({}));
-}
-
-/**
- * Applies `sortFieldsRecursively` to every object in the array.
- * @param {Array<AirtableFields>} arr
- * @returns {Array<AirtableFields>}
- */
-function sortFieldsInObjects(arr) {
-  return arr.map(sortFieldsRecursively);
-}
-
-/**
  * Fetches one Airtable “view”, cleans up blank fields, sorts keys, and returns the array of field-objects.
  * @param {string} apiPath API path after the base URL, e.g. "appId/tblId?view=viwXYZ"
- * @returns {Promise<Array<AirtableFields>>}
+ * @returns {Promise<Array<AirtableRecord>>}
  */
 async function fetchAirtableRecords(apiPath) {
   const url = `${BASE_URL}/${apiPath}`;
@@ -101,68 +73,29 @@ async function fetchAirtableRecords(apiPath) {
     );
   }
 
-  const body = /** @type {{ records?: AirtableRecord[] }} */ (await res.json());
-  const records = (body.records || []).map(r => ({
-    _: {
-      id: r.id,
-      createdTime: r.createdTime
-    },
-    ...r.fields
-  }));
-
-  if (records.length === 0) {
-    console.warn(`⚠️ No records found for ${apiPath}`);
-  }
-
-  const cleaned = sortFieldsInObjects(records).map(rec => {
-    Object.entries(rec).forEach(([k, v]) => {
-      if (
-        v
-          ?.toString()
-          .replace(/\u00A0/g, " ")
-          .trim().length === 0
-      ) {
-        delete rec[k];
-      }
-    });
-    return rec;
-  });
-
-  return cleaned;
+  const body = /** @type {{ records: AirtableRecord[] }} */ (await res.json());
+  return body.records;
 }
 
 /**
- * Writes the given data array to a JSON file, creating directories as needed.
- * @param {Array<AirtableFields>} data
- * @param {string} filePath
- * @returns {Promise<void>}
- */
-async function saveDataToFile(data, filePath) {
-  const dir = path.dirname(filePath);
-  await fs.mkdir(dir, { recursive: true });
-  await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
-  console.log(`✅ Wrote ${data.length} records to ${filePath}`);
-}
-
-/**
- * Fetches & writes multiple Airtable views in parallel.
+ * Fetches multiple Airtable views in parallel and returns their data.
  * @param {FetchJob[]} jobs
- * @returns {Promise<void>}
  */
-export async function fetchAndSaveAll(jobs) {
+export async function fetchAll(jobs) {
   console.time("⏳ Airtable total");
-  await Promise.all(
-    jobs.map(async ({ apiPath, outputPath }) => {
-      const label = path.basename(outputPath);
+  const results = await Promise.all(
+    jobs.map(async ({ apiPath, label }) => {
       try {
         console.time(`⏳ ${label}`);
         const data = await fetchAirtableRecords(apiPath);
-        await saveDataToFile(data, outputPath);
         console.timeEnd(`⏳ ${label}`);
+        return data;
       } catch (err) {
         console.error(`❌ Error on ${label}:`, err.message);
+        return [];
       }
     })
   );
   console.timeEnd("⏳ Airtable total");
+  return results;
 }
