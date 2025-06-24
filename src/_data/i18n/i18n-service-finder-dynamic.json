@@ -1775,6 +1775,28 @@
     "status": "english_only",
     "en": "Emergency shelter"
   },
+  "sf_audience_type_1_label": {
+    "status": "english_only",
+    "en": "For you and your family",
+    "es": "Para usted y su familia",
+    "ko": "귀하와 귀하의 가족을 위한",
+    "vi": "Dành cho bạn và gia đình bạn",
+    "tl": "Para sa iyo at sa iyong pamilya",
+    "zh-hans": "为您和您的家人",
+    "zh-hant": "為您和您的家人",
+    "hy": "Ձեր և Ձեր ընտանիքի համար"
+  },
+  "sf_audience_type_2_label": {
+    "status": "english_only",
+    "en": "For your business",
+    "es": "Para su negocio",
+    "ko": "귀하의 사업체를 위한",
+    "vi": "Dành cho doanh nghiệp của bạn",
+    "tl": "Para sa iyong negosyo",
+    "zh-hans": "为您的企业",
+    "zh-hant": "為您的企業",
+    "hy": "Ձեր բիզնեսի համար"
+  },
   "sf_cat_10_description": {
     "status": "avantpage_delivery",
     "en": "Unemployment, disability, job search tools",

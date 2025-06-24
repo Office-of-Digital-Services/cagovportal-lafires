@@ -121,6 +121,11 @@ function writeTranslations(alldata) {
   };
 
   alldata.forEach(audience => {
+    updateTranslation(
+      `sf_audience_type_${audience.fields["Audience ID"]}_label`,
+      audience.fields["Audience"]
+    );
+
     audience.children_service_types.forEach(service_type => {
       updateTranslation(
         `sf_service_type_${service_type.fields["Service Type ID"]}_label`,
