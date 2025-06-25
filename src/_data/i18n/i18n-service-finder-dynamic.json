@@ -1873,15 +1873,8 @@
     "hy": "Վերակառուցեք Ձեր բիզնեսը"
   },
   "sf_cat_1_description": {
-    "status": "ap_review",
-    "en": "Temporary housing and emergency shelter",
-    "es": "Vivienda temporal y refugio de emergencia",
-    "ko": "임시 주택 및 긴급 대피소",
-    "vi": "Nhà ở tạm thời và nơi trú ẩn khẩn cấp",
-    "tl": "Pansamantalang pabahay at emergency shelter",
-    "zh-hans": "临时住房和紧急避难所",
-    "zh-hant": "臨時住房和緊急避難所",
-    "hy": "Անհրաժեշտության դեպքում ժամանակավոր բնակարան և արտակարգ իրավիճակների ապաստարան"
+    "status": "english_only",
+    "en": "Temporary housing, emergency shelter"
   },
   "sf_cat_1_label": {
     "status": "avantpage_delivery",
@@ -1944,15 +1937,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_cat_4_description": {
-    "status": "avantpage_delivery",
-    "en": "Mental health, prescription, air and water safety, cleanup safety",
-    "es": "Salud mental, recetas médicas, seguridad del aire y el agua, seguridad en la limpieza",
-    "ko": "정신 건강, 처방약, 대기 및 수질 안전, 청소 안전",
-    "vi": "Sức khỏe tâm thần, thuốc theo toa, an toàn không khí và nước, an toàn khi dọn dẹp",
-    "tl": "Kalusugan ng pag-iisip, reseta, kaligtasan ng hangin at tubig, kaligtasan sa paglilinis",
-    "zh-hans": "心理健康、处方药、空气和水安全、清理安全",
-    "zh-hant": "心理健康、處方藥、空氣和水安全、清理安全",
-    "hy": "Հոգեկան առողջություն, դեղատոմսեր, օդի և ջրի անվտանգություն, մաքրման անվտանգություն"
+    "status": "english_only",
+    "en": "Mental health, prescriptions, air and water safety, cleanup safety"
   },
   "sf_cat_4_label": {
     "status": "ap_review",
@@ -1966,15 +1952,8 @@
     "hy": "Առողջություն և անվտանգություն"
   },
   "sf_cat_5_description": {
-    "status": "ap_review",
-    "en": "Case management, and help for specific groups",
-    "es": "Gestión de casos y ayuda para grupos específicos",
-    "ko": "사례 관리 및 특정 그룹을 위한 지원",
-    "vi": "Quản lý trường hợp và hỗ trợ cho các nhóm cụ thể",
-    "tl": "Pamamahala ng kaso at tulong para sa mga tiyak na grupo",
-    "zh-hans": "个案管理和特定群体的帮助",
-    "zh-hant": "個案管理和特定群體的幫助",
-    "hy": "Գործերի կառավարում և օգնություն որոշակի խմբերի համար"
+    "status": "english_only",
+    "en": "Case management, help for certain groups"
   },
   "sf_cat_5_label": {
     "status": "ap_review",
@@ -1988,15 +1967,8 @@
     "hy": "Certain խմբերի ռեսուրսներ"
   },
   "sf_cat_6_description": {
-    "status": "ap_review",
-    "en": "FEMA, disaster loans, mortgage, renter, and loan protections, and taxes",
-    "es": "FEMA, préstamos por desastre, hipoteca, protección de inquilinos y préstamos, e impuestos",
-    "ko": "FEMA, 재난 대출, 주택 담보 대출, 임차인 및 대출 보호, 세금",
-    "vi": "FEMA, các khoản vay thiên tai, bảo vệ người thuê nhà và cho vay, và thuế",
-    "tl": "FEMA, mga disaster loan, mortgage, proteksyon sa nangungupahan at pautang, at mga buwis",
-    "zh-hans": "FEMA、灾难贷款、抵押贷款、租户和贷款保护以及税务",
-    "zh-hant": "FEMA、災難貸款、抵押貸款、租戶和貸款保護以及稅務",
-    "hy": "FEMA, աղետի վարկեր, հիպոթեք, վարձակալների և վարկերի պաշտպանության միջոցներ և հարկեր"
+    "status": "english_only",
+    "en": "FEMA, disaster loans, mortgage, renter, loan protections, taxes"
   },
   "sf_cat_6_label": {
     "status": "ap_review",
@@ -2010,15 +1982,8 @@
     "hy": "Ֆինանսական աջակցություն"
   },
   "sf_cat_7_description": {
-    "status": "ap_review",
-    "en": "Driver's licenses, IDs, and birth, death, marriage records and property records.",
-    "es": "Licencias de conducir, identificaciones y registros de nacimiento, defunción, matrimonio y propiedad.",
-    "ko": "운전 면허증, 신분증, 출생, 사망, 결혼 기록 및 재산 기록.",
-    "vi": "Giấy phép lái xe, giấy tờ tùy thân, và hồ sơ sinh, tử, kết hôn và hồ sơ tài sản.",
-    "tl": "Mga lisensya sa pagmamaneho, ID, at mga tala ng kapanganakan, kamatayan, kasal, at mga rekord ng ari-arian.",
-    "zh-hans": "驾照、身份证、出生、死亡、结婚记录和财产记录。",
-    "zh-hant": "駕照、身份證、出生、死亡、結婚記錄和財產記錄。",
-    "hy": "Վարորդական իրավունքի վկայականներ, անձնագրեր և ծննդյան, մահ, ամուսնության և գույքի գրառումներ"
+    "status": "english_only",
+    "en": "Driver's licenses, IDs, birth, death, marriage records, property records"
   },
   "sf_cat_7_label": {
     "status": "ap_review",
@@ -2068,15 +2033,8 @@
     "comment": "Translation delivered 2025-04-23"
   },
   "sf_cat_9_label": {
-    "status": "ap_review",
-    "en": "Rebuilding your house",
-    "es": "Reconstrucción de su casa",
-    "ko": "주택 재건",
-    "vi": "Xây dựng lại nhà của bạn",
-    "tl": "Muling ipatayo ang iyong tahanan",
-    "zh-hans": "重建您的房屋",
-    "zh-hant": "重建您的房屋",
-    "hy": "Վերակառուցեք Ձեր տունը"
+    "status": "english_only",
+    "en": "Rebuild your house"
   },
   "sf_service_type_1_label": {
     "status": "ap_review",
