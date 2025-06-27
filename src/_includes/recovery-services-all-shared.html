@@ -262,16 +262,23 @@
               data-service-id="{{item.ID}}">
               <div
                 class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-                <div class="d-flex">
-                  <h4 class="m-b-sm">
-                    {{ ("sf_" + item.ID + "_service_name") | i18n }}
-                  </h4>
+                <div class="d-flex gap-2">
+                  {% if item["Specific disaster"] %}
+                  <div
+                    class="font-size-14 m-b-0 m-t-0 pos-rel top-md align-items-center bg-s1 d-flex rounded-pill p-x">
+                    {{ item["Specific disaster"] }}
+                  </div>
+                  {% endif %}
                   <button
                     type="button"
-                    class="btn-close ms-auto m-t-md bg-gray-100 rounded-circle p-a-sm pos-rel top-minus-5 right-minus-sm"
+                    class="btn-close ms-auto bg-gray-100 rounded-circle pos-rel top-md p-a-sm"
                     data-service-id="{{item.ID}}"
                     aria-label="Close"></button>
                 </div>
+
+                <h4 class="m-b-sm">
+                  {{ ("sf_" + item.ID + "_service_name") | i18n }}
+                </h4>
 
                 <p class="department font-size-14 color-p2 font-weight-600">
                   {{ ("sf_" + item.ID + "_entity") | i18n }}
