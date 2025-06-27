@@ -61,7 +61,11 @@
               "_label") | i18n }}
             </h3>
 
-            {%- for category in service_type.children_categories %}
+            {#-- Sort categories so that Category ID 1 (Housing) is first --#}
+            {%- set sorted_categories = service_type.children_categories |
+            sort(attribute="fields.Category ID") -%} {%- set sorted_categories =
+            sorted_categories | sort(reverse=true, attribute="fields.Category
+            ID" == 1) -%} {%- for category in sorted_categories %}
             <!---->
             {%- set id = "category_"+category.fields["Category ID"] -%}
             <!---->
@@ -73,6 +77,10 @@
             <!---->
             {%- endfor -%}
             <!---->
+            {%- set sorted_services = category.children_services |
+            sort(attribute="fields.ID") -%} {%- set value = "" -%} {%- for
+            service in sorted_services -%} {%- set value = value +
+            service.fields.ID + "." -%} {%- endfor -%}
 
             <div class="d-flex align-items-top m-b-md p-l-0">
               <input
