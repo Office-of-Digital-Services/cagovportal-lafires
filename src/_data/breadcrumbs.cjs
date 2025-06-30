@@ -13,6 +13,10 @@ const data = [
           {
             key: "Help for you",
             href: "/lafires/help-for-you/"
+          },
+          {
+            key: "Health and safety",
+            href: "/lafires/help-for-you/health-and-safety/"
           }
         ]
       },
@@ -24,6 +28,10 @@ const data = [
           {
             key: "Ayuda para usted y su familia",
             href: "/lafires/es/help-for-you/"
+          },
+          {
+            key: "Salud y seguridad",
+            href: "/lafires/es/help-for-you/health-and-safety/"
           }
         ]
       },
@@ -34,6 +42,10 @@ const data = [
           {
             key: "당신과 당신의 가족을 위한 도움",
             href: "/lafires/ko/help-for-you/"
+          },
+          {
+            key: "건강과 안전",
+            href: "/lafires/ko/help-for-you/health-and-safety/"
           }
         ]
       },
@@ -44,6 +56,10 @@ const data = [
           {
             key: "Giúp đỡ cho bạn và gia đình của bạn",
             href: "/lafires/vi/help-for-you/"
+          },
+          {
+            key: "Sức khỏe và an toàn",
+            href: "/lafires/vi/help-for-you/health-and-safety/"
           }
         ]
       },
@@ -54,6 +70,10 @@ const data = [
           {
             key: "Tulong para sa iyo at sa iyong pamilya",
             href: "/lafires/tl/help-for-you/"
+          },
+          {
+            key: "Kalusugan at kaligtasan",
+            href: "/lafires/tl/help-for-you/health-and-safety/"
           }
         ]
       },
@@ -64,6 +84,10 @@ const data = [
           {
             key: "Օգնություն ձեզ և ձեր ընտանիքին",
             href: "/lafires/hy/help-for-you/"
+          },
+          {
+            key: "Առողջություն և անվտանգություն",
+            href: "/lafires/hy/help-for-you/health-and-safety/"
           }
         ]
       },
@@ -74,6 +98,10 @@ const data = [
           {
             key: "为您和您的家人提供帮助",
             href: "/lafires/zh-hans/help-for-you/"
+          },
+          {
+            key: "健康与安全",
+            href: "/lafires/zh-hans/help-for-you/health-and-safety/"
           }
         ]
       },
@@ -84,6 +112,10 @@ const data = [
           {
             key: "為您和您的家人提供幫助",
             href: "/lafires/zh-hant/help-for-you/"
+          },
+          {
+            key: "健康與安全",
+            href: "/lafires/zh-hant/help-for-you/health-and-safety/"
           }
         ]
       }
