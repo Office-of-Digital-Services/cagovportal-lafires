@@ -256,5 +256,16 @@
     "zh-hans": "追踪洛杉矶重建进展",
     "zh-hant": "跟蹤 LA 的進度",
     "hy": "Հետևեք LA-ի առաջընթացին"
+  },
+  "health_resources_for_fire_survivors": {
+    "status": "ap_review",
+    "en": "Health resources for fire survivors",
+    "es": "Recursos de salud para sobrevivientes de incendios",
+    "ko": "화재 생존자를 위한 건강 리소스",
+    "vi": "Tài nguyên sức khỏe cho những người sống sót sau cháy rừng",
+    "tl": "Mga mapagkukunan ng kalusugan para sa mga nakaligtas sa sunog",
+    "zh-hans": "火灾幸存者的健康资源",
+    "zh-hant": "火災倖存者的健康資源",
+    "hy": "Առողջության ռեսուրսներ հրդեհից տուժածների համար"
   }
 }
