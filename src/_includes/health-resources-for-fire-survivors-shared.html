@@ -1,0 +1,275 @@
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/health-and-safety-lineart.svg') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">
+      <nav class="side-navigation sticky-6">
+        <a href="javascript:;" aria-hidden="true" class="d-none">{{title}}</a>
+        <ul class="list-navigation">
+          <li>
+            <a href="/lafires/" class="font-weight-700"
+              ><span class="color-p2"
+                >{{ 'sidenav_2025_los_angeles_fires'| i18n }}</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/" class="landing back"
+              >{{ 'sidenav_help_for_you'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/food-and-shelter/"
+              >{{ 'sidenav_food_and_shelter'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/health-and-safety/"
+              >{{ 'sidenav_health_and_safety'| i18n }}</a
+            >
+            <ul>
+              <li>
+                <a
+                  href="/lafires/help-for-you/health-and-safety/health-resources-for-fire-survivors/"
+                  class="active"
+                  >{{ 'health_resources_for_fire_survivors'| i18n }}</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/pets/">{{ 'sidenav_pets'| i18n }}</a>
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/financial-assistance/"
+              >{{ 'sidenav_financial_assistance'| i18n }}</a
+            >
+          </li>
+
+          <li>
+            <a href="/lafires/help-for-you/replace-personal-documents/"
+              >{{ 'sidenav_documents'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/rebuild-your-house/"
+              >{{ 'sidenav_rebuild_your_house'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/get-help-in-person/"
+              >{{ 'sidenav_get_help_in_person'| i18n }}</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">
+        {{ 'health_resources_lead' | i18n | safe }}
+        <!-- The road to recovery requires healing, finding resources, and feeling
+        heard. Those needs were represented in the
+        <a href="https://engaged.ca.gov/">Engaged California</a> fires
+        conversation. The State wants you to know that there are people ready to
+        help you through this. California has set up several ways for you to get
+        support, and many are available right now, 24/7. -->
+      </p>
+
+      <nav class="page-navigation"></nav>
+
+      <h2>
+        {{ 'health_resources_h1_1' | i18n }}
+        <!-- If you need someone to talk to immediately -->
+      </h2>
+
+      <p>
+        {{ 'health_resources_p_1' | i18n }}
+        <!-- You can reach out anytime, day or night, without any cost to you. -->
+      </p>
+
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a
+                href="https://dmh.lacounty.gov/our-services/disaster-services/access-hotline/"
+                >{{ 'health_resources_card_1_heading' | i18n }}
+                <!-- Los Angeles County Mental Health Help Line -->
+              </a>
+            </h3>
+            <p>
+              {{ 'health_resources_card_1_description' | i18n | safe }}
+              <!-- The Los Angeles County Mental Health Help Line
+              <a href="tel:800-854-7771">(800-854-7771)</a> has people who speak
+              multiple languages and are specially trained to help disaster
+              survivors. -->
+            </p>
+            <ul>
+              <li>
+                {{ 'health_resources_card_1_list_1' | i18n }}
+                <!-- You can call them or simply text "LA" to 741741 if talking feels
+                too hard right now. -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="https://www.calhope.org/">
+                {{ 'health_resources_card_2_heading' | i18n }}
+                <!-- CalHOPE -->
+              </a>
+            </h3>
+            <p>
+              {{ 'health_resources_card_2_description' | i18n | safe }}
+              <!-- There's also CalHOPE, where you can call or text
+              <a href="tel:833-317-4673">833-317-4673</a> for English or
+              <a href="tel:833-642-7696">833-642-7696</a> for Spanish. These are
+              people who understand what you're going through because they've
+              been through difficult times themselves. -->
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0">
+        {{ 'health_resources_h2_2' | i18n }}
+        <!-- If you're looking for ongoing support -->
+      </h2>
+      <div class="row">
+        <div class="col-md-12 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="https://altercareline.com/">
+                {{ 'health_resources_card_3_heading' | i18n }}
+                <!-- AlterCareLine -->
+              </a>
+            </h3>
+            <p>
+              {{ 'health_resources_card_3_description' | i18n | safe }}
+              <!-- The state has partnered with FEMA to create something called
+              <a href="https://altercareline.com/">AlterCareLine</a> -
+              this gives you access to licensed counselors who specialize in
+              helping people after disasters. They offer one-on-one counseling,
+              tools to help with stress and anxiety, and support groups where
+              you can connect with others who understand what you're
+              experiencing. -->
+            </p>
+          </div>
+        </div>
+        <div class="col-md-12 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="/lafires/help-for-you/get-help-in-person/"
+                >{{ 'health_resources_card_4_heading' | i18n }}
+                <!-- In-person help -->
+              </a>
+            </h3>
+            <p>
+              {{ 'health_resources_card_4_description' | i18n }}
+              <!-- You can even get in-person help at Disaster Recovery Centers. -->
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2 class="m-b-0">
+        {{ 'health_resources_h2_3' | i18n }}
+        <!-- For specific needs -->
+      </h2>
+      <div class="row">
+        <div class="col-md-4 m-t-md">
+          <div
+            class="bg-white p-x-md p-y-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <p>
+              {{ 'health_resources_card_5_description' | i18n | safe }}
+              <!-- If you're 60 or older, the
+              <a href="https://www.ioaging.org/friendship-line-california/"
+                >Friendship Line</a
+              > (1-888-670-1360) connects you with someone who's ready to listen. -->
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 m-t-md">
+          <div
+            class="bg-white p-x-md p-y-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <p>
+              {{ 'health_resources_card_6_description' | i18n | safe }}
+              <!-- If you're between 13-25,
+              <a href="https://solunaapp.com/">Soluna</a> offers resources in
+              multiple languages. -->
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 m-t-md">
+          <div
+            class="bg-white p-x-md p-y-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <p>
+              {{ 'health_resources_card_7_description' | i18n | safe }}
+              <!-- Parents with young children can access
+              <a href="https://www.hellobrightline.com/brightlifekids/"
+                >BrightLife Kids</a
+              > for video sessions and secure chat support. -->
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2>
+        {{ 'health_resources_h2_4' | i18n }}
+        <!-- Community organizations that can help -->
+      </h2>
+      <p>
+        {{ 'health_resources_p_2' | i18n }}
+        <!-- Many local organizations have received funding specifically to help
+        people like you. -->
+      </p>
+      <p>
+        {{ 'health_resources_p_3' | i18n | safe }}
+        <!-- Groups like
+        <a href="https://didihirsch.org/">Didi Hirsch Mental Health Services</a
+        >, Jewish Family Service, and Pacific Clinics are providing counseling
+        and crisis support. -->
+      </p>
+      <p>
+        {{ 'health_resources_p_4' | i18n }}
+        <!-- If you're part of specific communities - Persian-speaking, Black,
+        LGBTQ+, or others - there are organizations that understand your
+        particular needs and culture. -->
+      </p>
+      <p>
+        {{ 'health_resources_p_5' | i18n }}
+        <!-- The most important thing to remember is that seeking help is a sign of
+        strength, not weakness. -->
+      </p>
+      <p>
+        {{ 'health_resources_p_6' | i18n }}
+        <!-- You don't have to go through this alone, and you don't have to figure it
+        all out at once. Start wherever feels most comfortable - a phone call, a
+        text, or visiting one of these organizations. They're all there
+        specifically for you. -->
+      </p>
+    </div>
+    <!--END MAIN COL CONTENT-->
+  </div>
+</div>

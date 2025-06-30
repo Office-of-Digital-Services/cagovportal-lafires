@@ -1151,5 +1151,27 @@
     "zh-hans": "检查您的工作场所是否有提供保密咨询的员工援助计划。",
     "zh-hant": "檢查您的工作場所是否有提供保密諮詢的員工援助計劃。",
     "hy": "Ստուգեք, արդյոք ձեր աշխատավայրում կա Աշխատակիցների աջակցության ծրագիր՝ գաղտնի խորհրդատվությամբ:"
+  },
+  "health_and_safety_mh_card_11_header": {
+    "status": "ap_review",
+    "en": "Health resources for fire survivors",
+    "es": "Recursos de salud para sobrevivientes de incendios",
+    "ko": "화재 생존자를 위한 건강 리소스",
+    "vi": "Tài nguyên sức khỏe cho những người sống sót sau cháy rừng",
+    "tl": "Mga mapagkukunan ng kalusugan para sa mga nakaligtas sa sunog",
+    "zh-hans": "火灾幸存者的健康资源",
+    "zh-hant": "火災倖存者的健康資源",
+    "hy": "Առողջության ռեսուրսներ հրդեհից տուժածների համար"
+  },
+  "health_and_safety_mh_card_11_description": {
+    "status": "ap_review",
+    "en": "The road to recovery requires healing, finding resources, and feeling heard. Those needs were represented in the Engaged California fires conversation. The State wants you to know that there are people ready to help you through this. California has set up several ways for you to get support, and many are available right now, 24/7.",
+    "es": "El camino hacia la recuperación requiere sanación, encontrar recursos y sentirse escuchado. Esas necesidades se representaron en la conversación sobre incendios de Engaged California. El Estado quiere que sepas que hay personas listas para ayudarte en este proceso. California ha establecido varias formas para que obtengas apoyo, y muchas están disponibles ahora mismo, las 24 horas del día, los 7 días de la semana.",
+    "ko": "회복의 길은 치유, 자원 찾기 및 경청을 필요로 합니다. 이러한 요구 사항은 Engaged California 화재 대화에서 표현되었습니다. 주에서는 이 과정을 통해 도와줄 준비가 된 사람들이 있다는 것을 알리고 싶어합니다. 캘리포니아는 지원을 받을 수 있는 여러 가지 방법을 마련했으며, 그 중 많은 부분이 지금 바로 24시간 이용 가능합니다.",
+    "vi": "Con đường phục hồi đòi hỏi phải chữa lành, tìm kiếm tài nguyên và cảm thấy được lắng nghe. Những nhu cầu đó đã được thể hiện trong cuộc trò chuyện về cháy rừng của Engaged California. Bang muốn bạn biết rằng có những người sẵn sàng giúp bạn vượt qua điều này. California đã thiết lập một số cách để bạn nhận được hỗ trợ, và nhiều cách trong số đó có sẵn ngay bây giờ, 24/7.",
+    "tl": "Ang daan patungo sa paggaling ay nangangailangan ng pagpapagaling, paghahanap ng mga mapagkukunan, at pakiramdam na naririnig. Ang mga pangangailangang iyon ay kinakatawan sa pag-uusap tungkol sa mga sunog ng Engaged California. Nais ng Estado na malaman mo na may mga tao na handang tumulong sa iyo sa prosesong ito. Itinatag ng California ang ilang paraan para makakuha ka ng suporta, at marami sa mga ito ay available na ngayon, 24/7.",
+    "zh-hans": "恢复之路需要治愈、寻找资源和感受到被倾听。这些需求在 Engaged California 的火灾对话中得到了体现。州政府    希望您知道，有人准备好帮助您度过这个过程。加利福尼亚州已经建立了几种方式供您获得支持，其中许多现在就可以使用，全天候提供。",
+    "zh-hant": "恢復之路需要治癒、尋找資源和感受到被傾聽。這些需求在 Engaged California 的火災對話中得到了體現。州政府希望您知道，有人準備好幫助您度過這個過程。加利福尼亞州已經建立了幾種方式供您獲得支持，其中許多現在就可以使用，全天候提供。",
+    "hy": "Վերականգնման ճանապարհը պահանջում է բուժում, ռեսուրսների որոնում և լսված զգալ: Այս պահանջները ներկայացված էին Engaged California-ի հրդեհների քննարկման մեջ: Պետությունը ցանկանում է, որ դուք իմանաք, որ կան մարդիկ, ովքեր պատրաստ են օգնել ձեզ այս գործընթացում: Կալիֆորնիան ստեղծել է մի քանի եղանակներ, որոնց միջոցով դուք կարող եք ստանալ աջակցություն, և դրանցից շատերը հասանելի են հենց հիմա՝ 24/7:"
   }
 }
