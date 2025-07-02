@@ -19,7 +19,7 @@ const data = [
             href: "/lafires/help-for-you/health-and-safety/"
           },
           {
-            key: "Preplace personal documents",
+            key: "Replace personal documents",
             href: "/lafires/help-for-you/replace-personal-documents/"
           }
         ]
