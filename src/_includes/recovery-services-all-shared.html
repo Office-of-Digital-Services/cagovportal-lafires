@@ -258,88 +258,90 @@
               data-service-category-id="{{category.fields.ID}}"
               data-service-id="{{item.ID}}">
               <div
-                class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-                <div class="d-flex gap-2">
-                  {% if item["Specific disaster"] %}
-                  <div
-                    class="font-size-14 m-b-0 m-t-0 pos-rel top-md align-items-center bg-s1 d-flex rounded-pill p-x">
-                    {{ item["Specific disaster"] }}
-                  </div>
-                  {% endif %}
+                class="bg-white pos-rel h-100 brd-solid-1 brd-gray-200 rounded d-flex flex-column">
+                <div class="p-x-md p-b-md">
                   <button
                     type="button"
-                    class="btn-close ms-auto bg-gray-100 rounded-circle pos-rel top-md p-a-sm"
+                    class="btn-close btn-xs bg-white bg-gray-75-hover brd-solid-1 rounded-circle pos-abs top-md right-n p-a-sm"
                     data-service-id="{{item.ID}}"
                     aria-label="Close"></button>
-                </div>
 
-                <h4 class="m-b-sm">
-                  {{ ("sf_" + item.ID + "_service_name") | i18n }}
-                </h4>
+                  <h4 class="m-b-sm m-t-md p-r-md">
+                    {{ ("sf_" + item.ID + "_service_name") | i18n }}
+                  </h4>
 
-                <p class="department font-size-14 color-p2 font-weight-600">
-                  {{ ("sf_" + item.ID + "_entity") | i18n }}
-                </p>
-                <p class="small">
-                  {{ ("sf_" + item.ID + "_description") | i18n }}
-                </p>
+                  <p class="department font-size-14 color-p2 font-weight-600">
+                    {{ ("sf_" + item.ID + "_entity") | i18n }}
+                  </p>
+                  <p class="small">
+                    {{ ("sf_" + item.ID + "_description") | i18n }}
+                  </p>
 
-                <h5 class="m-t-0">{{ 'sf_how_to_get_this_service' | i18n }}</h5>
+                  <h5 class="m-t-0">
+                    {{ 'sf_how_to_get_this_service' | i18n }}
+                  </h5>
 
-                <ul class="list-unstyled m-b-0">
-                  {%- if item.Service_link -%}
-                  <li class="h6 font-weight-400 m-a-0">
-                    <a
-                      href="{{item.Service_link}}"
-                      class="p-a-sm d-flex bg-gray-75 bg-gray-100-hover w-100"
-                      >{{ 'sf_online' | i18n }}<img
-                        src="/lafires/images/laptop-icon.svg"
-                        alt=""
-                        class="img-fluid ms-auto width-30 d-print-none"
-                        aria-hidden="true"
-                    /></a>
-                  </li>
-                  {%- endif -%} {%- if item.Info_link -%}
-                  <li
-                    class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
-                    <a href="{{item.Info_link}}" class="p-a-sm d-inline-block"
-                      >{{ 'sf_learn_more' | i18n }}</a
-                    >
-                  </li>
-                  {%- endif -%} {%- if item.In_person_kiosk -%}
-                  <li
-                    class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
-                    <a
-                      href="{{item.In_person_kiosk_}}"
-                      class="p-a-sm d-inline-block"
-                      >{{ 'sf_in_person' | i18n }}</a
-                    >
-                  </li>
-                  {%- endif -%}{%- if item.Phone -%}
-                  <li
-                    class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
-                    <a href="tel:{{item.Phone}}" class="p-a-sm d-inline-block"
-                      >{{item.Phone}}</a
-                    >
-                  </li>
-                  {%- endif -%}{%- if item.Email -%}
-                  <li
-                    class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
-                    <a
-                      href="mailto:{{item.Email}}"
-                      class="p-a-sm d-inline-block"
-                      >{{ 'sf_email' | i18n }}</a
-                    >
-                  </li>
-                  {%- endif -%}{%- if item.Mail -%}
-                  <li class="m-a-0">
-                    <pre
-                      class="bg-white heading border-0 p-a-sm h6 font-weight-400 m-a-0">
+                  <ul class="list-unstyled m-b-0">
+                    {%- if item.Service_link -%}
+                    <li class="h6 font-weight-400 m-a-0">
+                      <a
+                        href="{{item.Service_link}}"
+                        class="p-a-sm d-flex bg-gray-75 bg-gray-100-hover w-100"
+                        >{{ 'sf_online' | i18n }}<img
+                          src="/lafires/images/laptop-icon.svg"
+                          alt=""
+                          class="img-fluid ms-auto width-30 d-print-none"
+                          aria-hidden="true"
+                      /></a>
+                    </li>
+                    {%- endif -%} {%- if item.Info_link -%}
+                    <li
+                      class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                      <a href="{{item.Info_link}}" class="p-a-sm d-inline-block"
+                        >{{ 'sf_learn_more' | i18n }}</a
+                      >
+                    </li>
+                    {%- endif -%} {%- if item.In_person_kiosk -%}
+                    <li
+                      class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                      <a
+                        href="{{item.In_person_kiosk_}}"
+                        class="p-a-sm d-inline-block"
+                        >{{ 'sf_in_person' | i18n }}</a
+                      >
+                    </li>
+                    {%- endif -%}{%- if item.Phone -%}
+                    <li
+                      class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                      <a href="tel:{{item.Phone}}" class="p-a-sm d-inline-block"
+                        >{{item.Phone}}</a
+                      >
+                    </li>
+                    {%- endif -%}{%- if item.Email -%}
+                    <li
+                      class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                      <a
+                        href="mailto:{{item.Email}}"
+                        class="p-a-sm d-inline-block"
+                        >{{ 'sf_email' | i18n }}</a
+                      >
+                    </li>
+                    {%- endif -%}{%- if item.Mail -%}
+                    <li class="m-a-0">
+                      <pre
+                        class="bg-white heading border-0 p-a-sm h6 font-weight-400 m-a-0">
 {{item.Mail}}</pre
-                    >
-                  </li>
-                  {%- endif -%}
-                </ul>
+                      >
+                    </li>
+                    {%- endif -%}
+                  </ul>
+                </div>
+                {% if item["Specific disaster"] %}
+                <div
+                  class="font-size-14 m-b-0 mt-auto rounded-end-pill align-items-center bg-s1 d-flex p-y-sm p-x justify-content-center">
+                  {{ item["Specific disaster"] }}
+                </div>
+                {% endif %}
               </div>
             </div>
             {%- endfor -%}
