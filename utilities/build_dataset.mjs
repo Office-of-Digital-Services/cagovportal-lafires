@@ -1,137 +1,188 @@
 //@ts-check
-import fs from "node:fs";
+// scripts/run-fetch.js
+import { fetchAll } from "./airtable-fetcher.mjs";
 import path from "node:path";
-import fetch from "node-fetch";
-import dotenv from "dotenv";
+import fs from "node:fs";
 
-dotenv.config();
+const service_finder_base = "app6t1QEuuPs8NUhg/";
+const service_finder_data_path = "./src/_data/service_finder_data.json";
+const service_finder_translations_path =
+  "./src/_data/i18n/i18n-service-finder-dynamic.json";
 
-// Airtable API URL with the dev view
-const API_URL =
-  "https://api.airtable.com/v0/app6t1QEuuPs8NUhg/tblMX0nRW5yTbr5Y6?view=viwInn4NqAYYmXTox"; // Airtable API URL with the correct table/view
-const API_KEY = process.env.AIRTABLE_API_KEY; // 🔹 Ensure .env has AIRTABLE_API_KEY= from https://airtable.com/create/tokens
-const OUTPUT_JSON_PATH = path.resolve(process.cwd(), "src/_data/airTable.json"); // Output JSON file
+/** @type {import("./airtable-fetcher.mjs").FetchJob[]} */
+const JOBS = [
+  {
+    label: `services`,
+    apiPath: `${service_finder_base}tblMX0nRW5yTbr5Y6?view=viwInn4NqAYYmXTox`
+  },
+  {
+    label: `audience`,
+    apiPath: `${service_finder_base}tbl1VARn9h0uJPcd7`
+  },
+  {
+    label: `service_types`,
+    apiPath: `${service_finder_base}tblxCF14lRjLz7BJO`
+  },
+  {
+    label: `categories`,
+    apiPath: `${service_finder_base}tbl0GyxvoQWTpSE3R`
+  }
+];
 
-if (!API_KEY) {
-  console.error(
-    `❌ ERROR: Missing API Key.
-    Retrieve key from https://airtable.com/create/tokens.
-    Ensure you have .env in root with format...
-    AIRTABLE_API_KEY="your_key"`
-  );
-  process.exit(1);
-}
+(async () => {
+  /**
+   *
+   * @param {import("./airtable-fetcher.mjs").AirtableRecord[]} childrows
+   * @param {import("./airtable-fetcher.mjs").AirtableRecord[]} parentrows
+   * @param {string} parentField
+   * @param {string} childrenColumnName
+   */
+  const fillChildren = (
+    childrows,
+    parentrows,
+    parentField,
+    childrenColumnName = "children"
+  ) => {
+    childrows.forEach(row => {
+      const myparentid = row.fields[parentField];
 
-const fetchAirtableData = async () => {
-  try {
-    console.log("🔹 Fetching Airtable data...");
-
-    const response = await fetch(API_URL, {
-      method: "GET",
-      headers: {
-        Authorization: `Bearer ${API_KEY}`,
-        "Content-Type": "application/json"
-      }
+      const parent = parentrows.find(p => p.id === myparentid);
+      if (!parent)
+        throw new Error(`Parent not found for ${row.id} in ${parentField}`);
+      parent[childrenColumnName] = parent[childrenColumnName] || [];
+      parent[childrenColumnName].push(row);
     });
+  };
 
-    if (!response.ok) {
-      if (response.status === 401) {
-        throw new Error(
-          `HTTP Error: ${response.status} - Unauthorized.
-          Likely cause: Your Airtable Personal Access Token (PAT) is invalid, in the old Airtable PAT format, expired, or lacks the necessary permissions.
-          Try generating a new AIRTABLE_API_KEY and replacing the previous one in your .env file.`
-        );
-      }
+  const alldata = await fetchAll(JOBS);
 
-      throw new Error(
-        `HTTP Error: ${response.status} - ${response.statusText}`
+  // get the 4 objects from alldata by array index 0-3
+  const [all_services, all_audience, all_service_types, all_categories] =
+    alldata;
+
+  fillChildren(
+    all_services,
+    all_categories,
+    "Category Linked",
+    "children_services"
+  );
+  fillChildren(
+    all_categories,
+    all_service_types,
+    "Service type",
+    "children_categories"
+  );
+  fillChildren(
+    all_service_types,
+    all_audience,
+    "Audience",
+    "children_service_types"
+  );
+
+  fs.mkdirSync(path.dirname(service_finder_data_path), { recursive: true });
+  fs.writeFileSync(
+    service_finder_data_path,
+    JSON.stringify(all_audience, null, 2)
+  );
+
+  console.log(`✅ Wrote service finder data to ${service_finder_data_path}`);
+
+  writeTranslations(all_audience);
+})();
+
+function writeTranslations(alldata) {
+  const translations = JSON.parse(
+    fs.readFileSync(service_finder_translations_path, "utf8")
+  );
+
+  const freshTranslations = {};
+
+  let updatedCount = 0;
+
+  /**
+   *
+   * @param {string} key
+   * @param {string} en
+   */
+  const updateTranslation = (key, en) => {
+    const blank = {
+      status: "english_only",
+      en
+    };
+
+    const value = translations[key];
+
+    if (value?.en != blank.en) {
+      freshTranslations[key] = blank;
+      updatedCount++;
+    } else {
+      freshTranslations[key] = value;
+    }
+  };
+
+  alldata.forEach(audience => {
+    updateTranslation(
+      `sf_audience_type_${audience.fields["Audience ID"]}_label`,
+      audience.fields["Audience"]
+    );
+
+    audience.children_service_types.forEach(service_type => {
+      updateTranslation(
+        `sf_service_type_${service_type.fields["Service Type ID"]}_label`,
+        service_type.fields["Service type"]
       );
-    }
 
-    /** @typedef {{ id: string, fields: Record<string, any> }} AirtableRecord */
-    /** @typedef {{ records: AirtableRecord[] }} AirtableResponse */
+      service_type.children_categories.forEach(category => {
+        const category_fields = category.fields;
+        const category_id = category_fields["Category ID"];
 
-    /** @type {any} */
-    const responseJson = await response.json();
+        updateTranslation(
+          `sf_cat_${category_id}_label`,
+          category_fields.Category
+        );
+        updateTranslation(
+          `sf_cat_${category_id}_description`,
+          category_fields["Category description"]
+        );
 
-    if (!responseJson.records || responseJson.records.length === 0) {
-      console.warn("⚠️ WARNING: No records found in Airtable.");
-      return [];
-    }
+        category.children_services.forEach(
+          (
+            /** @type {{ fields: { ID: string; Service_name: string; Description: string; Entity: string; }; }} */ service
+          ) => {
+            const service_fields = service.fields;
+            const service_id = service_fields.ID;
 
-    // ✅ Extract fields from each record
-    const records = responseJson.records.map(record => record.fields);
-
-    console.log(`✅ Successfully retrieved ${records.length} records.`);
-    const sorted = sortFieldsInObjects(records);
-
-    // Remove empty columns from sorted object
-    sorted.forEach(record => {
-      Object.keys(record).forEach(key => {
-        if (
-          record[key]
-            ?.toString()
-            .replace(/\u00A0/g, " ")
-            .trim().length === 0
-        ) {
-          delete record[key];
-        }
+            updateTranslation(
+              `sf_${service_id}_service_name`,
+              service_fields.Service_name
+            );
+            updateTranslation(
+              `sf_${service_id}_description`,
+              service_fields.Description
+            );
+            updateTranslation(`sf_${service_id}_entity`, service_fields.Entity);
+          }
+        );
       });
     });
+  });
 
-    return sorted;
-  } catch (error) {
-    console.error("❌ ERROR Fetching Airtable Data:", error);
-    return [];
+  if (updatedCount) {
+    // Sort all the keys in the translations object
+    const sortedTranslations = Object.keys(freshTranslations)
+      .sort()
+      .reduce((obj, key) => {
+        obj[key] = freshTranslations[key];
+        return obj;
+      }, {});
+
+    // Write the updated translations back to the file
+    fs.writeFileSync(
+      service_finder_translations_path,
+      JSON.stringify(sortedTranslations, null, 2)
+    );
+    console.log(
+      `✅ Wrote ${updatedCount} service finder translations to ${service_finder_translations_path}`
+    );
   }
-};
-
-// Function to sort fields in an object recursively
-/**
- * @param {{ [x: string]: any; }} obj
- */
-function sortFieldsRecursively(obj) {
-  const sortedKeys = Object.keys(obj).sort();
-  const sortedObj = {};
-
-  sortedKeys.forEach(
-    key =>
-      (sortedObj[key] =
-        typeof obj[key] === "object" && !Array.isArray(obj[key])
-          ? sortFieldsRecursively(obj[key])
-          : obj[key])
-  );
-
-  return sortedObj;
 }
-
-// Function to sort fields in each object in an array
-/**
- * @param {any[]} arr
- */
-function sortFieldsInObjects(arr) {
-  return arr.map((/** @type {any} */ obj) => sortFieldsRecursively(obj));
-}
-
-// ✅ Function to save data to a JSON file
-const saveDataToFile = (data, filePath) => {
-  try {
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-    console.log(`✅ Data saved to ${filePath}`);
-  } catch (error) {
-    console.error(`❌ ERROR Writing to File ${filePath}:`, error);
-  }
-};
-
-// ✅ Main function
-const run = async () => {
-  console.time("⏳ Airtable Fetch Time");
-
-  const data = await fetchAirtableData();
-  saveDataToFile(data, OUTPUT_JSON_PATH);
-
-  console.timeEnd("⏳ Airtable Fetch Time");
-};
-
-// 🔥 Execute script
-run();

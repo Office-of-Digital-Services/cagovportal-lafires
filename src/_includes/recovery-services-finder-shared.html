@@ -22,41 +22,45 @@
   <div class="row">
     <div class="col-lg-10">
       <p class="lead">{{ 'sf_lead_text_1' | i18n }}</p>
-      <p class="lead">{{ 'sf_lead_text_2' | i18n }}</p>
-      <div class="bg-white mt-5 px-4 p-b-md brd-solid-4 brd-gray-200 rounded">
-        <form>
-          <fieldset class="p-a-sm">
-            {%- for type in lafires.recovery_services_types %}
-            <!---->
-            {%- switch type.Type_of_Service %}
-            <!---->
-            {%- case "Essential help" %}
-            <h2 class="h3 color-p2-darker mt-4 mb-0">
-              {{ 'sf_individuals_heading' | i18n }}
+
+      <form>
+        <fieldset>
+          {%- for audience_type in service_finder_data %}
+          <div
+            class="bg-white mt-4 px-4 p-b-md brd-solid-4 brd-gray-200 rounded">
+            <h2 class="color-p2-darker mt-4 mb-4">
+              {{ ("sf_audience_type_" + audience_type.fields["Audience ID"] +
+              "_label") | i18n }}
             </h2>
-            <h3>{{ 'sf_essential_help_heading' | i18n }}</h3>
-            {%- case "Start recovering" %}
-            <h3>{{ 'sf_start_recovering_heading' | i18n }}</h3>
-            {%- default %}
-            <h2 class="h3 color-p2-darker">
-              {{ 'sf_business_heading' | i18n }}
-            </h2>
-            {%- endswitch -%}
+            <p>{{ 'sf_lead_text_2' | i18n }}</p>
+
+            {%- for service_type in audience_type.children_service_types %}
+
+            <h3 class="mt-4 mb-4">
+              {{ ("sf_service_type_" + service_type.fields["Service Type ID"] +
+              "_label") | i18n }}
+            </h3>
+
+            {#-- Sort categories so that Category ID 1 (Housing) is first --#}
+            {%- set sorted_categories = service_type.children_categories |
+            sort(attribute="fields.Category ID") -%} {%- set sorted_categories =
+            sorted_categories | sort(reverse=true, attribute="fields.Category
+            ID" == 1) -%} {%- for category in sorted_categories %}
             <!---->
-            {%- for category in lafires.recovery_services_categories |
-            pluck("Type_of_Service",type.Type_of_Service) -%}
-            <!---->
-            {%- set id = "category_"+type.Section+"_"+category.ID -%}
+            {%- set id = "category_"+category.fields["Category ID"] -%}
             <!---->
             {%- set value = "" -%}
             <!---->
-            {%- for service in airTable | pluck("Category",category.Category) |
-            sortBy("ID") -%}
+            {%- for service in category.children_services -%}
             <!---->
-            {%- set value = value + service.ID + "." -%}
+            {%- set value = value + service.fields.ID + "." -%}
             <!---->
             {%- endfor -%}
             <!---->
+            {%- set sorted_services = category.children_services |
+            sort(attribute="fields.ID") -%} {%- set value = "" -%} {%- for
+            service in sorted_services -%} {%- set value = value +
+            service.fields.ID + "." -%} {%- endfor -%}
 
             <div class="d-flex align-items-top m-b-md p-l-0">
               <input
@@ -69,18 +73,24 @@
                 for="{{id}}"
                 ><span class="d-block font-weight-400"
                   ><span class="bold"
-                    >{{('sf_cat_label_' + category.Key) | i18n}}:</span
+                    >{{ ("sf_cat_" + category.fields["Category ID"] + "_label")
+                    | i18n }}:</span
                   >
-                  {{('sf_cat_description_' + category.Key) | i18n}}</span
+                  {{ ("sf_cat_" + category.fields["Category ID"] +
+                  "_description") | i18n }}</span
                 >
               </label>
             </div>
-            {%-endfor-%}
+
+            {%- endfor -%}
             <!---->
-            {%-endfor-%}
-          </fieldset>
-        </form>
-      </div>
+            {%- endfor -%}
+            <!---->
+          </div>
+          {%- endfor -%}
+          <!---->
+        </fieldset>
+      </form>
 
       <button
         class="btn btn-primary disabled mt-5 px-4 btn-lg rounded-4 d-flex align-items-center justify-content-between"
