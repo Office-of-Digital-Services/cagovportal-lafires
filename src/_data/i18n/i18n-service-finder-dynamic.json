@@ -36,16 +36,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_22_description": {
-    "status": "avantpage_delivery",
-    "en": "The deadline to apply for FEMA housing assistance was March 31, 2025. You can sign in to DisasterAssistance.gov to check the status of your application. FEMA housing assistance can include rental assistance and hotel or other short-term lodging reimbursement.",
-    "es": "La fecha límite para presentar la solicitud para asistencia para la vivienda de la Agencia Federal de Gestión de Emergencias (Federal Emergency Management Agency, FEMA) era el 31 de marzo de 2025. Puede entrar a su cuenta de DisasterAssistance.gov para revisar el estado de su solicitud. La asistencia para la vivienda de FEMA puede incluir asistencia de alquiler, hotel u otros reembolsos por alojamiento a corto plazo.",
-    "ko": "연방재난관리청(Federal Emergency Management Agency, FEMA) 주택 지원 신청은 2025년 3월 31일 마감되었습니다. DisasterAssistance.gov에 로그인하여 신청 상태를 확인할 수 있습니다. 연방재난관리청(Federal Emergency Management Agency, FEMA) 주택 지원에는 임대료 지원, 호텔 지원, 또는 기타 단기 숙박 비용 상환 도움이 포함될 수 있습니다.",
-    "vi": "Hạn cuối để nộp đơn xin hỗ trợ nhà ở của Cơ Quan Quản Lý Tình Trạng Khẩn Cấp Liên Bang (Federal Emergency Management Agency, FEMA) là ngày 31 tháng 3 năm 2025. Quý vị có thể đăng nhập vào DisasterAssistance.gov để kiểm tra trạng thái đơn đăng ký của mình. Hỗ trợ nhà ở của FEMA có thể bao gồm hỗ trợ tiền thuê nhà và hoàn trả tiền khách sạn hoặc chỗ ở ngắn hạn khác.",
-    "tl": "Ang huling araw ng pag-apply para sa tulong sa pabahay ng FEMA ay noong Marso 31, 2025. Maaari kang mag-sign in sa DisasterAssistance.gov upang suriin ang katayuan ng iyong aplikasyon. Puwedeng kasama sa tulong sa pabahay ng FEMA ang tulong sa upa at reimbursement para sa panunuluyan sa hotel o iba pang panandaliang matutuluyan.",
-    "zh-hans": "联邦紧急事务管理局 (Federal Emergency Management Agency, FEMA) 住房援助的申请截止日期为 2025 年 3 月 31 日。您可以登录 DisasterAssistance.gov 来检查您的应用程序状态。FEMA 住房援助包括租金援助和提供酒店住宿或其他短期住宿补偿。",
-    "zh-hant": "聯邦緊急事務管理局 (Federal Emergency Management Agency, FEMA) 住房援助的申請截止日期為 2025 年 3 月 31 日。您可以登入 DisasterAssistance.gov 來檢查您的應用程式狀態。FEMA 住房援助包括租金援助和提供酒店住宿或其他短期住宿補償。",
-    "hy": "FEMA-ի բնակարանային օգնության համար դիմելու վերջնաժամկետը 2025 թվականի մարտի 31-ն էր: Դուք կարող եք մուտք գործել DisasterAssistance.gov կայք՝ Ձեր դիմումի կարգավիճակը ստուգելու համար: FEMA-ի բնակարանային օգնությունը կարող է ներառել վարձակալության աջակցություն և հյուրանոցի կամ այլ կարճաժամկետ կացարանների փոխհատուցում:",
-    "comment": "Translation delivered 2025-04-23"
+    "status": "english_only",
+    "en": "FEMA housing assistance can include rental assistance and hotel or other short-term lodging reimbursement. Each disaster has its own deadline to apply, so check the website to see if you can still apply for help and check your status anytime."
   },
   "sf_22_entity": {
     "status": "avantpage_delivery",
@@ -72,16 +64,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_23_description": {
-    "status": "avantpage_delivery",
-    "en": "The deadline to apply for FEMA disaster assistance was March 31, 2025. You can sign in to DisasterAssistance.gov to check the status of your application. FEMA can help with losses not covered by insurance — including temporary housing, repairs, and rebuilding.",
-    "es": "La fecha límite para presentar la solicitud para asistencia para catástrofes de FEMA era el 31 de marzo de 2025. Puede entrar a su cuenta de DisasterAssistance.gov para revisar el estado de su solicitud. FEMA puede ayudar con las pérdidas que no están cubiertas por el seguro, incluida vivienda temporal, reparaciones y reconstrucción.",
-    "ko": "연방재난관리청(Federal Emergency Management Agency, FEMA)의 재난 지원 신청은 2025년 3월 31일 마감되었습니다. DisasterAssistance.gov에 로그인하여 신청 상태를 확인할 수 있습니다. 연방재난관리청(Federal Emergency Management Agency, FEMA)에서는 보험으로 보장되지 않는 손실(임시 주택, 수리 및 재건 포함)을 지원합니다.",
-    "vi": "Hạn cuối để nộp đơn xin hỗ trợ thảm họa của FEMA là ngày 31 tháng 3 năm 2025. Quý vị có thể đăng nhập vào DisasterAssistance.gov để kiểm tra trạng thái đơn đăng ký của mình. FEMA có thể trợ giúp về những tổn thất không được bảo hiểm chi trả — bao gồm nhà ở tạm thời, sửa chữa và xây dựng lại.",
-    "tl": "Ang huling araw ng pag-apply para sa tulong sa sakuna ng FEMA ay noong Marso 31, 2025. Maaari kang mag-sign in sa DisasterAssistance.gov upang suriin ang katayuan ng iyong aplikasyon. Makakatulong ang FEMA sa mga pagkawalang hindi saklaw ng insurance — kasama ang pansamantalang pabahay, mga pag-aayos, at muling pagpapatayo.",
-    "zh-hans": "FEMA 灾害救援的申请截止日期为 2025 年 3 月 31 日。您可以登录 DisasterAssistance.gov 来检查您的应用程序状态。FEMA 可帮助您获取保险未涵盖损失的帮助，包括临时住房安置、维修和重建。",
-    "zh-hant": "FEMA 災害救援的申請截止日期為 2025 年 3 月 31 日。您可以登入 DisasterAssistance.gov 來檢查您的應用程式狀態。FEMA 可幫助您獲取保險未涵蓋損失的幫助，包括臨時住房安置、維修和重建。",
-    "hy": "FEMA-ի աղետների օգնության համար դիմելու վերջնաժամկետը 2025 թվականի մարտի 31-ն էր: Դուք կարող եք մուտք գործել DisasterAssistance.gov կայք՝ Ձեր դիմումի կարգավիճակը ստուգելու համար: FEMA-ն կարող է օգնել այն կորուստների համար, որոնք չեն ծածկվում ապահովագրությամբ, ներառյալ ժամանակավոր կացարանները, վերանորոգումները և վերակառուցումները:",
-    "comment": "Translation delivered 2025-04-23"
+    "status": "english_only",
+    "en": "FEMA can help support your recovery from a major disaster. You can apply at DisasterAssistance.gov and check your status anytime. Each disaster has its own deadline to apply, so check the website to see if you can still apply for help."
   },
   "sf_23_entity": {
     "status": "avantpage_delivery",
@@ -136,16 +120,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_26_description": {
-    "status": "avantpage_delivery",
-    "en": "Get relief from penalties, collection costs, and interest. You can also get up to a 3-month filing extension on your tax returns.",
-    "es": "Obtenga asistencia con multas, costos de cobranzas e intereses. También puede obtener una extensión de hasta 3 meses para presentar sus declaraciones de impuestos.",
-    "ko": "벌금, 징수 비용 및 이자에 관련 감면을 받으십시오. 세금 신고서 제출 기한을 최대 3개월까지 연장할 수도 있습니다.",
-    "vi": "Được giảm nhẹ tiền phạt, chi phí thu tiền và tiền lãi. Quý vị cũng có thể được gia hạn nộp tờ khai thuế tối đa 3 tháng.",
-    "tl": "Makatanggap ng relief sa mga parusa, mga gastos sa pangongolekta, at interes. Puwede ka ring makatanggap ng hanggang 3 buwang palugit sa paghahain sa iyong mga tax return.",
-    "zh-hans": "免除罚款、收款费用和利息。还可获得最长 3 个月的纳税申报延期。",
-    "zh-hant": "免除罰款、收款費用和利息。還可獲得最長 3 個月的納稅申報延期。",
-    "hy": "Ստացեք աջակցություն տույժերի, հավաքագրման ծախսերի և տոկոսների համար։ Դուք կարող եք նաև 3 ամիս ժամկետով երկարաձգել Ձեր հարկային հայտարարագրերի ներկայացնելը։",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "english_only",
+    "en": "Get relief from penalties, collection costs, and interest if you have been directly affected by disasters declared as state of emergencies, both within California and nationally. You can also get up to a 3-month filing extension on your tax returns."
   },
   "sf_26_entity": {
     "status": "avantpage_delivery",
@@ -308,16 +284,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_32_description": {
-    "status": "avantpage_delivery",
-    "en": "If you are sick or injured from the fires, apply for disability benefits.",
-    "es": "Si está enfermo o lesionado por los incendios, solicite los beneficios por discapacidad.",
-    "ko": "화재로 인해 다쳤거나 부상을 입었다면 장애 수당을 신청하십시오.",
-    "vi": "Nếu quý vị bị ốm hoặc bị thương do đám cháy, hãy nộp đơn xin trợ cấp khuyết tật.",
-    "tl": "Kung may sakit o na-injure ka dahil sa sunog, mag-apply para sa mga benepisyo sa pagkakaroon ng kapansanan.",
-    "zh-hans": "如果您因火灾而生病或受伤，请申请残疾补助。",
-    "zh-hant": "如果您因火災而生病或受傷，請申請殘疾補助。",
-    "hy": "Եթե հրդեհների արդյունքում ձեռք եք բերել հիվանդություն կամ վնասվածքներ, դիմեք հաշմանդամության նպաստների համար։",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "english_only",
+    "en": "If you are sick or injured as a result of a disaster, you may be eligible for disability benefits."
   },
   "sf_32_entity": {
     "status": "avantpage_delivery",
@@ -595,6 +563,18 @@
     "hy": "Սննդի բանկեր և սննդի պահեստներ",
     "comment": "Translation delivered 2025-04-23"
   },
+  "sf_42_description": {
+    "status": "english_only",
+    "en": "Find a current list of open emergency shelters available for communities impacted by a disaster."
+  },
+  "sf_42_entity": {
+    "status": "english_only",
+    "en": "California Governor's Office of Emergency Services"
+  },
+  "sf_42_service_name": {
+    "status": "english_only",
+    "en": "Emergency shelters"
+  },
   "sf_43_description": {
     "status": "ap_review",
     "en": "Get mortgage relief for structures damaged or destroyed by the LA fires. Temporarily reduce or pause mortgage payments, waive late fees, and more."
@@ -732,8 +712,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_48_description": {
-    "status": "ap_review",
-    "en": "Find tips and resources to help you with wildfire insurance claims and issues."
+    "status": "english_only",
+    "en": "Find tips and resources to help you with 2024-2025 Los Angeles County fire victim insurance claims and issues."
   },
   "sf_48_entity": {
     "status": "avantpage_delivery",
@@ -824,16 +804,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_52_description": {
-    "status": "avantpage_delivery",
-    "en": "Replace California driver's licenses or IDs. Fees are waived for licenses or IDs lost in the fires.",
-    "es": "Reemplazar las licencias de conducir o las tarjetas de identificación de California. Se hace una exención de las tarifas por las licencias o las tarjetas de identificación que se perdieron en los incendios.",
-    "ko": "캘리포니아 운전면허증 또는 신분증을 재발급 받으십시오. 화재로 인해 분실된 면허증 또는 신분증은 발급 수수료가 면제됩니다.",
-    "vi": "Thay giấy phép lái xe hoặc thẻ căn cước của California. Miễn phí cho giấy phép hoặc thẻ căn cước bị mất trong đám cháy.",
-    "tl": "Magpapalit ng mga lisensya sa pagmamaneho o ID ng California. Iwe-waive ang mga fee para sa mga lisensya o ID na natupok ng sunog.",
-    "zh-hans": "补办加州驾照或身份证。在火灾中丢失的驾照或身份证可免除费用。",
-    "zh-hant": "補辦加州駕照或身分證。在火災中丟失的駕照或身分證可免除費用。",
-    "hy": "Փոխարինեք Կալիֆոռնիայի վարորդական իրավունքի վկայականը կամ նույնականացման քարտերը: Հրդեհի ժամանակ կորցրած վկայականների կամ նույնականացման քարտերի համար վճար չի գանձվում։",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "english_only",
+    "en": "Replace California driver's licenses or ID Cards. Fees may be waived."
   },
   "sf_52_entity": {
     "status": "avantpage_delivery",
@@ -860,16 +832,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_53_description": {
-    "status": "avantpage_delivery",
-    "en": "Replace titles for vehicles registered in California. Fees are waived for titles lost in the fires.",
-    "es": "Reemplazar los títulos de los vehículos registrados en California. Se hace una exención de las tarifas por los títulos que se perdieron en los incendios.",
-    "ko": "캘리포니아에 등록된 차량 등록증을 재발급 받으십시오. 화재로 분실된 등록증은 수수료가 면제됩니다.",
-    "vi": "Thay mới giấy tờ sở hữu cho các xe đã đăng ký tại California. Miễn phí cho giấy tờ sở hữu xe bị mất trong đám cháy.",
-    "tl": "Magpapalit ng mga titulo para sa mga sasakyang nakarehistro sa California. Iwe-waive ang mga fee para sa mga titulong natupok ng sunog.",
-    "zh-hans": "补办在加州注册的车辆所有权证书。火灾中丢失的车辆所有权证书可免除费用。",
-    "zh-hant": "補辦在加州註冊的車輛所有權證書。火災中丟失的車輛所有權證書可免除費用。",
-    "hy": "Փոխարինեք Կալիֆոռնիայում գրանցված տրանսպորտային միջոցների սեփականության վկայականներ: Հրդեհի ժամանակ կորցրած վկայականների կամ սեփականության վկայականների համար վճար չի գանձվում։",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "english_only",
+    "en": "Replace titles for vehicles registered in California. Fees may be waived."
   },
   "sf_53_entity": {
     "status": "avantpage_delivery",
@@ -896,16 +860,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_54_description": {
-    "status": "avantpage_delivery",
-    "en": "Replace manufactured and mobile home registration and titling documents. Fees may be waived for documents lost in the fires.",
-    "es": "Reemplace los documentos de registro y titulación de casas prefabricadas y móviles. Se puede hacer una exención de las tarifas para los documentos que se perdieron en los incendios.",
-    "ko": "조립식 주택 및 이동식 주택 등록증 및 소유권 문서를 재발급 받으십시오. 화재로 분실된 문서에 대한 수수료는 면제될 수 있습니다.",
-    "vi": "Thay mới các tài liệu đăng ký và giấy tờ sở hữu nhà tiền chế và nhà di động  Có thể miễn phí cho tài liệu bị mất trong đám cháy.",
-    "tl": "Magpapalit ng mga dokumento sa pagpaparehistro at pagtititulo ng ipinatayo at mobile na bahay. Posibleng i-waive ang mga fee para sa mga dokumentong natupok ng sunog.",
-    "zh-hans": "补办活动房屋登记文件和所有权文件。火灾中丢失的文件可免除费用。",
-    "zh-hant": "補辦活動房屋登記文件和所有權文件。火災中丟失的文件可免除費用。",
-    "hy": "Փոխարինեք արտադրված և շարժական տների գրանցման և սեփականության փաստաթղթերի փոխարինման համար: Հրդեհի ժամանակ կորցրած վկայականների կամ փաստաթղթերի համար վճար հնարավոր է չգանձվեն։",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "english_only",
+    "en": "Replace manufactured and mobile home registration and titling documents. Fees may be waived."
   },
   "sf_54_entity": {
     "status": "avantpage_delivery",
@@ -1152,16 +1108,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_65_description": {
-    "status": "avantpage_delivery",
-    "en": "Learn about the extended deadline to file and pay income tax in Los Angeles County. The new deadline is October 15, 2025.",
-    "es": "Obtenga información sobre la fecha límite extendida para presentar y pagar los impuestos sobre los ingresos en el condado de Los Ángeles. La nueva fecha límite es el 15 de octubre de 2025.",
-    "ko": "로스앤젤레스 카운티의 소득세 신고 및 납부 기한 연장에 대해 알아보십시오. 새로운 마감일은 2025년 10월 15일입니다.",
-    "vi": "Tìm hiểu về hạn cuối được gia hạn để nộp hồ sơ và nộp thuế thu nhập ở Quận Los Angeles. Hạn cuối mới là ngày 15 tháng 10 năm 2025.",
-    "tl": "Matuto tungkol sa pinahabang deadline para maghain at magbayad ng buwis sa kita sa County ng Los Angeles. Ang bagong deadline ay Oktubre 15, 2025.",
-    "zh-hans": "了解洛杉矶县申报和缴纳所得税的延长截止日期。新截止日期为 2025 年 10 月 15 日。",
-    "zh-hant": "瞭解洛杉磯縣申報和繳納所得稅的延長截止日期。新截止日期為 2025 年 10 月 15 日。",
-    "hy": "Իմացեք Լոս Անջելեսի շրջանում եկամտահարկի ներկայացման և վճարման երկարացված ժամկետի մասին: Նոր վերջնաժամկետը 2025թ․ հոկտեմբերի 15-ն է:",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "english_only",
+    "en": "Learn about the extended deadline to file and pay 2024-2025 Los Angeles County income tax. The new deadline is October 15, 2025."
   },
   "sf_65_entity": {
     "status": "avantpage_delivery",
@@ -1187,16 +1135,8 @@
     "hy": "2025 թվականի եկամտահարկի երկարաձգում"
   },
   "sf_66_description": {
-    "status": "avantpage_delivery",
-    "en": "Learn about the extended deadline to file and pay property taxes. The state property tax deadline is also extended. The new deadline is April 10, 2026. For those impacted by the LA fires, Governor Newsom has suspended penalties and interest on late property tax payments.",
-    "es": "Obtenga información sobre la fecha límite extendida para presentar y pagar los impuestos de la propiedad. La fecha límite para impuestos de la propiedad estatal también fue extendida. La nueva fecha límite es el 10 de abril de 2026. Para aquellos afectados por los incendios de Los Ángeles, el gobernador Newsom ha suspendido las multas e intereses sobre los pagos atrasados de impuestos a la propiedad. ",
-    "ko": "재산세 신고 및 납부 기한 연장에 대해 알아보십시오. 주 재산세 기한도 연장됩니다. 새로운 기한은 2026년 4월 10일입니다. LA 화재 피해를 입은 사람들을 위해 Newsom 주지사는 재산세 연체 납부에 대한 벌금과 이자를 중단했습니다. ",
-    "vi": "Tìm hiểu về hạn cuối được gia hạn để nộp hồ sơ và nộp thuế bất động sản. Hạn cuối cho thuế bất động sản của tiểu bang cũng được gia hạn. Hạn cuối mới là ngày 10 tháng 4 năm 2026. Đối với những người bị ảnh hưởng bởi các đám cháy ở LA, Thống Đốc Newsom đã đình chỉ các hình phạt và lãi suất đối với các khoản thanh toán thuế bất động sản muộn. ",
-    "tl": "Matuto tungkol sa pinahabang deadline para maghain at magbayad ng mga buwis sa pag-aari. Pinahaba rin ang deadline ng buwis sa pag-aari ng estado. Ang bagong deadline ay Abril 10, 2026. Para sa mga naapektuhan ng sunog sa LA, sinuspinde ni Gobernador Newsom ang mga parusa at interes sa mga nahuling pagbabayad ng buwis sa pag-aari. ",
-    "zh-hans": "了解延长的申报和缴纳房产税的截止日期。州财产税的截止日期也延长了。新的截止日期是 2026 年 4 月 10 日。对于那些受洛杉矶大火影响的民众，Newsom 州长已暂停对其逾期缴纳财产税的罚款和利息。 ",
-    "zh-hant": "瞭解延長的申報和繳納房產稅的截止日期。州財產稅的截止日期也延長了。新的截止日期是 2026 年 4 月 10 日。對於那些受洛杉磯大火影響的民眾，Newsom 州長已暫停對其逾期繳納財產稅的罰款和利息。 ",
-    "hy": "Ծանոթացեք գույքի հարկերի ներկայացման և վճարման երկարացված ժամկետների մասին: Երկարաձգվել է նաև պետական գույքահարկի վճարման ժամկետը։ Նոր վերջնաժամկետը 2026 թվականի ապրիլի 10-ն է։ ԼԱ-ի հրդեհներից տուժածների համար նահանգապետ Նյուսոմը դադարեցրել է տույժերն ու տոկոսները գույքահարկի ուշ վճարումների համար։ ",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "english_only",
+    "en": "Learn about the extended deadline to file and pay 2025 Los Angeles County property taxes. The state property tax deadline is also extended. The new deadline is April 10, 2026. For those impacted by the LA fires, Governor Newsom has suspended penalties and interest on late property tax payments."
   },
   "sf_66_entity": {
     "status": "avantpage_delivery",
@@ -1387,16 +1327,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_73_description": {
-    "status": "avantpage_delivery",
-    "en": "Replace vehicle or driver's records.",
-    "es": "Remplazar registros de vehículos o conductores",
-    "ko": "차량 또는 운전자의 기록을 재발급 받으십시오.",
-    "vi": "Thay mới hồ sơ xe hoặc hồ sơ tài xế",
-    "tl": "Magpapalit ng mga record ng sasakyan o driver.",
-    "zh-hans": "补办车辆或驾驶员记录。",
-    "zh-hant": "補辦車輛或駕駛員記錄。",
-    "hy": "Փոխարինել տրանսպորտային միջոցի կամ վարորդի վկայականները",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "english_only",
+    "en": "Request vehicle or driver's records."
   },
   "sf_73_entity": {
     "status": "avantpage_delivery",
@@ -1603,16 +1535,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_85_description": {
-    "status": "avantpage_delivery",
-    "en": "See the major steps to take when rebuilding your home. This includes insurance claims, permits, and more.",
-    "es": "Consulte los pasos principales a seguir cuando reconstruya su hogar. Esto incluye reclamaciones de seguro, licencias y mucho más.",
-    "ko": "주택을 재건할 때 취해야 할 주요 단계를 확인하십시오. 여기에는 보험 청구, 허가 등이 포함됩니다.",
-    "vi": "Xem các bước chính cần thực hiện khi xây dựng lại nhà. Điều này bao gồm yêu cầu bồi thường bảo hiểm, giấy phép, v.v.",
-    "tl": "Tingnan ang mga pangunahing hakbang na dapat isagawa kapag muling ipapatayo ang iyong tahanan. Kasama rito ang mga claim sa insurance, permit, at iba pa.",
-    "zh-hans": "查看重建房屋的主要步骤。当中包括保险索赔、许可证等。",
-    "zh-hant": "查看重建房屋的主要步驟。當中包括保險索賠、許可證等。",
-    "hy": "Իմացեք այն հիմնական քայլերը, որոնք պետք է ձեռնարկել Ձեր տունը վերակառուցելիս: Սա ներառում է ապահովագրության վճարներ, թույլտվություններ և այլն:",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "english_only",
+    "en": "See the major steps to take when rebuilding your home. This includes insurance claims, permits, hiring contractors and more."
   },
   "sf_85_entity": {
     "status": "avantpage_delivery",
@@ -1639,8 +1563,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_86_description": {
-    "status": "ap_review",
-    "en": "Opt in by April 15, 2025, to get free government debris removal. If you don't opt in, you'll need to pay for a private debris removal contractor instead."
+    "status": "english_only",
+    "en": "All property owners who did not opt in for free government debris removal needed to obtain a Fire Debris Removal (FDR) permit and hire a licensed contractor by June 1, 2025. Fire debris must be removed by June 30, 2025."
   },
   "sf_86_entity": {
     "status": "avantpage_delivery",
@@ -1659,16 +1583,8 @@
     "en": "2025 wildfire debris removal"
   },
   "sf_88_description": {
-    "status": "avantpage_delivery",
-    "en": "The deadline to apply for these loans was March 31, 2025. You can sign in to lending.sba.gov to check the status of your application. You can use these loans to repair your home or replace personal property damaged in the fires.",
-    "es": "La fecha límite para presentar la solicitud para estos préstamos era el 31 de marzo de 2025. Puede entrar a su cuenta de lending.sba.gov para revisar el estado de su solicitud. Puede usar estos préstamos para reparar su casa o reemplazar la propiedad personal dañada en los incendios.",
-    "ko": "해당 대출 신청은 2025년 3월 31일 마감되었습니다. lending.sba.gov에 로그인하여 신청 상태를 확인할 수 있습니다. 해당 대출금을 사용하여 화재 때문에 손상된 자택을 수리하거나 개인 부동산 복구 작업을 할 수 있습니다.",
-    "vi": "Hạn cuối để nộp đơn đăng ký các khoản vay này là ngày 31 tháng 3 năm 2025. Quý vị có thể đăng nhập vào lending.sba.gov để kiểm tra trạng thái đơn đăng ký của mình. Quý vị có thể sử dụng các khoản vay này để sửa chữa nhà của quý vị hoặc thay thế tài sản cá nhân bị hư hỏng trong đám cháy.",
-    "tl": "Ang huling araw ng pag-apply para sa mga loan na ito ay noong Marso 31, 2025. Maaari kang mag-sign in sa lending.sba.gov para malaman ang status ng iyong aplikasyon. Maaari mong gamitin ang mga loan na ito para ipaayos ang iyong tahanan o magpalit ng personal na pag-aari na natupok ng sunog.",
-    "zh-hans": "这些贷款的申请截止日期为 2025 年 3 月 31 日。您可以登录 lending.sba.gov 来检查您的应用程序状态。您可以使用这些贷款来维修您的房屋或补办在火灾中损坏的个人财产。",
-    "zh-hant": "這些貸款的申請截止日期為 2025 年 3 月 31 日。您可登入 lending.sba.gov 來檢查您的應用程式狀態。您可以使用這些貸款來維修您的房屋或補辦在火災中損壞的個人財產。",
-    "hy": "Այս վարկերին դիմելու համար վերջնաժամկետը 2025 թվականի մարտի 31-ն է։ Դուք կարող եք մուտք գործել lending.sba.gov կայք՝ Ձեր դիմումի կարգավիճակը ստուգելու համար: Այս վարկերը կարող եք օգտագործել Ձեր տունը վերանորոգելու կամ հրդեհներից վնասված անձնական գույքը փոխարինելու համար:",
-    "comment": "Translation delivered 2025-04-23"
+    "status": "english_only",
+    "en": "If a disaster has damaged your home or personal property, you might be able to get financial assistance from the Small Business Administration. You do not need to own a business to apply."
   },
   "sf_88_entity": {
     "status": "avantpage_delivery",
@@ -1751,8 +1667,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_91_description": {
-    "status": "ap_review",
-    "en": "Opt in by April 15, 2025, to find out if your business qualifies for free government debris removal."
+    "status": "english_only",
+    "en": "If your property was damaged in the January 2025 wildfires, you had until April 15, 2025 to sign up for free debris cleanup from the government. If you did not sign up or said no, you were required to get a Fire Debris Removal (FDR) permit and hire a licensed contractor to clean up your property by June 30, 2025."
   },
   "sf_91_entity": {
     "status": "ap_review",
@@ -1781,6 +1697,18 @@
   "sf_92_service_name": {
     "status": "ap_review",
     "en": "Emergency shelter"
+  },
+  "sf_94_description": {
+    "status": "english_only",
+    "en": "Homeowners may receive up to $20,000 for three months of mortgage payments for homes destroyed in recent disasters, including the 2025 Los Angeles County fires."
+  },
+  "sf_94_entity": {
+    "status": "english_only",
+    "en": "California Department of Financial Protection & Innovation"
+  },
+  "sf_94_service_name": {
+    "status": "english_only",
+    "en": "Mortgage payment assistance"
   },
   "sf_audience_type_1_label": {
     "status": "ap_review",
