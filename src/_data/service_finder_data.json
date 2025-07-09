@@ -6,10 +6,7 @@
       "Audience": "For you and your family",
       "Audience ID": 1,
       "Categories": "Housing, Food, Pets, Health and safety, Resources for certain groups, Financial assistance, Replace documents, Insurance, Rebuilding your house, Employment",
-      "Service types": [
-        "recD1BzZ6rtGT1O6h",
-        "recHmpjjj4li4w2AI"
-      ]
+      "Service types": ["recD1BzZ6rtGT1O6h", "recHmpjjj4li4w2AI"]
     },
     "children_service_types": [
       {
@@ -886,10 +883,7 @@
                   "Audience": "For your and your family",
                   "Audience (from Category Linked)": "recEP9eO9yJvwUzhk",
                   "Audience ID": 1,
-                  "Category": [
-                    "Insurance",
-                    "Resources for certain groups"
-                  ],
+                  "Category": ["Insurance", "Resources for certain groups"],
                   "Category ID": 8,
                   "Category Linked": "recT4iQQupjaKqRWE",
                   "Description": "If you have CalVet home insurance, learn how to file a claim.",
@@ -996,10 +990,7 @@
                   "Audience": "For your and your family",
                   "Audience (from Category Linked)": "recEP9eO9yJvwUzhk",
                   "Audience ID": 1,
-                  "Category": [
-                    "Rebuild your house",
-                    "Housing"
-                  ],
+                  "Category": ["Rebuild your house", "Housing"],
                   "Category ID": 9,
                   "Category Linked": "recbnBZyXXaJ8bOdg",
                   "Description": "File a change of address.",
@@ -1025,10 +1016,7 @@
                   "Audience": "For your and your family",
                   "Audience (from Category Linked)": "recEP9eO9yJvwUzhk",
                   "Audience ID": 1,
-                  "Category": [
-                    "Rebuild your house",
-                    "Health and safety"
-                  ],
+                  "Category": ["Rebuild your house", "Health and safety"],
                   "Category ID": 9,
                   "Category Linked": "recbnBZyXXaJ8bOdg",
                   "Description": "If you work in fire cleanup or debris removal, learn about safety gear and employee protections.",
@@ -1247,10 +1235,7 @@
                   "Audience": "For your and your family",
                   "Audience (from Category Linked)": "recEP9eO9yJvwUzhk",
                   "Audience ID": 1,
-                  "Category": [
-                    "Replace documents",
-                    "Financial assistance"
-                  ],
+                  "Category": ["Replace documents", "Financial assistance"],
                   "Category ID": 7,
                   "Category Linked": "reclvIMOPBIX62bUP",
                   "Description": "Replace personal tax documents. File critical changes of information such as change of address and power of attorney.",
@@ -1617,10 +1602,7 @@
         "fields": {
           "Audience": "recsw2qIHU9m1kIXh",
           "Audience ID": 2,
-          "Categories": [
-            "recYr55ShNVT6CbOx",
-            "recTK6BEJCa2f6LaO"
-          ],
+          "Categories": ["recYr55ShNVT6CbOx", "recTK6BEJCa2f6LaO"],
           "Service Type ID": 4,
           "Service type": "Recovery needs"
         },
@@ -1636,10 +1618,7 @@
               "Category description": "Worker safety, debris removal",
               "Service Type ID": 4,
               "Service type": "recKqvV5kRkj7YYxO",
-              "Services": [
-                "recFIr5hOTdYiS4nS",
-                "recjQQQtE04QgIfC1"
-              ]
+              "Services": ["recFIr5hOTdYiS4nS", "recjQQQtE04QgIfC1"]
             },
             "children_services": [
               {
