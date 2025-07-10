@@ -82,7 +82,7 @@ const JOBS = [
   fs.mkdirSync(path.dirname(service_finder_data_path), { recursive: true });
   fs.writeFileSync(
     service_finder_data_path,
-    JSON.stringify(all_audience, null, 2)
+    `${JSON.stringify(all_audience, null, 2)}\n`
   );
 
   console.log(`✅ Wrote service finder data to ${service_finder_data_path}`);
@@ -179,7 +179,7 @@ function writeTranslations(alldata) {
     // Write the updated translations back to the file
     fs.writeFileSync(
       service_finder_translations_path,
-      JSON.stringify(sortedTranslations, null, 2)
+      `${JSON.stringify(sortedTranslations, null, 2)}\n`
     );
     console.log(
       `✅ Wrote ${updatedCount} service finder translations to ${service_finder_translations_path}`
