@@ -62,14 +62,14 @@
   "health_and_safety_outdoor_air_quality_description_2": {
     "status": "ap_review",
     "comment": "added 5-8-2025",
-    "en": "See <a href=\"https://www.ca.gov/lafires/track-progress/#Air-quality\">how air quality is monitored in your area</a>.",
-    "es": "Vea <a href=\"https://www.ca.gov/lafires/es/track-progress/#Air-quality\">cómo se monitorea la calidad del aire en su área</a>.",
-    "ko": "영역에서 공기 품질이 모니터링되는 방법을 보려면 <a href=\"https://www.ca.gov/ko/lafires/track-progress/#Air-quality\">여기를 클릭하세요</a>.",
-    "vi": "Xem <a href=\"https://www.ca.gov/vi/lafires/track-progress/#Air-quality\">cách kiểm soát chất lượng không khí trong khu vực của bạn</a>.",
-    "tl": "Tingnan <a href=\"https://www.ca.gov/tl/lafires/track-progress/#Air-quality\">kung paano naka-monitor ang kalidad ng hangin sa iyong lugar</a>.",
-    "zh-hans": "查看<a href=\"https://www.ca.gov/zh-hans/lafires/track-progress/#Air-quality\">如何监控您地区的空气质量</a>。",
-    "zh-hant": "查看<a href=\"https://www.ca.gov/zh-hant/lafires/track-progress/#Air-quality\">如何監控您地區的空氣質量</a>。",
-    "hy": "Դիտեք <a href=\"https://www.ca.gov/hy/lafires/track-progress/#Air-quality\">թե ինչպես է մոնիտորինգի ենթարկվում օդի որակը ձեր տարածքում</a>"
+    "en": "See <a href=\"/lafires/track-progress/#Air-quality\">how air quality is monitored in your area</a>.",
+    "es": "Vea <a href=\"/lafires/es/track-progress/#Air-quality\">cómo se monitorea la calidad del aire en su área</a>.",
+    "ko": "영역에서 공기 품질이 모니터링되는 방법을 보려면 <a href=\"/lafires/ko/track-progress/#Air-quality\">여기를 클릭하세요</a>.",
+    "vi": "Xem <a href=\"/lafires/vi/track-progress/#Air-quality\">cách kiểm soát chất lượng không khí trong khu vực của bạn</a>.",
+    "tl": "Tingnan <a href=\"/lafires/tl/track-progress/#Air-quality\">kung paano naka-monitor ang kalidad ng hangin sa iyong lugar</a>.",
+    "zh-hans": "查看<a href=\"/lafires/zh-hans/track-progress/#Air-quality\">如何监控您地区的空气质量</a>。",
+    "zh-hant": "查看<a href=\"/lafires/zh-hant/track-progress/#Air-quality\">如何監控您地區的空氣質量</a>。",
+    "hy": "Դիտեք <a href=\"/lafires/hy/track-progress/#Air-quality\">թե ինչպես է մոնիտորինգի ենթարկվում օդի որակը ձեր տարածքում</a>"
   },
   "health_and_safety_indoor_air_quality": {
     "status": "ap_review",
