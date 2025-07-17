@@ -534,13 +534,13 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       /* Permits to rebuild building permits issued DATE */
-      const county_housing_permits_issued_date = getLastUpdated(
-        "county_housing_permits_issued"
+      const county_building_permits_issued_date = getLastUpdated(
+        "county_building_permits_issued"
       );
-      const county_housing_permits_issued_date_Element =
-        document.getElementById("county_housing_permits_issued_date");
-      if (county_housing_permits_issued_date_Element) {
-        county_housing_permits_issued_date_Element.textContent = `Data as of ${county_housing_permits_issued_date}`;
+      const county_building_permits_issued_date_Element =
+        document.getElementById("county_building_permits_issued_date");
+      if (county_building_permits_issued_date_Element) {
+        county_building_permits_issued_date_Element.textContent = `Data as of ${county_building_permits_issued_date}`;
       }
 
       /* Permits building plan reviews in-process */
