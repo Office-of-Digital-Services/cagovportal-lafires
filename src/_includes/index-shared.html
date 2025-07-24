@@ -228,12 +228,10 @@
         {%- set counter = 0 -%} {%- for story in
         laFiresStories.rss.channel[0].item -%} {%- if counter < 4 and (category1
         in story.category or category2 in story.category or category3 in
-        story.category) -%} {%- set guid_id = (story.guid[0]._ | fetchGuid) -%}
+        story.category) -%}
         <hr class="m-y-md" />
         <h3 class="lead font-weight-700">
-          <a href="{{ story.link }}"
-            >{{ ('story_' + guid_id + '_title') | i18n }}</a
-          >
+          <a href="{{ story.link }}">{{ story.title }}</a>
         </h3>
         <p>{{ story.pubDate | customDate }}</p>
         {%- set counter = counter + 1 -%} {%- endif -%} {%- endfor %}
