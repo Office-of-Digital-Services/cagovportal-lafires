@@ -37,6 +37,7 @@
       </p>
 
       <div class="row">
+        <!--LA county-->
         <div class="col-lg-6 m-t">
           <div class="d-flex flex-column h-100">
             <div class="bg-primary border-top rounded-top p-a-md  h-100">
@@ -49,7 +50,9 @@
                   aria-hidden="true"
                   alt=""
                   class="height-40 m-r" />
-                <span class="h2 color-white m-y-0 font-weight-400 m-r"
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_received"
                   >4,636</span
                 ><span class="color-white font-size-14 font-weight-600">
                   Applications received
@@ -62,7 +65,10 @@
                   aria-hidden="true"
                   alt=""
                   class="height-40 m-r" />
-                <span class="h2 color-white m-y-0 font-weight-400 m-r">236</span
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_in_review"
+                  >236</span
                 ><span class="color-white font-size-14 font-weight-600">
                   In review
                 </span>
@@ -74,7 +80,10 @@
                   aria-hidden="true"
                   alt=""
                   class="height-40 m-r" />
-                <span class="h2 color-white m-y-0 font-weight-400 m-r">688</span
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_building_permits_issued"
+                  >688</span
                 ><span class="color-white font-size-14 font-weight-600">
                   Building permits issued
                 </span>
@@ -90,12 +99,19 @@
                   >.</em
                 ><br />
 
-                <em>Data as of 5/28/2025 at X:XX PM</em>
+                <em
+                  >Data as of
+                  <span id="county_building_permits_issued_date"
+                    >7/28/2025</span
+                  >
+                  at X:XX PM</em
+                >
               </p>
             </div>
           </div>
         </div>
 
+        <!--LA city-->
         <div class="col-lg-6 m-t">
           <div class="d-flex flex-column h-100">
             <div class="bg-primary border-top rounded-top p-a-md h-100">
@@ -117,10 +133,262 @@
             </div>
           </div>
         </div>
-        <!--END MAIN COL CONTENT-->
-      </div>
-    </div>
 
+        <!--Malibu-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                City of Malibu
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_received"
+                  >1,098</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Applications received
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_in_review"
+                  >123</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  In review
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_building_permits_issued"
+                  >567</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Building permits issued
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-12 m-b-0">
+                <em
+                  >Reported by LA County:
+                  <a
+                    href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/"
+                    >Permitting Progress Dashboard</a
+                  >.</em
+                ><br />
+
+                <em
+                  >Data as of
+                  <span id="malibu_building_permits_issued_date"
+                    >7/28/2025</span
+                  >
+                  at X:XX PM</em
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Pasadena-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                City of Pasadena
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_received"
+                  >1,098</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Applications received
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_in_review"
+                  >123</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  In review
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_building_permits_issued"
+                  >567</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Building permits issued
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-12 m-b-0">
+                <em
+                  >Reported by LA County:
+                  <a
+                    href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/"
+                    >Permitting Progress Dashboard</a
+                  >.</em
+                ><br />
+
+                <em
+                  >Data as of
+                  <span id="pasadena_building_permits_issued_date"
+                    >7/28/2025</span
+                  >
+                  at X:XX PM</em
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2>Permitting actions to date</h2>
+      <p>
+        The County mobilized quickly to aid in recovery efforts and offer
+        tangible steps for a fast and affordable rebuild:
+      </p>
+
+      <ul>
+        <li class="m-t">
+          <strong
+            >Developed a unified permitting authority and application</strong
+          >
+          to centralize permitting, enhance coordination, and reduce
+          administrative burden for residents rebuilding.
+        </li>
+        <li class="m-t">
+          <strong>Established "one-stop" permitting centers</strong> to connect
+          residents with in-person support and resources, logging over 5,000
+          visits to date.
+        </li>
+        <li class="m-t">
+          <strong>Deferred permitting costs</strong> that can exceed $20k per
+          household to lower upfront costs to rebuild.
+        </li>
+        <li class="m-t">
+          <strong
+            >Published a
+            <a
+              href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/"
+              >Permitting Progress Dashboard</a
+            ></strong
+          >
+          to transparently track permitting progress for unincorporated areas of
+          LA County, including applications received, reviews in progress and
+          cleared, permits issued and visits made to their one-stop permitting
+          centers.
+        </li>
+        <li class="m-t">
+          <strong>Set target permit turnaround times for rebuilds</strong>
+          recognizing the criticality of fast permitting for those rebuilding,
+          prioritized applications for reconstruction and committed to target
+          plan check response times with“permitting Departments such as Public
+          Works, Fire Department, and Public Health are committed to
+          <a
+            href="https://recovery.lacounty.gov/road/permit-process/?utm_source=chatgpt.com"
+            >reviewing residential building plans within 10 business days for
+            the first review and 5 business days for further reviews</a
+          >.
+        </li>
+        <li class="m-t">
+          <strong>Reallocated staff to prioritize rebuilds</strong> including to
+          surge plan check and zoning review so they can quickly process
+          requests at the beginning of the permitting process.
+        </li>
+        <li class="m-t">
+          <strong>Removed barriers for like-for-like rebuilds</strong> by
+          enabling nearly identical homes to bypass zoning review, shortening
+          timelines by a week or more.
+        </li>
+        <li class="m-t">
+          <strong
+            ><a
+              href="https://recovery.lacounty.gov/rebuilding/self-certification/"
+              >Piloted self-certification of plans</a
+            ></strong
+          >
+          for licensed architects and engineers which could save two weeks or
+          more in plan check review.
+        </li>
+        <li class="m-t">
+          <strong
+            ><a
+              href="https://recovery.lacounty.gov/rebuilding/self-certification/"
+              >Enabled pre-approval of plans</a
+            ></strong
+          >
+          for residents to use, savings costs and bypassing two weeks or more in
+          review and revisions.
+        </li>
+        <li class="m-t">
+          <strong
+            >[Starting 7/15] Piloting Archistar AI eCheck tool to expedite
+            permitting</strong
+          >, offering residents free access to its plan check and zoning review
+          tool aiming to shorten permit timelines by a month.
+        </li>
+      </ul>
+
+      <h2>Additional actions</h2>
+      <ul>
+        <li class="m-t">
+          <strong
+            >Expanding the availability and use of pre-approved plans</strong
+          >
+          by expanding the plan catalog to offer easily accessible, varied
+          options
+        </li>
+        <li class="m-t">
+          <strong>Shortening inspection timelines</strong> by scaling the use of
+          digital and remote inspections
+        </li>
+        <li class="m-t">
+          <strong>Surging staffing to meet turnaround timelines</strong>
+          at peak demand across the permitting process
+        </li>
+      </ul>
+    </div>
+    <!--END MAIN COL CONTENT-->
     {%- set js -%}{%- include "./track-progress.mjs" -%}{%- endset -%}
     <script type="module">
       {{- js | jsmin | safe }}
