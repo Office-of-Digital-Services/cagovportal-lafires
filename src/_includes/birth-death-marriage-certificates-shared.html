@@ -86,7 +86,20 @@
 
       <h2>{{ 'vital_records_records_from_other_states_link' | i18n }}</h2>
       <p>{{ 'vital_records_replace_certificates' | i18n | safe }}</p>
-
+      <br />
+      <hr />
+      <h2>{{ 'vital_records_records_from_california' | i18n }}</h2>
+      <ul>
+        <li class="m-t">
+          {{ 'vital_records_print_application' | i18n | safe }}
+          <ul>
+            <li class="m-t">
+              {{ 'vital_records_pdf_versions' | i18n | safe }}
+            </li>
+          </ul>
+        </li>
+        <li class="m-t">{{ 'vital_records_fill_notarize_mail' | i18n }}</li>
+      </ul>
       <p>{{ 'vital_records_replacements_free' | i18n }}</p>
 
       <ol class="cagov-step-list m-t-md">
@@ -196,18 +209,6 @@
         </div>
       </div>
 
-      <h2>{{ 'vital_records_records_from_california' | i18n }}</h2>
-      <ul>
-        <li class="m-t">
-          {{ 'vital_records_print_application' | i18n | safe }}
-          <ul>
-            <li class="m-t">
-              {{ 'vital_records_pdf_versions' | i18n | safe }}
-            </li>
-          </ul>
-        </li>
-        <li class="m-t">{{ 'vital_records_fill_notarize_mail' | i18n }}</li>
-      </ul>
       <p>{{ 'vital_records_visit' | i18n | safe }}</p>
     </div>
   </div>
