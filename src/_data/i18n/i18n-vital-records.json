@@ -24,16 +24,16 @@
     "hy": "Ինչպես փոխարինել ծննդյան, մահվան և ամուսնության վկայականները՝ ոչնչացված 2025թ․ Լոս Անջելեսի հրդեհների ժամանակ:"
   },
   "vital_records_description_page": {
-    "status": "ap_review",
-    "en": "Learn how to replace records from California. Replacements are free for records lost in the fires. But you’ll need to pay a notary fee.",
-    "fr": "Apprenez à remplacer les certificats de Californie. Les remplacements sont gratuits pour les certificats perdus dans les incendies. Mais vous devrez payer des frais de notaire.",
-    "es": "Aprenda cómo reemplazar los registros de California. Los reemplazos son gratuitos para los registros perdidos en los incendios. Pero deberá pagar una tarifa de notario.",
-    "ko": "캘리포니아의 기록을 교체하는 방법을 알아보십시오. 화재로 인해 분실된 기록은 무료로 재발급됩니다. 그러나 공증 수수료를 지불해야 합니다.",
-    "vi": "Tìm hiểu cách thay mới hồ sơ từ California. Thay mới miễn phí đối với các hồ sơ bị mất trong đám cháy. Nhưng quý vị sẽ phải trả phí công chứng.",
-    "tl": "Alamin kung paano palitan ang mga record mula sa California. Libre ang pagpapalit para sa mga record na nawala sa sunog. Ngunit kailangan mong magbayad ng bayad sa notaryo.",
-    "zh-hans": "了解如何补办加州的记录。因火灾丢失的记录可免费补办。但您需要支付公证费。",
-    "zh-hant": "了解如何更換加州的記錄。因火災而丟失的記錄可以免費更換。但您需要支付公證費用。",
-    "hy": "Իմանալ, թե ինչպես փոխարինել Կալիֆորնիայի արձանագրությունները: Փոխարինումները անվճար են հրդեհների ժամանակ կորցրած արձանագրությունների համար: Բայց դուք պետք է վճարեք նոտարի վճար:"
+    "status": "machine_translation",
+    "en": "Here's how to replace birth, death, and marriage certificates lost in the fires.",
+    "fr": "Voici comment remplacer les certificats de naissance, de décès et de mariage perdus dans les incendies.",
+    "es": "Aquí se explica cómo reemplazar los certificados de nacimiento, defunción y matrimonio perdidos en los incendios.",
+    "ko": "화재로 인해 분실된 출생, 사망, 결혼 증명서를 재발급받는 방법입니다.",
+    "vi": "Dưới đây là hướng dẫn thay mới giấy khai sinh, giấy chứng tử và chứng nhận kết hôn bị mất trong các đám cháy.",
+    "tl": "Narito kung paano magpapalit ng mga certificate ng kapanganakan, pagkamatay, at kasal na nawala sa sunog.",
+    "zh-hans": "以下是补办在火灾中丢失的出生、死亡和结婚证明的步骤。",
+    "zh-hant": "以下是更換在火災中丟失的出生、死亡和結婚證的步驟。",
+    "hy": "Սա այն քայլերն են, որոնք պետք է կատարել՝ ծննդյան, մահվան և ամուսնության վկայականները փոխարինելու համար՝ հրդեհների ժամանակ կորցրած:"
   },
   "vital_records_keywords": {
     "status": "avantpage_delivery",
