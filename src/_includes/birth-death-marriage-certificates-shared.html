@@ -86,83 +86,101 @@
 
       <h2>{{ 'vital_records_records_from_other_states_link' | i18n }}</h2>
       <p>{{ 'vital_records_replace_certificates' | i18n | safe }}</p>
-      <br />
       <hr />
-      <h2>{{ 'vital_records_records_from_california' | i18n }}</h2>
-      <ul>
-        <li class="m-t">
-          {{ 'vital_records_print_application' | i18n | safe }}
-          <ul>
-            <li class="m-t">
-              {{ 'vital_records_pdf_versions' | i18n | safe }}
-            </li>
-          </ul>
-        </li>
-        <li class="m-t">{{ 'vital_records_fill_notarize_mail' | i18n }}</li>
-      </ul>
-      <p>{{ 'vital_records_replacements_free' | i18n }}</p>
+      <h2 class="m-t-0">
+        {{ 'vital_records_records_from_california' | i18n }}
+      </h2>
+      <p>{{ 'vital_records_records_from_california_body' | i18n }}</p>
 
-      <ol class="cagov-step-list m-t-md">
-        <li>
-          <span class="font-weight-400 h5"
-            >{{ 'vital_records_click_link' | i18n }}</span
-          >
-          <br />
-          <span class="cagov-step-list-content">
-            <ul class="font-size-15">
-              <li style="list-style-type: disc;" class="m-b-sm">
-                {{ 'vital_records_fill_out_online' | i18n }}
-              </li>
-              <li style="list-style-type: disc;">
-                {{ 'vital_records_upload_documentation' | i18n }}
-              </li>
-            </ul>
-          </span>
-        </li>
-        <li>
-          <span class="font-weight-400 h5"
-            >{{ 'vital_records_sworn_statement' | i18n }}</span
-          >
-          <br />
-          <span class="cagov-step-list-content">
-            <ul class="font-size-15">
-              <li style="list-style-type: disc;" class="m-b-sm">
-                {{ 'vital_records_print_sign' | i18n | safe }}
-              </li>
-              <li style="list-style-type: disc;">
-                {{ 'vital_records_notary_presence' | i18n }}
-              </li>
-            </ul>
-          </span>
-        </li>
-        <li>
-          <span class="font-weight-400 h5"
-            >{{ 'vital_records_scan_photo' | i18n | safe }}</span
-          >
-          <br />
-          <span class="cagov-step-list-content">
-            <ul class="font-size-15">
-              <li style="list-style-type: disc;" class="m-b-sm">
-                {{ 'vital_records_more_than_one_record' | i18n }}
-              </li>
-            </ul>
-          </span>
-        </li>
-        <li>
-          <span class="font-weight-400 h5"
-            >{{ 'vital_records_upload_submit' | i18n }}</span
-          >
-          <br />
-          <span class="cagov-step-list-content">
-            <ul class="font-size-15">
-              <li style="list-style-type: disc;" class="m-b-sm">
-                {{ 'vital_records_fax_option' | i18n }}
-              </li>
-            </ul>
-          </span>
-        </li>
-      </ol>
+      <div class="col-lg-9 pt-lg-3">
+        <h3 class="m-t-0">{{ 'to_apply_online_with_login.gov' | i18n }}</h3>
+        <p>{{ 'to_apply_online_with_login.gov_body' | i18n | safe }}</p>
+        <ul class="m-t">
+          <li class="m-t">
+            {{ 'vital_records_sign_in_or_create' | i18n | safe }}
+          </li>
+          <li class="m-t">{{ 'vital_records_once_verified' | i18n }}</li>
+          <li class="m-t">{{ 'vital_records_you_do_not' | i18n }}</li>
+        </ul>
+        <br />
+        <p class="m-t-0">
+          {{ 'to_apply_online_with_login.gov_body_2' | i18n }}
+        </p>
 
+        <ul>
+          <li class="m-t">
+            {{ 'vital_records_print_application' | i18n | safe }}
+            <ul>
+              <li class="m-t">
+                {{ 'vital_records_pdf_versions' | i18n | safe }}
+              </li>
+            </ul>
+          </li>
+          <li class="m-t">{{ 'vital_records_fill_notarize_mail' | i18n }}</li>
+        </ul>
+        <p>{{ 'vital_records_replacements_free' | i18n }}</p>
+
+        <ol class="cagov-step-list m-t-md">
+          <li>
+            <span class="font-weight-400 h5"
+              >{{ 'vital_records_click_link' | i18n }}</span
+            >
+            <br />
+            <span class="cagov-step-list-content">
+              <ul class="font-size-15">
+                <li style="list-style-type: disc;" class="m-b-sm">
+                  {{ 'vital_records_fill_out_online' | i18n }}
+                </li>
+                <li style="list-style-type: disc;">
+                  {{ 'vital_records_upload_documentation' | i18n }}
+                </li>
+              </ul>
+            </span>
+          </li>
+          <li>
+            <span class="font-weight-400 h5"
+              >{{ 'vital_records_sworn_statement' | i18n }}</span
+            >
+            <br />
+            <span class="cagov-step-list-content">
+              <ul class="font-size-15">
+                <li style="list-style-type: disc;" class="m-b-sm">
+                  {{ 'vital_records_print_sign' | i18n | safe }}
+                </li>
+                <li style="list-style-type: disc;">
+                  {{ 'vital_records_notary_presence' | i18n }}
+                </li>
+              </ul>
+            </span>
+          </li>
+          <li>
+            <span class="font-weight-400 h5"
+              >{{ 'vital_records_scan_photo' | i18n | safe }}</span
+            >
+            <br />
+            <span class="cagov-step-list-content">
+              <ul class="font-size-15">
+                <li style="list-style-type: disc;" class="m-b-sm">
+                  {{ 'vital_records_more_than_one_record' | i18n }}
+                </li>
+              </ul>
+            </span>
+          </li>
+          <li>
+            <span class="font-weight-400 h5"
+              >{{ 'vital_records_upload_submit' | i18n }}</span
+            >
+            <br />
+            <span class="cagov-step-list-content">
+              <ul class="font-size-15">
+                <li style="list-style-type: disc;" class="m-b-sm">
+                  {{ 'vital_records_fax_option' | i18n }}
+                </li>
+              </ul>
+            </span>
+          </li>
+        </ol>
+      </div>
       <h4 class="m-t-0">{{ 'vital_records_online_forms' | i18n }}</h4>
       <div class="row">
         <div class="col-lg-4 m-t">
