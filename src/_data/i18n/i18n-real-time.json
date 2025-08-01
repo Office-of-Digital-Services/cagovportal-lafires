@@ -290,16 +290,17 @@
     "hy": "Ջրի որակ"
   },
   "realtime_water_quality_description": {
-    "status": "avantpage_delivery",
-    "en": "from State Water Resources Control Board",
-    "fr": "de State Water Resources Control Board",
-    "es": "de la Junta Estatal de Control de los Recursos Hídricos",
-    "ko": "주 수자원 관리위원회 제공",
-    "vi": "từ Hội Đồng Kiểm Soát Tài Nguyên Nước của Tiểu Bang",
-    "tl": "mula sa State Water Resources Control Board",
-    "zh-hans": "信息来自州水资源控制委员会",
-    "zh-hant": "來自州水資源控制委員會",
-    "hy": "Ջրային ռեսուրսների վերահսկողության նահանգային խորհրդի կողմից"
+    "status": "machine translated",
+    "en": "the Los Angeles Regional Water Quality Control Board",
+    "fr": "le Los Angeles Regional Water Quality Control Board",
+    "es": "la Junta Regional de Control de Calidad del Agua de Los Ángeles",
+    "ko": "로스앤젤레스 지역 수질 관리 위원회 제공",
+    "vi": "Hội Đồng Kiểm Soát Chất Lượng Nước Khu Vực Los Angeles",
+    "tl": "mula sa Los Angeles Regional Water Quality Control Board",
+    "zh-hans": "信息来自洛杉矶地区水质控制委员会",
+    "zh-hant": "來自洛杉磯地區水質控制委員會",
+    "hy": "Լոս Անջելեսի տարածաշրջանային ջրի որակի վերահսկողության խորհրդի կողմից",
+    "comment": ""
   },
   "realtime_evacuations_heading": {
     "status": "avantpage_delivery",
@@ -542,16 +543,16 @@
     "comment": "Translation delivered 2025-04-23"
   },
   "realtime_water_quality_card_description": {
-    "status": "avantpage_delivery",
-    "en": "from State Water Resources Control Board",
-    "es": "de la Junta Estatal de Control de los Recursos Hídricos",
-    "ko": "주 수자원 관리 위원회 정보",
-    "vi": "từ Hội Đồng Kiểm Soát Tài Nguyên Nước của Tiểu Bang",
-    "tl": "mula sa State Water Resources Control Board",
-    "zh-hans": "信息来自加州水资源控制委员会 (State Water Resources Control Board, SWRCB)",
-    "zh-hant": "資訊來自加州水資源控制委員會 (State Water Resources Control Board, SWRCB)",
-    "hy": "Ջրային ռեսուրսների վերահսկողության նահանգային խորհրդի կողմից",
-    "comment": "Translation delivered 2025-04-23"
+    "status": "machine translated",
+    "en": "from the Los Angeles Regional Water Quality Control Board",
+    "es": "de la Junta Regional de Control de Calidad del Agua de Los Ángeles",
+    "ko": "로스앤젤레스 지역 수질 관리 위원회 정보  ",
+    "vi": "của Hội Đồng Kiểm Soát Chất Lượng Nước Khu Vực Los Angeles",
+    "tl": "mula sa Los Angeles Regional Water Quality Control Board",
+    "zh-hans": "信息来自洛杉矶地区水质控制委员会",
+    "zh-hant": "資訊來自洛杉磯地區水質控制委員會",
+    "hy": "Լոս Անջելեսի տարածաշրջանային ջրի որակի վերահսկողության խորհրդի կողմից",
+    "comment": ""
   },
   "realtime_review_fire_hazard_heading": {
     "status": "avantpage_delivery",
