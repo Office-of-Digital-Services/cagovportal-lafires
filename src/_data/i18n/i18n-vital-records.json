@@ -475,6 +475,50 @@
     "zh-hant": "出生、結婚或死亡所在縣的縣記錄員辦公室。",
     "hy": "Վարչաշրջանային գրանցման գրասենյակ այն շրջանում, որտեղ տեղի է ունեցել ծնունդը, ամուսնությունը կամ մահը:"
   },
+  "vital_records_to_apply_by_mail": {
+    "en": "To apply by mail",
+    "fr": "Pour postuler par courrier",
+    "es": "Para solicitar por correo",
+    "ko": "우편으로 신청하려면",
+    "vi": "Để nộp đơn qua thư",
+    "tl": "Para mag-aplay sa pamamagitan ng koreo",
+    "zh-hans": "通过邮件申请",
+    "zh-hant": "透過郵件申請",
+    "hy": "Դիմելու համար փոստով"
+  },
+  "vital_records_print_the_application": {
+    "en": "Print the application for the record you need.",
+    "fr": "Imprimez le formulaire pour le certificat que vous avez besoin.",
+    "es": "Imprima la solicitud para el registro que necesite.",
+    "ko": "필요한 기록에 대한 신청서를 인쇄하십시오.",
+    "vi": "In đơn đăng ký cho hồ sơ quý vị cần.",
+    "tl": "I-print ang application para sa record na kailangan mo.",
+    "zh-hans": "打印所需文件的申请表。",
+    "zh-hant": "列印所需記錄的申請表。",
+    "hy": "Տպեք Ձեզ անհրաժեշտ արձանագրության դիմումը:"
+  },
+  "vital_records_pdf_version_list_item": {
+    "en": "PDF versions are available from the <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
+    "fr": "Des versions PDF sont disponibles sur le site du <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
+    "es": "Las versiones en PDF están disponibles en el <a href=\"https://www.cdph.ca.gov/\">Departamento de Salud Pública de California</a>.",
+    "ko": "<a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>에서 PDF 버전을 확인할 수 있습니다.",
+    "vi": "Các phiên bản PDF có sẵn từ <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
+    "tl": "Ang mga bersyon ng PDF ay magagamit mula sa <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
+    "zh-hans": "PDF版本可从<a href=\"https://www.cdph.ca.gov/\">加利福尼亚州公共卫生部</a>获取。",
+    "zh-hant": "PDF版本可從<a href=\"https://www.cdph.ca.gov/\">加利福尼亚州公共卫生部</a>獲得。",
+    "hy": "<a href=\"https://www.cdph.ca.gov/\">Կալիֆորնիայի հանրային առողջության դեպարտամենտից</a> հասանելի են PDF տարբերակները:"
+  },
+  "vital_records_fill_it_out": {
+    "en": "Fill it out, notarize it, and mail it according to the instructions.",
+    "fr": "Remplissez-le, faites-le notarier et envoyez-le par courrier selon les instructions.",
+    "es": "Rellénelo, hágalo notariar y envíelo por correo según las instrucciones.",
+    "ko": "작성하고 공증을 받은 후 지침에 따라 우편으로 보내십시오.",
+    "vi": "Điền vào, công chứng và gửi theo hướng dẫn.",
+    "tl": "Punan ito, ipanotaryo, at ipadala ayon sa mga tagubilin.",
+    "zh-hans": "填写并公证，然后按照说明邮寄。",
+    "zh-hant": "填寫並公證，然後按照說明郵寄。",
+    "hy": "Լրացրեք այն, նոտարացրեք և ուղարկեք այն ըստ հրահանգների:"
+  },
   "vital_records_disaster_recovery_center": {
     "status": "avantpage_delivery",
     "en": "A <a href=\"/lafires/help-for-you/get-help-in-person/#Find-a-Disaster-Recovery-Center\">Disaster Recovery Center</a>, or",
