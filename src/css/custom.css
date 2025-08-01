@@ -16,3 +16,39 @@
 .btn-primary.disabled {
   color: #000;
 }
+
+/* Custom CSS for the LOGIN.GOV button */
+
+/* Define variables for easy maintenance */
+:root {
+  --login-gov-blue-hover: #0069d9; /* A slightly darker shade for hover */
+  --login-gov-blue-active: #0062cc; /* Darker still for active state */
+  --login-gov-red: #c13337;
+}
+
+.btn-login-gov {
+  /* Set base button styles */
+  border-color: var(--login-gov-blue);
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  display: flex; /* Use flexbox for easy alignment */
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center content */
+  gap: 0.5rem; /* Space between the text and icon */
+  white-space: nowrap; /* Prevent the text from wrapping */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Optional: add a slight shadow */
+  max-width: fit-content;
+}
+
+/* Styling the SVG icon */
+.btn-login-gov .login-gov-icon {
+  height: 1rem; /* This is the value to adjust! */
+  width: auto;
+  flex-shrink: 0; /* Prevent the icon from shrinking */
+}
