@@ -491,6 +491,18 @@
     "zh-hant": "列印所需記錄的申請表。",
     "hy": "Տպեք Ձեզ անհրաժեշտ արձանագրության դիմումը:"
   },
+  "to_apply_online_with_notary_body": {
+    "status": "machine_translation",
+    "en": "Use these forms to replace certificates issued in California.",
+    "fr": "Utilisez ces formulaires pour remplacer les certificats délivrés en Californie.",
+    "es": "Utilice estos formularios para reemplazar los certificados emitidos en California.",
+    "ko": "이 양식을 사용하여 캘리포니아에서 발급된 증명서를 교체하십시오.",
+    "vi": "Sử dụng các mẫu này để thay thế các chứng chỉ được cấp ở California.",
+    "tl": "Gamitin ang mga form na ito upang palitan ang mga sertipiko na inisyu sa California.",
+    "zh-hans": "使用这些表格来更换加利福尼亚州签发的证书。",
+    "zh-hant": "使用這些表格來更換加利福尼亞州簽發的證書。",
+    "hy": "Օգտագործեք այս ձևերը Կալիֆորնիայում տրված վկայականները փոխելու համար:"
+  },
   "vital_records_pdf_versions": {
     "status": "avantpage_delivery",
     "en": "PDF versions are available from the <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">California Department of Public Health</a>.",
@@ -503,6 +515,18 @@
     "zh-hant": "PDF 版本可從<a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">加州公共衛生部</a>獲得。",
     "hy": "PDF տարբերակները հասանելի են <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">Կալիֆորնիայի հանրային առողջության վարչությունում</a>:",
     "orig_en": "PDF versions are available from the <link>California Department of Public Health</link>."
+  },
+  "to_apply_online_with_notary": {
+    "status": "machine_translation",
+    "en": "To apply in-person with a notary",
+    "fr": "Pour postuler en personne avec un notaire",
+    "es": "Para solicitar en persona con un notario",
+    "ko": "공증인과 함께 직접 신청하려면",
+    "vi": "Để đăng ký trực tiếp với một công chứng viên",
+    "tl": "Upang mag-apply nang personal kasama ang isang notaryo",
+    "zh-hans": "要亲自申请公证",
+    "zh-hant": "要親自申請公證",
+    "hy": "Դիմելու համար անձամբ նոտարի հետ"
   },
   "vital_records_fill_notarize_mail": {
     "status": "avantpage_delivery",
