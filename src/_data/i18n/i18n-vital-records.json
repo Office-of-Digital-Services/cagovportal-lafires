@@ -59,6 +59,18 @@
     "zh-hant": "來自其他州的記錄",
     "hy": "Արձանագրություններ այլ նահանգներից"
   },
+  "vital_records_contact_county_recorder": {
+    "status": "ap_review",
+    "en": "If the birth, death, or marriage happened in another state, learn <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">how to get records from other states</a>.",
+    "fr": "Si la naissance, le décès ou le mariage a eu lieu dans un autre État, apprenez <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">comment obtenir des documents d'autres États</a>.",
+    "es": "Si el nacimiento, la muerte o el matrimonio ocurrió en otro estado, aprenda <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cómo obtener registros de otros estados</a>.",
+    "ko": "출생, 사망 또는 결혼이 다른 주에서 발생한 경우, <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">다른 주의 기록을 얻는 방법</a>을 알아보십시오.",
+    "vi": "Nếu việc sinh, chết hoặc kết hôn xảy ra ở tiểu bang khác, hãy tìm hiểu <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cách lấy hồ sơ từ các tiểu bang khác</a>.",
+    "tl": "Kung ang kapanganakan, pagkamatay, o kasal ay naganap sa ibang estado, alamin kung <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">paano makakuha ng mga record mula sa ibang mga estado</a>.",
+    "zh-hans": "如果出生、死亡或结婚发生在其他州，请了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何从其他州获取记录</a>。",
+    "zh-hant": "如果出生、死亡或結婚發生在其他州，請了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何從其他州獲取記錄</a>。",
+    "hy": "Եթե ծնունդը, մահը կամ ամուսնությունը տեղի է ունեցել այլ նահանգում, իմացեք <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">ինչպես ստանալ արձանագրություններ այլ նահանգներից</a>։"
+  },
   "vital_records_records_from_california": {
     "status": "avantpage_delivery",
     "en": "Records from California",
