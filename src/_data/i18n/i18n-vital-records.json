@@ -430,50 +430,17 @@
     "hy": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de defunción</a> (Español)",
     "orig_en": "<link>Registro de defunción</link> (Español)"
   },
-  "vital_records_to_apply_in_person": {
-    "en": "To apply in person",
-    "fr": "Pour faire une demande en personne",
-    "es": "Para solicitar en persona",
-    "ko": "직접 신청하려면",
-    "vi": "Để nộp đơn trực tiếp",
-    "tl": "Para mag-aplay nang personal",
-    "zh-hans": "亲自申请",
-    "zh-hant": "親自申請",
-    "hy": "Անձամբ դիմելու համար"
-  },
-  "vital_records_visit_intro": {
-    "en": "Visit:",
-    "fr": "Visitez :",
-    "es": "Visite:",
-    "ko": "방문:",
-    "vi": "Thăm:",
-    "tl": "Bumisita sa:",
-    "zh-hans": "访问：",
-    "zh-hant": "造訪：",
-    "hy": "Այցելեք:"
-  },
   "vital_records_visit": {
     "status": "ap_review",
-    "en": "A <a href=\"/lafires/help-for-you/get-help-in-person/\">Disaster Recovery Center</a>, or",
-    "fr": "Un <a href=\"/lafires/fr/help-for-you/get-help-in-person/\">Centre de récupération des dommages</a>, ou",
-    "es": "un <a href=\"/lafires/es/help-for-you/get-help-in-person/\">centro de recuperación por catástrofes</a>, o",
-    "ko": "<a href=\"/lafires/ko/help-for-you/get-help-in-person/\">재난 복구 센터</a> 또는",
-    "vi": "<a href=\"/lafires/vi/help-for-you/get-help-in-person/\">Trung Tâm Phục Hồi sau Thảm Họa</a> hoặc",
-    "tl": "Isang <a href=\"/lafires/tl/help-for-you/get-help-in-person/\">Disaster Recovery Center</a>, o",
-    "zh-hans": "<a href=\"/lafires/zh-hans/help-for-you/get-help-in-person/\">灾害恢复中心</a>，或前往",
-    "zh-hant": "<a href=\"/lafires/zh-hant/help-for-you/get-help-in-person/\">災難復原中心</a>，或",
-    "hy": "<a href=\"/lafires/hy/help-for-you/get-help-in-person/\">Աղետների վերականգնման կենտրոն</a>, կամ"
-  },
-  "apply_in_person_county_recorder": {
-    "en": "The county recorder’s office in the county where the birth, marriage, or death occured.",
-    "fr": "Le bureau du recenseur du comté où la naissance, le mariage, ou le décès a eu lieu.",
-    "es": "comuníquese con el registrador del condado donde ocurrió el nacimiento, el matrimonio, o la muerte.",
-    "ko": "출생, 결혼 또는 사망이 발생한 카운티의 카운티 기록관 사무소.",
-    "vi": "Văn phòng nhân viên hộ tịch ở quận nơi sinh, kết hôn hoặc mất.",
-    "tl": "Ang tanggapan ng recorder ng county sa county kung saan nangyari ang kapanganakan, kasal, o pagkamatay.",
-    "zh-hans": "出生、结婚或死亡地点的县记录员办公室。",
-    "zh-hant": "出生、結婚或死亡所在縣的縣記錄員辦公室。",
-    "hy": "Վարչաշրջանային գրանցման գրասենյակ այն շրջանում, որտեղ տեղի է ունեցել ծնունդը, ամուսնությունը կամ մահը:"
+    "en": "Visit a <a href=\"/lafires/help-for-you/get-help-in-person/\">Disaster Recovery Center</a>. Or go to the <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">county recorder’s office</a> in the county where the birth, marriage, or death happened.",
+    "fr": "Visitez un <a href=\"/lafires/fr/help-for-you/get-help-in-person/\">Centre de récupération des dommages</a>. Ou allez au <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">bureau du comté</a> où la naissance, le mariage ou le décès a eu lieu.",
+    "es": "Visite un <a href=\"/lafires/es/help-for-you/get-help-in-person/\">Centro de recuperación por catástrofes</a>. O vaya a la <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">oficina del registrador del condado</a> donde ocurrió el nacimiento, el matrimonio o la muerte.",
+    "ko": "<a href=\"/lafires/ko/help-for-you/get-help-in-person/\">재난 복구 센터</a>를 방문하세요. 또는 출생, 결혼 또는 사망이 발생한 카운티의 <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">카운티 기록관 사무소</a>로 가십시오.",
+    "vi": "Thăm <a href=\"/lafires/vi/help-for-you/get-help-in-person/\">Trung Tâm Phục Hồi sau Thảm Họa</a>. Hoặc đến <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">văn phòng nhân viên hộ tịch</a> ở quận nơi sinh, kết hôn hoặc mất.",
+    "tl": "Bumisita sa isang <a href=\"/lafires/tl/help-for-you/get-help-in-person/\">Disaster Recovery Center</a>. O pumunta sa <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">tanggapan ng county recorder</a> sa county kung saan nangyari ang kapanganakan, kasal, o pagkamatay.",
+    "zh-hans": "访问<a href=\"/lafires/zh-hans/help-for-you/get-help-in-person/\">灾害恢复中心</a>。或者去<a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">出生、结婚或死亡地点的县记录员办公室</a>。",
+    "zh-hant": "造訪<a href=\"/lafires/zh-hant/help-for-you/get-help-in-person/\">災難復原中心</a>。或前往<a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">出生、結婚或死亡地點的縣記錄員辦公室</a>。",
+    "hy": "Այցելեք <a href=\"/lafires/hy/help-for-you/get-help-in-person/\">Աղետների վերականգնման կենտրոն</a>։ Կամ գնացեք <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">վարչաշրջանային գրանցման գրասենյակ</a> այն շրջանում, որտեղ տեղի է ունեցել ծնունդը, ամուսնությունը կամ մահը:"
   },
   "vital_records_disaster_recovery_center": {
     "status": "avantpage_delivery",
