@@ -1313,5 +1313,16 @@
     "zh-hans": "已发放建筑许可证",
     "zh-hant": "已發放建築許可證",
     "hy": "կառուցապատման թույլտվություններ են տրվել"
+  },
+  "track_progress_permits_card": {
+    "status": "ap_review",
+    "en": "Visit our new <a href=\"/lafires/rebuilding-la/\">Rebuilding LA dashboard</a> to learn more about the rebuilding process in the Los Angeles County, City of Los Angeles, City of Malibu and City of Pasadena.",
+    "es": "Visite nuestro nuevo <a href=\"/lafires/es/rebuilding-la/\">Tablero de reconstrucción de LA</a> para obtener más información sobre el proceso de reconstrucción en el condado de Los Ángeles, la ciudad de Los Ángeles, la ciudad de Malibú y la ciudad de Pasadena.",
+    "ko": "로스앤젤레스 카운티, 로스앤젤레스 시, 말리부 시 및 패서디나 시의 재건 프로세스에 대해 자세히 알아보려면 새로운 <a href=\"/lafires/ko/rebuilding-la/\">LA 재건 대시보드</a>를 방문하세요.",
+    "vi": "Truy cập <a href=\"/lafires/vi/rebuilding-la/\">Bảng điều khiển Xây dựng lại LA</a> mới của chúng tôi để tìm hiểu thêm về quá trình xây dựng lại ở Quận Los Angeles, Thành phố Los Angeles, Thành phố Malibu và Thành phố Pasadena.",
+    "tl": "Bisitahin ang aming bagong <a href=\"/lafires/tl/rebuilding-la/\">Dashboard ng Pagtatayo muli ng LA</a> upang matuto nang higit pa tungkol sa proseso ng muling pagtatayo sa Los Angeles County, Lungsod ng Los Angeles, Lungsod ng Malibu at Lungsod ng Pasadena.",
+    "zh-hans": "访问我们的新<a href=\"/lafires/zh-hans/rebuilding-la/\">重建洛杉矶仪表板</a>页面，了解洛杉矶县、洛杉矶市、马里布市和帕萨迪纳市的重建过程。",
+    "zh-hant": "訪問我們新的<a href=\"/lafires/zh-hant/rebuilding-la/\">重建洛杉磯儀表板</a>頁面，了解洛杉磯縣、洛杉磯市、馬里布市和帕薩迪納市的重建過程。",
+    "hy": "Այցելեք մեր նոր <a href=\"/lafires/hy/rebuilding-la/\">Լոս Անջելեսի վերակառուցման վահանակը</a>՝ Լոս Անջելեսի շրջանի, Լոս Անջելեսի քաղաքի, Մալիբու քաղաքի և Պասադենայի քաղաքի վերակառուցման գործընթացի մասին տեղեկանալու համար։"
   }
 }
