@@ -85,7 +85,15 @@
   },
   "vital_records_replace_certificates": {
     "status": "avantpage_delivery",
-    "en": "Contact the county recorder in the county where the birth, marriage, or death happened. See <a href=\"https://www.ca.gov/lafires/help-for-you/replace-personal-documents/birth-death-marriage-certificates/\" >Where to Write for Vital Records</a>."
+    "en": "Use these forms to replace certificates issued in California.",
+    "fr": "Utilisez ces formulaires pour remplacer les certificats émis en Californie.",
+    "es": "Use estos formularios para reemplazar los certificados emitidos en California.",
+    "ko": "이 양식을 사용하여 캘리포니아에서 발급된 인증서를 재발급받으십시오.",
+    "vi": "Sử dụng các mẫu đơn này để thay mới các giấy chứng nhận được cấp tại California.",
+    "tl": "Gamitin ang mga form na ito para mapapalitan ang mga certificate na ibinigay sa California.",
+    "zh-hans": "使用以下表格补办加州签发的证明。",
+    "zh-hant": "使用這些表單替換在加利福尼亞州頒發的證書。",
+    "hy": "Օգտագործեք այս ձևաթղթերը Կալիֆորնիայում թողարկված վկայականները փոխարինելու համար:"
   },
   "vital_records_replacements_free": {
     "status": "avantpage_delivery",
