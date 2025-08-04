@@ -17,10 +17,6 @@ const data = [
           {
             key: "Health and safety",
             href: "/lafires/help-for-you/health-and-safety/"
-          },
-          {
-            key: "Replace personal documents",
-            href: "/lafires/help-for-you/replace-personal-documents/"
           }
         ]
       },
