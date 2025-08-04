@@ -24,16 +24,16 @@
     "hy": "Ինչպես փոխարինել ծննդյան, մահվան և ամուսնության վկայականները՝ ոչնչացված 2025թ․ Լոս Անջելեսի հրդեհների ժամանակ:"
   },
   "vital_records_description_page": {
-    "status": "ap_review",
-    "en": "Learn how to replace records from California. Replacements are free for records lost in the fires. But you’ll need to pay a notary fee.",
-    "fr": "Apprenez à remplacer les certificats de Californie. Les remplacements sont gratuits pour les certificats perdus dans les incendies. Mais vous devrez payer des frais de notaire.",
-    "es": "Aprenda cómo reemplazar los registros de California. Los reemplazos son gratuitos para los registros perdidos en los incendios. Pero deberá pagar una tarifa de notario.",
-    "ko": "캘리포니아의 기록을 교체하는 방법을 알아보십시오. 화재로 인해 분실된 기록은 무료로 재발급됩니다. 그러나 공증 수수료를 지불해야 합니다.",
-    "vi": "Tìm hiểu cách thay mới hồ sơ từ California. Thay mới miễn phí đối với các hồ sơ bị mất trong đám cháy. Nhưng quý vị sẽ phải trả phí công chứng.",
-    "tl": "Alamin kung paano palitan ang mga record mula sa California. Libre ang pagpapalit para sa mga record na nawala sa sunog. Ngunit kailangan mong magbayad ng bayad sa notaryo.",
-    "zh-hans": "了解如何补办加州的记录。因火灾丢失的记录可免费补办。但您需要支付公证费。",
-    "zh-hant": "了解如何更換加州的記錄。因火災而丟失的記錄可以免費更換。但您需要支付公證費用。",
-    "hy": "Իմանալ, թե ինչպես փոխարինել Կալիֆորնիայի արձանագրությունները: Փոխարինումները անվճար են հրդեհների ժամանակ կորցրած արձանագրությունների համար: Բայց դուք պետք է վճարեք նոտարի վճար:"
+    "status": "machine_translation",
+    "en": "Here's how to replace birth, death, or marriage certificates lost in the fires.",
+    "fr": "Voici comment remplacer les certificats de naissance, de décès et de mariage perdus dans les incendies.",
+    "es": "Aquí se explica cómo reemplazar los certificados de nacimiento, defunción y matrimonio perdidos en los incendios.",
+    "ko": "화재로 인해 분실된 출생, 사망, 결혼 증명서를 재발급받는 방법입니다.",
+    "vi": "Dưới đây là hướng dẫn thay mới giấy khai sinh, giấy chứng tử và chứng nhận kết hôn bị mất trong các đám cháy.",
+    "tl": "Narito kung paano magpapalit ng mga certificate ng kapanganakan, pagkamatay, at kasal na nawala sa sunog.",
+    "zh-hans": "以下是补办在火灾中丢失的出生、死亡和结婚证明的步骤。",
+    "zh-hant": "以下是更換在火災中丟失的出生、死亡和結婚證的步驟。",
+    "hy": "Սա այն քայլերն են, որոնք պետք է կատարել՝ ծննդյան, մահվան և ամուսնության վկայականները փոխարինելու համար՝ հրդեհների ժամանակ կորցրած:"
   },
   "vital_records_keywords": {
     "status": "avantpage_delivery",
@@ -59,18 +59,6 @@
     "zh-hant": "來自其他州的記錄",
     "hy": "Արձանագրություններ այլ նահանգներից"
   },
-  "vital_records_contact_county_recorder": {
-    "status": "ap_review",
-    "en": "If the birth, death, or marriage happened in another state, learn <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">how to get records from other states</a>.",
-    "fr": "Si la naissance, le décès ou le mariage a eu lieu dans un autre État, apprenez <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">comment obtenir des documents d'autres États</a>.",
-    "es": "Si el nacimiento, la muerte o el matrimonio ocurrió en otro estado, aprenda <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cómo obtener registros de otros estados</a>.",
-    "ko": "출생, 사망 또는 결혼이 다른 주에서 발생한 경우, <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">다른 주의 기록을 얻는 방법</a>을 알아보십시오.",
-    "vi": "Nếu việc sinh, chết hoặc kết hôn xảy ra ở tiểu bang khác, hãy tìm hiểu <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cách lấy hồ sơ từ các tiểu bang khác</a>.",
-    "tl": "Kung ang kapanganakan, pagkamatay, o kasal ay naganap sa ibang estado, alamin kung <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">paano makakuha ng mga record mula sa ibang mga estado</a>.",
-    "zh-hans": "如果出生、死亡或结婚发生在其他州，请了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何从其他州获取记录</a>。",
-    "zh-hant": "如果出生、死亡或結婚發生在其他州，請了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何從其他州獲取記錄</a>。",
-    "hy": "Եթե ծնունդը, մահը կամ ամուսնությունը տեղի է ունեցել այլ նահանգում, իմացեք <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">ինչպես ստանալ արձանագրություններ այլ նահանգներից</a>։"
-  },
   "vital_records_records_from_california": {
     "status": "avantpage_delivery",
     "en": "Records from California",
@@ -83,29 +71,104 @@
     "zh-hant": "來自加利福尼亞的記錄",
     "hy": "Արձանագրություններ Կալիֆորնիայից"
   },
-  "vital_records_apply_online": {
-    "status": "ap_review",
-    "en": "Apply online",
-    "fr": "Postulez en ligne",
-    "es": "Solicitar en línea",
-    "ko": "온라인 신청",
-    "vi": "Đăng ký trực tuyến",
-    "tl": "Mag-apply online",
-    "zh-hans": "在线申请",
-    "zh-hant": "在線申請",
-    "hy": "Դիմել առցանց"
+  "vital_records_records_from_california_body": {
+    "status": "machine_translation",
+    "en": "Replacements are free for records lost in the fires.",
+    "fr": "Les remplacements sont gratuits pour les certificats perdus dans les incendies.",
+    "es": "Los reemplazos son gratuitos para los registros perdidos en los incendios.",
+    "ko": "화재로 인해 분실된 기록 재발급은 무료입니다.",
+    "vi": "Thay mới miễn phí đối với các hồ sơ bị mất trong đám cháy.",
+    "tl": "Libre ang pagpapapalit para sa mga record na nawala sa sunog.",
+    "zh-hans": "因火灾丢失的记录可免费补办。",
+    "zh-hant": "在火災中丟失的記錄可以免費更換。",
+    "hy": "Փոխարինումներն անվճար են հրդեհների ժամանակ կորցրած արձանագրությունների համար:"
+  },
+  "to_apply_online_with_login.gov": {
+    "en": "To apply online with Login.gov",
+    "fr": "Pour postuler en ligne avec Login.gov",
+    "es": "Para solicitar en línea con Login.gov",
+    "ko": "Login.gov로 온라인 신청하기",
+    "vi": "Để đăng ký trực tuyến với Login.gov",
+    "tl": "Upang mag-apply online gamit ang Login.gov",
+    "zh-hans": "使用Login.gov在线申请",
+    "zh-hant": "使用Login.gov線上申請",
+    "hy": "Օնլայն դիմելու համար Login.gov-ի միջոցով"
+  },
+  "to_apply_online_with_login.gov_body": {
+    "status": "machine_translation",
+    "en": "<a href=\"https://login.gov/\">Login.gov</a> is a secure, federally backed service for identity verification that provides access to many U.S. goverment websites with one login.",
+    "fr": "<a href=\"https://login.gov/\">Login.gov</a> est un service sécurisé, soutenu par le gouvernement fédéral, pour la vérification d'identité qui permet d'accéder à de nombreux sites Web du gouvernement américain avec une seule connexion.",
+    "es": "<a href=\"https://login.gov/\">Login.gov</a> es un servicio seguro respaldado por el gobierno federal para la verificación de identidad que proporciona acceso a muchos sitios web del gobierno de EE. UU. con un solo inicio de sesión.",
+    "ko": "<a href=\"https://login.gov/\">Login.gov</a>는 신원 확인을 위한 안전한 연방 지원 서비스로, 하나의 로그인으로 미국 정부 웹사이트에 접근할 수 있습니다.",
+    "vi": "<a href=\"https://login.gov/\">Login.gov</a> là một dịch vụ an toàn được chính phủ liên bang hỗ trợ để xác minh danh tính, cung cấp quyền truy cập vào nhiều trang web của chính phủ Hoa Kỳ chỉ với một lần đăng nhập.",
+    "tl": "<a href=\"https://login.gov/\">Login.gov</a> ay isang secure, federally backed na serbisyo para sa pagkilala sa pagkakakilanlan na nagbibigay ng access sa maraming website ng gobyerno ng U.S. gamit ang isang login.",
+    "zh-hans": "<a href=\"https://login.gov/\">Login.gov</a> 是一个安全的、由联邦政府支持的身份验证服务，通过一个登录即可访问许多美国政府网站。",
+    "zh-hant": "<a href=\"https://login.gov/\">Login.gov</a> 是一個安全的、由聯邦政府支持的身份驗證服務，提供通過一個登錄訪問許多美國政府網站的功能。",
+    "hy": "<a href=\"https://login.gov/\">Login.gov</a> անվտանգ, ֆեդերալ աջակցությամբ ծառայություն է, որը նախատեսված է ինքնության հաստատման համար և հնարավորություն է տալիս մուտք գործել ԱՄՆ կառավարության բազմաթիվ կայքեր մեկ մուտքի միջոցով:"
+  },
+  "vital_records_sign_in_or_create": {
+    "status": "machine_translation",
+    "en": "Sign in or create an account with <a href=\"https://login.gov/\">Login.gov</a>.",
+    "fr": "Connectez-vous ou créez un compte avec <a href=\"https://login.gov/\">Login.gov</a>.",
+    "es": "Inicie sesión o cree una cuenta con <a href=\"https://login.gov/\">Login.gov</a>.",
+    "ko": "<a href=\"https://login.gov/\">Login.gov</a>에 로그인하거나 계정을 만드세요.",
+    "vi": "Đăng nhập hoặc tạo tài khoản với <a href=\"https://login.gov/\">Login.gov</a>.",
+    "tl": "Mag-sign in o lumikha ng account gamit ang <a href=\"https://login.gov/\">Login.gov</a>.",
+    "zh-hans": "使用<a href=\"https://login.gov/\">Login.gov</a>登录或创建帐户。",
+    "zh-hant": "使用<a href=\"https://login.gov/\">Login.gov</a>登入或建立帳戶。",
+    "hy": "Մուտք գործեք կամ ստեղծեք հաշիվ <a href=\"https://login.gov/\">Login.gov</a>-ի միջոցով։"
+  },
+  "vital_records_once_verified": {
+    "status": "machine_translation",
+    "en": "Once verified, you can access your records.",
+    "fr": "Une fois vérifié, vous pouvez accéder à vos dossiers.",
+    "es": "Una vez verificado, puede acceder a sus registros.",
+    "ko": "확인되면 기록에 액세스할 수 있습니다.",
+    "vi": "Sau khi xác minh, bạn có thể truy cập hồ sơ của mình.",
+    "tl": "Kapag na-verify na, maaari mong ma-access ang iyong mga record.",
+    "zh-hans": "一旦验证，您就可以访问您的记录。",
+    "zh-hant": "一旦驗證，您就可以訪問您的記錄。",
+    "hy": "Մի անգամ հաստատված, դուք կարող եք մուտք գործել ձեր արձանագրությունները։"
+  },
+  "vital_records_you_do_not": {
+    "status": "machine_translation",
+    "en": "You do not need to create a new account.",
+    "fr": "Vous n'avez pas besoin de créer un nouveau compte.",
+    "es": "No necesita crear una nueva cuenta.",
+    "ko": "새 계정을 만들 필요가 없습니다.",
+    "vi": "Bạn không cần tạo tài khoản mới.",
+    "tl": "Hindi mo kailangang lumikha ng bagong account.",
+    "zh-hans": "您不需要创建新帐户。",
+    "zh-hant": "您無需創建新帳戶。",
+    "hy": "Դուք պետք չէ նոր հաշիվ ստեղծել։"
+  },
+  "to_apply_online_with_login.gov_body_2": {
+    "status": "machine_translation",
+    "en": "This option is only available for birth records.",
+    "fr": "Cette option n'est disponible que pour les certificats de naissance.",
+    "es": "Esta opción solo está disponible para los registros de nacimiento.",
+    "ko": "이 옵션은 출생 기록에만 사용할 수 있습니다.",
+    "vi": "Tùy chọn này chỉ có sẵn cho hồ sơ khai sinh.",
+    "tl": "Ang opsyong ito ay available lamang para sa mga record ng kapanganakan.",
+    "zh-hans": "此选项仅适用于出生证明。",
+    "zh-hant": "此選項僅適用於出生記錄。",
+    "hy": "Այս տարբերակը հասանելի է միայն ծննդյան արձանագրությունների համար:"
+  },
+  "vital_records_records_from_other_states_link": {
+    "status": "machine_translation",
+    "en": "Records from other states",
+    "fr": "Documents d'autres États",
+    "es": "Registros de otros estados",
+    "ko": "다른 주의 기록",
+    "vi": "Hồ sơ từ các tiểu bang khác",
+    "tl": "Mga record mula sa iba pang estado",
+    "zh-hans": "其他州签发的文件",
+    "zh-hant": "來自其他州的記錄",
+    "hy": "Արձանագրություններ այլ նահանգներից"
   },
   "vital_records_replace_certificates": {
     "status": "avantpage_delivery",
-    "en": "Use these forms to replace certificates issued in California.",
-    "fr": "Utilisez ces formulaires pour remplacer les certificats émis en Californie.",
-    "es": "Use estos formularios para reemplazar los certificados emitidos en California.",
-    "ko": "이 양식을 사용하여 캘리포니아에서 발급된 인증서를 재발급받으십시오.",
-    "vi": "Sử dụng các mẫu đơn này để thay mới các giấy chứng nhận được cấp tại California.",
-    "tl": "Gamitin ang mga form na ito para mapapalitan ang mga certificate na ibinigay sa California.",
-    "zh-hans": "使用以下表格补办加州签发的证明。",
-    "zh-hant": "使用這些表單替換在加利福尼亞州頒發的證書。",
-    "hy": "Օգտագործեք այս ձևաթղթերը Կալիֆորնիայում թողարկված վկայականները փոխարինելու համար:"
+    "en": "Contact the county recorder in the county where the birth, marriage, or death happened. See <a href=\"https://www.ca.gov/lafires/help-for-you/replace-personal-documents/birth-death-marriage-certificates/\" >Where to Write for Vital Records</a>."
   },
   "vital_records_replacements_free": {
     "status": "avantpage_delivery",
@@ -243,7 +306,7 @@
   },
   "vital_records_online_forms": {
     "status": "avantpage_delivery",
-    "en": "Online forms",
+    "en": "Application forms",
     "fr": "Formulaires en ligne",
     "es": "Formularios en línea",
     "ko": "온라인 양식",
@@ -367,30 +430,94 @@
     "hy": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de defunción</a> (Español)",
     "orig_en": "<link>Registro de defunción</link> (Español)"
   },
-  "vital_records_apply_in_person": {
-    "status": "ap_review",
-    "en": "Apply in person",
-    "fr": "Demander en personne",
-    "es": "Solicitar en persona",
-    "ko": "직접 신청하기",
-    "vi": "Đăng ký trực tiếp",
-    "tl": "Mag-apply nang personal",
+  "vital_records_to_apply_in_person": {
+    "en": "To apply in person",
+    "fr": "Pour faire une demande en personne",
+    "es": "Para solicitar en persona",
+    "ko": "직접 신청하려면",
+    "vi": "Để nộp đơn trực tiếp",
+    "tl": "Para mag-aplay nang personal",
     "zh-hans": "亲自申请",
     "zh-hant": "親自申請",
-    "hy": "Դիմել անձամբ",
-    "orig_en": "<link>Apply in person</link>"
+    "hy": "Անձամբ դիմելու համար"
+  },
+  "vital_records_visit_intro": {
+    "en": "Visit:",
+    "fr": "Visitez :",
+    "es": "Visite:",
+    "ko": "방문:",
+    "vi": "Thăm:",
+    "tl": "Bumisita sa:",
+    "zh-hans": "访问：",
+    "zh-hant": "造訪：",
+    "hy": "Այցելեք:"
   },
   "vital_records_visit": {
     "status": "ap_review",
-    "en": "Visit a <a href=\"/lafires/help-for-you/get-help-in-person/\">Disaster Recovery Center</a>. Or go to the <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">county recorder’s office</a> in the county where the birth, marriage, or death happened.",
-    "fr": "Visitez un <a href=\"/lafires/fr/help-for-you/get-help-in-person/\">Centre de récupération des dommages</a>. Ou allez au <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">bureau du comté</a> où la naissance, le mariage ou le décès a eu lieu.",
-    "es": "Visite un <a href=\"/lafires/es/help-for-you/get-help-in-person/\">Centro de recuperación por catástrofes</a>. O vaya a la <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">oficina del registrador del condado</a> donde ocurrió el nacimiento, el matrimonio o la muerte.",
-    "ko": "<a href=\"/lafires/ko/help-for-you/get-help-in-person/\">재난 복구 센터</a>를 방문하세요. 또는 출생, 결혼 또는 사망이 발생한 카운티의 <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">카운티 기록관 사무소</a>로 가십시오.",
-    "vi": "Thăm <a href=\"/lafires/vi/help-for-you/get-help-in-person/\">Trung Tâm Phục Hồi sau Thảm Họa</a>. Hoặc đến <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">văn phòng nhân viên hộ tịch</a> ở quận nơi sinh, kết hôn hoặc mất.",
-    "tl": "Bumisita sa isang <a href=\"/lafires/tl/help-for-you/get-help-in-person/\">Disaster Recovery Center</a>. O pumunta sa <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">tanggapan ng county recorder</a> sa county kung saan nangyari ang kapanganakan, kasal, o pagkamatay.",
-    "zh-hans": "访问<a href=\"/lafires/zh-hans/help-for-you/get-help-in-person/\">灾害恢复中心</a>。或者去<a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">出生、结婚或死亡地点的县记录员办公室</a>。",
-    "zh-hant": "造訪<a href=\"/lafires/zh-hant/help-for-you/get-help-in-person/\">災難復原中心</a>。或前往<a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">出生、結婚或死亡地點的縣記錄員辦公室</a>。",
-    "hy": "Այցելեք <a href=\"/lafires/hy/help-for-you/get-help-in-person/\">Աղետների վերականգնման կենտրոն</a>։ Կամ գնացեք <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx\">վարչաշրջանային գրանցման գրասենյակ</a> այն շրջանում, որտեղ տեղի է ունեցել ծնունդը, ամուսնությունը կամ մահը:"
+    "en": "A <a href=\"/lafires/help-for-you/get-help-in-person/\">Disaster Recovery Center</a>, or",
+    "fr": "Un <a href=\"/lafires/fr/help-for-you/get-help-in-person/\">Centre de récupération des dommages</a>, ou",
+    "es": "un <a href=\"/lafires/es/help-for-you/get-help-in-person/\">centro de recuperación por catástrofes</a>, o",
+    "ko": "<a href=\"/lafires/ko/help-for-you/get-help-in-person/\">재난 복구 센터</a> 또는",
+    "vi": "<a href=\"/lafires/vi/help-for-you/get-help-in-person/\">Trung Tâm Phục Hồi sau Thảm Họa</a> hoặc",
+    "tl": "Isang <a href=\"/lafires/tl/help-for-you/get-help-in-person/\">Disaster Recovery Center</a>, o",
+    "zh-hans": "<a href=\"/lafires/zh-hans/help-for-you/get-help-in-person/\">灾害恢复中心</a>，或前往",
+    "zh-hant": "<a href=\"/lafires/zh-hant/help-for-you/get-help-in-person/\">災難復原中心</a>，或",
+    "hy": "<a href=\"/lafires/hy/help-for-you/get-help-in-person/\">Աղետների վերականգնման կենտրոն</a>, կամ"
+  },
+  "apply_in_person_county_recorder": {
+    "en": "The county recorder’s office in the county where the birth, marriage, or death occured.",
+    "fr": "Le bureau du recenseur du comté où la naissance, le mariage, ou le décès a eu lieu.",
+    "es": "comuníquese con el registrador del condado donde ocurrió el nacimiento, el matrimonio, o la muerte.",
+    "ko": "출생, 결혼 또는 사망이 발생한 카운티의 카운티 기록관 사무소.",
+    "vi": "Văn phòng nhân viên hộ tịch ở quận nơi sinh, kết hôn hoặc mất.",
+    "tl": "Ang tanggapan ng recorder ng county sa county kung saan nangyari ang kapanganakan, kasal, o pagkamatay.",
+    "zh-hans": "出生、结婚或死亡地点的县记录员办公室。",
+    "zh-hant": "出生、結婚或死亡所在縣的縣記錄員辦公室。",
+    "hy": "Վարչաշրջանային գրանցման գրասենյակ այն շրջանում, որտեղ տեղի է ունեցել ծնունդը, ամուսնությունը կամ մահը:"
+  },
+  "vital_records_to_apply_by_mail": {
+    "en": "To apply by mail",
+    "fr": "Pour postuler par courrier",
+    "es": "Para solicitar por correo",
+    "ko": "우편으로 신청하려면",
+    "vi": "Để nộp đơn qua thư",
+    "tl": "Para mag-aplay sa pamamagitan ng koreo",
+    "zh-hans": "通过邮件申请",
+    "zh-hant": "透過郵件申請",
+    "hy": "Դիմելու համար փոստով"
+  },
+  "vital_records_print_the_application": {
+    "en": "Print the application for the record you need.",
+    "fr": "Imprimez le formulaire pour le certificat que vous avez besoin.",
+    "es": "Imprima la solicitud para el registro que necesite.",
+    "ko": "필요한 기록에 대한 신청서를 인쇄하십시오.",
+    "vi": "In đơn đăng ký cho hồ sơ quý vị cần.",
+    "tl": "I-print ang application para sa record na kailangan mo.",
+    "zh-hans": "打印所需文件的申请表。",
+    "zh-hant": "列印所需記錄的申請表。",
+    "hy": "Տպեք Ձեզ անհրաժեշտ արձանագրության դիմումը:"
+  },
+  "vital_records_pdf_version_list_item": {
+    "en": "PDF versions are available from the <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
+    "fr": "Des versions PDF sont disponibles sur le site du <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
+    "es": "Las versiones en PDF están disponibles en el <a href=\"https://www.cdph.ca.gov/\">Departamento de Salud Pública de California</a>.",
+    "ko": "<a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>에서 PDF 버전을 확인할 수 있습니다.",
+    "vi": "Các phiên bản PDF có sẵn từ <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
+    "tl": "Ang mga bersyon ng PDF ay magagamit mula sa <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
+    "zh-hans": "PDF版本可从<a href=\"https://www.cdph.ca.gov/\">加利福尼亚州公共卫生部</a>获取。",
+    "zh-hant": "PDF版本可從<a href=\"https://www.cdph.ca.gov/\">加利福尼亚州公共卫生部</a>獲得。",
+    "hy": "<a href=\"https://www.cdph.ca.gov/\">Կալիֆորնիայի հանրային առողջության դեպարտամենտից</a> հասանելի են PDF տարբերակները:"
+  },
+  "vital_records_fill_it_out": {
+    "en": "Fill it out, notarize it, and mail it according to the instructions.",
+    "fr": "Remplissez-le, faites-le notarier et envoyez-le par courrier selon les instructions.",
+    "es": "Rellénelo, hágalo notariar y envíelo por correo según las instrucciones.",
+    "ko": "작성하고 공증을 받은 후 지침에 따라 우편으로 보내십시오.",
+    "vi": "Điền vào, công chứng và gửi theo hướng dẫn.",
+    "tl": "Punan ito, ipanotaryo, at ipadala ayon sa mga tagubilin.",
+    "zh-hans": "填写并公证，然后按照说明邮寄。",
+    "zh-hant": "填寫並公證，然後按照說明郵寄。",
+    "hy": "Լրացրեք այն, նոտարացրեք և ուղարկեք այն ըստ հրահանգների:"
   },
   "vital_records_disaster_recovery_center": {
     "status": "avantpage_delivery",
@@ -441,6 +568,18 @@
     "zh-hant": "列印所需記錄的申請表。",
     "hy": "Տպեք Ձեզ անհրաժեշտ արձանագրության դիմումը:"
   },
+  "to_apply_online_with_notary_body": {
+    "status": "machine_translation",
+    "en": "Use these forms to replace certificates issued in California.",
+    "fr": "Utilisez ces formulaires pour remplacer les certificats délivrés en Californie.",
+    "es": "Utilice estos formularios para reemplazar los certificados emitidos en California.",
+    "ko": "이 양식을 사용하여 캘리포니아에서 발급된 증명서를 교체하십시오.",
+    "vi": "Sử dụng các mẫu này để thay thế các chứng chỉ được cấp ở California.",
+    "tl": "Gamitin ang mga form na ito upang palitan ang mga sertipiko na inisyu sa California.",
+    "zh-hans": "使用这些表格来更换加利福尼亚州签发的证书。",
+    "zh-hant": "使用這些表格來更換加利福尼亞州簽發的證書。",
+    "hy": "Օգտագործեք այս ձևերը Կալիֆորնիայում տրված վկայականները փոխելու համար:"
+  },
   "vital_records_pdf_versions": {
     "status": "avantpage_delivery",
     "en": "PDF versions are available from the <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">California Department of Public Health</a>.",
@@ -453,6 +592,18 @@
     "zh-hant": "PDF 版本可從<a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">加州公共衛生部</a>獲得。",
     "hy": "PDF տարբերակները հասանելի են <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">Կալիֆորնիայի հանրային առողջության վարչությունում</a>:",
     "orig_en": "PDF versions are available from the <link>California Department of Public Health</link>."
+  },
+  "to_apply_online_with_notary": {
+    "status": "machine_translation",
+    "en": "To apply in-person with a notary",
+    "fr": "Pour postuler en personne avec un notaire",
+    "es": "Para solicitar en persona con un notario",
+    "ko": "공증인과 함께 직접 신청하려면",
+    "vi": "Để đăng ký trực tiếp với một công chứng viên",
+    "tl": "Upang mag-apply nang personal kasama ang isang notaryo",
+    "zh-hans": "要亲自申请公证",
+    "zh-hant": "要親自申請公證",
+    "hy": "Դիմելու համար անձամբ նոտարի հետ"
   },
   "vital_records_fill_notarize_mail": {
     "status": "avantpage_delivery",
