@@ -83,17 +83,17 @@
     "zh-hant": "來自加利福尼亞的記錄",
     "hy": "Արձանագրություններ Կալիֆորնիայից"
   },
-  "vital_records_records_from_other_states_link": {
-    "status": "machine_translation",
-    "en": "Records from other states",
-    "fr": "Documents d'autres États",
-    "es": "Registros de otros estados",
-    "ko": "다른 주의 기록",
-    "vi": "Hồ sơ từ các tiểu bang khác",
-    "tl": "Mga record mula sa iba pang estado",
-    "zh-hans": "其他州签发的文件",
-    "zh-hant": "來自其他州的記錄",
-    "hy": "Արձանագրություններ այլ նահանգներից"
+  "vital_records_apply_online": {
+    "status": "ap_review",
+    "en": "Apply online",
+    "fr": "Postulez en ligne",
+    "es": "Solicitar en línea",
+    "ko": "온라인 신청",
+    "vi": "Đăng ký trực tuyến",
+    "tl": "Mag-apply online",
+    "zh-hans": "在线申请",
+    "zh-hant": "在線申請",
+    "hy": "Դիմել առցանց"
   },
   "vital_records_replace_certificates": {
     "status": "avantpage_delivery",
