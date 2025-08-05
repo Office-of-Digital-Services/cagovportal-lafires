@@ -579,8 +579,7 @@ document.addEventListener("DOMContentLoaded", () => {
       );
 
       const county_rebuild_applications_in_review_value =
-        (county_zoning_reviews_cleared_Value || 0) +
-        (county_building_plan_reviews_in_process_value || 0);
+        county_building_plan_reviews_in_process_value || 0;
 
       const county_rebuild_applications_in_review_Element =
         document.getElementById("county_rebuild_applications_in_review");
