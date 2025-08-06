@@ -299,6 +299,10 @@ module.exports = function (
     })
   );
 
+  eleventyConfig.addFilter('fetchGuid', function(guidURL) {
+    return String(guidURL).split('=')[1];
+  });
+
   eleventyConfig.addFilter('localizedPath', function(pathString, localeOverride) {
     const locale = localeOverride || this.ctx.locale || this.ctx.lang || 'en';
 

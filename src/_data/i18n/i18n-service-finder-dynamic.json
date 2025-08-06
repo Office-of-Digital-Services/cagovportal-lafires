@@ -575,6 +575,34 @@
     "status": "english_only",
     "en": "Emergency shelters"
   },
+  "sf_43_description": {
+    "status": "ap_review",
+    "en": "Get mortgage relief for structures damaged or destroyed by the LA fires. Temporarily reduce or pause mortgage payments, waive late fees, and more."
+  },
+  "sf_43_entity": {
+    "status": "english_only",
+    "en": "California Housing Finance Agency",
+    "es": "Agencia de Finanzas de Vivienda de California",
+    "ko": "캘리포니아 주택 금융청",
+    "vi": "Cơ Quan Tài Chính Nhà Ở California",
+    "tl": "California Housing Finance Agency",
+    "zh-hans": "加州住房金融局 (California Housing Finance Agency, CalHFA)",
+    "zh-hant": "加州住房金融局 (California Housing Finance Agency, CalHFA)",
+    "hy": "Կալիֆոռնիայի Հաղորդակցության և ֆինանսների գործակալություն (California Housing Finance Agency, CalHFA)",
+    "comment": ""
+  },
+  "sf_43_service_name": {
+    "status": "avantpage_delivery",
+    "en": "Mortgage relief",
+    "es": "Asistencia hipotecaria",
+    "ko": "모기지 구제",
+    "vi": "Cứu trợ khoản vay thế chấp",
+    "tl": "Relief sa mortgage",
+    "zh-hans": "房屋贷款减免",
+    "zh-hant": "房屋貸款減免",
+    "hy": "Հիփոթեքային արտոնություններ",
+    "comment": "Translation delivered 2025-04-10"
+  },
   "sf_44_description": {
     "status": "avantpage_delivery",
     "en": "If you've already received the maximum amount of FEMA disaster assistance, you may be eligible for a grant from California's State Supplemental Grant Program (SSGP). FEMA will automatically apply on your behalf. You don't need to apply directly for these state disaster grants.",
@@ -1676,7 +1704,7 @@
   },
   "sf_94_entity": {
     "status": "english_only",
-    "en": "California Housing Finance Agency"
+    "en": "California Department of Financial Protection & Innovation"
   },
   "sf_94_service_name": {
     "status": "english_only",
