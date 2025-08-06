@@ -25,7 +25,7 @@
   },
   "vital_records_description_page": {
     "status": "machine_translation",
-    "en": "Here's how to replace birth, death, or marriage certificates lost in the fires.",
+    "en": "Here's how to replace birth, death, and marriage certificates lost in the fires.",
     "fr": "Voici comment remplacer les certificats de naissance, de décès et de mariage perdus dans les incendies.",
     "es": "Aquí se explica cómo reemplazar los certificados de nacimiento, defunción y matrimonio perdidos en los incendios.",
     "ko": "화재로 인해 분실된 출생, 사망, 결혼 증명서를 재발급받는 방법입니다.",
@@ -167,16 +167,8 @@
     "hy": "Արձանագրություններ այլ նահանգներից"
   },
   "vital_records_replace_certificates": {
-    "status": "ap_review",
-    "en": "Contact the county recorder in the county where the birth, marriage, or death happened. See <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Where to Write for Vital Records</a>.",
-    "fr": "Contactez le bureau du greffier du comté où la naissance, le mariage ou le décès a eu lieu. Voir <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Où écrire pour les certificats d'état civil</a>.",
-    "es": "Comuníquese con el registrador del condado donde ocurrió el nacimiento, matrimonio o defunción. Consulte <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Dónde solicitar documentos del registro civil</a>.",
-    "ko": "출생, 결혼 또는 사망이 발생한 카운티의 카운티 기록관에 문의하십시오. <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >주별 증명서 신청처</a>를 참조하세요.",
-    "vi": "Liên hệ với văn phòng lưu trữ hồ sơ tại quận nơi xảy ra sinh, kết hôn hoặc tử vong. Xem <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Nơi nộp đơn xin hồ sơ hộ tịch</a>.",
-    "tl": "Makipag-ugnayan sa county recorder sa county kung saan naganap ang kapanganakan, kasal, o pagkamatay. Tingnan ang <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Where to Write for Vital Records</a>.",
-    "zh-hans": "请联系出生、结婚或死亡发生地的县记录员。参见<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >各州重要记录申请指南</a>。",
-    "zh-hant": "請聯絡出生、結婚或死亡發生地的縣記錄員。請參閱<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >各州重要記錄申請指南</a>。",
-    "hy": "Կապ հաստատեք այն վարչաշրջանի գրանցման գրասենյակի հետ, որտեղ տեղի է ունեցել ծնունդը, ամուսնությունը կամ մահը։ Տես <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Որտեղ դիմել կարևոր փաստաթղթերի համար</a>։"
+    "status": "avantpage_delivery",
+    "en": "Contact the county recorder in the county where the birth, marriage, or death happened. See <a href=\"https://www.ca.gov/lafires/help-for-you/replace-personal-documents/birth-death-marriage-certificates/\" >Where to Write for Vital Records</a>."
   },
   "vital_records_replacements_free": {
     "status": "avantpage_delivery",

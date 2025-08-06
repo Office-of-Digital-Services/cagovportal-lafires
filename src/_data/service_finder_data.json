@@ -567,6 +567,32 @@
                 }
               },
               {
+                "id": "recZ5LWGUvUBcXnLq",
+                "createdTime": "2025-03-06T00:07:27.000Z",
+                "fields": {
+                  "Audience": "For your and your family",
+                  "Audience (from Category Linked)": "recEP9eO9yJvwUzhk",
+                  "Audience ID": 1,
+                  "Category": "Financial assistance",
+                  "Category ID": 6,
+                  "Category Linked": "rec8wNanCuxQYbH1j",
+                  "Description": "Get mortgage relief for structures damaged or destroyed by the LA fires. Temporarily reduce or pause mortgage payments, waive late fees, and more.",
+                  "Entity": "California Housing Finance Agency",
+                  "Entity_acronym": "CalHFA",
+                  "Entity_type": "State",
+                  "ID": 43,
+                  "Info_link": "https://www.calhfa.ca.gov/",
+                  "June 2025 status": "Ready to go",
+                  "Service Type ID": 2,
+                  "Service type (from Category Linked)": "recHmpjjj4li4w2AI",
+                  "Service_name": "Mortgage relief",
+                  "Source": "Website / Checklist",
+                  "Specific disaster": "January 2025 LA Fires",
+                  "Status": "3 Approved",
+                  "Type_of_Service": "Start recovering"
+                }
+              },
+              {
                 "id": "reclX5YsqVPBWkM3A",
                 "createdTime": "2025-03-06T00:07:27.000Z",
                 "fields": {
@@ -737,8 +763,8 @@
                   "Category ID": 6,
                   "Category Linked": "rec8wNanCuxQYbH1j",
                   "Description": "Homeowners may receive up to $20,000 for three months of mortgage payments for homes destroyed in recent disasters, including the 2025 Los Angeles County fires.",
-                  "Entity": "California Housing Finance Agency",
-                  "Entity_acronym": "CHFA",
+                  "Entity": "California Department of Financial Protection & Innovation",
+                  "Entity_acronym": "DFPI",
                   "Entity_type": "State",
                   "ID": 94,
                   "Info_link": "https://www.calassistmortgagefund.org/",
@@ -746,7 +772,6 @@
                   "Service Type ID": 2,
                   "Service type (from Category Linked)": "recHmpjjj4li4w2AI",
                   "Service_name": "Mortgage payment assistance",
-                  "Specific disaster": "January 2025 LA Fires",
                   "Status": "3 Approved",
                   "Type_of_Service": "Start recovering"
                 }
@@ -1742,6 +1767,7 @@
                   "Service_link": "https://onlineservices.cdtfa.ca.gov/_/",
                   "Service_name": "Business use tax or fee extension and relief",
                   "Source": "Website / Checklist",
+                  "Specific disaster": "Fire State of Emergency",
                   "Status": "3 Approved",
                   "Type_of_Service": "Business help"
                 }
