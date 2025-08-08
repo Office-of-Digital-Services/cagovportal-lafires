@@ -76,6 +76,12 @@
       "href": "/lafires/track-progress/",
       "text": "Track LA's progress",
       "key": "sidenav_track_las_progress"
+    },
+    {
+      "href": "/lafires/rebuilding-la/",
+      "text": "Rebuilding LA",
+      "indent": true,
+      "key": "sidenav_rebuilding_la"
     }
   ]
 }

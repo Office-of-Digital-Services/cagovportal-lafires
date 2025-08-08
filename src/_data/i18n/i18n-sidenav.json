@@ -267,5 +267,16 @@
     "zh-hans": "火灾幸存者的健康资源",
     "zh-hant": "火災倖存者的健康資源",
     "hy": "Առողջության ռեսուրսներ հրդեհից տուժածների համար"
+  },
+  "sidenav_rebuilding_la": {
+    "status": "ap_review",
+    "en": "Rebuilding LA",
+    "es": "Reconstrucción de LA",
+    "ko": "LA 재건",
+    "vi": "Xây dựng lại LA",
+    "tl": "Muling pagtatayo ng LA",
+    "zh-hans": "重建洛杉矶",
+    "zh-hant": "重建洛杉磯",
+    "hy": "Վերակառուցում LA"
   }
 }
