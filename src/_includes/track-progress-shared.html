@@ -772,14 +772,10 @@
         <h3
           class="font-size-20 m-0 p-t-md d-flex align-items-center font-weight-400">
           <span class="ca-gov-icon-air font-size-40" aria-hidden="true"></span
-          ><span class="m-l-sm">Air monitoring results</span>
+          ><span class="m-l-sm">{{ 'track_progress_air_header' | i18n }}</span>
         </h3>
         <p class="font-size-14">
-          During the 19-week expanded air monitoring period,
-          <strong
-            >results remained below levels considered to pose a health risk,
-            even during peak debris removal activities.</strong
-          >
+          {{ 'track_progress_air_description' | i18n | safe }}
         </p>
 
         <div class="row">
@@ -827,11 +823,12 @@
         <div
           class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
           <span class="dashboard-stat p-r"><span>219</span></span>
-          <span class="font-weight-700">asbestos samples were collected</span>
+          <span class="font-weight-700"
+            >{{ 'track_progress_air_asbestos_collected' | i18n }}</span
+          >
         </div>
-        <p class="font-size-12 m-t-sm">
-          The monitors measured pollutants, including particulates (PM2.5 and
-          PM10), lead, arsenic, other toxic metals, and asbestos.
+        <p class="font-size-12 m-t-sm m-b-md">
+          {{ 'track_progress_air_asbestos_collected_description' | i18n }}
         </p>
         <hr class="opacity-100" />
 
@@ -840,8 +837,8 @@
             <div
               class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
               <span class="dashboard-stat p-r"><span>215</span></span>
-              <span class="font-weight-700"
-                >air toxic metal samples were collected</span
+              <span class="font-weight-700">
+                {{ 'track_progress_air_toxic_metal_collected' | i18n }}</span
               >
             </div>
           </div>
@@ -851,7 +848,7 @@
               class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
               <span class="dashboard-stat p-r"><span>33</span></span>
               <span class="font-weight-700"
-                >air toxic metals were analyzed per sample</span
+                >{{ 'track_progress_air_toxic_metal_analyzed' | i18n }}</span
               >
             </div>
           </div>
@@ -861,7 +858,7 @@
           class="m-0 p-t-sm p-b-md font-size-12 d-flex flex-row align-items-center gap-2 p-r">
           <span class="dashboard-stat p-r"><span>28,588</span></span>
           <span class="font-weight-700"
-            >particulate matter (PM2.5 & PM10) data points were measured</span
+            >{{ 'track_progress_air_matter' | i18n }}</span
           >
         </div>
       </div>
