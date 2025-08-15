@@ -280,7 +280,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       /* CHART percentage */
-      const parselsTotal = 13579;
+      const parselsTotal = 9668;
       const phase2_parcels_completed_Value = getMetricValue(
         "phase2_parcels_completed"
       );
