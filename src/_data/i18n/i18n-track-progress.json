@@ -673,16 +673,15 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "track_progress_south_coast_air_quality_management_district": {
-    "status": "avantpage_delivery",
-    "en": "South Coast Air Quality Management District and the California Air Resources Board are working together to measure air quality in your area.",
-    "es": "El South Coast Air Quality Management District y la Junta de Recursos del Aire de California están trabajando juntos para medir la calidad del aire en su área.",
-    "ko": "남부 해안 대기질 관리국과 캘리포니아 대기자원위원회가 협력하여 해당 지역의 대기질을 측정하고 있습니다.",
-    "vi": "Khu Quản Lý Chất Lượng Không Khí Ven Biển Phía Nam và Hội Đồng Tài Nguyên Không Khí California đang làm việc cùng nhau để đo lường chất lượng không khí trong khu vực của quý vị.",
-    "tl": "Nagtutulungan ang South Coast Air Quality Management District at California Air Resources Board para suriin ang kalidad ng hangin sa iyong lugar.",
-    "zh-hans": "南海岸空气质量管理区和加州空气资源委员会正在合作测量您所在地区的空气质量。",
-    "zh-hant": "南海岸空氣品質管制區和加州空氣資源委員會正在合作測量您所在地區的空氣品質。",
-    "hy": "South Coast-ի օդի որակի կառավարման շրջանը և Կալիֆոռնիայի օդային ռեսուրսների խորհուրդը համատեղ աշխատում են Ձեր տարածքում օդի որակը չափելու համար:",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "ap_review",
+    "en": "South Coast Air Quality Management District and the California Air Resources Board worked together following the 2025 Los Angeles wildfires. They monitored air quality associated with debris removal in communities near the burn zones.",
+    "es": "El Distrito de Gestión de Calidad del Aire de South Coast y la Junta de Recursos del Aire de California trabajaron juntos después de los incendios forestales de Los Ángeles de 2025. Monitorearon la calidad del aire asociada con la remoción de escombros en las comunidades cercanas a las zonas quemadas.",
+    "ko": "2025년 로스앤젤레스 산불 이후, 남부 해안 대기질 관리 지구(South Coast Air Quality Management District)와 캘리포니아 대기 자원 위원(California Air Resources Board)이 협력했습니다. 그들은 화재 지역 근처의 지역 사회에서 잔해 제거와 관련된 대기 질을 모니터링했습니다.",
+    "vi": "Quận Quản Lý Chất Lượng Không Khí South Coast và Hội Đồng Tài Nguyên Không Khí California đã làm việc cùng nhau sau các vụ cháy rừng Los Angeles năm 2025. Họ đã giám sát chất lượng không khí liên quan đến việc dọn dẹp đống đổ nát ở các cộng đồng gần  khu vực cháy.",
+    "tl": "Nagtulungan ang South Coast Air Quality Management District at ang California Air Resources Board pagkatapos ng mga sunog sa kagubatan sa Los Angeles noong 2025. Sinubaybayan nila ang kalidad ng hangin na nauugnay sa pag-aalis ng kalat sa mga komunidad malapit sa mga nasunog na lugar.",
+    "zh-hans": "南海岸空气质量管理区 (South Coast Air Quality Management District) 和加州空气资源委员会 (California Air Resources Board) 在 2025 年洛杉矶山 火灾后共同合作。他们监测了与烧毁区域附近社区的残余物清除相关的空气质量。",
+    "zh-hant": "南海岸空氣質量管理區 (South Coast Air Quality Management District) 和加州空氣資源委員會 (California Air Resources Board) 在 2025 年洛杉磯山 火災後共同合作。他們監測了與燒毀區域附近社區的殘餘物清除相關的空氣質量。",
+    "hy": "2025 թվականի Լոս Անջելեսի հրդեհներից հետո Հարավային ափի օդի որակի կառավարման շրջանը և Կալիֆոռնիայի օդային ռեսուրսների խորհուրդը համագործակցել  են: Նրանք մոնիթորինգ են իրականացրել հրդեհային գոտիների մոտ գտնվող համայնքներում աղբահանության հետ կապված օդի որակի վերաբերյալ:"
   },
   "track_progress_monitoring_occurs_in_two_stages": {
     "status": "avantpage_delivery",
@@ -876,28 +875,26 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted": {
-    "status": "avantpage_delivery",
-    "en": "mobile surveys, two in each burn area, were conducted.",
-    "es": "encuestas móviles que se realizaron, dos en cada área de incendio.",
-    "ko": "각 화재 지역에서 2회씩 이동식 조사가 실시되었습니다.",
-    "vi": "cuộc khảo sát di động đã được tiến hành, trong đó bao gồm hai cuộc khảo sát ở mỗi khu vực đám cháy.",
-    "tl": "May mga mobile na pagsusuri, dalawa sa bawat lugar ng sunog, na isinasagawa.",
-    "zh-hans": "展开了移动检测，每个火灾区两次。",
-    "zh-hant": "展開了移動監測，每個火災區兩次。",
-    "hy": "կատարվել են շարժական հետազոտություններ, երկուսը՝ յուրաքանչյուր հրդեհի տարածքում։",
-    "comment": "Translation delivered 2025-04-29"
+    "status": "ap_review",
+    "en": "mobile monitoring surveys conducted",
+    "es": "se realizaron encuestas de monitoreo móvil",
+    "ko": "이동식 모니터링 조사 실시",
+    "vi": "đã thực hiện khảo sát giám sát di động",
+    "tl": "nagsagawa ng mga mobile na pag-monitor at pagsusuri",
+    "zh-hans": "已进行移动监测调查",
+    "zh-hant": "已進行移動監測調查",
+    "hy": "շարժական մոնիթորինգի հարցումներ իրականացվել են"
   },
   "track_progress_overall_survey_results_from_eaton_and_palisades_areas_were_within_background_levels": {
-    "status": "avantpage_delivery",
-    "en": "Overall, survey results from Eaton and Palisades areas were within background levels, with some elevated levels of lead, arsenic, chromium and nickel.",
-    "es": "En general, los resultados de la encuesta en las áreas de Eaton y Palisades estuvieron dentro de los niveles normales, con algunos niveles elevados de plomo, arsénico, cromo y níquel.",
-    "ko": "전반적으로 이튼과 펠리세이즈 지역의 조사 결과는 산불 이전 자연적인 오염 수준 내에 있었으며, 납, 비소, 크롬, 니켈의 수준은 일부 상승했습니다.",
-    "vi": "Nhìn chung, kết quả khảo sát từ các khu vực Eaton và Palisades nằm trong mức nền, với một số mức độ chì, asen, crom và niken tăng cao.",
-    "tl": "Sa pangkalahatan, pasok sa mga background level ang mga resulta ng pagsusuri mula sa mga lugar sa Eaton at Palisades, nang may ilang mas mataas na level ng lead, arsenic, chromium, at nickel.",
-    "zh-hans": "总体而言，伊顿和帕利塞兹地区的调查结果在背景水平范围内，铅、砷、铬和镍的含量有所升高。",
-    "zh-hant": "總體而言，伊頓和帕利塞茲地區的調查結果在背景水準範圍內，鉛、砷、鉻和鎳的含量有所升高。",
-    "hy": "Ընդհանուր առմամբ, Իթոնի և Պալիսեյդսի ուսումնասիրությունների արդյունքները եղել են ֆոնային արժեքների սահմաններում, կապարի, մկնդեղի, քրոմի և նիկելի որոշ աճով:",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "ap_review",
+    "en": "The surveys captured snapshots of air toxics and volatile organic compounds (VOCs) to help guide placement of stationary monitors.",
+    "es": "Las encuestas capturaron instantáneas de toxinas en el aire y compuestos orgánicos volátiles (VOC) para ayudar a guiar la ubicación de los monitores estacionarios.",
+    "ko": "조사는 대기 중 독성 물질과 휘발성 유기 화합물(VOCs)의 스냅샷을 포착하여 고정식 모니터의 배치 위치를 안내하는 데 도움을 주었습니다.",
+    "vi": "Các cuộc khảo sát đã ghi lại ảnh chụp nhanh về các chất độc hại trong không khí và các hợp chất hữu cơ dễ bay hơi (VOCs) để giúp hướng dẫn vị trí đặt các máy giám sát cố định.",
+    "tl": "Kumukuha ng  snapshot ang mga survey sa mga air toxic at volatile organic compound (VOC) para makatulong na matukoy ang lokasyon ng mga stationary na pag-monitor.",
+    "zh-hans": "调查捕捉了空气中有毒物质和挥发性有机化合物 (VOCs) 的快照，以帮助指导固定式监测器的放置位置。",
+    "zh-hant": "調查捕捉了空氣中有毒物質和揮發性有機化合物 (VOCs) 的快照，以幫助指導固定式監測器的放置位置。",
+    "hy": "Հարցումները պատկերում են օդի թունավոր նյութերի և ցնդող օրգանական միացությունների (VOCs) պատկերը՝ այդ պահին, որպեսզի օգնի ֆիքսված մոնիթորների տեղադրման համար:"
   },
   "track_progress_stationary_air_monitoring": {
     "status": "avantpage_delivery",
@@ -996,27 +993,26 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "track_progress_stationary_air_quality_monitoring_sites_deployed": {
-    "status": "avantpage_delivery",
-    "en": "stationary air quality monitoring sites deployed for Eaton and Palisades areas",
-    "es": "lugares de monitoreo estacionario de la calidad del aire para las áreas de Eaton y Palisades",
-    "ko": "이튼과 펠리세이즈 지역에 배치된 고정식 대기질 모니터링 현장",
-    "vi": "địa điểm giám sát chất lượng không khí cố định đã được triển khai cho các khu vực Eaton và Palisades",
-    "tl": "site ng stationary na pag-monitor sa kalidad ng hangin ang na-deploy para sa mga lugar sa Eaton at Palisades",
-    "zh-hans": "为伊顿和帕利塞兹地区部署的固定式空气质量监测站点",
-    "zh-hant": "為伊頓和帕利塞茲地區部署的固定式空氣品質監測站點",
-    "hy": "Իթոնի և Պալիսեյդսի տարածքներում տեղակայված օդի որակի մոնիթորինգի ստացիոնար կետեր",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "ap_review",
+    "en": "stationary air quality monitors deployed",
+    "es": "monitores de calidad del aire estacionarios desplegados",
+    "ko": "고정식 대기질 모니터 배치",
+    "vi": "máy giám sát chất lượng không khí cố định đã được triển khai",
+    "tl": "mga stationary na pag-monitor sa kalidad ng hangin ang na-deploy",
+    "zh-hans": "已部署固定式空气质量监测器",
+    "zh-hant": "已部署固定式空氣品質監測器",
+    "hy": "ֆիքսված օդի որակի մոնիթորներ տեղադրված են"
   },
   "track_progress_stationary_air_quality_monitoring_description": {
     "status": "ap_review",
-    "en": "Preliminary analysis of air monitoring samples shows no immediate risk to public health. Residents should continue following guidance from the Los Angeles County Department of Public Health.",
-    "es": "El análisis preliminar de las muestras de monitoreo del aire no muestra un riesgo inmediato para la salud pública. Los residentes deben continuar siguiendo las pautas del Departamento de Salud Pública del Condado de Los Ángeles.",
-    "ko": "대기 모니터링 샘플에 대한 초기 분석 결과 공중 보건에 즉각적인 위험이 없는 것으로 나타났습니다. 주민들은 로스앤젤레스 카운티 공중 보건국의 지침을 계속 따라야 합니다.",
-    "vi": "Phân tích sơ bộ các mẫu giám sát không khí cho thấy không có nguy cơ ngay lập tức đối với sức khỏe cộng đồng. Cư dân nên tiếp tục làm theo hướng dẫn của Sở Y Tế Công Cộng Quận Los Angeles.",
-    "tl": "Ang paunang pagsusuri ng mga sample ng pag-monitor sa hangin ay hindi nagpapakita ng agarang panganib sa kalusugan ng publiko. Dapat ipagpatuloy ng mga residente ang pagsunod sa mga alituntunin mula sa Los Angeles County Department of Public Health.",
-    "zh-hans": "空气监测样本的初步分析显示对公共健康没有直接风险。居民应继续遵循洛杉矶县公共卫生部门的指导。",
-    "zh-hant": "空氣監測樣本的初步分析顯示對公共健康沒有直接風險。居民應繼續遵循洛杉磯縣公共衛生部門的指導。",
-    "hy": "Օդի մոնիթորինգի նմուշների նախնական վերլուծությունը ցույց է տալիս, որ հանրային առողջության համար անմիջական վտանգ չկա: Բնակիչները պետք է շարունակեն հետևել Լոս Անջելեսի շրջանի հանրային առողջության վարչության ուղեցույցներին:"
+    "en": "The monitors measured pollutants, including particulates (PM2.5 and PM10), lead, arsenic, other toxic metals, and asbestos.",
+    "es": "Los monitores midieron los contaminantes, incluidas las partículas (PM2.5 y PM10), el plomo, el arsénico, otros metales tóxicos y el asbesto.",
+    "ko": "모니터는 미세먼지(PM2.5 및 PM10), 납, 비소, 기타 독성 금속 및 석면을 포함한 오염 물질을 측정했습니다.",
+    "vi": "Các máy giám sát đo lường các chất ô nhiễm, bao gồm các hạt (PM2.5 và PM10), chì, asen, các kim loại độc hại khác và amiăng.",
+    "tl": "Sinukat ng mga monitor ang mga pollutant, kabilang ang mga particulate (PM2.5 at PM10), lead, arsenic, iba pang toxic metal, at asbestos.",
+    "zh-hans": "监测器测量了污染物，包括颗粒  (PM2.5 和 PM10)、铅、砷、其他有毒金属和石棉。",
+    "zh-hant": "監測器測量了污染物，包括顆粒物 (PM2.5 和 PM10)、鉛、砷、其他有毒金屬和石棉。",
+    "hy": "Մոնիթորները չափում են աղտոտիչները, ներառյալ պինդ մասնիկները (PM2.5 և PM10), կապարը, մկնդեղը, այլ թունավոր մետաղները և ասբեստը։"
   },
   "track_progress_results": {
     "status": "avantpage_delivery",
@@ -1313,6 +1309,84 @@
     "zh-hans": "已发放建筑许可证",
     "zh-hant": "已發放建築許可證",
     "hy": "կառուցապատման թույլտվություններ են տրվել"
+  },
+  "track_progress_air_header": {
+    "status": "ap_review",
+    "en": "Air monitoring results",
+    "es": "Resultados del monitoreo del aire",
+    "ko": "공기 모니터링 결과",
+    "vi": "Kết quả giám sát không khí",
+    "tl": "Mga resulta ng pagsubok sa hangin",
+    "zh-hans": "空气监测结果",
+    "zh-hant": "空氣監測結果",
+    "hy": "Օդի մոնիտորինգի արդյունքներ"
+  },
+  "track_progress_air_description": {
+    "status": "ap_review",
+    "en": "During the 19-week expanded air monitoring period, <strong>results remained below levels considered to pose a health risk, even during peak debris removal activities.</strong>",
+    "es": "Durante el período de monitoreo del aire ampliado de 19 semanas, <strong>los resultados se mantuvieron por debajo de los niveles considerados como un riesgo para la salud, incluso durante las actividades máximas de remoción de escombros.</strong>",
+    "ko": "19주간의 확장된 대기 모니터링 기간, <strong>결과는 건강 위험을 초래하는 것으로 간주되는 수준 이하로 유지되었습니다. 이는 잔해 제거 활동이 절정에 달했을 때에도 마찬s.</strong>",
+    "vi": "Trong thời gian giám sát không khí mở rộng kéo dài 19 tuần, <strong>kết quả vẫn dưới mức được coi là có nguy cơ cho sức khỏe, ngay cả trong các hoạt động loại bỏ mảnh vụn cao điểm.</strong>",
+    "tl": "Sa panahon ng 19-linggong pinalawak na pagsubok sa hangin, <strong>ang mga resulta ay nanatiling mas mababa sa mga antas na itinuturing na nagdudulot ng panganib sa kalusugan, kahit sa panahon ng mga aktibidad ng pag-alis ng debris na pinakamataas.</strong>",
+    "zh-hans": "在为期19周的扩展空气监测期间, <strong>结果仍低于被认为对健康构成风险的水平，即使在清除碎片活动的高峰期也是如此。</strong>",
+    "zh-hant": "在為期19週的擴展空氣監測期間, <strong>結果仍低於被認為對健康構成風險的水平，即使在清除碎片活動的高峰期也是如此。</strong>",
+    "hy": "19 շաբաթ տևողությամբ ընդլայնված օդի մոնիտորինգի ընթացքում <strong>արդյունքները մնացել են առողջության համար վտանգավոր մակարդակներից ցածր, նույնիսկ մաքրման աշխատանքների գագաթնակետում:</strong>"
+  },
+  "track_progress_air_asbestos_collected": {
+    "status": "ap_review",
+    "en": "asbestos samples were collected",
+    "es": "se recogieron muestras de asbesto",
+    "ko": "석면 샘플이 수집되었습니다",
+    "vi": "các mẫu amiăng đã được thu thập",
+    "tl": "mga sample ng asbestos ang nakolekta",
+    "zh-hans": "收集了石棉样本",
+    "zh-hant": "收集了石棉樣本",
+    "hy": "ասբեստի նմուշներ են հավաքվել"
+  },
+  "track_progress_air_asbestos_collected_description": {
+    "status": "ap_review",
+    "en": "The monitors measured pollutants, including particulates (PM2.5 and PM10), lead, arsenic, other toxic metals, and asbestos.",
+    "es": "Los monitores midieron los contaminantes, incluidas las partículas (PM2.5 y PM10), el plomo, el arsénico, otros metales tóxicos y el asbesto.",
+    "ko": "모니터는 미세먼지(PM2.5 및 PM10), 납, 비소, 기타 독성 금속 및 석면을 포함한 오염 물질을 측정했습니다.",
+    "vi": "Các máy giám sát đo lường các chất ô nhiễm, bao gồm các hạt (PM2.5 và PM10), chì, asen, các kim loại độc hại khác và amiăng.",
+    "tl": "Sinukat ng mga monitor ang mga pollutant, kabilang ang mga particulate (PM2.5 at PM10), lead, arsenic, iba pang toxic metal, at  asbestos.",
+    "zh-hans": "监测器测量了污染物，包括颗粒 (PM2.5 和 PM10)、铅、砷、其他有毒金属和石棉。",
+    "zh-hant": "監測器測量了污染物，包括  顆粒物 (PM2.5 和 PM10)、鉛、砷、其他有毒金屬和石棉。",
+    "hy": "Մոնիթորները չափում են աղտոտիչները, ներառյալ պինդ մասնիկները (PM2.5 և PM10), կապարը, մկնդեղը, այլ թունավոր մետաղները և ասբեստը。",
+    "comment": "Translation delivered 2025-04-10"
+  },
+  "track_progress_air_toxic_metal_collected": {
+    "status": "ap_review",
+    "en": "air toxic metal samples were collected",
+    "es": "se recogieron muestras de metales tóxicos en el aire",
+    "ko": "공기 중 유독성 금속 샘플이 수집되었습니다",
+    "vi": "các mẫu kim loại độc hại trong không khí đã được thu thập",
+    "tl": "mga sample ng air toxic metal ang nakolekta",
+    "zh-hans": "收集了空气中有毒金属样本",
+    "zh-hant": "收集了空氣中有毒金屬樣本",
+    "hy": "օդի թունավոր մետաղների նմուշներ են հավաքվել"
+  },
+  "track_progress_air_toxic_metal_analyzed": {
+    "status": "ap_review",
+    "en": "air toxic metals were analyzed per sample",
+    "es": "se analizaron metales tóxicos en el aire por muestra",
+    "ko": "샘플당 공기 중 유독성 금속이 분석되었습니다",
+    "vi": "các kim loại độc hại trong không khí đã được phân tích theo mẫu",
+    "tl": "ang mga air toxic metal ay sinuri bawat sample",
+    "zh-hans": "每个样本分析了空气中的有毒金属",
+    "zh-hant": "每個樣本分析了空氣中的有毒金屬",
+    "hy": "օդի թունավոր մետաղները վերլուծվել են ըստ նմուշի"
+  },
+  "track_progress_air_matter": {
+    "status": "ap_review",
+    "en": "particulate matter (PM2.5 & PM10) data points were measured",
+    "es": "se midieron puntos de datos de materia particulada (PM2.5 y PM10)",
+    "ko": "미세먼지(PM2.5 및 PM10) 데이터 포인트가 측정되었습니다",
+    "vi": "các điểm dữ liệu về chất hạt (PM2.5 và PM10) đã được đo",
+    "tl": "ang mga punto ng data ng particulate matter (PM2.5 at PM10) ay sinukat",
+    "zh-hans": "测量了颗粒物 (PM2.5 和 PM10) 数据点",
+    "zh-hant": "測量了顆粒物 (PM2.5 和 PM10) 數據點",
+    "hy": "պինդ մասնիկների (PM2.5 և PM10) տվյալներ են չափվել"
   },
   "track_progress_permits_card": {
     "status": "ap_review",
