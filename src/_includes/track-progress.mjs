@@ -596,9 +596,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("malibu_rebuild_applications_received");
 
       if (malibu_rebuild_applications_received_Element) {
-        const malibu_rebuild_applications_received_Value = getMetricValue(
-          "malibu_rebuild_applications_received"
-        );
+        const malibu_rebuild_applications_received_Value =
+          (getMetricValue("malibu_rebuild_applications_received") || 0) +
+          (getMetricValue("malibu_rebuild_applications_in_review") || 0);
         malibu_rebuild_applications_received_Element.textContent =
           malibu_rebuild_applications_received_Value !== null
             ? malibu_rebuild_applications_received_Value.toLocaleString()

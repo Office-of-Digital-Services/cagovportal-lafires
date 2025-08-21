@@ -615,7 +615,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="county_rebuild_applications_received"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  Applications received
+                  Rebuild applications received
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -629,7 +629,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="county_rebuild_applications_in_review"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  In review
+                  Zoning reviews cleared
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -702,7 +702,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="malibu_rebuild_applications_received"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  Applications received
+                  Under planning review + Total planning approved
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -716,7 +716,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="malibu_rebuild_applications_in_review"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  In review
+                  Building plan check - submitted
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -730,7 +730,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="malibu_building_permits_issued"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  Building permits issued
+                  Building plan check - approved
                 </span>
               </div>
             </div>
@@ -765,7 +765,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="pasadena_rebuild_applications_received"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  Applications received
+                  Complete applications received
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -779,7 +779,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="pasadena_rebuild_applications_in_review"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  In review
+                  Plan reviews approved
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -793,7 +793,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="pasadena_building_permits_issued"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  Building permits issued
+                  Permits issued
                 </span>
               </div>
             </div>
@@ -882,190 +882,128 @@
         </div>
       </div>
 
-      <!--Air monitoring-->
-      <div class="m-b-md">
-        <h2 class="m-b-md">{{ 'track_progress_air_quality' | i18n }}</h2>
-        <p>
-          {{ 'track_progress_south_coast_air_quality_management_district' | i18n
-          }}
+      <!--Air quality monitoring-->
+
+      <h2 class="m-b-md">{{ 'track_progress_air_quality' | i18n }}</h2>
+      <p>
+        {{ 'track_progress_south_coast_air_quality_management_district' | i18n
+        }}
+      </p>
+      <div class="section-primary p-x-md rounded-top m-t-md">
+        <h3
+          class="font-size-20 m-0 p-t-md d-flex align-items-center font-weight-400">
+          <span class="ca-gov-icon-air font-size-40" aria-hidden="true"></span
+          ><span class="m-l-sm">{{ 'track_progress_air_header' | i18n }}</span>
+        </h3>
+        <p class="font-size-14">
+          {{ 'track_progress_air_description' | i18n | safe }}
         </p>
-        <p>{{ 'track_progress_monitoring_occurs_in_two_stages' | i18n }}</p>
-        <ul>
-          <li class="m-b">
-            <strong
-              >{{ 'track_progress_stage_1_mobile_monitoring_surveys' | i18n
-              }}</strong
-            >
-            {{ 'track_progress_four_mobile_surveys_were_completed' | i18n }}
-            <strong
-              >{{ 'track_progress_they_are_not_used_to_establish_health_risks' |
-              i18n }}</strong
-            >
-          </li>
-          <li class="m-b">
-            <strong
-              >{{ 'track_progress_stage_2_stationary_air_quality_monitors' |
-              i18n }}</strong
-            >
-            {{ 'track_progress_they_measure_pollutants_in_the_air' | i18n }}
-          </li>
-        </ul>
-      </div>
 
-      <div class="row">
-        <div class="col-lg-6 m-b-md">
-          <div
-            id="card-eaton-fire-area"
-            class="dashboard-card rounded d-flex flex-column">
-            <h3
-              class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary d-flex align-items-center">
-              <img
-                src="/lafires/images/icon-air-monitoring.svg"
-                width="48"
-                height="48"
-                aria-hidden="true" />
-              <span class="m-l-sm"
-                >{{ 'track_progress_mobile_air_monitoring' | i18n }}</span
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+              <span class="dashboard-stat p-r"
+                ><span id="air_mobile_survey_complete2"></span
+              ></span>
+              <span class="font-weight-700"
+                >{{
+                'track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted'
+                | i18n }}</span
               >
-            </h3>
-
-            <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
-              <p>
-                {{ 'track_progress_mobile_air_monitoring_is_now_complete' | i18n
-                }}
-              </p>
-
-              <div
-                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
-                <span class="dashboard-stat"
-                  ><span id="air_mobile_survey_complete2"></span
-                ></span>
-                <span
-                  >{{
-                  'track_progress_four_mobile_surveys_two_in_each_burn_area_were_conducted'
-                  | i18n }}</span
-                >
-              </div>
-
-              <!-- <hr /> -->
-
-              <h4 class="h6">{{ 'track_progress_results' | i18n }}</h4>
-              <p>
-                {{
-                'track_progress_overall_survey_results_from_eaton_and_palisades_areas_were_within_background_levels'
-                | i18n }}
-              </p>
             </div>
 
-            <p class="font-size-12 bg-s1 p-a">
-              <em
+            <p class="font-size-12 m-t-sm">
+              {{
+              'track_progress_overall_survey_results_from_eaton_and_palisades_areas_were_within_background_levels'
+              | i18n }}
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <div
+              class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+              <span class="dashboard-stat p-r"
+                ><span id="air_stationary_deployed2"></span
+              ></span>
+              <span class="font-weight-700"
                 >{{
-                'track_progress_reported_by_south_coast_air_quality_management_district'
-                | i18n }}<br />
-                <!--<span id="air_mobile_survey_complete_date2"></span
-              >--></em
-              >Data as of 5/14/2025 at 1:30 PM
+                'track_progress_stationary_air_quality_monitoring_sites_deployed'
+                | i18n }}</span
+              >
+            </div>
+            <p class="font-size-12 m-t-sm">
+              {{ 'track_progress_stationary_air_quality_monitoring_description'
+              | i18n }}
             </p>
           </div>
         </div>
 
-        <div class="col-lg-6 m-b-md">
-          <div
-            id="card-palisades-fire-area"
-            class="dashboard-card rounded h-100 d-flex flex-column">
-            <h3
-              class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary d-flex align-items-center">
-              <img
-                src="/lafires/images/icon-station-air-monitoring.svg"
-                width="48"
-                height="48"
-                aria-hidden="true" />
-              <span class="m-l-sm"
-                >{{ 'track_progress_stationary_air_monitoring' | i18n }}</span
+        <hr class="opacity-100" />
+
+        <div
+          class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+          <span class="dashboard-stat p-r"><span>219</span></span>
+          <span class="font-weight-700"
+            >{{ 'track_progress_air_asbestos_collected' | i18n }}</span
+          >
+        </div>
+        <p class="font-size-12 m-t-sm m-b-md">
+          {{ 'track_progress_air_asbestos_collected_description' | i18n }}
+        </p>
+        <hr class="opacity-100" />
+
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+              <span class="dashboard-stat p-r"><span>215</span></span>
+              <span class="font-weight-700">
+                {{ 'track_progress_air_toxic_metal_collected' | i18n }}</span
               >
-            </h3>
-
-            <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
-              <div
-                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
-                <span class="dashboard-stat"
-                  ><span id="air_stationary_deployed2"></span
-                ></span>
-                <span
-                  >{{
-                  'track_progress_stationary_air_quality_monitoring_sites_deployed'
-                  | i18n }}</span
-                >
-              </div>
-              <p>
-                {{
-                'track_progress_stationary_air_quality_monitoring_description' |
-                i18n }}
-              </p>
-
-              <hr />
-
-              <h4 class="h6">
-                {{ 'track_progress_eaton_data_results' | i18n }}
-              </h4>
-
-              <ul class="p-l-sm">
-                <li class="m-b-sm">
-                  {{ 'track_progress_altadena_golf_course_results_2' | i18n }}
-                  <ul class="p-l m-t-sm">
-                    <li class="m-b-sm">
-                      {{ 'track_progress_eaton_data_list_1' | i18n }}
-                    </li>
-                    <li class="m-b-sm">
-                      {{ 'track_progress_eaton_data_list_2' | i18n }}
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-
-              <h4 class="h6">
-                {{ 'track_progress_palisades_data_results' | i18n }}
-              </h4>
-              <ul class="p-l-sm">
-                <li class="m-b-sm">
-                  {{ 'track_progress_will_rogers_results_2' | i18n }}
-                  <ul class="p-l m-t-sm">
-                    <li class="m-b-sm">
-                      {{ 'track_progress_pasisades_data_list_1' | i18n }}
-                    </li>
-                    <li class="m-b-sm">
-                      {{ 'track_progress_pasisades_data_list_2' | i18n }}
-                    </li>
-                  </ul>
-                </li>
-              </ul>
             </div>
+          </div>
 
-            <p class="font-size-12 bg-s1 p-a">
-              <em
-                >{{
-                'track_progress_reported_by_south_coast_air_quality_management_district'
-                | i18n }}</em
-              ><br /><!--<span id="air_mobile_survey_complete_date3"></span>-->
-              {{ 'track_air_quality_management_progress_data_as_of' | i18n }}
-            </p>
+          <div class="col-md-6">
+            <div
+              class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+              <span class="dashboard-stat p-r"><span>33</span></span>
+              <span class="font-weight-700"
+                >{{ 'track_progress_air_toxic_metal_analyzed' | i18n }}</span
+              >
+            </div>
           </div>
         </div>
+        <hr class="opacity-100" />
+        <div
+          class="m-0 p-t-sm p-b-md font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+          <span class="dashboard-stat p-r"><span>28,588</span></span>
+          <span class="font-weight-700"
+            >{{ 'track_progress_air_matter' | i18n }}</span
+          >
+        </div>
       </div>
+      <p class="font-size-12 bg-s1 p-a rounded-bottom">
+        <em
+          >{{
+          'track_progress_reported_by_south_coast_air_quality_management_district'
+          | i18n }}</em
+        ><br /><!--<span id="air_mobile_survey_complete_date3"></span>-->
+        Data as of 8/14/2025 at 4:30 PM
+      </p>
 
-      <div class="row">
-        <p>
-          {{
-          'track_progress_all_results_from_the_stationary_sites_are_available' |
-          i18n | safe }}
-        </p>
-      </div>
+      <!--END Air quality monitoring-->
+
+      <p class="m-t-md">
+        {{ 'track_progress_all_results_from_the_stationary_sites_are_available'
+        | i18n | safe }}
+      </p>
+      <!--END MAIN COL CONTENT-->
     </div>
-    <!--END MAIN COL CONTENT-->
   </div>
-</div>
 
-{%- set js -%}{%- include "./track-progress.mjs" -%}{%- endset -%}
-<script type="module">
-  {{- js | jsmin | safe }}
-</script>
+  {%- set js -%}{%- include "./track-progress.mjs" -%}{%- endset -%}
+  <script type="module">
+    {{- js | jsmin | safe }}
+  </script>
+</div>
