@@ -68,7 +68,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="county_rebuild_applications_in_review"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  Zoning reviews cleared
+                  Building permits in process
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -104,21 +104,66 @@
         <!--LA city-->
         <div class="col-lg-6 m-t">
           <div class="d-flex flex-column h-100">
-            <div class="bg-primary border-top rounded-top p-a-md h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
               <h3 class="h4 color-white m-t-0 font-weight-400">
                 City of Los Angeles
               </h3>
               <div class="d-flex align-items-center">
-                <span class="color-white font-size-14 font-weight-600">
-                  No public data currently being shared
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_rebuild_applications_received"
+                  >X</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Applications received
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_rebuild_applications_in_review"
+                  >X</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  In review
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_building_permits_issued"
+                  >X</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Permits issued
                 </span>
               </div>
             </div>
-            <div
-              class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto d-flex flex-column">
-              <p class="font-size-12 m-b-0">
-                <em> &emsp; </em><br />
-                &emsp;
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Reported by City of Los Angeles
+                  <a href="#">Permitting Progress Dashboard</a>.</em
+                ><br />
+                <em
+                  ><span id="la_building_permits_issued_date"
+                    >Date as of X/Y/Z</span
+                  ></em
+                >
               </p>
             </div>
           </div>
@@ -155,7 +200,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="malibu_rebuild_applications_in_review"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  Building plan check - submitted
+                  Under planning review + Building plan check - submitted
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -218,7 +263,7 @@
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="pasadena_rebuild_applications_in_review"></span
                 ><span class="color-white font-size-14 font-weight-600">
-                  Plan reviews approved
+                  In review
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -259,9 +304,10 @@
         <div>
           <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
         </div>
-        <p class="m-b-0">
-          Permitting numbers are sourced directly from local jurisdictions and
-          they may not be directly comparable to each other.
+        <p class="m-b-0 font-size-16">
+          All permitting is handled by local governments. Permitting numbers are
+          sourced directly from local jurisdictions and they may not be directly
+          comparable to each other.
         </p>
       </div>
 
