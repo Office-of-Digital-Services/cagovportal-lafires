@@ -696,6 +696,59 @@ document.addEventListener("DOMContentLoaded", () => {
         pasadena_building_permits_issued_date_Element.textContent = `Data as of ${pasadena_building_permits_issued_date}`;
       }
 
+      /* LA City */
+      /* LA City rebuild application received */
+      const la_city_rebuild_applications_received_Element =
+        document.getElementById("la_city_applications_received");
+
+      if (la_city_rebuild_applications_received_Element) {
+        const la_city_rebuild_applications_received_Value = getMetricValue(
+          "la_city_applications_received"
+        );
+        la_city_rebuild_applications_received_Element.textContent =
+          la_city_rebuild_applications_received_Value !== null
+            ? la_city_rebuild_applications_received_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* LA City rebuild application in review */
+      const la_city_rebuild_applications_in_review_Element =
+        document.getElementById("la_city_in_review");
+
+      if (la_city_rebuild_applications_in_review_Element) {
+        const la_city_rebuild_applications_in_review_Value =
+          getMetricValue("la_city_in_review");
+        la_city_rebuild_applications_in_review_Element.textContent =
+          la_city_rebuild_applications_in_review_Value !== null
+            ? la_city_rebuild_applications_in_review_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* LA City building permits issued */
+      const la_city_building_permits_issued_Element = document.getElementById(
+        "la_city_permits_issued"
+      );
+
+      if (la_city_building_permits_issued_Element) {
+        const la_city_building_permits_issued_Value = getMetricValue(
+          "la_city_permits_issued"
+        );
+        la_city_building_permits_issued_Element.textContent =
+          la_city_building_permits_issued_Value !== null
+            ? la_city_building_permits_issued_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* LA City building permits issued DATE */
+      const la_city_building_permits_issued_date = getLastUpdated(
+        "la_city_permits_issued"
+      );
+      const la_city_building_permits_issued_date_Element =
+        document.getElementById("la_city_permits_issued_date");
+      if (la_city_building_permits_issued_date_Element) {
+        la_city_building_permits_issued_date_Element.textContent = `Data as of ${la_city_building_permits_issued_date}`;
+      }
+
       /* Air chart */
       /* Calculate air percentages */
       const totalAirValue =
