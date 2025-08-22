@@ -1181,13 +1181,13 @@
   "track_progress_permits_to_rebuild_description_2": {
     "status": "ap_review",
     "en": "Review <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> to learn more about the rebuilding process.",
-    "es": "Revise <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> para obtener más información sobre el proceso de reconstrucción.",
-    "ko": "재건 프로세스에 대한 자세한 내용을 보려면 <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA 카운티 재건</a>을 검토하세요.",
-    "vi": "Xem <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> để tìm hiểu thêm về quy trình xây dựng lại.",
-    "tl": "Suriin ang <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> upang matuto nang higit pa tungkol sa proseso ng muling pagtatayo.",
-    "zh-hans": "查看 <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> 以了解有关重建过程的更多信息。",
-    "zh-hant": "查看 <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> 以了解有關重建過程的更多資訊。",
-    "hy": "Ստուգեք <a href=\"https://recovery.lacounty.gov/rebuilding/\">LA County Rebuilding</a> կայքը, որպեսզի ավելին իմանաք վերակառուցման գործընթացի մասին։"
+    "es": "Revise <a href=\"https://recovery.lacounty.gov/rebuilding/\">Reconstrucción del condado de LA</a> para obtener más información sobre el proceso de reconstrucción.",
+    "ko": "<a href=\"https://recovery.lacounty.gov/rebuilding/\">LA 카운티 재건</a>을 검토하여 재건 과정에 대해 자세히 알아보세요.",
+    "vi": "Xem <a href=\"https://recovery.lacounty.gov/rebuilding/\">Tái thiết Quận LA</a> để tìm hiểu thêm về quy trình xây dựng lại.",
+    "tl": "Suriin ang <a href=\"https://recovery.lacounty.gov/rebuilding/\">Pagpapatayo muli sa LA County</a> upang matuto pa tungkol sa proseso ng muling pagtatayo.",
+    "zh-hans": "查看<a href=\"https://recovery.lacounty.gov/rebuilding/\">洛杉矶县重建</a>，了解更多重建流程信息。",
+    "zh-hant": "查看<a href=\"https://recovery.lacounty.gov/rebuilding/\">洛杉磯縣重建</a>，了解更多重建流程資訊。",
+    "hy": "Վերակառուցման գործընթացի մասին ավելին իմանալու համար ուսումնասիրեք <a href=\"https://recovery.lacounty.gov/rebuilding/\">Լոս Անջելեսի շրջանի վերակառուցումը</a>։"
   },
   "track_progress_permits_to_la_county": {
     "status": "ap_review",
@@ -1387,5 +1387,17 @@
     "zh-hans": "测量了颗粒物 (PM2.5 和 PM10) 数据点",
     "zh-hant": "測量了顆粒物 (PM2.5 和 PM10) 數據點",
     "hy": "պինդ մասնիկների (PM2.5 և PM10) տվյալներ են չափվել"
+  },
+  "track_progress_permits_card": {
+    "status": "ap_review",
+    "en": "Visit our new <a href=\"/lafires/rebuilding-la/\">Rebuilding LA dashboard</a> to learn more about the rebuilding process in the Los Angeles County, City of Los Angeles, City of Malibu, and City of Pasadena.",
+    "es": "Visite nuestro nuevo <a href=\"/lafires/es/rebuilding-la/\">Tablero de reconstrucción de LA</a> para obtener más información sobre el proceso de reconstrucción en el condado de Los Ángeles, la ciudad de Los Ángeles, la ciudad de Malibú y la ciudad de Pasadena.",
+    "ko": "로스앤젤레스 카운티, 로스앤젤레스 시, 말리부 시 및 패서디나 시의 재건 프로세스에 대해 자세히 알아보려면 새로운 <a href=\"/lafires/ko/rebuilding-la/\">LA 재건 대시보드</a>를 방문하세요.",
+    "vi": "Truy cập <a href=\"/lafires/vi/rebuilding-la/\">Bảng điều khiển Xây dựng lại LA</a> mới của chúng tôi để tìm hiểu thêm về quá trình xây dựng lại ở Quận Los Angeles, Thành phố Los Angeles, Thành phố Malibu và Thành phố Pasadena.",
+    "tl": "Bisitahin ang aming bagong <a href=\"/lafires/tl/rebuilding-la/\">Dashboard ng Pagtatayo muli ng LA</a> upang matuto nang higit pa tungkol sa proseso ng muling pagtatayo sa Los Angeles County, Lungsod ng Los Angeles, Lungsod ng Malibu at Lungsod ng Pasadena.",
+    "zh-hans": "访问我们的新<a href=\"/lafires/zh-hans/rebuilding-la/\">重建洛杉矶仪表板</a>页面，了解洛杉矶县、洛杉矶市、马里布市和帕萨迪纳市的重建过程。",
+    "zh-hant": "訪問我們新的<a href=\"/lafires/zh-hant/rebuilding-la/\">重建洛杉磯儀表板</a>頁面，了解洛杉磯縣、洛杉磯市、馬里布市和帕薩迪納市的重建過程。",
+    "hy": "Այցելեք մեր նոր <a href=\"/lafires/hy/rebuilding-la/\">Լոս Անջելեսի վերակառուցման վահանակը</a>՝ Լոս Անջելեսի շրջանի, Լոս Անջելեսի քաղաքի, Մալիբու քաղաքի և Պասադենայի քաղաքի վերակառուցման գործընթացի մասին տեղեկանալու համար։"
   }
 }
+

@@ -162,6 +162,15 @@
       </p>
       <nav class="page-navigation"></nav>
 
+      <div class="bg-gray-100 p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="color-p2-darker m-b-0">
+          {{ 'track_progress_permits_card' | i18n | safe }}
+        </p>
+      </div>
+
       <!--People helped-->
       <div class="row m-b-lg">
         <h2 class="m-b-md">{{ 'track_progress_people_helped' | i18n }}</h2>
@@ -573,132 +582,298 @@
       <!--Permits to rebuild-->
 
       <h2 class="m-b-md">{{ 'track_progress_permits_to_rebuild' | i18n }}</h2>
+
       <p>{{ 'track_progress_permits_to_rebuild_description' | i18n }}</p>
       <p>
         {{ 'track_progress_permits_to_rebuild_description_2' | i18n | safe }}
       </p>
 
-      <div class="row p-t-md">
-        <div class="col-lg-6 m-b-md">
-          <div
-            id="card-palisades-fire-area"
-            class="dashboard-card rounded h-100 d-flex flex-column">
-            <h3
-              class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary d-flex align-items-center">
-              <span class="m-l-sm"
-                >{{ 'track_progress_permits_to_la_county' | i18n }}</span
-              >
-            </h3>
+      <div class="bg-gray-100 p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="color-p2-darker m-b-0">
+          {{ 'track_progress_permits_card' | i18n | safe }}
+        </p>
+      </div>
 
-            <div class="bg-primary font-size-12 h-100 p-x-md p-b-0 p-t-sm">
-              <div
-                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+      <div
+        class="alert alert-warning p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="m-b-0 font-size-16">
+          All permitting is handled by local governments. Permitting numbers are
+          sourced directly from local jurisdictions and they may not be directly
+          comparable to each other.
+        </p>
+      </div>
+
+      <div class="row">
+        <!--LA county-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Los Angeles County
+              </h3>
+              <div class="d-flex align-items-center">
                 <img
-                  src="/lafires/images/icon-location.svg"
-                  width="40"
-                  height="40"
+                  src="/lafires/images/icon-permits-received.svg"
                   aria-hidden="true"
-                  alt="" />
-                <span class="dashboard-stat"
-                  ><span id="county_rebuild_applications_received"></span
-                ></span>
+                  alt=""
+                  class="height-40 m-r" />
                 <span
-                  >{{ 'track_progress_permints_to_rebuild_zooning_1' | i18n
-                  }}</span
-                >
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Applications received
+                </span>
               </div>
-            </div>
-
-            <div class="bg-primary font-size-12 h-100 p-x-md p-b-0 p-t-sm">
-              <div
-                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
                 <img
-                  src="/lafires/images/icon-permits-building.svg"
-                  width="40"
-                  height="40"
+                  src="/lafires/images/icon-permits-in-review.svg"
                   aria-hidden="true"
-                  alt="" />
-                <span class="dashboard-stat"
-                  ><span id="county_zoning_reviews_cleared"></span
-                ></span>
+                  alt=""
+                  class="height-40 m-r" />
                 <span
-                  >{{ 'track_progress_permints_to_rebuild_zooning_2' | i18n
-                  }}</span
-                >
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  In review
+                </span>
               </div>
-            </div>
-
-            <div class="bg-primary font-size-12 h-100 p-x-md p-b-0 p-t-sm">
-              <div
-                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
                 <img
-                  src="/lafires/images/icon-tool.svg"
-                  width="40"
-                  height="40"
+                  src="/lafires/images/icon-permits-issued.svg"
                   aria-hidden="true"
-                  alt="" />
-                <span class="dashboard-stat"
-                  ><span id="county_building_plan_reviews_in_process"></span
-                ></span>
+                  alt=""
+                  class="height-40 m-r" />
                 <span
-                  >{{ 'track_progress_permints_plans_reviews' | i18n }}</span
-                >
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Permits issued
+                </span>
               </div>
             </div>
-
-            <div class="bg-primary font-size-12 h-100 p-x-md p-t-sm p-b-md">
-              <div
-                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
-                <img
-                  src="/lafires/images/icon-house-check.svg"
-                  width="40"
-                  height="40"
-                  aria-hidden="true"
-                  alt="" />
-                <span class="dashboard-stat"
-                  ><span id="county_building_permits_issued"></span
-                ></span>
-                <span>{{ 'track_progress_permints_issued' | i18n }}</span>
-              </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Reported by LA County
+                  <a
+                    href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/"
+                    >Permitting Progress Dashboard</a
+                  >.</em
+                ><br />
+                <em><span id="county_building_permits_issued_date"></span></em>
+              </p>
             </div>
-
-            <p class="font-size-12 bg-s1 p-a">
-              <em
-                >{{ 'track_progress_building_permits_reported_by' | i18n | safe
-                }}</em
-              ><br /><span id="county_building_permits_issued_date"></span>
-            </p>
           </div>
         </div>
 
-        <div class="col-lg-6 m-b-md">
-          <div
-            id="card-palisades-fire-area"
-            class="dashboard-card rounded h-100 d-flex flex-column">
-            <h3
-              class="dashboard-card-heading font-size-20 line-height-1-2em m-0 p-x-md p-t-md p-b-sm bg-primary d-flex align-items-center">
-              <span>{{ 'track_progress_permits_to_la_city' | i18n }}</span>
-            </h3>
-
-            <div class="bg-primary font-size-12 h-100 p-x-md p-b-md p-t-sm">
-              <div
-                class="m-0 p-t-sm font-size-12 d-flex flex-row align-items-center gap-2 p-r">
-                <span>{{ 'track_progress_permits_no_data' | i18n }}</span>
+        <!--LA city-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                City of Los Angeles
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_rebuild_applications_received"
+                  >1,128</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Applications received
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_rebuild_applications_in_review"
+                  >628</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  In review
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_building_permits_issued"
+                  >371</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Permits issued
+                </span>
               </div>
             </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em>Reported by City of Los Angeles</em><br />
+                <em
+                  ><span id="la_building_permits_issued_date"
+                    >Data as of 8/21/2025</span
+                  ></em
+                >
+              </p>
+            </div>
+          </div>
+        </div>
 
-            <p class="font-size-12 bg-s1 p-a">
-              <em> &emsp; </em><br />
-              &emsp;
-              <!-- <span id="air_mobile_survey_complete_date3"></span> -->
-            </p>
+        <!--Malibu-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                City of Malibu
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Applications received
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  In review
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Permits issued
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Reported by City of Malibu
+                  <a href="https://maliburebuilds.org/rebuild-dashboard/"
+                    >Permitting Progress Dashboard</a
+                  >.</em
+                ><br />
+                <em><span id="malibu_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Pasadena-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                City of Pasadena
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Applications received
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  In review
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Permits issued
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Reported by City of Pasadena
+                  <a
+                    href="https://experience.arcgis.com/experience/d4c4617a88204a869a37404d1496cfbd/page/Pasadena-Rebuilds"
+                    >Permitting Progress Dashboard</a
+                  >.</em
+                ><br />
+                <em
+                  ><span id="pasadena_building_permits_issued_date"></span
+                ></em>
+              </p>
+            </div>
           </div>
         </div>
       </div>
 
       <!--Water restored-->
       <div class="row m-b-lg">
-        <h2 class="m-b-md">{{ 'track_progress_water_restored' | i18n }}</h2>
+        <h2 class="m-b-md m-t-lg">
+          {{ 'track_progress_water_restored' | i18n }}
+        </h2>
         <p>
           {{ 'track_progress_california_state_water_resources_control_board' |
           i18n }}
