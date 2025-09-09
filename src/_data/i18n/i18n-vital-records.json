@@ -96,7 +96,7 @@
   },
   "to_apply_online_with_login.gov_body": {
     "status": "machine_translation",
-    "en": "<a href=\"https://login.gov/\">Login.gov</a> is a secure, federally backed service for identity verification that provides access to many U.S. goverment websites with one login.",
+    "en": "<a href=\"https://login.gov/\">Login.gov</a> is a secure, federally backed service for identity verification that provides access to many U.S. government websites with one login.",
     "fr": "<a href=\"https://login.gov/\">Login.gov</a> est un service sécurisé, soutenu par le gouvernement fédéral, pour la vérification d'identité qui permet d'accéder à de nombreux sites Web du gouvernement américain avec une seule connexion.",
     "es": "<a href=\"https://login.gov/\">Login.gov</a> es un servicio seguro respaldado por el gobierno federal para la verificación de identidad que proporciona acceso a muchos sitios web del gobierno de EE. UU. con un solo inicio de sesión.",
     "ko": "<a href=\"https://login.gov/\">Login.gov</a>는 신원 확인을 위한 안전한 연방 지원 서비스로, 하나의 로그인으로 미국 정부 웹사이트에 접근할 수 있습니다.",
