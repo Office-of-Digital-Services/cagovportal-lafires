@@ -67,8 +67,20 @@
             <ul>
               <li>
                 <a
-                  href="{{ '/lafires/help-for-you/replace-personal-documents/birth-death-marriage-certificates/' | localizedPath }}"
-                  >{{ 'sidenav_birth_death_marriage_certificates'| i18n }}</a
+                  href="/lafires/help-for-you/replace-personal-documents/birth-certificates/"
+                  >{{ 'sidenav_vital_records_birth_certificates'| i18n }}</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/lafires/help-for-you/replace-personal-documents/death-certificates/"
+                  >{{ 'sidenav_vital_records_death_certificates'| i18n }}</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/lafires/help-for-you/replace-personal-documents/marriage-certificates/"
+                  >{{ 'sidenav_vital_records_marriage_certificates'| i18n }}</a
                 >
               </li>
             </ul>
@@ -134,13 +146,31 @@
 
       <hr class="m-t-lg" />
       <h2>{{ 'replace_documents_vital_records' | i18n }}</h2>
+
+      <h3>{{ 'vital_records_records_from_california' | i18n }}</h3>
       <ul>
         <li class="m-t">
           <a
-            href="{{ '/lafires/help-for-you/replace-personal-documents/birth-death-marriage-certificates/' | localizedPath }}"
+            href="{{ '/lafires/help-for-you/replace-personal-documents/birth-certificates/' | localizedPath }}"
             >{{ 'replace_documents_vital_records_list_1' | i18n }}</a
           >
         </li>
+        <li class="m-t">
+          <a
+            href="{{ '/lafires/help-for-you/replace-personal-documents/death-certificates/' | localizedPath }}"
+            >{{ 'replace_documents_vital_records_list_1_2' | i18n }}</a
+          >
+        </li>
+        <li class="m-t">
+          <a
+            href="{{ '/lafires/help-for-you/replace-personal-documents/marriage-certificates/' | localizedPath }}"
+            >{{ 'replace_documents_vital_records_list_1_3' | i18n }}</a
+          >
+        </li>
+      </ul>
+
+      <h3>{{ 'vital_records_records_from_other_states' | i18n }}</h3>
+      <ul>
         <li class="m-t">
           <a href="https://www.cdc.gov/nchs/w2w/index.htm"
             >{{ 'replace_documents_vital_records_list_2' | i18n }}</a
