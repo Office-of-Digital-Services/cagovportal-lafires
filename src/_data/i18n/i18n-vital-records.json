@@ -120,15 +120,15 @@
   },
   "vital_records_once_verified": {
     "status": "machine_translation",
-    "en": "Once verified, you can access your records.",
-    "fr": "Une fois vérifié, vous pouvez accéder à vos dossiers.",
-    "es": "Una vez verificado, puede acceder a sus registros.",
-    "ko": "확인되면 기록에 액세스할 수 있습니다.",
-    "vi": "Sau khi xác minh, bạn có thể truy cập hồ sơ của mình.",
-    "tl": "Kapag na-verify na, maaari mong ma-access ang iyong mga record.",
-    "zh-hans": "一旦验证，您就可以访问您的记录。",
-    "zh-hant": "一旦驗證，您就可以訪問您的記錄。",
-    "hy": "Մի անգամ հաստատված, դուք կարող եք մուտք գործել ձեր արձանագրությունները։"
+    "en": "Once verified, you can submit your application.",
+    "fr": "Une fois vérifié, vous pouvez soumettre votre demande.",
+    "es": "Una vez verificado, puede enviar su solicitud.",
+    "ko": "확인되면 신청서를 제출할 수 있습니다.",
+    "vi": "Sau khi xác minh, bạn có thể gửi đơn đăng ký của mình.",
+    "tl": "Kapag na-verify na, maaari mong isumite ang iyong aplikasyon.",
+    "zh-hans": "一旦验证，您就可以提交申请。",
+    "zh-hant": "一旦驗證，您就可以提交申請。",
+    "hy": "Մի անգամ հաստատված, դուք կարող եք ներկայացնել ձեր դիմումը։"
   },
   "vital_records_you_do_not": {
     "status": "machine_translation",
@@ -624,5 +624,38 @@
     "zh-hans": "填写后完成公证，按照指引邮寄。",
     "zh-hant": "填寫、公證，然後按照說明郵寄。",
     "hy": "Լրացրեք այն, հաստատեք նոտարով և ուղարկեք ըստ հրահանգների:"
+  },
+  "vital_records_disclaimer": {
+    "en": "If the birth happened in another state, learn <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">how to get records from other states</a>.",
+    "fr": "Si la naissance a eu lieu dans un autre État, apprenez <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">comment obtenir des certificats d'autres États</a>.",
+    "es": "Si el nacimiento ocurrió en otro estado, aprenda <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cómo obtener registros de otros estados</a>.",
+    "ko": "출생이 다른 주에서 발생한 경우 <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">다른 주에서 기록을 얻는 방법</a>을 알아보십시오.",
+    "vi": "Nếu sinh ở tiểu bang khác, tìm hiểu <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cách lấy hồ sơ từ các tiểu bang khác</a>.",
+    "tl": "Kung ang kapanganakan ay nangyari sa ibang estado, alamin ang <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">kung paano kumuha ng mga tala mula sa ibang mga estado</a>.",
+    "zh-hans": "如果出生在其他州，请了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何获取其他州的记录</a>。",
+    "zh-hant": "如果出生在其他州，請了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何獲取其他州的記錄</a>。",
+    "hy": "Եթե ծնունդը տեղի է ունեցել այլ նահանգում, տեղեկացեք <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">ինչպես ստանալ այլ նահանգներից արձանագրություններ</a>:"
+  },
+  "vital_records_verify_notary": {
+    "en": "Verify your identity with an online notary",
+    "fr": "Vérifiez votre identité avec un notaire en ligne",
+    "es": "Verifique su identidad con un notario en línea",
+    "ko": "온라인 공증인과 함께 신원을 확인하십시오.",
+    "vi": "Xác minh danh tính của bạn với một công chứng viên trực tuyến",
+    "tl": "I-verify ang iyong pagkakakilanlan sa isang online notaryo",
+    "zh-hans": "通过在线公证人验证您的身份",
+    "zh-hant": "透過線上公證人驗證您的身份",
+    "hy": "Հաստատեք ձեր ինքնությունը առցանց նոտարի միջոցով"
+  },
+  "vital_records_verify_notary_description": {
+    "en": "You can verify your identity with a notary online. We do this through <a href=\"https://www.notarize.com/\">NotarizeNetwork from Proof</a>, a trusted partner. You can connect with an online notary 24/7 and complete your notarization in minutes.",
+    "fr": "Vous pouvez vérifier votre identité avec un notaire en ligne. Nous le faisons via <a href=\"https://www.notarize.com/\">NotarizeNetwork from Proof</a>, un partenaire de confiance. Vous pouvez vous connecter avec un notaire en ligne  24h/24 et 7j/7 et compléter votre notarisation en quelques minutes.",
+    "es": "Puede verificar su identidad con un notario en línea. Lo hacemos a través de <a href=\"https://www.notarize.com/\">NotarizeNetwork from Proof</a>, un socio de confianza. Puede conectarse con un notario en línea las 24 horas del día, los 7 días de la semana y completar su notarización en minutos.",
+    "ko": "온라인 공증인과 함께 신원을 확인할 수 있습니다. 우리는 신뢰할 수 있는 파트너인 <a href=\"https://www.notarize.com/\">NotarizeNetwork from Proof</a>를 통해 이를 수행합니다. 온라인 공증  인과 24시간 연결할 수 있으며 몇 분 안에 공증을 완료할 수 있습니다.",
+    "vi": "Bạn có thể xác minh danh tính của mình với một công chứng viên trực tuyến. Chúng tôi thực hiện việc này thông qua <a href=\"https://www.notarize.com/\">NotarizeNetwork from Proof</a>, một đối tác đáng tin cậy. Bạn có thể kết nối với một công chứng viên trực tuyến 24/7 và hoàn thành việc công chứng trong vài phút.",
+    "tl": "Maaari mong i-verify ang iyong pagkakakilanlan sa isang notaryo online. Ginagawa namin ito sa pamamagitan ng <a href=\"https://www.notarize.com/\">NotarizeNetwork mula sa Proof</a>, isang pinagkakatiwalaang kasosyo. Maaari kang kumonekta sa isang online notaryo 24/7 at kumpletuhin ang iyong notarization sa loob ng ilang minuto.",
+    "zh-hans": "您可以通过在线公证人验证您的身份。我们通过值得信赖的合作伙伴<a href=\"https://www.notarize.com/\">NotarizeNetwork from Proof</a>来实现这一点。您可以全天候24/7与在线公证人联系，并在几分钟内完成公证。",
+    "zh-hant": "您可以透過線上公證人驗證您的身份。我們通過值得信賴的合作夥伴<a href=\"https://www.notarize.com/\">NotarizeNetwork from Proof</a>來實現這一點。您可以全天候  24/7與線上公證人聯繫，並在幾分鐘內完成公證。",
+    "hy": "Դուք կարող եք հաստատել ձեր ինքնությունը առցանց նոտարի միջոցով: Մենք դա անում ենք վստահելի գործընկեր <a href=\"https://www.notarize.com/\">NotarizeNetwork from Proof</a> միջոցով: Դուք կարող եք 24/7 կապ հաստատել առցանց նոտարի հետ և ավարտել ձեր նոտարացումը մի քանի րոպեում:"
   }
 }
