@@ -105,14 +105,10 @@
         </p>
       </div>
 
-      <h2>Apply online</h2>
-      <p>
-        To apply online, you’ll need to verify your identity with either a
-        <a href="https://login.gov/">Login.gov</a> account or by signing a sworn
-        statement in front of a notary.
-      </p>
+      <h2>{{ 'vital_records_apply_online' | i18n }}</h2>
+      <p>{{ 'vital_records_apply_online_description' | i18n | safe }}</p>
 
-      <h3>Verify your identity with Login.gov</h3>
+      <h3>{{ 'vital_records_verify' | i18n }}</h3>
 
       <p>{{ 'to_apply_online_with_login.gov_body' | i18n | safe }}</p>
       <ul class="m-t m-b-sm">
@@ -144,30 +140,18 @@
         >Use an online notary</a
       > -->
 
-      <h2>Apply by mail or email</h2>
+      <h2>{{ 'vital_records_apply_by_mail' | i18n }}</h2>
       <ul>
         <li>
-          Print the application for the record you nee
+          {{ 'vital_records_apply_by_list_1' | i18n }}
           <ul>
-            <li>
-              PDF versions are available from the
-              <a href="https://www.cdph.ca.gov/"
-                >California Department of Public Health</a
-              >.
-            </li>
-            <li>
-              Fill it out, notarize it, and mail it according to the
-              instructions.
-            </li>
+            <li>{{ 'vital_records_apply_by_list_2' | i18n | safe }}</li>
+            <li>{{ 'vital_records_apply_by_list_3' | i18n }}</li>
           </ul>
         </li>
       </ul>
-      <h2>Apply in person</h2>
-      <p>
-        Select your application below to get started. After filling it out,
-        print the form, sign it in front of a notary, and upload the signed
-        application to submit online.
-      </p>
+      <h2>{{ 'vital_records_apply_in_person' | i18n }}</h2>
+      <p>{{ 'vital_records_apply_in_person_description' | i18n }}</p>
       <ul>
         <li>
           <a
