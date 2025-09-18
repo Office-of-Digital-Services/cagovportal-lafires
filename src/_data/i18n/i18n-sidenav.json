@@ -267,5 +267,52 @@
     "zh-hans": "火灾幸存者的健康资源",
     "zh-hant": "火災倖存者的健康資源",
     "hy": "Առողջության ռեսուրսներ հրդեհից տուժածների համար"
+  },
+  "sidenav_rebuilding_la": {
+    "status": "ap_review",
+    "en": "Rebuilding LA",
+    "es": "Reconstrucción de LA",
+    "ko": "LA 재건",
+    "vi": "Xây dựng lại LA",
+    "tl": "Muling pagtatayo ng LA",
+    "zh-hans": "重建洛杉矶",
+    "zh-hant": "重建洛杉磯",
+    "hy": "Վերակառուցում LA"
+  },
+  "sidenav_vital_records_birth_certificates": {
+    "status": "ap_review",
+    "en": "Birth certificates",
+    "fr": "Certificats de naissance",
+    "es": "Certificados de nacimiento",
+    "ko": "출생 증명서",
+    "vi": "Giấy khai sinh",
+    "tl": "Mga sertipiko ng kapanganakan",
+    "zh-hans": "出生证明",
+    "zh-hant": "出生證明",
+    "hy": "Ծննդյան վկայականներ"
+  },
+  "sidenav_vital_records_death_certificates": {
+    "status": "ap_review",
+    "en": "Death certificates",
+    "fr": "Certificats de décès",
+    "es": "Certificados de defunción",
+    "ko": "사망 증명서",
+    "vi": "Giấy chứng tử",
+    "tl": "Mga sertipiko ng pagkamatay",
+    "zh-hans": "死亡证明",
+    "zh-hant": "死亡證明",
+    "hy": "Մահվան վկայականներ"
+  },
+  "sidenav_vital_records_marriage_certificates": {
+    "status": "ap_review",
+    "en": "Marriage certificates",
+    "fr": "Certificats de mariage",
+    "es": "Certificados de matrimonio",
+    "ko": "혼인 증명서",
+    "vi": "Giấy chứng nhận kết hôn",
+    "tl": "Mga sertipiko ng kasal",
+    "zh-hans": "结婚证明",
+    "zh-hant": "結婚證明",
+    "hy": "Ամուսնության վկայականներ"
   }
 }

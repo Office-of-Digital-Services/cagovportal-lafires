@@ -1,0 +1,185 @@
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/vital-records-lineart.svg?v23fds') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">
+      <nav class="side-navigation sticky-6">
+        <a href="javascript:;" aria-hidden="true" class="d-none">{{title}}</a>
+        <ul class="list-navigation">
+          <li>
+            <a href="/lafires/" class="font-weight-700"
+              ><span class="color-p2"
+                >{{ 'sidenav_2025_los_angeles_fires'| i18n }}</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/" class="landing back"
+              >{{ 'sidenav_help_for_you'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/food-and-shelter/"
+              >{{ 'sidenav_food_and_shelter'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/health-and-safety/"
+              >{{ 'sidenav_health_and_safety'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/pets/">{{ 'sidenav_pets'| i18n }}</a>
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/financial-assistance/"
+              >{{ 'sidenav_financial_assistance'| i18n }}</a
+            >
+          </li>
+
+          <li>
+            <a href="/lafires/help-for-you/replace-personal-documents/"
+              >{{ 'sidenav_documents'| i18n }}</a
+            >
+            <ul>
+              <li>
+                <a
+                  href="/lafires/help-for-you/replace-personal-documents/birth-certificates/"
+                  >{{ 'sidenav_vital_records_birth_certificates'| i18n }}</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/lafires/help-for-you/replace-personal-documents/marriage-certificates/"
+                  >{{ 'sidenav_vital_records_marriage_certificates'| i18n }}</a
+                >
+              </li>
+              <li>
+                <a
+                  class="active"
+                  href="/lafires/help-for-you/replace-personal-documents/death-certificates/"
+                  >{{ 'sidenav_vital_records_death_certificates'| i18n }}</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/rebuild-your-house/"
+              >{{ 'sidenav_rebuild_your_house'| i18n }}</a
+            >
+          </li>
+          <li>
+            <a href="/lafires/help-for-you/get-help-in-person/"
+              >{{ 'sidenav_get_help_in_person'| i18n }}</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">{{ 'vital_records_description_page' | i18n }}</p>
+
+      <nav class="page-navigation"></nav>
+
+      <div class="bg-primary p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="m-b-0 color-white">
+          {{ 'vital_records_disclaimer' | i18n | safe }}
+        </p>
+      </div>
+
+      <h2>{{ 'vital_records_apply_online' | i18n }}</h2>
+      <p>{{ 'vital_records_apply_online_description_short' | i18n }}</p>
+      <!--
+      <h3>{{ 'vital_records_verify' | i18n }}</h3>
+
+      <p>{{ 'to_apply_online_with_login.gov_body' | i18n | safe }}</p>
+      <ul class="m-t m-b-sm">
+        <li class="m-t">
+          {{ 'vital_records_sign_in_or_create' | i18n | safe }}
+        </li>
+        <li class="m-t">{{ 'vital_records_once_verified' | i18n }}</li>
+      </ul>
+      <br />
+      <a
+        href="https://recovery.cdt.ca.gov/vital-records/login"
+        class="btn-primary btn-login-gov m-b-lg"
+        role="button">
+        <span>Get started with</span>
+        <img
+          src="/lafires/images/login.gov_button.svg"
+          alt="LOGIN.GOV logo"
+          class="login-gov-icon" />
+      </a>
+     
+      <h3 class="m-t-0">{{ 'vital_records_verify_notary' | i18n }}</h3>
+      <p>{{ 'vital_records_verify_notary_description' | i18n | safe }}</p>
+
+      <p>No printer is required.</p>
+
+      <a
+        href="https://app.fairfax.proof.com/easy-link?ApiKey=VPHsEQexL1YNjxyqKQ7pZViQ"
+        class="btn btn-primary rounded-4 btn-lg m-t"
+        >Use an online notary</a
+      > -->
+
+      <h2>{{ 'vital_records_apply_by_mail' | i18n }}</h2>
+      <ul>
+        <li>
+          {{ 'vital_records_apply_by_list_1' | i18n }}
+          <ul>
+            <li>{{ 'vital_records_apply_by_list_2' | i18n | safe }}</li>
+            <li>{{ 'vital_records_apply_by_list_3' | i18n }}</li>
+          </ul>
+        </li>
+      </ul>
+      <h2>{{ 'vital_records_apply_in_person' | i18n }}</h2>
+      <p>{{ 'vital_records_apply_in_person_description' | i18n }}</p>
+      <ul>
+        <li>
+          <a
+            href="https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a"
+            >Death record</a
+          >
+          (English)
+        </li>
+        <li>
+          <a
+            href="https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX"
+            >Registros de defunción</a
+          >
+          (Español)
+        </li>
+      </ul>
+      <h2>Other options</h2>
+      <p>Visit:</p>
+      <ul>
+        <li>
+          The
+          <a
+            href="https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx#"
+            >county recorder’s office</a
+          >
+          in the county where the death occurred.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

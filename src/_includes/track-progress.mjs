@@ -562,14 +562,191 @@ document.addEventListener("DOMContentLoaded", () => {
         "county_zoning_reviews_cleared"
       );
 
+      const county_zoning_reviews_cleared_Value = getMetricValue(
+        "county_zoning_reviews_cleared"
+      );
+
       if (county_zoning_reviews_cleared_Element) {
-        const county_zoning_reviews_cleared_Value = getMetricValue(
-          "county_zoning_reviews_cleared"
-        );
         county_zoning_reviews_cleared_Element.textContent =
           county_zoning_reviews_cleared_Value !== null
             ? county_zoning_reviews_cleared_Value.toLocaleString()
             : "N/A";
+      }
+
+      /* REBUILDING LA DASHBOARD */
+      const county_building_plan_reviews_in_process_value = getMetricValue(
+        "county_building_plan_reviews_in_process"
+      );
+
+      const county_rebuild_applications_in_review_value =
+        county_building_plan_reviews_in_process_value || 0;
+
+      const county_rebuild_applications_in_review_Element =
+        document.getElementById("county_rebuild_applications_in_review");
+
+      if (county_rebuild_applications_in_review_Element) {
+        county_rebuild_applications_in_review_Element.textContent =
+          county_rebuild_applications_in_review_value !== null
+            ? county_rebuild_applications_in_review_value.toLocaleString()
+            : "N/A";
+      }
+
+      /* Malibu rebuild application received */
+      const malibu_rebuild_applications_received_Element =
+        document.getElementById("malibu_rebuild_applications_received");
+
+      if (malibu_rebuild_applications_received_Element) {
+        const malibu_rebuild_applications_received_Value =
+          getMetricValue("malibu_rebuild_applications_received") || 0;
+        malibu_rebuild_applications_received_Element.textContent =
+          malibu_rebuild_applications_received_Value !== null
+            ? malibu_rebuild_applications_received_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* Malibu rebuild application in review */
+      const malibu_rebuild_applications_in_review_Element =
+        document.getElementById("malibu_rebuild_applications_in_review");
+
+      if (malibu_rebuild_applications_in_review_Element) {
+        const malibu_rebuild_applications_in_review_Value = getMetricValue(
+          "malibu_rebuild_applications_in_review"
+        );
+        malibu_rebuild_applications_in_review_Element.textContent =
+          malibu_rebuild_applications_in_review_Value !== null
+            ? malibu_rebuild_applications_in_review_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* Malibu building permits issued */
+      const malibu_building_permits_issued_Element = document.getElementById(
+        "malibu_building_permits_issued"
+      );
+
+      if (malibu_building_permits_issued_Element) {
+        const malibu_building_permits_issued_Value = getMetricValue(
+          "malibu_building_permits_issued"
+        );
+        malibu_building_permits_issued_Element.textContent =
+          malibu_building_permits_issued_Value !== null
+            ? malibu_building_permits_issued_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* Malibu building permits issued DATE */
+      const malibu_building_permits_issued_date = getLastUpdated(
+        "malibu_building_permits_issued"
+      );
+      const malibu_building_permits_issued_date_Element =
+        document.getElementById("malibu_building_permits_issued_date");
+      if (malibu_building_permits_issued_date_Element) {
+        malibu_building_permits_issued_date_Element.textContent = `Data as of ${malibu_building_permits_issued_date}`;
+      }
+
+      /* Pasadena rebuild application received */
+      const pasadena_rebuild_applications_received_Element =
+        document.getElementById("pasadena_rebuild_applications_received");
+
+      if (pasadena_rebuild_applications_received_Element) {
+        const pasadena_rebuild_applications_received_Value = getMetricValue(
+          "pasadena_rebuild_applications_received"
+        );
+        pasadena_rebuild_applications_received_Element.textContent =
+          pasadena_rebuild_applications_received_Value !== null
+            ? pasadena_rebuild_applications_received_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* pasadena rebuild application in review */
+      const pasadena_rebuild_applications_in_review_Element =
+        document.getElementById("pasadena_rebuild_applications_in_review");
+
+      if (pasadena_rebuild_applications_in_review_Element) {
+        const pasadena_rebuild_applications_in_review_Value = getMetricValue(
+          "pasadena_rebuild_applications_in_review"
+        );
+        pasadena_rebuild_applications_in_review_Element.textContent =
+          pasadena_rebuild_applications_in_review_Value !== null
+            ? pasadena_rebuild_applications_in_review_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* pasadena building permits issued */
+      const pasadena_building_permits_issued_Element = document.getElementById(
+        "pasadena_building_permits_issued"
+      );
+
+      if (pasadena_building_permits_issued_Element) {
+        const pasadena_building_permits_issued_Value = getMetricValue(
+          "pasadena_building_permits_issued"
+        );
+        pasadena_building_permits_issued_Element.textContent =
+          pasadena_building_permits_issued_Value !== null
+            ? pasadena_building_permits_issued_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* Pasadena building permits issued DATE */
+      const pasadena_building_permits_issued_date = getLastUpdated(
+        "pasadena_building_permits_issued"
+      );
+      const pasadena_building_permits_issued_date_Element =
+        document.getElementById("pasadena_building_permits_issued_date");
+      if (pasadena_building_permits_issued_date_Element) {
+        pasadena_building_permits_issued_date_Element.textContent = `Data as of ${pasadena_building_permits_issued_date}`;
+      }
+
+      /* LA City */
+      /* LA City rebuild application received */
+      const la_city_rebuild_applications_received_Element =
+        document.getElementById("la_city_applications_received");
+
+      if (la_city_rebuild_applications_received_Element) {
+        const la_city_rebuild_applications_received_Value = getMetricValue(
+          "la_city_applications_received"
+        );
+        la_city_rebuild_applications_received_Element.textContent =
+          la_city_rebuild_applications_received_Value !== null
+            ? la_city_rebuild_applications_received_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* LA City rebuild application in review */
+      const la_city_rebuild_applications_in_review_Element =
+        document.getElementById("la_city_in_review");
+
+      if (la_city_rebuild_applications_in_review_Element) {
+        const la_city_rebuild_applications_in_review_Value =
+          getMetricValue("la_city_in_review");
+        la_city_rebuild_applications_in_review_Element.textContent =
+          la_city_rebuild_applications_in_review_Value !== null
+            ? la_city_rebuild_applications_in_review_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* LA City building permits issued */
+      const la_city_building_permits_issued_Element = document.getElementById(
+        "la_city_permits_issued"
+      );
+
+      if (la_city_building_permits_issued_Element) {
+        const la_city_building_permits_issued_Value = getMetricValue(
+          "la_city_permits_issued"
+        );
+        la_city_building_permits_issued_Element.textContent =
+          la_city_building_permits_issued_Value !== null
+            ? la_city_building_permits_issued_Value.toLocaleString()
+            : "N/A";
+      }
+
+      /* LA City building permits issued DATE */
+      const la_city_building_permits_issued_date = getLastUpdated(
+        "la_city_permits_issued"
+      );
+      const la_city_building_permits_issued_date_Element =
+        document.getElementById("la_city_permits_issued_date");
+      if (la_city_building_permits_issued_date_Element) {
+        la_city_building_permits_issued_date_Element.textContent = `Data as of ${la_city_building_permits_issued_date}`;
       }
 
       /* Air chart */
