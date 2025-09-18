@@ -92,21 +92,26 @@
     </div>
 
     <div class="col-lg-9 pt-lg-3">
-      <p class="m-b-md lead">{{ 'vital_records_description_page' | i18n }}</p>
+      <p class="m-b-md lead">{{ 'vital_records_marriage_lead' | i18n }}</p>
 
       <nav class="page-navigation"></nav>
 
-      <div class="bg-primary p-a-md m-t-md m-b-md d-flex align-items-top">
-        <div>
-          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+      <div class="row">
+        <div class="col-md-11">
+          <div class="bg-primary p-a-md m-t-md m-b-md d-flex align-items-top">
+            <div>
+              <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+            </div>
+            <p class="m-b-0 color-white">
+              {{ 'vital_records_marriage_disclaimer' | i18n | safe }}
+            </p>
+          </div>
         </div>
-        <p class="m-b-0 color-white">
-          {{ 'vital_records_disclaimer' | i18n | safe }}
-        </p>
       </div>
 
       <h2>{{ 'vital_records_apply_online' | i18n }}</h2>
       <p>{{ 'vital_records_apply_online_description' | i18n | safe }}</p>
+      <p>{{ 'vital_records_apply_online_description_2' | i18n }}</p>
 
       <h3>{{ 'vital_records_verify' | i18n }}</h3>
 
@@ -122,23 +127,23 @@
         href="https://recovery.cdt.ca.gov/vital-records/login"
         class="btn-primary btn-login-gov m-b-lg"
         role="button">
-        <span>Get started with</span>
+        <span>{{ 'vital_records_get_started_with' | i18n }}</span>
         <img
           src="/lafires/images/login.gov_button.svg"
           alt="LOGIN.GOV logo"
           class="login-gov-icon" />
       </a>
 
-      <!-- <h3 class="m-t-0">{{ 'vital_records_verify_notary' | i18n }}</h3>
+      <h3 class="m-t-0">{{ 'vital_records_verify_notary' | i18n }}</h3>
       <p>{{ 'vital_records_verify_notary_description' | i18n | safe }}</p>
 
-      <p>No printer is required.</p>
+      <p>{{ 'vital_recortds_no_printer' | i18n }}</p>
 
       <a
         href="https://app.fairfax.proof.com/easy-link?ApiKey=m5hSDT7QGzQVrUiryvMjLZoa"
         class="btn btn-primary rounded-4 btn-lg m-t"
-        >Use an online notary</a
-      > -->
+        >{{ 'vital_records_use_online_notary' | i18n }}</a
+      >
 
       <h2>{{ 'vital_records_apply_by_mail' | i18n }}</h2>
       <ul>
@@ -146,17 +151,17 @@
           {{ 'vital_records_apply_by_list_1' | i18n }}
           <ul>
             <li>{{ 'vital_records_apply_by_list_2' | i18n | safe }}</li>
-            <li>{{ 'vital_records_apply_by_list_3' | i18n }}</li>
           </ul>
         </li>
+        <li>{{ 'vital_records_apply_by_list_3' | i18n }}</li>
       </ul>
-      <h2>{{ 'vital_records_apply_in_person' | i18n }}</h2>
-      <p>{{ 'vital_records_apply_in_person_description' | i18n }}</p>
+      <h2>{{ 'vital_records_apply_by_email' | i18n }}</h2>
+      <p>{{ 'vital_records_by_email_description' | i18n }}</p>
       <ul>
         <li>
           <a
             href="https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a"
-            >Marriage record</a
+            >{{ 'vital_records_marriage_pdf' | i18n }}</a
           >
           (English)
         </li>
@@ -168,17 +173,10 @@
           (Español)
         </li>
       </ul>
-      <h2>Other options</h2>
-      <p>Visit:</p>
+      <h2>{{ 'vital_records_other_options' | i18n }}</h2>
+      <p>{{ 'vital_records_visit_intro' | i18n }}</p>
       <ul>
-        <li>
-          The
-          <a
-            href="https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Registrars-and-Recorders.aspx#"
-            >county recorder’s office</a
-          >
-          in the county where the marriage occurred.
-        </li>
+        <li>{{ 'vital_records_visit_office' | i18n | safe }}</li>
       </ul>
     </div>
   </div>
