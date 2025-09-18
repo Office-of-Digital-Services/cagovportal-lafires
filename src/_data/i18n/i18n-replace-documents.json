@@ -292,5 +292,71 @@
     "zh-hans": "保险",
     "zh-hant": "保險",
     "hy": "Ապահովագրություն"
+  },
+  "vital_records_birth_page_lead": {
+    "status": "ap_review",
+    "en": "Learn how to replace lost or destroyed birth records from California. Replacements are free for records lost in the fires.",
+    "es": "Aprenda cómo reemplazar los registros de nacimiento perdidos o destruidos de California. Los reemplazos son gratuitos para los registros perdidos en los incendios.",
+    "ko": "캘리포니아에서 분실되거나 파손된 출생 기록을 재발급하는 방법을 알아보십시오. 화재로 인해 분실된 기록은 무료로 재발급됩니다.",
+    "vi": "Tìm hiểu cách thay thế các hồ sơ khai sinh bị mất hoặc hư hỏng từ California. Việc thay thế miễn phí cho các hồ sơ bị mất trong các vụ cháy.",
+    "tl": "Alamin kung paano palitan ang mga nawalang o nasirang tala ng kapanganakan mula sa California. Libre ang mga kapalit para sa mga tala na nawala sa mga sunog.",
+    "zh-hans": "了解如何补办加州丢失或损毁的出生记录。火灾中丢失的记录可免费补办。",
+    "zh-hant": "了解如何更換加州丟失或損毀的出生記錄。火災中丟失的記錄可免費補辦。",
+    "hy": "Իմացեք, թե ինչպես փոխարինել Կալիֆորնիայում կորցրած կամ ոչնչացված ծննդյան գրառումները: Հրդեհների ժամանակ կորցրած գրառումները անվճար են:"
+  },
+  "vital_records_birth_page_callout": {
+    "status": "ap_review",
+    "en": "If the birth happened in another state, learn <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">how to get records from other states</a>.",
+    "es": "Si el nacimiento ocurrió en otro estado, aprenda <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cómo obtener registros de otros estados</a>.",
+    "ko": "출생이 다른 주에서 발생한 경우, <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">다른 주 에서 기록을 얻는 방법</a>을 알아보십시오.",
+    "vi": "Nếu việc sinh xảy ra ở tiểu bang khác, hãy tìm hiểu <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cách nhận hồ sơ từ các tiểu bang khác</a>.",
+    "tl": "Kung ang kapanganakan ay nangyari sa ibang estado, alamin <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">kung paano kumuha ng mga rekord mula sa ibang mga estado</a>.",
+    "zh-hans": "如果出生发生在其他州，请了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何从其他州获取记录</a>。",
+    "zh-hant": "如果出生發生在其他州，請了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何從其他州獲取記錄</a>。",
+    "hy": "Եթե ծնունդը տեղի է ունեցել այլ նահանգում, ապա իմացեք <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">ինչպես ստանալ գրառումներ այլ նահանգներից</a>:"
+  },
+  "vital_records_marriage_page_lead": {
+    "status": "ap_review",
+    "en": "Learn how to replace lost or destroyed marriage records from California. Replacements are free for records lost in the fires.",
+    "es": "Aprenda cómo reemplazar los registros de matrimonio perdidos o destruidos de California. Los reemplazos son gratuitos para los registros perdidos en los incendios.",
+    "ko": "캘리포니아에서 분실되거나 파손된 결혼 기록을 재발급하는 방법을 알아보십시오. 화재로 인해 분실된 기록은 무료로 재발급됩니다.",
+    "vi": "Tìm hiểu cách thay thế các hồ sơ kết hôn bị mất hoặc hư hỏng từ California. Việc thay thế miễn phí cho các hồ sơ bị mất trong các vụ cháy.",
+    "tl": "Alamin kung paano palitan ang mga nawalang o nasirang tala ng kasal mula sa California. Libre ang mga kapalit para sa mga tala na nawala sa mga sunog.",
+    "zh-hans": "了解如何补办加州丢失或损毁的结婚记录。火灾中丢失的记录可免费补办。",
+    "zh-hant": "了解如何更換加州丟失或損毀的結婚記錄。火災中丟失的記錄可免費補辦。",
+    "hy": "Իմացեք, թե ինչպես փոխարինել Կալիֆորնիայում կորցրած կամ ոչնչացված ամուսնության գրառումները: Հրդեհների ժամանակ կորցրած գրառումները անվճար են:"
+  },
+  "vital_records_marriage_page_callout": {
+    "status": "ap_review",
+    "en": "If the marriage happened in another state, learn <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">how to get records from other states</a>.",
+    "es": "Si el matrimonio ocurrió en otro estado, aprenda <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cómo obtener registros de otros estados</a>.",
+    "ko": "결혼이 다른 주에서 발생한 경우, <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">다른 주에서 기록을 얻는 방법</a>을 알아보십시오.",
+    "vi": "Nếu việc kết hôn xảy ra ở tiểu bang khác, hãy tìm hiểu <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cách nhận hồ sơ từ các tiểu bang khác</a>.",
+    "tl": "Kung ang kasal ay nangyari sa ibang estado, alamin <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">kung paano kumuha ng mga rekord mula sa ibang mga estado</a>.",
+    "zh-hans": "如果结婚发生在其他州，请了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何从其他州获取记录</a>。",
+    "zh-hant": "如果結婚發生在其他州，請了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何從其他州獲取記錄</a>。",
+    "hy": "Եթե ամուսնությունը տեղի է ունեցել այլ նահանգում, ապա իմացեք <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">ինչպես ստանալ գրառումներ այլ նահանգներից</a>:"
+  },
+  "vital_records_death_page_lead": {
+    "status": "ap_review",
+    "en": "Learn how to replace lost or destroyed death records from California. Replacements are free for records lost in the fires.",
+    "es": "Aprenda cómo reemplazar los registros de defunción perdidos o destruidos de California. Los reemplazos son gratuitos para los registros perdidos en los incendios.",
+    "ko": "캘리포니아에서 분실되거나 파손된 사망 기록을 재발급하는 방법을 알아보십시오. 화재로 인해 분실된 기록은 무료로 재발급됩니다.",
+    "vi": "Tìm hiểu cách thay thế các hồ sơ tử vong bị mất hoặc hư hỏng từ California. Việc thay thế miễn phí cho các hồ sơ bị mất trong các vụ cháy.",
+    "tl": "Alamin kung paano palitan ang mga nawalang o nasirang tala ng pagkamatay mula sa California. Libre ang mga kapalit para sa mga tala na nawala sa mga sunog.",
+    "zh-hans": "了解如何补办加州丢失或损毁的死亡记录。火灾中丢失的记录可免费补办。",
+    "zh-hant": "了解如何更換加州丟失或損毀的死亡記錄。火災中丟失的記錄可免費補辦。",
+    "hy": "Իմացեք, թե ինչպես փոխարինել Կալիֆորնիայում կորցրած կամ ոչնչացված մահվան գրառումները: Հրդեհների ժամանակ կորցրած գրառումները անվճար են:"
+  },
+  "vital_records_death_page_callout": {
+    "status": "ap_review",
+    "en": "If the death happened in another state, learn <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">how to get records from other states</a>.",
+    "es": "Si el fallecimiento ocurrió en otro estado, aprenda <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cómo obtener registros de otros estados</a>.",
+    "ko": "사망이 다른 주에서 발생한 경우, <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">다른 주에서 기록을 얻는 방법</a>을 알아보십시오.",
+    "vi": "Nếu việc tử vong xảy ra ở tiểu bang khác, hãy tìm hiểu <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">cách nhận hồ sơ từ các tiểu bang khác</a>.",
+    "tl": "Kung ang pagkamatay ay nangyari sa ibang estado, alamin <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">kung paano kumuha ng mga rekord mula sa ibang mga estado</a>.",
+    "zh-hans": "如果死亡发生在其他州，请了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何从其他州获取记录</a>。",
+    "zh-hant": "如果死亡發生在其他州，請了解<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">如何從其他州獲取記錄</a>。",
+    "hy": "Եթե մահը տեղի է ունեցել այլ նահանգում, ապա իմացեք <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">ինչպես ստանալ գրառումներ այլ նահանգներից</a>:"
   }
 }
