@@ -1399,16 +1399,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_80_description": {
-    "status": "avantpage_delivery",
-    "en": "Learn how to get replacements of these vital records. The replacements are free, but you’ll need to go in person to a notary and pay a notary fee. Find forms in English and Spanish.",
-    "es": "Obtenga información sobre cómo reemplazar estos registros vitales. Los reemplazos son gratis, pero necesitará ir en persona a un notario y pagar una tarifa de notario. Encontrar formularios en inglés y español.",
-    "ko": "이러한 중요한 기록의 재발급 방법을 알아보십시오. 재발급 자체는 무료이지만 공증인에게 직접 가서 공증인 수수료를 지불해야 합니다. 영어와 스페인어로 된 양식을 찾으십시오.",
-    "vi": "Tìm hiểu cách thay mới các hồ sơ quan trọng này. Việc thay mới là miễn phí, nhưng quý vị sẽ cần phải trực tiếp đến công chứng viên và trả phí công chứng. Tìm biểu mẫu bằng tiếng Anh và tiếng Tây Ban Nha.",
-    "tl": "Alamin kung paano makakuha ng mga kapalit ng mahahalagang rekord na ito. Ang mga kapalit ay libre, pero kailangan mong pumunta nang personal sa isang notaryo at magbayad para sa notaryo. Maghanap ng form sa Ingles at Spanish.",
-    "zh-hans": "了解如何补办这些重要记录。补办是免费的，但您需要亲自去找公证人并支付公证费。查找英语版和西班牙语版的表格。",
-    "zh-hant": "瞭解如何補辦這些重要記錄。補辦是免費的，但您需要親自去找公證人並支付公證費。查找英語版和西班牙語版的表格。",
-    "hy": "Իմացեք, թե ինչպես կարելի է փոխարինել այս կարևոր վկայականները: Փոխարինումը կատարվում է անվճար, բայց Դուք պետք է անձամբ այցելեք նոտարի մոտ և վճարեք նոտարական վճարը: Գտեք ձևաթղթերը անգլերեն և իսպաներեն լեզուներով:",
-    "comment": "Translation delivered 2025-04-23"
+    "status": "english_only",
+    "en": "Learn how to get replacement birth certificates. The replacements are free, but you’ll need to go in person to a notary and pay a notary fee. Find forms in English and Spanish."
   },
   "sf_80_entity": {
     "status": "avantpage_delivery",
@@ -1423,16 +1415,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_80_service_name": {
-    "status": "avantpage_delivery",
-    "en": "Birth, death, and marriage records",
-    "es": "Certificados de nacimiento, muerte o matrimonio",
-    "ko": "출생, 사망 및 혼인 기록",
-    "vi": "Giấy khai sinh, giấy chứng tử và giấy chứng nhận kết hôn",
-    "tl": "Mga record ng kapanganakan, pagkamatay, at kasal",
-    "zh-hans": "出生、死亡和婚姻记录",
-    "zh-hant": "出生、死亡和婚姻記錄",
-    "hy": "Ծննդյան, մահվան և ամուսնության վկայականներ",
-    "comment": "Translation delivered 2025-04-23"
+    "status": "english_only",
+    "en": "Replace birth certificates"
   },
   "sf_81_description": {
     "status": "avantpage_delivery",
@@ -1681,6 +1665,30 @@
   "sf_94_service_name": {
     "status": "english_only",
     "en": "Mortgage payment assistance"
+  },
+  "sf_95_description": {
+    "status": "english_only",
+    "en": "Learn how to get replacement marriage certificates. The replacements are free, but you’ll need to go in person to a notary and pay a notary fee. Find forms in English and Spanish."
+  },
+  "sf_95_entity": {
+    "status": "english_only",
+    "en": "California Department of Public Health"
+  },
+  "sf_95_service_name": {
+    "status": "english_only",
+    "en": "Replace marriage certificates"
+  },
+  "sf_96_description": {
+    "status": "english_only",
+    "en": "Learn how to get replacement death certificates. The replacements are free, but you’ll need to go in person to a notary and pay a notary fee. Find forms in English and Spanish."
+  },
+  "sf_96_entity": {
+    "status": "english_only",
+    "en": "California Department of Public Health"
+  },
+  "sf_96_service_name": {
+    "status": "english_only",
+    "en": "Replace death certificates"
   },
   "sf_audience_type_1_label": {
     "status": "ap_review",
