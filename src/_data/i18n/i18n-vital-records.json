@@ -732,7 +732,7 @@
   },
   "vital_records_apply_by_list_2": {
     "status": "machine_translation",
-    "en": "PDF versions are available from the <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
+    "en": "PDF versions are available from the California Department of Public Health.",
     "fr": "Des versions PDF sont disponibles sur le site du <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
     "es": "Las versiones en PDF están disponibles en el <a href=\"https://www.cdph.ca.gov/\">Departamento de Salud Pública de California</a>.",
     "ko": "<a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>에서 PDF 버전을 확인할 수 있습니다.",
