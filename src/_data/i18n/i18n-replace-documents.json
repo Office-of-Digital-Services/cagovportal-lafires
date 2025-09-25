@@ -294,15 +294,15 @@
     "hy": "Ապահովագրություն"
   },
   "vital_records_birth_page_lead": {
-    "status": "ap_review",
-    "en": "Learn how to replace lost or destroyed birth records from California. Replacements are free for records lost in the fires.",
-    "es": "Aprenda cómo reemplazar los registros de nacimiento perdidos o destruidos de California. Los reemplazos son gratuitos para los registros perdidos en los incendios.",
-    "ko": "캘리포니아에서 분실되거나 파손된 출생 기록을 재발급하는 방법을 알아보십시오. 화재로 인해 분실된 기록은 무료로 재발급됩니다.",
-    "vi": "Tìm hiểu cách thay thế các hồ sơ khai sinh bị mất hoặc hư hỏng từ California. Việc thay thế miễn phí cho các hồ sơ bị mất trong các vụ cháy.",
-    "tl": "Alamin kung paano palitan ang mga nawalang o nasirang tala ng kapanganakan mula sa California. Libre ang mga kapalit para sa mga tala na nawala sa mga sunog.",
-    "zh-hans": "了解如何补办加州丢失或损毁的出生记录。火灾中丢失的记录可免费补办。",
-    "zh-hant": "了解如何更換加州丟失或損毀的出生記錄。火災中丟失的記錄可免費補辦。",
-    "hy": "Իմացեք, թե ինչպես փոխարինել Կալիֆորնիայում կորցրած կամ ոչնչացված ծննդյան գրառումները: Հրդեհների ժամանակ կորցրած գրառումները անվճար են:"
+    "status": "machine_translation",
+    "en": "Learn how to replace lost or destroyed birth records from California. Replacements are free of charge with verified applicants in disaster-affected zip codes.",
+    "es": "Aprenda cómo reemplazar los registros de nacimiento perdidos o destruidos de California. Los reemplazos son gratuitos para los solicitantes verificados en los códigos postales afectados por desastres.",
+    "ko": "캘리포니아에서 분실되거나 파손된 출생 기록을 재발급하는 방법을 알아보십시오. 재해 영향을 받은 우편번호의 확인된 신청자는 무료로 교체할 수 있습니다.",
+    "vi": "Tìm hiểu cách thay thế các hồ sơ khai sinh bị mất hoặc hư hỏng từ California. Việc thay thế miễn phí cho các đương đơn đã được xác minh trong các mã zip bị ảnh hưởng bởi thảm họa.",
+    "tl": "Alamin kung paano palitan ang mga nawalang o nasirang tala ng kapanganakan mula sa California. Libre ang mga kapalit para sa mga napatunayang aplikante sa mga zip code na apektado ng sakuna.",
+    "zh-hans": "了解如何补办加州丢失或损毁的出生记录。灾区邮政编码内的经验证申请人可免费补办。",
+    "zh-hant": "了解如何更換加州丟失或損毀的出生記錄。災區郵政編碼內的經驗證申請人可免費補辦。",
+    "hy": "Իմացեք, թե ինչպես փոխարինել Կալիֆորնիայում կորցրած կամ ոչնչացված ծննդյան գրառումները: Ափսոսալի կոդերով վթարային տարածքներում հաստատված դիմորդների համար փոխարինումները անվճար են:"
   },
   "vital_records_birth_page_callout": {
     "status": "ap_review",
@@ -316,15 +316,15 @@
     "hy": "Եթե ծնունդը տեղի է ունեցել այլ նահանգում, ապա իմացեք <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\">ինչպես ստանալ գրառումներ այլ նահանգներից</a>:"
   },
   "vital_records_marriage_page_lead": {
-    "status": "ap_review",
-    "en": "Learn how to replace lost or destroyed marriage records from California. Replacements are free for records lost in the fires.",
-    "es": "Aprenda cómo reemplazar los registros de matrimonio perdidos o destruidos de California. Los reemplazos son gratuitos para los registros perdidos en los incendios.",
-    "ko": "캘리포니아에서 분실되거나 파손된 결혼 기록을 재발급하는 방법을 알아보십시오. 화재로 인해 분실된 기록은 무료로 재발급됩니다.",
-    "vi": "Tìm hiểu cách thay thế các hồ sơ kết hôn bị mất hoặc hư hỏng từ California. Việc thay thế miễn phí cho các hồ sơ bị mất trong các vụ cháy.",
-    "tl": "Alamin kung paano palitan ang mga nawalang o nasirang tala ng kasal mula sa California. Libre ang mga kapalit para sa mga tala na nawala sa mga sunog.",
-    "zh-hans": "了解如何补办加州丢失或损毁的结婚记录。火灾中丢失的记录可免费补办。",
-    "zh-hant": "了解如何更換加州丟失或損毀的結婚記錄。火災中丟失的記錄可免費補辦。",
-    "hy": "Իմացեք, թե ինչպես փոխարինել Կալիֆորնիայում կորցրած կամ ոչնչացված ամուսնության գրառումները: Հրդեհների ժամանակ կորցրած գրառումները անվճար են:"
+    "status": "machine_translation",
+    "en": "Learn how to replace lost or destroyed marriage records from California. Replacements are free of charge with verified applicants in disaster-affected zip codes.",
+    "es": "Aprenda cómo reemplazar los registros de matrimonio perdidos o destruidos de California. Los reemplazos son gratuitos para los solicitantes verificados en los códigos postales afectados por desastres.",
+    "ko": "캘리포니아에서 분실되거나 파손된 결혼 기록을 재발급하는 방법을 알아보십시오. 재해 영향을 받은 우편번호의 확인된 신청자는 무료로 교체할 수 있습니다.",
+    "vi": "Tìm hiểu cách thay thế các hồ sơ kết hôn bị mất hoặc hư hỏng từ California. Việc thay thế miễn phí cho các đương đơn đã được xác minh trong các mã zip bị ảnh hưởng bởi thảm họa.",
+    "tl": "Alamin kung paano palitan ang mga nawalang o nasirang tala ng kasal mula sa California. Libre ang mga kapalit para sa mga napatunayang aplikante sa mga zip code na apektado ng sakuna.",
+    "zh-hans": "了解如何补办加州丢失或损毁的结婚记录。灾区邮政编码内的经验证申请人可免费补办。",
+    "zh-hant": "了解如何更換加州丟失或損毀的結婚記錄。災區郵政編碼內的經驗證申請人可免費補辦。",
+    "hy": "Իմացեք, թե ինչպես փոխարինել Կալիֆորնիայում կորցրած կամ ոչնչացված ամուսնության գրառումները: Ափսոսալի կոդերով վթարային տարածքներում հաստատված դիմորդների համար փոխարինումները անվճար են:"
   },
   "vital_records_marriage_page_callout": {
     "status": "ap_review",
