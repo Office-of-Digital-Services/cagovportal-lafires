@@ -554,27 +554,27 @@
   },
   "vital_records_apply_by_mail": {
     "status": "ap_review",
-    "en": "Apply by mail or email",
-    "fr": "Postulez par courrier ou par e-mail",
-    "es": "Solicitar por correo o correo electrónico",
-    "ko": "우편 또는 이메일로 신청",
-    "vi": "Đăng ký qua thư hoặc email",
-    "tl": "Mag-apply sa pamamagitan ng koreo o email",
-    "zh-hans": "通过邮件或电子邮件申请",
-    "zh-hant": "透過郵件或電子郵件申請",
-    "hy": "Դիմել փոստով կամ էլփոստով"
+    "en": "Apply by mail",
+    "fr": "Postuler par courrier",
+    "es": "Solicitar por correo",
+    "ko": "우편으로 신청",
+    "vi": "Nộp đơn qua thư",
+    "tl": "Mag-apply sa pamamagitan ng koreo",
+    "zh-hans": "通过邮件申请",
+    "zh-hant": "透過郵件申請",
+    "hy": "Դիմել փոստով"
   },
   "vital_records_print_application": {
     "status": "avantpage_delivery",
-    "en": "Print the application for the record you need.",
-    "fr": "Imprimez le formulaire pour le certificat que vous avez besoin.",
-    "es": "Imprima la solicitud para el registro que necesite.",
-    "ko": "필요한 기록에 대한 신청서를 인쇄하십시오.",
-    "vi": "In đơn đăng ký cho hồ sơ quý vị cần.",
-    "tl": "I-print ang application para sa record na kailangan mo.",
-    "zh-hans": "打印所需文件的申请表。",
-    "zh-hant": "列印所需記錄的申請表。",
-    "hy": "Տպեք Ձեզ անհրաժեշտ արձանագրության դիմումը:"
+    "en": "Print the application for a replacement birth record.",
+    "fr": "Imprimez le formulaire pour un certificat de naissance de remplacement.",
+    "es": "Imprima la solicitud para un certificado de nacimiento de reemplazo.",
+    "ko": "출생 증명서 교체 신청서를 인쇄하십시오.",
+    "vi": "In đơn đăng ký để thay thế giấy khai sinh.",
+    "tl": "I-print ang application para sa isang kapalit na record ng kapanganakan.",
+    "zh-hans": "打印替换出生记录的申请表。",
+    "zh-hant": "列印替換出生記錄的申請表。",
+    "hy": "Տպեք դիմումը ծննդյան վկայականի փոխարինման համար:"
   },
   "to_apply_online_with_notary_body": {
     "status": "machine_translation",
@@ -718,17 +718,17 @@
     "zh-hant": "透過郵件或電子郵件申請",
     "hy": "Դիմել փոստով կամ էլփոստով"
   },
-  "vital_records_apply_by_list_1": {
+  "vital_records_apply_by_mail_p": {
     "status": "machine_translation",
-    "en": "Print the application for the record you need",
-    "fr": "Imprimez le formulaire pour le certificat que vous avez besoin",
-    "es": "Imprima la solicitud para el registro que necesite",
-    "ko": "필요한 기록에 대한 신청서를 인쇄하십시오",
-    "vi": "In đơn đăng ký cho hồ sơ quý vị cần",
-    "tl": "I-print ang application para sa record na kailangan mo",
-    "zh-hans": "打印所需文件的申请表",
-    "zh-hant": "列印所需記錄的申請表",
-    "hy": "Տպեք Ձեզ անհրաժեշտ արձանագրության դիմումը"
+    "en": "Print the application for a replacement birth record.",
+    "fr": "Imprimez le formulaire pour un certificat de naissance de remplacement.",
+    "es": "Imprima la solicitud para un certificado de nacimiento de reemplazo.",
+    "ko": "출생 증명서 교체 신청서를 인쇄하십시오.",
+    "vi": "In đơn đăng ký để thay thế giấy khai sinh.",
+    "tl": "I-print ang application para sa isang kapalit na record ng kapanganakan.",
+    "zh-hans": "打印替换出生记录的申请表。",
+    "zh-hant": "列印替換出生記錄的申請表。",
+    "hy": "Տպեք դիմումը ծննդյան վկայականի փոխարինման համար:"
   },
   "vital_records_apply_by_list_2": {
     "status": "machine_translation",
@@ -753,6 +753,18 @@
     "zh-hans": "填写、 notarize 并根据说明邮寄。",
     "zh-hant": "填寫、 notarize 並根據說明郵寄。",
     "hy": "Լրացրեք, նոտարացրեք և ուղարկեք ըստ հրահանգների:"
+  },
+  "vital_records_apply_by_list_4": {
+    "status": "machine_translation",
+    "en": "For the PDFs and addresses, visit <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">California Department of Public Health - Vital Records</a>.",
+    "fr": "Pour les PDF et les adresses, visitez <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">California Department of Public Health - Vital Records</a>.",
+    "es": "Para los PDF y las direcciones, visite <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">California Department of Public Health - Vital Records</a>.",
+    "ko": "PDF 및 주소는 <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">California Department of Public Health - Vital Records</a>를 방문하십시오.",
+    "vi": "Đối với các tệp PDF và địa chỉ, hãy truy cập <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">California Department of Public Health - Vital Records</a>.",
+    "tl": "Para sa mga PDF at address, bisitahin ang <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">California Department of Public Health - Vital Records</a>.",
+    "zh-hans": "有关PDF和地址，请访问<a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">加利福尼亚州公共卫生部 - 重要记录</a>。",
+    "zh-hant": "有關PDF和地址，請訪問<a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">加利福尼亞州公共衛生部 - 重要記錄</a>。",
+    "hy": "PDF-ների և հասցեների համար այցելեք <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">Կալիֆորնիայի հանրային առողջության վարչություն - Կարևոր գրառումներ</a>:"
   },
   "vital_records_apply_in_person": {
     "status": "machine_translation",
