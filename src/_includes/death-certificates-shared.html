@@ -108,7 +108,7 @@
 
       <h2>{{ 'vital_records_apply_online' | i18n }}</h2>
       <p>{{ 'vital_records_apply_online_description_short' | i18n }}</p>
-      <!--
+
       <h3>{{ 'vital_records_verify' | i18n }}</h3>
 
       <p>{{ 'to_apply_online_with_login.gov_body' | i18n | safe }}</p>
@@ -123,12 +123,14 @@
         href="https://recovery.cdt.ca.gov/vital-records/login"
         class="btn-primary btn-login-gov m-b-lg"
         role="button">
-        <span>Get started with</span>
+        <span>{{ 'vital_records_get_started_with' | i18n }}</span>
         <img
           src="/lafires/images/login.gov_button.svg"
           alt="LOGIN.GOV logo"
           class="login-gov-icon" />
-      </a>-->
+      </a>
+
+      <!--Proof online notary-->
 
       <h3 class="m-t-0">{{ 'vital_records_verify_notary' | i18n }}</h3>
       <p>{{ 'vital_records_verify_notary_description' | i18n | safe }}</p>
