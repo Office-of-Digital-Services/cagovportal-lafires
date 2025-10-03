@@ -684,15 +684,15 @@
   },
   "vital_records_apply_online_description_short": {
     "status": "machine_translation",
-    "en": "To apply online, you’ll need to verify your identity by signing a sworn statement in front of a notary.",
-    "fr": "Pour postuler en ligne, vous devrez vérifier votre identité en signant une déclaration sous serment devant un notaire.",
-    "es": "Para solicitar en línea, deberá verificar su identidad firmando una declaración jurada ante un notario.",
-    "ko": "온라인으로 신청하려면 공증인 앞에서 선서 진술서에 서명하여 신원을 확인해야 합니다.",
-    "vi": "Để đăng ký trực tuyến, bạn sẽ cần xác minh danh tính của mình bằng cách ký một tuyên bố thề trước mặt công chứng viên.",
-    "tl": "Upang mag-apply online, kakailanganin mong i-verify ang iyong pagkakakilanlan sa pamamagitan ng paglagda ng isang sinumpaang pahayag sa harap ng isang notaryo.",
-    "zh-hans": "要在线申请，您需要在公证人面前签署宣誓声明以验证您的身份。",
-    "zh-hant": "要線上申請，您需要在公證人面前簽署宣誓聲明以驗證您的身份。",
-    "hy": "Առցանց դիմելու համար դուք պետք է հաստատեք ձեր ինքնությունը ստորագրելով երդմնալու հայտարարություն նոտարի առջև:"
+    "en": "To apply online, you’ll need to verify your identity with a <a href=\"https://login.gov/\">Login.gov</a> account.",
+    "fr": "Pour postuler en ligne, vous devrez vérifier votre identité avec un compte <a href=\"https://login.gov/\">Login.gov</a>.",
+    "es": "Para solicitar en línea, deberá verificar su identidad con una cuenta de <a href=\"https://login.gov/\">Login.gov</a>.",
+    "ko": "온라인으로 신청하려면 <a href=\"https://login.gov/\">Login.gov</a> 계정으로 신원을 확인해야 합니다.",
+    "vi": "Để đăng ký trực tuyến, bạn sẽ cần xác minh danh tính của mình bằng tài khoản <a href=\"https://login.gov/\">Login.gov</a>.",
+    "tl": "Upang mag-apply online, kakailanganin mong i-verify ang iyong pagkakakilanlan sa isang <a href=\"https://login.gov/\">Login.gov</a> account.",
+    "zh-hans": "要在线申请，您需要通过<a href=\"https://login.gov/\">Login.gov</a>帐户验证您的身份。",
+    "zh-hant": "要線上申請，您需要透過<a href=\"https://login.gov/\">Login.gov</a>帳戶驗證您的身份。",
+    "hy": "Առցանց դիմելու համար դուք պետք է հաստատեք ձեր ինքնությունը <a href=\"https://login.gov/\">Login.gov</a> հաշվի միջոցով:"
   },
   "vital_records_verify": {
     "status": "machine_translation",
