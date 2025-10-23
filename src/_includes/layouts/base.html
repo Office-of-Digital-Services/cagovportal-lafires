@@ -13,9 +13,15 @@
     {%- else %}
     <meta name="robots" content="index, follow" />
     {%- endif %}{% set alturl %}{% canonical %}{% endset %}
-    <link rel="alternate" hreflang="es-US" href="{{ alturl | unlocalizedPath }}" />
+    <link
+      rel="alternate"
+      hreflang="en-US"
+      href="{{ alturl | unlocalizedPath }}" />
     <meta property="og:locale" content="{{ locale | default('en-US')}}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      http-equiv="Content-Language"
+      content="{{ lang | default('en-US') }}" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta
@@ -31,7 +37,7 @@
     <link href="{% canonical %}" rel="canonical" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content="{{ locale | default('en-US')}}" />
     <meta property="og:site_name" content="California State Portal" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{% canonical %}" />
