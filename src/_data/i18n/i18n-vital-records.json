@@ -23,18 +23,6 @@
     "zh-hant": "如何更換在 2025 年洛杉磯大火中丟失的出生、死亡和結婚證。",
     "hy": "Ինչպես փոխարինել ծննդյան, մահվան և ամուսնության վկայականները՝ ոչնչացված 2025թ․ Լոս Անջելեսի հրդեհների ժամանակ:"
   },
-  "vital_records_description_page": {
-    "status": "machine_translation",
-    "en": "Here's how to replace birth, death, or marriage certificates lost in the fires.",
-    "fr": "Voici comment remplacer les certificats de naissance, de décès et de mariage perdus dans les incendies.",
-    "es": "Aquí se explica cómo reemplazar los certificados de nacimiento, defunción y matrimonio perdidos en los incendios.",
-    "ko": "화재로 인해 분실된 출생, 사망, 결혼 증명서를 재발급받는 방법입니다.",
-    "vi": "Dưới đây là hướng dẫn thay mới giấy khai sinh, giấy chứng tử và chứng nhận kết hôn bị mất trong các đám cháy.",
-    "tl": "Narito kung paano magpapalit ng mga certificate ng kapanganakan, pagkamatay, at kasal na nawala sa sunog.",
-    "zh-hans": "以下是补办在火灾中丢失的出生、死亡和结婚证明的步骤。",
-    "zh-hant": "以下是更換在火災中丟失的出生、死亡和結婚證的步驟。",
-    "hy": "Սա այն քայլերն են, որոնք պետք է կատարել՝ ծննդյան, մահվան և ամուսնության վկայականները փոխարինելու համար՝ հրդեհների ժամանակ կորցրած:"
-  },
   "vital_records_keywords": {
     "status": "avantpage_delivery",
     "en": "California, government, LA, Los Angeles, fires, wildfires",
@@ -70,18 +58,6 @@
     "zh-hans": "加州签发的文件",
     "zh-hant": "來自加利福尼亞的記錄",
     "hy": "Արձանագրություններ Կալիֆորնիայից"
-  },
-  "vital_records_records_from_california_body": {
-    "status": "machine_translation",
-    "en": "Replacements are free for records lost in the fires.",
-    "fr": "Les remplacements sont gratuits pour les certificats perdus dans les incendies.",
-    "es": "Los reemplazos son gratuitos para los registros perdidos en los incendios.",
-    "ko": "화재로 인해 분실된 기록 재발급은 무료입니다.",
-    "vi": "Thay mới miễn phí đối với các hồ sơ bị mất trong đám cháy.",
-    "tl": "Libre ang pagpapapalit para sa mga record na nawala sa sunog.",
-    "zh-hans": "因火灾丢失的记录可免费补办。",
-    "zh-hant": "在火災中丟失的記錄可以免費更換。",
-    "hy": "Փոխարինումներն անվճար են հրդեհների ժամանակ կորցրած արձանագրությունների համար:"
   },
   "to_apply_online_with_login.gov": {
     "en": "To apply online with Login.gov",
@@ -130,18 +106,6 @@
     "zh-hant": "一旦驗證，您就可以提交申請。",
     "hy": "Մի անգամ հաստատված, դուք կարող եք ներկայացնել ձեր դիմումը։"
   },
-  "vital_records_you_do_not": {
-    "status": "machine_translation",
-    "en": "You do not need to create a new account.",
-    "fr": "Vous n'avez pas besoin de créer un nouveau compte.",
-    "es": "No necesita crear una nueva cuenta.",
-    "ko": "새 계정을 만들 필요가 없습니다.",
-    "vi": "Bạn không cần tạo tài khoản mới.",
-    "tl": "Hindi mo kailangang lumikha ng bagong account.",
-    "zh-hans": "您不需要创建新帐户。",
-    "zh-hant": "您無需創建新帳戶。",
-    "hy": "Դուք պետք չէ նոր հաշիվ ստեղծել։"
-  },
   "to_apply_online_with_login.gov_body_2": {
     "status": "machine_translation",
     "en": "This option is only available for birth records.",
@@ -153,30 +117,6 @@
     "zh-hans": "此选项仅适用于出生证明。",
     "zh-hant": "此選項僅適用於出生記錄。",
     "hy": "Այս տարբերակը հասանելի է միայն ծննդյան արձանագրությունների համար:"
-  },
-  "vital_records_records_from_other_states_link": {
-    "status": "machine_translation",
-    "en": "Records from other states",
-    "fr": "Documents d'autres États",
-    "es": "Registros de otros estados",
-    "ko": "다른 주의 기록",
-    "vi": "Hồ sơ từ các tiểu bang khác",
-    "tl": "Mga record mula sa iba pang estado",
-    "zh-hans": "其他州签发的文件",
-    "zh-hant": "來自其他州的記錄",
-    "hy": "Արձանագրություններ այլ նահանգներից"
-  },
-  "vital_records_replace_certificates": {
-    "status": "ap_review",
-    "en": "Contact the county recorder in the county where the birth, marriage, or death happened. See <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Where to Write for Vital Records</a>.",
-    "fr": "Contactez le bureau du greffier du comté où la naissance, le mariage ou le décès a eu lieu. Voir <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Où écrire pour les certificats d'état civil</a>.",
-    "es": "Comuníquese con el registrador del condado donde ocurrió el nacimiento, matrimonio o defunción. Consulte <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Dónde solicitar documentos del registro civil</a>.",
-    "ko": "출생, 결혼 또는 사망이 발생한 카운티의 카운티 기록관에 문의하십시오. <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >주별 증명서 신청처</a>를 참조하세요.",
-    "vi": "Liên hệ với văn phòng lưu trữ hồ sơ tại quận nơi xảy ra sinh, kết hôn hoặc tử vong. Xem <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Nơi nộp đơn xin hồ sơ hộ tịch</a>.",
-    "tl": "Makipag-ugnayan sa county recorder sa county kung saan naganap ang kapanganakan, kasal, o pagkamatay. Tingnan ang <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Where to Write for Vital Records</a>.",
-    "zh-hans": "请联系出生、结婚或死亡发生地的县记录员。参见<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >各州重要记录申请指南</a>。",
-    "zh-hant": "請聯絡出生、結婚或死亡發生地的縣記錄員。請參閱<a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >各州重要記錄申請指南</a>。",
-    "hy": "Կապ հաստատեք այն վարչաշրջանի գրանցման գրասենյակի հետ, որտեղ տեղի է ունեցել ծնունդը, ամուսնությունը կամ մահը։ Տես <a href=\"https://www.cdc.gov/nchs/w2w/index.htm\" >Որտեղ դիմել կարևոր փաստաթղթերի համար</a>։"
   },
   "vital_records_replacements_free": {
     "status": "avantpage_delivery",
@@ -190,140 +130,6 @@
     "zh-hant": "在火災中丟失的記錄可以免費更換。",
     "hy": "Փոխարինումներն անվճար են հրդեհների ժամանակ կորցրած արձանագրությունների համար:"
   },
-  "vital_records_click_link": {
-    "status": "avantpage_delivery",
-    "en": "Click the link to the record you need to start an application (birth, marriage, or death).",
-    "fr": "Cliquez sur le lien vers le certificat que vous avez besoin pour commencer une demande (naissance, mariage ou décès).",
-    "es": "Haga clic en el enlace del registro que necesita para iniciar una solicitud (nacimiento, matrimonio o muerte).",
-    "ko": "신청(출생, 결혼 또는 사망)시 필요한 기록에 대한 링크를 클릭하십시오.",
-    "vi": "Nhấp vào liên kết đến hồ sơ quý vị cần để bắt đầu đăng ký (khai sinh, chứng nhận kết hôn hoặc chứng tử).",
-    "tl": "I-click ang link sa record na kailangan mo para magsimula ng application (kapanganakan, kasal, o pagkamatay).",
-    "zh-hans": "点击所需证明类型的链接开始申请（出生、结婚或死亡证明）。",
-    "zh-hant": "點擊您欲啟動的記錄申請（出生、結婚或死亡）鏈結。",
-    "hy": "Սեղմեք այն արձանագրության հղմանը, որի համար ցանկանում եք դիմում ներկայացնել (ծնունդ, ամուսնության կամ մահ)։"
-  },
-  "vital_records_fill_out_online": {
-    "status": "avantpage_delivery",
-    "en": "You can fill it out online and save your work.",
-    "fr": "Vous pouvez le remplir en ligne et enregistrer votre travail.",
-    "es": "Puede completarlo en línea y guardar su progreso.",
-    "ko": "온라인으로 작성하고 저장할 수 있습니다.",
-    "vi": "Quý vị có thể điền trực tuyến và lưu nội dung đã điền.",
-    "tl": "Puwede mo itong sagutan sa online at i-save ang iyong gawa.",
-    "zh-hans": "可在线填写并保存申请进度。",
-    "zh-hant": "您可以在線填寫並儲存您輸入的資訊。",
-    "hy": "Դուք կարող եք լրացնել այն առցանց և պահպանել Ձեր աշխատանքը:"
-  },
-  "vital_records_upload_documentation": {
-    "status": "avantpage_delivery",
-    "en": "If applying for someone else, be ready to upload documentation proving your relationship.",
-    "fr": "Si vous postulez pour quelqu'un d'autre, préparez-vous à télécharger la documentation prouvant votre relation.",
-    "es": "Si solicita los documentos de otra persona, esté listo para cargar la documentación que demuestre su relación.",
-    "ko": "다른 사람을 대신하여 신청하는 경우, 관계를 증명하는 문서를 업로드할 준비를 하십시오.",
-    "vi": "Nếu nộp đơn cho người khác, hãy sẵn sàng tải lên tài liệu chứng minh mối quan hệ của quý vị.",
-    "tl": "Kung mag-a-apply para sa ibang tao, maghandang mag-upload ng dokumentasyon na magpapatunay sa iyong kaugnayan.",
-    "zh-hans": "若为他人申请，需准备上传关系证明文件。",
-    "zh-hant": "如果為其他人申請，請準備好上傳證明你們關係的文檔。",
-    "hy": "Եթե դիմում եք մեկ այլ անձի համար, պատրաստ եղեք ներկայացնել Ձեր հարաբերությունները ապացուցող փաստաթղթերը:"
-  },
-  "vital_records_sworn_statement": {
-    "status": "avantpage_delivery",
-    "en": "Sign and upload a sworn statement with your application.",
-    "fr": "Signez et téléchargez un serment avec votre demande.",
-    "es": "Firme y cargue una declaración de privacidad con su solicitud.",
-    "ko": "신청서와 함께 선서 진술서에 서명하고 업로드하십시오.",
-    "vi": "Ký tên và tải lên tờ khai tuyên thệ kèm theo đơn đăng ký của quý vị.",
-    "tl": "Lagdaan at i-upload ang isang sinumpaang salaysay kasama ng iyong application.",
-    "zh-hans": "签署并上传宣誓声明，附于申请中。",
-    "zh-hant": "在您的申請中簽署並上傳宣誓聲明。",
-    "hy": "Ստորագրեք և վերբեռնեք երդման հայտարարությունը Ձեր դիմումի հետ միասին:"
-  },
-  "vital_records_print_sign": {
-    "status": "avantpage_delivery",
-    "en": "Click <span class=\"bold\">Print & Sign</span> to print the application. Take it to a notary public.",
-    "fr": "Cliquez sur <span class=\"bold\">Imprimer et signer</span> pour imprimer le formulaire. Prenez-le à un notaire.",
-    "es": "Haga clic en <span class=\"bold\">Imprimir y firmar</span> para imprimir la solicitud. Llévela a un notario público.",
-    "ko": "<span class=\"bold\">인쇄 및 서명(Print & Sign)</span>을 클릭하여 신청서를 프린트하십시오. 공증인에게 가져가십시오.",
-    "vi": "Nhấp vào <span class=\"bold\">In và Ký Tên</span> để in đơn đăng ký. Mang đơn đó đến văn phòng công chứng.",
-    "tl": "I-click ang <span class=\"bold\">I-print at Lagdaan</span> para i-print ang application. Dalhin ito sa isang notaryo publiko.",
-    "zh-hans": "点击<span class=\"bold\">打印并签名</span>以打印申请表。携带申请表至公证处。",
-    "zh-hant": "點擊 <span class=\"bold\">列印並簽名 (Print & Sign)</span> 以列印您的申請。把它帶到公證處。",
-    "hy": "Դիմումը տպելու համար սեղմեք <span class=\"bold\">Print & Sign</span>։ Տարեք այն պետական նոտարի մոտ։",
-    "orig_en": "Click <strong>Print & Sign</strong> to print the application. Take it to a notary public."
-  },
-  "vital_records_notary_presence": {
-    "status": "avantpage_delivery",
-    "en": "In the notary’s presence, physically sign it. They will then notarize it.",
-    "fr": "Dans la présence du notaire, signez-le physiquement. Ils le notarieront alors.",
-    "es": "En presencia del notario, escriba su firma. Luego será notarizada.",
-    "ko": "공증인의 입회하에 직접 서명하십시오. 그럼 공증인이 해당 문서를 공증할 것입니다.",
-    "vi": "Ký tên vào đơn trước mặt công chứng viên. Sau đó, họ sẽ công chứng đơn đăng ký đó.",
-    "tl": "Sa presensya ng notaryo, lagdaan ito sa personal. Pagkatapos ay nonotaryohan nila ito.",
-    "zh-hans": "在公证人在场的情况下，亲自签名。由公证人完成公证。",
-    "zh-hant": "在公證人在場的情況下，親自簽名。然後他們會對其進行公證。",
-    "hy": "Նոտարի ներկայությամբ՝ ֆիզիկապես ստորագրեք այն: Այնուհետև նրանք դա կհաստատեն նոտարական կարգով:"
-  },
-  "vital_records_scan_photo": {
-    "status": "avantpage_delivery",
-    "en": "Scan or take a photo of the notarized application, then return and click <span class=\"bold\">Print & Sign</span>.",
-    "fr": "Scannez ou prenez une photo de l'application notariée, puis retournez et cliquez sur <span class=\"bold\">Imprimer et signer</span>.",
-    "es": "Escanee o tome una fotografía de la solicitud notariada, luego regrese y haga clic en <span class=\"bold\">Imprimir y firmar</span>.",
-    "ko": "공증된 신청서를 스캔하거나 사진을 촬영한 다음, 돌아가서 <span class=\"bold\">인쇄 및 서명(Print & Sign)</span>을 클릭하십시오.",
-    "vi": "Quét hoặc chụp ảnh đơn đăng ký đã công chứng, sau đó quay lại và nhấp vào <span class=\"bold\">In và Ký Tên</span>.",
-    "tl": "I-scan o kunan ng larawan ang ninotaryohang aplikasyon, pagkatapos ay bumalik at i-click ang <span class=\"bold\">I-print at Lagdaan</span>.",
-    "zh-hans": "扫描或拍摄公证后的申请表，返回系统并再次点击<span class=\"bold\">打印并签名</span>。",
-    "zh-hant": "掃描或拍攝公證申請的照片，然後返回並點擊 <span class=\"bold\">列印並簽名</span>。",
-    "hy": "Սկանավորեք կամ լուսանկարեք նոտարական դիմումը, ապա վերադարձեք և սեղմեք <span class=\"bold\">Print & Sign</span>։",
-    "orig_en": "Scan or take a photo of the notarized application, then return and click <strong>Print & Sign</strong>."
-  },
-  "vital_records_more_than_one_record": {
-    "status": "avantpage_delivery",
-    "en": "You can use one notarized statement to apply for more than one record at the same time.",
-    "fr": "Vous pouvez utiliser un serment notarié pour postuler pour plusieurs certificats en même temps.",
-    "es": "Puede usar un estado de cuenta notariado para solicitar más de un registro al mismo tiempo.",
-    "ko": "하나의 공증된 진술서를 사용하여 두 개 이상의 기록을 동시에 신청할 수 있습니다.",
-    "vi": "Quý vị có thể sử dụng lời khai được công chứng để đăng ký nhiều hồ sơ cùng lúc.",
-    "tl": "Puwede kang gumamit ng isang ninotaryohang salaysay para sabay-sabay na mag-apply para sa higit sa isang record.",
-    "zh-hans": "您可以使用一份公证声明同时申请多个文件。",
-    "zh-hant": "您可以使用一份公證聲明同時申請多項記錄。",
-    "hy": "Դուք կարող եք մեկ նոտարական դիմումի միջոցով միաժամանակ դիմել մեկից ավելի արձանագրությունների համար:"
-  },
-  "vital_records_upload_submit": {
-    "status": "avantpage_delivery",
-    "en": "Follow the instructions to upload and submit your application.",
-    "fr": "Suivez les instructions pour télécharger et soumettre votre demande.",
-    "es": "Siga las instrucciones para cargar y enviar su solicitud.",
-    "ko": "지침에 따라 신청서를 업로드하고 제출하십시오.",
-    "vi": "Làm theo hướng dẫn để tải lên và gửi đơn đăng ký của quý vị.",
-    "tl": "Sundin ang mga tagubilin para ma-upload at maisumite ang iyong application.",
-    "zh-hans": "按照说明上传并提交申请。",
-    "zh-hant": "按照說明上傳並提交您的申請。",
-    "hy": "Հետևեք Ձեր դիմումը վերբեռնելու և ուղարկելու հրահանգներին:"
-  },
-  "vital_records_fax_option": {
-    "status": "avantpage_delivery",
-    "en": "You also have the option to submit it by fax.",
-    "fr": "Vous avez également la possibilité de le soumettre par fax.",
-    "es": "También tiene la opción de enviarla por fax.",
-    "ko": "팩스로 제출할 수도 있습니다.",
-    "vi": "Quý vị cũng có thể gửi qua fax.",
-    "tl": "Puwede mo ring isumite ito sa pamamagitan ng fax.",
-    "zh-hans": "也可选择传真提交。",
-    "zh-hant": "您也可以選擇通過傳真提交。",
-    "hy": "Դուք այն նաև կարող եք ուղարկել ֆաքսի միջոցով։"
-  },
-  "vital_records_online_forms": {
-    "status": "avantpage_delivery",
-    "en": "Application forms",
-    "fr": "Formulaires en ligne",
-    "es": "Formularios en línea",
-    "ko": "온라인 양식",
-    "vi": "Mẫu đơn trực tuyến",
-    "tl": "Mga online na form",
-    "zh-hans": "在线表格",
-    "zh-hant": "在線表單",
-    "hy": "Առցանց ձևաթղթեր"
-  },
   "vital_records_birth": {
     "status": "avantpage_delivery",
     "en": "Birth",
@@ -335,32 +141,6 @@
     "zh-hans": "出生证明",
     "zh-hant": "出生",
     "hy": "Ծնունդ"
-  },
-  "vital_records_birth_record_english": {
-    "status": "avantpage_delivery",
-    "en": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Birth record</a> (English)",
-    "fr": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Certificat de naissance</a> (Anglais)",
-    "es": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Birth record</a> (English)",
-    "ko": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">출생 기록</a>(영어)",
-    "vi": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Hồ sơ khai sinh</a> (Tiếng Anh)",
-    "tl": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Record ng kapanganakan</a> (English)",
-    "zh-hans": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">出生证明</a>（英文版）",
-    "zh-hant": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">出生記錄</a> （英文）",
-    "hy": "<a href=\"https://powerforms.docusign.net/84a5be6e-d309-4d4e-81d8-82548bfeb3ac?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Ծննդյան արձանագրություն</a> (անգլերեն)",
-    "orig_en": "<link>Birth record</link> (English)"
-  },
-  "vital_records_birth_record_spanish": {
-    "status": "avantpage_delivery",
-    "en": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de nacimiento</a> (Español)",
-    "fr": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Certificat de naissance</a> (Espagnol)",
-    "es": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de nacimiento</a> (español)",
-    "ko": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de nacimiento</a> (Español)",
-    "vi": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de nacimiento</a> (Español)",
-    "tl": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de nacimiento</a> (Español)",
-    "zh-hans": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de nacimiento</a> (Español)",
-    "zh-hant": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de nacimiento</a> （Español）",
-    "hy": "<a href=\"https://powerforms.docusign.net/2e5a9f07-70c0-43c5-b32d-4f338aaed20b?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de nacimiento</a> (Español)",
-    "orig_en": "<link>Registros de nacimiento</link> (Español)"
   },
   "vital_records_marriage": {
     "status": "avantpage_delivery",
@@ -374,32 +154,6 @@
     "zh-hant": "婚姻狀況",
     "hy": "Ամուսնություն"
   },
-  "vital_records_marriage_record_english": {
-    "status": "avantpage_delivery",
-    "en": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Marriage record</a> (English)",
-    "fr": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Certificat de mariage</a> (Anglais)",
-    "es": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Marriage record</a> (English)",
-    "ko": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">결혼 기록</a>(영어)",
-    "vi": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Hồ sơ kết hôn</a> (Tiếng Anh)",
-    "tl": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Record ng kasal</a> (English)",
-    "zh-hans": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">结婚证明</a>（英文版）",
-    "zh-hant": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">結婚記錄</a> （英文）",
-    "hy": "<a href=\"https://powerforms.docusign.net/b2ee3fed-7754-4d1d-b79d-62ccbbac9724?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Ամուսնության արձանագրություն</a> (անգլերեն)",
-    "orig_en": "<link>Marriage record</link> (English)"
-  },
-  "vital_records_marriage_record_spanish": {
-    "status": "avantpage_delivery",
-    "en": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de matrimonio</a> (Español)",
-    "fr": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Certificat de mariage</a> (Espagnol)",
-    "es": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de matrimonio</a> (español)",
-    "ko": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de matrimonio</a> (Español)",
-    "vi": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de matrimonio</a> (Español)",
-    "tl": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de matrimonio</a> (Español)",
-    "zh-hans": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de matrimonio</a> (Español)",
-    "zh-hant": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de matrimonio</a> （Español）",
-    "hy": "<a href=\"https://powerforms.docusign.net/4eaeec72-454d-42a5-9fa8-b39667fb3324?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de matrimonio</a> (Español)",
-    "orig_en": "<link>Registro de matrimonio</link> (Español)"
-  },
   "vital_records_death": {
     "status": "avantpage_delivery",
     "en": "Death",
@@ -411,43 +165,6 @@
     "zh-hans": "死亡证明",
     "zh-hant": "死亡",
     "hy": "Մահ"
-  },
-  "vital_records_death_record_english": {
-    "status": "avantpage_delivery",
-    "en": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Death record</a> (English)",
-    "fr": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Certificat de décès</a> (Anglais)",
-    "es": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Death record</a> (English)",
-    "ko": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">사망 기록</a>(영어)",
-    "vi": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Hồ sơ chứng tử</a> (Tiếng Anh)",
-    "tl": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Record ng pagkamatay</a> (English)",
-    "zh-hans": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">死亡证明</a>（英文版）",
-    "zh-hant": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">死亡記錄</a> （英文）",
-    "hy": "<a href=\"https://powerforms.docusign.net/5f055c18-61e5-473a-a527-3e6aad8bfe8c?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a\" class=\"bold\">Մահվան արձանագրություն</a> (անգլերեն)",
-    "orig_en": "<link>Death record</link> (English)"
-  },
-  "vital_records_death_record_spanish": {
-    "status": "avantpage_delivery",
-    "en": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registros de defunción</a> (Español)",
-    "fr": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Certificat de décès</a> (Espagnol)",
-    "es": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de muerte</a> (español)",
-    "ko": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de defunción</a> (Español)",
-    "vi": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de defunción</a> (Español)",
-    "tl": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de defunción</a> (Español)",
-    "zh-hans": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de defunción</a> (Español)",
-    "zh-hant": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de defunción</a> （Español）",
-    "hy": "<a href=\"https://powerforms.docusign.net/8b192521-acb4-4826-a2f1-76735e8b6f86?env=na2&acct=4d7f4c21-7650-4313-8c42-292a416eb41a&accountId=4d7f4c21-7650-4313-8c42-292a416eb41a&recipientLang=es_MX\" class=\"bold\">Registro de defunción</a> (Español)",
-    "orig_en": "<link>Registro de defunción</link> (Español)"
-  },
-  "vital_records_to_apply_in_person": {
-    "en": "To apply in person",
-    "fr": "Pour faire une demande en personne",
-    "es": "Para solicitar en persona",
-    "ko": "직접 신청하려면",
-    "vi": "Để nộp đơn trực tiếp",
-    "tl": "Para mag-aplay nang personal",
-    "zh-hans": "亲自申请",
-    "zh-hant": "親自申請",
-    "hy": "Անձամբ դիմելու համար"
   },
   "vital_records_visit_intro": {
     "en": "Visit:",
@@ -471,61 +188,6 @@
     "zh-hans": "<a href=\"/lafires/zh-hans/help-for-you/get-help-in-person/\">灾害恢复中心</a>，或前往",
     "zh-hant": "<a href=\"/lafires/zh-hant/help-for-you/get-help-in-person/\">災難復原中心</a>，或",
     "hy": "<a href=\"/lafires/hy/help-for-you/get-help-in-person/\">Աղետների վերականգնման կենտրոն</a>, կամ"
-  },
-  "apply_in_person_county_recorder": {
-    "en": "The county recorder’s office in the county where the birth, marriage, or death occured.",
-    "fr": "Le bureau du recenseur du comté où la naissance, le mariage, ou le décès a eu lieu.",
-    "es": "comuníquese con el registrador del condado donde ocurrió el nacimiento, el matrimonio, o la muerte.",
-    "ko": "출생, 결혼 또는 사망이 발생한 카운티의 카운티 기록관 사무소.",
-    "vi": "Văn phòng nhân viên hộ tịch ở quận nơi sinh, kết hôn hoặc mất.",
-    "tl": "Ang tanggapan ng recorder ng county sa county kung saan nangyari ang kapanganakan, kasal, o pagkamatay.",
-    "zh-hans": "出生、结婚或死亡地点的县记录员办公室。",
-    "zh-hant": "出生、結婚或死亡所在縣的縣記錄員辦公室。",
-    "hy": "Վարչաշրջանային գրանցման գրասենյակ այն շրջանում, որտեղ տեղի է ունեցել ծնունդը, ամուսնությունը կամ մահը:"
-  },
-  "vital_records_to_apply_by_mail": {
-    "en": "To apply by mail",
-    "fr": "Pour postuler par courrier",
-    "es": "Para solicitar por correo",
-    "ko": "우편으로 신청하려면",
-    "vi": "Để nộp đơn qua thư",
-    "tl": "Para mag-aplay sa pamamagitan ng koreo",
-    "zh-hans": "通过邮件申请",
-    "zh-hant": "透過郵件申請",
-    "hy": "Դիմելու համար փոստով"
-  },
-  "vital_records_print_the_application": {
-    "en": "Print the application for the record you need.",
-    "fr": "Imprimez le formulaire pour le certificat que vous avez besoin.",
-    "es": "Imprima la solicitud para el registro que necesite.",
-    "ko": "필요한 기록에 대한 신청서를 인쇄하십시오.",
-    "vi": "In đơn đăng ký cho hồ sơ quý vị cần.",
-    "tl": "I-print ang application para sa record na kailangan mo.",
-    "zh-hans": "打印所需文件的申请表。",
-    "zh-hant": "列印所需記錄的申請表。",
-    "hy": "Տպեք Ձեզ անհրաժեշտ արձանագրության դիմումը:"
-  },
-  "vital_records_pdf_version_list_item": {
-    "en": "PDF versions are available from the <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
-    "fr": "Des versions PDF sont disponibles sur le site du <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
-    "es": "Las versiones en PDF están disponibles en el <a href=\"https://www.cdph.ca.gov/\">Departamento de Salud Pública de California</a>.",
-    "ko": "<a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>에서 PDF 버전을 확인할 수 있습니다.",
-    "vi": "Các phiên bản PDF có sẵn từ <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
-    "tl": "Ang mga bersyon ng PDF ay magagamit mula sa <a href=\"https://www.cdph.ca.gov/\">California Department of Public Health</a>.",
-    "zh-hans": "PDF版本可从<a href=\"https://www.cdph.ca.gov/\">加利福尼亚州公共卫生部</a>获取。",
-    "zh-hant": "PDF版本可從<a href=\"https://www.cdph.ca.gov/\">加利福尼亚州公共卫生部</a>獲得。",
-    "hy": "<a href=\"https://www.cdph.ca.gov/\">Կալիֆորնիայի հանրային առողջության դեպարտամենտից</a> հասանելի են PDF տարբերակները:"
-  },
-  "vital_records_fill_it_out": {
-    "en": "Fill it out, notarize it, and mail it according to the instructions.",
-    "fr": "Remplissez-le, faites-le notarier et envoyez-le par courrier selon les instructions.",
-    "es": "Rellénelo, hágalo notariar y envíelo por correo según las instrucciones.",
-    "ko": "작성하고 공증을 받은 후 지침에 따라 우편으로 보내십시오.",
-    "vi": "Điền vào, công chứng và gửi theo hướng dẫn.",
-    "tl": "Punan ito, ipanotaryo, at ipadala ayon sa mga tagubilin.",
-    "zh-hans": "填写并公证，然后按照说明邮寄。",
-    "zh-hant": "填寫並公證，然後按照說明郵寄。",
-    "hy": "Լրացրեք այն, նոտարացրեք և ուղարկեք այն ըստ հրահանգների:"
   },
   "vital_records_disaster_recovery_center": {
     "status": "avantpage_delivery",
@@ -576,18 +238,6 @@
     "zh-hant": "列印替換出生記錄的申請表。",
     "hy": "Տպեք դիմումը ծննդյան վկայականի փոխարինման համար:"
   },
-  "to_apply_online_with_notary_body": {
-    "status": "machine_translation",
-    "en": "Use these forms to replace certificates issued in California.",
-    "fr": "Utilisez ces formulaires pour remplacer les certificats délivrés en Californie.",
-    "es": "Utilice estos formularios para reemplazar los certificados emitidos en California.",
-    "ko": "이 양식을 사용하여 캘리포니아에서 발급된 증명서를 교체하십시오.",
-    "vi": "Sử dụng các mẫu này để thay thế các chứng chỉ được cấp ở California.",
-    "tl": "Gamitin ang mga form na ito upang palitan ang mga sertipiko na inisyu sa California.",
-    "zh-hans": "使用这些表格来更换加利福尼亚州签发的证书。",
-    "zh-hant": "使用這些表格來更換加利福尼亞州簽發的證書。",
-    "hy": "Օգտագործեք այս ձևերը Կալիֆորնիայում տրված վկայականները փոխելու համար:"
-  },
   "vital_records_pdf_versions": {
     "status": "avantpage_delivery",
     "en": "PDF versions are available from the <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">California Department of Public Health</a>.",
@@ -600,18 +250,6 @@
     "zh-hant": "PDF 版本可從<a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">加州公共衛生部</a>獲得。",
     "hy": "PDF տարբերակները հասանելի են <a href=\"https://www.cdph.ca.gov/Programs/CHSI/Pages/Vital-Records.aspx\">Կալիֆորնիայի հանրային առողջության վարչությունում</a>:",
     "orig_en": "PDF versions are available from the <link>California Department of Public Health</link>."
-  },
-  "to_apply_online_with_notary": {
-    "status": "machine_translation",
-    "en": "To apply in-person with a notary",
-    "fr": "Pour postuler en personne avec un notaire",
-    "es": "Para solicitar en persona con un notario",
-    "ko": "공증인과 함께 직접 신청하려면",
-    "vi": "Để đăng ký trực tiếp với một công chứng viên",
-    "tl": "Upang mag-apply nang personal kasama ang isang notaryo",
-    "zh-hans": "要亲自申请公证",
-    "zh-hant": "要親自申請公證",
-    "hy": "Դիմելու համար անձամբ նոտարի հետ"
   },
   "vital_records_fill_notarize_mail": {
     "status": "avantpage_delivery",
