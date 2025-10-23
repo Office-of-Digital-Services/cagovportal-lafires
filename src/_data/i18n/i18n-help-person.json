@@ -568,15 +568,14 @@
   },
   "help_person_one_shop_center1_address": {
     "status": "avantpage_delivery",
-    "en": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
-    "es": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
-    "ko": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
-    "vi": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
-    "tl": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
-    "zh-hans": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
-    "zh-hant": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
-    "hy": "26600 Agoura Rd. #110 <br/>Calabasas, CA 91302",
-    "comment": "Translation delivered 2025-04-23"
+    "en": "27001 Agoura Road, Suite 250, <br/>Calabasas, CA 91302",
+    "es": "27001 Agoura Road, Suite 250, <br/>Calabasas, CA 91302",
+    "ko": "27001 Agoura Road, Suite 250, <br/>Calabasas, CA 91302",
+    "vi": "27001 Agoura Road, Suite 250, <br/>Calabasas, CA 91302",
+    "tl": "27001 Agoura Road, Suite 250, <br/>Calabasas, CA 91302",
+    "zh-hans": "27001 Agoura Road, Suite 250, <br/>Calabasas, CA 91302",
+    "zh-hant": "27001 Agoura Road, Suite 250, <br/>Calabasas, CA 91302",
+    "hy": "27001 Agoura Road, Suite 250,<br/>Calabasas, CA 91302"
   },
   "help_person_one_shop_center1_hours": {
     "status": "avantpage_delivery",
@@ -721,14 +720,14 @@
   },
   "help_person_federal_resources_description": {
     "status": "ap_review",
-    "en": "Go to these centers for help with federal resources. FEMA and the Small Business Administration will be there.",
-    "es": "Vaya a estos centros para obtener ayuda con los recursos federales. FEMA y la Administración de Pequeñas Empresas estarán allí.",
-    "ko": "연방 자원에 대한 도움을 받으려면 해당 센터로를 방문하십시오. FEMA와 중소기업청이 있습니다.",
-    "vi": "Hãy đến các trung tâm này để được trợ giúp về các nguồn lực liên bang. FEMA và Cơ quan Quản lý Doanh nghiệp Nhỏ sẽ có mặt.",
-    "tl": "Pumunta sa mga sentro na ito para sa tulong sa mga pederal na mapagkukunan. Nandoon ang FEMA at ang Small Business Administration.",
-    "zh-hans": "请前往这些中心，获取有关联邦资源的帮助。FEMA 和小企业管理局将会在场。",
-    "zh-hant": "請前往這些中心，獲取有關聯邦資源的幫助。FEMA 和小企業管理局將會在場。",
-    "hy": "Ֆեդերալ ռեսուրսների հետ կապված օգնության համար դիմեք այս կենտրոններին։ Այստեղ կլինեն FEMA-ն և Փոքր բիզնեսի վարչությունը։"
+    "en": "Go to these centers for help with federal resources. The Small Business Administration will be there.",
+    "es": "Vaya a estos centros para obtener ayuda con los recursos federales. La Administración de Pequeñas Empresas estará allí.",
+    "ko": "연방 자원에 대한 도움을 받으려면 해당 센터로 방문하십시오. 중소기업청이 그 곳에 있을 것입니다.",
+    "vi": "Hãy đến các trung tâm này để được trợ giúp về các tài nguyên liên bang. Cơ quan Quản lý Doanh nghiệp Nhỏ sẽ có mặt ở đó.",
+    "tl": "Pumunta sa mga center na ito para sa tulong sa mga pederal na mapagkukunan. Nandoon ang Small Business Administration.",
+    "zh-hans": "请前往这些中心，获取有关联邦资源的帮助。小企业管理局将会在那里。",
+    "zh-hant": "請前往這些中心，獲取有關聯邦資源的幫助。小企業管理局將會在那裡。",
+    "hy": "Ֆեդերալ ռեսուրսների վերաբերյալ օգնության համար դիմեք այս կենտրոններին։ Այստեղ կլինի Փոքր և Միջին Բիզնեսների Ադմինիստրացիան։"
   },
   "help_person_federal_resources_hours": {
     "status": "ap_review",
