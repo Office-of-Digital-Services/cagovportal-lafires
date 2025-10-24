@@ -593,14 +593,14 @@
   "financial_assistance_card_10_list_2": {
     "status": "ap_review",
     "comment": "added 5-8-2025",
-    "en": "Find <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">job training</a>",
-    "es": "Encuentre <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">capacitación laboral</a>",
-    "ko": "<a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">직업 훈련</a>을 찾으세요",
-    "vi": "Tìm <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">đào tạo việc làm</a>",
-    "tl": "Maghanap ng <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">pagsasanay sa trabaho</a>",
-    "zh-hans": "寻找<a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">职业培训</a>",
-    "zh-hant": "尋找<a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">職業培訓</a>",
-    "hy": "Գտեք <a href=\"https://edd.ca.gov/en/jobs_and_training/Training_Information/\">աշխատանքային վերապատրաստում</a>"
+    "en": "Find <a href=\"https://edd.ca.gov/jobs_and_training/\">job training</a>",
+    "es": "Encuentre <a href=\"https://edd.ca.gov/jobs_and_training/\">capacitación laboral</a>",
+    "ko": "<a href=\"https://edd.ca.gov/jobs_and_training/\">직업 훈련</a>을 찾으세요",
+    "vi": "Tìm <a href=\"https://edd.ca.gov/jobs_and_training/\">đào tạo việc làm</a>",
+    "tl": "Maghanap ng <a href=\"https://edd.ca.gov/jobs_and_training/\">pagsasanay sa trabaho</a>",
+    "zh-hans": "寻找<a href=\"https://edd.ca.gov/jobs_and_training/\">职业培训</a>",
+    "zh-hant": "尋找<a href=\"https://edd.ca.gov/jobs_and_training/\">職業培訓</a>",
+    "hy": "Գտեք <a href=\"https://edd.ca.gov/jobs_and_training/\">աշխատանքային վերապատրաստում</a>"
   },
 
   "financial_assistance_student_loan": {
