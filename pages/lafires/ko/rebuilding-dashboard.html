@@ -2,7 +2,437 @@
 title: "LA 재건"
 description: "LA의 재건 노력을 위한 허가 진행 상황과 주요 이정표를 추적할 수 있습니다. LA 카운티 및 시, 말리부, 패서디나의 허가 추적 정보를 확인할 수 있습니다."
 keywords: "LA, 로스앤젤레스, 말리부, 패서디나, 화재, 산불, 허가"
+breadcrumbparent: 2025년 로스앤젤레스 화재
 permalink: /lafires/ko/rebuilding-la/
 ---
 
-{%- include "src/_includes/rebuilding-dashboard-shared.html" -%}
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/bar-graph-lineart.svg') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <div class="mt-lg-0 h2" role="heading" aria-level="2">재건 대시보드</div>
+      <p class="m-b-md lead">
+        화재로 피해를 입은 분들을 돕는 것이 최우선입니다. 아래에서 재건 진행
+        상황을 추적할 수 있습니다.
+      </p>
+      <nav class="page-navigation"></nav>
+      <h2>허가</h2>
+      <p>주정부의 조치로 산불 재건이 신속하게 진행되고 있습니다.</p>
+
+      <div
+        class="alert alert-warning p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="m-b-0 font-size-16">
+          모든 허가는 지방 정부에서 처리합니다. 허가 수치는 각 지방 자치단체에서
+          직접 제공하며, 서로 직접 비교할 수 없을 수 있습니다.
+        </p>
+      </div>
+
+      <div class="row">
+        <!--LA county-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                로스앤젤레스 카운티
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  접수된 신청서
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  검토 중
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  허가 발급
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >LA 카운티 제공
+                  <a
+                    href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/"
+                    >허가 진행 상황 대시보드</a
+                  >.</em
+                ><br />
+                <em><span id="county_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--LA city-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                로스앤젤레스 시
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  접수된 신청서
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  검토 중
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  허가 발급
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em>로스앤젤레스 시 제공</em><br />
+                <em><span id="la_city_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Malibu-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">말리부 시</h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  접수된 신청서
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  검토 중
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  허가 발급
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >말리부 시 제공
+                  <a href="https://maliburebuilds.org/rebuild-dashboard/"
+                    >허가 진행 상황 대시보드</a
+                  >.</em
+                ><br />
+                <em><span id="malibu_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Pasadena-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">패서디나 시</h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  접수된 신청서
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  검토 중
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  허가 발급
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >패서디나 시 제공
+                  <a
+                    href="https://experience.arcgis.com/experience/d4c4617a88204a869a37404d1496cfbd/page/Pasadena-Rebuilds"
+                    >허가 진행 상황 대시보드</a
+                  >.</em
+                ><br />
+                <em
+                  ><span id="pasadena_building_permits_issued_date"></span
+                ></em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>현재까지의 허가 조치</h2>
+      <p>
+        1일차부터 캘리포니아는 장벽을 제거하고 행정 절차를 간소화하기 위해
+        노력해왔습니다. 뉴섬 주지사는 생존자 지원과 재건 신속화를 위해 다음과
+        같은 조치를 취했습니다:
+      </p>
+      <h3>재정 지원 및 구호</h3>
+      <ul>
+        <li>
+          LA 카운티
+          <a
+            href="https://www.gov.ca.gov/2025/01/11/california-provides-tax-relief-for-those-affected-by-los-angeles-wildfires/"
+            >개인 소득세 신고 기한</a
+          >
+          을 10월 15일까지 연장
+        </li>
+        <li>사업체 판매 및 사용세 신고 기한을 4월 30일까지 연기</li>
+        <li>2026년 4월까지 1년간 재산세 연체에 대한 벌금 및 이자 면제</li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/23/governor-newsom-announces-commitments-from-state-banks-and-credit-unions-to-provide-mortgage-relief-for-firestorm-survivors/"
+            >주정부</a
+          >
+          및
+          <a
+            href="https://www.gov.ca.gov/2025/01/18/governor-newsom-announces-commitments-from-major-lenders-to-provide-firestorm-survivors-with-mortgage-relief/"
+            >연방 인가</a
+          >
+          은행과 협력하여 피해 주택 소유자가 모기지 구제를 받을 수 있도록 지원
+        </li>
+        <li>
+          피해 주택 소유자를 위해
+          <a
+            href="https://www.gov.ca.gov/2025/02/19/governor-newsom-proposes-125-million-in-mortgage-relief-to-benefit-victims-of-recent-natural-disasters/"
+            >1억 500만 달러의 모기지 구제</a
+          >
+          제공
+        </li>
+      </ul>
+      <h3>주택 허가 절차 간소화</h3>
+      <ul>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/"
+            >캘리포니아 환경품질법(CEQA) 및 캘리포니아 해안법</a
+          >
+          에 따라 손상되거나 파괴된 재산 재건 시 허가 및 심사 요건 면제
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/27/governor-newsom-cuts-red-tape-further-suspends-coastal-commission-rules-to-help-la-firestorm-survivors-rebuild/"
+            >해안위원회가 주지사 행정명령에 간섭하지 못하도록 금지</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >CEQA, 캘리포니아 해안법, 지방 정부의 기존 면제 조항 명확화 및
+            확대</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >추가 심사 없이 기존 승인된 사양에 따라 신축 주택 재건 허용</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >원본 건축 도면 접근성 향상</a
+          >
+          으로 건축 지연 감소 및 신속화
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >건축 허가 기한 연장</a
+          >
+          으로 재건을 원하는 주택 소유자의 행정 부담 완화
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >LA 카운티의 지역 주택 요소 재조정 기한 연기</a
+          >
+        </li>
+        <ul>
+          <li>
+            이제 지방 정부 직원이 재건 허가 발급에 우선순위를 둘 수 있습니다.
+          </li>
+        </ul>
+      </ul>
+      <h3>주택 보호 및 착취 방지 조치</h3>
+      <ul>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/16/governor-newsom-issues-executive-order-to-fast-track-temporary-housing-for-los-angeles-firestorm-area/"
+            >부속 주택 건설 간소화</a
+          >
+          를 통해 임시 주택 신속 지원
+        </li>
+        <ul>
+          <li>또한 임시 트레일러 허용 확대 및 이동식 주택 단지 요금 면제</li>
+        </ul>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/17/governor-newsom-bans-evictions-based-on-hosting-fire-survivors/"
+            >임대주가 화재 피해자를 임시로 거주시키는 경우 퇴거 금지</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/14/governor-newsom-issues-order-to-protect-fire-victims-from-predatory-real-estate-speculators/"
+            >화재 피해자를 투기적 부동산업자로부터 보호</a
+          >
+        </li>
+        <ul>
+          <li>
+            이는 주택 소유자가 원치 않는 현금 매입 제안으로부터 보호받을 수
+            있도록 합니다.
+          </li>
+        </ul>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/"
+            >임대료, 호텔비, 건축 자재 가격의 불법 인상 방지를 위한 가격 폭리
+            방지 조치 시행</a
+          >
+        </li>
+      </ul>
+    </div>
+    <!--END MAIN COL CONTENT-->
+    {%- set js -%}{%- include "track-progress.mjs" -%}{%- endset -%}
+    <script type="module">
+      {{- js | jsmin | safe }}
+    </script>
+  </div>
+</div>
