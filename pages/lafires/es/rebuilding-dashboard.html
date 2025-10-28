@@ -2,7 +2,472 @@
 title: "Reconstruyendo LA"
 description: "Puede seguir el progreso y los hitos de permisos para los esfuerzos de reconstrucción de LA. El seguimiento de permisos está disponible para el condado y la ciudad de LA, Malibu y Pasadena."
 keywords: "LA, Los Ángeles, Malibu, Pasadena, incendios, incendios forestales, permisos"
+breadcrumbparent: Incendios de Los Ángeles en 2025
 permalink: /lafires/es/rebuilding-la/
 ---
 
-{%- include "src/_includes/rebuilding-dashboard-shared.html" -%}
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/bar-graph-lineart.svg') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <div class="mt-lg-0 h2" role="heading" aria-level="2">
+        Panel de reconstrucción
+      </div>
+      <p class="m-b-md lead">
+        Ayudar a los afectados por los incendios es la máxima prioridad. Puede
+        seguir el progreso de la reconstrucción a continuación.
+      </p>
+      <nav class="page-navigation"></nav>
+      <h2>Permisos</h2>
+      <p>
+        Las acciones estatales están allanando el camino para una reconstrucción
+        acelerada tras los incendios forestales.
+      </p>
+
+      <div
+        class="alert alert-warning p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="m-b-0 font-size-16">
+          Todos los permisos son gestionados por los gobiernos locales. Los
+          números de permisos provienen directamente de las jurisdicciones
+          locales y pueden no ser directamente comparables entre sí.
+        </p>
+      </div>
+
+      <div class="row">
+        <!--LA county-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Condado de Los Ángeles
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Solicitudes recibidas
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  En revisión
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Permisos emitidos
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Reportado por el Condado de Los Ángeles
+                  <a
+                    href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/"
+                    >Panel de Progreso de Permisos</a
+                  >.</em
+                ><br />
+                <em><span id="county_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--LA city-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Ciudad de Los Ángeles
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Solicitudes recibidas
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  En revisión
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Permisos emitidos
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em>Reportado por la Ciudad de Los Ángeles</em><br />
+                <em><span id="la_city_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Malibu-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Ciudad de Malibu
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Solicitudes recibidas
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  En revisión
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Permisos emitidos
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Reportado por la Ciudad de Malibu
+                  <a href="https://maliburebuilds.org/rebuild-dashboard/"
+                    >Panel de Progreso de Permisos</a
+                  >.</em
+                ><br />
+                <em><span id="malibu_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Pasadena-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Ciudad de Pasadena
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Solicitudes recibidas
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  En revisión
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Permisos emitidos
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Reportado por la Ciudad de Pasadena
+                  <a
+                    href="https://experience.arcgis.com/experience/d4c4617a88204a869a37404d1496cfbd/page/Pasadena-Rebuilds"
+                    >Panel de Progreso de Permisos</a
+                  >.</em
+                ><br />
+                <em
+                  ><span id="pasadena_building_permits_issued_date"></span
+                ></em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Acciones de permisos hasta la fecha</h2>
+      <p>
+        Desde el primer día, California ha trabajado para eliminar barreras y
+        reducir la burocracia. El Gobernador Newsom ha tomado las siguientes
+        acciones para apoyar a los sobrevivientes y acelerar la reconstrucción:
+      </p>
+      <h3>Alivio financiero y apoyo</h3>
+      <ul>
+        <li>
+          Se extendió la
+          <a
+            href="https://www.gov.ca.gov/2025/01/11/california-provides-tax-relief-for-those-affected-by-los-angeles-wildfires/"
+            >fecha límite para la declaración de impuestos individuales</a
+          >
+          del Condado de Los Ángeles hasta el 15 de octubre
+        </li>
+        <li>
+          Se pospuso la fecha límite para la declaración de impuestos sobre
+          ventas y uso de negocios hasta el 30 de abril
+        </li>
+        <li>
+          Se eximieron multas e intereses por pagos atrasados de impuestos a la
+          propiedad durante un año de gracia hasta abril de 2026
+        </li>
+        <li>
+          Se trabajó con
+          <a
+            href="https://www.gov.ca.gov/2025/01/23/governor-newsom-announces-commitments-from-state-banks-and-credit-unions-to-provide-mortgage-relief-for-firestorm-survivors/"
+            >bancos estatales</a
+          >
+          y
+          <a
+            href="https://www.gov.ca.gov/2025/01/18/governor-newsom-announces-commitments-from-major-lenders-to-provide-firestorm-survivors-with-mortgage-relief/"
+            >federales</a
+          >
+          para que los propietarios afectados puedan recibir alivio hipotecario
+        </li>
+        <li>
+          Se proporcionaron $105 millones en
+          <a
+            href="https://www.gov.ca.gov/2025/02/19/governor-newsom-proposes-125-million-in-mortgage-relief-to-benefit-victims-of-recent-natural-disasters/"
+            >alivio hipotecario</a
+          >
+          para propietarios afectados
+        </li>
+      </ul>
+      <h3>Agilización del proceso de permisos de vivienda</h3>
+      <ul>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/"
+            >Se eximieron requisitos de permisos y revisión</a
+          >
+          para la reconstrucción de propiedades dañadas o destruidas bajo la Ley
+          de Calidad Ambiental de California (CEQA) y la Ley Costera de
+          California
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/27/governor-newsom-cuts-red-tape-further-suspends-coastal-commission-rules-to-help-la-firestorm-survivors-rebuild/"
+            >Se prohibió a la Comisión Costera</a
+          >
+          interferir con las órdenes ejecutivas del Gobernador
+        </li>
+        <li>
+          Se aclararon y
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >ampliaron exenciones existentes</a
+          >
+          bajo CEQA, la Ley Costera de California y gobiernos locales
+        </li>
+        <li>
+          Se permitió que las nuevas viviendas sean
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >reconstruidas según especificaciones previamente aprobadas</a
+          >
+          sin necesidad de revisión adicional
+        </li>
+        <li>
+          Se redujeron retrasos en la construcción y se aceleró el
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >acceso a los planos originales</a
+          >
+        </li>
+        <li>
+          Se extendieron los plazos de
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >permisos de construcción</a
+          >
+          para reducir cargas administrativas a los propietarios que buscan
+          reconstruir
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >Se pospusieron los plazos para la rezonificación de elementos de
+            vivienda locales</a
+          >
+          en el Condado de Los Ángeles
+        </li>
+        <ul>
+          <li>
+            Ahora el personal del gobierno local puede priorizar la emisión de
+            permisos de reconstrucción
+          </li>
+        </ul>
+      </ul>
+      <h3>Protección de vivienda y medidas contra la explotación</h3>
+      <ul>
+        <li>
+          Se aceleró la vivienda temporal mediante
+          <a
+            href="https://www.gov.ca.gov/2025/01/16/governor-newsom-issues-executive-order-to-fast-track-temporary-housing-for-los-angeles-firestorm-area/"
+            >la agilización de la construcción de unidades accesorias</a
+          >
+        </li>
+        <ul>
+          <li>
+            Además, se ampliaron los permisos para casas rodantes temporales y
+            se eximieron tarifas de parques de casas móviles
+          </li>
+        </ul>
+        <li>
+          Se prohibió a los arrendadores
+          <a
+            href="https://www.gov.ca.gov/2025/01/17/governor-newsom-bans-evictions-based-on-hosting-fire-survivors/"
+            >desalojar inquilinos por alojar sobrevivientes de incendios</a
+          >
+          en sus rentas
+        </li>
+        <li>
+          Se protegió a las víctimas de incendios de
+          <a
+            href="https://www.gov.ca.gov/2025/01/14/governor-newsom-issues-order-to-protect-fire-victims-from-predatory-real-estate-speculators/"
+            >especuladores inmobiliarios depredadores</a
+          >
+        </li>
+        <ul>
+          <li>
+            Esto protege a los propietarios de ofertas en efectivo no
+            solicitadas para comprar sus propiedades
+          </li>
+        </ul>
+        <li>
+          Se implementaron
+          <a
+            href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/"
+            >protecciones contra aumentos de precios</a
+          >
+          ilegales en rentas, hoteles y materiales de construcción
+        </li>
+      </ul>
+    </div>
+    <!--END MAIN COL CONTENT-->
+    {%- set js -%}{%- include "track-progress.mjs" -%}{%- endset -%}
+    <script type="module">
+      {{- js | jsmin | safe }}
+    </script>
+  </div>
+</div>

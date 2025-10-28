@@ -2,7 +2,471 @@
 title: "Լոս Անջելեսի վերակառուցում"
 description: "Դուք կարող եք հետևել թույլտվությունների առաջընթացին և հիմնական փուլերին Լոս Անջելեսի վերակառուցման ջանքերում։ Թույլտվությունների հետևումը հասանելի է Լոս Անջելեսի շրջան, քաղաք, Մալիբու և Պասադենա համար։"
 keywords: "Լոս Անջելես, LA, Մալիբու, Պասադենա, հրդեհներ, անտառային հրդեհներ, թույլտվություններ"
+breadcrumbparent: 2025թ․ Լոս Անջելեսի հրդեհներ
 permalink: /lafires/hy/rebuilding-la/
 ---
 
-{%- include "src/_includes/rebuilding-dashboard-shared.html" -%}
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/bar-graph-lineart.svg') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <div class="mt-lg-0 h2" role="heading" aria-level="2">
+        Վերակառուցման վահանակ
+      </div>
+      <p class="m-b-md lead">
+        Հրդեհներից տուժածներին օգնելը առաջնահերթություն է։ Դուք կարող եք հետևել
+        վերակառուցման առաջընթացին ստորև։
+      </p>
+      <nav class="page-navigation"></nav>
+      <h2>Թույլտվություններ</h2>
+      <p>
+        Պետական գործողությունները արագացնում են անտառային հրդեհից հետո
+        վերակառուցման գործընթացը։
+      </p>
+
+      <div
+        class="alert alert-warning p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="m-b-0 font-size-16">
+          Բոլոր թույլտվությունները տրվում են տեղական ինքնակառավարման մարմինների
+          կողմից։ Թույլտվությունների տվյալները ստացվում են անմիջապես տեղական
+          մարմիններից և կարող են իրար հետ համեմատելի չլինել։
+        </p>
+      </div>
+
+      <div class="row">
+        <!--LA county-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Լոս Անջելեսի շրջան
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Ստացված հայտեր
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Վերանայման փուլում
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Տրված թույլտվություններ
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Հաղորդում է Լոս Անջելեսի շրջանը
+                  <a
+                    href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/"
+                    >Թույլտվությունների առաջընթացի վահանակ</a
+                  >։</em
+                ><br />
+                <em><span id="county_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--LA city-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Լոս Անջելեսի քաղաք
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Ստացված հայտեր
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Վերանայման փուլում
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Տրված թույլտվություններ
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em>Հաղորդում է Լոս Անջելեսի քաղաքը</em><br />
+                <em><span id="la_city_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Malibu-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Մալիբու քաղաք
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Ստացված հայտեր
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Վերանայման փուլում
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Տրված թույլտվություններ
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Հաղորդում է Մալիբու քաղաքը
+                  <a href="https://maliburebuilds.org/rebuild-dashboard/"
+                    >Թույլտվությունների առաջընթացի վահանակ</a
+                  >։</em
+                ><br />
+                <em><span id="malibu_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Pasadena-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Փասադենա քաղաք
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Ստացված հայտեր
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Վերանայման փուլում
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Տրված թույլտվություններ
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Հաղորդում է Փասադենա քաղաքը
+                  <a
+                    href="https://experience.arcgis.com/experience/d4c4617a88204a869a37404d1496cfbd/page/Pasadena-Rebuilds"
+                    >Թույլտվությունների առաջընթացի վահանակ</a
+                  >։</em
+                ><br />
+                <em
+                  ><span id="pasadena_building_permits_issued_date"></span
+                ></em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Թույլտվությունների գործողություններ մինչ օրս</h2>
+      <p>
+        Սկսած առաջին օրվանից, Կալիֆոռնիան աշխատել է վերացնել խոչընդոտները և
+        կրճատել բյուրոկրատիան։ Նահանգապետ Նյուսոմը ձեռնարկել է հետևյալ քայլերը՝
+        աջակցելու տուժածներին և արագացնելու վերակառուցումը.
+      </p>
+      <h3>Ֆինանսական օգնություն և աջակցություն</h3>
+      <ul>
+        <li>
+          Երկարացվել է Լոս Անջելեսի շրջանի
+          <a
+            href="https://www.gov.ca.gov/2025/01/11/california-provides-tax-relief-for-those-affected-by-los-angeles-wildfires/"
+            >անձնական հարկային հայտարարագրի վերջնաժամկետը</a
+          >
+          մինչև հոկտեմբերի 15-ը
+        </li>
+        <li>
+          Ձգձգվել է բիզնեսի վաճառքի և օգտագործման հարկի հայտարարագրի
+          վերջնաժամկետը մինչև ապրիլի 30-ը
+        </li>
+        <li>
+          Մեկ տարի արտոնյալ ժամկետով մինչև 2026թ. ապրիլը չվճարված գույքահարկի
+          տույժերն ու տուգանքները չեղարկվել են
+        </li>
+        <li>
+          Համագործակցել է
+          <a
+            href="https://www.gov.ca.gov/2025/01/23/governor-newsom-announces-commitments-from-state-banks-and-credit-unions-to-provide-mortgage-relief-for-firestorm-survivors/"
+            >նահանգային</a
+          >
+          և
+          <a
+            href="https://www.gov.ca.gov/2025/01/18/governor-newsom-announces-commitments-from-major-lenders-to-provide-firestorm-survivors-with-mortgage-relief/"
+            >դաշնային</a
+          >
+          բանկերի հետ, որպեսզի տուժած տանտերերը ստանան հիփոթեքային օգնություն
+        </li>
+        <li>
+          Տրվել է 105 միլիոն դոլար
+          <a
+            href="https://www.gov.ca.gov/2025/02/19/governor-newsom-proposes-125-million-in-mortgage-relief-to-benefit-victims-of-recent-natural-disasters/"
+            >հիփոթեքային օգնություն</a
+          >
+          տուժած տանտերերին
+        </li>
+      </ul>
+      <h3>Բնակարանաշինության թույլտվությունների գործընթացի պարզեցում</h3>
+      <ul>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/"
+            >Չեղարկվել են թույլտվությունների և վերանայման պահանջները</a
+          >
+          վնասված կամ ոչնչացված գույքի վերակառուցման համար՝ Կալիֆոռնիայի շրջակա
+          միջավայրի որակի ակտի (CEQA) և Կալիֆոռնիայի առափնյա ակտի շրջանակներում
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/27/governor-newsom-cuts-red-tape-further-suspends-coastal-commission-rules-to-help-la-firestorm-survivors-rebuild/"
+            >Արգելվել է Առափնյա հանձնաժողովին</a
+          >
+          միջամտել նահանգապետի հրամանագրերին
+        </li>
+        <li>
+          Պարզաբանվել և
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >ընդլայնվել են գործող բացառությունները</a
+          >
+          CEQA-ի, Կալիֆոռնիայի առափնյա ակտի և տեղական ինքնակառավարման մարմինների
+          շրջանակներում
+        </li>
+        <li>
+          Թույլատրվել է նոր տները
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >վերակառուցել ըստ նախորդ հաստատված նախագծերի</a
+          >
+          առանց լրացուցիչ վերանայման անհրաժեշտության
+        </li>
+        <li>
+          Կրճատվել են շինարարական ձգձգումները և արագացվել է
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >նախնական շինարարական նախագծերի հասանելիությունը</a
+          >
+        </li>
+        <li>
+          Երկարացվել են շինարարական
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >թույլտվությունների վերջնաժամկետները</a
+          >
+          ՝ նվազեցնելու վարչական բեռը վերակառուցում իրականացնող տանտերերի համար
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >Հետաձգվել են տեղական բնակարանային տարրերի</a
+          >
+          գոտիավորման պահանջի վերջնաժամկետները Լոս Անջելեսի շրջանի համար
+        </li>
+        <ul>
+          <li>
+            Այժմ տեղական մարմինների աշխատակիցները կարող են առաջնահերթություն տալ
+            վերակառուցման թույլտվությունների տրամադրմանը
+          </li>
+        </ul>
+      </ul>
+      <h3>Բնակարանների պաշտպանություն և շահագործման դեմ միջոցառումներ</h3>
+      <ul>
+        <li>
+          Արագացվել է ժամանակավոր բնակարանների տրամադրումը՝
+          <a
+            href="https://www.gov.ca.gov/2025/01/16/governor-newsom-issues-executive-order-to-fast-track-temporary-housing-for-los-angeles-firestorm-area/"
+            >օժանդակ բնակարանային միավորների կառուցման պարզեցմամբ</a
+          >
+        </li>
+        <ul>
+          <li>
+            Բացի այդ, ընդլայնվել է ժամանակավոր տրեյլերների թույլտվությունը և
+            չեղարկվել են շարժական տների պարկի վճարները
+          </li>
+        </ul>
+        <li>
+          Արգելվել է տան տերերին
+          <a
+            href="https://www.gov.ca.gov/2025/01/17/governor-newsom-bans-evictions-based-on-hosting-fire-survivors/"
+            >վտարել վարձակալներին հրդեհից տուժածներին հյուրընկալելու համար</a
+          >
+          իրենց վարձակալած բնակարաններից
+        </li>
+        <li>
+          Պաշտպանվել են հրդեհի զոհերը
+          <a
+            href="https://www.gov.ca.gov/2025/01/14/governor-newsom-issues-order-to-protect-fire-victims-from-predatory-real-estate-speculators/"
+            >շահագործող հողային սպեկուլյանտներից</a
+          >
+        </li>
+        <ul>
+          <li>
+            Սա պաշտպանում է տանտերերին չպահանջված կանխիկ առաջարկներից իրենց
+            գույքը վաճառելու համար
+          </li>
+        </ul>
+        <li>
+          Կիրառվել են
+          <a
+            href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/"
+            >գների բարձրացման դեմ պաշտպանություններ</a
+          >
+          ապօրինի վարձավճարների, հյուրանոցային ծախսերի և շինանյութերի գների
+          բարձրացման դեմ
+        </li>
+      </ul>
+    </div>
+    <!--END MAIN COL CONTENT-->
+    {%- set js -%}{%- include "track-progress.mjs" -%}{%- endset -%}
+    <script type="module">
+      {{- js | jsmin | safe }}
+    </script>
+  </div>
+</div>
