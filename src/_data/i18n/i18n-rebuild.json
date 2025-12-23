@@ -167,25 +167,25 @@
   },
   "rebuild_decide_how_to_remove_debris": {
     "status": "ap_review",
-    "en": "Get debris removed",
-    "es": "Retirar escombros",
-    "ko": "잔해 제거",
-    "vi": "Xóa đống đổ nát",
-    "tl": "Alisin ang mga debris",
-    "zh-hans": "清除残骸",
-    "zh-hant": "清除殘骸",
-    "hy": "Հեռացրեք աղբը"
+    "en": "Look at rebuild options",
+    "es": "Vea las opciones de reconstrucción",
+    "ko": "복구 옵션 보기",
+    "vi": "Xem các tùy chọn xây dựng lại",
+    "tl": "Tingnan ang mga pagpipilian sa muling pagpapatayo",
+    "zh-hans": "查看重建选项",
+    "zh-hant": "查看重建選項",
+    "hy": "Դիտեք վերակառուցման տարբերակները"
   },
   "rebuild_pay_for_private_debris_removal": {
     "status": "ap_review",
-    "en": "Cleanup and debris removal after wildfires is a 2-phase process. You can have it done at no cost to you.",
-    "es": "La limpieza y la eliminación de escombros después de los incendios forestales es un proceso de 2 fases. Puede hacerlo sin costo alguno para usted.",
-    "ko": "산불 이후의 청소 및 잔해 제거는 2단계 프로세스입니다. 비용 없이 처리할 수 있습니다.",
-    "vi": "Việc dọn dẹp và loại bỏ đống đổ nát sau các vụ cháy rừng là một quy trình 2 giai đoạn. Bạn có thể thực hiện mà không mất phí.",
-    "tl": "Ang paglilinis at pag-aalis ng debris pagkatapos ng mga wildfire ay isang 2-phase na proseso. Maaari mo itong gawin nang walang gastos sa iyo.",
-    "zh-hans": "野火后的清理和残骸清除是一个两阶段的过程。您可以免费完成。",
-    "zh-hant": "野火後的清理和殘骸清除是兩個階段的過程。您可以免費完成。",
-    "hy": "Հրդեհներից հետո աղբի մաքրումը և հեռացումը 2 փուլով գործընթաց է: Դուք կարող եք դա անել առանց որևէ ծախսի:"
+    "en": "There’s no single “right” way to rebuild. The best path depends on your timeline, your budget, and how much customization you want. Check out the <a href=\"https://larises.org/resources/#hub\">Rebuilding Resources Hub</a> from LA Rises.",
+    "es": "No existe una única forma \"correcta\" de reconstruir. El mejor camino depende de su cronograma, su presupuesto y cuánto desea personalizar. Consulte el <a href=\"https://larises.org/resources/#hub\">Centro de recursos para la reconstrucción</a> de LA Rises.",
+    "ko": "복구하는 데 \"올바른\" 방법은 없습니다. 최상의 경로는 일정, 예산 및 원하는 맞춤화 정도에 따라 다릅니다. LA Rises의 <a href=\"https://larises.org/resources/#hub\">재건 리소스 허브</a>를 확인하십시오.",
+    "vi": "Không có một cách \"đúng\" duy nhất để xây dựng lại. Con đường tốt nhất phụ thuộc vào dòng thời gian, ngân sách và mức độ tùy chỉnh mà quý vị muốn. Hãy xem <a href=\"https://larises.org/resources/#hub\">Trung tâm Tài nguyên Xây dựng lại</a> từ LA Rises.",
+    "tl": "Walang isang \"tamang\" paraan upang muling magpatayo. Ang pinakamahusay na landas ay nakasalalay sa iyong timeline, iyong badyet, at kung gaano karaming pagpapasadya ang gusto mo. Tingnan ang <a href=\"https://larises.org/resources/#hub\">Rebuilding Resources Hub</a> mula sa LA Rises.",
+    "zh-hans": "没有单一的“正确”重建方式。最佳路径取决于您的时间表、预算以及您想要的定制程度。请查看 LA Rises 的<a href=\"https://larises.org/resources/#hub\">重建资源中心</a>。",
+    "zh-hant": "沒有單一的“正確”重建方式。最佳路徑取決於您的時間表、預算以及您想要的定制程度。請查看 LA Rises 的<a href=\"https://larises.org/resources/#hub\">重建資源中心</a>。",
+    "hy": "Վերակառուցելու միակ «ճիշտ» ճանապարհ չկա։ Լավագույն ուղին կախված է ձեր ժամանակացույցից, ձեր բյուջեից և այն չափից, թե որքան հարմարեցում եք ցանկանում։ Ստուգեք LA Rises-ի <a href=\"https://larises.org/resources/#hub\">Վերակառուցման ռեսուրսների կենտրոնը</a>։"
   },
   "rebuild_learn_more_about_debris_removal": {
     "status": "avantpage_delivery",

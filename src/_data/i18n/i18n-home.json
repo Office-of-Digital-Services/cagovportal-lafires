@@ -264,16 +264,16 @@
     "hy": "Գտեք աջակցություն և օգնություն տեղական բիզնեսի վերականգնման համար:"
   },
   "home_see_real_time_info": {
-    "status": "avantpage_delivery",
-    "en": "See real-time info",
-    "fr": "Voir les informations en temps réel",
-    "es": "Vea información en tiempo real",
-    "ko": "실시간 정보 보기",
-    "vi": "Xem thông tin theo thời gian thực",
-    "tl": "Makakita ng real-time na impormasyon",
-    "zh-hans": "查看实时信息",
-    "zh-hant": "查看實時資訊",
-    "hy": "Ստուգեք տեղեկատվությունը իրական ժամանակում"
+    "status": "ap_review",
+    "en": "See LA rises",
+    "fr": "Voir les cartes de Los Angeles",
+    "es": "Ver mapas de Los Ángeles",
+    "ko": "LA 지도 보기",
+    "vi": "Xem bản đồ LA",
+    "tl": "Tingnan ang mga mapa ng LA",
+    "zh-hans": "查看洛杉矶地图",
+    "zh-hant": "查看洛杉磯地圖",
+    "hy": "Դիտել Լոս Անջելեսի քարտեզները"
   },
   "home_find_fire_maps_air_quality_and_road_closure_maps": {
     "status": "ap_review",
