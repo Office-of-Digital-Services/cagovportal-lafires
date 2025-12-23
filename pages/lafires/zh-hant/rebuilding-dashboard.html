@@ -2,7 +2,435 @@
 title: "重建洛杉磯"
 description: "您可以追蹤洛杉磯重建工作的許可進度和里程碑。可查詢洛杉磯縣與市、馬里布和帕薩迪納的許可追蹤。"
 keywords: "洛杉磯, LA, 馬里布, 帕薩迪納, 火災, 野火, 許可"
+breadcrumbparent: 2025 年洛杉磯大火
 permalink: /lafires/zh-hant/rebuilding-la/
 ---
 
-{%- include "src/_includes/rebuilding-dashboard-shared.html" -%}
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/bar-graph-lineart.svg') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <div class="mt-lg-0 h2" role="heading" aria-level="2">重建儀表板</div>
+      <p class="m-b-md lead">
+        協助受火災影響的人是首要任務。您可以在下方追蹤重建進度。
+      </p>
+      <nav class="page-navigation"></nav>
+      <h2>許可證</h2>
+      <p>州政府行動正在為加快野火重建鋪平道路。</p>
+
+      <div
+        class="alert alert-warning p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="m-b-0 font-size-16">
+          所有許可證均由地方政府處理。許可證數據直接來自地方轄區，彼此之間可能無法直接比較。
+        </p>
+      </div>
+
+      <div class="row">
+        <!--LA county-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">洛杉磯縣</h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  已收到申請
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  審查中
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  已核發許可證
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >由洛杉磯縣報告
+                  <a
+                    href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/"
+                    >許可進度儀表板</a
+                  >。</em
+                ><br />
+                <em><span id="county_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--LA city-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">洛杉磯市</h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  已收到申請
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  審查中
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  已核發許可證
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em>由洛杉磯市報告</em><br />
+                <em><span id="la_city_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Malibu-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">馬里布市</h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  已收到申請
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  審查中
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  已核發許可證
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >由馬里布市報告
+                  <a href="https://maliburebuilds.org/rebuild-dashboard/"
+                    >許可進度儀表板</a
+                  >。</em
+                ><br />
+                <em><span id="malibu_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Pasadena-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">帕薩迪納市</h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  已收到申請
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  審查中
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  已核發許可證
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >由帕薩迪納市報告
+                  <a
+                    href="https://experience.arcgis.com/experience/d4c4617a88204a869a37404d1496cfbd/page/Pasadena-Rebuilds"
+                    >許可進度儀表板</a
+                  >。</em
+                ><br />
+                <em
+                  ><span id="pasadena_building_permits_issued_date"></span
+                ></em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>截至目前的許可行動</h2>
+      <p>
+        自第一天起，加州就致力於清除障礙、簡化流程。紐森州長已採取以下行動支持受災者並加快重建：
+      </p>
+      <h3>財務救濟與支援</h3>
+      <ul>
+        <li>
+          延長洛杉磯縣
+          <a
+            href="https://www.gov.ca.gov/2025/01/11/california-provides-tax-relief-for-those-affected-by-los-angeles-wildfires/"
+            >個人報稅截止日期</a
+          >
+          至10月15日
+        </li>
+        <li>延後企業銷售及使用稅申報截止日期至4月30日</li>
+        <li>免除逾期房產稅罰款及利息，一年寬限期至2026年4月</li>
+        <li>
+          與
+          <a
+            href="https://www.gov.ca.gov/2025/01/23/governor-newsom-announces-commitments-from-state-banks-and-credit-unions-to-provide-mortgage-relief-for-firestorm-survivors/"
+            >州立</a
+          >
+          及
+          <a
+            href="https://www.gov.ca.gov/2025/01/18/governor-newsom-announces-commitments-from-major-lenders-to-provide-firestorm-survivors-with-mortgage-relief/"
+            >聯邦特許</a
+          >
+          銀行合作，讓受災屋主可獲得房貸紓困
+        </li>
+        <li>
+          提供1.05億美元
+          <a
+            href="https://www.gov.ca.gov/2025/02/19/governor-newsom-proposes-125-million-in-mortgage-relief-to-benefit-victims-of-recent-natural-disasters/"
+            >房貸紓困</a
+          >
+          給受災屋主
+        </li>
+      </ul>
+      <h3>住宅許可流程簡化</h3>
+      <ul>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/"
+            >豁免許可及審查要求</a
+          >
+          以加州環境品質法（CEQA）及加州海岸法重建受損或毀損財產
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/27/governor-newsom-cuts-red-tape-further-suspends-coastal-commission-rules-to-help-la-firestorm-survivors-rebuild/"
+            >禁止海岸委員會</a
+          >
+          干預州長行政命令
+        </li>
+        <li>
+          釐清並
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >擴大現有豁免</a
+          >
+          涵蓋CEQA、加州海岸法及地方政府
+        </li>
+        <li>
+          允許新住宅
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >依原核准規格重建</a
+          >
+          無需額外審查
+        </li>
+        <li>
+          減少建築延誤，加快
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >取得原始建築圖紙</a
+          >
+        </li>
+        <li>
+          延長施工
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >許可證期限</a
+          >
+          減輕屋主重建行政負擔
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >延後地方住房要素</a
+          >
+          重新劃區要求期限（洛杉磯縣）
+        </li>
+        <ul>
+          <li>讓地方政府人員可優先處理重建許可</li>
+        </ul>
+      </ul>
+      <h3>住宅保護與防止剝削措施</h3>
+      <ul>
+        <li>
+          透過
+          <a
+            href="https://www.gov.ca.gov/2025/01/16/governor-newsom-issues-executive-order-to-fast-track-temporary-housing-for-los-angeles-firestorm-area/"
+            >簡化附屬住宅單元建造流程</a
+          >
+          加快臨時住宅供應
+        </li>
+        <ul>
+          <li>另擴大臨時拖車允許，並免除行動屋園區費用</li>
+        </ul>
+        <li>
+          禁止房東
+          <a
+            href="https://www.gov.ca.gov/2025/01/17/governor-newsom-bans-evictions-based-on-hosting-fire-survivors/"
+            >因收容火災倖存者而驅逐租戶</a
+          >
+        </li>
+        <li>
+          保護火災受害者免於
+          <a
+            href="https://www.gov.ca.gov/2025/01/14/governor-newsom-issues-order-to-protect-fire-victims-from-predatory-real-estate-speculators/"
+            >掠奪性土地投機者</a
+          >
+        </li>
+        <ul>
+          <li>保護屋主免於收到未經請求的現金收購要約</li>
+        </ul>
+        <li>
+          實施
+          <a
+            href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/"
+            >價格哄抬保護</a
+          >
+          防止非法漲租、旅館費及建材價格
+        </li>
+      </ul>
+    </div>
+    <!--END MAIN COL CONTENT-->
+    {%- set js -%}{%- include "track-progress.mjs" -%}{%- endset -%}
+    <script type="module">
+      {{- js | jsmin | safe }}
+    </script>
+  </div>
+</div>

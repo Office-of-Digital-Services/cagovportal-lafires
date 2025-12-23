@@ -11,15 +11,16 @@
             aria-expanded="false"
             aria-controls="collapseOficial"
             class="btn-official mt-1 gray-900 color-black-hover">
-            <span class="underline">{{ 'official_california_website' | i18n(locale) }}</span>
+            <span class="underline"
+              >{{ 'official_california_website' | i18n(locale) }}</span
+            >
             <span class="ca-gov-icon-caret-up" aria-hidden="true"></span>
             <span class="ca-gov-icon-caret-down" aria-hidden="true"></span>
           </button>
           <div class="collapse" id="collapseOficial">
             <div class="font-size-13 gray-900 p-y ps-1 pe-2">
-              <span class="bold"
-                >{{ 'cagov_promo_1' | i18n }}</span
-              ><br />{{ 'cagov_promo_2' | i18n }}
+              <span class="bold">{{ 'cagov_promo_1' | i18n }}</span><br />{{
+              'cagov_promo_2' | i18n }}
             </div>
           </div>
         </div>
@@ -33,8 +34,9 @@
           translate="no"
           rel="alternate"
           data-active="{{ page | langPathActive('en', locale) }}"
-          class="m-l-0 underline cursor-pointer"
-          >English</a>
+          class="lang-switch m-l-0 underline cursor-pointer"
+          >English</a
+        >
         <a
           href="{{ page | pagePath('/lafires/es/',permalink) }}"
           lang="es"
@@ -42,8 +44,9 @@
           translate="no"
           rel="alternate"
           data-active="{{ page | langPathActive('es', locale) }}"
-          class="underline cursor-pointer"
-          >Español</a>
+          class="lang-switch underline cursor-pointer"
+          >Español</a
+        >
         <a
           href="{{ page | pagePath('/lafires/ko/',permalink) }}"
           lang="ko"
@@ -51,8 +54,9 @@
           translate="no"
           rel="alternate"
           data-active="{{ page | langPathActive('ko', locale) }}"
-          class="underline cursor-pointer"
-          >한국어</a>
+          class="lang-switch underline cursor-pointer"
+          >한국어</a
+        >
 
         <a
           href="{{ page | pagePath('/lafires/tl/',permalink) }}"
@@ -61,8 +65,9 @@
           translate="no"
           rel="alternate"
           data-active="{{ page | langPathActive('tl', locale) }}"
-          class="underline cursor-pointer"
-          >Tagalog</a>
+          class="lang-switch underline cursor-pointer"
+          >Tagalog</a
+        >
         <a
           href="{{ page | pagePath('/lafires/vi/',permalink) }}"
           lang="vi"
@@ -70,8 +75,9 @@
           translate="no"
           rel="alternate"
           data-active="{{ page | langPathActive('vi', locale) }}"
-          class="underline cursor-pointer"
-          >Tiếng Việt</a>
+          class="lang-switch underline cursor-pointer"
+          >Tiếng Việt</a
+        >
         <a
           href="{{ page | pagePath('/lafires/zh-hans/',permalink) }}"
           lang="zh-hans"
@@ -79,8 +85,9 @@
           translate="no"
           rel="alternate"
           data-active="{{ page | langPathActive('zh-hans', locale) }}"
-          class="underline cursor-pointer"
-          >简体中文</a>
+          class="lang-switch underline cursor-pointer"
+          >简体中文</a
+        >
         <a
           href="{{ page | pagePath('/lafires/zh-hant/',permalink) }}"
           lang="zh-hant"
@@ -88,8 +95,9 @@
           translate="no"
           rel="alternate"
           data-active="{{ page | langPathActive('zh-hant', locale) }}"
-          class="underline cursor-pointer"
-          >繁體中文</a>
+          class="lang-switch underline cursor-pointer"
+          >繁體中文</a
+        >
         <a
           href="{{ page | pagePath('/lafires/hy/',permalink) }}"
           lang="hy"
@@ -97,9 +105,10 @@
           translate="no"
           rel="alternate"
           data-active="{{ page | langPathActive('hy', locale) }}"
-          class="underline cursor-pointer"
-          >Հայերեն</a>
-        {# 
+          class="lang-switch underline cursor-pointer"
+          >Հայերեն</a
+        >
+        {#
         <a class="translate notranslate pos-rel top-minus-2" href="/translate/"
           ><span class="ca-gov-icon-globe" aria-hidden="true"></span
           ><span class="sr-only">{{ 'translate' | i18n }}</span></a

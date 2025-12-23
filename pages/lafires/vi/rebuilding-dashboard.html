@@ -2,7 +2,469 @@
 title: "Tái thiết LA"
 description: "Bạn có thể theo dõi tiến trình cấp phép và các mốc quan trọng trong nỗ lực tái thiết của LA. Việc theo dõi cấp phép có sẵn cho Quận và Thành phố LA, Malibu và Pasadena."
 keywords: "LA, Los Angeles, Malibu, Pasadena, cháy rừng, hỏa hoạn, giấy phép"
+breadcrumbparent: Các Đám Cháy ở Los Angeles năm 2025
 permalink: /lafires/vi/rebuilding-la/
 ---
 
-{%- include "src/_includes/rebuilding-dashboard-shared.html" -%}
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/bar-graph-lineart.svg') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      {%- include "breadcrumbs.html" -%}
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >{{ 'title_2025_los_angeles_fires' | i18n }}</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{%-include "dynamic-sidenav.html"-%}</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <div class="mt-lg-0 h2" role="heading" aria-level="2">
+        Bảng điều khiển tái thiết
+      </div>
+      <p class="m-b-md lead">
+        Hỗ trợ những người bị ảnh hưởng bởi cháy rừng là ưu tiên hàng đầu. Bạn
+        có thể theo dõi tiến trình tái thiết bên dưới.
+      </p>
+      <nav class="page-navigation"></nav>
+      <h2>Giấy phép</h2>
+      <p>
+        Các hành động của tiểu bang đang mở đường cho việc tái thiết sau cháy
+        rừng được đẩy nhanh.
+      </p>
+
+      <div
+        class="alert alert-warning p-a-md m-t-md m-b-md d-flex align-items-top">
+        <div>
+          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
+        </div>
+        <p class="m-b-0 font-size-16">
+          Tất cả việc cấp phép được xử lý bởi chính quyền địa phương. Số liệu
+          cấp phép được lấy trực tiếp từ các khu vực pháp lý địa phương và có
+          thể không hoàn toàn so sánh được với nhau.
+        </p>
+      </div>
+
+      <div class="row">
+        <!--LA county-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Quận Los Angeles
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Hồ sơ nhận được
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Đang xem xét
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="county_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Giấy phép đã cấp
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Báo cáo bởi Quận LA
+                  <a
+                    href="https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/"
+                    >Bảng điều khiển tiến trình cấp phép</a
+                  >.</em
+                ><br />
+                <em><span id="county_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--LA city-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Thành phố Los Angeles
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Hồ sơ nhận được
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Đang xem xét
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="la_city_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Giấy phép đã cấp
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em>Báo cáo bởi Thành phố Los Angeles</em><br />
+                <em><span id="la_city_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Malibu-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Thành phố Malibu
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Hồ sơ nhận được
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Đang xem xét
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="malibu_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Giấy phép đã cấp
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Báo cáo bởi Thành phố Malibu
+                  <a href="https://maliburebuilds.org/rebuild-dashboard/"
+                    >Bảng điều khiển tiến trình cấp phép</a
+                  >.</em
+                ><br />
+                <em><span id="malibu_building_permits_issued_date"></span></em>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Pasadena-->
+        <div class="col-lg-6 m-t">
+          <div class="d-flex flex-column h-100">
+            <div class="bg-primary border-top rounded-top p-a-md  h-100">
+              <h3 class="h4 color-white m-t-0 font-weight-400">
+                Thành phố Pasadena
+              </h3>
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-received.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_received"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Hồ sơ nhận được
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-in-review.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_rebuild_applications_in_review"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Đang xem xét
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span
+                  class="h2 color-white m-y-0 font-weight-400 m-r"
+                  id="pasadena_building_permits_issued"></span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Giấy phép đã cấp
+                </span>
+              </div>
+            </div>
+            <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
+              <p class="font-size-11 m-b-0">
+                <em
+                  >Báo cáo bởi Thành phố Pasadena
+                  <a
+                    href="https://experience.arcgis.com/experience/d4c4617a88204a869a37404d1496cfbd/page/Pasadena-Rebuilds"
+                    >Bảng điều khiển tiến trình cấp phép</a
+                  >.</em
+                ><br />
+                <em
+                  ><span id="pasadena_building_permits_issued_date"></span
+                ></em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Các hành động cấp phép đến nay</h2>
+      <p>
+        Từ ngày đầu tiên, California đã nỗ lực loại bỏ rào cản và cắt giảm thủ
+        tục hành chính. Thống đốc Newsom đã thực hiện các hành động sau để hỗ
+        trợ người sống sót và đẩy nhanh quá trình tái thiết:
+      </p>
+      <h3>Hỗ trợ và cứu trợ tài chính</h3>
+      <ul>
+        <li>
+          Gia hạn thời hạn nộp thuế cá nhân của Quận LA
+          <a
+            href="https://www.gov.ca.gov/2025/01/11/california-provides-tax-relief-for-those-affected-by-los-angeles-wildfires/"
+            >đến ngày 15 tháng 10</a
+          >
+        </li>
+        <li>
+          Hoãn thời hạn nộp thuế bán hàng và sử dụng của doanh nghiệp đến ngày
+          30 tháng 4
+        </li>
+        <li>
+          Miễn phạt và lãi suất đối với các khoản thuế tài sản nộp trễ trong
+          thời gian ân hạn một năm đến tháng 4 năm 2026
+        </li>
+        <li>
+          Phối hợp với
+          <a
+            href="https://www.gov.ca.gov/2025/01/23/governor-newsom-announces-commitments-from-state-banks-and-credit-unions-to-provide-mortgage-relief-for-firestorm-survivors/"
+            >ngân hàng tiểu bang</a
+          >
+          và
+          <a
+            href="https://www.gov.ca.gov/2025/01/18/governor-newsom-announces-commitments-from-major-lenders-to-provide-firestorm-survivors-with-mortgage-relief/"
+            >ngân hàng liên bang</a
+          >
+          để chủ nhà bị ảnh hưởng có thể nhận được hỗ trợ thế chấp
+        </li>
+        <li>
+          Cung cấp 105 triệu đô la
+          <a
+            href="https://www.gov.ca.gov/2025/02/19/governor-newsom-proposes-125-million-in-mortgage-relief-to-benefit-victims-of-recent-natural-disasters/"
+            >hỗ trợ thế chấp</a
+          >
+          cho các chủ nhà bị ảnh hưởng
+        </li>
+      </ul>
+      <h3>Đơn giản hóa quy trình cấp phép nhà ở</h3>
+      <ul>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/"
+            >Miễn yêu cầu cấp phép và xem xét</a
+          >
+          đối với việc tái thiết tài sản bị hư hại hoặc phá hủy theo Đạo luật
+          Chất lượng Môi trường California (CEQA) và Đạo luật Bờ biển California
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/01/27/governor-newsom-cuts-red-tape-further-suspends-coastal-commission-rules-to-help-la-firestorm-survivors-rebuild/"
+            >Cấm Ủy ban Bờ biển</a
+          >
+          can thiệp vào các lệnh hành pháp của Thống đốc
+        </li>
+        <li>
+          Làm rõ và
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >mở rộng các miễn trừ hiện có</a
+          >
+          theo CEQA, Đạo luật Bờ biển California và chính quyền địa phương
+        </li>
+        <li>
+          Cho phép xây dựng lại nhà mới
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >theo thông số kỹ thuật đã được phê duyệt trước đó</a
+          >
+          mà không cần xem xét bổ sung
+        </li>
+        <li>
+          Giảm thời gian trì hoãn xây dựng và đẩy nhanh
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >quyền truy cập vào bản vẽ xây dựng gốc</a
+          >
+        </li>
+        <li>
+          Gia hạn thời hạn
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >giấy phép xây dựng</a
+          >
+          để giảm gánh nặng hành chính cho chủ nhà muốn tái thiết
+        </li>
+        <li>
+          <a
+            href="https://www.gov.ca.gov/2025/02/13/governor-newsom-cuts-more-red-tape-by-further-streamlining-permitting-laws-to-accelerate-rebuilding-los-angeles/"
+            >Hoãn thời hạn yêu cầu tái phân vùng yếu tố nhà ở địa phương</a
+          >
+          cho Quận LA
+        </li>
+        <ul>
+          <li>
+            Giờ đây, nhân viên chính quyền địa phương có thể ưu tiên cấp phép
+            tái thiết
+          </li>
+        </ul>
+      </ul>
+      <h3>Bảo vệ nhà ở và các biện pháp chống bóc lột</h3>
+      <ul>
+        <li>
+          Đẩy nhanh nhà ở tạm thời bằng cách
+          <a
+            href="https://www.gov.ca.gov/2025/01/16/governor-newsom-issues-executive-order-to-fast-track-temporary-housing-for-los-angeles-firestorm-area/"
+            >đơn giản hóa xây dựng nhà phụ trợ (ADU)</a
+          >
+        </li>
+        <ul>
+          <li>
+            Ngoài ra, còn mở rộng cho phép sử dụng nhà di động tạm thời và miễn
+            phí công viên nhà di động
+          </li>
+        </ul>
+        <li>
+          Cấm chủ nhà
+          <a
+            href="https://www.gov.ca.gov/2025/01/17/governor-newsom-bans-evictions-based-on-hosting-fire-survivors/"
+            >trục xuất người thuê vì cho người sống sót sau cháy rừng ở nhờ</a
+          >
+          trong nhà cho thuê của họ
+        </li>
+        <li>
+          Bảo vệ nạn nhân cháy rừng khỏi
+          <a
+            href="https://www.gov.ca.gov/2025/01/14/governor-newsom-issues-order-to-protect-fire-victims-from-predatory-real-estate-speculators/"
+            >các nhà đầu cơ bất động sản trục lợi</a
+          >
+        </li>
+        <ul>
+          <li>
+            Điều này bảo vệ chủ nhà khỏi các đề nghị mua lại tài sản không mong
+            muốn
+          </li>
+        </ul>
+        <li>
+          Thực hiện
+          <a
+            href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/"
+            >biện pháp chống tăng giá</a
+          >
+          đối với việc tăng giá thuê, chi phí khách sạn và vật liệu xây dựng bất
+          hợp pháp
+        </li>
+      </ul>
+    </div>
+    <!--END MAIN COL CONTENT-->
+    {%- set js -%}{%- include "track-progress.mjs" -%}{%- endset -%}
+    <script type="module">
+      {{- js | jsmin | safe }}
+    </script>
+  </div>
+</div>
