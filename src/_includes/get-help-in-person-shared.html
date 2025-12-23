@@ -239,79 +239,10 @@
 
     <!-- Main Content Area -->
     <div class="col-lg-9 pt-lg-3">
-      <p class="m-b-md lead">{{ 'help_person_lead_text' | i18n | safe }}</p>
-      <a
-        href="{{ '/lafires/help-for-you/get-help-in-person/plan-your-in-person-visit/' | localizedPath }}"
-        class="btn btn-lg btn-primary rounded-5"
-        >{{ 'help_person_plan_visit_button_text' | i18n }}</a
-      >
-
-      <nav class="page-navigation m-t-lg"></nav>
-
-      <h2 class="mt-4">{{ 'help_person_find_a_drc' | i18n }}</h2>
-      <p>{{ 'help_person_look_for_drc' | i18n }}</p>
-      <a
-        class="skip-map btn btn-primary rounded-5"
-        href="#recovery-center-cards"
-        >{{ 'help_person_skip_map' | i18n }}</a
-      >
-
-      <div class="cagov-map-and-tiles">
-        <cagov-lafires-map></cagov-lafires-map>
-      </div>
-
-      <!-- Disaster Recovery Center Cards -->
-      <div class="bg-gray-100 p-a-md m-t-md m-b-md d-flex align-items-top">
-        <div>
-          <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
-        </div>
-        <p class="color-p2-darker m-b-0">
-          {{'help_person_notice' | i18n | safe }}
-        </p>
-      </div>
-
-      <div class="row" id="recovery-center-cards">
-        <div class="col-md-6 m-t-md">
-          <div
-            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md">{{ 'help_person_ucla_drc_title' | i18n }}</h3>
-            <p>{{ 'help_person_ucla_drc_address' | i18n | safe}}</p>
-
-            <a
-              class="btn btn-primary rounded-5 m-y maps-link"
-              href="https://maps.google.com/?q=123+UCLA+Drive,+Los+Angeles,+CA+90095">
-              {{ 'help_person_directions_button_text' | i18n }}<span
-                class="sr-only">
-                to UCLA Disaster Recovery Center</span
-              ></a
-            >
-          </div>
-        </div>
-
-        <div class="col-md-6 m-t-md">
-          <div
-            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-            <h3 class="h5 m-t-md">{{ 'help_person_altadena_title' | i18n }}</h3>
-            <p>{{ 'help_person_altadena_address' | i18n | safe }}</p>
-
-            <a
-              class="btn btn-primary rounded-5 m-y maps-link"
-              href="https://maps.google.com/?q=540+W.+Woodbury+Road,+Altadena,+CA+91001"
-              >{{ 'help_person_directions_button_text' | i18n }}<span
-                class="sr-only">
-                to Altadena Disaster Recovery Center</span
-              ></a
-            >
-          </div>
-        </div>
-      </div>
-
-      <p class="mt-4">{{ 'help_person_more_about_drcs' | i18n | safe }}</p>
-
-      <hr class="mt-5" />
+      <nav class="page-navigation m-t-sm"></nav>
 
       <!-- Services on Site Section -->
-      <h3>{{ 'help_person_services_on_site' | i18n }}</h3>
+      <h2>{{ 'help_person_services_on_site' | i18n }}</h2>
       <p>{{ 'help_person_services_description' | i18n | safe }}</p>
 
       <ul class="fw-bold fs-5">
@@ -371,49 +302,6 @@
       </ul>
 
       <hr class="mt-5" />
-      <div class="scroll-section" id="federal-resources">
-        <h2>{{ 'help_person_federal_resources_h2' | i18n }}</h2>
-        <p>{{ 'help_person_federal_resources_description' | i18n }}</p>
-        <p>{{ 'help_person_federal_resources_hours' | i18n | safe }}</p>
-
-        <div class="bg-gray-100 p-a-md m-t-md m-b-0 d-flex align-items-top">
-          <div>
-            <span class="ca-gov-icon-info-line m-r" aria-hidden="true"></span>
-          </div>
-          <p class="color-p2-darker m-b-0">
-            {{ 'help_person_federal_resources_note' | i18n }}
-          </p>
-        </div>
-        <div class="row">
-          <div class="col-md-6 m-t-md">
-            <div
-              class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-              <h3 class="h5 m-t-md">
-                {{ 'help_person_federal_resources_card_1_heading' | i18n }}
-              </h3>
-              <p class="font-size-16">
-                {{ 'help_person_federal_resources_card_1_description' | i18n |
-                safe }}
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 m-t-md">
-            <div
-              class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
-              <h3 class="h5 m-t-md">
-                {{ 'help_person_federal_resources_card_2_heading' | i18n }}
-              </h3>
-              <p class="font-size-16">
-                {{ 'help_person_federal_resources_card_2_description' | i18n |
-                safe }}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr class="mt-5" />
       <div class="scroll-section" id="one-shop">
         <h2>{{ 'help_person_one_shop_h2' | i18n }}</h2>
         <p>{{ 'help_person_one_shop_description' | i18n }}</p>
@@ -438,6 +326,67 @@
               </h3>
               <p class="font-size-16">
                 {{ 'help_person_one_shop_center2_address' | i18n | safe }}
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 m-t-md">
+            <div
+              class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+              <h3 class="h5 m-t-md">
+                <a
+                  href="https://mayor.lacity.gov/news/new-help-available-palisades-residents-seeking-their-building-plans"
+                  >City of LA – One Stop Permit Center</a
+                >
+              </h3>
+              <p class="font-size-16">
+                1828 Sawtelle Blvd.<br />Los Angeles, CA 90025
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 m-t-md">
+            <div
+              class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+              <h3 class="h5 m-t-md">
+                <a href="https://maliburebuilds.org/contact-us/"
+                  >City of Malibu Rebuild Center</a
+                >
+              </h3>
+              <p class="font-size-16">
+                23805 Stuart Ranch Road, Suite 240<br />
+                Malibu, CA 90265
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 m-t-md">
+            <div
+              class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+              <h3 class="h5 m-t-md">
+                <a href="https://www.cityofpasadena.net/planning/permit-center/"
+                  >City of Pasadena Permit Center</a
+                >
+              </h3>
+              <p class="font-size-16">
+                175 Garfield Ave.<br />
+                Pasadena, CA 91101
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 m-t-md">
+            <div
+              class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+              <h3 class="h5 m-t-md">
+                <a
+                  href="https://www.cityofsierramadre.com/cms/One.aspx?portalId=212393&pageId=241450"
+                  >City of Sierra Madre Permits & Licenses</a
+                >
+              </h3>
+              <p class="font-size-16">
+                232 W. Sierra Madre Blvd.<br />
+                Sierra Madre, CA 91024
               </p>
             </div>
           </div>
