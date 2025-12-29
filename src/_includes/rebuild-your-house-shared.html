@@ -94,16 +94,45 @@
       <p class="m-b-md lead">{{description}}</p>
 
       <nav class="page-navigation"></nav>
-      <div
-        class="alert alert-warning p-a-md m-t-md m-b-md d-flex align-items-top font-weight-700 font-size-18  gray-900">
+
+      <h2 class="m-b-0">
+        {{ 'rebuild_file_insurance_claims_heading' | i18n }}
+      </h2>
+
+      <div class="bg-gray-100 p-a-md m-t-md d-flex align-items-top">
         <div>
-          <span class="ca-gov-icon-megaphone m-r" aria-hidden="true"></span>
+          <span
+            class="ca-gov-icon-info-line m-r color-p2-darker"
+            aria-hidden="true"></span>
         </div>
-        <p class="m-b-0 "></p>
-          We're updating this page. Please check back later for the most current
-          information.
+        <p class="color-p2-darker m-b-0">
+          {{ 'rebuild_file_insurance_claims_description' | i18n | safe }}
         </p>
       </div>
+
+      <p class="m-t-md">
+        {{ 'rebuild_document_and_track_recovery_expenses' | i18n }}
+      </p>
+      <p class="m-t-md">{{ 'rebuild_temporary_housing_coverage' | i18n }}</p>
+      <ul>
+        <li class="m-t">
+          {{ 'rebuild_insurance_claims_help_call_number' | i18n | safe }}
+        </li>
+        <li class="m-t">
+          <a
+            href="https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm"
+            >{{ 'rebuild_insurance_claims_help' | i18n }}</a
+          >
+        </li>
+
+        <li class="m-t">
+          <a href="https://cdiapps.insurance.ca.gov/CP/login/">
+            {{ 'rebuild_insurance_claims_help_department_of_insurance' | i18n
+            }}</a
+          >
+        </li>
+      </ul>
+
       <h2 class="m-b-0">
         <!-- Check on your house -->
         {{ 'rebuild_check_on_your_house_heading' | i18n }}
@@ -178,52 +207,6 @@
         <!-- If your home was damaged, save a copy of the photo from the damage map. You may be able to use it when you file an insurance claim. -->
         {{ 'rebuild_fire_damage_maps_description_3' | i18n }}
       </p>
-      <h3>
-        <!-- Access passes -->
-        {{ 'rebuild_access_passes_heading' | i18n }}
-      </h3>
-      <p>
-        <!-- All areas are cleared for residents-only access. You may need an access pass to enter your neighborhood. You can get one in person at a Disaster Recovery Center. -->
-        {{ 'rebuild_access_passes_description' | i18n | safe }}
-      </p>
-
-      <h2 class="m-b-0">
-        {{ 'rebuild_file_insurance_claims_heading' | i18n }}
-      </h2>
-
-      <div class="bg-gray-100 p-a-md m-t-md d-flex align-items-top">
-        <div>
-          <span
-            class="ca-gov-icon-info-line m-r color-p2-darker"
-            aria-hidden="true"></span>
-        </div>
-        <p class="color-p2-darker m-b-0">
-          {{ 'rebuild_file_insurance_claims_description' | i18n | safe }}
-        </p>
-      </div>
-
-      <p class="m-t-md">
-        {{ 'rebuild_document_and_track_recovery_expenses' | i18n }}
-      </p>
-      <p class="m-t-md">{{ 'rebuild_temporary_housing_coverage' | i18n }}</p>
-      <ul>
-        <li class="m-t">
-          {{ 'rebuild_insurance_claims_help_call_number' | i18n | safe }}
-        </li>
-        <li class="m-t">
-          <a
-            href="https://www.insurance.ca.gov/01-consumers/140-catastrophes/WildfireResources.cfm"
-            >{{ 'rebuild_insurance_claims_help' | i18n }}</a
-          >
-        </li>
-
-        <li class="m-t">
-          <a href="https://cdiapps.insurance.ca.gov/CP/login/">
-            {{ 'rebuild_insurance_claims_help_department_of_insurance' | i18n
-            }}</a
-          >
-        </li>
-      </ul>
 
       <h2>{{ 'rebuild_get_money_to_rebuild' | i18n }}</h2>
       <p>{{ 'rebuild_financial_support_to_rebuild' | i18n }}</p>
@@ -241,16 +224,9 @@
 
       <!-- Get debris removed -->
       <h2>{{ 'rebuild_decide_how_to_remove_debris' | i18n }}</h2>
-      <ul>
-        <li class="m-t">
-          {{ 'rebuild_pay_for_private_debris_removal' | i18n }}
-        </li>
-        <li class="m-t">
-          {{ 'rebuild_learn_more_about_debris_removal' | i18n | safe }}
-        </li>
-      </ul>
+      <p>{{ 'rebuild_pay_for_private_debris_removal' | i18n | safe }}</p>
 
-      <h2>{{ 'rebuild_hire_a_contractor' | i18n }}</h2>
+      <h3>{{ 'rebuild_hire_a_contractor' | i18n }}</h3>
       <ul>
         <li class="m-t">
           {{ 'rebuild_use_state_licensed_contractor' | i18n | safe }}
@@ -274,6 +250,7 @@
           <!-- Learn more about permits, including information on like-for-like rebuilds and permit fees. -->
           {{ 'rebuild_apply_for_temporary_housing_permit' | i18n | safe }}
         </li>
+        <li class="m-t">{{ 'rebuild_bullet4' | i18n | safe }}</li>
       </ul>
 
       <h3>
@@ -286,8 +263,10 @@
           <div
             class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
             <h4 class="h5 m-t-md">
-              <!-- Calabasas One-Stop Permit Center -->
-              {{ 'rebuild_card_3_title' | i18n }}
+              <a
+                href="https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/">
+                {{ 'rebuild_card_3_title' | i18n }}</a
+              >
             </h4>
             <!-- 26600 Agoura Rd. <br>#110 Calabasas, CA 91302 -->
 
@@ -298,12 +277,74 @@
           <div
             class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
             <h4 class="h5 m-t-md">
-              <!-- Altadena One-Stop Permit Center -->
-              {{ 'rebuild_card_4_title' | i18n }}
+              <a
+                href="https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/">
+                {{ 'rebuild_card_4_title' | i18n }}</a
+              >
             </h4>
             <!-- 464 W Woodbury Rd. Suite 210<br>Altadena, CA 91001 -->
 
             <p>{{ 'rebuild_card_4_description_1' | i18n | safe }}</p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a
+                href="https://mayor.lacity.gov/news/new-help-available-palisades-residents-seeking-their-building-plans"
+                >City of LA – One Stop Permit Center</a
+              >
+            </h3>
+            <p class="font-size-16">
+              1828 Sawtelle Blvd.<br />Los Angeles, CA 90025
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="https://maliburebuilds.org/contact-us/"
+                >City of Malibu Rebuild Center</a
+              >
+            </h3>
+            <p class="font-size-16">
+              23805 Stuart Ranch Road, Suite 240<br />
+              Malibu, CA 90265
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="https://www.cityofpasadena.net/planning/permit-center/"
+                >City of Pasadena Permit Center</a
+              >
+            </h3>
+            <p class="font-size-16">
+              175 Garfield Ave.<br />
+              Pasadena, CA 91101
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a
+                href="https://www.cityofsierramadre.com/cms/One.aspx?portalId=212393&pageId=241450"
+                >City of Sierra Madre Permits & Licenses</a
+              >
+            </h3>
+            <p class="font-size-16">
+              232 W. Sierra Madre Blvd.<br />
+              Sierra Madre, CA 91024
+            </p>
           </div>
         </div>
       </div>
