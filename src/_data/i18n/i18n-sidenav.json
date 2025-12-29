@@ -131,15 +131,15 @@
     "hy": "Կարևոր փաստաթղթեր"
   },
   "sidenav_get_help_in_person": {
-    "status": "avantpage_delivery",
+    "status": "ap_review",
     "en": "Get help in person",
-    "fr": "Obtenir de l'aide en personne",
+    "fr": "Obtenez de l'aide en personne",
     "es": "Obtenga ayuda en persona",
-    "ko": "직접 도움받기",
+    "ko": "대면 지원 받기",
     "vi": "Nhận trợ giúp trực tiếp",
-    "tl": "Makakuha ng tulong sa personal",
+    "tl": "Kumuha ng tulong nang personal",
     "zh-hans": "亲自获取帮助",
-    "zh-hant": "當面獲取幫助",
+    "zh-hant": "親自獲取幫助",
     "hy": "Ստացեք օգնություն անձամբ"
   },
   "sidenav_plan_your_in_person_visit": {

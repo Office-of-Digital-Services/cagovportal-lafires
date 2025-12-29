@@ -239,78 +239,29 @@
 
     <!-- Main Content Area -->
     <div class="col-lg-9 pt-lg-3">
-      <nav class="page-navigation m-t-sm"></nav>
+      <p class="lead">{{ 'help_person_intro' | i18n | safe}}</p>
 
-      <!-- Services on Site Section -->
-      <h2>{{ 'help_person_services_on_site' | i18n }}</h2>
-      <p>{{ 'help_person_services_description' | i18n | safe }}</p>
-
-      <ul class="fw-bold fs-5">
-        <li class="m-t">{{ 'help_person_food_benefits' | i18n }}</li>
-        <li class="m-t">{{ 'help_person_health_services' | i18n }}</li>
-        <li class="m-t">{{ 'help_person_mental_health_services' | i18n }}</li>
-        <li class="m-t">{{ 'help_person_unemployment' | i18n }}</li>
-        <li class="m-t">{{ 'help_person_disability_benefits' | i18n }}</li>
-        <li class="m-t">
-          {{ 'help_person_replacing_personal_documents' | i18n }}
-        </li>
-        <li class="m-t">{{ 'help_person_contractors' | i18n }}</li>
-        <li class="m-t">
-          {{ 'help_person_help_with_insurance_claims' | i18n }}
-        </li>
-        <li class="m-t">{{ 'help_person_tax_help_and_relief' | i18n }}</li>
-      </ul>
-
-      <p>
-        {{ 'help_person_sign_in_services' | i18n }}
+      <div class="m-b-lg">
         <a
           href="{{ '/lafires/help-for-you/get-help-in-person/plan-your-in-person-visit/' | localizedPath }}"
+          class="btn btn-primary btn-lg rounded-5"
           >{{ 'help_person_plan_visit_button_text' | i18n }}</a
         >
-      </p>
+      </div>
+      <nav class="page-navigation m-t-sm"></nav>
 
-      <hr class="mt-5" />
-
-      <!-- Before you arrive section -->
-      <h3>{{ 'help_person_before_you_arrive' | i18n }}</h3>
-      <p>{{ 'help_person_before_you_arrive_description' | i18n | safe }}</p>
-
-      <p>{{ 'help_person_bring_items' | i18n }}</p>
-      <ul>
-        <li class="m-t">
-          {{ 'help_person_items_address_damaged_home' | i18n }}
-        </li>
-        <li class="m-t">
-          {{ 'help_person_insurance_coverage_information' | i18n }}
-        </li>
-        <li class="m-t">
-          {{ 'help_person_current_phone_number_and_mailing_address' | i18n }}
-        </li>
-        <li class="m-t">{{ 'help_person_bank_account_information' | i18n }}</li>
-      </ul>
-      <hr class="mt-5" />
-      <!-- When you get here section -->
-      <h3>{{ 'help_person_when_you_get_here' | i18n }}</h3>
-      <ul>
-        <li class="m-t">
-          {{ 'help_person_arrival_info_parking' | i18n | safe }}
-        </li>
-        <li class="m-t">{{ 'help_person_restrooms_and_beverages' | i18n }}</li>
-        <li class="m-t">
-          {{ 'help_person_use_plan_your_visit' | i18n | safe }}
-        </li>
-      </ul>
-
-      <hr class="mt-5" />
       <div class="scroll-section" id="one-shop">
         <h2>{{ 'help_person_one_shop_h2' | i18n }}</h2>
-        <p>{{ 'help_person_one_shop_description' | i18n }}</p>
+        <p>{{ 'help_person_permitting_description' | i18n }}</p>
         <div class="row" id="recovery-center-cards">
           <div class="col-md-6 m-t-md">
             <div
               class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
               <h3 class="h5 m-t-md">
-                {{ 'help_person_one_shop_center1' | i18n }}
+                <a
+                  href="https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/"
+                  >{{ 'help_person_one_shop_center1' | i18n }}</a
+                >
               </h3>
               <p class="font-size-16">
                 {{ 'help_person_one_shop_center1_address' | i18n | safe }}
@@ -322,7 +273,10 @@
             <div
               class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
               <h3 class="h5 m-t-md">
-                {{ 'help_person_one_shop_center2' | i18n }}
+                <a
+                  href="https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/"
+                  >{{ 'help_person_one_shop_center2' | i18n }}</a
+                >
               </h3>
               <p class="font-size-16">
                 {{ 'help_person_one_shop_center2_address' | i18n | safe }}
@@ -402,6 +356,10 @@
         <li class="m-t">{{ 'help_person_one_shop_service_list_2' | i18n }}</li>
         <li class="m-t">{{ 'help_person_one_shop_service_list_3' | i18n }}</li>
       </ul>
+
+      <h2>{{ 'help_person_drc_title' | i18n }}</h2>
+      <p>{{ 'help_person_drc_description' | i18n | safe }}</p>
+      <p>{{ 'help_person_drc_description_2' | i18n | safe }}</p>
     </div>
   </div>
 </div>

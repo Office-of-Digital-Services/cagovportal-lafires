@@ -531,16 +531,16 @@
     "orig_en": "Use <link>Plan your in-person visit</link> to help you find the services you need."
   },
   "help_person_one_shop_h2": {
-    "status": "avantpage_delivery",
-    "en": "Find a One-Stop Permit Center",
-    "es": "Encuentre un Centro Integral de Permisos",
-    "ko": "원스톱 허가 센터 찾기",
-    "vi": "Tìm một Trung Tâm Cấp Giấy Phép Một Cửa",
-    "tl": "Humanap ng One-Stop Permit Center",
-    "zh-hans": "查找一站式许可中心",
-    "zh-hant": "查找一站式許可中心",
-    "hy": "Գտեք Թույլտվությունների ունիվերսալ կենտրոն",
-    "comment": "Translation delivered 2025-04-23"
+    "status": "ap_review",
+    "en": "Get in-person permitting help",
+    "fr": "Obtenez de l'aide en personne pour les permis",
+    "es": "Obtenga ayuda en persona para permisos",
+    "ko": "대면 허가 도움 받기",
+    "vi": "Nhận trợ giúp cấp phép trực tiếp",
+    "tl": "Kumuha ng tulong sa pagkuha ng permit nang personal",
+    "zh-hans": "获取现场许可协助",
+    "zh-hant": "獲取現場許可協助",
+    "hy": "Ստացեք անձնական թույլտվության օգնություն"
   },
   "help_person_one_shop_description": {
     "status": "avantpage_delivery",
@@ -555,7 +555,7 @@
     "comment": "Translation delivered 2025-04-23"
   },
   "help_person_one_shop_center1": {
-    "status": "avantpage_delivery",
+    "status": "ap_review",
     "en": "Calabasas One-Stop Permit Center",
     "es": "Centro Integral de Permisos de Calabasas",
     "ko": "칼라바사스 원스톱 허가 센터",
@@ -794,5 +794,61 @@
     "zh-hans": "730 E. Altadena Dr. <br />Altadena, CA 91001",
     "zh-hant": "730 E. Altadena Dr. <br />Altadena, CA 91001",
     "hy": "730 E. Altadena Dr. <br />Altadena, CA 91001"
+  },
+
+  "help_person_intro": {
+    "status": "ap_review",
+    "en": "For help rebuilding your home, you can go to a <a href=\"#Find-a-One-Stop-Permit-Center\">One-Stop Permit Center</a>. You can also find information about Disaster Recovery Centers (now closed).",
+    "es": "Para obtener ayuda para reconstruir su hogar, puede ir a un <a href=\"#Find-a-One-Stop-Permit-Center\">Centro Integral de Permisos</a>. También puede encontrar información sobre los Centros de Recuperación de Desastres (ahora cerrados).",
+    "ko": "주거지 복구에 대한 도움을 받으려면 <a href=\"#Find-a-One-Stop-Permit-Center\">원스톱 허가 센터</a>로 방문하십시오. 재난 복구 센터(현재 폐쇄됨)에 대한 정보도 찾을 수 있습니다.",
+    "vi": "Để được trợ giúp xây dựng lại ngôi nhà của quý vị, quý vị có thể đến <a href=\"#Find-a-One-Stop-Permit-Center\">Trung Tâm Cấp Giấy Phép Một Cửa</a>. Quý vị cũng có thể tìm thông tin về các Trung Tâm Phục Hồi Thiên Tai (hiện đã đóng cửa).",
+    "tl": "Para sa tulong sa rebuilding ng iyong tahanan, maaari kang pumunta sa isang <a href=\"#Find-a-One-Stop-Permit-Center\">One-Stop Permit Center</a>. Maaari ka ring makahanap ng impormasyon tungkol sa Disaster Recovery Centers (na ngayon ay sarado na).",
+    "zh-hans": "如需帮助重建您的家园，您可以前往<a href=\"#Find-a-One-Stop-Permit-Center\">一站式许可中心</a>。您还可以找到有关灾后恢复中心（现已关闭）的信息。",
+    "zh-hant": "如需幫助重建您的家園，您可以前往<a href=\"#Find-a-One-Stop-Permit-Center\">一站式許可中心</a>。您還可以找到有關災後恢復中心（現已關閉）的信息。",
+    "hy": "Ձեր տան վերակառուցման համար կարող եք դիմել <a href=\"#Find-a-One-Stop-Permit-Center\">Թույլտվությունների ունիվերսալ կենտրոն</a>։ Դուք կարող եք նաև գտնել տեղեկություններ Արտակարգ իրավիճակների վերականգնման կենտրոնների (այժմ փակված են) մասին։"
+  },
+  "help_person_permitting_description": {
+    "status": "ap_review",
+    "en": "Go to these One-Stop Permit Centers for help with the rebuilding process.",
+    "es": "Vaya a estos Centros Integrales de Permisos para obtener ayuda con el proceso de reconstrucción.",
+    "ko": "주거지 복구 과정에 대한 도움을 받으려면 해당 원스톱 허가 센터로 방문하십시오.",
+    "vi": "Hãy đến các Trung Tâm Cấp Giấy Phép Một Cửa này để được trợ giúp về quá trình xây dựng lại.",
+    "tl": "Pumunta sa mga One-Stop Permit Centers na ito para sa tulong sa proseso ng rebuilding.",
+    "zh-hans": "请前往这些一站式许可中心，获取有关重建过程的帮助。",
+    "zh-hant": "請前往這些一站式許可中心，獲取有關重建過程的幫助。",
+    "hy": "Վերականգնման գործընթացում օգնության համար դիմեք այս Թույլտվությունների ունիվերսալ կենտրոններին։"
+  },
+  "help_person_drc_title": {
+    "status": "ap_review",
+    "en": "Disaster Recovery Centers",
+    "es": "Centros de Recuperación de Desastres",
+    "ko": "재난 복구 센터",
+    "vi": "Trung Tâm Phục Hồi Thiên Tai",
+    "tl": "Disaster Recovery Centers",
+    "zh-hans": "灾后恢复中心",
+    "zh-hant": "災後恢復中心",
+    "hy": "Արտակարգ իրավիճակների վերականգնման կենտրոններ"
+  },
+  "help_person_drc_description": {
+    "status": "ap_review",
+    "en": "<strong>Disaster Recovery Centers</strong> are now closed. They were temporary centers to provide help to communities impacted by a disaster. They help with applying for FEMA, find food and shelter, apply for unemployment or disability, replacing personal records, and more.",
+    "es": "<strong>Los Centros de Recuperación de Desastres</strong> ahora están cerrados. Eran centros temporales para brindar ayuda a las comunidades afectadas por un desastre. Ayudaban con la solicitud de FEMA, la búsqueda de alimentos y refugio, la solicitud de desempleo o discapacidad, el reemplazo de registros personales y más.",
+    "ko": "<strong>재난 복구 센터</strong>는 현재 폐쇄되었습니다. 이들은 재난의 영향을 받은 지역 사회에 도움을 제공하기 위한 임시 센터였습니다. FEMA 신청, 음식 및 쉼터 찾기, 실업 또는 장애 신청, 개인 기록 교체 등을 도왔습니다.",
+    "vi": "<strong>Các Trung Tâm Phục Hồi Thiên Tai</strong> hiện đã đóng cửa. Chúng là các trung tâm tạm thời để cung cấp trợ giúp cho các cộng đồng bị ảnh hưởng bởi thiên tai. Họ giúp với việc nộp đơn xin FEMA, tìm thức ăn và chỗ ở, nộp đơn xin trợ cấp thất nghiệp hoặc khuyết tật, thay thế hồ sơ cá nhân và nhiều hơn thế nữa.",
+    "tl": "Ang <strong>Disaster Recovery Centers</strong> ay sarado na ngayon. Sila ay mga pansamantalang center upang magbigay ng tulong sa mga komunidad na naapektuhan ng isang sakuna. Tumutulong sila sa pag-aaplay para sa FEMA, maghanap ng pagkain at tirahan, mag-apply para sa unemployment o disability, pagpapalit ng personal na mga rekord, at marami pa.",
+    "zh-hans": "<strong>灾后恢复中心</strong>现已关闭。它们是为受灾社区提供帮助的临时中心。它们协助申请FEMA、寻找食物和住所、申请失业或残疾、替换个人记录等。",
+    "zh-hant": "<strong>災後恢復中心</strong>現已關閉。它們是為受災社區提供幫助的臨時中心。它們協助申請FEMA、尋找食物和住所、申請失業或殘疾、替換個人記錄等。",
+    "hy": "<strong>Արտակարգ իրավիճակների վերականգնման կենտրոնները</strong> այժմ փակված են։ Դրանք ժամանակավոր կենտրոններ էին, որոնք օգնում էին աղետից տուժած համայնքներին։ Նրանք օգնում էին FEMA-ի համար դիմել, գտնել սնունդ և ապաստան, դիմել գործազրկության կամ հաշմանդամության համար, փոխարինել անձնական գրառումները և այլն։"
+  },
+  "help_person_drc_description_2": {
+    "status": "ap_review",
+    "en": "You can find a full list of services they used to provide on <a href=\"/lafires/help-for-you/get-help-in-person/plan-your-in-person-visit/\">Plan your in-person visit</a>.",
+    "es": "Puede encontrar una lista completa de los servicios que solían brindar en <a href=\"/lafires/es/help-for-you/get-help-in-person/plan-your-in-person-visit/\">Planifique su visita en persona</a>.",
+    "ko": "<a href=\"/lafires/ko/help-for-you/get-help-in-person/plan-your-in-person-visit/\">직접 방문 계획</a>에서 그들이 제공하던 서비스의 전체 목록을 찾을 수 있습니다.",
+    "vi": "Quý vị có thể tìm thấy danh sách đầy đủ các dịch vụ mà họ từng cung cấp tại <a href=\"/lafires/vi/help-for-you/get-help-in-person/plan-your-in-person-visit/\">Lên kế hoạch chuyến thăm trực tiếp của quý vị</a>.",
+    "tl": "Maaari kang makahanap ng buong listahan ng mga serbisyo na dati nilang ibinibigay sa <a href=\"/lafires/tl/help-for-you/get-help-in-person/plan-your-in-person-visit/\">Plan your in-person visit</a>.",
+    "zh-hans": "您可以在<a href=\"/lafires/zh-hans/help-for-you/get-help-in-person/plan-your-in-person-visit/\">计划您的现场访问</a>中找到他们曾经提供的服务的完整列表。",
+    "zh-hant": "您可以在<a href=\"/lafires/zh-hant/help-for-you/get-help-in-person/plan-your-in-person-visit/\">計劃您的現場訪問</a>中找到他們曾經提供的服務的完整列表。",
+    "hy": "Դուք կարող եք գտնել նրանց կողմից նախկինում մատուցվող ծառայությունների ամբողջական ցանկը <a href=\"/lafires/hy/help-for-you/get-help-in-person/plan-your-in-person-visit/\">Ձեր անձնական այցի պլանավորում</a>։"
   }
 }
