@@ -269,15 +269,14 @@
   },
   "financial_assistance_card_4_description": {
     "status": "ap_review",
-    "comment": "added 5-8-2025",
-    "en": "You're protected from foreclosure until <strong>July 7, 2025</strong> if:",
-    "es": "Está protegido contra la ejecución hipotecaria hasta el <strong>7 de julio de 2025</strong> si:",
-    "ko": "다음과 같은 경우 <strong>2025년 7월 7일</strong>까지 압류로부터 보호됩니다:",
-    "vi": "Bạn được bảo vệ khỏi bị tịch thu tài sản cho đến <strong>ngày 7 tháng 7 năm 2025</strong> nếu:",
-    "tl": "Protektado ka mula sa foreclosure hanggang <strong>Hulyo 7, 2025</strong> kung:",
-    "zh-hans": "如果符合以下条件，您将受到保护，免于被止赎，直到<strong>2025年7月7日</strong>:",
-    "zh-hant": "如果符合以下條件，您將受到保護，免於被止贖，直到<strong>2025年7月7日</strong>:",
-    "hy": "Դուք պաշտպանված եք բռնագանձումից մինչև <strong>2025 թվականի հուլիսի 7-ը</strong>, եթե՝"
+    "en": "The <a href=\"https://oag.ca.gov/hbor\">California Homeowner’s Bill of Rights</a> provides protections to homeowners who are facing foreclosure.",
+    "es": "La <a href=\"https://oag.ca.gov/hbor\">Proyecto de Ley de Derechos de los Propietarios de Viviendas de California</a> ofrece protecciones a los propietarios que enfrentan una ejecución hipotecaria.",
+    "ko": "<a href=\"https://oag.ca.gov/hbor\">캘리포니아 주택 소유자 권리 법안</a>은 압류에 직면한 주택 소유자를 보호합니다.",
+    "vi": "<a href=\"https://oag.ca.gov/hbor\">Dự luật về quyền của chủ nhà California</a> cung cấp các biện pháp bảo vệ cho các chủ nhà đang đối mặt với việc tịch thu tài sản.",
+    "tl": "Ang <a href=\"https://oag.ca.gov/hbor\">California Homeowner’s Bill of Rights</a> ay nagbibigay ng mga proteksyon sa mga may-ari ng bahay na humaharap sa foreclosure.",
+    "zh-hans": "<a href=\"https://oag.ca.gov/hbor\">加利福尼亚州房主权利法案</a>为面临止赎的房主提供保护。",
+    "zh-hant": "<a href=\"https://oag.ca.gov/hbor\">加利福尼亞州房主權利法案</a>為面臨止贖的房主提供保護。",
+    "hy": "<a href=\"https://oag.ca.gov/hbor\">Կալիֆորնիայի տանտերերի իրավունքների օրինագիծը</a> ապահովում է պաշտպանություն այն տանտերերի համար, ովքեր բախվում են բռնագանձման:"
   },
 
   "financial_assistance_card_4_list_1": {
@@ -308,15 +307,14 @@
 
   "financial_assistance_card_4_description_2": {
     "status": "ap_review",
-    "comment": "added 5-8-2025",
-    "en": "If you're facing foreclosure, contact your mortgage company. Or call the FHA Resource Center at <a href=\"tel:800-225-5342\">800-225-5342</a>.",
-    "es": "Si se enfrenta a una ejecución hipotecaria, comuníquese con su compañía hipotecaria. O llame al Centro de Recursos de la FHA al <a href=\"tel:800-225-5342\">800-225-5342</a>.",
-    "ko": "압류에 직면한 경우 모기지 회사에 문의하세요. 또는 FHA 리소스 센터에 <a href=\"tel:800-225-5342\">800-225-5342</a>로 전화하세요.",
-    "vi": "Nếu bạn đang đối mặt với việc tịch thu tài sản, hãy liên hệ với công ty thế chấp của bạn. Hoặc gọi cho Trung tâm Tài nguyên FHA theo số <a href=\"tel:800-225-5342\">800-225-5342</a>.",
-    "tl": "Kung humaharap ka sa foreclosure, makipag-ugnayan sa iyong mortgage company. O tumawag sa FHA Resource Center sa <a href=\"tel:800-225-5342\">800-225-5342</a>.",
-    "zh-hans": "如果您面临止赎，请联系您的抵押贷款公司。或致电FHA资源中心，电话<a href=\"tel:800-225-5342\">800-225-5342</a>。",
-    "zh-hant": "如果您面臨止贖，請聯繫您的抵押貸款公司。或致電FHA資源中心，電話<a href=\"tel:800-225-5342\">800-225-5342</a>。",
-    "hy": "Եթե բռնագանձման եք բախվում, կապվեք ձեր հիփոթեքային ընկերության հետ: Կամ զանգահարեք FHA ռեսուրսների կենտրոն <a href=\"tel:800-225-5342\">800-225-5342</a> հեռախոսահամարով:"
+    "en": "If you're facing foreclosure, contact your mortgage company. You can also <a href=\"https://dfpi.ca.gov/submit-a-complaint/\">submit a complaint</a> or call the FHA Resource Center at <a href=\"tel:800-225-5342\">800-225-5342</a>.",
+    "es": "Si enfrenta una ejecución hipotecaria, comuníquese con su compañía hipotecaria. También puede <a href=\"https://dfpi.ca.gov/submit-a-complaint/\">presentar una queja</a> o llamar al Centro de Recursos de la FHA al <a href=\"tel:800-225-5342\">800-225-5342</a>.",
+    "ko": "압류에 직면한 경우 모기지 회사에 연락하세요. 또한 <a href=\"https://dfpi.ca.gov/submit-a-complaint/\">불만 제기</a>를 제출하거나 <a href=\"tel:800-225-5342\">800-225-5342</a>에서 FHA 리소스 센터에 전화할 수 있습니다.",
+    "vi": "Nếu bạn đang đối mặt với việc tịch thu tài sản, hãy liên hệ với công ty thế chấp của bạn. Bạn cũng có thể <a href=\"https://dfpi.ca.gov/submit-a-complaint/\">gửi đơn khiếu nại</a> hoặc gọi đến Trung tâm Tài nguyên FHA theo số <a href=\"tel:800-225-5342\">800-225-5342</a>.",
+    "tl": "Kung nahaharap ka sa foreclosure, makipag-ugnayan sa iyong mortgage company. Maaari ka ring <a href=\"https://dfpi.ca.gov/submit-a-complaint/\">mag-submit ng reklamo</a> o tumawag sa FHA Resource Center sa <a href=\"tel:800-225-5342\">800-225-5342</a>.",
+    "zh-hans": "如果您面临止赎，请联系您的抵押贷款公司。您也可以<a href=\"https://dfpi.ca.gov/submit-a-complaint/\">提交投诉</a>或致电FHA资源中心，电话号码为<a href=\"tel:800-225-5342\">800-225-5342</a>。",
+    "zh-hant": "如果您面臨止贖，請聯繫您的抵押貸款公司。您也可以<a href=\"https://dfpi.ca.gov/submit-a-complaint/\">提交投訴</a>或致電FHA資源中心，電話號碼為<a href=\"tel:800-225-5342\">800-225-5342</a>。",
+    "hy": "Եթե դուք կանգնած եք բռնագանձման առաջ, կապվեք ձեր հիփոթեքային ընկերության հետ: Դուք նաև կարող եք <a href=\"https://dfpi.ca.gov/submit-a-complaint/\">ներկայացնել բողոք</a> կամ զանգահարել FHA ռեսուրս կենտրոն՝ <a href=\"tel:800-225-5342\">800-225-5342</a> հեռախոսահամարով:"
   },
 
   "financial_assistance_renter_protections": {
@@ -825,12 +823,12 @@
   "financial_assistance_card_14_list_3": {
     "status": "ap_review",
     "en": "Your home was destroyed or is not safe to live in due to a qualified disaster",
-    "es": "Su hogar fue destruido o no es seguro vivir en él debido a un desastre calificado",
-    "ko": "자격이 있는 재난으로 인해 주택이 파괴되었거나 거주하기에 안전하지 않습니다",
-    "vi": "Ngôi nhà của bạn đã bị phá hủy hoặc không an toàn để ở do thảm họa đủ điều kiện",
+    "es": "Su hogar fue destruido o no es seguro para vivir debido a un desastre calificado",
+    "ko": "귀하의 주택은 자격을 갖춘 재난으로 인해 파괴되었거나 거주하기에 안전하지 않습니다",
+    "vi": "Ngôi nhà của bạn đã bị phá hủy hoặc không an toàn để sinh sống do một thảm họa đủ điều kiện",
     "tl": "Ang iyong bahay ay nawasak o hindi ligtas na tirahan dahil sa isang kwalipikadong sakuna",
-    "zh-hans": "由于符合条件的灾难，您的房屋被毁或不安全居住",
-    "zh-hant": "由於符合條件的災難，您的房屋被毀或不安全居住",
-    "hy": "Ձեր տունը ավերվել է կամ անվտանգ չէ ապրել համապատասխան աղետի պատճառով"
+    "zh-hans": "由于合格的灾难，您的房屋被毁或不适合居住",
+    "zh-hant": "由於合格的災難，您的房屋被毀或不適合居住",
+    "hy": "Ձեր տունը ավերվել է կամ ապրելու համար անվտանգ չէ որակավորված աղետի պատճառով:"
   }
 }
