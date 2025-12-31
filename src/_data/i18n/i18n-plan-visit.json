@@ -1294,5 +1294,17 @@
     "zh-hans": "洛杉矶县经济机会部 (Department of Economic Opportunity, DEO)",
     "zh-hant": "洛杉磯縣經濟機會部 （Department of Economic Opportunity, DEO）",
     "hy": "LA վարչաշրջանի Տնտեսական հնարավորությունների վարչություն (DEO)"
+  },
+  "plan_visit_note": {
+    "status": "ap_review",
+    "en": "<strong>Note: Disaster Recovery Centers are permanently closed.</strong> This checklist provides a list of resources that were available at the centers when they were open.",
+    "fr": "<strong>Remarque : les centres de récupération après sinistre sont définitivement fermés.</strong> Cette liste de contrôle fournit une liste des ressources qui étaient disponibles dans les centres lorsqu'ils étaient ouverts.",
+    "es": "<strong>Nota: Los Centros de Recuperación por Desastres están permanentemente cerrados.</strong> Esta lista de verificación proporciona una lista de recursos que estaban disponibles en los centros cuando estaban abiertos.",
+    "ko": "<strong>참고: 재해 복구 센터는 영구적으로 폐쇄되었습니다.</strong> 이 체크리스트는 센터가 열려 있을 때 제공되었던 리소스 목록을 제공합니다.",
+    "vi": "<strong>Lưu ý: Các Trung Tâm Phục Hồi Thiên Tai đã đóng cửa vĩnh viễn.</strong> Danh sách kiểm tra này cung cấp danh sách các nguồn lực đã có sẵn tại các trung tâm khi chúng còn mở cửa.",
+    "tl": "<strong>Tandaan: Ang mga Disaster Recovery Center ay permanenteng sarado na.</strong> Ang checklist na ito ay nagbibigay ng listahan ng mga mapagkukunan na magagamit sa mga sentro nang ito ay bukas pa.",
+    "zh-hans": "<strong>注意：灾难恢复中心已永久关闭。</strong> 本清单提供了在中心开放时可用的资源列表。",
+    "zh-hant": "<strong>注意：災難恢復中心已永久關閉。</strong> 本清單提供了在中心開放時可用的資源列表。",
+    "hy": "<strong>Նշում. Արտակարգ իրավիճակների վերականգնման կենտրոնները մշտապես փակ են։</strong> Այս ստուգաթերթը տրամադրում է այն ռեսուրսների ցանկը, որոնք հասանելի էին կենտրոններում, երբ դրանք բաց էին։"
   }
 }

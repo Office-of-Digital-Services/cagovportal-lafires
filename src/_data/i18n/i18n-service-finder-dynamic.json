@@ -92,8 +92,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_25_description": {
-    "status": "ap_review",
-    "en": "The deadline to apply for loans to repair physical damage to your business was March 31, 2025. You can still apply by October 15, 2025, for a loan to cover economic losses."
+    "status": "english_only",
+    "en": "The Small Business Association (SBA) offers disaster loans to help businesses. For the LA Fires disaster: The deadline to apply for loans to repair damage to your business was March 31, 2025. The deadline to apply for an SBA loan to cover economic losses was October 15, 2025."
   },
   "sf_25_entity": {
     "status": "avantpage_delivery",
@@ -148,16 +148,8 @@
     "comment": "Translation delivered 2025-04-10"
   },
   "sf_27_description": {
-    "status": "avantpage_delivery",
-    "en": "Learn about the extended deadline to file and pay business income tax in Los Angeles County. The new deadline is October 15, 2025.",
-    "es": "Obtenga información sobre extensión en la fecha límite para presentar y pagar los impuestos sobre los ingresos comerciales en el condado de Los Ángeles. La nueva fecha límite es el 15 de octubre de 2025.",
-    "ko": "로스앤젤레스 카운티의 사업소득세 신고 및 납부 연장 기한에 대해 알아보십시오. 새로운 마감일은 2025년 10월 15일입니다.",
-    "vi": "Tìm hiểu về hạn cuối được gia hạn để nộp hồ sơ và nộp thuế thu nhập doanh nghiệp ở Quận Los Angeles. Hạn cuối mới là ngày 15 tháng 10 năm 2025.",
-    "tl": "Matuto tungkol sa pinahabang deadline para maghain at magbayad ng buwis sa kita ng negosyo sa County ng Los Angeles. Ang bagong deadline ay Oktubre 15, 2025.",
-    "zh-hans": "了解洛杉矶县申报和缴纳企业所得税的延长截止日期。新截止日期为 2025 年 10 月 15 日。",
-    "zh-hant": "瞭解洛杉磯縣申報和繳納企業所得稅的延長截止日期。新截止日期為 2025 年 10 月 15 日。",
-    "hy": "Իմացեք Լոս Անջելեսի շրջանում բիզնեսի եկամտահարկի ներկայացման և վճարման երկարացված ժամկետի մասին: Նոր վերջնաժամկետը 2025թ․ հոկտեմբերի 15-ն է:",
-    "comment": "Translation delivered 2025-04-10"
+    "status": "english_only",
+    "en": "Businesses impacted by major disasters may postpone filing and paying income taxes."
   },
   "sf_27_entity": {
     "status": "avantpage_delivery",
@@ -1540,7 +1532,7 @@
   },
   "sf_88_description": {
     "status": "english_only",
-    "en": "If a disaster has damaged your home or personal property, you might be able to get financial assistance from the Small Business Administration. You do not need to own a business to apply."
+    "en": "The Small Business Association (SBA) offers disaster loans to help businesses. The deadline to apply for loans to repair damage to your business was March\n31, 2025.\nThe deadline to apply for an apply for an SBA loan to cover economic losses was October 15, 2025."
   },
   "sf_88_entity": {
     "status": "avantpage_delivery",
@@ -1689,6 +1681,18 @@
   "sf_96_service_name": {
     "status": "english_only",
     "en": "Replace death certificates"
+  },
+  "sf_97_description": {
+    "status": "english_only",
+    "en": "Learn about rebuilding options. Get started on your next steps with builders, manufacturers, and vendors. They have partnered with trusted community organizations."
+  },
+  "sf_97_entity": {
+    "status": "english_only",
+    "en": "Los Angeles County"
+  },
+  "sf_97_service_name": {
+    "status": "english_only",
+    "en": "Rebuilding resources"
   },
   "sf_audience_type_1_label": {
     "status": "ap_review",

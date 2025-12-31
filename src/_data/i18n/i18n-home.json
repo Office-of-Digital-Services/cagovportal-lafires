@@ -180,16 +180,16 @@
     "hy": "Փոխարինեք փաստաթղթերը"
   },
   "home_get_debris_removed": {
-    "status": "avantpage_delivery",
-    "en": "Get debris removed",
-    "fr": "Obtenir le débris enlevé",
-    "es": "Solicitar remoción de escombros",
-    "ko": "잔해 제거",
-    "vi": "Được di dời đống đổ nát",
-    "tl": "Magpaalis ng kalat",
-    "zh-hans": "申请残余物清除",
-    "zh-hant": "如何清除雜物",
-    "hy": "Ստացեք օգնություն աղբի հեռացման հարցում"
+    "status": "ap_review",
+    "en": "Rebuild your home",
+    "fr": "Reconstruisez votre maison",
+    "es": "Reconstruya su hogar",
+    "ko": "집 재건하기",
+    "vi": "Xây dựng lại nhà của bạn",
+    "tl": "Muling itayo ang iyong tahanan",
+    "zh-hans": "重建您的家园",
+    "zh-hant": "重建您的家園",
+    "hy": "Վերակառուցեք ձեր տունը"
   },
   "home_apply_for_fema_individual_assistance": {
     "status": "avantpage_delivery",
@@ -264,28 +264,28 @@
     "hy": "Գտեք աջակցություն և օգնություն տեղական բիզնեսի վերականգնման համար:"
   },
   "home_see_real_time_info": {
-    "status": "avantpage_delivery",
-    "en": "See real-time info",
-    "fr": "Voir les informations en temps réel",
-    "es": "Vea información en tiempo real",
-    "ko": "실시간 정보 보기",
-    "vi": "Xem thông tin theo thời gian thực",
-    "tl": "Makakita ng real-time na impormasyon",
-    "zh-hans": "查看实时信息",
-    "zh-hant": "查看實時資訊",
-    "hy": "Ստուգեք տեղեկատվությունը իրական ժամանակում"
+    "status": "ap_review",
+    "en": "See LA Rises",
+    "fr": "Voir les cartes de Los Angeles",
+    "es": "Ver mapas de Los Ángeles",
+    "ko": "LA 지도 보기",
+    "vi": "Xem bản đồ LA",
+    "tl": "Tingnan ang mga mapa ng LA",
+    "zh-hans": "查看洛杉矶地图",
+    "zh-hant": "查看洛杉磯地圖",
+    "hy": "Դիտել Լոս Անջելեսի քարտեզները"
   },
   "home_find_fire_maps_air_quality_and_road_closure_maps": {
     "status": "ap_review",
-    "en": "Find info on road closures, power shutoffs, air quality, and more.",
-    "fr": "Trouvez des informations sur les fermetures de routes, les coupures de courant, la qualité de l'air et plus encore.",
-    "es": "Encuentre información sobre cierres de carreteras, cortes de energía, calidad del aire y más.",
-    "ko": "도로 폐쇄, 정전, 공기질 등에 대한 정보를 찾으십시오.",
-    "vi": "Tìm thông tin về tình trạng đường, cúp điện, chất lượng không khí và nhiều hơn nữa.",
-    "tl": "Maghanap ng impormasyon tungkol sa mga pagsasara ng kalsada, mga pag-shutoff ng kuryente, kalidad ng hangin, at iba pa.",
-    "zh-hans": "查找有关道路封闭、停电、空气质量等的信息。",
-    "zh-hant": "查找有關道路封閉、停電、空氣質量等的信息。",
-    "hy": "Գտեք տեղեկություններ ճանապարհների փակման, էլեկտրաէներգիայի անջատման, օդի որակի և այլնի մասին:"
+    "en": "A central place to find resources, learn about recovery and  rebuilding and get trusted information.",
+    "fr": "Un endroit central pour trouver des ressources, en savoir plus sur la récupération et la reconstruction et obtenir des informations fiables.",
+    "es": "Un lugar central para encontrar recursos, aprender sobre la recuperación y la reconstrucción y obtener información confiable.",
+    "ko": "리소스를 찾고, 복구 및 재건에 대해 배우고, 신뢰할 수 있는 정보를 얻을 수 있는 중앙 장소입니다.",
+    "vi": "Một nơi tập trung để tìm tài nguyên, tìm hiểu về phục hồi và tái thiết, đồng thời nhận thông tin đáng tin cậy.",
+    "tl": "Isang sentral na lugar upang makahanap ng mga mapagkukunan, matuto tungkol sa muling pagbangon at muling pagtatayo at makakuha ng pinagkakatiwalaang impormasyon.",
+    "zh-hans": "一个集中查找资源、了解恢复与重建并获取可信信息的地方。",
+    "zh-hant": "一個集中查找資源、了解恢復與重建並獲取可信信息的地方。",
+    "hy": "Կենտրոնացված վայր՝ ռեսուրսներ գտնելու, վերականգնման և վերակառուցման մասին տեղեկանալու և վստահելի տեղեկատվություն ստանալու համար:"
   },
   "home_start_your_recovery": {
     "status": "avantpage_delivery",
