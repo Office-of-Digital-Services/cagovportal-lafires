@@ -1682,6 +1682,18 @@
     "status": "english_only",
     "en": "Replace death certificates"
   },
+  "sf_97_description": {
+    "status": "english_only",
+    "en": "Learn about rebuilding options. Get started on your next steps with builders, manufacturers, and vendors. They have partnered with trusted community organizations."
+  },
+  "sf_97_entity": {
+    "status": "english_only",
+    "en": "Los Angeles County"
+  },
+  "sf_97_service_name": {
+    "status": "english_only",
+    "en": "Rebuilding resources"
+  },
   "sf_audience_type_1_label": {
     "status": "ap_review",
     "en": "For you and your family",
