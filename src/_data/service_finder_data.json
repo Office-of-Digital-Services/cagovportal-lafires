@@ -315,7 +315,6 @@
               "Services": [
                 "recZ4xkzkOUiuLmrF",
                 "rec0XYIpgZW5B2Kbi",
-                "recdIwFFBNzT9my7P",
                 "recFmkqajD1Hs0uNO"
               ]
             },
@@ -393,32 +392,6 @@
                   "Service_name": "Emergency shelter",
                   "Status": "3 Approved",
                   "Type_of_Service": "Essential help"
-                }
-              },
-              {
-                "id": "recdIwFFBNzT9my7P",
-                "createdTime": "2025-12-29T21:07:34.000Z",
-                "fields": {
-                  "Audience": "For your and your family",
-                  "Audience (from Category Linked)": "recEP9eO9yJvwUzhk",
-                  "Audience ID": 1,
-                  "Category": "Housing",
-                  "Category ID": 1,
-                  "Category Linked": "recg0feExYSNWPk9D",
-                  "Description": "Learn about rebuilding options. Get started on your next steps with builders, manufacturers, and vendors. They have partnered with trusted community organizations.",
-                  "Entity": "Los Angeles County",
-                  "Entity_acronym": "LA County",
-                  "Entity_type": "State",
-                  "ID": 97,
-                  "Info_link": "https://larises.org/resources/",
-                  "June 2025 status": "Ready to go",
-                  "Service Type ID": 1,
-                  "Service type (from Category Linked)": "recD1BzZ6rtGT1O6h",
-                  "Service_name": "Rebuilding resources",
-                  "Source": "From the GO",
-                  "Specific disaster": "January 2025 LA Fires",
-                  "Status": "3 Approved",
-                  "Type_of_Service": "Start recovering"
                 }
               }
             ]
@@ -941,7 +914,8 @@
                 "rec6bJWYqfzCPH0tl",
                 "reckFF7TfGxa8xjpy",
                 "recyrwRKKzSUoKuA7",
-                "recImWD837NGdRJ9D"
+                "recImWD837NGdRJ9D",
+                "recdIwFFBNzT9my7P"
               ]
             },
             "children_services": [
@@ -1130,6 +1104,32 @@
                   "Service type (from Category Linked)": "recHmpjjj4li4w2AI",
                   "Service_name": "Tree removal",
                   "Source": "Website / Checklist",
+                  "Specific disaster": "January 2025 LA Fires",
+                  "Status": "3 Approved",
+                  "Type_of_Service": "Start recovering"
+                }
+              },
+              {
+                "id": "recdIwFFBNzT9my7P",
+                "createdTime": "2025-12-29T21:07:34.000Z",
+                "fields": {
+                  "Audience": "For your and your family",
+                  "Audience (from Category Linked)": "recEP9eO9yJvwUzhk",
+                  "Audience ID": 1,
+                  "Category": "Rebuild your house",
+                  "Category ID": 9,
+                  "Category Linked": "recbnBZyXXaJ8bOdg",
+                  "Description": "Learn about rebuilding options. Get started on your next steps with builders, manufacturers, and vendors. They have partnered with trusted community organizations.",
+                  "Entity": "Los Angeles County",
+                  "Entity_acronym": "LA County",
+                  "Entity_type": "State",
+                  "ID": 97,
+                  "Info_link": "https://larises.org/resources/",
+                  "June 2025 status": "Ready to go",
+                  "Service Type ID": 2,
+                  "Service type (from Category Linked)": "recHmpjjj4li4w2AI",
+                  "Service_name": "Rebuilding resources",
+                  "Source": "From the GO",
                   "Specific disaster": "January 2025 LA Fires",
                   "Status": "3 Approved",
                   "Type_of_Service": "Start recovering"
