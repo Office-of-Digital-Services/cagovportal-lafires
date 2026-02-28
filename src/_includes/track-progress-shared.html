@@ -627,7 +627,10 @@
         <p class="m-b-0 font-size-16">
           All permitting is handled by local governments. Permitting numbers are
           sourced directly from local jurisdictions and they may not be directly
-          comparable to each other.
+          comparable to each other. Data on permits applications received and
+          issued is updated at least weekly; data on permit processing timelines
+          is updated as reported by local jurisdictions. Questions regarding
+          dashboard data should be directed to the relevant jurisdiction.
         </p>
       </div>
 
@@ -643,9 +646,8 @@
                 <img
                   src="/lafires/images/icon-permits-received.svg"
                   aria-hidden="true"
-                  class="height-40 m-r"
                   alt=""
-                  role="presentation" />
+                  class="height-40 m-r" />
                 <span
                   class="h2 color-white m-y-0 font-weight-400 m-r"
                   id="county_rebuild_applications_received"></span
@@ -656,16 +658,27 @@
               <hr class="m-y-md brd-s1" />
               <div class="d-flex align-items-center">
                 <img
-                  src="/lafires/images/icon-permits-in-review.svg"
+                  src="/lafires/images/icon-calendar-permit.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
-                <span
-                  class="h2 color-white m-y-0 font-weight-400 m-r"
-                  id="county_rebuild_applications_in_review"></span
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">186</span
                 ><span class="color-white font-size-14 font-weight-600">
-                  In review
+                  Average number of calendar days from permit application to
+                  permit issued
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-calendar.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">43</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Average number of calendar days application is in agency
+                  review
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -674,7 +687,6 @@
                   src="/lafires/images/icon-permits-issued.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
                 <span
                   class="h2 color-white m-y-0 font-weight-400 m-r"
@@ -693,7 +705,7 @@
                     >Permitting Progress Dashboard</a
                   >.</em
                 ><br />
-                <em><span id="county_building_permits_issued_date"></span></em>
+                <!-- <em><span id="county_building_permits_issued_date"></span></em> -->
               </p>
             </div>
           </div>
@@ -711,7 +723,6 @@
                   src="/lafires/images/icon-permits-received.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
                 <span
                   class="h2 color-white m-y-0 font-weight-400 m-r"
@@ -723,16 +734,68 @@
               <hr class="m-y-md brd-s1" />
               <div class="d-flex align-items-center">
                 <img
-                  src="/lafires/images/icon-permits-in-review.svg"
+                  src="/lafires/images/icon-permits-received.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
-                <span
-                  class="h2 color-white m-y-0 font-weight-400 m-r"
-                  id="la_city_in_review"></span
+                <span class="h2 color-white m-y-0 font-weight-400 m-r"
+                  >1424</span
                 ><span class="color-white font-size-14 font-weight-600">
-                  In review
+                  Permit applications received (Single family homes, duplexes,
+                  ADUs only)
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-calendar-permit.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">51</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Average number of calendar days from permit application to
+                  permit issued
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-calendar-permit.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">62</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Average number of calendar days from permit application to
+                  permit issued (SFHs, duplexes, ADUs only)
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-calendar.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">16</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Average number of calendar days application is in agency
+                  review
+                </span>
+              </div>
+
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-calendar.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">16</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Average number of calendar days application is in agency
+                  review (SFHs, duplexes, ADUs only)
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -741,7 +804,6 @@
                   src="/lafires/images/icon-permits-issued.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
                 <span
                   class="h2 color-white m-y-0 font-weight-400 m-r"
@@ -750,11 +812,23 @@
                   Permits issued
                 </span>
               </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-permits-issued.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">857</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Permits issued (Single family homes, duplexes, ADUS only)
+                </span>
+              </div>
             </div>
             <div class="bg-s1 p-x-md p-y border-bottom rounded-bottom mt-auto">
               <p class="font-size-11 m-b-0">
                 <em>Reported by City of Los Angeles</em><br />
-                <em><span id="la_city_permits_issued_date"></span></em>
+                <!-- <em><span id="la_city_permits_issued_date"></span></em> -->
               </p>
             </div>
           </div>
@@ -772,7 +846,6 @@
                   src="/lafires/images/icon-permits-received.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
                 <span
                   class="h2 color-white m-y-0 font-weight-400 m-r"
@@ -784,16 +857,27 @@
               <hr class="m-y-md brd-s1" />
               <div class="d-flex align-items-center">
                 <img
-                  src="/lafires/images/icon-permits-in-review.svg"
+                  src="/lafires/images/icon-calendar-permit.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
-                <span
-                  class="h2 color-white m-y-0 font-weight-400 m-r"
-                  id="malibu_rebuild_applications_in_review"></span
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">186</span
                 ><span class="color-white font-size-14 font-weight-600">
-                  In review
+                  Average number of calendar days from permit application to
+                  permit issued
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-calendar.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">43</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Average number of calendar days application is in agency
+                  review
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -802,7 +886,6 @@
                   src="/lafires/images/icon-permits-issued.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
                 <span
                   class="h2 color-white m-y-0 font-weight-400 m-r"
@@ -820,7 +903,7 @@
                     >Permitting Progress Dashboard</a
                   >.</em
                 ><br />
-                <em><span id="malibu_building_permits_issued_date"></span></em>
+                <!-- <em><span id="malibu_building_permits_issued_date"></span></em> -->
               </p>
             </div>
           </div>
@@ -838,7 +921,6 @@
                   src="/lafires/images/icon-permits-received.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
                 <span
                   class="h2 color-white m-y-0 font-weight-400 m-r"
@@ -850,16 +932,27 @@
               <hr class="m-y-md brd-s1" />
               <div class="d-flex align-items-center">
                 <img
-                  src="/lafires/images/icon-permits-in-review.svg"
+                  src="/lafires/images/icon-calendar-permit.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
-                <span
-                  class="h2 color-white m-y-0 font-weight-400 m-r"
-                  id="pasadena_rebuild_applications_in_review"></span
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">115</span
                 ><span class="color-white font-size-14 font-weight-600">
-                  In review
+                  Average number of calendar days from permit application to
+                  permit issued
+                </span>
+              </div>
+              <hr class="m-y-md brd-s1" />
+              <div class="d-flex align-items-center">
+                <img
+                  src="/lafires/images/icon-calendar.svg"
+                  aria-hidden="true"
+                  alt=""
+                  class="height-40 m-r" />
+                <span class="h2 color-white m-y-0 font-weight-400 m-r">44</span
+                ><span class="color-white font-size-14 font-weight-600">
+                  Average number of calendar days application is in agency
+                  review
                 </span>
               </div>
               <hr class="m-y-md brd-s1" />
@@ -868,7 +961,6 @@
                   src="/lafires/images/icon-permits-issued.svg"
                   aria-hidden="true"
                   alt=""
-                  role="presentation"
                   class="height-40 m-r" />
                 <span
                   class="h2 color-white m-y-0 font-weight-400 m-r"
@@ -887,9 +979,9 @@
                     >Permitting Progress Dashboard</a
                   >.</em
                 ><br />
-                <em
+                <!-- <em
                   ><span id="pasadena_building_permits_issued_date"></span
-                ></em>
+                ></em> -->
               </p>
             </div>
           </div>
