@@ -1,5 +1,4 @@
 //@ts-check
-const defaultConfig = require("@11ty/eleventy/src/defaultConfig");
 const { minify } = require("terser");
 const { parse } = require("csv-parse/sync");
 const MarkdownIt = require("markdown-it");
@@ -437,24 +436,21 @@ module.exports = function (
 
     return idealContentString;
   });
-  //Start with default config, easier to configure 11ty later
-  const config = defaultConfig(eleventyConfig);
 
-  // allow nunjucks templating in .html files
-  config.htmlTemplateEngine = "njk";
-  config.markdownTemplateEngine = "njk";
-  config.templateFormats = ["html", "njk", "11ty.js", "md"];
-
-  config.dir = {
-    // site content pages
-    input: "pages",
-    data: "../src/_data",
-    // site structure pages (path is realtive to input directory)
-    includes: "../src/_includes",
-    layouts: "../src/_includes/layouts",
-    // site final outpuut directory
-    output: "_site"
+  // Return configuration for Eleventy 3
+  return {
+    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
+    templateFormats: ["html", "njk", "11ty.js", "md"],
+    dir: {
+      // site content pages
+      input: "pages",
+      data: "../src/_data",
+      // site structure pages (path is realtive to input directory)
+      includes: "../src/_includes",
+      layouts: "../src/_includes/layouts",
+      // site final outpuut directory
+      output: "_site"
+    }
   };
-
-  return config;
 };
