@@ -171,9 +171,9 @@
     <div class="col-lg-9">
       {%- include "breadcrumbs.html" -%}
       <h1 class="m-t-0 m-b-md color-white">
-        {{ 'sf_h1_title' | i18n }}<br />
+        Recovery services finder<br />
         <span class="font-size-30 color-white font-weight-400 m-b-md"
-          >{{ 'sf_h1_subtitle' | i18n }}</span
+          >Your customized services plans</span
         >
       </h1>
 
@@ -183,7 +183,7 @@
         ><span
           class="ca-gov-icon-caret-left d-inline-block no-underline font-size-20"
           aria-hidden="true"></span
-        >{{ 'sf_back_link' | i18n }}</a
+        >Back to Help for you</a
       >
     </div>
   </div>
@@ -196,7 +196,10 @@
 
     <!-- Main Content Area -->
     <div class="col-lg-10 pt-lg-3">
-      <p class="lead d-print-none">{{ 'sf_lead_text' | i18n }}</p>
+      <p class="lead d-print-none">
+        Here are the services that meet your needs. We provide direct links or
+        information on how to get these services.
+      </p>
 
       <p class="mb-5 d-flex gap-2 gap-md-4 align-items-center d-print-none">
         <button
@@ -209,7 +212,7 @@
             class="img-fluid 
             height-20 d-print-none"
             aria-hidden="true" />
-          {{ 'sf_share_button' | i18n }}
+          Share your plan
         </button>
         <button
           class="d-print-none btn btn-outline-primary rounded-4 brd-solid-2 pe-1 pe-sm-4 ps-1 ps-sm-3"
@@ -220,13 +223,13 @@
             class="img-fluid 
           height-20 d-print-none"
             aria-hidden="true" />
-          {{ 'sf_print_button' | i18n }}
+          Print your plan
         </button>
 
         <a
           href="{{ '/lafires/recovery-services-finder/' | localizedPath }}"
           class="clearVars d-print-none"
-          >{{ 'sf_create_link_text' | i18n }}</a
+          >Create new plan</a
         >
       </p>
       {%- for audience_type in service_finder_data %}
@@ -235,19 +238,14 @@
       {%- for service_type in audience_type.children_service_types %}
 
       <div data-service-type="{{service_type.fields.ID}}">
-        <h2 class="color-p2-darker">
-          {{ ("sf_audience_type_" + audience_type.fields["Audience ID"] +
-          "_label") | i18n }}
-        </h2>
+        <h2 class="color-p2-darker">{{ audience_type.fields.Audience }}</h2>
 
         {%- for category in service_type.children_categories %}
 
         <div
           data-service-type="{{service_type.fields.ID}}"
           data-service-category-id="{{category.fields.ID}}">
-          <h3>
-            {{ ("sf_cat_" + category.fields["Category ID"] + "_label") | i18n }}
-          </h3>
+          <h3>{{ category.fields.Category }}</h3>
 
           <div class="row">
             {%- for service in category.children_services -%}
@@ -266,20 +264,14 @@
                     data-service-id="{{item.ID}}"
                     aria-label="Close"></button>
 
-                  <h4 class="m-b-sm m-t-md p-r-md">
-                    {{ ("sf_" + item.ID + "_service_name") | i18n }}
-                  </h4>
+                  <h4 class="m-b-sm m-t-md p-r-md">{{ item.Service_name }}</h4>
 
                   <p class="department font-size-14 color-p2 font-weight-600">
-                    {{ ("sf_" + item.ID + "_entity") | i18n }}
+                    {{ item.Entity }}
                   </p>
-                  <p class="small">
-                    {{ ("sf_" + item.ID + "_description") | i18n }}
-                  </p>
+                  <p class="small">{{ item.Description }}</p>
 
-                  <h5 class="m-t-0">
-                    {{ 'sf_how_to_get_this_service' | i18n }}
-                  </h5>
+                  <h5 class="m-t-0">How to get this service</h5>
 
                   <ul class="list-unstyled m-b-0">
                     {%- if item.Service_link -%}
@@ -287,7 +279,7 @@
                       <a
                         href="{{item.Service_link}}"
                         class="p-a-sm d-flex bg-gray-75 bg-gray-100-hover w-100"
-                        >{{ 'sf_online' | i18n }}<img
+                        >Online<img
                           src="/lafires/images/laptop-icon.svg"
                           alt=""
                           class="img-fluid ms-auto width-30 d-print-none"
@@ -298,7 +290,7 @@
                     <li
                       class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
                       <a href="{{item.Info_link}}" class="p-a-sm d-inline-block"
-                        >{{ 'sf_learn_more' | i18n }}</a
+                        >Learn more</a
                       >
                     </li>
                     {%- endif -%} {%- if item.In_person_kiosk -%}
@@ -307,7 +299,7 @@
                       <a
                         href="{{item.In_person_kiosk_}}"
                         class="p-a-sm d-inline-block"
-                        >{{ 'sf_in_person' | i18n }}</a
+                        >In person (kiosk)</a
                       >
                     </li>
                     {%- endif -%}{%- if item.Phone -%}
@@ -323,7 +315,7 @@
                       <a
                         href="mailto:{{item.Email}}"
                         class="p-a-sm d-inline-block"
-                        >{{ 'sf_email' | i18n }}</a
+                        >Email</a
                       >
                     </li>
                     {%- endif -%}{%- if item.Mail -%}
@@ -356,7 +348,10 @@
 
       <div class="bg-gray-100 mt-5 px-4 p-b brd-solid-1 brd-gray-200 p-t-md">
         <p class="color-primary d-print-none">
-          {{ 'sf_navigator_text' | i18n | safe }}
+          To find local services, check out the
+          <a href="https://wildfires.betterangels.la/"
+            >LA Disaster Relief Navigator</a
+          >, a user-friendly community resource hub.
         </p>
       </div>
     </div>
@@ -373,13 +368,13 @@
     <div class="modal-content p-b-md">
       <div class="modal-header p-t-0">
         <h3 id="sharePlanTitle" class="modal-title color-p2">
-          {{'sf_modal-title' | i18n }}
+          Share your customized plan
         </h3>
         <button
           type="button"
           class="close btn btn-secondary border-0 rounded-pill bg-white bg-gray-100-hover pos-rel top-minus-5 right-minus-sm shadow-none p-t-0 p-b-0 p-l-sm p-r-sm"
           data-bs-dismiss="modal">
-          <span class="sr-only">{{'sf_close_modal' | i18n }}</span>
+          <span class="sr-only">Close modal</span>
           <span
             class="ca-gov-icon-close-mark font-size-30"
             aria-hidden="true"></span>
@@ -396,7 +391,7 @@
             id="share-plan-copy"
             class="btn btn-primary rounded-0 p-x m-t-0 ms-auto d-flex text-nowrap">
             <span class="ca-gov-icon-copy" aria-hidden="true"></span>
-            <div class="m-l-sm">{{'sf_copy_link_text' | i18n }}</div>
+            <div class="m-l-sm">Copy link</div>
           </button>
 
           <button
@@ -405,14 +400,14 @@
             id="share-plan-copied"
             class="btn btn-primary rounded-0 p-x m-t-0 ms-auto d-flex text-nowrap d-none">
             <span class="ca-gov-icon-check-mark" aria-hidden="true"></span>
-            <div class="m-l-sm">{{'sf_link_copied' | i18n }}</div>
+            <div class="m-l-sm">Link copied</div>
           </button>
         </div>
 
         <a
           id="share-plan-mailto"
-          data-mail-subject="{{'sf_email_plan_subject' | i18n }}"
-          data-mail-body="{{'sf_email_plan_body' | i18n }}"
+          data-mail-subject="Share from the California Recovery Services Finder"
+          data-mail-body="Here is my plan from the California Recovery Services Finder:"
           class="btn btn-outline-primary brd-solid-2 rounded-5 m-t d-flex align-items-center fit-content p-r-md">
           <img
             src="/lafires/images/icon-email.svg"
@@ -420,7 +415,7 @@
             class="img-fluid 
             height-30 d-print-none m-r"
             aria-hidden="true" />
-          {{'sf_email_plan' | i18n }}
+          Email
         </a>
       </div>
     </div>

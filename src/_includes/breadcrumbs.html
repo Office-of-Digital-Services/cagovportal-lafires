@@ -5,7 +5,7 @@
   <ol>
     {%- for link in node.links %}
     {%- if link.title == "Home" %}
-    <li><a href="{{link.href}}">{{'homepage_name' | i18n }}</a></li>
+    <li><a href="{{link.href}}">Home</a></li>
     {%- else %}
     <li><a href="{{link.href}}">{{link.title}}</a></li>
     {%- endif %}

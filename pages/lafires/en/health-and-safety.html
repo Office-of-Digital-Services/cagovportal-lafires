@@ -6,4 +6,482 @@ permalink: /lafires/help-for-you/health-and-safety/
 breadcrumbparent: Help for you
 ---
 
-{% include "src/_includes/health-and-safety-shared.html" %}
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/health-and-safety-lineart.svg?v2') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      <!-- Breadcrumbs component -->
+
+<nav aria-label="You are here" class="breadcrumbs">
+  {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
+  <ol>
+    {%- for link in node.links %}
+    {%- if link.title == "Home" %}
+    <li><a href="{{link.href}}">Home</a></li>
+    {%- else %}
+    <li><a href="{{link.href}}">{{link.title}}</a></li>
+    {%- endif %}
+    {%- endfor %}
+    <li class="active">{{title}}</li>
+  </ol>
+</nav>
+
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >2025 Los Angeles Fires</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{#-
+<!--
+  usage...
+---
+dynamic_sidenavid: service
+---
+
+
+-->
+-#} {%-set sidenav = dynamic_sidenav["lafires"]-%}
+
+<!-- delocalize the url -->
+{%- set purl = page.url -%} 
+{%- set purl = purl.replace(r/\/(fr|es|ko|tl|vi|hy|zh-hans|zh-hant)\//,'/') -%} 
+
+<!-- Side navigation -->
+<nav class="side-navigation sticky-6">
+  <a href="javascript:;" aria-hidden="true" class="d-none">{{title}}</a>
+  <ul class="list-navigation">
+    {%- for link in sidenav %} 
+    {%- set href = link.href -%} 
+    {%- set active = href === purl -%}
+    {% if not link.indent %}
+    <li>
+      <!-- href: {{-href -}} -->
+      <!-- purl: {{-purl -}} -->
+      <a
+        href="{{-href-}}"
+        {%-if
+        active%}
+        class="active landing"
+        aria-current="page"
+        tabindex="-1"
+        {%-endif-%}>
+        {{- link.text -}}
+      </a>
+    </li>
+    {% else %}
+    <li>
+      <!-- href: {{-href -}} -->
+      <!-- purl: {{-purl -}} -->
+      <ul>
+        <li>
+          <a
+            href="{{-href-}}"
+            {%-if
+            active%}
+            class="active landing"
+            aria-current="page"
+            tabindex="-1"
+            {%-endif-%}>
+            {{- link.text -}}
+          </a>
+        </li>
+      </ul>
+    </li>
+    {% endif %} {%- endfor %}
+  </ul>
+</nav>
+</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">Learn how to protect your health and stay safe after a wildfire.</p>
+
+      <nav class="page-navigation"></nav>
+
+      <h2>Air safety</h2>
+      <p>Understand air quality and how to protect yourself from toxins.</p>
+
+      <h3>Outdoor air quality</h3>
+      <p>
+        Now that the fires are out, air quality has improved. But you can check the <a href="https://www.aqmd.gov/">air quality index (AQI)</a> from South Coast Air Quality Monitoring District.
+      </p>
+      <p>
+        See <a href="/lafires/track-progress/#Air-quality">how air quality is monitored in your area</a>.
+      </p>
+
+      <h3>Indoor air quality</h3>
+      <p>
+        There may be toxins still in your home from smoke and ash. Learn how to stay safe around <a href="#Ash,-dust,-and-debris">ash, dust, and debris</a>.
+      </p>
+
+      <h2>Water safety</h2>
+      <p>The fires contaminated some water systems. Find the <a href="https://www.waterboards.ca.gov/water_issues/programs/emp/wildfire_recovery/">latest information on water safety</a> from your water provider. Check your water bill to find your provider. If you're a renter, ask your landlord.</p>
+
+      <p>If your water provider sent a notice, your water may not be safe to use, drink, or boil. If you got a notice like that, use bottled water for:</p>
+      <ul>
+        <li class="m-t">
+          Drinking
+        </li>
+        <li class="m-t">
+          Baby formula
+        </li>
+        <li class="m-t">
+          Brushing teeth
+        </li>
+        <li class="m-t">
+          Washing dishes
+        </li>
+        <li class="m-t">
+          Making ice
+        </li>
+        <li class="m-t">
+          Preparing food
+        </li>
+        <li class="m-t">
+          Feeding pets
+        </li>
+      </ul>
+      <p>If your water provider lifted the water notice in your area, you can use tap water again. <a href="https://www.ladwp.com/newsletters/articles/guide-flushing-water-pipes">Flush your water pipes</a> to clear the contaminated water from your home. Keep in mind that home water testing kits aren’t reliable.</p>
+      <p>Also, check for <a href="http://publichealth.lacounty.gov/phcommon/public/eh/water_quality/beach_grades.cfm/">beach water quality advisories</a>.  Rain can wash toxins from the fires into the ocean.</p>
+
+      <h2>Hazardous waste</h2>
+      <p>The EPA has removed household hazardous waste from burned properties.</p>
+      <p>They removed toxic and explosive materials they could see. This includes things like paints, batteries, and propane tanks. This service was automatic and there's no cost to you.</p>
+      <p>If you still see hazardous waste after the EPA cleared your home, leave it alone. It is toxic and could spark more fires. If you hear a popping or hissing noise or see smoke, leave the area immediately and call 911.</p>
+      <p>
+        If you are a worker at a fire cleanup site, find out how to <a href="https://www.dir.ca.gov/wildfire-faq.html">stay safe while you work</a>.
+      </p>
+      <p>
+        Learn more about <a href="/lafires/help-for-you/rebuild-your-house/cleanup-debris-removal/">cleanup and debris removal</a>.
+      </p>
+
+      <h2>Ash, dust, and debris</h2>
+      <p>Protect yourself from ash, dust, and debris. They may contain toxic and cancer-causing chemicals like asbestos, arsenic, and lead. Limit contact with these materials.</p>
+      <p>Some groups are more sensitive to these materials. They should stay away from debris and the cleanup. They include:</p>
+      <ul>
+        <li class="m-t">People with heart or lung disease (like asthma)</li>
+        <li class="m-t">Older adults</li>
+        <li class="m-t">Pregnant women</li>
+        <li class="m-t">Children</li>
+        <li class="m-t">Pets</li>
+      </ul>
+
+      <p>If you can see ash and smell smoke, you need to clean your home. No laboratory test can determine if your property is safe.</p>
+
+      <p>Keep ash from spreading by wet mopping. Put debris and ash in a plastic trash bag and throw them away with your regular trash. If ash gets on your skin, wash with warm water and soap as soon as possible. Stay safe by wearing:</p>
+      <ul>
+        <li class="m-t">N-100 or P-100 respirator</li>
+        <li class="m-t">Rubber gloves</li>
+        <li class="m-t">Booties</li>
+        <li class="m-t">Long-sleeved shirts</li>
+        <li class="m-t">Long pants</li>
+        <li class="m-t">Socks and shoes</li>
+        <li class="m-t">Safety goggles (not glasses)</li>
+      </ul>
+      <p>N95 masks cannot protect you from asbestos. Learn more about the <a href="https://www.dir.ca.gov/dosh/fire_resp_protection.html">respirators that can protect you</a>. You can get personal protective equipment at a <a href="/lafires/help-for-you/get-help-in-person/">Disaster Recovery Center</a>.</p>
+
+      <p>Learn more about <a href="https://recovery.lacounty.gov/returning-after-a-fire-public-health">dealing with dust and debris</a> when returning home.</p>
+
+      <h2>Medical help</h2>
+      <p><a href="https://aspr.hhs.gov/EPAP/Pages/epap-for-patients.aspx">Get the medicine you need</a> through the federal Emergency Prescription Assistance Program. This program helps people without insurance replace prescriptions or medical equipment.</p>
+
+      <p>Get help in person at a <a href="/lafires/help-for-you/get-help-in-person/">Disaster Recovery Center</a>. Nurses can connect you with referrals and access to medications.</p>
+
+      <p>If you need health insurance, you may be able to <a href="https://dpss.lacounty.gov/en/health.html">get Medi-Cal</a>.</p>
+
+      <!--UPDATED MENTAL HEALTH-->
+
+      <h2>Mental health support</h2>
+      <p>
+        <!-- Navigating disaster recovery is stressful and overwhelming. Get mental
+        and emotional support for yourself and your loved ones. -->
+        Navigating disaster recovery is stressful and overwhelming. Get mental and emotional support for yourself and your loved ones.
+      </p>
+
+      <h3 class="lead">
+        <!-- Connect to free confidential emotional support via call, text, and chat -->
+        Connect to free confidential emotional support via call, text or, chat
+      </h3>
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a
+                href="/lafires/help-for-you/health-and-safety/health-resources-for-fire-survivors/"
+                >Health resources for fire survivors
+                <!-- Health resources for fire survivors -->
+              </a>
+            </h4>
+            <p>
+              The road to recovery requires healing, finding resources, and feeling heard. Those needs were represented in the Engaged California fires conversation. The State wants you to know that there are people ready to help you through this. California has set up several ways for you to get support, and many are available right now, 24/7.
+              <!-- The road to recovery requires healing, finding resources, and feeling heard. Those needs were represented in the Engaged California fires conversation. The State wants you to know that there are people ready to help you through this. California has set up several ways for you to get support, and many are available right now, 24/7. -->
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a
+                href="https://dmh.lacounty.gov/our-services/disaster-services/access-hotline/"
+                >Los Angeles County Mental Health Help Line
+                <!-- Los Angeles County Mental Health Help Line -->
+              </a>
+            </h4>
+            <p>
+              This hotline provides disaster victims with screening, assessment, referrals, and crisis counseling over the phone. Available 24 hours a day and in multiple languages.
+              <!-- This hotline provides disaster victims with screening, assessment,
+              referrals, and crisis counseling over the phone. Available 24
+              hours a day and in multiple languages. -->
+            </p>
+            <ul>
+              <li>
+                Call: <a href="tel:800-854-7771">800-854-7771</a>
+                <!-- Call: 800-854-7771 -->
+              </li>
+              <li>
+                Text “LA” to 741741
+                <!--  Text “LA” to 741741 -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://www.calhope.org/">
+                CalHOPE
+                <!-- CalHOPE --></a
+              >
+            </h4>
+            <p>
+              Peer-run crisis warm line offers confidential emotional support. Available 24 hours a day.
+              <!-- Peer-run crisis warm line offers confidential emotional support.
+              Available 24 hours a day. -->
+            </p>
+            <ul>
+              <li>
+                Call or text: <a href="tel:833-317-4673">833-317-4673</a>  for English and <a href="tel:833-642-7696">833-642-7696</a> for Spanish
+                <!-- Call or text: 833-317-4673 for English and 833-642-7696 for
+                Spanish -->
+              </li>
+              <li>
+                Connect via <a href="https://calhopeconnect.org/">chat</a>
+                <!-- Connect via <a href="https://calhopeconnect.org/">chat</a> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a
+                href="https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline"
+                >Disaster Distress Helpline</a
+              >
+              <!-- Disaster Distress Helpline -->
+            </h4>
+            <p>
+              This helpline provides counseling and support for people that are upset by disasters. Available 24 hours a day and in multiple languages.
+              <!-- This helpline provides counseling and support for people that are
+              upset by disasters. Available 24 hours a day and in multiple
+              languages. -->
+            </p>
+            <ul>
+              <li>
+                Call: <a href="tel:800-985-5990">800-985-5990</a>
+                <!-- Call: 800-985-5990 -->
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://www.ioaging.org/friendship-line-california/"
+                >Friendship Line</a
+              >
+              <!-- Friendship Line -->
+            </h4>
+            <p>
+              Connects Californians ages 60+ with someone ready to provide emotional support and a listening ear.
+              <!-- Connects Californians ages 60+ with someone ready to provide
+              emotional support and a listening ear. -->
+            </p>
+            <ul>
+              <li>
+                Call: <a href="tel:888-670-1360">888-670-1360</a>
+                <!-- Call: 888-670-1360 -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://988lifeline.org/"
+                >988 Suicide & Crisis Lifeline</a
+              >
+              <!-- 988 Suicide & Crisis Lifeline -->
+            </h4>
+            <p>
+              Free and confidential emotional support for people in suicidal crisis or emotional distress. Available 24 hours a day in English and Spanish.
+              <!-- Free and confidential emotional support for people in suicidal
+              crisis or emotional distress. Available 24 hours a day in English
+              and Spanish.  -->
+            </p>
+            <ul>
+              <li>
+                Call or text: <a href="tel:988">988</a>
+                <!-- Call or text: 988 -->
+              </li>
+              <li>
+                Connect via <a href="https://chat.988lifeline.org/">chat</a>
+                <!-- Connect via <a href="https://chat.988lifeline.org/">chat</a>  -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="lead">
+        Connect to a counselor for free, compassionate emotional support
+        <!-- Connect to a counselor for free, compassionate emotional support -->
+      </h3>
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://altercareline.com/about/">AlterCareLine</a> (<a href="https://www.fema.gov/fact-sheet/crisis-counseling-assistance-training-program">Crisis Counseling Program</a>)
+              <!-- <a href="https://altercareline.com/about/">AlterCareLine</a> (<a
+                href="https://www.fema.gov/fact-sheet/crisis-counseling-assistance-training-program"
+                >Crisis Counseling Program</a
+              >) -->
+            </h4>
+            <p>
+              Offers a safe, supportive space for individuals and families impacted by the wildfires.
+              <!-- Offers a safe, supportive space for individuals and families
+              impacted by the wildfires. -->
+            </p>
+            <ul>
+              <li>
+                Services include 1-on-1 counseling, community support groups, in-person support, and stress and anxiety relief tools.
+                <!-- Services include 1-on-1 counseling, community support groups,
+                in-person support, and stress and anxiety relief tools. -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://www.hellobrightline.com/brightlifekids/"
+                >BrightLife Kids</a
+              >
+              <!-- BrightLife Kids -->
+            </h4>
+            <p>
+              Free personalized support for California families.
+
+              <!-- Free personalized support for California families. -->
+            </p>
+            <ul>
+              <li>
+                For parents/caregivers and children ages 0-12. Available in multiple languages.
+
+                <!-- For parents/caregivers and children ages 0-12. Available in
+                multiple languages. -->
+              </li>
+              <li>
+                Services include live, 1-on-1 video sessions, secure chat, on-demand content, and more.
+                <!-- Services include live, 1-on-1 video sessions, secure chat,
+                on-demand content, and more. -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://solunaapp.com/"
+                >Soluna</a
+              >
+              <!-- Soluna -->
+            </h4>
+            <p>
+              This app provides access to mental health and wellness coaches for teens and older adults ages 13-25. Available in multiple languages.
+              <!-- This app provides access to mental health and wellness coaches for
+              teens and older adults ages 13-25. Available in multiple
+              languages. -->
+            </p>
+            <ul>
+              <li>
+                Online resources are available 24 hours a day. Drop-in coaching is available from 10am - 9pm.
+
+                <!-- Online resources are available 24 hours a day. Drop-in coaching
+                is available from 10am - 9pm. -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="lead">
+        Or find more resources
+        <!-- Or find more resources -->
+      </h3>
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              <a href="https://www.mirrorjournal.com/"
+                >Mirror</a
+              >
+              <!-- Mirror -->
+            </h4>
+            <p>
+              A clinician-developed journaling app for ages 13+ that provides a private space with adaptive, personalized features to deepen self-reflection.
+              <!-- A clinician-developed journaling app for ages 13+ that provides a
+              private space with adaptive, personalized features to deepen
+              self-reflection. -->
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h4 class="h5 m-t-md">
+              Employee Assistance Programs
+              <!-- Employee Assistance Programs -->
+            </h4>
+            <p>
+              Check if your workplace has an Employee Assistance Program with confidential counseling.
+              <!-- Check if your workplace has an Employee Assistance Program with
+              confidential counseling. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
