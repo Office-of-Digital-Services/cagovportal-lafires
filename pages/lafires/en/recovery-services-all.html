@@ -6,4 +6,499 @@ noindex: true
 permalink: /lafires/recovery-services-finder/results/
 ---
 
-{%- include "src/_includes/recovery-services-all-shared.html" -%}
+<style>
+  .list-unstyled li:last-child {
+    border-bottom: none !important;
+  }
+  @media print {
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    body .lineart {
+      color: #000 !important;
+      background-color: #fff !important;
+    }
+
+    body div.container {
+      width: 100% !important;
+      max-width: 100% !important;
+      padding: 0 !important;
+    }
+    .col-lg-9, .col-lg-10 {
+      float: none;
+      width: 100%;
+    }
+
+    /* dislay none */
+     .branding, .breadcrumbs {display: none !important;}
+
+    /* Print typography */
+
+    body .lineart h1.color-white {
+      color: #000 !important;
+      font-size: 37px;
+      border-bottom: 1px solid var(--gray-300) !important;
+      padding-bottom: 16px !important;
+      line-height: 30px !important;
+      margin-top: 20px !important;
+      font-weight: 600 !important;
+    }
+
+    body .lineart h1.color-white span.color-white {
+      color: #000 !important;
+      font-size: 16px !important;
+      font-weight: 400;
+      color: var(--color-p2-darker) !important;
+
+    }
+
+    h2, .h2 {
+      font-size: 29px !important;
+      margin-bottom: 0 !important;
+      margin-top: 24px !important;
+    }
+
+    h3, .h3 {
+      font-size: 23px !important;
+      margin-bottom: 0 !important;
+      margin-top: 24px !important;
+    }
+
+    h4, .h4 {
+      font-size: 16px !important;
+      margin-bottom: 0 !important;
+      margin-top: 23px !important;
+    }
+
+    p.small, h5, .h5 {
+      font-size: 14px !important;
+      font-weight: 400 !important;
+      margin-bottom: 4px !important;
+    }
+
+    .h6 a.bg-gray-100-hover {
+      font-weight: 700 !important;
+    }
+
+    .department {
+      font-size: 14px !important;
+      font-weight: 400 !important;
+    }
+
+    ul.list-unstyled {
+      list-style: disc !important;
+      padding-left: 20px !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+
+    ul.list-unstyled li {
+      list-style: disc !important;
+      margin-bottom: 0 !important;
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      line-height: 20px !important;
+      font-size: 14px !important;
+    }
+
+    ul.list-unstyled li a {
+      font-size: 14px !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      text-decoration: none !important;
+      color: var(--gray-900) !important;
+    }
+
+    ul.list-unstyled li a span.external-link-icon{
+      display: none !important;
+    }
+
+    ul.list-unstyled li a::after {
+      content: " (" attr(href) ")";
+      font-size: 12px;
+      font-weight: 400 !important;
+      color: var(--gray-900);
+      margin-left: 5px;
+    }
+
+    /* layout */
+    div.bg-white {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+
+    div.alert {
+      padding-top: 0 !important;
+      padding-bottom: 20px !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      border-bottom: 1px solid #b7b7b7 !important;
+    }
+
+    .bg-gray-100 {
+      background: #fff !important;
+    }
+    .brd-solid-1 {
+      border: none !important;
+    }
+
+    li.border-bottom {
+      border-bottom: none !important;
+    }
+
+    .cagov-logo.d-print-none {
+      display: block !important;
+      margin-bottom: 16px !important;
+
+    }
+
+    .global-footer {
+      border-top: none !important;
+    }
+
+    .copyright.text-right {
+      border-top: 1px solid var(--gray-300) !important;
+      text-align: left !important;
+    }
+
+
+  }
+</style>
+<div
+  class="section-primary lineart bg-p2"
+  style="background: url('/lafires/images/recovery-finder-lineart.svg?v3fejhb') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      <!-- Breadcrumbs component -->
+
+      <nav aria-label="You are here" class="breadcrumbs">
+        {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
+        <ol>
+          {%- for link in node.links %} {%- if link.title == "Home" %}
+          <li><a href="{{link.href}}">Home</a></li>
+          {%- else %}
+          <li><a href="{{link.href}}">{{link.title}}</a></li>
+          {%- endif %} {%- endfor %}
+          <li class="active">{{title}}</li>
+        </ol>
+      </nav>
+
+      <h1 class="m-t-0 m-b-md color-white">
+        Recovery services finder<br />
+        <span class="font-size-30 color-white font-weight-400 m-b-md"
+          >Your customized services plans</span
+        >
+      </h1>
+
+      <a href="/lafires/help-for-you/" class="color-white d-print-none"
+        ><span
+          class="ca-gov-icon-caret-left d-inline-block no-underline font-size-20"
+          aria-hidden="true"></span
+        >Back to Help for you</a
+      >
+    </div>
+  </div>
+</div>
+
+<!-- Main Content -->
+<div class="container p-y-lg">
+  <div class="row">
+    <!-- Sidebar Navigation -->
+
+    <!-- Main Content Area -->
+    <div class="col-lg-10 pt-lg-3">
+      <p class="lead d-print-none">
+        Here are the services that meet your needs. We provide direct links or
+        information on how to get these services.
+      </p>
+
+      <p class="mb-5 d-flex gap-2 gap-md-4 align-items-center d-print-none">
+        <button
+          class="btn btn-primary rounded-4 pe-1 pe-sm-4 ps-1 ps-sm-3"
+          data-bs-toggle="modal"
+          data-bs-target="#share-plan">
+          <img
+            src="/lafires/images/icon-share-plan.svg"
+            alt=""
+            class="img-fluid 
+            height-20 d-print-none"
+            aria-hidden="true" />
+          Share your plan
+        </button>
+        <button
+          class="d-print-none btn btn-outline-primary rounded-4 brd-solid-2 pe-1 pe-sm-4 ps-1 ps-sm-3"
+          onclick="window.print(); return false;">
+          <img
+            src="/lafires/images/icon-print.svg"
+            alt=""
+            class="img-fluid 
+          height-20 d-print-none"
+            aria-hidden="true" />
+          Print your plan
+        </button>
+
+        <a
+          href="/lafires/recovery-services-finder/"
+          class="clearVars d-print-none"
+          >Create new plan</a
+        >
+      </p>
+      {%- for audience_type in service_finder_data %}
+
+      <!---->
+      {%- for service_type in audience_type.children_service_types %}
+
+      <div data-service-type="{{service_type.fields.ID}}">
+        <h2 class="color-p2-darker">{{ audience_type.fields.Audience }}</h2>
+
+        {%- for category in service_type.children_categories %}
+
+        <div
+          data-service-type="{{service_type.fields.ID}}"
+          data-service-category-id="{{category.fields.ID}}">
+          <h3>{{ category.fields.Category }}</h3>
+
+          <div class="row">
+            {%- for service in category.children_services -%}
+            <!---->
+            {%- set item = service.fields -%}
+            <div
+              class="col-lg-6 alert"
+              data-service-category-id="{{category.fields.ID}}"
+              data-service-id="{{item.ID}}">
+              <div
+                class="bg-white pos-rel h-100 brd-solid-1 brd-gray-200 rounded d-flex flex-column">
+                <div class="p-x-md p-b-md">
+                  <button
+                    type="button"
+                    class="btn-close btn-xs bg-white bg-gray-75-hover brd-solid-1 rounded-circle pos-abs top-md right-n p-a-sm"
+                    data-service-id="{{item.ID}}"
+                    aria-label="Close"></button>
+
+                  <h4 class="m-b-sm m-t-md p-r-md">{{ item.Service_name }}</h4>
+
+                  <p class="department font-size-14 color-p2 font-weight-600">
+                    {{ item.Entity }}
+                  </p>
+                  <p class="small">{{ item.Description }}</p>
+
+                  <h5 class="m-t-0">How to get this service</h5>
+
+                  <ul class="list-unstyled m-b-0">
+                    {%- if item.Service_link -%}
+                    <li class="h6 font-weight-400 m-a-0">
+                      <a
+                        href="{{item.Service_link}}"
+                        class="p-a-sm d-flex bg-gray-75 bg-gray-100-hover w-100"
+                        >Online<img
+                          src="/lafires/images/laptop-icon.svg"
+                          alt=""
+                          class="img-fluid ms-auto width-30 d-print-none"
+                          aria-hidden="true"
+                      /></a>
+                    </li>
+                    {%- endif -%} {%- if item.Info_link -%}
+                    <li
+                      class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                      <a href="{{item.Info_link}}" class="p-a-sm d-inline-block"
+                        >Learn more</a
+                      >
+                    </li>
+                    {%- endif -%} {%- if item.In_person_kiosk -%}
+                    <li
+                      class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                      <a
+                        href="{{item.In_person_kiosk_}}"
+                        class="p-a-sm d-inline-block"
+                        >In person (kiosk)</a
+                      >
+                    </li>
+                    {%- endif -%}{%- if item.Phone -%}
+                    <li
+                      class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                      <a href="tel:{{item.Phone}}" class="p-a-sm d-inline-block"
+                        >{{item.Phone}}</a
+                      >
+                    </li>
+                    {%- endif -%}{%- if item.Email -%}
+                    <li
+                      class="border-bottom brd-gray-200 h6 font-weight-400 m-a-0">
+                      <a
+                        href="mailto:{{item.Email}}"
+                        class="p-a-sm d-inline-block"
+                        >Email</a
+                      >
+                    </li>
+                    {%- endif -%}{%- if item.Mail -%}
+                    <li class="m-a-0">
+                      <pre
+                        class="bg-white heading border-0 p-a-sm h6 font-weight-400 m-a-0">
+{{item.Mail}}</pre
+                      >
+                    </li>
+                    {%- endif -%}
+                  </ul>
+                </div>
+                {% if item["Specific disaster"] %}
+                <div
+                  class="font-size-14 m-b-0 mt-auto rounded-bottom-2 align-items-center bg-s1 d-flex p-y-sm p-x justify-content-center">
+                  {{ item["Specific disaster"] }}
+                </div>
+                {% endif %}
+              </div>
+            </div>
+            {%- endfor -%}
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+      {%- endfor -%}
+
+      <!---->
+      {%- endfor -%}
+
+      <div class="bg-gray-100 mt-5 px-4 p-b brd-solid-1 brd-gray-200 p-t-md">
+        <p class="color-primary d-print-none">
+          To find local services, check out the
+          <a href="https://wildfires.betterangels.la/"
+            >LA Disaster Relief Navigator</a
+          >, a user-friendly community resource hub.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div
+  class="modal fade"
+  id="share-plan"
+  role="dialog"
+  tabindex="-1"
+  aria-labelledby="sharePlanTitle">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content p-b-md">
+      <div class="modal-header p-t-0">
+        <h3 id="sharePlanTitle" class="modal-title color-p2">
+          Share your customized plan
+        </h3>
+        <button
+          type="button"
+          class="close btn btn-secondary border-0 rounded-pill bg-white bg-gray-100-hover pos-rel top-minus-5 right-minus-sm shadow-none p-t-0 p-b-0 p-l-sm p-r-sm"
+          data-bs-dismiss="modal">
+          <span class="sr-only">Close modal</span>
+          <span
+            class="ca-gov-icon-close-mark font-size-30"
+            aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="brd-solid-2 brd-primary d-flex rounded-5">
+          <input
+            type="text"
+            id="url-copy"
+            class="bg-transparent border-0 m-y-0 p-x-0 p-l p-r-sm overflow-hidden w-100" />
+
+          <button
+            id="share-plan-copy"
+            class="btn btn-primary rounded-0 p-x m-t-0 ms-auto d-flex text-nowrap">
+            <span class="ca-gov-icon-copy" aria-hidden="true"></span>
+            <div class="m-l-sm">Copy link</div>
+          </button>
+
+          <button
+            hidden
+            aria-hidden="true"
+            id="share-plan-copied"
+            class="btn btn-primary rounded-0 p-x m-t-0 ms-auto d-flex text-nowrap d-none">
+            <span class="ca-gov-icon-check-mark" aria-hidden="true"></span>
+            <div class="m-l-sm">Link copied</div>
+          </button>
+        </div>
+
+        <a
+          id="share-plan-mailto"
+          data-mail-subject="Share from the California Recovery Services Finder"
+          data-mail-body="Here is my plan from the California Recovery Services Finder:"
+          class="btn btn-outline-primary brd-solid-2 rounded-5 m-t d-flex align-items-center fit-content p-r-md">
+          <img
+            src="/lafires/images/icon-email.svg"
+            alt=""
+            class="img-fluid 
+            height-30 d-print-none m-r"
+            aria-hidden="true" />
+          Email
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- set js -%} {%- include
+"../../../src/_includes/recovery-services-finder-results.html.js" -%} {#
+//@ts-check document.addEventListener("DOMContentLoaded", () => { // Begin share
+plan functionality const sharePlanModal = document.getElementById("share-plan");
+const copyBtn = document.getElementById("share-plan-copy"); const copiedBtn =
+document.getElementById("share-plan-copied"); const mailBtn = /** @type
+{HTMLAnchorElement} */ ( document.getElementById("share-plan-mailto") ); const
+urlInput = /** @type {HTMLInputElement | null} */ (
+document.getElementById("url-copy") ); if (!(sharePlanModal && copyBtn &&
+copiedBtn && urlInput)) { console.error("Share plan elements not found.");
+return; } const paramName = "selected"; const allServiceDivs = [ .../** @type
+{NodeListOf<HTMLElement
+  >} */ ( document.querySelectorAll("div[data-service-id]") ) ]; const getURL =
+  () => new URL(window.location.href); // Get an array of selected IDs from the
+  URL const getSelectedIDs = () => (getURL().searchParams.get(paramName) || "")
+  .split(/[^0-9]+/) .filter(id => id !== ""); const updateMailButton = () => {
+  const shareData = { title: mailBtn.dataset.mailSubject || document.title,
+  text: mailBtn.dataset.mailBody || "", url: getURL().toString() }; // If Web
+  Share API is supported, use it for mobile sharing if (navigator.share) {
+  mailBtn.innerHTML = '<span
+    class="ca-gov-icon-share m-r"
+    aria-hidden="true"></span>
+  Share'; mailBtn.href = "#"; mailBtn.onclick = e => { e.preventDefault();
+  navigator.share(shareData).catch(() => {}); }; } else { // Fallback to mailto
+  mailBtn.href =
+  `mailto:?subject=${encodeURIComponent(shareData.title)}&body=${encodeURIComponent(shareData.text)}%0A%0A${encodeURIComponent(shareData.url)}`;
+  mailBtn.onclick = null; } }; // Hide all service divs that are not selected //
+  and remove their parent divs if they contain no selected services const
+  hideUnselectedServices = () => { const selectedIds = getSelectedIDs(); //
+  Remove all service divs that are not selected allServiceDivs .filter(div =>
+  !selectedIds.includes(div.dataset.serviceId || "")) .forEach( div =>
+  div.remove() // Remove the div from the DOM ); // Select all parent divs for
+  services document.querySelectorAll("div[data-service-type]").forEach(div => {
+  // Check if it contains any descendant divs with "data-service-id" if
+  (!div.querySelector("div[data-service-id]")) { div.remove(); // Remove the div
+  from the DOM } }); }; allServiceDivs.forEach(div => { // Add click event
+  listener to each service div's close button /** @type {HTMLElement | null} */
+  const closeButton = div.querySelector("button[data-service-id]"); if
+  (closeButton?.dataset.serviceId) { closeButton.addEventListener("click", () =>
+  { const url = getURL(); const ids = getSelectedIDs().filter( id => id !==
+  closeButton.dataset.serviceId ); if (ids.length) {
+  url.searchParams.set(paramName, ids.join(".")); } else {
+  url.searchParams.delete(paramName); } // Update the URL without reloading the
+  page window.history.replaceState(null, "", url); hideUnselectedServices();
+  updateMailButton(); }); } }); hideUnselectedServices(); updateMailButton(); //
+  Bootstrap Modal Show Event // Set the URL input value to the current page URL
+  when the modal is shown sharePlanModal.addEventListener("show.bs.modal", () =>
+  { urlInput.value = window.location.href; }); const copyButtonClick = () => {
+  urlInput.select(); navigator.clipboard .writeText(urlInput.value) .then(() =>
+  { // Show the copied button and hide the copy button
+  copiedBtn.classList.remove("d-none"); copiedBtn.hidden = false;
+  copiedBtn.ariaHidden = null; copiedBtn.focus();
+  copyBtn.classList.add("d-none"); copyBtn.hidden = true; copyBtn.ariaHidden =
+  "true"; }) .catch(err => { console.error("Failed to copy: ", err); }); };
+  copyBtn.addEventListener("click", copyButtonClick);
+  copiedBtn.addEventListener("click", copyButtonClick); // End share plan
+  functionality }); #} {%- endset -%}
+  <script>
+    {{- js | jsmin | safe }}
+  </script>
+</HTMLElement>
