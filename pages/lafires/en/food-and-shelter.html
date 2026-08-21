@@ -6,4 +6,150 @@ permalink: /lafires/help-for-you/food-and-shelter/
 breadcrumbparent: Help for you
 ---
 
-{% include "src/_includes/food-and-shelter-shared.html" %}
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/food-and-shelter-lineart.svg?v2') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      <!-- Breadcrumbs component -->
+
+<nav aria-label="You are here" class="breadcrumbs">
+  {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
+  <ol>
+    {%- for link in node.links %}
+    {%- if link.title == "Home" %}
+    <li><a href="{{link.href}}">Home</a></li>
+    {%- else %}
+    <li><a href="{{link.href}}">{{link.title}}</a></li>
+    {%- endif %}
+    {%- endfor %}
+    <li class="active">{{title}}</li>
+  </ol>
+</nav>
+
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >2025 Los Angeles Fires</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{#-
+<!--
+  usage...
+---
+dynamic_sidenavid: service
+---
+
+
+-->
+-#} {%-set sidenav = dynamic_sidenav["lafires"]-%}
+
+<!-- delocalize the url -->
+{%- set purl = page.url -%} 
+{%- set purl = purl.replace(r/\/(fr|es|ko|tl|vi|hy|zh-hans|zh-hant)\//,'/') -%} 
+
+<!-- Side navigation -->
+<nav class="side-navigation sticky-6">
+  <a href="javascript:;" aria-hidden="true" class="d-none">{{title}}</a>
+  <ul class="list-navigation">
+    {%- for link in sidenav %} 
+    {%- set href = link.href -%} 
+    {%- set active = href === purl -%}
+    {% if not link.indent %}
+    <li>
+      <!-- href: {{-href -}} -->
+      <!-- purl: {{-purl -}} -->
+      <a
+        href="{{-href-}}"
+        {%-if
+        active%}
+        class="active landing"
+        aria-current="page"
+        tabindex="-1"
+        {%-endif-%}>
+        {{- link.text -}}
+      </a>
+    </li>
+    {% else %}
+    <li>
+      <!-- href: {{-href -}} -->
+      <!-- purl: {{-purl -}} -->
+      <ul>
+        <li>
+          <a
+            href="{{-href-}}"
+            {%-if
+            active%}
+            class="active landing"
+            aria-current="page"
+            tabindex="-1"
+            {%-endif-%}>
+            {{- link.text -}}
+          </a>
+        </li>
+      </ul>
+    </li>
+    {% endif %} {%- endfor %}
+  </ul>
+</nav>
+</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">Find food banks, food benefits, emergency shelters, and temporary housing options.</p>
+      <nav class="page-navigation"></nav>
+
+      <h2>Food</h2>
+      <div class="row">
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="https://cdss.ca.gov/food-banks">
+                Food banks
+              </a>
+            </h3>
+            <p>Your local food bank can connect you with free food and groceries.</p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a
+                href="https://myfamily.wic.ca.gov/Home/HowCanIGetWIC#HowCanIGetWIC">
+                WIC food benefits
+              </a>
+            </h3>
+            <p>The California Women, Infants and Children (WIC) program supports growing families with low incomes.</p>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md">
+              <a href="https://benefitscal.com/">
+                CalFresh food benefits
+              </a>
+            </h3>
+            <p>CalFresh offers food benefits for people with low incomes.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Shelter</h2>
+
+      <div class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded">
+        <h3 class="h4 m-t-md">Emergency shelters</h3>
+        <p>Emergency shelters for the LA fires are now closed.</p>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -12,7 +12,7 @@
         ><span
           class="ca-gov-icon-caret-left d-inline-block no-underline font-size-20"
           aria-hidden="true"></span
-        >{{ 'sf_back_link' | i18n }}</a
+        >Back to Help for you</a
       >
     </div>
   </div>
@@ -21,7 +21,10 @@
 <div class="container p-y-lg">
   <div class="row">
     <div class="col-lg-10">
-      <p class="lead">{{ 'sf_lead_text_1' | i18n }}</p>
+      <p class="lead">
+        There are a lot of disaster services available from the state and
+        federal government. Use this tool to get a customized list.
+      </p>
 
       <form>
         <fieldset>
@@ -29,17 +32,13 @@
           <div
             class="bg-white mt-4 px-4 p-b-md brd-solid-4 brd-gray-200 rounded">
             <h2 class="color-p2-darker mt-4 mb-4">
-              {{ ("sf_audience_type_" + audience_type.fields["Audience ID"] +
-              "_label") | i18n }}
+              {{ audience_type.fields.Audience }}
             </h2>
-            <p>{{ 'sf_lead_text_2' | i18n }}</p>
+            <p>Select all the items you need.</p>
 
             {%- for service_type in audience_type.children_service_types %}
 
-            <h3 class="mt-4 mb-4">
-              {{ ("sf_service_type_" + service_type.fields["Service Type ID"] +
-              "_label") | i18n }}
-            </h3>
+            <h3 class="mt-4 mb-4">{{ service_type.fields["Service type"] }}</h3>
 
             {#-- Sort categories so that Category ID 1 (Housing) is first --#}
             {%- set sorted_categories = service_type.children_categories |
@@ -72,12 +71,8 @@
                 class="form-check-label cursor-pointer m-l m-a-0"
                 for="{{id}}"
                 ><span class="d-block font-weight-400"
-                  ><span class="bold"
-                    >{{ ("sf_cat_" + category.fields["Category ID"] + "_label")
-                    | i18n }}:</span
-                  >
-                  {{ ("sf_cat_" + category.fields["Category ID"] +
-                  "_description") | i18n }}</span
+                  ><span class="bold">{{ category.fields.Category }}:</span> {{
+                  category.fields["Category description"] }}</span
                 >
               </label>
             </div>
@@ -97,7 +92,7 @@
         type="button"
         id="redirect"
         aria-describedby="button-description">
-        {{ 'sf_submit_button' | i18n }}<span
+        Submit<span
           class="ca-gov-icon-caret-right d-inline-block no-underline font-size-20 ml-2"
           aria-hidden="true"></span>
       </button>
@@ -113,7 +108,12 @@
       >
 
       <div class="bg-gray-100 mt-5 px-4 p-b p-t-md">
-        <p class="color-primary">{{ 'sf_navigator_text' | i18n | safe }}</p>
+        <p class="color-primary">
+          To find local services, check out the
+          <a href="https://wildfires.betterangels.la/"
+            >LA Disaster Relief Navigator</a
+          >, a user-friendly community resource hub.
+        </p>
       </div>
     </div>
   </div>

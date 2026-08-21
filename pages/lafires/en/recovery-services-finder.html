@@ -4,5 +4,164 @@ description: Use this tool to get a custom list of state and federal services.
 keywords: LA, Los Angeles, fires, wildfires
 permalink: /lafires/recovery-services-finder/
 ---
-{%- include "src/_includes/recovery-services-finder-shared.html" -%}
 
+<div
+  class="section-primary lineart bg-p2"
+  style="background: url('/lafires/images/recovery-finder-lineart.svg?v3fejhb') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      <!-- Breadcrumbs component -->
+
+      <nav aria-label="You are here" class="breadcrumbs">
+        {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
+        <ol>
+          {%- for link in node.links %} {%- if link.title == "Home" %}
+          <li><a href="{{link.href}}">Home</a></li>
+          {%- else %}
+          <li><a href="{{link.href}}">{{link.title}}</a></li>
+          {%- endif %} {%- endfor %}
+          <li class="active">{{title}}</li>
+        </ol>
+      </nav>
+
+      <h1 class="m-t-0 m-b-md color-white line-height-1em">{{title}}<br /></h1>
+
+      <a href="/lafires/help-for-you/" class="color-white"
+        ><span
+          class="ca-gov-icon-caret-left d-inline-block no-underline font-size-20"
+          aria-hidden="true"></span
+        >Back to Help for you</a
+      >
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-10">
+      <p class="lead">
+        There are a lot of disaster services available from the state and
+        federal government. Use this tool to get a customized list.
+      </p>
+
+      <form>
+        <fieldset>
+          {%- for audience_type in service_finder_data %}
+          <div
+            class="bg-white mt-4 px-4 p-b-md brd-solid-4 brd-gray-200 rounded">
+            <h2 class="color-p2-darker mt-4 mb-4">
+              {{ audience_type.fields.Audience }}
+            </h2>
+            <p>Select all the items you need.</p>
+
+            {%- for service_type in audience_type.children_service_types %}
+
+            <h3 class="mt-4 mb-4">{{ service_type.fields["Service type"] }}</h3>
+
+            {#-- Sort categories so that Category ID 1 (Housing) is first --#}
+            {%- set sorted_categories = service_type.children_categories |
+            sort(attribute="fields.Category ID") -%} {%- set sorted_categories =
+            sorted_categories | sort(reverse=true, attribute="fields.Category
+            ID" == 1) -%} {%- for category in sorted_categories %}
+            <!---->
+            {%- set id = "category_"+category.fields["Category ID"] -%}
+            <!---->
+            {%- set value = "" -%}
+            <!---->
+            {%- for service in category.children_services -%}
+            <!---->
+            {%- set value = value + service.fields.ID + "." -%}
+            <!---->
+            {%- endfor -%}
+            <!---->
+            {%- set sorted_services = category.children_services |
+            sort(attribute="fields.ID") -%} {%- set value = "" -%} {%- for
+            service in sorted_services -%} {%- set value = value +
+            service.fields.ID + "." -%} {%- endfor -%}
+
+            <div class="d-flex align-items-top m-b-md p-l-0">
+              <input
+                class="form-check-input brd-gray-200 brd-solid-2 rounded-0 font-size-30 m-l-0 m-a-0 pos-rel top-minus-2"
+                type="checkbox"
+                value="{{value}}"
+                id="{{id}}" />
+              <label
+                class="form-check-label cursor-pointer m-l m-a-0"
+                for="{{id}}"
+                ><span class="d-block font-weight-400"
+                  ><span class="bold">{{ category.fields.Category }}:</span> {{
+                  category.fields["Category description"] }}</span
+                >
+              </label>
+            </div>
+
+            {%- endfor -%}
+            <!---->
+            {%- endfor -%}
+            <!---->
+          </div>
+          {%- endfor -%}
+          <!---->
+        </fieldset>
+      </form>
+
+      <button
+        class="btn btn-primary disabled mt-5 px-4 btn-lg rounded-4 d-flex align-items-center justify-content-between"
+        type="button"
+        id="redirect"
+        aria-describedby="button-description">
+        Submit<span
+          class="ca-gov-icon-caret-right d-inline-block no-underline font-size-20 ml-2"
+          aria-hidden="true"></span>
+      </button>
+      <a
+        id="hidden-href-target"
+        href="/lafires/recovery-services-finder/results/"
+        aria-hidden="true"
+        hidden
+        class="d-none"></a>
+      <span class="sr-only" id="button-description"
+        >Submit button is disabled unless any of the checkboxes is
+        checked.</span
+      >
+
+      <div class="bg-gray-100 mt-5 px-4 p-b p-t-md">
+        <p class="color-primary">
+          To find local services, check out the
+          <a href="https://wildfires.betterangels.la/"
+            >LA Disaster Relief Navigator</a
+          >, a user-friendly community resource hub.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- set js -%} {%- include "../../../src/_includes/recovery-services-finder.mjs"
+-%} {# //@ts-check // Recovery Services Finder Functionality
+window.addEventListener("load", () => { // "load" to support back browsing const
+paramName = "selected"; const redirectButton =
+document.getElementById("redirect"); const redirectTarget = /** @type
+{HTMLAnchorElement | null} */ ( document.getElementById("hidden-href-target") );
+if (!redirectButton || !redirectTarget) { console.error("Redirect button or
+target not found."); return; } const checkboxes = /** @type {HTMLInputElement[]}
+*/ ([ ...document.querySelectorAll('input[type="checkbox"]') ]); const
+updateButtonState = () => { // Enable the button if at least one checkbox is
+checked if (checkboxes.some(cb => cb.checked)) {
+redirectButton.classList.remove("disabled");
+redirectButton.removeAttribute("aria-disabled"); } else {
+redirectButton.setAttribute("aria-disabled", "true");
+redirectButton.classList.add("disabled"); } }; updateButtonState();
+checkboxes.forEach(checkbox => { checkbox.addEventListener("change", () => {
+updateButtonState(); }); }); redirectButton.addEventListener("click", () => { //
+Get a list of selected services based on checked checkboxes const
+selectedServices = checkboxes .filter(cb => cb.checked) .flatMap( cb => cb.value
+.split(".") .map(num => num.trim()) // Remove spaces .filter(num => num !== "")
+// Remove empty entries (trailing commas) .map(Number) // Convert to numbers );
+selectedServices.sort(); // Send the selectesd services to the redirect target
+window.location.href =
+`${redirectTarget.href}?${paramName}=${selectedServices.join(".")}`; }); }); {%-
+#} {%- endset -%}
+<script type="module">
+  {{- js | jsmin | safe }}
+</script>
