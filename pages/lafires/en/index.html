@@ -8,7 +8,292 @@ description: Help and info for people affected by the 2025 Los Angeles County fi
 keywords: California, government, LA, Los Angeles, fires, wildfires
 permalink: /LAfires/
 ---
-{%- include "src/_includes/index-shared.html" -%}
+<div class="container p-y m-b-md">
+  <!-- Breadcrumbs component -->
+
+<nav aria-label="You are here" class="breadcrumbs">
+  {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
+  <ol>
+    {%- for link in node.links %}
+    {%- if link.title == "Home" %}
+    <li><a href="{{link.href}}">Home</a></li>
+    {%- else %}
+    <li><a href="{{link.href}}">{{link.title}}</a></li>
+    {%- endif %}
+    {%- endfor %}
+    <li class="active">{{title}}</li>
+  </ol>
+</nav>
+
+
+  <div class="row">
+    <div class="col-lg-4 section-primary p-a-md p-b-lg">
+      <h1 class="m-t-0 h2">{{title}}</h1>
+      <p>Help and info for people affected by the wildfires</p>
+      <div class="p-t-md d-flex flex-column align-items-start text-nowrap">
+        <!-- Button Container to Add Vertical Spacing -->
+        <div class="d-block">
+          <!-- Find Help Available Button -->
+          <a
+            href="/lafires/recovery-services-finder/"
+            class="btn btn-outline-primary d-block align-items-center px-3 py-2 gap-2 rounded-1 wrap text-left">
+            <img
+              src="/lafires/images/recovery-finder-icon-primary.svg"
+              alt="Recovery finder icon"
+              class="height-20 pos-rel top-minus-3" />
+            Find services you need
+          </a>
+
+          <!-- Track LA's Progress Button -->
+          <a
+            href="/lafires/track-progress/"
+            class="btn btn-outline-primary d-inline-block align-items-center px-3 py-2 gap-2 rounded-1 m-t-md wrap text-left">
+            <img
+              src="/lafires/images/track-la-progress-primary.svg"
+              alt="Track LA's Progress"
+              class="height-20 pos-rel top-minus-3" />
+            Track LA’s progress
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-lg-8 bg-s3"
+      style="background: url('/lafires/images/hands-banner-lineart.svg') no-repeat center / cover;"></div>
+    <span class="sr-only"
+      >Hands reaching out to help line art background image</span
+    >
+  </div>
+</div>
+
+<div class="section-understated">
+  <div class="container p-t-lg p-b-lg">
+    <h2 class="m-y-0 font-size-25">Top needs</h2>
+    <div class="row">
+      <div class="col-lg-4 m-t-md">
+        <a
+          href="/lafires/help-for-you/replace-personal-documents/"
+          class="link-grid bg-white bg-gray-50-hover no-icon"
+          ><h3 class="m-a-0 font-size-20 bold">
+            Replace documents
+          </h3></a
+        >
+      </div>
+      <div class="col-lg-4 m-t-md">
+        <a
+          href="/lafires/help-for-you/rebuild-your-house/"
+          class="link-grid bg-white bg-gray-50-hover no-icon"
+          ><h3 class="m-a-0 font-size-20 bold">
+            Rebuild your home
+          </h3></a
+        >
+      </div>
+      <div class="col-lg-4 m-t-md">
+        <a
+          href="/lafires/help-for-you/get-help-in-person/"
+          class="link-grid bg-white bg-gray-50-hover no-icon"
+          ><h3 class="m-a-0 font-size-20 bold">
+            Get help in person
+          </h3></a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--HIGHLIGHTS-->
+<div
+  class="bg p-b-lg"
+  style="background: url(/lafires/images/moutains.svg) no-repeat top / cover;">
+  <div class="container">
+    <h2>Highlights</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <div
+          class="bg-white bg-gray-50-hover px-3 px-lg-5 p-y-lg pos-rel h-100 brd-solid-1 brd-highlight-light transform-scale-1_05--hover transition-0_3 rounded">
+          <h3 class="m-t-md m-b">
+            <a
+              href="/lafires/rebuilding-la/"
+              class="color-p2 link-before text-left no-underline d-block"
+              >Track rebuilding progress</a
+            >
+          </h3>
+          <p>LA County has taken steps to proactively improve permitting and inspection to prepare for the surge in demand for wildfire rebuilding.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div
+          class="bg-white bg-gray-50-hover px-3 px-lg-5 p-y-lg pos-rel h-100 brd-solid-1 brd-highlight-light transform-scale-1_05--hover transition-0_3 rounded">
+          <h3 class="m-t-md m-b">
+            <a
+              href="/lafires/help-for-you/health-and-safety/#Mental-health-support"
+              class="color-p2 link-before text-left no-underline d-block"
+              >Mental health support</a
+            >
+          </h3>
+          <p>Navigating disaster recovery can be stressful and overwhelming. Get mental and emotional support for yourself and your loved ones.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container p-b-lg">
+  <h2 class="m-b-0">Get help now</h2>
+
+  <div class="row">
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="/lafires/help-for-you/"
+            class="color-p2 link-before text-left no-underline d-block"
+            >Help for you and your family</a
+          >
+        </h3>
+        <p class="m-b text-left">Get help with food, shelter, financial assistance, rebuilding, and more.</p>
+      </div>
+    </div>
+
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="/lafires/help-for-your-business/"
+            class="color-p2 link-before text-left no-underline d-block"
+            >Help for your business</a
+          >
+        </h3>
+        <p class="m-b text-left">
+          Find support and assistance for local business recovery.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="bg-white p-x-md p-b-md pos-rel brd-solid-1 brd-gray-200 m-t-md m-b-lg rounded">
+    <h3 class="m-t-md m-b">
+      <img
+        src="/lafires/images/recovery-finder-icon-primary.svg"
+        alt="Recovery finder icon"
+        class="height-30 pos-rel top-minus-3" />
+      <span class="color-p2">Don’t know where to start?</span>
+    </h3>
+    <p>Use our <a href="/lafires/recovery-services-finder/">service finder tool</a> to find help available to you.</p>
+  </div>
+
+  <h2 class="m-b-0">Stay up to date</h2>
+  <div class="row">
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="https://larises.org/resources/#hub"
+            class="color-p2 link-before text-left no-underline d-block"
+            >See LA Rises</a
+          >
+        </h3>
+        <p class="m-b text-left">
+          A central place to find resources, learn about recovery and  rebuilding and get trusted information.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-6 m-t-md">
+      <div
+        class="bg-gray-50 bg-gray-75-hover text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 transform-scale-1_05--hover transition-0_3 rounded">
+        <h3 class="m-t-md m-b">
+          <a
+            href="/lafires/track-progress/"
+            class="color-p2 link-before text-left no-underline d-block"
+            >Track LA’s progress</a
+          >
+        </h3>
+        <p class="m-b text-left">Track progress on air and water safety, cleanup and debris removal, and more.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-understated">
+  <div class="container p-t-lg p-b-lg">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="h3 m-t-0">Join the conversation</h2>
+        <p>
+          <a href="https://engaged.ca.gov/">Sign up</a> to tell us about your recovery experience and hear from others.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="h3 m-t-0">Volunteer</h2>
+        <p><a href="/lafires/volunteer/">Give time or money</a> to help people affected by the fires.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container p-b-lg">
+  <div class="row">
+    <!-- News list -->
+    <div class="col-lg-8 m-x-auto">
+      <div class="brd-solid-1 brd-gray-200 rounded-10 p-a-md m-t-lg bg-white">
+        <h2 class="m-t-0 h3">State updates</h2>
+
+        {%- set counter = 0 -%} {%- for story in
+        laFiresStories.rss.channel[0].item -%} {%- if counter < 4 and (category1
+        in story.category or category2 in story.category or category3 in
+        story.category) -%}
+        <hr class="m-y-md" />
+        <h3 class="lead font-weight-700">
+          <a href="{{ story.link }}" lang="en-US" hreflang="en-US"
+            >{{ story.title }}</a
+          >
+        </h3>
+        <p>{{ story.pubDate | customDate }}</p>
+        {%- set counter = counter + 1 -%} {%- endif -%} {%- endfor %}
+
+        <hr class="m-y-md" />
+
+        <p class="m-b-md">
+          <a href="https://www.gov.ca.gov/tag/la-fires/"
+            >View all LA fires news</a
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-primary">
+  <div class="container p-y-lg">
+    <div class="row">
+      <div class="col-lg-10">
+        <h2 class="m-t-0 h3">Rebuild - faster</h2>
+        <p>Governor Newsom <a href="https://www.gov.ca.gov/2025/01/12/governor-newsom-signs-executive-order-to-help-los-angeles-rebuild-faster-and-stronger/">suspended permit and review requirements</a> under the California Environmental Quality Act (CEQA) and the California Coastal Act. This allows victims of the recent fires to restore their homes and businesses faster.</p>
+
+        <p>The Governor <a href="https://www.gov.ca.gov/2025/01/23/governor-newsom-signs-2-5-billion-bipartisan-relief-package-to-help-los-angeles-recover-and-rebuild-faster-from-firestorm/">signed legislation</a> providing $2.5 billion in immediate disaster relief. This supports response and recovery efforts.</p>
+
+        <p>See all the <a href="https://www.gov.ca.gov/2025/01/24/heres-all-the-actions-governor-newsom-has-taken-in-response-to-the-los-angeles-fires/">Governor's actions in response to the fires</a>.</p>
+
+        <h2 class="h3">Major Disaster Declaration</h2>
+        <p>On January 8, California got a <a href="https://www.fema.gov/press-release/20250109/president-joseph-r-biden-jr-approves-major-disaster-declaration-california#:~:text=Learn%20more-,President%20Joseph%20R.%20Biden%2C%20Jr.,Major%20Disaster%20Declaration%20for%20California&text=WASHINGTON%20%2D%2D%20FEMA%20announced%20that,7%2C%202025%2C%20and%20continuing.">Major Disaster Declaration</a> for the California wildfires. This lets federal agencies give aid and resources for recovery in the affected areas.</p>
+        <p>Through this declaration from President Biden, California gets assistance for</p>
+        <ul>
+          <li>individuals,</li>
+          <li>the public, and</li>
+          <li>small businesses.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- visible modification test 2025-03-13 10:24 -->
+
 
 <script>
   // English la fires homepage only

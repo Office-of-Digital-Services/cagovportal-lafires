@@ -5,4 +5,293 @@ keywords: LA, Los Angeles, fires, wildfires
 permalink: /lafires/help-for-your-business/
 ---
 
-{%- include "src/_includes/help-for-your-business-shared.html" -%}
+<div
+  class="section-understated lineart bg-s1"
+  style="background: url('/lafires/images/topic9-lineart.svg?v3vsevh') no-repeat right / auto;">
+  <div class="container p-y-md">
+    <div class="col-lg-9">
+      <!-- Breadcrumbs component -->
+
+<nav aria-label="You are here" class="breadcrumbs">
+  {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
+  <ol>
+    {%- for link in node.links %}
+    {%- if link.title == "Home" %}
+    <li><a href="{{link.href}}">Home</a></li>
+    {%- else %}
+    <li><a href="{{link.href}}">{{link.title}}</a></li>
+    {%- endif %}
+    {%- endfor %}
+    <li class="active">{{title}}</li>
+  </ol>
+</nav>
+
+      <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
+        {{title}}<br />
+        <span class="subtitle color-p2-darker bold m-b-md"
+          >2025 Los Angeles Fires</span
+        >
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-lg">
+  <div class="row">
+    <div class="col-lg-3">{#-
+<!--
+  usage...
+---
+dynamic_sidenavid: service
+---
+
+
+-->
+-#} {%-set sidenav = dynamic_sidenav["lafires"]-%}
+
+<!-- delocalize the url -->
+{%- set purl = page.url -%} 
+{%- set purl = purl.replace(r/\/(fr|es|ko|tl|vi|hy|zh-hans|zh-hant)\//,'/') -%} 
+
+<!-- Side navigation -->
+<nav class="side-navigation sticky-6">
+  <a href="javascript:;" aria-hidden="true" class="d-none">{{title}}</a>
+  <ul class="list-navigation">
+    {%- for link in sidenav %} 
+    {%- set href = link.href -%} 
+    {%- set active = href === purl -%}
+    {% if not link.indent %}
+    <li>
+      <!-- href: {{-href -}} -->
+      <!-- purl: {{-purl -}} -->
+      <a
+        href="{{-href-}}"
+        {%-if
+        active%}
+        class="active landing"
+        aria-current="page"
+        tabindex="-1"
+        {%-endif-%}>
+        {{- link.text -}}
+      </a>
+    </li>
+    {% else %}
+    <li>
+      <!-- href: {{-href -}} -->
+      <!-- purl: {{-purl -}} -->
+      <ul>
+        <li>
+          <a
+            href="{{-href-}}"
+            {%-if
+            active%}
+            class="active landing"
+            aria-current="page"
+            tabindex="-1"
+            {%-endif-%}>
+            {{- link.text -}}
+          </a>
+        </li>
+      </ul>
+    </li>
+    {% endif %} {%- endfor %}
+  </ul>
+</nav>
+</div>
+
+    <!--MAIN CONTENT-->
+    <div class="col-lg-9 pt-lg-3">
+      <p class="m-b-md lead">{{description}}</p>
+
+      <nav class="page-navigation"></nav>
+
+      <h2 class="m-b-0">
+        Find a Business Recovery Center
+      </h2>
+      <p>Businesses can get in-person help.</p>
+
+      <div class="row">
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              West Hollywood Chamber of Commerce
+            </h3>
+
+            <p class="m-b text-left">
+              8272 Santa Monica Blvd.<br />
+              West Hollywood, CA 90046
+            </p>
+
+            <p class="m-b text-left">
+              <strong>Hours open</strong>: Thursday - Saturday, 9 am to 5:30 pm
+            </p>
+
+            <a
+              class="btn btn-primary rounded-5 m-y maps-link"
+              href="https://maps.google.com/?q=8272+Santa+Monica+Blvd,+West+Hollywood,+CA+90046"
+              >Directions<span
+                class="sr-only">
+                West Hollywood Chamber of Commerce</span
+              ></a
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              Women’s Business Center
+            </h3>
+
+            <p class="m-b text-left">
+              18700 Sherman Way, Suite # 112<br />
+              Reseda, CA 91335
+            </p>
+
+            <p class="m-b text-left">
+              <strong>Hours open:</strong> Monday - Wednesday, 8:30 am to 5:30
+            </p>
+            <p><strong>Parking:</strong> Back of building on Yolanda Ave.</p>
+
+            <a
+              class="btn btn-primary rounded-5 m-y maps-link"
+              href="https://maps.google.com/?q=18700+Sherman+Way,+Reseda,+CA+91335"
+              >Directions<span
+                class="sr-only">
+                Women’s Business Center</span
+              ></a
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-6 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h5 m-t-md m-b">
+              Santa Monica Chamber of Commerce
+            </h3>
+
+            <p class="m-b text-left">
+              2525 Main Street, Suite #103<br />
+              Santa Monica, CA 90405
+            </p>
+
+            <p class="m-b text-left">
+              <strong>Hours open:</strong> Monday - Friday, 9 am to 5 pm
+            </p>
+
+            <a
+              class="btn btn-primary rounded-5 m-y maps-link"
+              href="https://maps.google.com/?q=2525+Main+Street,+Santa+Monica,+CA+90405"
+              >Directions<span
+                class="sr-only">
+                Santa Monica Chamber of Commerce</span
+              ></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0">
+        Support for businesses
+      </h2>
+
+      <div class="row">
+        <div class="col-lg-12 m-t-md">
+          <div class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h4 m-t-md m-b">
+              Business disaster loans
+            </h3>
+
+            <p class="m-b text-left">
+              The Small Business Association (SBA) offers <a href="https://www.sba.gov/funding-programs/disaster-assistance/california-wildfires">disaster loans to help businesses</a>. The deadline to apply for loans to repair damage to your business was March 31, 2025.
+            </p>
+            <p class="m-b text-left">
+              The deadline to apply for a <a href="https://www.sba.gov/funding-programs/disaster-assistance/economic-injury-disaster-loans">SBA loan to cover economic losses</a> was October 25, 2025.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 m-t-md">
+          <div class="bg-white p-x-md p-b-md  brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h4 m-t-md m-b">
+              Grants and other recovery resources
+            </h3>
+
+            <p class="m-b text-left">
+              Find grants, loans, and other <a href="https://outsmartdisaster.calosba.ca.gov/support-and-resources-for-los-angeles-area-wildfire-recovery/">resources for businesses and workers</a> impacted by the wildfires. This includes financial help, recovery programs, and workforce support.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="m-b-0">Tax help and relief</h2>
+
+      <div class="row">
+        <div class="col-lg-12 m-t-md">
+          <div class="bg-white p-x-md p-b-md brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h4 m-t-md m-b">
+              Business income tax
+            </h3>
+
+            <p>
+              Businesses impacted by the wildfires may postpone filing and paying income taxes. The deadline was <strong>October 15, 2025</strong>. Learn about the <a href="https://www.ftb.ca.gov/file/when-to-file/los-angeles-county-fires.html">income tax extension</a>.
+            </p>
+            <p>
+              Only Los Angeles County was granted postponement. If your principal place of business is outside of Los Angeles County, you must file and pay by the normal due dates.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 m-t-md">
+          <div class="bg-white p-x-md p-b-md  brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h4 m-t-md m-b">
+              Sales tax and fees
+            </h3>
+
+            <p>
+              Get emergency <a href="https://www.cdtfa.ca.gov/services/state-of-emergency-tax-relief.htm">relief from penalties and interest</a>. You can also get copies of tax records and up to a 3-month filing extension on your taxes.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h4 m-t-md m-b">
+              Payroll tax
+            </h3>
+
+            <p>Employers in Los Angeles and Ventura Counties directly affected by the Palisades Fire may request up to a two-month extension. Learn how to request an <a href="https://edd.ca.gov/en/payroll_taxes/Emergency_and_Disaster_Assistance_for_Employers/#extension">extension to report and pay payroll taxes</a>.</p>
+          </div>
+        </div>
+
+        <!--New full width card-->
+        <div class="col-lg-12 m-t-md">
+          <div
+            class="bg-white p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
+            <h3 class="h4 m-t-md m-b">
+              Property tax
+            </h3>
+
+            <p class="m-b text-left">
+              If your property was affected by the fires, you can:
+            </p>
+            <ul>
+              <li class="m-t">
+                Postpone paying your property tax until <strong>April 10, 2026</strong>. Learn about the <a href="https://www.gov.ca.gov/2025/01/16/governor-newsom-extends-state-property-tax-deadlines-for-la-firestorm-communities-until-april-2026/">property tax extension</a>.
+              </li>
+              <li class="m-t">
+                Apply for <a href="https://assessor.lacounty.gov/tax-relief/disaster-relief">property tax relief</a> from Los Angeles County.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--END MAIN COL CONTENT-->
+  </div>
+</div>
+
