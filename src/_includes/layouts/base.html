@@ -12,11 +12,7 @@
     <meta name="robots" content="noindex, follow" />
     {%- else %}
     <meta name="robots" content="index, follow" />
-    {%- endif %}{% set alturl %}{% canonical %}{% endset %}
-    <link
-      rel="alternate"
-      hreflang="en-US"
-      href="{{ alturl | unlocalizedPath }}" />
+    {%- endif %}
     <meta property="og:locale" content="{{ locale | default('en-US')}}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
