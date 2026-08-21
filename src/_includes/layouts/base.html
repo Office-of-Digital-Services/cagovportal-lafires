@@ -13,7 +13,7 @@
     {%- else %}
     <meta name="robots" content="index, follow" />
     {%- endif %}
-    <meta property="og:locale" content="{{ locale | default('en-US')}}" />
+    <meta property="og:locale" content="en-US" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       http-equiv="Content-Language"
@@ -33,7 +33,7 @@
     <link href="{% canonical %}" rel="canonical" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:locale" content="{{ locale | default('en-US')}}" />
+    <meta property="og:locale" content="en-US" />
     <meta property="og:site_name" content="California State Portal" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{% canonical %}" />
