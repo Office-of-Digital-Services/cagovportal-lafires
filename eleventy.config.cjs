@@ -7,45 +7,6 @@ const postcssNested = require("postcss-nested");
 const { DateTime } = require("luxon");
 const fs = require("node:fs");
 const path = require("node:path");
-const chalk = require("chalk");
-
-// Utility function to load all translation files and combine them
-function loadAllTranslations() {
-  const translationsDir = path.join(__dirname, "./src/_data/i18n");
-
-  // Find all files matching i18n*.json pattern
-  const translationFiles = fs
-    .readdirSync(translationsDir)
-    .filter(file => file.match(/^i18n.*\.json$/));
-
-  // Load and merge all translation files into a single object
-  let allTranslations = {};
-  let knownKeys = [];
-  translationFiles.forEach(file => {
-    const filePath = path.join(translationsDir, file);
-    try {
-      const fileContent = fs.readFileSync(filePath, "utf8");
-      const translations = JSON.parse(fileContent);
-      // warn if any keys are duplicated
-      Object.keys(translations).forEach(key => {
-        if (knownKeys.includes(key)) {
-          console.warn(
-            chalk.red(`[i18n] Duplicate key found in ${file}: ${key}`)
-          );
-        } else {
-          knownKeys.push(key);
-        }
-      });
-      allTranslations = { ...allTranslations, ...translations };
-    } catch (error) {
-      console.error(`Error loading translation file ${file}:`, error);
-    }
-  });
-
-  return { translations: allTranslations };
-}
-
-let translationsModule = loadAllTranslations();
 
 // canonical domain
 const domain = "https://www.ca.gov";
@@ -77,16 +38,6 @@ module.exports = function (
 
   // Add watch target for .mjs files inside the pages directory
   eleventyConfig.addWatchTarget("./pages/");
-
-  // Add watch target specifically for i18n file and clear require cache when it changes
-  eleventyConfig.addWatchTarget("./src/_data/i18n/i18n*.json");
-  eleventyConfig.on("beforeWatch", changedFiles => {
-    // support changing i18n.json during development without quitting the server
-    if (changedFiles.some(file => file.includes("i18n"))) {
-      // JSON files don't use require cache, so we just need to reload translations
-      translationsModule = loadAllTranslations();
-    }
-  });
 
   eleventyConfig.addGlobalData("is_development", is_development);
 
@@ -405,36 +356,6 @@ module.exports = function (
     }
 
     return currentPath;
-  });
-
-  eleventyConfig.addFilter("i18n", function (key, localeOverride) {
-    const locale = localeOverride || this.ctx.locale || this.ctx.lang;
-    const contentGroup = translationsModule.translations[key];
-
-    if (is_development && key === "i18y_test_phrase") {
-      // console.log(chalk.green(`[i18n] Testing *${key}* in locale *${locale}*  page.locale *${page.locale}*`));
-      // console.log(chalk.green(`[i18n] Testing *${key}* permalink *${page.permalink}*`));
-      // console.log(chalk.green(`[i18n] Testing *${key}* ctx *${this.ctx.permalink}*`));
-    }
-
-    // Check if the requested content key exists.
-    if (!contentGroup) {
-      console.error(
-        `[i18n] Could not find content group for *${key}* in translations table.`
-      );
-      return "";
-    }
-
-    // Get content in desired language.
-    const idealContentString = contentGroup[locale];
-
-    // English fallback if needed.
-    if (!idealContentString) {
-      //console.log(chalk.yellow(`[i18n] Could not find locale= *${locale}* content for *${key}* in translations table. Falling back to English.`));
-      return contentGroup.en;
-    }
-
-    return idealContentString;
   });
 
   // Return configuration for Eleventy 3
