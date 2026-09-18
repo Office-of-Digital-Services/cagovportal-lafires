@@ -174,8 +174,8 @@ module.exports = function (
     /**
      * @param {string | number | Date} dateString
      */
-    function (dateString) {
-      const locale = this.ctx.locale || this.ctx.lang || "en";
+    dateString => {
+      const locale = "en";
       return new Date(dateString).toLocaleDateString(locale, {
         year: "numeric",
         month: "long",
