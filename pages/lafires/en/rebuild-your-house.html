@@ -13,19 +13,17 @@ breadcrumbparent: Help for you
     <div class="col-lg-9">
       <!-- Breadcrumbs component -->
 
-<nav aria-label="You are here" class="breadcrumbs">
-  {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
-  <ol>
-    {%- for link in node.links %}
-    {%- if link.title == "Home" %}
-    <li><a href="{{link.href}}">Home</a></li>
-    {%- else %}
-    <li><a href="{{link.href}}">{{link.title}}</a></li>
-    {%- endif %}
-    {%- endfor %}
-    <li class="active">{{title}}</li>
-  </ol>
-</nav>
+      <nav aria-label="You are here" class="breadcrumbs">
+        {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
+        <ol>
+          {%- for link in node.links %} {%- if link.title == "Home" %}
+          <li><a href="{{link.href}}">Home</a></li>
+          {%- else %}
+          <li><a href="{{link.href}}">{{link.title}}</a></li>
+          {%- endif %} {%- endfor %}
+          <li class="active">{{title}}</li>
+        </ol>
+      </nav>
 
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
@@ -45,52 +43,40 @@ breadcrumbparent: Help for you
         <ul class="list-navigation">
           <li>
             <a href="/lafires/" class="font-weight-700"
-              ><span class="color-p2"
-                >2025 Los Angeles fires</span
-              ></a
+              ><span class="color-p2">2025 Los Angeles fires</span></a
             >
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/"
-              class="landing back"
+            <a href="/lafires/help-for-you/" class="landing back"
               >Help for you</a
             >
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/food-and-shelter/"
+            <a href="/lafires/help-for-you/food-and-shelter/"
               >Food and shelter</a
             >
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/health-and-safety/"
+            <a href="/lafires/help-for-you/health-and-safety/"
               >Health and safety</a
             >
           </li>
           <li>
-            <a href="/lafires/help-for-you/pets/"
-              >Pets</a
-            >
+            <a href="/lafires/help-for-you/pets/">Pets</a>
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/financial-assistance/"
+            <a href="/lafires/help-for-you/financial-assistance/"
               >Financial assistance</a
             >
           </li>
 
           <li>
-            <a
-              href="/lafires/help-for-you/replace-personal-documents/"
+            <a href="/lafires/help-for-you/replace-personal-documents/"
               >Replace documents</a
             >
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/rebuild-your-house/"
-              class="active"
+            <a href="/lafires/help-for-you/rebuild-your-house/" class="active"
               >Rebuild your house</a
             >
             <ul>
@@ -103,8 +89,7 @@ breadcrumbparent: Help for you
             </ul>
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/get-help-in-person/"
+            <a href="/lafires/help-for-you/get-help-in-person/"
               >Get help in person</a
             >
           </li>
@@ -118,9 +103,7 @@ breadcrumbparent: Help for you
 
       <nav class="page-navigation"></nav>
 
-      <h2 class="m-b-0">
-        File insurance claims
-      </h2>
+      <h2 class="m-b-0">File insurance claims</h2>
 
       <div class="bg-gray-100 p-a-md m-t-md d-flex align-items-top">
         <div>
@@ -134,7 +117,8 @@ breadcrumbparent: Help for you
       </div>
 
       <p class="m-t-md">
-        Keep a record of all your recovery expenses, including costs for temporary housing.
+        Keep a record of all your recovery expenses, including costs for
+        temporary housing.
       </p>
       <p class="m-t-md">Get help with insurance claims:</p>
       <ul>
@@ -165,7 +149,8 @@ breadcrumbparent: Help for you
       </h3>
       <p>
         <!-- Use damage maps from the Palisades and Eaton fires to check the status of your property. -->
-        Use damage maps from the Palisades and Eaton fires to check the status of your property.
+        Use damage maps from the Palisades and Eaton fires to check the status
+        of your property.
       </p>
 
       <div class="row">
@@ -196,7 +181,8 @@ breadcrumbparent: Help for you
       </div>
       <p class="m-t-lg">
         <!-- Government inspectors have assessed all homes in the fire areas. On each home, you’ll see a photo and an icon with one of these statuses: -->
-        Government inspectors have assessed all homes in the fire areas. On each home, you’ll see a photo and an icon with one of these statuses:
+        Government inspectors have assessed all homes in the fire areas. On each
+        home, you’ll see a photo and an icon with one of these statuses:
       </p>
       <ul>
         <li class="m-t">
@@ -221,57 +207,110 @@ breadcrumbparent: Help for you
         </li>
         <li class="m-t">
           <!-- Inaccessible (inspectors couldn’t access the property to check for damage) -->
-          Inaccessible (inspectors couldn’t access the property to check for damage)
+          Inaccessible (inspectors couldn’t access the property to check for
+          damage)
         </li>
       </ul>
 
       <p>
         <!-- If your home was damaged, save a copy of the photo from the damage map. You may be able to use it when you file an insurance claim. -->
-        If your home was damaged, save a copy of the photo from the damage map. You may be able to use it when you file an insurance claim.
+        If your home was damaged, save a copy of the photo from the damage map.
+        You may be able to use it when you file an insurance claim.
       </p>
 
       <h2>Get money to rebuild</h2>
-      <p>After you file insurance claims, you may be eligible for more financial support to help you rebuild.</p>
+      <p>
+        After you file insurance claims, you may be eligible for more financial
+        support to help you rebuild.
+      </p>
 
       <ul>
         <li class="m-t">
           <!-- Learn about cash assistance and loans you can use for rebuilding. -->
-          Learn about <a href="/lafires/help-for-you/financial-assistance/#Cash-assistance-and-loans">cash assistance and loans</a> you can use for rebuilding.
+          Learn about
+          <a
+            href="/lafires/help-for-you/financial-assistance/#Cash-assistance-and-loans"
+            >cash assistance and loans</a
+          >
+          you can use for rebuilding.
         </li>
         <li class="m-t">
-          <!-- Contact your mortgage lender for mortgage relief. Learn about mortgage relief resources  -->
-          Contact your mortgage lender for mortgage relief. Learn about <a href="https://dfpi.ca.gov/lafires/relief/">mortgage relief resources</a> and find a list of participating lenders.
+          Contact your mortgage lender for mortgage relief. Learn about
+          <a href="https://dfpi.ca.gov/lafires/relief/"
+            >mortgage relief resources</a
+          >
+          and find a list of participating lenders.
+        </li>
+        <li class="m-t">
+          Review available construction financing support via the
+          <a href="https://www.calhfa.ca.gov/homebuyer/programs/drap.htm"
+            >Disaster Rebuilding Assistance Program</a
+          >.
         </li>
       </ul>
 
       <!-- Get debris removed -->
       <h2>Look at rebuild options</h2>
-      <p>There’s no single “right” way to rebuild. The best path depends on your timeline, your budget, and how much customization you want. Check out the <a href="https://larises.org/resources/#hub">Rebuilding Resources Hub</a> from LA Rises.</p>
+      <p>
+        There’s no single “right” way to rebuild. The best path depends on your
+        timeline, your budget, and how much customization you want. Check out
+        the
+        <a href="https://larises.org/resources/#hub"
+          >Rebuilding Resources Hub</a
+        >
+        from LA Rises.
+      </p>
 
       <h3>Hire a contractor</h3>
       <ul>
         <li class="m-t">
-          Make sure you <a href="https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/ZipCodeSearch.aspx">use a state-licensed contractor</a>.
+          Make sure you
+          <a
+            href="https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/ZipCodeSearch.aspx"
+            >use a state-licensed contractor</a
+          >.
         </li>
         <li class="m-t">Get a written contract.</li>
-        <li class="m-t">Your contractor can guide you through the construction process.</li>
+        <li class="m-t">
+          Your contractor can guide you through the construction process.
+        </li>
       </ul>
 
       <h2>Apply for permits</h2>
       <ul>
         <!-- You can submit your plans and apply for building permits now. You don’t need to wait until debris removal is complete. -->
         <li class="m-t">
-          You can submit your plans and <a href="https://epicla.lacounty.gov/energov_prod/SelfService/#/home">apply for building permits</a> now. You don’t need to wait until debris removal is complete.
+          You can submit your plans and
+          <a href="https://epicla.lacounty.gov/energov_prod/SelfService/#/home"
+            >apply for building permits</a
+          >
+          now. You don’t need to wait until debris removal is complete.
         </li>
         <li class="m-t">
           <!-- You can also apply to put temporary housing on your property. But you’ll need to wait until debris removal is complete.  -->
-          You can also <a href="https://recovery.lacounty.gov/rebuilding/temporary-housing/">apply to put temporary housing</a> on your property. But you’ll need to wait until debris removal is complete.
+          You can also
+          <a href="https://recovery.lacounty.gov/rebuilding/temporary-housing/"
+            >apply to put temporary housing</a
+          >
+          on your property. But you’ll need to wait until debris removal is
+          complete.
         </li>
         <li class="m-t">
           <!-- Learn more about permits, including information on like-for-like rebuilds and permit fees. -->
-          Learn <a href="https://recovery.lacounty.gov/rebuilding/">more about permits</a>, including information on like-for-like rebuilds and permit fees.
+          Learn
+          <a href="https://recovery.lacounty.gov/rebuilding/"
+            >more about permits</a
+          >, including information on like-for-like rebuilds and permit fees.
         </li>
-        <li class="m-t">The city and county continue to promote the use of e-checks through Archistar, an AI-powered permitting software, for faster approval. You can sign up for AI-powered plan review in LA County <a href="https://recovery.lacounty.gov/la-county-echeck/">here</a>, in the City of LA <a href="https://start.archistar.ai/us/lacity">here</a>, and in Malibu <a href="https://maliburebuilds.org/tools/">here</a>.</li>
+        <li class="m-t">
+          The city and county continue to promote the use of e-checks through
+          Archistar, an AI-powered permitting software, for faster approval. You
+          can sign up for AI-powered plan review in LA County
+          <a href="https://recovery.lacounty.gov/la-county-echeck/">here</a>, in
+          the City of LA
+          <a href="https://start.archistar.ai/us/lacity">here</a>, and in Malibu
+          <a href="https://maliburebuilds.org/tools/">here</a>.
+        </li>
       </ul>
 
       <h3>
@@ -369,9 +408,16 @@ breadcrumbparent: Help for you
           </div>
         </div>
       </div>
-      <p class="m-t-lg">Learn more about <a href="https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/">One-Stop Permit Centers</a> and find opening hours. Walk-ins are welcome. You can also schedule an appointment.</p>
+      <p class="m-t-lg">
+        Learn more about
+        <a
+          href="https://recovery.lacounty.gov/rebuilding/one-stop-permit-centers/"
+          >One-Stop Permit Centers</a
+        >
+        and find opening hours. Walk-ins are welcome. You can also schedule an
+        appointment.
+      </p>
     </div>
     <!--END MAIN COL CONTENT-->
   </div>
 </div>
-
