@@ -248,19 +248,17 @@ breadcrumbparent: Help for you
     <div class="col-lg-9">
       <!-- Breadcrumbs component -->
 
-<nav aria-label="You are here" class="breadcrumbs">
-  {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
-  <ol>
-    {%- for link in node.links %}
-    {%- if link.title == "Home" %}
-    <li><a href="{{link.href}}">Home</a></li>
-    {%- else %}
-    <li><a href="{{link.href}}">{{link.title}}</a></li>
-    {%- endif %}
-    {%- endfor %}
-    <li class="active">{{title}}</li>
-  </ol>
-</nav>
+      <nav aria-label="You are here" class="breadcrumbs">
+        {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
+        <ol>
+          {%- for link in node.links %} {%- if link.title == "Home" %}
+          <li><a href="{{link.href}}">Home</a></li>
+          {%- else %}
+          <li><a href="{{link.href}}">{{link.title}}</a></li>
+          {%- endif %} {%- endfor %}
+          <li class="active">{{title}}</li>
+        </ol>
+      </nav>
 
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
@@ -280,51 +278,40 @@ breadcrumbparent: Help for you
         <ul class="list-navigation">
           <li>
             <a href="/lafires/" class="font-weight-700"
-              ><span class="color-p2"
-                >2025 Los Angeles fires</span
-              ></a
+              ><span class="color-p2">2025 Los Angeles fires</span></a
             >
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/"
-              class="landing back"
+            <a href="/lafires/help-for-you/" class="landing back"
               >Help for you</a
             >
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/food-and-shelter/"
+            <a href="/lafires/help-for-you/food-and-shelter/"
               >Food and shelter</a
             >
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/health-and-safety/"
+            <a href="/lafires/help-for-you/health-and-safety/"
               >Health and safety</a
             >
           </li>
           <li>
-            <a href="/lafires/help-for-you/pets/"
-              >Pets</a
-            >
+            <a href="/lafires/help-for-you/pets/">Pets</a>
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/financial-assistance/"
+            <a href="/lafires/help-for-you/financial-assistance/"
               >Financial assistance</a
             >
           </li>
 
           <li>
-            <a
-              href="/lafires/help-for-you/replace-personal-documents/"
+            <a href="/lafires/help-for-you/replace-personal-documents/"
               >Replace documents</a
             >
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/rebuild-your-house/"
+            <a href="/lafires/help-for-you/rebuild-your-house/"
               >Rebuild your house</a
             >
             <ul>
@@ -338,8 +325,7 @@ breadcrumbparent: Help for you
             </ul>
           </li>
           <li>
-            <a
-              href="/lafires/help-for-you/get-help-in-person/"
+            <a href="/lafires/help-for-you/get-help-in-person/"
               >Get help in person</a
             >
           </li>
@@ -350,7 +336,8 @@ breadcrumbparent: Help for you
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
       <p class="m-b-md lead">
-        Cleanup and debris removal after wildfires is a 2-phase process. You can have it done at no cost to you.
+        Cleanup and debris removal after wildfires is a 2-phase process. You can
+        have it done at no cost to you.
       </p>
 
       <nav class="page-navigation"></nav>
@@ -369,7 +356,9 @@ breadcrumbparent: Help for you
             </div>
           </div>
         </div>
-        <p class="m-t-md">When both phases are complete, your property is ready for rebuilding.</p>
+        <p class="m-t-md">
+          When both phases are complete, your property is ready for rebuilding.
+        </p>
       </div>
 
       <hr />
@@ -382,50 +371,59 @@ breadcrumbparent: Help for you
           </div>
           <h2>Hazardous waste cleanup</h2>
         </div>
-        <p class="m-b-md">In Phase 1, the U.S. EPA cleaned up everyday products that were in your home and could be dangerous.</p>
+        <p class="m-b-md">
+          In Phase 1, the U.S. EPA cleaned up everyday products that were in
+          your home and could be dangerous.
+        </p>
         <p>These included:</p>
         <ul class="debris-list-grid phase-1-debris-list-grid">
           <li>Batteries</li>
           <li>Cleaners and solvents</li>
           <li>Fertilizers and pesticides</li>
           <li>Paints and oils</li>
-          <li>
-            Propane tanks and other pressurized products
-          </li>
+          <li>Propane tanks and other pressurized products</li>
         </ul>
 
-        <p>Phase 1 cleanup is now complete. It was automatic for all residential properties.</p>
+        <p>
+          Phase 1 cleanup is now complete. It was automatic for all residential
+          properties.
+        </p>
         <p>There was no cost to you for this cleanup.</p>
       </div>
 
       <div class="debris-step">
         <h3>Cleanup statuses explained</h3>
         <p>After the EPA assessed your property, they gave it a status.</p>
+        <p>They posted that status in a sign on your property.</p>
         <p>
-          They posted that status in a sign on your property.
+          You can also check this
+          <a
+            href="https://storymaps.arcgis.com/collections/13a8b227ac104bb1b1fa9592c92debe3?item=2"
+            >EPA map</a
+          >
+          for the cleanup status of your property.
         </p>
-        <p>You can also check this <a href="https://storymaps.arcgis.com/collections/13a8b227ac104bb1b1fa9592c92debe3?item=2">EPA map</a> for the cleanup status of your property.</p>
 
         <div class="debris-removal-viz phase-1-debris-removal-viz">
           <div>
-            <h4 class="m-t-0 font-size-20">
-              Phase 1 Complete
-            </h4>
+            <h4 class="m-t-0 font-size-20">Phase 1 Complete</h4>
             <p>This status means the EPA has finished their cleanup work.</p>
-            <p>But your property <strong>may not be</strong> safe yet. There can still be</p>
+            <p>
+              But your property <strong>may not be</strong> safe yet. There can
+              still be
+            </p>
             <ul>
               <li>Hazardous waste that’s buried</li>
-              <li>
-                Health hazards like ash and asbestos
-              </li>
+              <li>Health hazards like ash and asbestos</li>
             </ul>
           </div>
           <span>OR</span>
           <div>
-            <h4 class="m-t-0 font-size-20">
-              Deferred to Phase 2
-            </h4>
-            <p>This status means the EPA can’t safely clean your property until debris has been removed.</p>
+            <h4 class="m-t-0 font-size-20">Deferred to Phase 2</h4>
+            <p>
+              This status means the EPA can’t safely clean your property until
+              debris has been removed.
+            </p>
             <p>It will be cleaned in Phase 2.</p>
           </div>
         </div>
@@ -443,7 +441,8 @@ breadcrumbparent: Help for you
         </div>
 
         <p class="m-b-md">
-          If you opt in for free debris removal in Phase 2, the U.S. Army Corps of Engineers (USACE) removes structural debris.
+          If you opt in for free debris removal in Phase 2, the U.S. Army Corps
+          of Engineers (USACE) removes structural debris.
         </p>
         <p>This includes:</p>
         <ul class="debris-list-grid phase-2-debris-list-grid">
@@ -455,42 +454,83 @@ breadcrumbparent: Help for you
           <li>Ash</li>
         </ul>
 
-        <p>Read <a href="https://recovery.lacounty.gov/debris-removal-2/">what to expect in Phase 2</a>.</p>
         <p>
-          See the progress of this work in <a href="https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806">USACE’s debris removal map</a>.
+          See the progress of this work in
+          <a
+            href="https://jecop-public.usace.army.mil/portal/apps/experiencebuilder/experience/?id=efbee5617ffa4d17b572d5f312004806"
+            >USACE’s debris removal map</a
+          >.
         </p>
 
         <h3>Where debris goes</h3>
-        <p>Workers will dispose of debris in a way that protects public health and the environment.</p>
-        <p>Find out more at CalEPA’s <a href="https://calepa.ca.gov/disaster/debris/wildfire-debris-in-landfills-frequently-asked-questions/">Wildfire Debris in Landfills</a>.</p>
+        <p>
+          Workers will dispose of debris in a way that protects public health
+          and the environment.
+        </p>
+        <p>
+          Find out more at CalEPA’s
+          <a
+            href="https://calepa.ca.gov/disaster/debris/wildfire-debris-in-landfills-frequently-asked-questions/"
+            >Wildfire Debris in Landfills</a
+          >.
+        </p>
       </div>
 
       <!-- Step 6 -->
       <div class="debris-step">
         <h3>What you need to do</h3>
         <h4>If you opted in</h4>
-        <p>There are no out-of-pocket costs for this service. If you have insurance, your insurer will be billed.</p>
+        <p>
+          There are no out-of-pocket costs for this service. If you have
+          insurance, your insurer will be billed.
+        </p>
 
         <div class="debris-boxed-content phase-2-border-color">
-          <p>During free debris removal, the USACE will remove trees that are hazardous. But you can ask them not to remove specific trees.</p>
+          <p>
+            During free debris removal, the USACE will remove trees that are
+            hazardous. But you can ask them not to remove specific trees.
+          </p>
 
           <ul>
             <li>About the waiver process</li>
             <li>Tree markings explained</li>
-            <li><a href="https://file.lacounty.gov/SDSInter/lac/1178475_WaiverofHazardousTreeRemoval.pdf">Waiver form</a> (PDF)</li>
+            <li>
+              <a
+                href="https://file.lacounty.gov/SDSInter/lac/1178475_WaiverofHazardousTreeRemoval.pdf"
+                >Waiver form</a
+              >
+              (PDF)
+            </li>
           </ul>
         </div>
 
         <h4>If you opted out or missed the deadline</h4>
-        <p>You’ll need to arrange for and pay for debris removal yourself. You must:</p>
+        <p>
+          You’ll need to arrange for and pay for debris removal yourself. You
+          must:
+        </p>
 
         <div class="debris-boxed-content phase-2-border-color">
           <ul>
             <li>Hire a licensed, specialized contractor</li>
-            <li>Hire a certified consultant to check your property for asbestos</li>
-            <li><a href="https://recovery.lacounty.gov/debris-removal-2/roe/#1738023329423-9c1c25a7-71e8">Get a fire debris removal permit</a> from LA County by <strong>June 1, 2025</strong></li>
-            <li>Make sure your contractor follows all government rules for safe debris removal</li>
-            <li>Complete the debris removal process by <strong>June 30, 2025</strong></li>
+            <li>
+              Hire a certified consultant to check your property for asbestos
+            </li>
+            <li>
+              <a
+                href="https://recovery.lacounty.gov/2025/02/20/roe-by-the-numbers-a-step-by-step-guide-to-the-debris-removal-process/"
+                >Get a fire debris removal permit</a
+              >
+              from LA County by <strong>June 1, 2025</strong>
+            </li>
+            <li>
+              Make sure your contractor follows all government rules for safe
+              debris removal
+            </li>
+            <li>
+              Complete the debris removal process by
+              <strong>June 30, 2025</strong>
+            </li>
           </ul>
         </div>
       </div>
@@ -501,18 +541,29 @@ breadcrumbparent: Help for you
       <div id="debris-step-10" class="debris-step">
         <h2 class="m-b-lg">If you need help</h2>
         <div class="debris-boxed-content phase-1-border-color">
-          <h3 class="font-size-20">
-            Questions about Phase 1 cleanup
-          </h3>
-          <p>Call the EPA at <a href="tel:833-798-7372">833-798-7372</a>  (TTY: 711)</p>
+          <h3 class="font-size-20">Questions about Phase 1 cleanup</h3>
+          <p>
+            Call the EPA at <a href="tel:833-798-7372">833-798-7372</a> (TTY:
+            711)
+          </p>
         </div>
         <div class="debris-boxed-content phase-2-border-color">
-          <h3 class="font-size-20">
-            Questions about Phase 2 debris removal
-          </h3>
+          <h3 class="font-size-20">Questions about Phase 2 debris removal</h3>
           <ul>
-            <li>Call the LA County Public Works Debris Removal Hotline at <a href="tel:844-347-3332">844-347-3332</a> (TTY: 711)</li>
-            <li>Email <a href="mailto:PalisadesFire@dpw.lacounty.gov">PalisadesFire@dpw.lacounty.gov</a> or <a href="mailto:EatonFire@dpw.lacounty.gov">EatonFire@dpw.lacounty.gov</a></li>
+            <li>
+              Call the LA County Public Works Debris Removal Hotline at
+              <a href="tel:844-347-3332">844-347-3332</a> (TTY: 711)
+            </li>
+            <li>
+              Email
+              <a href="mailto:PalisadesFire@dpw.lacounty.gov"
+                >PalisadesFire@dpw.lacounty.gov</a
+              >
+              or
+              <a href="mailto:EatonFire@dpw.lacounty.gov"
+                >EatonFire@dpw.lacounty.gov</a
+              >
+            </li>
           </ul>
         </div>
         <div class="debris-boxed-content neutral-border-color">
@@ -529,4 +580,3 @@ breadcrumbparent: Help for you
     </div>
   </div>
 </div>
-

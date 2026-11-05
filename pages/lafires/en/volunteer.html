@@ -4,6 +4,7 @@ description: Thank you for donating your time or money. When deciding how to hel
 keywords: LA, Los Angeles, fires, wildfires
 permalink: /lafires/volunteer/
 ---
+
 <div
   class="section-understated lineart bg-s1"
   style="background: url('/lafires/images/volunteer-lineart.svg?v3vdseg') no-repeat right / auto;">
@@ -11,19 +12,17 @@ permalink: /lafires/volunteer/
     <div class="col-lg-9">
       <!-- Breadcrumbs component -->
 
-<nav aria-label="You are here" class="breadcrumbs">
-  {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
-  <ol>
-    {%- for link in node.links %}
-    {%- if link.title == "Home" %}
-    <li><a href="{{link.href}}">Home</a></li>
-    {%- else %}
-    <li><a href="{{link.href}}">{{link.title}}</a></li>
-    {%- endif %}
-    {%- endfor %}
-    <li class="active">{{title}}</li>
-  </ol>
-</nav>
+      <nav aria-label="You are here" class="breadcrumbs">
+        {%- set node = breadcrumbs | pluck("key",breadcrumbparent) | first %}
+        <ol>
+          {%- for link in node.links %} {%- if link.title == "Home" %}
+          <li><a href="{{link.href}}">Home</a></li>
+          {%- else %}
+          <li><a href="{{link.href}}">{{link.title}}</a></li>
+          {%- endif %} {%- endfor %}
+          <li class="active">{{title}}</li>
+        </ol>
+      </nav>
 
       <h1 class="m-t-0 m-b-0 color-p2-darker line-height-1em">
         {{title}}<br />
@@ -37,8 +36,9 @@ permalink: /lafires/volunteer/
 
 <div class="container p-y-lg">
   <div class="row">
-    <div class="col-lg-3">{#-
-<!--
+    <div class="col-lg-3">
+      {#-
+      <!--
   usage...
 ---
 dynamic_sidenavid: service
@@ -46,57 +46,55 @@ dynamic_sidenavid: service
 
 
 -->
--#} {%-set sidenav = dynamic_sidenav["lafires"]-%}
+      -#} {%-set sidenav = dynamic_sidenav["lafires"]-%}
 
-<!-- delocalize the url -->
-{%- set purl = page.url -%} 
-{%- set purl = purl.replace(r/\/(fr|es|ko|tl|vi|hy|zh-hans|zh-hant)\//,'/') -%} 
+      <!-- delocalize the url -->
+      {%- set purl = page.url -%} {%- set purl =
+      purl.replace(r/\/(fr|es|ko|tl|vi|hy|zh-hans|zh-hant)\//,'/') -%}
 
-<!-- Side navigation -->
-<nav class="side-navigation sticky-6">
-  <a href="javascript:;" aria-hidden="true" class="d-none">{{title}}</a>
-  <ul class="list-navigation">
-    {%- for link in sidenav %} 
-    {%- set href = link.href -%} 
-    {%- set active = href === purl -%}
-    {% if not link.indent %}
-    <li>
-      <!-- href: {{-href -}} -->
-      <!-- purl: {{-purl -}} -->
-      <a
-        href="{{-href-}}"
-        {%-if
-        active%}
-        class="active landing"
-        aria-current="page"
-        tabindex="-1"
-        {%-endif-%}>
-        {{- link.text -}}
-      </a>
-    </li>
-    {% else %}
-    <li>
-      <!-- href: {{-href -}} -->
-      <!-- purl: {{-purl -}} -->
-      <ul>
-        <li>
-          <a
-            href="{{-href-}}"
-            {%-if
-            active%}
-            class="active landing"
-            aria-current="page"
-            tabindex="-1"
-            {%-endif-%}>
-            {{- link.text -}}
-          </a>
-        </li>
-      </ul>
-    </li>
-    {% endif %} {%- endfor %}
-  </ul>
-</nav>
-</div>
+      <!-- Side navigation -->
+      <nav class="side-navigation sticky-6">
+        <a href="javascript:;" aria-hidden="true" class="d-none">{{title}}</a>
+        <ul class="list-navigation">
+          {%- for link in sidenav %} {%- set href = link.href -%} {%- set active
+          = href === purl -%} {% if not link.indent %}
+          <li>
+            <!-- href: {{-href -}} -->
+            <!-- purl: {{-purl -}} -->
+            <a
+              href="{{-href-}}"
+              {%-if
+              active%}
+              class="active landing"
+              aria-current="page"
+              tabindex="-1"
+              {%-endif-%}>
+              {{- link.text -}}
+            </a>
+          </li>
+          {% else %}
+          <li>
+            <!-- href: {{-href -}} -->
+            <!-- purl: {{-purl -}} -->
+            <ul>
+              <li>
+                <a
+                  href="{{-href-}}"
+                  {%-if
+                  active%}
+                  class="active landing"
+                  aria-current="page"
+                  tabindex="-1"
+                  {%-endif-%}>
+                  {{- link.text -}}
+                </a>
+              </li>
+            </ul>
+          </li>
+          {% endif %} {%- endfor %}
+        </ul>
+      </nav>
+    </div>
 
     <!--MAIN CONTENT-->
     <div class="col-lg-9 pt-lg-3">
@@ -108,14 +106,15 @@ dynamic_sidenavid: service
             class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
             <h3 class="h5 m-t-md m-b">
               <a
-                href="https://www.californiavolunteers.ca.gov/wildfire-recovery/"
+                href="https://www.californiavolunteers.ca.gov/join-californiansforall/"
                 class="color-p2 text-left d-block"
                 >Volunteer for wildfire recovery
               </a>
             </h3>
 
             <p class="m-b text-left">
-              Visit California Volunteers to find ways to get involved — in Los Angeles and throughout the state.
+              Visit California Volunteers to find ways to get involved — in Los
+              Angeles and throughout the state.
             </p>
           </div>
         </div>
@@ -125,14 +124,16 @@ dynamic_sidenavid: service
             class="bg-white text-center p-x-md p-b-md pos-rel h-100 brd-solid-1 brd-gray-200 rounded">
             <h3 class="h5 m-t-md m-b">
               <a
-                href="https://www.philanthropyca.org/2025-california-disaster-response"
+                href="https://www.philanthropyca.org/california-disaster-response"
                 class="color-p2 text-left d-block"
                 >Donate for wildfire recovery
               </a>
             </h3>
 
             <p class="m-b text-left">
-              Visit Philanthropy California to find trusted funds for the 2025 disaster relief and recovery. They focus on helping marginalized or under-resourced communities.
+              Visit Philanthropy California to find trusted funds for the 2025
+              disaster relief and recovery. They focus on helping marginalized
+              or under-resourced communities.
             </p>
           </div>
         </div>
@@ -149,7 +150,8 @@ dynamic_sidenavid: service
             </h3>
 
             <p class="m-b text-left">
-              Foster or adopt a pet, volunteer at a shelter, or donate money or pet food.
+              Foster or adopt a pet, volunteer at a shelter, or donate money or
+              pet food.
             </p>
           </div>
         </div>
@@ -160,5 +162,3 @@ dynamic_sidenavid: service
     <!--END MAIN COL CONTENT-->
   </div>
 </div>
-
-
